@@ -1,0 +1,490 @@
+00003160    WeaponFiringDataAsset 421e8f49c11eb449ab35ff262b6e05b2
+00003158        $::GameDataContainerAsset
+00003158            $::Asset
+00003158                $::DataContainer
+00003160                Name Gameplay/Vehicles/common/WeaponData/FT-17/FRA_FT-17_75mm_HE_Firing
+00003164            Data 4cb25d27301c5447a13216cfa4ce9ef3
+00003178    ExplosionWindForceData 1e93918239259546af64f3979bcbcf80
+00003170        $::DataContainer
+00003178        Strength 100.0
+0000317c        Variation 0.20000000298
+00003180        VariationRate 0.20000000298
+00003184        MicroVariation 0.0
+00003188        Hardness 0.259999990463
+0000318c        ForceAsInstantVelocity 0.0
+00003190        ShouldAffectVegetation True
+00003191        ShouldAffectMeshScattering True
+00003192        ShouldAffectEffects True
+00003193        ShouldAffectCloth True
+00003194        ShouldAffectPhysics True
+000031b0    FiringFunctionData 381cdfe91fb27645846efd46e48fdaf1
+000031b0        $::GameDataContainer
+000031b0            $::DataContainer
+000031b8        WeaponDispersion::WeaponDispersion
+000031b8            StandDispersion::FiringDispersionData
+000031b8                MinAngle 0.0
+000031bc                MaxAngle 0.0
+000031c0                IncreasePerShot 0.0
+000031c4                DecreasePerSecond 5.0
+000031c8            CrouchDispersion::FiringDispersionData
+000031c8                MinAngle 0.0
+000031cc                MaxAngle 0.0
+000031d0                IncreasePerShot 0.0
+000031d4                DecreasePerSecond 5.0
+000031d8            ProneDispersion::FiringDispersionData
+000031d8                MinAngle 0.0
+000031dc                MaxAngle 0.0
+000031e0                IncreasePerShot 0.0
+000031e4                DecreasePerSecond 5.0
+000031e8            JumpDispersionAngle 0.0
+000031ec            ProneTransitionDispersionAngle 0.0
+000031f0            MoveDispersionAngle 0.0
+000031f4            MoveZoomedDispersionAngle 0.0
+000031f8            DecreasePerSecond 5.0
+000031fc        FireEffects1p::array
+00003790            member(0)::FireEffectData
+00003790                Offset::Vec3
+00003790                    x 0.0
+00003794                    y 0.0
+00003798                    z 0.34999999404
+000037a0                Rotation::Vec3
+000037a0                    x 0.0
+000037a4                    y 0.0
+000037a8                    z 0.0
+000037b0                ZoomOffset::Vec3
+000037b0                    x 0.0
+000037b4                    y 0.0
+000037b8                    z 0.0
+000037c0                ZoomRotation::Vec3
+000037c0                    x 0.0
+000037c4                    y 0.0
+000037c8                    z 0.0
+000037d0                Effect FX/Weapons/MuzzleFlashes/FX_MarkV_CanonMuzz1P/e9d5c270427dcb41ba517d3b869f43d5
+000037d4                UseZoomOffset False
+000037d5                UseZoomRotation False
+000037d6                DisableDuringZoom False
+000037d7                UpdateTransform True
+000037d8                StopLoopingEffects False
+00003200        Shot::ShotConfigData
+00003200            InitialPosition::Vec3
+00003200                x 0.0
+00003204                y 0.0
+00003208                z 0.0
+00003210            InitialDirection::Vec3
+00003210                x 0.0
+00003214                y 0.0
+00003218                z 1.0
+00003220            InitialSpeed::Vec3
+00003220                x 0.0
+00003224                y 0.0
+00003228                z 60.0
+00003230            InitialDirectionScaleByPitch *nullArray*
+00003234            InitialSpeedScaleByPitch *nullArray*
+00003238            InheritWeaponSpeedAmount 0.0
+0000323c            MuzzleExplosion f0635938cf759846a9809bf7aaa3a020
+00003240            ProjectileData b8c101a890a36c42bf91b71a34f0a9a9
+00003244            SecondaryProjectileData *nullGuid*
+00003248            Projectile *nullGuid*
+0000324c            SecondaryProjectile *nullGuid*
+00003250            SpawnDelay 0.0
+00003254            NumberOfBulletsPerShell 1
+00003258            NumberOfBulletsPerShot 1
+0000325c            NumberOfBulletsPerBurst 3
+00003260            UseSpawnDelayForQuickSwitch False
+00003261            RelativeTargetAiming False
+00003262            ForceSpawnToCamera True
+00003263            SpawnVisualAtWeaponBone False
+00003264            ActiveForceSpawnToCamera True
+00003270        OverHeat::OverHeatData
+00003270            OverHeatEffect::FireEffectData
+00003270                Offset::Vec3
+00003270                    x 0.0
+00003274                    y 0.0
+00003278                    z 0.0
+00003280                Rotation::Vec3
+00003280                    x 0.0
+00003284                    y 0.0
+00003288                    z 0.0
+00003290                ZoomOffset::Vec3
+00003290                    x 0.0
+00003294                    y 0.0
+00003298                    z 0.0
+000032a0                ZoomRotation::Vec3
+000032a0                    x 0.0
+000032a4                    y 0.0
+000032a8                    z 0.0
+000032b0                Effect *nullGuid*
+000032b4                UseZoomOffset False
+000032b5                UseZoomRotation False
+000032b6                DisableDuringZoom False
+000032b7                UpdateTransform False
+000032b8                StopLoopingEffects False
+000032c0            HeatPerBullet 0.0
+000032c4            HeatDropPerSecond 0.20000000298
+000032c8            OverHeatDropDelay 0.0
+000032cc            OverHeatPenaltyTime 3.0
+000032d0            OverHeatThreshold 0.800000011921
+000032e0        FireEffects3p::array
+000037f0            member(0)::FireEffectData
+000037f0                Offset::Vec3
+000037f0                    x 0.0
+000037f4                    y 0.0
+000037f8                    z 0.0
+00003800                Rotation::Vec3
+00003800                    x 0.0
+00003804                    y 0.0
+00003808                    z 0.0
+00003810                ZoomOffset::Vec3
+00003810                    x 0.0
+00003814                    y 0.0
+00003818                    z 0.0
+00003820                ZoomRotation::Vec3
+00003820                    x 0.0
+00003824                    y 0.0
+00003828                    z 0.0
+00003830                Effect FX/Weapons/MuzzleFlashes/FX_Muzz_SmokeAndFire_Tank_3P/252c7ccd765b5c4d992d33a3ca285e66
+00003834                UseZoomOffset False
+00003835                UseZoomRotation False
+00003836                DisableDuringZoom False
+00003837                UpdateTransform True
+00003838                StopLoopingEffects False
+000032e4        Sound Sound/Core/Weapons/Vehicle/57mm/Weapons_Vehicle_57mm_SPC/615ff2572cf91f4eab6ef2d9171237f6
+000032e8        SoundRemotePlayer *nullGuid*
+000032ec        FireLogic::FireLogicData
+000032ec            HoldAndRelease::HoldAndReleaseData
+000032ec                MaxHoldTime 10.0
+000032f0                MinPowerModifier 1.0
+000032f4                MaxPowerModifier 2.0
+000032f8                PowerIncreasePerSecond 0.10000000149
+000032fc                Delay 0.0
+00003300                KilledHoldingPowerModifier 0.0
+00003304                ForceFireWhenKilledHolding True
+00003305                PreciseReplicatedPowerModifier False
+00003306                SecondaryActionCancelHoldAndRelease False
+00003308            BoltAction::BoltActionData
+00003308                BoltActionDelay 0.5
+0000330c                BoltActionTime 1.0
+00003310                HoldBoltActionUntilFireRelease True
+00003311                HoldBoltActionUntilZoomRelease True
+00003312                ForceBoltActionOnFireTrigger False
+00003313                UnZoomOnBoltAction True
+00003314                ReturnToZoomAfterBoltAction True
+00003318            Recoil::RecoilData
+00003318                MaxRecoilAngleX 0.0
+0000331c                MinRecoilAngleX 0.0
+00003320                MaxRecoilAngleY 0.0
+00003324                MinRecoilAngleY 0.0
+00003328                MaxRecoilAngleZ 0.0
+0000332c                MinRecoilAngleZ 0.0
+00003330                MaxRecoilFov 0.0
+00003334                MinRecoilFov 0.0
+00003338                RecoilFollowsDispersion True
+0000333c            FireInputAction 1018135856
+00003340            ReloadInputAction 1131457753
+00003344            CycleFireModeInputAction -1145593149
+00003348            TriggerPullWeight 0.10000000149
+0000334c            RateOfFire 20.0
+00003350            RateOfFireForBurst 550.0
+00003354            BurstsPerMinute 0.0
+00003358            ClientFireRateMultiplier 0.670000016689
+0000335c            ReloadDelay 0.0
+00003360            PostReloadDelay 0.0
+00003364            BridgeDelay 0.0
+00003368            ReloadTime 4.0
+0000336c            ReloadTimerArray *nullArray*
+00003370            ReloadTimeBulletsLeft -1.0
+00003374            ReloadThreshold 1.0
+00003378            PreFireDelay 0.0
+0000337c            PendingFireWindow 0.0
+00003380            AutomaticDelay 0.0
+00003384            ReloadLogic rlReloadUnaffectedByWeaponSwitch
+00003388            ReloadType rtSingleBullet
+0000338c            FireLogicType fltSingleFire
+00003390            FireLogicTypeArray *nullArray*
+00003394            CorrectedAutomaticFireReplication False
+00003395            HoldOffReloadUntilFireRelease False
+00003396            HoldOffReloadUntilZoomRelease False
+00003397            ForceReloadActionOnFireTrigger False
+00003398            ClosedBolt True
+00003399            FireLogicSwitchOnZoom False
+0000339a            AlwaysAutoReload True
+0000339b            AutoReloadIgnoreFireTriggerPressed True
+0000339c        Ammo::AmmoConfigData
+0000339c            MagazineCapacity 4
+000033a0            NumberOfMagazines -1
+000033a4            StripperClipSize -1
+000033a8            TraceFrequency 1
+000033ac            AmmoPickupMinAmount 0
+000033b0            AmmoPickupMaxAmount 0
+000033b4            AutoReplenishDelay 5.25
+000033b8            AutoReplenishSpeedupFactor 1.0
+000033bc            AmmoBagPickupDelayMultiplier 1.0
+000033c0            AmmoBagPickupAmount -1
+000033c4            PersistentAmmoMagazinesOnRespawn 0
+000033c8            SpawnWithoutAmmo False
+000033c9            AutoReplenishMagazine False
+000033ca            AutoReplenishWhenInactive True
+000033cb            PersistentAmmo False
+000033cc        SelfHealTimeWhenDeployed 0.0
+000033d0        UsePrimaryAmmo True
+000033d1        UnlimitedAmmoForAI False
+000033f0    WeaponFiringData 4cb25d27301c5447a13216cfa4ce9ef3
+000033e8        $::GameDataContainer
+000033e8            $::DataContainer
+000033f0        PrimaryFire 381cdfe91fb27645846efd46e48fdaf1
+000033f4        DeployTime 0.5
+000033f8        ReactivateCooldownTime 0.0
+000033fc        DisableZoomOnDeployTime 0.25
+00003400        AltDeployTime 2.0
+00003404        AltDeployId -1
+00003408        WeaponSway *nullGuid*
+0000340c        Rumble::RumbleFiringData
+0000340c            LowRumble 1.0
+00003410            HighRumble 1.0
+00003414            RumbleDuration 0.40000000596
+00003418        SupportDelayStand 0.0
+0000341c        SupportDelayProne 0.0
+00003420        UseAutoAiming False
+00003421        InflictSelfDamage False
+00003422        ShowEnemyNametagOnAim True
+00003423        ReloadWholeMags False
+00003424        DisableReloadWhileSprinting False
+00003425        AbortReloadOnSprint False
+00003426        UseRemoteDamageGiverInfo False
+00003438    ExplosionWindForceData 81ef1eaf68cf7848a5441643f9ebf61f
+00003430        $::DataContainer
+00003438        Strength 100.0
+0000343c        Variation 0.20000000298
+00003440        VariationRate 0.20000000298
+00003444        MicroVariation 0.0
+00003448        Hardness 0.259999990463
+0000344c        ForceAsInstantVelocity 0.0
+00003450        ShouldAffectVegetation True
+00003451        ShouldAffectMeshScattering True
+00003452        ShouldAffectEffects True
+00003453        ShouldAffectCloth True
+00003454        ShouldAffectPhysics True
+00003470    BulletEntityData b8c101a890a36c42bf91b71a34f0a9a9
+00003470        $::MeshProjectileEntityData
+00003470            $::ProjectileEntityData
+00003470                $::GamePhysicsEntityData
+00003470                    $::GameComponentEntityData
+00003470                        $::ComponentEntityData
+00003470                            $::SpatialEntityData
+00003470                                $::EntityData
+00003470                                    $::GameObjectData
+00003470                                        $::DataBusPeer
+00003470                                            $::GameDataContainer
+00003470                                                $::DataContainer
+00003478                                            Flags 0
+00003480                                Transform::LinearTransform
+00003480                                    right::Vec3
+00003480                                        x 1.0
+00003484                                        y 0.0
+00003488                                        z 0.0
+00003490                                    up::Vec3
+00003490                                        x 0.0
+00003494                                        y 1.0
+00003498                                        z 0.0
+000034a0                                    forward::Vec3
+000034a0                                        x 0.0
+000034a4                                        y 0.0
+000034a8                                        z 1.0
+000034b0                                    trans::Vec3
+000034b0                                        x 0.0
+000034b4                                        y 0.0
+000034b8                                        z 0.0
+000034c0                            Components *nullArray*
+000034c4                            ClientRuntimeComponentCount 0
+000034c5                            ServerRuntimeComponentCount 0
+000034c6                            ClientRuntimeTransformationCount 0
+000034c7                            ServerRuntimeTransformationCount 0
+000034d0                        Enabled True
+000034d1                        EnableOutOfBoundsCheck False
+000034e0                    PhysicsData *nullGuid*
+000034f0                InitialSpeed 350.0
+000034f4                TimeToLive 10.0
+000034f8                MaxCount 0
+000034fc                InitMeshHideTime 0.0
+00003500                VisualConvergeDistance 100.0
+00003504                VisualConvergenceDelay 0.10000000149
+00003508                VisualConvergenceDuration 0.10000000149
+0000350c                ProxyVisualConvergenceDelay -1.0
+00003510                ProxyVisualConvergenceDuration -1.0
+00003514                Explosion dbdf6122237fe84799667d17f41ef3e0
+00003518                SuppressionData *nullGuid*
+0000351c                AmmunitionType *nullString*
+00003520                MaterialPair::MaterialDecl
+00003520                    Packed 1227587584
+00003524                HitReactionWeaponType AntHitReactionWeaponType_Explosion
+00003528                VoiceOverInfo *nullGuid*
+0000352c                DetonateOnTimeout False
+0000352d                ServerProjectileDisabled False
+0000352e                HideOnDetonation False
+00003530            InitialAngularVelocity::Vec3
+00003530                x 0.0
+00003534                y 0.0
+00003538                z 0.0
+00003540            Mesh *nullGuid*
+00003544            TrailEffect FX/Weapons/Trail/FX_SmokeTrail_FortressTurret/2a8d9118a51e5848a6a65aebe65e8450
+00003548            TrailEffect1p *nullGuid*
+0000354c            InstantAttachableTestDistance 3.0
+00003550            InstantAttachableVisualConvergenceDelay -1.0
+00003554            InstantAttachableVisualConvergenceDuration -1.0
+00003558            MaxAttachableInclination 45.0
+0000355c            UnspawnAfterDetonationDelay 0.0
+00003560            IsAttachable False
+00003561            InstantAttachableTestUnderReticule True
+00003562            ExtraDamping False
+00003570        FlyBySound *nullGuid*
+00003574        DudExplosion *nullGuid*
+00003578        Gravity -9.81000041962
+0000357c        Drag 0.0
+00003580        ImpactImpulse 2000.0
+00003584        DetonationTimeVariation 0.0
+00003588        VehicleDetonationRadius 0.0
+0000358c        VehicleDetonationActivationDelay 0.0
+00003590        FlyBySoundRadius 5.0
+00003594        FlyBySoundSpeed 20.0
+00003598        Stamina 0.0
+0000359c        DistributeDamageOverTime 0.0
+000035a0        StartDamage 270.0
+000035a4        EndDamage 270.0
+000035a8        DamageFalloffStartDistance 100.0
+000035ac        DamageFalloffEndDistance 200.0
+000035b0        DamageCurve *nullGuid*
+000035b4        TimeToArmExplosion 0.0
+000035b8        FirstFrameTravelDistance 0.0
+000035bc        StopTrailEffectOnUnspawnFrameDelay 2
+000035c0        VehicleDetonationUsesFriendlyFireRules True
+000035c1        HasVehicleDetonation False
+000035c2        InstantHit False
+000035c3        StopTrailEffectOnUnspawn True
+000035e0    VeniceExplosionEntityData dbdf6122237fe84799667d17f41ef3e0
+000035e0        $::ExplosionEntityData
+000035e0            $::SpatialEntityData
+000035e0                $::EntityData
+000035e0                    $::GameObjectData
+000035e0                        $::DataBusPeer
+000035e0                            $::GameDataContainer
+000035e0                                $::DataContainer
+000035e8                            Flags 0
+000035f0                Transform::LinearTransform
+000035f0                    right::Vec3
+000035f0                        x 1.0
+000035f4                        y 0.0
+000035f8                        z 0.0
+00003600                    up::Vec3
+00003600                        x 0.0
+00003604                        y 1.0
+00003608                        z 0.0
+00003610                    forward::Vec3
+00003610                        x 0.0
+00003614                        y 0.0
+00003618                        z 1.0
+00003620                    trans::Vec3
+00003620                        x 0.0
+00003624                        y 0.0
+00003628                        z 0.0
+00003630            DetonationEffect Sound/Core/Explosions/SFX_Explosion_Medium/52c2b3292423d6429fd6d0dedaf85c5c
+00003634            DetonationEffectForFriendlies *nullGuid*
+00003638            MaskVolume *nullGuid*
+0000363c            DestructionMaskVolume *nullGuid*
+00003640            MaterialPair::MaterialDecl
+00003640                Packed 2502656000
+00003644            SecondaryMaterialPair::MaterialDecl
+00003644                Packed 32768
+00003648            ShockwaveWindForce 1e93918239259546af64f3979bcbcf80
+0000364c            DamageIndicationType DamageIndicationType_GiverPlayer
+00003650            EmpTime 0.0
+00003654            MaxOcclusionRaycastRadius 0.5
+00003658            InnerBlastRadius 2.0
+0000365c            BlastDamage 120.0
+00003660            BlastRadius 5.0
+00003664            BlastImpulse 1500.0
+00003668            ShockwaveDamage 1.0
+0000366c            ShockwaveRadius 10.0
+00003670            ShockwaveImpulse 500.0
+00003674            ShockwaveTime 0.5
+00003678            CameraShockwaveRadius 3.0
+0000367c            SpawnDelay 0.0
+00003680            NoFriendliesEffectOnEnabledFriendlyFire True
+00003681            UseEntityTransformForDetonationEffect False
+00003682            SecondaryMaterialsActive False
+00003683            HasStunEffect False
+00003684            AllowDamageToOwner True
+00003685            ApplyBlastDamageToVehiclesAndCharactersInstantly True
+00003686            ForceServersideAiDamage False
+00003687            DisableOcclusion False
+00003688            DisableStaticEntityOcclusion True
+00003689            DisableOcclusionOutsideBlastRadius True
+0000368a            TriggerImpairedHearing True
+0000368b            Enabled True
+00003690        UnspottableTime 1.0
+00003694        IsCausingSuppression True
+00003695        UnspotsOnExplode False
+00003696        SpotsOnExplode False
+000036b0    VeniceExplosionEntityData f0635938cf759846a9809bf7aaa3a020
+000036b0        $::ExplosionEntityData
+000036b0            $::SpatialEntityData
+000036b0                $::EntityData
+000036b0                    $::GameObjectData
+000036b0                        $::DataBusPeer
+000036b0                            $::GameDataContainer
+000036b0                                $::DataContainer
+000036b8                            Flags 0
+000036c0                Transform::LinearTransform
+000036c0                    right::Vec3
+000036c0                        x 1.0
+000036c4                        y 0.0
+000036c8                        z 0.0
+000036d0                    up::Vec3
+000036d0                        x 0.0
+000036d4                        y 1.0
+000036d8                        z 0.0
+000036e0                    forward::Vec3
+000036e0                        x 0.0
+000036e4                        y 0.0
+000036e8                        z 1.0
+000036f0                    trans::Vec3
+000036f0                        x 0.0
+000036f4                        y 0.0
+000036f8                        z 0.0
+00003700            DetonationEffect *nullGuid*
+00003704            DetonationEffectForFriendlies *nullGuid*
+00003708            MaskVolume *nullGuid*
+0000370c            DestructionMaskVolume *nullGuid*
+00003710            MaterialPair::MaterialDecl
+00003710                Packed 32768
+00003714            SecondaryMaterialPair::MaterialDecl
+00003714                Packed 32768
+00003718            ShockwaveWindForce 81ef1eaf68cf7848a5441643f9ebf61f
+0000371c            DamageIndicationType DamageIndicationType_GiverPlayer
+00003720            EmpTime 0.0
+00003724            MaxOcclusionRaycastRadius 0.5
+00003728            InnerBlastRadius 1.0
+0000372c            BlastDamage 0.0
+00003730            BlastRadius 1.5
+00003734            BlastImpulse 5000.0
+00003738            ShockwaveDamage 1.0
+0000373c            ShockwaveRadius 10.0
+00003740            ShockwaveImpulse 500.0
+00003744            ShockwaveTime 0.5
+00003748            CameraShockwaveRadius 3.0
+0000374c            SpawnDelay 0.0
+00003750            NoFriendliesEffectOnEnabledFriendlyFire True
+00003751            UseEntityTransformForDetonationEffect False
+00003752            SecondaryMaterialsActive False
+00003753            HasStunEffect False
+00003754            AllowDamageToOwner True
+00003755            ApplyBlastDamageToVehiclesAndCharactersInstantly True
+00003756            ForceServersideAiDamage False
+00003757            DisableOcclusion True
+00003758            DisableStaticEntityOcclusion True
+00003759            DisableOcclusionOutsideBlastRadius True
+0000375a            TriggerImpairedHearing False
+0000375b            Enabled True
+00003760        UnspottableTime 1.0
+00003764        IsCausingSuppression False
+00003765        UnspotsOnExplode False
+00003766        SpotsOnExplode False

@@ -1,0 +1,511 @@
+00004a20    SoldierWeaponBlueprint 82a15e1acec795459d142224bbf1cd48
+00004a18        $::ObjectBlueprint
+00004a18            $::Blueprint
+00004a18                $::EntityBusData
+00004a18                    $::DataBusData
+00004a18                        $::Asset
+00004a18                            $::DataContainer
+00004a20                            Name Gameplay/Gadgets/Support/AmmoCrate/AmmoCrate
+00004a24                        PropertyConnections::array
+00004fb4                            member(0)::PropertyConnection
+00004fb4                                Source 00000002
+00004fb8                                Target 00000001
+00004fbc                                SourceFieldId 412746330
+00004fc0                                TargetFieldId 412746330
+00004fc4                                Flags 18
+00004a28                        LinkConnections *nullArray*
+00004a2c                        Interface *nullGuid*
+00004a30                        Flags 1
+00004a34                    EventConnections::array
+00004fcc                        member(0)::EventConnection
+00004fcc                            Source 00000002
+00004fd0                            Target 00000001
+00004fd4                            SourceEvent::EventSpec
+00004fd4                                Id -1521943185
+00004fd8                            TargetEvent::EventSpec
+00004fd8                                Id -1804023005
+00004fdc                            TargetType EventConnectionTargetType_Client
+00004fe0                        member(1)::EventConnection
+00004fe0                            Source 00000002
+00004fe4                            Target 00000001
+00004fe8                            SourceEvent::EventSpec
+00004fe8                                Id -1623629778
+00004fec                            TargetEvent::EventSpec
+00004fec                                Id -1688613187
+00004ff0                            TargetType EventConnectionTargetType_Client
+00004a38            Object 00000002
+00004a40    FiringFunctionData 00000000
+00004a40        $::GameDataContainer
+00004a40            $::DataContainer
+00004a48        WeaponDispersion::WeaponDispersion
+00004a48            StandDispersion::FiringDispersionData
+00004a48                MinAngle 0.0
+00004a4c                MaxAngle 0.0
+00004a50                IncreasePerShot 0.0
+00004a54                DecreasePerSecond 5.0
+00004a58            CrouchDispersion::FiringDispersionData
+00004a58                MinAngle 0.0
+00004a5c                MaxAngle 0.0
+00004a60                IncreasePerShot 0.0
+00004a64                DecreasePerSecond 5.0
+00004a68            ProneDispersion::FiringDispersionData
+00004a68                MinAngle 0.0
+00004a6c                MaxAngle 0.0
+00004a70                IncreasePerShot 0.0
+00004a74                DecreasePerSecond 5.0
+00004a78            JumpDispersionAngle 0.0
+00004a7c            ProneTransitionDispersionAngle 0.0
+00004a80            MoveDispersionAngle 0.0
+00004a84            MoveZoomedDispersionAngle 0.0
+00004a88            DecreasePerSecond 5.0
+00004a8c        FireEffects1p *nullArray*
+00004a90        Shot::ShotConfigData
+00004a90            InitialPosition::Vec3
+00004a90                x 0.0
+00004a94                y 0.0
+00004a98                z 2.0
+00004aa0            InitialDirection::Vec3
+00004aa0                x 0.0
+00004aa4                y 0.0
+00004aa8                z 1.0
+00004ab0            InitialSpeed::Vec3
+00004ab0                x 0.0
+00004ab4                y 0.0
+00004ab8                z 0.0
+00004ac0            InitialDirectionScaleByPitch *nullArray*
+00004ac4            InitialSpeedScaleByPitch *nullArray*
+00004ac8            InheritWeaponSpeedAmount 0.0
+00004acc            MuzzleExplosion *nullGuid*
+00004ad0            ProjectileData Gameplay/Gadgets/Support/AmmoCrate/AmmoCrate_Projectiles/55dd8a90bd2e5fd4534596ee69074501
+00004ad4            SecondaryProjectileData *nullGuid*
+00004ad8            Projectile Gameplay/Gadgets/Support/AmmoCrate/AmmoCrate_Projectiles/934781fce8f467782e1c0ffb2b4a1f52
+00004adc            SecondaryProjectile *nullGuid*
+00004ae0            SpawnDelay 0.0
+00004ae4            NumberOfBulletsPerShell 1
+00004ae8            NumberOfBulletsPerShot 1
+00004aec            NumberOfBulletsPerBurst 3
+00004af0            UseSpawnDelayForQuickSwitch False
+00004af1            RelativeTargetAiming False
+00004af2            ForceSpawnToCamera False
+00004af3            SpawnVisualAtWeaponBone False
+00004af4            ActiveForceSpawnToCamera True
+00004b00        OverHeat::OverHeatData
+00004b00            OverHeatEffect::FireEffectData
+00004b00                Offset::Vec3
+00004b00                    x 0.0
+00004b04                    y 0.0
+00004b08                    z 0.0
+00004b10                Rotation::Vec3
+00004b10                    x 0.0
+00004b14                    y 0.0
+00004b18                    z 0.0
+00004b20                ZoomOffset::Vec3
+00004b20                    x 0.0
+00004b24                    y 0.0
+00004b28                    z 0.0
+00004b30                ZoomRotation::Vec3
+00004b30                    x 0.0
+00004b34                    y 0.0
+00004b38                    z 0.0
+00004b40                Effect *nullGuid*
+00004b44                UseZoomOffset False
+00004b45                UseZoomRotation False
+00004b46                DisableDuringZoom False
+00004b47                UpdateTransform False
+00004b48                StopLoopingEffects False
+00004b50            HeatPerBullet 0.0
+00004b54            HeatDropPerSecond 0.20000000298
+00004b58            OverHeatDropDelay 0.0
+00004b5c            OverHeatPenaltyTime 3.0
+00004b60            OverHeatThreshold 0.800000011921
+00004b70        FireEffects3p *nullArray*
+00004b74        Sound Sound/Core/Gadgets/SmallAmmoPack/Gadget_SmallAmmoPack/dbaed050bf075044b0541702fb73e886
+00004b78        SoundRemotePlayer *nullGuid*
+00004b7c        FireLogic::FireLogicData
+00004b7c            HoldAndRelease::HoldAndReleaseData
+00004b7c                MaxHoldTime 10.0
+00004b80                MinPowerModifier 1.0
+00004b84                MaxPowerModifier 1.0
+00004b88                PowerIncreasePerSecond 0.0
+00004b8c                Delay 0.0
+00004b90                KilledHoldingPowerModifier 0.0
+00004b94                ForceFireWhenKilledHolding True
+00004b95                PreciseReplicatedPowerModifier False
+00004b96                SecondaryActionCancelHoldAndRelease True
+00004b98            BoltAction::BoltActionData
+00004b98                BoltActionDelay 0.5
+00004b9c                BoltActionTime 1.0
+00004ba0                HoldBoltActionUntilFireRelease True
+00004ba1                HoldBoltActionUntilZoomRelease True
+00004ba2                ForceBoltActionOnFireTrigger False
+00004ba3                UnZoomOnBoltAction True
+00004ba4                ReturnToZoomAfterBoltAction True
+00004ba8            Recoil::RecoilData
+00004ba8                MaxRecoilAngleX 0.0
+00004bac                MinRecoilAngleX 0.0
+00004bb0                MaxRecoilAngleY 0.0
+00004bb4                MinRecoilAngleY 0.0
+00004bb8                MaxRecoilAngleZ 0.0
+00004bbc                MinRecoilAngleZ 0.0
+00004bc0                MaxRecoilFov 0.0
+00004bc4                MinRecoilFov 0.0
+00004bc8                RecoilFollowsDispersion True
+00004bcc            FireInputAction 1018135856
+00004bd0            ReloadInputAction 1131457753
+00004bd4            CycleFireModeInputAction -1145593149
+00004bd8            TriggerPullWeight 0.40000000596
+00004bdc            RateOfFire 550.0
+00004be0            RateOfFireForBurst 550.0
+00004be4            BurstsPerMinute 0.0
+00004be8            ClientFireRateMultiplier 1.0
+00004bec            ReloadDelay 0.0
+00004bf0            PostReloadDelay 0.0
+00004bf4            BridgeDelay 0.0
+00004bf8            ReloadTime 4.0
+00004bfc            ReloadTimerArray *nullArray*
+00004c00            ReloadTimeBulletsLeft 0.0
+00004c04            ReloadThreshold 0.0
+00004c08            PreFireDelay 0.0
+00004c0c            PendingFireWindow 0.0
+00004c10            AutomaticDelay 0.0
+00004c14            ReloadLogic rlReloadUnaffectedByWeaponSwitch
+00004c18            ReloadType rtMagazine
+00004c1c            FireLogicType fltHoldAndRelease
+00004c20            FireLogicTypeArray *nullArray*
+00004c24            CorrectedAutomaticFireReplication False
+00004c25            HoldOffReloadUntilFireRelease False
+00004c26            HoldOffReloadUntilZoomRelease False
+00004c27            ForceReloadActionOnFireTrigger False
+00004c28            ClosedBolt True
+00004c29            FireLogicSwitchOnZoom False
+00004c2a            AlwaysAutoReload True
+00004c2b            AutoReloadIgnoreFireTriggerPressed True
+00004c2c        Ammo::AmmoConfigData
+00004c2c            MagazineCapacity 1
+00004c30            NumberOfMagazines -1
+00004c34            StripperClipSize -1
+00004c38            TraceFrequency 1
+00004c3c            AmmoPickupMinAmount 0
+00004c40            AmmoPickupMaxAmount 0
+00004c44            AutoReplenishDelay 5.0
+00004c48            AutoReplenishSpeedupFactor 1.0
+00004c4c            AmmoBagPickupDelayMultiplier 1.0
+00004c50            AmmoBagPickupAmount 0
+00004c54            PersistentAmmoMagazinesOnRespawn 0
+00004c58            SpawnWithoutAmmo False
+00004c59            AutoReplenishMagazine False
+00004c5a            AutoReplenishWhenInactive True
+00004c5b            PersistentAmmo False
+00004c5c        SelfHealTimeWhenDeployed 0.0
+00004c60        UsePrimaryAmmo True
+00004c61        UnlimitedAmmoForAI False
+00004c70    LogicPrefabReferenceObjectData 00000001
+00004c70        $::LogicReferenceObjectData
+00004c70            $::ReferenceObjectData
+00004c70                $::GameObjectData
+00004c70                    $::DataBusPeer
+00004c70                        $::GameDataContainer
+00004c70                            $::DataContainer
+00004c78                        Flags 193989298
+00004c7c                Blueprint Gameplay/Gadgets/Common/GadgetDeployTooltips/499f9d9b5749a741a73c91b0b93df33e
+00004c80                BlueprintTransform::LinearTransform
+00004c80                    right::Vec3
+00004c80                        x 1.0
+00004c84                        y 0.0
+00004c88                        z 0.0
+00004c90                    up::Vec3
+00004c90                        x 0.0
+00004c94                        y 1.0
+00004c98                        z 0.0
+00004ca0                    forward::Vec3
+00004ca0                        x 0.0
+00004ca4                        y 0.0
+00004ca8                        z 1.0
+00004cb0                    trans::Vec3
+00004cb0                        x 0.0
+00004cb4                        y 0.0
+00004cb8                        z 0.0
+00004cc0                ObjectVariation *nullGuid*
+00004cc4                StreamRealm StreamRealm_None
+00004cc8                RadiosityTypeOverride RadiosityTypeOverride_None
+00004ccc                LightmapResolutionScale 0
+00004cd0                RenderingOverrides::RenderingOverrides
+00004cd0                    ShadowEnable RenderingOverride_Inherit
+00004cd4                    DynamicReflectionEnable RenderingOverride_Inherit
+00004cd8                    StaticReflectionEnable RenderingOverride_Inherit
+00004cdc                ForceSeparateEnlightenSystem False
+00004cdd                CastSunShadowEnable True
+00004cde                CastReflectionEnable True
+00004cdf                CastEnvmapEnable True
+00004ce0                Excluded False
+00004cf0            LocalPlayerId LocalPlayerId_Invalid
+00004cf4            SubRealm SubRealm_LocalPlayer
+00004d00    SoldierWeaponData 00000002
+00004d00        $::WeaponEntityData
+00004d00            $::GameComponentEntityData
+00004d00                $::ComponentEntityData
+00004d00                    $::SpatialEntityData
+00004d00                        $::EntityData
+00004d00                            $::GameObjectData
+00004d00                                $::DataBusPeer
+00004d00                                    $::GameDataContainer
+00004d00                                        $::DataContainer
+00004d08                                    Flags 528300316
+00004d10                        Transform::LinearTransform
+00004d10                            right::Vec3
+00004d10                                x 1.0
+00004d14                                y 0.0
+00004d18                                z 0.0
+00004d20                            up::Vec3
+00004d20                                x 0.0
+00004d24                                y 1.0
+00004d28                                z 0.0
+00004d30                            forward::Vec3
+00004d30                                x 0.0
+00004d34                                y 0.0
+00004d38                                z 1.0
+00004d40                            trans::Vec3
+00004d40                                x 0.0
+00004d44                                y 0.0
+00004d48                                z 0.0
+00004d50                    Components::array
+00004ff8                        member(0) 00000001
+00004d54                    ClientRuntimeComponentCount 0
+00004d55                    ServerRuntimeComponentCount 0
+00004d56                    ClientRuntimeTransformationCount 0
+00004d57                    ServerRuntimeTransformationCount 0
+00004d60                Enabled True
+00004d61                EnableOutOfBoundsCheck True
+00004d70            WeaponClass wcNone
+00004d74            WeaponStates::array
+00005000                member(0)::WeaponStateData
+00005000                    ReferencedAssetHashes *nullArray*
+00005004                    BoneFakePhysics *nullArray*
+00005008                    WeaponMesh3p *nullGuid*
+0000500c                    Mesh3p *nullGuid*
+00005010                    Weapon::AntRef
+00005010                        AssetGuid 471ACC54246237110000000000000000
+00005020                        ProjectId 0
+00005024                    Weapon3p::AntRef
+00005024                        AssetGuid 8CC94448C22E93080000000000000000
+00005034                        ProjectId 0
+00005038                    ZoomMeshTransitionFactor 1.0
+0000503c                    ZoomScaleFactor 1.0
+00005040                    ZoomInOutMeshTransitionFactors *nullArray*
+00005044                    KeepAimingTime 3.0
+00005048                    AnimatedFireType AnimatedFireSingle
+0000504c                    AnimatedAimingType AnimatedAimingRightHanded
+00005050                    HideProjectileAfterFireTime 0.0
+00005054                    ProjectileBoneName *nullString*
+00005058                    UnDeploySpeed 1.0
+0000505c                    DeploySpeed 1.0
+00005060                    Mesh3pTransforms *nullArray*
+00005064                    AlwaysAimHead True
+00005065                    IsOneHanded False
+00005066                    PlayDeployAfterFire False
+00005067                    SkipDeployAnimation False
+00005068                    NoAnimationForWeaponState False
+00005069                    SkipReloadAnimation True
+0000506a                    SkipFireAnimation False
+00004d78            WeaponFiring 0000000a
+00004d7c            CustomWeaponType 00000009
+00004d80            AIData *nullGuid*
+00004d90        PickupSettings::PickupSettingsData
+00004d90            MeshRenderOffset::Vec3
+00004d90                x 0.0
+00004d94                y 0.10000000149
+00004d98                z 0.0
+00004da0            MeshRenderRotation::Vec3
+00004da0                x 0.0
+00004da4                y 0.0
+00004da8                z 0.0
+00004db0        InteractionOffset::Vec3
+00004db0            x 0.0
+00004db4            y 0.0
+00004db8            z 0.449999988079
+00004dc0        CustomizationAccessoryPivots::CustomizationAccessoryPivots
+00004dc0            BasePivotPos::Vec3
+00004dc0                x 0.0
+00004dc4                y 0.0
+00004dc8                z 0.0
+00004dd0            OpticPivotPos::Vec3
+00004dd0                x 0.0
+00004dd4                y 0.0750000029802
+00004dd8                z 0.40000000596
+00004de0            BarrelPivotPos::Vec3
+00004de0                x 0.0
+00004de4                y 0.0
+00004de8                z 0.699999988079
+00004df0            AccessoryPivotPos::Vec3
+00004df0                x 0.0
+00004df4                y 0.0
+00004df8                z 0.600000023842
+00004e00            UnderBarrelPivotPos::Vec3
+00004e00                x 0.0
+00004e04                y -0.0500000007451
+00004e08                z 0.5
+00004e10        CustomizationTransform::LinearTransform
+00004e10            right::Vec3
+00004e10                x 1.0
+00004e14                y 0.0
+00004e18                z 0.0
+00004e20            up::Vec3
+00004e20                x 0.0
+00004e24                y 1.0
+00004e28                z 0.0
+00004e30            forward::Vec3
+00004e30                x 0.0
+00004e34                y 0.0
+00004e38                z 1.0
+00004e40            trans::Vec3
+00004e40                x 0.0
+00004e44                y 0.0
+00004e48                z 0.0
+00004e50        DamageGiverName AmmoCrate
+00004e54        ZoomLevels::array
+00005070            member(0) 0000000b
+00004e58        WeaponModifierData *nullArray*
+00004e5c        AimingController Gameplay/Weapons/Common/AimingControllers/Aim_Default_NoZoom/6ac82fc850ae604d8e801aa3613c6f83
+00004e60        FirstPersonCamera Gameplay/Weapons/Common/DefaultFirstPersonCameraData/7bb9056fe0d2d842ba0b9f6982886fa1
+00004e64        SprintSettings *nullGuid*
+00004e68        Hud::array
+00005078            member(0) 00000003
+0000507c            member(1) 00000004
+00005080            member(2) 00000006
+00005084            member(3) 00000005
+00005088            member(4) 00000008
+00004e6c        AnimBaseSet wabsHgr
+00004e70        SwitchToPrimaryWhenOutOfAmmoDelay 0.0
+00004e74        WaitForZoomOutBeforeSwitchToPrimaryWhenOutOfAmmoDelay 0.0
+00004e78        QuickThrowType QttBag
+00004e7c        SoldierWeaponBlueprint 82a15e1acec795459d142224bbf1cd48
+00004e80        PersistenceId *nullString*
+00004e84        SecondaryActionInputAction 1018302687
+00004e88        VoiceOverInfo 00000007
+00004e8c        WeaponFloatParam 1.0
+00004e90        MaxRangeMeterDistance 10.0
+00004e94        SocketsInWeapon *nullArray*
+00004e98        HideWhenOutOfAmmo True
+00004e99        DestroyPickupInsteadOfDropping False
+00004e9a        AllowSwitchingToWeaponOutOfAmmo False
+00004e9b        AllowSwitchingToWeaponReloading False
+00004e9c        SwitchToPrimaryWhenOutOfAmmo True
+00004e9d        WaitForFireBeforeSwitchToPrimaryWhenOutOfAmmo False
+00004e9e        WaitForZoomOutBeforeSwitchToPrimaryWhenOutOfAmmo False
+00004e9f        FireAndSwitchBackToPrevSupported True
+00004ea0        AllowSwitchingToWeaponInVehicles True
+00004ea1        AllowSwitchingToWeaponInWater True
+00004ea2        IsOneHanded False
+00004ea3        LowerOnOwnTeam False
+00004ea4        RedeployWhenSwitchingWeaponStates True
+00004ea5        UseQuickThrowOnAutomaticSwitchback True
+00004ea6        EnableBreathControl False
+00004ea7        CanBeInSupportedShooting False
+00004ea8        PreventDroppingOfKit False
+00004ea9        UseDetailedRangeMeterQuery False
+00004eaa        IsSilenced True
+00004eab        SkipFirstZoomLevel False
+00004eb0    BfCompassHudData 00000003
+00004ea8        $::HudData
+00004ea8            $::DataContainer
+00004eb0        UseRenderTarget False
+00004eb4    BfCrosshairHudData 00000004
+00004eac        $::HudData
+00004eac            $::DataContainer
+00004eb4        CrosshairAngleMin 0.0
+00004eb8        CrosshairAngleMax 5.0
+00004ebc        CrosshairScale 5.0
+00004ec0        CrosshairType UI/Ingame/Hud/Assets/Crosshairs/CrosshairDot/3ae464ffd64d450de42b9dca24973b51
+00004ec4    BfVehicleHudData 00000005
+00004ebc        $::HudData
+00004ebc            $::DataContainer
+00004ec4        SeaLevelAltFreq 0.0
+00004ec8        HudPropertyList *nullGuid*
+00004ecc        UseWeaponOrientations False
+00004ecd        UseVelocityVectorMarker False
+00004ece        UseThrust False
+00004ecf        UseGForce False
+00004ed0        UseSkidSlip False
+00004ed1        UseClimbRate False
+00004ed4    BfWeaponHudData 00000006
+00004ecc        $::HudData
+00004ecc            $::DataContainer
+00004ed4        LockingType *nullGuid*
+00004ed8        WeaponClass *nullString*
+00004edc        LowAmmoWarning 0.300000011921
+00004ee0        CameraShakeModifier 1.0
+00004ee4        HudIcon *nullString*
+00004ee8    EntityVoiceOverInfo 00000007
+00004ee0        $::DataContainer
+00004ee8        VoiceOverType Sound/VO/VO_System/94178596767a5a45af2fd2668ac03d78
+00004eec        Labels::array
+00005090            member(0) Sound/VO/VO_System/f01fc81ef25c754abe935054815ac146
+00004ef0    SoldierWeaponHudData 00000008
+00004ee8        $::HudData
+00004ee8            $::DataContainer
+00004ef0        ReloadPrompt 0.300000011921
+00004ef4    VehicleDeployWeaponData 00000009
+00004eec        $::WeaponData
+00004eec            $::ToolData
+00004eec                $::DataContainer
+00004ef4                IsAlwaysActive False
+00004ef8            ShowLaserPaintedVehicles False
+00004efc        AlignPreviewWithSurfaceLerpSpeed 4.0
+00004f00        ClearSkyCheckRayLength 20.0
+00004f04        ClearSkyBoxCheckAngleRadians 1.11699604988
+00004f08        DeployAreaRadius 0.10000000149
+00004f0c        DeployAreaGroundRayLength 4.19999980927
+00004f10        DeployAreaGroundFlatness 0.5
+00004f14        PreviewObject Gameplay/Gadgets/Support/AmmoCrate/AmmoCrate_Projectiles/934781fce8f467782e1c0ffb2b4a1f52
+00004f18        CanRemoteEnterVehicle False
+00004f19        UsePreview True
+00004f1a        AlignPreviewWithSurface True
+00004f1b        CheckForObstaclesBetween False
+00004f1c        CheckClearSky False
+00004f1d        IsAllowedToPickupDeployedVehicle True
+00004f1e        AllowMultipleDeployedVehicles True
+00004f20    WeaponFiringData 0000000a
+00004f18        $::GameDataContainer
+00004f18            $::DataContainer
+00004f20        PrimaryFire 00000000
+00004f24        DeployTime 0.0
+00004f28        ReactivateCooldownTime 0.0
+00004f2c        DisableZoomOnDeployTime 0.25
+00004f30        AltDeployTime 2.0
+00004f34        AltDeployId -1
+00004f38        WeaponSway *nullGuid*
+00004f3c        Rumble::RumbleFiringData
+00004f3c            LowRumble 0.0
+00004f40            HighRumble 0.0
+00004f44            RumbleDuration 0.20000000298
+00004f48        SupportDelayStand 0.0
+00004f4c        SupportDelayProne 0.0
+00004f50        UseAutoAiming False
+00004f51        InflictSelfDamage False
+00004f52        ShowEnemyNametagOnAim True
+00004f53        ReloadWholeMags False
+00004f54        DisableReloadWhileSprinting False
+00004f55        AbortReloadOnSprint False
+00004f56        UseRemoteDamageGiverInfo False
+00004f58    WeaponZoomLevelData 0000000b
+00004f50        $::DataContainer
+00004f58        RenderFov 55.0
+00004f5c        RenderFovTransition *nullGuid*
+00004f60        ZoomInOutMeshTransitionFactors *nullArray*
+00004f64        ZoomDisabledTransitionTimer 0.0
+00004f68        SightType SightType_None
+00004f6c        AnimationSettings::WeaponAnimationSettingsData
+00004f6c            KickbackFactor 1.0
+00004f70            KickbackSpeedFactor 1.0
+00004f74            WeaponOffsetX 0.0
+00004f78            WeaponOffsetY 0.0
+00004f7c            WeaponOffsetZ 0.0
+00004f80            WeaponYaw 0.0
+00004f84            WeaponPitch 0.0
+00004f88            ZoomOutSpeed 1.0
+00004f8c            ZoomInSpeed 1.0
+00004f90            ShakeAmount 1.0
+00004f94            CenterofShaking 1.0
+00004f98            ZoomGunswayPositionX 0.0
+00004f9c            ZoomGunswayPositionY 0.0
+00004fa0        ZoomLevelVisualEnvironment *nullGuid*

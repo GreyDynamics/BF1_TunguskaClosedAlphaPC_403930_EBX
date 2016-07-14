@@ -1,0 +1,82 @@
+00003310    InputConfigurationAsset e52671fee950cc4d93548d2850a6add8
+00003308        $::Asset
+00003308            $::DataContainer
+00003310            Name Gameplay/Input/InputConfigurationConsole
+00003314        DefaultInputConceptDefinitions::array
+000033c4            member(0) Gameplay/Input/InputConcepts_Default_NonKeybindable/e070cd5bb89d15d008fe3f9946213fa9
+000033c8            member(1) Gameplay/Input/InputConcepts_Default_Keybindable/e3754a226a4883f1b557310e86545877
+000033cc            member(2) Gameplay/Input/InputConcepts_Spectator/ee3973a797f845f527e44599c622e400
+00003318        DefaultExclusiveInputConcepts::array
+000033d4            member(0) ConceptMoveFB
+000033d8            member(1) ConceptMoveLR
+000033dc            member(2) ConceptMoveForward
+000033e0            member(3) ConceptMoveBackward
+000033e4            member(4) ConceptMoveLeft
+000033e8            member(5) ConceptMoveRight
+000033ec            member(6) ConceptYaw
+000033f0            member(7) ConceptPitch
+000033f4            member(8) ConceptRoll
+0000331c        EntryInputActionBindings Gameplay/Input/VeniceEntryInputBindings/f71159351f195447aefc3d53bac87aee
+00003320        UserConfigurableActionMaps::array
+000035ac            member(0)::EditableActionMap
+000035ac                Id infantry
+000035b0                NameId InfantryInputMap
+000035b4                ActionMap Gameplay/Input/VeniceSoldierInputConcepts/086eb0d2a0133b4ebee5c674f06f9d44
+000035b8                ConfigurationLayout::EditableActions
+000035b8                    Actions::array
+0000359c                        member(0) 4dfb02f82f87314e8dcdfb6816e0d737
+000035a0                        member(1) 3bf0f68ce0e1804f84ea84b13ee5aa93
+000035a4                        member(2) 4a9772f39ffd934bb9ddbed45fa4cb62
+000035bc            member(1)::EditableActionMap
+000035bc                Id air
+000035c0                NameId AirVehicleInputMap
+000035c4                ActionMap Gameplay/Input/VeniceAirInputConcepts/329baa4d72a4e8409a61a5d35ab429ba
+000035c8                ConfigurationLayout::EditableActions
+000035c8                    Actions *nullArray*
+00003324        UIInputActions Systems/Config/Inputs/UIInputActionMapping/300199dd139135ea2328a25e9b10d3df
+00003328        TogglePoseAction -467562617
+0000332c        CrouchAction -1761781660
+00003330        CrouchAndHoldAction 460962317
+00003334        PickupInteractionAction 1131457753
+00003338        PickupInteractionActionKeyboard 899534898
+0000333c        SprintReleaseTime 0.0
+00003340        ThrottleInputRequiredForSprint 0.5
+00003344        VehicleBoostIsToggleMinInput 0.5
+00003348        EnterVehicleHoldTime 0.20000000298
+0000334c        FiringDisablingTransitions::array
+000035d0            member(0) PTStandToProne
+000035d4            member(1) PTCrouchToProne
+000035d8            member(2) PTProneToStand
+000035dc            member(3) PTProneToCrouch
+00003350        ReverseInputConceptExclusion False
+00003351        ProneToStandOnJump True
+00003352        StandAutomaticallyIfSprinting True
+00003353        DisableCrouch False
+00003354        DisableProne False
+00003355        DisableCrawlingWhileFiring False
+00003356        DisableCrawlingWhileReloading False
+00003357        DisableFiringWhileDeployingBipod False
+00003358        DisableFiringWhileJumping True
+00003359        DisableSprintingWhileReloading False
+0000335a        EnableSprintToCrouchTransition True
+0000335b        StopSprintingWhenReleasingThrottle True
+0000335c        StopSprintingWhenReleasingSprint False
+0000335d        WaitForSprintReleaseBeforeSprintAgain False
+0000335e        VehicleBoostIsToggle True
+0000335f        InputCurvesEnabled True
+00003370    OneOptionAxisEditableAction 3bf0f68ce0e1804f84ea84b13ee5aa93
+00003368        $::EditableAction
+00003368            $::DataContainer
+00003370            Concept ConceptMoveFB
+00003374        Header Walk Backward
+00003378        Invert True
+0000338c    OneOptionButtonEditableAction 4a9772f39ffd934bb9ddbed45fa4cb62
+00003384        $::EditableAction
+00003384            $::DataContainer
+00003390        Header Sprint
+000033a4    OneOptionAxisEditableAction 4dfb02f82f87314e8dcdfb6816e0d737
+0000339c        $::EditableAction
+0000339c            $::DataContainer
+000033a4            Concept ConceptMoveFB
+000033a8        Header Walk Forward
+000033ac        Invert False

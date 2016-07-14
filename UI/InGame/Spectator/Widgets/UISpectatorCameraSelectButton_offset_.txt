@@ -1,0 +1,703 @@
+00002840    UIWidgetBlueprint 982975af1cc36941b5e24b5debe88421
+00002838        $::ObjectBlueprint
+00002838            $::Blueprint
+00002838                $::EntityBusData
+00002838                    $::DataBusData
+00002838                        $::Asset
+00002838                            $::DataContainer
+00002840                            Name UI/Ingame/Spectator/Widgets/UISpectatorCameraSelectButton
+00002844                        PropertyConnections::array
+00003004                            member(0)::PropertyConnection
+00003004                                Source 00000005
+00003008                                Target 00000006
+0000300c                                SourceFieldId -428643894
+00003010                                TargetFieldId -428643894
+00003014                                Flags 18
+00003018                            member(1)::PropertyConnection
+00003018                                Source 00000006
+0000301c                                Target 00000002
+00003020                                SourceFieldId 205677681
+00003024                                TargetFieldId 205677681
+00003028                                Flags 2
+0000302c                            member(2)::PropertyConnection
+0000302c                                Source 00000008
+00003030                                Target 00000004
+00003034                                SourceFieldId 218105699
+00003038                                TargetFieldId -1235896070
+0000303c                                Flags 2
+00003040                            member(3)::PropertyConnection
+00003040                                Source 00000008
+00003044                                Target 00000000
+00003048                                SourceFieldId -1102870430
+0000304c                                TargetFieldId -1102870430
+00003050                                Flags 2
+00003054                            member(4)::PropertyConnection
+00003054                                Source 00000006
+00003058                                Target 00000002
+0000305c                                SourceFieldId 901540267
+00003060                                TargetFieldId 901540267
+00003064                                Flags 2
+00003068                            member(5)::PropertyConnection
+00003068                                Source 00000008
+0000306c                                Target 00000003
+00003070                                SourceFieldId -2100971754
+00003074                                TargetFieldId 901540267
+00003078                                Flags 2
+00002848                        LinkConnections *nullArray*
+0000284c                        Interface 00000008
+00002850                        Flags 14
+00002854                    EventConnections::array
+00003080                        member(0)::EventConnection
+00003080                            Source 00000005
+00003084                            Target 00000008
+00003088                            SourceEvent::EventSpec
+00003088                                Id -449509760
+0000308c                            TargetEvent::EventSpec
+0000308c                                Id -1967956500
+00003090                            TargetType EventConnectionTargetType_Client
+00003094                        member(1)::EventConnection
+00003094                            Source 00000005
+00003098                            Target 00000009
+0000309c                            SourceEvent::EventSpec
+0000309c                                Id -471251390
+000030a0                            TargetEvent::EventSpec
+000030a0                                Id -1782191658
+000030a4                            TargetType EventConnectionTargetType_Client
+000030a8                        member(2)::EventConnection
+000030a8                            Source 00000005
+000030ac                            Target 00000009
+000030b0                            SourceEvent::EventSpec
+000030b0                                Id 1628567819
+000030b4                            TargetEvent::EventSpec
+000030b4                                Id -1834099266
+000030b8                            TargetType EventConnectionTargetType_Client
+00002858            Object 00000007
+00002860    BFUIElementBitmapEntityData 00000000
+00002860        $::BFUIElementEntityData
+00002860            $::UIElementEntityData
+00002860                $::EntityData
+00002860                    $::GameObjectData
+00002860                        $::DataBusPeer
+00002860                            $::GameDataContainer
+00002860                                $::DataContainer
+00002868                            Flags 134217728
+0000286c                InstanceName CameraIcon
+00002870                UIElementTransform::UIElementTransform
+00002870                    Rotation::Vec3
+00002870                        x 0.0
+00002874                        y 0.0
+00002878                        z 0.0
+00002880                    RotationPivot::Vec3
+00002880                        x 0.5
+00002884                        y 0.5
+00002888                        z 0.0
+00002890                    Z 0.0
+000028a0                Color::Vec3
+000028a0                    x 1.0
+000028a4                    y 1.0
+000028a8                    z 1.0
+000028b0                Transform::LinearTransform
+000028b0                    right::Vec3
+000028b0                        x -1.19209303762e-07
+000028b4                        y 1.0
+000028b8                        z -3.89414424262e-07
+000028c0                    up::Vec3
+000028c0                        x 1.0
+000028c4                        y 1.78813962748e-07
+000028c8                        z 1.42108564093e-14
+000028d0                    forward::Vec3
+000028d0                        x 7.1054273576e-14
+000028d4                        y -3.89414367419e-07
+000028d8                        z -1.0
+000028e0                    trans::Vec3
+000028e0                        x 0.0
+000028e4                        y 0.0
+000028e8                        z 0.0
+000028f0                InstanceNameHash 10269015
+000028f4                Size::Vec2
+000028f4                    x 50.0
+000028f8                    y 50.0
+000028fc                LayoutMode UILayoutMode_AnchorOffset
+00002900                Offset::UIElementOffset
+00002900                    X 0.0
+00002904                    Y -1.0
+00002908                Anchor::UIElementAnchor
+00002908                    X 0.5
+0000290c                    Y 0.0
+00002910                Position::UIElementOffset
+00002910                    X 0.0
+00002914                    Y 0.0
+00002918                Expansion::UIElementRectExpansion
+00002918                    X 0.0
+0000291c                    Y 0.0
+00002920                    Width 0.0
+00002924                    Height 0.0
+00002928                Alpha 0.800000011921
+0000292c                Visible True
+00002930            CustomLayout::BFUICustomLayout
+00002930                SnapSettings::BFUISnapLayoutSettings
+00002930                    Left BFUISnapLayoutMode_Default
+00002934                    Right BFUISnapLayoutMode_Default
+00002938                    Top BFUISnapLayoutMode_Default
+0000293c                    Bottom BFUISnapLayoutMode_Default
+00002940                OverrideDefaultLayout False
+00002950        UVRect::Vec4
+00002950            x 0.0
+00002954            y 0.0
+00002958            z 1.0
+0000295c            w 1.0
+00002960        TextureSource::UITextureSource
+00002960            UVRect::Vec4
+00002960                x 0.0
+00002964                y 0.0
+00002968                z 1.0
+0000296c                w 1.0
+00002970        TextureId spect_camera_128x128
+00002974        DynamicTextureId *nullString*
+00002978        BlendMode UIBlendMode_Add
+0000297c        ZOrder 0
+00002980        KeepSourceScale False
+00002981        KeepSourceAspectRatio False
+00002982        AutoSizeHorizontally False
+00002983        AutoSizeVertically False
+00002984        UseColorAsOverlay False
+00002985        OverrideBlendMode True
+00002986        InvertColor False
+00002990    BFUIElementFillEntityData 00000001
+00002990        $::BFUIElementEntityData
+00002990            $::UIElementEntityData
+00002990                $::EntityData
+00002990                    $::GameObjectData
+00002990                        $::DataBusPeer
+00002990                            $::GameDataContainer
+00002990                                $::DataContainer
+00002998                            Flags 0
+0000299c                InstanceName Background
+000029a0                UIElementTransform::UIElementTransform
+000029a0                    Rotation::Vec3
+000029a0                        x 0.0
+000029a4                        y 0.0
+000029a8                        z 0.0
+000029b0                    RotationPivot::Vec3
+000029b0                        x 0.5
+000029b4                        y 0.5
+000029b8                        z 0.0
+000029c0                    Z 0.0
+000029d0                Color::Vec3
+000029d0                    x 0.0
+000029d4                    y 0.0
+000029d8                    z 0.0
+000029e0                Transform::LinearTransform
+000029e0                    right::Vec3
+000029e0                        x 1.0
+000029e4                        y 0.0
+000029e8                        z 0.0
+000029f0                    up::Vec3
+000029f0                        x 0.0
+000029f4                        y 1.0
+000029f8                        z 0.0
+00002a00                    forward::Vec3
+00002a00                        x 0.0
+00002a04                        y 0.0
+00002a08                        z 1.0
+00002a10                    trans::Vec3
+00002a10                        x 0.0
+00002a14                        y 0.0
+00002a18                        z 0.0
+00002a20                InstanceNameHash 1383623595
+00002a24                Size::Vec2
+00002a24                    x 152.0
+00002a28                    y 48.0
+00002a2c                LayoutMode UILayoutMode_AnchorOffset
+00002a30                Offset::UIElementOffset
+00002a30                    X 0.0
+00002a34                    Y 0.0
+00002a38                Anchor::UIElementAnchor
+00002a38                    X 0.5
+00002a3c                    Y 0.5
+00002a40                Position::UIElementOffset
+00002a40                    X 0.0
+00002a44                    Y 0.0
+00002a48                Expansion::UIElementRectExpansion
+00002a48                    X 0.0
+00002a4c                    Y 0.0
+00002a50                    Width 0.0
+00002a54                    Height 0.0
+00002a58                Alpha 0.20000000298
+00002a5c                Visible True
+00002a60            CustomLayout::BFUICustomLayout
+00002a60                SnapSettings::BFUISnapLayoutSettings
+00002a60                    Left BFUISnapLayoutMode_Default
+00002a64                    Right BFUISnapLayoutMode_Default
+00002a68                    Top BFUISnapLayoutMode_Default
+00002a6c                    Bottom BFUISnapLayoutMode_Default
+00002a70                OverrideDefaultLayout False
+00002a80        Style UI/Styles/9-Slice/FilledRounded4WhiteFill/ba6065f03330634096e755e333d87bb3
+00002a84        BackgroundBlendMode UIBlendMode_Add
+00002a88        OutlineBlendMode UIBlendMode_AlphaBlend
+00002a8c        ZOrder 0
+00002a90        OverrideBackgroundBlendMode False
+00002a91        OverrideOutlineBlendMode False
+00002a92        DrawBackground True
+00002a93        DrawOutline True
+00002a94        UseColorAsOverlay False
+00002aa0    BFUIElementFillEntityData 00000002
+00002aa0        $::BFUIElementEntityData
+00002aa0            $::UIElementEntityData
+00002aa0                $::EntityData
+00002aa0                    $::GameObjectData
+00002aa0                        $::DataBusPeer
+00002aa0                            $::GameDataContainer
+00002aa0                                $::DataContainer
+00002aa8                            Flags 134217728
+00002aac                InstanceName HoverHighlight
+00002ab0                UIElementTransform::UIElementTransform
+00002ab0                    Rotation::Vec3
+00002ab0                        x 0.0
+00002ab4                        y 0.0
+00002ab8                        z 0.0
+00002ac0                    RotationPivot::Vec3
+00002ac0                        x 0.5
+00002ac4                        y 0.5
+00002ac8                        z 0.0
+00002ad0                    Z 0.0
+00002ae0                Color::Vec3
+00002ae0                    x 0.901960790157
+00002ae4                    y 0.901960790157
+00002ae8                    z 0.901960790157
+00002af0                Transform::LinearTransform
+00002af0                    right::Vec3
+00002af0                        x 1.0
+00002af4                        y 0.0
+00002af8                        z 0.0
+00002b00                    up::Vec3
+00002b00                        x 0.0
+00002b04                        y 1.0
+00002b08                        z 0.0
+00002b10                    forward::Vec3
+00002b10                        x 0.0
+00002b14                        y 0.0
+00002b18                        z 1.0
+00002b20                    trans::Vec3
+00002b20                        x 0.0
+00002b24                        y 0.0
+00002b28                        z 0.0
+00002b30                InstanceNameHash 3994547923
+00002b34                Size::Vec2
+00002b34                    x 152.0
+00002b38                    y 48.0
+00002b3c                LayoutMode UILayoutMode_AnchorOffset
+00002b40                Offset::UIElementOffset
+00002b40                    X 0.0
+00002b44                    Y 0.0
+00002b48                Anchor::UIElementAnchor
+00002b48                    X 0.5
+00002b4c                    Y 0.5
+00002b50                Position::UIElementOffset
+00002b50                    X 0.0
+00002b54                    Y 0.0
+00002b58                Expansion::UIElementRectExpansion
+00002b58                    X 0.0
+00002b5c                    Y 0.0
+00002b60                    Width 0.0
+00002b64                    Height 0.0
+00002b68                Alpha 0.20000000298
+00002b6c                Visible True
+00002b70            CustomLayout::BFUICustomLayout
+00002b70                SnapSettings::BFUISnapLayoutSettings
+00002b70                    Left BFUISnapLayoutMode_Default
+00002b74                    Right BFUISnapLayoutMode_Default
+00002b78                    Top BFUISnapLayoutMode_Default
+00002b7c                    Bottom BFUISnapLayoutMode_Default
+00002b80                OverrideDefaultLayout False
+00002b90        Style UI/Styles/9-Slice/FilledRounded4WhiteFill/ba6065f03330634096e755e333d87bb3
+00002b94        BackgroundBlendMode UIBlendMode_Add
+00002b98        OutlineBlendMode UIBlendMode_AlphaBlend
+00002b9c        ZOrder 0
+00002ba0        OverrideBackgroundBlendMode False
+00002ba1        OverrideOutlineBlendMode False
+00002ba2        DrawBackground True
+00002ba3        DrawOutline True
+00002ba4        UseColorAsOverlay False
+00002bb0    BFUIElementFillEntityData 00000003
+00002bb0        $::BFUIElementEntityData
+00002bb0            $::UIElementEntityData
+00002bb0                $::EntityData
+00002bb0                    $::GameObjectData
+00002bb0                        $::DataBusPeer
+00002bb0                            $::GameDataContainer
+00002bb0                                $::DataContainer
+00002bb8                            Flags 134217728
+00002bbc                InstanceName Highlighted
+00002bc0                UIElementTransform::UIElementTransform
+00002bc0                    Rotation::Vec3
+00002bc0                        x 0.0
+00002bc4                        y 0.0
+00002bc8                        z 0.0
+00002bd0                    RotationPivot::Vec3
+00002bd0                        x 0.5
+00002bd4                        y 0.5
+00002bd8                        z 0.0
+00002be0                    Z 0.0
+00002bf0                Color::Vec3
+00002bf0                    x 0.901960790157
+00002bf4                    y 0.901960790157
+00002bf8                    z 0.901960790157
+00002c00                Transform::LinearTransform
+00002c00                    right::Vec3
+00002c00                        x 1.0
+00002c04                        y 0.0
+00002c08                        z 0.0
+00002c10                    up::Vec3
+00002c10                        x 0.0
+00002c14                        y 1.0
+00002c18                        z 0.0
+00002c20                    forward::Vec3
+00002c20                        x 0.0
+00002c24                        y 0.0
+00002c28                        z 1.0
+00002c30                    trans::Vec3
+00002c30                        x 0.0
+00002c34                        y 0.0
+00002c38                        z 0.0
+00002c40                InstanceNameHash 2518133172
+00002c44                Size::Vec2
+00002c44                    x 152.0
+00002c48                    y 48.0
+00002c4c                LayoutMode UILayoutMode_AnchorOffset
+00002c50                Offset::UIElementOffset
+00002c50                    X 0.0
+00002c54                    Y 0.0
+00002c58                Anchor::UIElementAnchor
+00002c58                    X 0.5
+00002c5c                    Y 0.5
+00002c60                Position::UIElementOffset
+00002c60                    X 0.0
+00002c64                    Y 0.0
+00002c68                Expansion::UIElementRectExpansion
+00002c68                    X 0.0
+00002c6c                    Y 0.0
+00002c70                    Width 0.0
+00002c74                    Height 0.0
+00002c78                Alpha 0.20000000298
+00002c7c                Visible True
+00002c80            CustomLayout::BFUICustomLayout
+00002c80                SnapSettings::BFUISnapLayoutSettings
+00002c80                    Left BFUISnapLayoutMode_Default
+00002c84                    Right BFUISnapLayoutMode_Default
+00002c88                    Top BFUISnapLayoutMode_Default
+00002c8c                    Bottom BFUISnapLayoutMode_Default
+00002c90                OverrideDefaultLayout False
+00002ca0        Style UI/Styles/9-Slice/FilledRounded4WhiteFill/ba6065f03330634096e755e333d87bb3
+00002ca4        BackgroundBlendMode UIBlendMode_Add
+00002ca8        OutlineBlendMode UIBlendMode_AlphaBlend
+00002cac        ZOrder 0
+00002cb0        OverrideBackgroundBlendMode False
+00002cb1        OverrideOutlineBlendMode False
+00002cb2        DrawBackground True
+00002cb3        DrawOutline True
+00002cb4        UseColorAsOverlay False
+00002cc0    BFUIElementTextFieldEntityData 00000004
+00002cc0        $::BFUIElementEntityData
+00002cc0            $::UIElementEntityData
+00002cc0                $::EntityData
+00002cc0                    $::GameObjectData
+00002cc0                        $::DataBusPeer
+00002cc0                            $::GameDataContainer
+00002cc0                                $::DataContainer
+00002cc8                            Flags 134217728
+00002ccc                InstanceName CameraName
+00002cd0                UIElementTransform::UIElementTransform
+00002cd0                    Rotation::Vec3
+00002cd0                        x 0.0
+00002cd4                        y 0.0
+00002cd8                        z 0.0
+00002ce0                    RotationPivot::Vec3
+00002ce0                        x 0.5
+00002ce4                        y 0.5
+00002ce8                        z 0.0
+00002cf0                    Z 0.0
+00002d00                Color::Vec3
+00002d00                    x 1.0
+00002d04                    y 1.0
+00002d08                    z 1.0
+00002d10                Transform::LinearTransform
+00002d10                    right::Vec3
+00002d10                        x 1.0
+00002d14                        y 0.0
+00002d18                        z 0.0
+00002d20                    up::Vec3
+00002d20                        x 0.0
+00002d24                        y 1.0
+00002d28                        z 0.0
+00002d30                    forward::Vec3
+00002d30                        x 0.0
+00002d34                        y 0.0
+00002d38                        z 1.0
+00002d40                    trans::Vec3
+00002d40                        x 0.0
+00002d44                        y 0.0
+00002d48                        z 0.0
+00002d50                InstanceNameHash 10091707
+00002d54                Size::Vec2
+00002d54                    x 40.0
+00002d58                    y 40.0
+00002d5c                LayoutMode UILayoutMode_AnchorOffset
+00002d60                Offset::UIElementOffset
+00002d60                    X -25.0
+00002d64                    Y -12.0
+00002d68                Anchor::UIElementAnchor
+00002d68                    X 0.5
+00002d6c                    Y 1.0
+00002d70                Position::UIElementOffset
+00002d70                    X 0.0
+00002d74                    Y 0.0
+00002d78                Expansion::UIElementRectExpansion
+00002d78                    X 0.0
+00002d7c                    Y 0.0
+00002d80                    Width 0.0
+00002d84                    Height 0.0
+00002d88                Alpha 0.800000011921
+00002d8c                Visible True
+00002d90            CustomLayout::BFUICustomLayout
+00002d90                SnapSettings::BFUISnapLayoutSettings
+00002d90                    Left BFUISnapLayoutMode_Default
+00002d94                    Right BFUISnapLayoutMode_Default
+00002d98                    Top BFUISnapLayoutMode_Default
+00002d9c                    Bottom BFUISnapLayoutMode_Default
+00002da0                OverrideDefaultLayout False
+00002db0        Text::BFUILegacyElementText
+00002db0            Sid *nullString*
+00002db4            VerticalAlignment UIElementAlignment_Bottom
+00002db8            HorizonalAlignment UIElementAlignment_Center
+00002dbc            Wordwrap False
+00002dc0        FontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00002dc4        FontEffect *nullGuid*
+00002dc8        TextOffset 0.0
+00002dcc        AutoAdjustLeftPadding 5.0
+00002dd0        AutoAdjustRightPadding 5.0
+00002dd4        FieldText *nullString*
+00002dd8        RowSpacing 0.0
+00002ddc        BlendMode UIBlendMode_Add
+00002de0        ZOrder 0
+00002de4        AutoAdjustWidth False
+00002de5        UseAutoScroll True
+00002de6        ClipToRect False
+00002de7        Password False
+00002de8        WordWrap False
+00002de9        PixelSnapping True
+00002dea        UseColorAsOverlay False
+00002deb        OverrideBlendMode True
+00002df0    DiceUIMouseInputListenerElementData 00000005
+00002df0        $::UIElementEntityData
+00002df0            $::EntityData
+00002df0                $::GameObjectData
+00002df0                    $::DataBusPeer
+00002df0                        $::GameDataContainer
+00002df0                            $::DataContainer
+00002df8                        Flags 0
+00002dfc            InstanceName MouseInput
+00002e00            UIElementTransform::UIElementTransform
+00002e00                Rotation::Vec3
+00002e00                    x 0.0
+00002e04                    y 0.0
+00002e08                    z 0.0
+00002e10                RotationPivot::Vec3
+00002e10                    x 0.5
+00002e14                    y 0.5
+00002e18                    z 0.0
+00002e20                Z 0.0
+00002e30            Color::Vec3
+00002e30                x 1.0
+00002e34                y 1.0
+00002e38                z 1.0
+00002e40            Transform::LinearTransform
+00002e40                right::Vec3
+00002e40                    x 1.0
+00002e44                    y 0.0
+00002e48                    z 0.0
+00002e50                up::Vec3
+00002e50                    x 0.0
+00002e54                    y 1.0
+00002e58                    z 0.0
+00002e60                forward::Vec3
+00002e60                    x 0.0
+00002e64                    y 0.0
+00002e68                    z 1.0
+00002e70                trans::Vec3
+00002e70                    x 0.0
+00002e74                    y 0.0
+00002e78                    z 0.0
+00002e80            InstanceNameHash 804120786
+00002e84            Size::Vec2
+00002e84                x 152.0
+00002e88                y 48.0
+00002e8c            LayoutMode UILayoutMode_AnchorOffset
+00002e90            Offset::UIElementOffset
+00002e90                X 0.0
+00002e94                Y 0.0
+00002e98            Anchor::UIElementAnchor
+00002e98                X 0.5
+00002e9c                Y 0.0
+00002ea0            Position::UIElementOffset
+00002ea0                X 0.0
+00002ea4                Y 0.0
+00002ea8            Expansion::UIElementRectExpansion
+00002ea8                X 0.0
+00002eac                Y 0.0
+00002eb0                Width 0.0
+00002eb4                Height 0.0
+00002eb8            Alpha 1.0
+00002ebc            Visible True
+00002ec0        MouseButton UIMouseButton_Left
+00002ec4        ConsumeInput True
+00002ec5        FullScreen False
+00002ed0    LogicPrefabReferenceObjectData 00000006
+00002ed0        $::LogicReferenceObjectData
+00002ed0            $::ReferenceObjectData
+00002ed0                $::GameObjectData
+00002ed0                    $::DataBusPeer
+00002ed0                        $::GameDataContainer
+00002ed0                            $::DataContainer
+00002ed8                        Flags 155402572
+00002edc                Blueprint UI/Shared/Logic/MouseOverLogic/7834ee5c57cafe7cba2ba7e25bd8f3e3
+00002ee0                BlueprintTransform::LinearTransform
+00002ee0                    right::Vec3
+00002ee0                        x 1.0
+00002ee4                        y 0.0
+00002ee8                        z 0.0
+00002ef0                    up::Vec3
+00002ef0                        x 0.0
+00002ef4                        y 1.0
+00002ef8                        z 0.0
+00002f00                    forward::Vec3
+00002f00                        x 0.0
+00002f04                        y 0.0
+00002f08                        z 1.0
+00002f10                    trans::Vec3
+00002f10                        x 0.0
+00002f14                        y 0.0
+00002f18                        z 0.0
+00002f20                ObjectVariation *nullGuid*
+00002f24                StreamRealm StreamRealm_None
+00002f28                RadiosityTypeOverride RadiosityTypeOverride_None
+00002f2c                LightmapResolutionScale 0
+00002f30                RenderingOverrides::RenderingOverrides
+00002f30                    ShadowEnable RenderingOverride_Inherit
+00002f34                    DynamicReflectionEnable RenderingOverride_Inherit
+00002f38                    StaticReflectionEnable RenderingOverride_Inherit
+00002f3c                ForceSeparateEnlightenSystem False
+00002f3d                CastSunShadowEnable True
+00002f3e                CastReflectionEnable True
+00002f3f                CastEnvmapEnable True
+00002f40                Excluded False
+00002f50            LocalPlayerId LocalPlayerId_Invalid
+00002f54            SubRealm SubRealm_All
+00002f60    BFUIWidgetEntityData 00000007
+00002f58        $::UIWidgetEntityData
+00002f58            $::EntityData
+00002f58                $::GameObjectData
+00002f58                    $::DataBusPeer
+00002f58                        $::GameDataContainer
+00002f58                            $::DataContainer
+00002f60                        Flags 168362907
+00002f64            Size::UIElementSize
+00002f64                X 152.0
+00002f68                Y 48.0
+00002f6c            Layers::array
+000030c0                member(0) 0000000a
+000030c4                member(1) 0000000b
+00002f70            TextureMappings::array
+000030cc                member(0) UI/Obsolete/CppScreens/textures/9Slice1PxTexture/421a1b5063062a43803cb6a2f0119fcf
+000030d0                member(1) UI/Ingame/Shared/TextureMappings/9-SliceDefaultTextureMapping/f5adc772ae7d4840ae57838d50e8e810
+000030d4                member(2) UI/Ingame/Spectator/SpectatorTextures/a7458b83f0c1934985f67136f53f89e3
+00002f74            Components::array
+000030dc                member(0) 00000009
+000030e0                member(1) 00000006
+00002f78            Visible True
+00002f7c        CustomLayout::BFUICustomLayout
+00002f7c            SnapSettings::BFUISnapLayoutSettings
+00002f7c                Left BFUISnapLayoutMode_Default
+00002f80                Right BFUISnapLayoutMode_Default
+00002f84                Top BFUISnapLayoutMode_Default
+00002f88                Bottom BFUISnapLayoutMode_Default
+00002f8c            OverrideDefaultLayout False
+00002f90        UseStencilMask False
+00002f91        UseInputStencilMask False
+00002f92        InputEnabled True
+00002f94    InterfaceDescriptorData 00000008
+00002f8c        $::DynamicDataContainer
+00002f8c            $::DataContainer
+00002f94            Fields::array
+000030e8                member(0)::DataField
+000030e8                    Value *nullString*
+000030ec                    ValueRef *nullGuid*
+000030f0                    Id 218105699
+000030f4                    AccessType FieldAccessType_Target
+000030f8                member(1)::DataField
+000030f8                    Value *nullString*
+000030fc                    ValueRef *nullGuid*
+00003100                    Id -1102870430
+00003104                    AccessType FieldAccessType_Target
+00003108                member(2)::DataField
+00003108                    Value *nullString*
+0000310c                    ValueRef *nullGuid*
+00003110                    Id -2100971754
+00003114                    AccessType FieldAccessType_Target
+00002f98        InputEvents *nullArray*
+00002f9c        OutputEvents::array
+0000311c            member(0)::DynamicEvent
+0000311c                Id -1967956500
+00002fa0        InputLinks *nullArray*
+00002fa4        OutputLinks *nullArray*
+00002fa8    SchematicChannelEntityData 00000009
+00002fa0        $::EntityData
+00002fa0            $::GameObjectData
+00002fa0                $::DataBusPeer
+00002fa0                    $::GameDataContainer
+00002fa0                        $::DataContainer
+00002fa8                    Flags 57534844
+00002fac        Realm Realm_Client
+00002fb0        Channel UI/Ingame/Spectator/Logic/UIChannelSpectator/90043839e0fdda44871c36f45559f69a
+00002fb4        InputProperties *nullArray*
+00002fb8        InputRefProperties *nullArray*
+00002fbc        OutputProperties *nullArray*
+00002fc0        OutputRefProperties *nullArray*
+00002fc4    UIElementLayerEntityData 0000000a
+00002fbc        $::EntityData
+00002fbc            $::GameObjectData
+00002fbc                $::DataBusPeer
+00002fbc                    $::GameDataContainer
+00002fbc                        $::DataContainer
+00002fc4                    Flags 0
+00002fc8        LayerName Elements
+00002fcc        Elements::array
+00003124            member(0) 00000001
+00003128            member(1) 00000002
+0000312c            member(2) 00000004
+00003130            member(3) 00000000
+00003134            member(4) 00000003
+00002fd0        InclusionSettings::UIElementInclusionSettings
+00002fd0            CustomInclusionCritera *nullArray*
+00002fd4            IsSingleplayerLayer True
+00002fd5            IsMultiplayerLayer True
+00002fd6            IsSDLayer True
+00002fd7            IsHDLayer True
+00002fd8        Visible True
+00002fdc    UIElementLayerEntityData 0000000b
+00002fd4        $::EntityData
+00002fd4            $::GameObjectData
+00002fd4                $::DataBusPeer
+00002fd4                    $::GameDataContainer
+00002fd4                        $::DataContainer
+00002fdc                    Flags 0
+00002fe0        LayerName Input
+00002fe4        Elements::array
+0000313c            member(0) 00000005
+00002fe8        InclusionSettings::UIElementInclusionSettings
+00002fe8            CustomInclusionCritera *nullArray*
+00002fec            IsSingleplayerLayer True
+00002fed            IsMultiplayerLayer True
+00002fee            IsSDLayer True
+00002fef            IsHDLayer True
+00002ff0        Visible True

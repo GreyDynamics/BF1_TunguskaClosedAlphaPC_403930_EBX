@@ -1,0 +1,118 @@
+00000f60    LogicPrefabBlueprint 6c7b4f05baef9044b5935fa788ec7e19
+00000f58        $::PrefabBlueprint
+00000f58            $::Blueprint
+00000f58                $::EntityBusData
+00000f58                    $::DataBusData
+00000f58                        $::Asset
+00000f58                            $::DataContainer
+00000f60                            Name Gameplay/GameModes/RoundOverInSpectator
+00000f64                        PropertyConnections::array
+00001034                            member(0)::PropertyConnection
+00001034                                Source 00000002
+00001038                                Target 00000000
+0000103c                                SourceFieldId 421379609
+00001040                                TargetFieldId -1522984530
+00001044                                Flags 2
+00001048                            member(1)::PropertyConnection
+00001048                                Source 00000000
+0000104c                                Target 00000002
+00001050                                SourceFieldId 1281128743
+00001054                                TargetFieldId 1120789419
+00001058                                Flags 18
+00000f68                        LinkConnections *nullArray*
+00000f6c                        Interface 00000002
+00000f70                        Flags 14
+00000f74                    EventConnections::array
+00001060                        member(0)::EventConnection
+00001060                            Source 00000001
+00001064                            Target 00000000
+00001068                            SourceEvent::EventSpec
+00001068                                Id 193453899
+0000106c                            TargetEvent::EventSpec
+0000106c                                Id 212633683
+00001070                            TargetType EventConnectionTargetType_Client
+00001074                        member(1)::EventConnection
+00001074                            Source 00000002
+00001078                            Target 00000001
+0000107c                            SourceEvent::EventSpec
+0000107c                                Id 230748069
+00001080                            TargetEvent::EventSpec
+00001080                                Id 5862146
+00001084                            TargetType EventConnectionTargetType_Client
+00000f78            Objects::array
+0000108c                member(0) 00000000
+00001090                member(1) 00000001
+00000f7c            TimeDeltaType TimeDeltaType_None
+00000f80    PropertyGateEntityData 00000000
+00000f80        $::EntityData
+00000f80            $::GameObjectData
+00000f80                $::DataBusPeer
+00000f80                    $::GameDataContainer
+00000f80                        $::DataContainer
+00000f88                    Flags 188937491
+00000f8c        Realm Realm_Client
+00000f90        Vec3In::Vec3
+00000f90            x 0.0
+00000f94            y 0.0
+00000f98            z 0.0
+00000fa0        Vec4In::Vec4
+00000fa0            x 0.0
+00000fa4            y 0.0
+00000fa8            z 0.0
+00000fac            w 0.0
+00000fb0        TransformIn::LinearTransform
+00000fb0            right::Vec3
+00000fb0                x 1.0
+00000fb4                y 0.0
+00000fb8                z 0.0
+00000fc0            up::Vec3
+00000fc0                x 0.0
+00000fc4                y 1.0
+00000fc8                z 0.0
+00000fd0            forward::Vec3
+00000fd0                x 0.0
+00000fd4                y 0.0
+00000fd8                z 1.0
+00000fe0            trans::Vec3
+00000fe0                x 0.0
+00000fe4                y 0.0
+00000fe8                z 0.0
+00000ff0        IntIn 0
+00000ff4        FloatIn 0.0
+00000ff8        Default True
+00000ff9        WritePropertyOnOpenGate True
+00000ffa        BoolIn False
+00001000    BFRealtimeDelayEntityData 00000001
+00000ff8        $::EntityData
+00000ff8            $::GameObjectData
+00000ff8                $::DataBusPeer
+00000ff8                    $::GameDataContainer
+00000ff8                        $::DataContainer
+00001000                    Flags 64084267
+00001004        Delay 0.0500000007451
+00001008        Realm Realm_Client
+0000100c        TimeDeltaType TimeDeltaType_World
+00001010        UseRealTimeClock True
+00001011        AutoStart False
+00001012        RunOnce False
+00001013        RemoveDuplicateEvents True
+00001014    InterfaceDescriptorData 00000002
+0000100c        $::DynamicDataContainer
+0000100c            $::DataContainer
+00001014            Fields::array
+00001098                member(0)::DataField
+00001098                    Value *nullString*
+0000109c                    ValueRef *nullGuid*
+000010a0                    Id 421379609
+000010a4                    AccessType FieldAccessType_Target
+000010a8                member(1)::DataField
+000010a8                    Value *nullString*
+000010ac                    ValueRef *nullGuid*
+000010b0                    Id 1120789419
+000010b4                    AccessType FieldAccessType_Source
+00001018        InputEvents::array
+000010bc            member(0)::DynamicEvent
+000010bc                Id 230748069
+0000101c        OutputEvents *nullArray*
+00001020        InputLinks *nullArray*
+00001024        OutputLinks *nullArray*

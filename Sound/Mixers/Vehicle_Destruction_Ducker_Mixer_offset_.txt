@@ -1,0 +1,95 @@
+00000d40    MixerAsset e5a502ca29b5b24ba90fb78a8b1e65e8
+00000d38        $::Asset
+00000d38            $::DataContainer
+00000d40            Name Sound/Mixers/Vehicle_Destruction_Ducker_Mixer
+00000d44        Graph 36ad429b56858e47a76099d16942e55d
+00000d48        Presets::array
+00000e64            member(0) 445fc76822619f42a35e74110e94f9bf
+00000d4c        DefaultPreset 445fc76822619f42a35e74110e94f9bf
+00000d50        Bypass False
+00000d64    ConditionValueNodeData 11a1cbeebab90841a7f05c2473ca485e
+00000d5c        $::AudioGraphNodeData
+00000d5c            $::DataContainer
+00000d64        Conditions::array
+00000e6c            member(0) 165bda5b6854c64f8924ea1d27fc6b71
+00000d78    ConditionValueGroup 165bda5b6854c64f8924ea1d27fc6b71
+00000d70        $::AudioGraphNodePortGroup
+00000d70            $::DataContainer
+00000d78        X::AudioGraphNodePort
+00000d78            UnconnectedValue 0.0
+00000d7c            ValueIndex 1
+00000d7e            IsConnected True
+00000d80        Y::AudioGraphNodePort
+00000d80            UnconnectedValue 0.899999976158
+00000d84            ValueIndex 0
+00000d86            IsConnected False
+00000d88        Out::AudioGraphNodePort
+00000d88            UnconnectedValue 0.0
+00000d8c            ValueIndex 2
+00000d8e            IsConnected True
+00000d90        Condition ConditionValueType_GreaterOrEqual
+00000d94        ValueIfTrue -20.0
+00000d98        ValueIfFalse 0.0
+00000dac    MixerGraphData 36ad429b56858e47a76099d16942e55d
+00000da4        $::AudioGraphData
+00000da4            $::DataContainer
+00000dac            Nodes::array
+00000e74                member(0) a3173779cd5fb14e9a5335fa304bf381
+00000e78                member(1) 11a1cbeebab90841a7f05c2473ca485e
+00000e7c                member(2) e9f39b6ce7c9904783fb8890c0d2823f
+00000db0            PublicParameters *nullArray*
+00000db4            PublicEvents *nullArray*
+00000db8            PublicAssetParameters *nullArray*
+00000dbc            PublicValueCount 1
+00000dbe            ValueCount 3
+00000dc0        Inputs *nullArray*
+00000dc4        MixerInputInfos *nullArray*
+00000dc8        Outputs *nullArray*
+00000ddc    MixerPreset 445fc76822619f42a35e74110e94f9bf
+00000dd4        $::DataContainer
+00000ddc        NameHash 0
+00000de0        Groups::array
+00000e94            member(0)::MixerPresetGroupData
+00000e94                Group Sound/MixerSystem/aff482821d746847a92b73b198355b4a
+00000e98                State MixGroupState_Normal
+00000e9c                AttackTime 0.10000000149
+00000ea0                ReleaseTime 0.20000000298
+00000ea4                Priority 0
+00000ea8                Properties::array
+00000e84                    member(0)::MixGroupPropertyValue
+00000e84                        Property 0
+00000e88                        Value 0.0
+00000e8c                        Controlled True
+00000eac                IsDominant False
+00000ead                IsAdditive False
+00000de4        Nodes *nullArray*
+00000df8    MixerSetPropertyEntry 87ab3eed0736e746a606ab082188e668
+00000df0        $::AudioGraphNodePortGroup
+00000df0            $::DataContainer
+00000df8        In::AudioGraphNodePort
+00000df8            UnconnectedValue 0.0
+00000dfc            ValueIndex 2
+00000dfe            IsConnected True
+00000e00        Target 0
+00000e04        Group Sound/MixerSystem/aff482821d746847a92b73b198355b4a
+00000e08        AttackTime 0.10000000149
+00000e0c        ReleaseTime 0.20000000298
+00000e20    MixerReceiveEntry 8c84857a3d18f4498e34296b9f15f30e
+00000e18        $::AudioGraphNodePortGroup
+00000e18            $::DataContainer
+00000e20        Out::AudioGraphNodePort
+00000e20            UnconnectedValue 0.0
+00000e24            ValueIndex 1
+00000e26            IsConnected True
+00000e28        Source Sound/Mixers/GlobalData_Mixer/0aadf41c96c19d4b88fdbf46a2ea8626
+00000e2c        Mixer Sound/Mixers/GlobalData_Mixer/6f461a5af35e0746aa5c7e6baca2736a
+00000e40    MixerReceiveNodeData a3173779cd5fb14e9a5335fa304bf381
+00000e38        $::AudioGraphNodeData
+00000e38            $::DataContainer
+00000e40        Entries::array
+00000eb4            member(0) 8c84857a3d18f4498e34296b9f15f30e
+00000e54    MixerSetPropertyNodeData e9f39b6ce7c9904783fb8890c0d2823f
+00000e4c        $::AudioGraphNodeData
+00000e4c            $::DataContainer
+00000e54        Entries::array
+00000ebc            member(0) 87ab3eed0736e746a606ab082188e668

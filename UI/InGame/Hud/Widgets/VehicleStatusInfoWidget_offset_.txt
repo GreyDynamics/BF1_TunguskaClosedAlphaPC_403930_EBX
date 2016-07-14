@@ -1,0 +1,931 @@
+00003320    UIWidgetBlueprint 38a137c8f6535b9f74c36973b8646696
+00003318        $::ObjectBlueprint
+00003318            $::Blueprint
+00003318                $::EntityBusData
+00003318                    $::DataBusData
+00003318                        $::Asset
+00003318                            $::DataContainer
+00003320                            Name UI/Ingame/Hud/Widgets/VehicleStatusInfoWidget
+00003324                        PropertyConnections::array
+000038f4                            member(0)::PropertyConnection
+000038f4                                Source 0000000f
+000038f8                                Target 00000001
+000038fc                                SourceFieldId 193453899
+00003900                                TargetFieldId 901540267
+00003904                                Flags 2
+00003908                            member(1)::PropertyConnection
+00003908                                Source 00000011
+0000390c                                Target 00000003
+00003910                                SourceFieldId 51655417
+00003914                                TargetFieldId 51655417
+00003918                                Flags 18
+0000391c                            member(2)::PropertyConnection
+0000391c                                Source 00000011
+00003920                                Target 00000003
+00003924                                SourceFieldId 603973863
+00003928                                TargetFieldId 603973863
+0000392c                                Flags 18
+00003930                            member(3)::PropertyConnection
+00003930                                Source 00000004
+00003934                                Target 00000005
+00003938                                SourceFieldId -910201930
+0000393c                                TargetFieldId -910201930
+00003940                                Flags 2
+00003944                            member(4)::PropertyConnection
+00003944                                Source 00000005
+00003948                                Target 00000007
+0000394c                                SourceFieldId 926274334
+00003950                                TargetFieldId 2089417190
+00003954                                Flags 2
+00003958                            member(5)::PropertyConnection
+00003958                                Source 00000005
+0000395c                                Target 00000006
+00003960                                SourceFieldId 926274334
+00003964                                TargetFieldId 2089417190
+00003968                                Flags 2
+0000396c                            member(6)::PropertyConnection
+0000396c                                Source 00000007
+00003970                                Target 0000000d
+00003974                                SourceFieldId 1803341031
+00003978                                TargetFieldId 1803341031
+0000397c                                Flags 2
+00003980                            member(7)::PropertyConnection
+00003980                                Source 00000007
+00003984                                Target 0000000d
+00003988                                SourceFieldId 2113819729
+0000398c                                TargetFieldId 2113819729
+00003990                                Flags 2
+00003994                            member(8)::PropertyConnection
+00003994                                Source 0000000d
+00003998                                Target 00000009
+0000399c                                SourceFieldId 193453899
+000039a0                                TargetFieldId 1800624758
+000039a4                                Flags 2
+000039a8                            member(9)::PropertyConnection
+000039a8                                Source 00000007
+000039ac                                Target 00000009
+000039b0                                SourceFieldId -1985435352
+000039b4                                TargetFieldId 88991863
+000039b8                                Flags 2
+000039bc                            member(10)::PropertyConnection
+000039bc                                Source 00000006
+000039c0                                Target 00000009
+000039c4                                SourceFieldId -1985435352
+000039c8                                TargetFieldId -1379054756
+000039cc                                Flags 2
+000039d0                            member(11)::PropertyConnection
+000039d0                                Source 00000009
+000039d4                                Target 0000000e
+000039d8                                SourceFieldId -1399230854
+000039dc                                TargetFieldId 177629
+000039e0                                Flags 2
+000039e4                            member(12)::PropertyConnection
+000039e4                                Source 00000009
+000039e8                                Target 00000010
+000039ec                                SourceFieldId -1399230854
+000039f0                                TargetFieldId 5685821
+000039f4                                Flags 2
+000039f8                            member(13)::PropertyConnection
+000039f8                                Source 0000000d
+000039fc                                Target 0000000c
+00003a00                                SourceFieldId 193453899
+00003a04                                TargetFieldId 802067860
+00003a08                                Flags 2
+00003a0c                            member(14)::PropertyConnection
+00003a0c                                Source 00000007
+00003a10                                Target 0000000c
+00003a14                                SourceFieldId -1944389410
+00003a18                                TargetFieldId 2003847954
+00003a1c                                Flags 2
+00003a20                            member(15)::PropertyConnection
+00003a20                                Source 00000006
+00003a24                                Target 0000000c
+00003a28                                SourceFieldId -1944389410
+00003a2c                                TargetFieldId 1162428644
+00003a30                                Flags 2
+00003a34                            member(16)::PropertyConnection
+00003a34                                Source 0000000c
+00003a38                                Target 00000002
+00003a3c                                SourceFieldId 193453899
+00003a40                                TargetFieldId 901540267
+00003a44                                Flags 34
+00003a48                            member(17)::PropertyConnection
+00003a48                                Source 0000000c
+00003a4c                                Target 0000000f
+00003a50                                SourceFieldId 193453899
+00003a54                                TargetFieldId 5862146
+00003a58                                Flags 2
+00003a5c                            member(18)::PropertyConnection
+00003a5c                                Source 0000000d
+00003a60                                Target 00000008
+00003a64                                SourceFieldId 193453899
+00003a68                                TargetFieldId 1800624758
+00003a6c                                Flags 2
+00003a70                            member(19)::PropertyConnection
+00003a70                                Source 00000007
+00003a74                                Target 00000008
+00003a78                                SourceFieldId -275022039
+00003a7c                                TargetFieldId 88991863
+00003a80                                Flags 2
+00003a84                            member(20)::PropertyConnection
+00003a84                                Source 00000006
+00003a88                                Target 00000008
+00003a8c                                SourceFieldId -275022039
+00003a90                                TargetFieldId -1379054756
+00003a94                                Flags 2
+00003a98                            member(21)::PropertyConnection
+00003a98                                Source 00000008
+00003a9c                                Target 00000002
+00003aa0                                SourceFieldId -1399230854
+00003aa4                                TargetFieldId 118082472
+00003aa8                                Flags 18
+00003aac                            member(22)::PropertyConnection
+00003aac                                Source 0000000e
+00003ab0                                Target 0000000a
+00003ab4                                SourceFieldId 193453899
+00003ab8                                TargetFieldId 1800624758
+00003abc                                Flags 2
+00003ac0                            member(23)::PropertyConnection
+00003ac0                                Source 00000010
+00003ac4                                Target 0000000a
+00003ac8                                SourceFieldId 142996302
+00003acc                                TargetFieldId -1379054756
+00003ad0                                Flags 2
+00003ad4                            member(24)::PropertyConnection
+00003ad4                                Source 0000000a
+00003ad8                                Target 00000001
+00003adc                                SourceFieldId -1399230854
+00003ae0                                TargetFieldId -1235896070
+00003ae4                                Flags 2
+00003ae8                            member(25)::PropertyConnection
+00003ae8                                Source 00000007
+00003aec                                Target 0000000e
+00003af0                                SourceFieldId 1803341031
+00003af4                                TargetFieldId 1800255017
+00003af8                                Flags 2
+00003afc                            member(26)::PropertyConnection
+00003afc                                Source 00000006
+00003b00                                Target 0000000e
+00003b04                                SourceFieldId 1803341031
+00003b08                                TargetFieldId 743331807
+00003b0c                                Flags 2
+00003b10                            member(27)::PropertyConnection
+00003b10                                Source 00000007
+00003b14                                Target 0000000c
+00003b18                                SourceFieldId 1803341031
+00003b1c                                TargetFieldId 1800255017
+00003b20                                Flags 2
+00003b24                            member(28)::PropertyConnection
+00003b24                                Source 00000006
+00003b28                                Target 0000000c
+00003b2c                                SourceFieldId 1803341031
+00003b30                                TargetFieldId 743331807
+00003b34                                Flags 2
+00003b38                            member(29)::PropertyConnection
+00003b38                                Source 00000005
+00003b3c                                Target 00000007
+00003b40                                SourceFieldId -865619136
+00003b44                                TargetFieldId 260983729
+00003b48                                Flags 2
+00003b4c                            member(30)::PropertyConnection
+00003b4c                                Source 00000005
+00003b50                                Target 00000006
+00003b54                                SourceFieldId -865619136
+00003b58                                TargetFieldId 260983729
+00003b5c                                Flags 2
+00003b60                            member(31)::PropertyConnection
+00003b60                                Source 0000000b
+00003b64                                Target 0000000e
+00003b68                                SourceFieldId -141474860
+00003b6c                                TargetFieldId 1800255017
+00003b70                                Flags 2
+00003b74                            member(32)::PropertyConnection
+00003b74                                Source 0000000b
+00003b78                                Target 0000000e
+00003b7c                                SourceFieldId -141474860
+00003b80                                TargetFieldId 743331807
+00003b84                                Flags 2
+00003b88                            member(33)::PropertyConnection
+00003b88                                Source 0000000b
+00003b8c                                Target 0000000e
+00003b90                                SourceFieldId -141474859
+00003b94                                TargetFieldId 177629
+00003b98                                Flags 2
+00003b9c                            member(34)::PropertyConnection
+00003b9c                                Source 0000000b
+00003ba0                                Target 0000000d
+00003ba4                                SourceFieldId -141474860
+00003ba8                                TargetFieldId 1803341031
+00003bac                                Flags 2
+00003bb0                            member(35)::PropertyConnection
+00003bb0                                Source 0000000b
+00003bb4                                Target 0000000d
+00003bb8                                SourceFieldId -141474860
+00003bbc                                TargetFieldId 2113819729
+00003bc0                                Flags 2
+00003bc4                            member(36)::PropertyConnection
+00003bc4                                Source 0000000b
+00003bc8                                Target 0000000c
+00003bcc                                SourceFieldId -141474860
+00003bd0                                TargetFieldId 802067860
+00003bd4                                Flags 2
+00003bd8                            member(37)::PropertyConnection
+00003bd8                                Source 0000000b
+00003bdc                                Target 0000000c
+00003be0                                SourceFieldId -141474860
+00003be4                                TargetFieldId 2003847954
+00003be8                                Flags 2
+00003bec                            member(38)::PropertyConnection
+00003bec                                Source 0000000b
+00003bf0                                Target 0000000c
+00003bf4                                SourceFieldId -141474860
+00003bf8                                TargetFieldId 1162428644
+00003bfc                                Flags 2
+00003c00                            member(39)::PropertyConnection
+00003c00                                Source 0000000b
+00003c04                                Target 0000000c
+00003c08                                SourceFieldId -141474860
+00003c0c                                TargetFieldId 1800255017
+00003c10                                Flags 2
+00003c14                            member(40)::PropertyConnection
+00003c14                                Source 0000000b
+00003c18                                Target 0000000c
+00003c1c                                SourceFieldId -141474860
+00003c20                                TargetFieldId 743331807
+00003c24                                Flags 2
+00003c28                            member(41)::PropertyConnection
+00003c28                                Source 0000000b
+00003c2c                                Target 00000003
+00003c30                                SourceFieldId -141474860
+00003c34                                TargetFieldId 901540267
+00003c38                                Flags 34
+00003328                        LinkConnections *nullArray*
+0000332c                        Interface 0000000b
+00003330                        Flags 14
+00003334                    EventConnections *nullArray*
+00003338            Object 00000013
+00003340    BFUIElementBlurEntityData 00000000
+00003340        $::BFUIElementEntityData
+00003340            $::UIElementEntityData
+00003340                $::EntityData
+00003340                    $::GameObjectData
+00003340                        $::DataBusPeer
+00003340                            $::GameDataContainer
+00003340                                $::DataContainer
+00003348                            Flags 0
+0000334c                InstanceName Blur
+00003350                UIElementTransform::UIElementTransform
+00003350                    Rotation::Vec3
+00003350                        x 0.0
+00003354                        y 0.0
+00003358                        z 0.0
+00003360                    RotationPivot::Vec3
+00003360                        x 1.0
+00003364                        y 1.0
+00003368                        z 0.0
+00003370                    Z 0.0
+00003380                Color::Vec3
+00003380                    x 0.823068082333
+00003384                    y 0.846065580845
+00003388                    z 0.874509811401
+00003390                Transform::LinearTransform
+00003390                    right::Vec3
+00003390                        x 1.0
+00003394                        y 0.0
+00003398                        z 0.0
+000033a0                    up::Vec3
+000033a0                        x 0.0
+000033a4                        y 1.0
+000033a8                        z 0.0
+000033b0                    forward::Vec3
+000033b0                        x 0.0
+000033b4                        y 0.0
+000033b8                        z 1.0
+000033c0                    trans::Vec3
+000033c0                        x 0.0
+000033c4                        y 0.0
+000033c8                        z 0.0
+000033d0                InstanceNameHash 2087736428
+000033d4                Size::Vec2
+000033d4                    x 178.0
+000033d8                    y 54.0
+000033dc                LayoutMode UILayoutMode_AnchorOffset
+000033e0                Offset::UIElementOffset
+000033e0                    X 0.0
+000033e4                    Y 0.0
+000033e8                Anchor::UIElementAnchor
+000033e8                    X 0.0
+000033ec                    Y 0.0
+000033f0                Position::UIElementOffset
+000033f0                    X 0.0
+000033f4                    Y 0.0
+000033f8                Expansion::UIElementRectExpansion
+000033f8                    X 0.0
+000033fc                    Y 0.0
+00003400                    Width 0.0
+00003404                    Height 0.0
+00003408                Alpha 1.0
+0000340c                Visible True
+00003410            CustomLayout::BFUICustomLayout
+00003410                SnapSettings::BFUISnapLayoutSettings
+00003410                    Left BFUISnapLayoutMode_Default
+00003414                    Right BFUISnapLayoutMode_Default
+00003418                    Top BFUISnapLayoutMode_Default
+0000341c                    Bottom BFUISnapLayoutMode_Default
+00003420                OverrideDefaultLayout False
+00003430        MaskTexture *nullString*
+00003434        BlendMode UIBlendMode_AlphaBlend
+00003438        OverrideBlendMode False
+00003440    BFUIElementTextFieldEntityData 00000001
+00003440        $::BFUIElementEntityData
+00003440            $::UIElementEntityData
+00003440                $::EntityData
+00003440                    $::GameObjectData
+00003440                        $::DataBusPeer
+00003440                            $::GameDataContainer
+00003440                                $::DataContainer
+00003448                            Flags 134217728
+0000344c                InstanceName Ammo
+00003450                UIElementTransform::UIElementTransform
+00003450                    Rotation::Vec3
+00003450                        x 0.0
+00003454                        y 0.0
+00003458                        z 0.0
+00003460                    RotationPivot::Vec3
+00003460                        x 0.5
+00003464                        y 0.5
+00003468                        z 0.0
+00003470                    Z 0.0
+00003480                Color::Vec3
+00003480                    x 1.0
+00003484                    y 1.0
+00003488                    z 1.0
+00003490                Transform::LinearTransform
+00003490                    right::Vec3
+00003490                        x 1.0
+00003494                        y 0.0
+00003498                        z 0.0
+000034a0                    up::Vec3
+000034a0                        x 0.0
+000034a4                        y 1.0
+000034a8                        z 0.0
+000034b0                    forward::Vec3
+000034b0                        x 0.0
+000034b4                        y 0.0
+000034b8                        z 1.0
+000034c0                    trans::Vec3
+000034c0                        x 0.0
+000034c4                        y 0.0
+000034c8                        z 0.0
+000034d0                InstanceNameHash 2087557067
+000034d4                Size::Vec2
+000034d4                    x 100.0
+000034d8                    y 40.0
+000034dc                LayoutMode UILayoutMode_AnchorOffset
+000034e0                Offset::UIElementOffset
+000034e0                    X 11.0
+000034e4                    Y -7.0
+000034e8                Anchor::UIElementAnchor
+000034e8                    X 0.0
+000034ec                    Y 0.0
+000034f0                Position::UIElementOffset
+000034f0                    X 0.0
+000034f4                    Y 15.0
+000034f8                Expansion::UIElementRectExpansion
+000034f8                    X 0.0
+000034fc                    Y 0.0
+00003500                    Width 1.0
+00003504                    Height 1.0
+00003508                Alpha 0.800000011921
+0000350c                Visible True
+00003510            CustomLayout::BFUICustomLayout
+00003510                SnapSettings::BFUISnapLayoutSettings
+00003510                    Left BFUISnapLayoutMode_Default
+00003514                    Right BFUISnapLayoutMode_Default
+00003518                    Top BFUISnapLayoutMode_Default
+0000351c                    Bottom BFUISnapLayoutMode_Default
+00003520                OverrideDefaultLayout False
+00003530        Text::BFUILegacyElementText
+00003530            Sid 0
+00003534            VerticalAlignment UIElementAlignment_Top
+00003538            HorizonalAlignment UIElementAlignment_Center
+0000353c            Wordwrap False
+00003540        FontStyle UI/Fonts/Styles/TunguskaFuturaMono36pt/bce88d2ff9ab204983ee53b5b36d3444
+00003544        FontEffect *nullGuid*
+00003548        TextOffset 0.0
+0000354c        AutoAdjustLeftPadding 5.0
+00003550        AutoAdjustRightPadding 5.0
+00003554        FieldText *nullString*
+00003558        RowSpacing 0.0
+0000355c        BlendMode UIBlendMode_Add
+00003560        ZOrder 0
+00003564        AutoAdjustWidth False
+00003565        UseAutoScroll False
+00003566        ClipToRect False
+00003567        Password False
+00003568        WordWrap False
+00003569        PixelSnapping True
+0000356a        UseColorAsOverlay False
+0000356b        OverrideBlendMode True
+00003570    UIElementWidgetReferenceEntityData 00000002
+00003570        $::LogicReferenceObjectData
+00003570            $::ReferenceObjectData
+00003570                $::GameObjectData
+00003570                    $::DataBusPeer
+00003570                        $::GameDataContainer
+00003570                            $::DataContainer
+00003578                        Flags 134217728
+0000357c                Blueprint UI/Ingame/Hud/Widgets/VehicleStatusInfiniteAmmo/2597c81991163ed2900a3039a3693351
+00003580                BlueprintTransform::LinearTransform
+00003580                    right::Vec3
+00003580                        x 1.0
+00003584                        y 0.0
+00003588                        z 0.0
+00003590                    up::Vec3
+00003590                        x 0.0
+00003594                        y 1.0
+00003598                        z 0.0
+000035a0                    forward::Vec3
+000035a0                        x 0.0
+000035a4                        y 0.0
+000035a8                        z 1.0
+000035b0                    trans::Vec3
+000035b0                        x 0.0
+000035b4                        y 0.0
+000035b8                        z 0.0
+000035c0                ObjectVariation *nullGuid*
+000035c4                StreamRealm StreamRealm_None
+000035c8                RadiosityTypeOverride RadiosityTypeOverride_None
+000035cc                LightmapResolutionScale 0
+000035d0                RenderingOverrides::RenderingOverrides
+000035d0                    ShadowEnable RenderingOverride_Inherit
+000035d4                    DynamicReflectionEnable RenderingOverride_Inherit
+000035d8                    StaticReflectionEnable RenderingOverride_Inherit
+000035dc                ForceSeparateEnlightenSystem False
+000035dd                CastSunShadowEnable True
+000035de                CastReflectionEnable True
+000035df                CastEnvmapEnable True
+000035e0                Excluded False
+000035f0            LocalPlayerId LocalPlayerId_Invalid
+000035f4            SubRealm SubRealm_All
+00003600        UIElementTransform::UIElementTransform
+00003600            Rotation::Vec3
+00003600                x 0.0
+00003604                y 0.0
+00003608                z 0.0
+00003610            RotationPivot::Vec3
+00003610                x 0.5
+00003614                y 0.5
+00003618                z 0.0
+00003620            Z 0.0
+00003630        Color::Vec3
+00003630            x 1.0
+00003634            y 1.0
+00003638            z 1.0
+00003640        InstanceName UnlimitedAmmo
+00003644        InstanceNameHash 3816811684
+00003648        InclusionSettings::UIElementInclusionSettings
+00003648            CustomInclusionCritera *nullArray*
+0000364c            IsSingleplayerLayer True
+0000364d            IsMultiplayerLayer True
+0000364e            IsSDLayer True
+0000364f            IsHDLayer True
+00003650        Size::Vec2
+00003650            x 256.0
+00003654            y 256.0
+00003658        LayoutMode UILayoutMode_AnchorOffset
+0000365c        Offset::UIElementOffset
+0000365c            X 30.0
+00003660            Y 0.0
+00003664        Anchor::UIElementAnchor
+00003664            X 0.0
+00003668            Y 0.5
+0000366c        Position::UIElementOffset
+0000366c            X 0.0
+00003670            Y 0.0
+00003674        Expansion::UIElementRectExpansion
+00003674            X 0.0
+00003678            Y 0.0
+0000367c            Width 0.0
+00003680            Height 0.0
+00003684        Alpha 1.0
+00003688        CodeAccessIdentifier *nullString*
+0000368c        UseElementSize False
+00003690    UIElementWidgetReferenceEntityData 00000003
+00003690        $::LogicReferenceObjectData
+00003690            $::ReferenceObjectData
+00003690                $::GameObjectData
+00003690                    $::DataBusPeer
+00003690                        $::GameDataContainer
+00003690                            $::DataContainer
+00003698                        Flags 134217728
+0000369c                Blueprint UI/Ingame/Hud/Widgets/VehicleStatusInfoCog/c35f7295913e92e1668238a4d48a9def
+000036a0                BlueprintTransform::LinearTransform
+000036a0                    right::Vec3
+000036a0                        x 1.0
+000036a4                        y 0.0
+000036a8                        z 0.0
+000036b0                    up::Vec3
+000036b0                        x 0.0
+000036b4                        y 1.0
+000036b8                        z 0.0
+000036c0                    forward::Vec3
+000036c0                        x 0.0
+000036c4                        y 0.0
+000036c8                        z 1.0
+000036d0                    trans::Vec3
+000036d0                        x 0.0
+000036d4                        y 0.0
+000036d8                        z 0.0
+000036e0                ObjectVariation *nullGuid*
+000036e4                StreamRealm StreamRealm_None
+000036e8                RadiosityTypeOverride RadiosityTypeOverride_None
+000036ec                LightmapResolutionScale 0
+000036f0                RenderingOverrides::RenderingOverrides
+000036f0                    ShadowEnable RenderingOverride_Inherit
+000036f4                    DynamicReflectionEnable RenderingOverride_Inherit
+000036f8                    StaticReflectionEnable RenderingOverride_Inherit
+000036fc                ForceSeparateEnlightenSystem False
+000036fd                CastSunShadowEnable True
+000036fe                CastReflectionEnable True
+000036ff                CastEnvmapEnable True
+00003700                Excluded False
+00003710            LocalPlayerId LocalPlayerId_Invalid
+00003714            SubRealm SubRealm_All
+00003720        UIElementTransform::UIElementTransform
+00003720            Rotation::Vec3
+00003720                x 0.0
+00003724                y 0.0
+00003728                z 0.0
+00003730            RotationPivot::Vec3
+00003730                x 0.5
+00003734                y 0.5
+00003738                z 0.0
+00003740            Z 0.0
+00003750        Color::Vec3
+00003750            x 1.0
+00003754            y 1.0
+00003758            z 1.0
+00003760        InstanceName Cog
+00003764        InstanceNameHash 193416302
+00003768        InclusionSettings::UIElementInclusionSettings
+00003768            CustomInclusionCritera *nullArray*
+0000376c            IsSingleplayerLayer True
+0000376d            IsMultiplayerLayer True
+0000376e            IsSDLayer True
+0000376f            IsHDLayer True
+00003770        Size::Vec2
+00003770            x 256.0
+00003774            y 256.0
+00003778        LayoutMode UILayoutMode_AnchorOffset
+0000377c        Offset::UIElementOffset
+0000377c            X -7.0
+00003780            Y 0.0
+00003784        Anchor::UIElementAnchor
+00003784            X 1.0
+00003788            Y 0.0
+0000378c        Position::UIElementOffset
+0000378c            X 0.0
+00003790            Y 0.0
+00003794        Expansion::UIElementRectExpansion
+00003794            X 0.0
+00003798            Y 0.0
+0000379c            Width 0.0
+000037a0            Height 0.0
+000037a4        Alpha 1.0
+000037a8        CodeAccessIdentifier *nullString*
+000037ac        UseElementSize False
+000037b0    BFUIGetPlayerEntityData 00000004
+000037a8        $::EntityData
+000037a8            $::GameObjectData
+000037a8                $::DataBusPeer
+000037a8                    $::GameDataContainer
+000037a8                        $::DataContainer
+000037b0                    Flags 3933574
+000037b4        UpdateAutomatically True
+000037b8    BFUIPlayerVehicleInfoEntityData 00000005
+000037b0        $::EntityData
+000037b0            $::GameObjectData
+000037b0                $::DataBusPeer
+000037b0                    $::GameDataContainer
+000037b0                        $::DataContainer
+000037b8                    Flags 155850283
+000037bc        Player *nullGuid*
+000037c0        UpdateAutomatically True
+000037c4    BFUIVehicleSeatWeaponStatusInfoEntityData 00000006
+000037bc        $::EntityData
+000037bc            $::GameObjectData
+000037bc                $::DataBusPeer
+000037bc                    $::GameDataContainer
+000037bc                        $::DataContainer
+000037c4                    Flags 167625025
+000037c8        WeaponCategory ID_P_CAT_SECONDARY
+000037cc        Seat *nullGuid*
+000037d0        UpdateAutomatically True
+000037d4    BFUIVehicleSeatWeaponStatusInfoEntityData 00000007
+000037cc        $::EntityData
+000037cc            $::GameObjectData
+000037cc                $::DataBusPeer
+000037cc                    $::GameDataContainer
+000037cc                        $::DataContainer
+000037d4                    Flags 167482706
+000037d8        WeaponCategory ID_P_CAT_PRIMARY
+000037dc        Seat *nullGuid*
+000037e0        UpdateAutomatically True
+000037e4    ConditionalFloatEntityData 00000008
+000037dc        $::ConditionalStateEntityData
+000037dc            $::EntityData
+000037dc                $::GameObjectData
+000037dc                    $::DataBusPeer
+000037dc                        $::GameDataContainer
+000037dc                            $::DataContainer
+000037e4                        Flags 143645127
+000037e8            Realm Realm_Client
+000037ec            Condition False
+000037f0        ValueIfTrue 0.0
+000037f4        ValueIfFalse 0.0
+000037f8    ConditionalIntEntityData 00000009
+000037f0        $::ConditionalStateEntityData
+000037f0            $::EntityData
+000037f0                $::GameObjectData
+000037f0                    $::DataBusPeer
+000037f0                        $::GameDataContainer
+000037f0                            $::DataContainer
+000037f8                        Flags 146554080
+000037fc            Realm Realm_Client
+00003800            Condition False
+00003804        ValueIfTrue 0
+00003808        ValueIfFalse 0
+0000380c    ConditionalStringEntityData 0000000a
+00003804        $::ConditionalStateEntityData
+00003804            $::EntityData
+00003804                $::GameObjectData
+00003804                    $::DataBusPeer
+00003804                        $::GameDataContainer
+00003804                            $::DataContainer
+0000380c                        Flags 136422124
+00003810            Realm Realm_Client
+00003814            Condition False
+00003818        ValueIfTrue -
+0000381c        ValueIfFalse *nullString*
+00003820    InterfaceDescriptorData 0000000b
+00003818        $::DynamicDataContainer
+00003818            $::DataContainer
+00003820            Fields::array
+00003c40                member(0)::DataField
+00003c40                    Value Boolean False
+00003c44                    ValueRef *nullGuid*
+00003c48                    Id -141474860
+00003c4c                    AccessType FieldAccessType_Target
+00003c50                member(1)::DataField
+00003c50                    Value Int32 0
+00003c54                    ValueRef *nullGuid*
+00003c58                    Id -141474859
+00003c5c                    AccessType FieldAccessType_Target
+00003824        InputEvents *nullArray*
+00003828        OutputEvents *nullArray*
+0000382c        InputLinks *nullArray*
+00003830        OutputLinks *nullArray*
+00003834    MathEntityData 0000000c
+0000382c        $::EntityData
+0000382c            $::GameObjectData
+0000382c                $::DataBusPeer
+0000382c                    $::GameDataContainer
+0000382c                        $::DataContainer
+00003834                    Flags 161189633
+00003838        Realm Realm_Client
+0000383c        Assembly::MathEntityAssembly
+0000383c            FunctionCalls::array
+00003c74                member(0)::MathEntityFunctionCall
+00003c74                    Parameters::array
+00003c64                        member(0) 0
+00003c68                        member(1) 1
+00003c6c                        member(2) 2
+00003840            Instructions::array
+00003c7c                member(0)::MathEntityInstruction
+00003c7c                    Code MathOpCode_InputB
+00003c80                    Result 0
+00003c84                    Param1 802067860
+00003c88                    Param2 0
+00003c8c                member(1)::MathEntityInstruction
+00003c8c                    Code MathOpCode_InputB
+00003c90                    Result 1
+00003c94                    Param1 2003847954
+00003c98                    Param2 0
+00003c9c                member(2)::MathEntityInstruction
+00003c9c                    Code MathOpCode_InputB
+00003ca0                    Result 2
+00003ca4                    Param1 1162428644
+00003ca8                    Param2 0
+00003cac                member(3)::MathEntityInstruction
+00003cac                    Code MathOpCode_Func
+00003cb0                    Result 0
+00003cb4                    Param1 193418248
+00003cb8                    Param2 0
+00003cbc                member(4)::MathEntityInstruction
+00003cbc                    Code MathOpCode_InputB
+00003cc0                    Result 1
+00003cc4                    Param1 1800255017
+00003cc8                    Param2 0
+00003ccc                member(5)::MathEntityInstruction
+00003ccc                    Code MathOpCode_InputB
+00003cd0                    Result 2
+00003cd4                    Param1 743331807
+00003cd8                    Param2 0
+00003cdc                member(6)::MathEntityInstruction
+00003cdc                    Code MathOpCode_OrB
+00003ce0                    Result 1
+00003ce4                    Param1 1
+00003ce8                    Param2 2
+00003cec                member(7)::MathEntityInstruction
+00003cec                    Code MathOpCode_AndB
+00003cf0                    Result 0
+00003cf4                    Param1 0
+00003cf8                    Param2 1
+00003cfc                member(8)::MathEntityInstruction
+00003cfc                    Code MathOpCode_Return
+00003d00                    Result 0
+00003d04                    Param1 1
+00003d08                    Param2 0
+00003844        EvaluateOnEvent False
+00003848    MathEntityData 0000000d
+00003840        $::EntityData
+00003840            $::GameObjectData
+00003840                $::DataBusPeer
+00003840                    $::GameDataContainer
+00003840                        $::DataContainer
+00003848                    Flags 140239376
+0000384c        Realm Realm_Client
+00003850        Assembly::MathEntityAssembly
+00003850            FunctionCalls *nullArray*
+00003854            Instructions::array
+00003d10                member(0)::MathEntityInstruction
+00003d10                    Code MathOpCode_InputB
+00003d14                    Result 0
+00003d18                    Param1 1803341031
+00003d1c                    Param2 0
+00003d20                member(1)::MathEntityInstruction
+00003d20                    Code MathOpCode_InputB
+00003d24                    Result 1
+00003d28                    Param1 2113819729
+00003d2c                    Param2 0
+00003d30                member(2)::MathEntityInstruction
+00003d30                    Code MathOpCode_AndB
+00003d34                    Result 0
+00003d38                    Param1 0
+00003d3c                    Param2 1
+00003d40                member(3)::MathEntityInstruction
+00003d40                    Code MathOpCode_Return
+00003d44                    Result 0
+00003d48                    Param1 1
+00003d4c                    Param2 0
+00003858        EvaluateOnEvent False
+0000385c    MathEntityData 0000000e
+00003854        $::EntityData
+00003854            $::GameObjectData
+00003854                $::DataBusPeer
+00003854                    $::GameDataContainer
+00003854                        $::DataContainer
+0000385c                    Flags 143971435
+00003860        Realm Realm_Client
+00003864        Assembly::MathEntityAssembly
+00003864            FunctionCalls *nullArray*
+00003868            Instructions::array
+00003d54                member(0)::MathEntityInstruction
+00003d54                    Code MathOpCode_InputI
+00003d58                    Result 0
+00003d5c                    Param1 177629
+00003d60                    Param2 0
+00003d64                member(1)::MathEntityInstruction
+00003d64                    Code MathOpCode_ConstI
+00003d68                    Result 1
+00003d6c                    Param1 0
+00003d70                    Param2 0
+00003d74                member(2)::MathEntityInstruction
+00003d74                    Code MathOpCode_LessI
+00003d78                    Result 0
+00003d7c                    Param1 0
+00003d80                    Param2 1
+00003d84                member(3)::MathEntityInstruction
+00003d84                    Code MathOpCode_InputB
+00003d88                    Result 1
+00003d8c                    Param1 1800255017
+00003d90                    Param2 0
+00003d94                member(4)::MathEntityInstruction
+00003d94                    Code MathOpCode_NotB
+00003d98                    Result 1
+00003d9c                    Param1 1
+00003da0                    Param2 0
+00003da4                member(5)::MathEntityInstruction
+00003da4                    Code MathOpCode_InputB
+00003da8                    Result 2
+00003dac                    Param1 743331807
+00003db0                    Param2 0
+00003db4                member(6)::MathEntityInstruction
+00003db4                    Code MathOpCode_NotB
+00003db8                    Result 2
+00003dbc                    Param1 2
+00003dc0                    Param2 0
+00003dc4                member(7)::MathEntityInstruction
+00003dc4                    Code MathOpCode_AndB
+00003dc8                    Result 1
+00003dcc                    Param1 1
+00003dd0                    Param2 2
+00003dd4                member(8)::MathEntityInstruction
+00003dd4                    Code MathOpCode_OrB
+00003dd8                    Result 0
+00003ddc                    Param1 0
+00003de0                    Param2 1
+00003de4                member(9)::MathEntityInstruction
+00003de4                    Code MathOpCode_Return
+00003de8                    Result 0
+00003dec                    Param1 1
+00003df0                    Param2 0
+0000386c        EvaluateOnEvent False
+00003870    NotEntityData 0000000f
+00003868        $::EntityData
+00003868            $::GameObjectData
+00003868                $::DataBusPeer
+00003868                    $::GameDataContainer
+00003868                        $::DataContainer
+00003870                    Flags 159709068
+00003874        Realm Realm_Client
+00003878        In False
+0000387c    PropertyCastEntityData 00000010
+00003874        $::EntityData
+00003874            $::GameObjectData
+00003874                $::DataBusPeer
+00003874                    $::GameDataContainer
+00003874                        $::DataContainer
+0000387c                    Flags 152104326
+00003880        Realm Realm_Client
+00003884        Precision -5
+00003888        FloatValue 0.0
+0000388c        IntValue 0
+00003890        UintValue 0
+00003894        StringValue *nullString*
+00003898        BoolValue False
+0000389c    SchematicChannelEntityData 00000011
+00003894        $::EntityData
+00003894            $::GameObjectData
+00003894                $::DataBusPeer
+00003894                    $::GameDataContainer
+00003894                        $::DataContainer
+0000389c                    Flags 23067510
+000038a0        Realm Realm_Client
+000038a4        Channel UI/InGame/Shared/Logic/UIVehicleEntityChannel/b6c7393fe17ec4c80d3a19b399e173da
+000038a8        InputProperties *nullArray*
+000038ac        InputRefProperties *nullArray*
+000038b0        OutputProperties::array
+00003df8            member(0) 2
+00003dfc            member(1) 3
+000038b4        OutputRefProperties *nullArray*
+000038b8    UIElementLayerEntityData 00000012
+000038b0        $::EntityData
+000038b0            $::GameObjectData
+000038b0                $::DataBusPeer
+000038b0                    $::GameDataContainer
+000038b0                        $::DataContainer
+000038b8                    Flags 0
+000038bc        LayerName New Layer
+000038c0        Elements::array
+00003e04            member(0) 00000000
+00003e08            member(1) 00000001
+00003e0c            member(2) 00000002
+00003e10            member(3) 00000003
+000038c4        InclusionSettings::UIElementInclusionSettings
+000038c4            CustomInclusionCritera *nullArray*
+000038c8            IsSingleplayerLayer True
+000038c9            IsMultiplayerLayer True
+000038ca            IsSDLayer True
+000038cb            IsHDLayer True
+000038cc        Visible True
+000038d0    UIWidgetEntityData 00000013
+000038c8        $::EntityData
+000038c8            $::GameObjectData
+000038c8                $::DataBusPeer
+000038c8                    $::GameDataContainer
+000038c8                        $::DataContainer
+000038d0                    Flags 195873775
+000038d4        Size::UIElementSize
+000038d4            X 178.0
+000038d8            Y 54.0
+000038dc        Layers::array
+00003e18            member(0) 00000012
+000038e0        TextureMappings::array
+00003e20            member(0) UI/Shared/TextureMappings/HudSoldierVehicleInfoTextures/1d0487c1b0f20947802f52736a7e3e61
+000038e4        Components::array
+00003e28            member(0) 00000011
+00003e2c            member(1) 00000010
+00003e30            member(2) 0000000f
+00003e34            member(3) 0000000e
+00003e38            member(4) 00000004
+00003e3c            member(5) 00000005
+00003e40            member(6) 00000007
+00003e44            member(7) 00000006
+00003e48            member(8) 00000009
+00003e4c            member(9) 0000000d
+00003e50            member(10) 0000000c
+00003e54            member(11) 00000008
+00003e58            member(12) 0000000a
+000038e8        Visible True

@@ -1,0 +1,998 @@
+000010b0    EffectBlueprint 7aa7fd8ba8e0a59a964edf31203159fb
+000010a8        $::ObjectBlueprint
+000010a8            $::Blueprint
+000010a8                $::EntityBusData
+000010a8                    $::DataBusData
+000010a8                        $::Asset
+000010a8                            $::DataContainer
+000010b0                            Name FX/Levels/SP_TheRunner/FX_Artillery_Expl_Water
+000010b4                        PropertyConnections *nullArray*
+000010b8                        LinkConnections *nullArray*
+000010bc                        Interface *nullGuid*
+000010c0                        Flags 0
+000010c4                    EventConnections *nullArray*
+000010c8            Object 00000000
+000010cc        TimeDeltaType TimeDeltaType_None
+000010d0    EffectEntityData 00000000
+000010d0        $::SpatialEntityData
+000010d0            $::EntityData
+000010d0                $::GameObjectData
+000010d0                    $::DataBusPeer
+000010d0                        $::GameDataContainer
+000010d0                            $::DataContainer
+000010d8                        Flags 186984409
+000010e0            Transform::LinearTransform
+000010e0                right::Vec3
+000010e0                    x 1.0
+000010e4                    y 0.0
+000010e8                    z 0.0
+000010f0                up::Vec3
+000010f0                    x 0.0
+000010f4                    y 1.0
+000010f8                    z 0.0
+00001100                forward::Vec3
+00001100                    x 0.0
+00001104                    y 0.0
+00001108                    z 1.0
+00001110                trans::Vec3
+00001110                    x 0.0
+00001114                    y 0.0
+00001118                    z 0.0
+00001120        Components::array
+00001c54            member(0) 0000000b
+00001c58            member(1) 00000006
+00001c5c            member(2) 0000000d
+00001c60            member(3) 00000007
+00001c64            member(4) 00000005
+00001c68            member(5) 0000000e
+00001c6c            member(6) 00000008
+00001c70            member(7) 00000010
+00001c74            member(8) 00000003
+00001c78            member(9) 0000000a
+00001c7c            member(10) 0000000c
+00001c80            member(11) 00000001
+00001c84            member(12) 00000009
+00001c88            member(13) 0000000f
+00001c8c            member(14) 00000002
+00001c90            member(15) 00000004
+00001124        MaxActiveInstanceCount::QualityScalableInt
+00001124            Low 30
+00001128            Medium 30
+0000112c            High 30
+00001130            Ultra 30
+00001134        CullDistance::QualityScalableFloat
+00001134            Low 0.0
+00001138            Medium 0.0
+0000113c            High 0.0
+00001140            Ultra 0.0
+00001144        StartDelay 0.0
+00001148        KillWhenDistanceCulled False
+00001149        KillByWater False
+0000114a        ResetInstanceWhenStarted True
+0000114b        AttachToSpawnSurface False
+0000114c        Enable::QualityScalableBool
+0000114c            Low True
+0000114d            Medium True
+0000114e            High True
+0000114f            Ultra True
+00001150        OverrideDrawOrder False
+00001151        UseLowFrequencyUpdate False
+00001160    EmitterEntityData 00000001
+00001160        $::ChildEffectEntityData
+00001160            $::SpatialEntityData
+00001160                $::EntityData
+00001160                    $::GameObjectData
+00001160                        $::DataBusPeer
+00001160                            $::GameDataContainer
+00001160                                $::DataContainer
+00001168                            Flags 15889417
+00001170                Transform::LinearTransform
+00001170                    right::Vec3
+00001170                        x 1.0
+00001174                        y 0.0
+00001178                        z 0.0
+00001180                    up::Vec3
+00001180                        x 0.0
+00001184                        y 1.0
+00001188                        z 0.0
+00001190                    forward::Vec3
+00001190                        x 0.0
+00001194                        y 0.0
+00001198                        z 1.0
+000011a0                    trans::Vec3
+000011a0                        x 0.0
+000011a4                        y 0.0
+000011a8                        z 0.0
+000011b0            Components *nullArray*
+000011b4            MaxActiveInstanceCount::QualityScalableInt
+000011b4                Low 30
+000011b8                Medium 30
+000011bc                High 30
+000011c0                Ultra 30
+000011c4            CullDistance::QualityScalableFloat
+000011c4                Low 0.0
+000011c8                Medium 0.0
+000011cc                High 0.0
+000011d0                Ultra 0.0
+000011d4            StartDelay 1.0
+000011d8            KillWhenDistanceCulled True
+000011d9            ResetInstanceWhenStarted True
+000011da            AttachToSpawnSurface False
+000011db            Enable::QualityScalableBool
+000011db                Low True
+000011dc                Medium True
+000011dd                High True
+000011de                Ultra True
+000011df            OverrideDrawOrder False
+000011e0        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_dropletscamprox/792bdbe581962646a2275abe817f1c38
+000011e4        SpawnProbability::QualityScalableFloat
+000011e4            Low 1.0
+000011e8            Medium 1.0
+000011ec            High 1.0
+000011f0            Ultra 1.0
+000011f4        MaxNearbyInstanceCount 0
+000011f8        NearbyRadius 1.0
+000011fc        EmitterTags *nullArray*
+00001200        DrawOrderSlot 128
+00001201        LocalPlayerOnly False
+00001210    EmitterEntityData 00000002
+00001210        $::ChildEffectEntityData
+00001210            $::SpatialEntityData
+00001210                $::EntityData
+00001210                    $::GameObjectData
+00001210                        $::DataBusPeer
+00001210                            $::GameDataContainer
+00001210                                $::DataContainer
+00001218                            Flags 9497630
+00001220                Transform::LinearTransform
+00001220                    right::Vec3
+00001220                        x 1.0
+00001224                        y 0.0
+00001228                        z 0.0
+00001230                    up::Vec3
+00001230                        x 0.0
+00001234                        y 1.0
+00001238                        z 0.0
+00001240                    forward::Vec3
+00001240                        x 0.0
+00001244                        y 0.0
+00001248                        z 1.0
+00001250                    trans::Vec3
+00001250                        x 0.0
+00001254                        y 0.0
+00001258                        z 0.0
+00001260            Components *nullArray*
+00001264            MaxActiveInstanceCount::QualityScalableInt
+00001264                Low 30
+00001268                Medium 30
+0000126c                High 30
+00001270                Ultra 30
+00001274            CullDistance::QualityScalableFloat
+00001274                Low 0.0
+00001278                Medium 0.0
+0000127c                High 0.0
+00001280                Ultra 0.0
+00001284            StartDelay 0.0
+00001288            KillWhenDistanceCulled False
+00001289            ResetInstanceWhenStarted True
+0000128a            AttachToSpawnSurface False
+0000128b            Enable::QualityScalableBool
+0000128b                Low True
+0000128c                Medium True
+0000128d                High True
+0000128e                Ultra True
+0000128f            OverrideDrawOrder False
+00001290        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_directionalblast/b9b234cde755c345896e77e2368275d9
+00001294        SpawnProbability::QualityScalableFloat
+00001294            Low 0.20000000298
+00001298            Medium 0.20000000298
+0000129c            High 0.20000000298
+000012a0            Ultra 0.20000000298
+000012a4        MaxNearbyInstanceCount 0
+000012a8        NearbyRadius 1.0
+000012ac        EmitterTags *nullArray*
+000012b0        DrawOrderSlot 128
+000012b1        LocalPlayerOnly False
+000012c0    EmitterEntityData 00000003
+000012c0        $::ChildEffectEntityData
+000012c0            $::SpatialEntityData
+000012c0                $::EntityData
+000012c0                    $::GameObjectData
+000012c0                        $::DataBusPeer
+000012c0                            $::GameDataContainer
+000012c0                                $::DataContainer
+000012c8                            Flags 15474221
+000012d0                Transform::LinearTransform
+000012d0                    right::Vec3
+000012d0                        x 1.0
+000012d4                        y 0.0
+000012d8                        z 0.0
+000012e0                    up::Vec3
+000012e0                        x 0.0
+000012e4                        y 1.78813934326e-07
+000012e8                        z 0.999999940395
+000012f0                    forward::Vec3
+000012f0                        x 0.0
+000012f4                        y -0.999999940395
+000012f8                        z 1.78813934326e-07
+00001300                    trans::Vec3
+00001300                        x 0.0
+00001304                        y 0.10000000149
+00001308                        z 0.0
+00001310            Components *nullArray*
+00001314            MaxActiveInstanceCount::QualityScalableInt
+00001314                Low 30
+00001318                Medium 30
+0000131c                High 30
+00001320                Ultra 30
+00001324            CullDistance::QualityScalableFloat
+00001324                Low 0.0
+00001328                Medium 0.0
+0000132c                High 0.0
+00001330                Ultra 0.0
+00001334            StartDelay 1.0
+00001338            KillWhenDistanceCulled False
+00001339            ResetInstanceWhenStarted True
+0000133a            AttachToSpawnSurface False
+0000133b            Enable::QualityScalableBool
+0000133b                Low True
+0000133c                Medium True
+0000133d                High True
+0000133e                Ultra True
+0000133f            OverrideDrawOrder False
+00001340        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_ripples/db4f227dc568b74cb51b4c619a76596d
+00001344        SpawnProbability::QualityScalableFloat
+00001344            Low 1.0
+00001348            Medium 1.0
+0000134c            High 1.0
+00001350            Ultra 1.0
+00001354        MaxNearbyInstanceCount 0
+00001358        NearbyRadius 1.0
+0000135c        EmitterTags *nullArray*
+00001360        DrawOrderSlot 128
+00001361        LocalPlayerOnly False
+00001370    EmitterEntityData 00000004
+00001370        $::ChildEffectEntityData
+00001370            $::SpatialEntityData
+00001370                $::EntityData
+00001370                    $::GameObjectData
+00001370                        $::DataBusPeer
+00001370                            $::GameDataContainer
+00001370                                $::DataContainer
+00001378                            Flags 12464434
+00001380                Transform::LinearTransform
+00001380                    right::Vec3
+00001380                        x 1.0
+00001384                        y 0.0
+00001388                        z 0.0
+00001390                    up::Vec3
+00001390                        x 0.0
+00001394                        y 1.0
+00001398                        z 0.0
+000013a0                    forward::Vec3
+000013a0                        x 0.0
+000013a4                        y 0.0
+000013a8                        z 1.0
+000013b0                    trans::Vec3
+000013b0                        x 0.0
+000013b4                        y 8.69160270691
+000013b8                        z 0.0
+000013c0            Components *nullArray*
+000013c4            MaxActiveInstanceCount::QualityScalableInt
+000013c4                Low 30
+000013c8                Medium 30
+000013cc                High 30
+000013d0                Ultra 30
+000013d4            CullDistance::QualityScalableFloat
+000013d4                Low 0.0
+000013d8                Medium 0.0
+000013dc                High 0.0
+000013e0                Ultra 0.0
+000013e4            StartDelay 1.5
+000013e8            KillWhenDistanceCulled False
+000013e9            ResetInstanceWhenStarted True
+000013ea            AttachToSpawnSurface False
+000013eb            Enable::QualityScalableBool
+000013eb                Low True
+000013ec                Medium True
+000013ed                High True
+000013ee                Ultra True
+000013ef            OverrideDrawOrder False
+000013f0        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_column/1bcbd1e0f8b21049bd4d6025d58bab03
+000013f4        SpawnProbability::QualityScalableFloat
+000013f4            Low 1.0
+000013f8            Medium 1.0
+000013fc            High 1.0
+00001400            Ultra 1.0
+00001404        MaxNearbyInstanceCount 0
+00001408        NearbyRadius 1.0
+0000140c        EmitterTags *nullArray*
+00001410        DrawOrderSlot 128
+00001411        LocalPlayerOnly False
+00001420    EmitterEntityData 00000005
+00001420        $::ChildEffectEntityData
+00001420            $::SpatialEntityData
+00001420                $::EntityData
+00001420                    $::GameObjectData
+00001420                        $::DataBusPeer
+00001420                            $::GameDataContainer
+00001420                                $::DataContainer
+00001428                            Flags 157495
+00001430                Transform::LinearTransform
+00001430                    right::Vec3
+00001430                        x 1.0
+00001434                        y 0.0
+00001438                        z 0.0
+00001440                    up::Vec3
+00001440                        x 0.0
+00001444                        y 1.0
+00001448                        z 0.0
+00001450                    forward::Vec3
+00001450                        x 0.0
+00001454                        y 0.0
+00001458                        z 1.0
+00001460                    trans::Vec3
+00001460                        x 0.0
+00001464                        y 0.0
+00001468                        z 0.0
+00001470            Components *nullArray*
+00001474            MaxActiveInstanceCount::QualityScalableInt
+00001474                Low 30
+00001478                Medium 30
+0000147c                High 30
+00001480                Ultra 30
+00001484            CullDistance::QualityScalableFloat
+00001484                Low 0.0
+00001488                Medium 0.0
+0000148c                High 0.0
+00001490                Ultra 0.0
+00001494            StartDelay 0.0
+00001498            KillWhenDistanceCulled False
+00001499            ResetInstanceWhenStarted True
+0000149a            AttachToSpawnSurface False
+0000149b            Enable::QualityScalableBool
+0000149b                Low True
+0000149c                Medium True
+0000149d                High True
+0000149e                Ultra True
+0000149f            OverrideDrawOrder False
+000014a0        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_sprayrise/31bcb02125635e469cdd7f109a546ee4
+000014a4        SpawnProbability::QualityScalableFloat
+000014a4            Low 1.0
+000014a8            Medium 1.0
+000014ac            High 1.0
+000014b0            Ultra 1.0
+000014b4        MaxNearbyInstanceCount 0
+000014b8        NearbyRadius 1.0
+000014bc        EmitterTags *nullArray*
+000014c0        DrawOrderSlot 128
+000014c1        LocalPlayerOnly False
+000014d0    EmitterEntityData 00000006
+000014d0        $::ChildEffectEntityData
+000014d0            $::SpatialEntityData
+000014d0                $::EntityData
+000014d0                    $::GameObjectData
+000014d0                        $::DataBusPeer
+000014d0                            $::GameDataContainer
+000014d0                                $::DataContainer
+000014d8                            Flags 19429182
+000014e0                Transform::LinearTransform
+000014e0                    right::Vec3
+000014e0                        x 1.0
+000014e4                        y 0.0
+000014e8                        z 0.0
+000014f0                    up::Vec3
+000014f0                        x 0.0
+000014f4                        y 1.0
+000014f8                        z 0.0
+00001500                    forward::Vec3
+00001500                        x 0.0
+00001504                        y 0.0
+00001508                        z 1.0
+00001510                    trans::Vec3
+00001510                        x 0.0
+00001514                        y 0.0
+00001518                        z 0.0
+00001520            Components *nullArray*
+00001524            MaxActiveInstanceCount::QualityScalableInt
+00001524                Low 30
+00001528                Medium 30
+0000152c                High 30
+00001530                Ultra 30
+00001534            CullDistance::QualityScalableFloat
+00001534                Low 0.0
+00001538                Medium 0.0
+0000153c                High 0.0
+00001540                Ultra 0.0
+00001544            StartDelay 0.0
+00001548            KillWhenDistanceCulled False
+00001549            ResetInstanceWhenStarted True
+0000154a            AttachToSpawnSurface False
+0000154b            Enable::QualityScalableBool
+0000154b                Low True
+0000154c                Medium True
+0000154d                High True
+0000154e                Ultra True
+0000154f            OverrideDrawOrder False
+00001550        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_arms_center/8cbea0212cbd2d4fabd7a26f1db602c8
+00001554        SpawnProbability::QualityScalableFloat
+00001554            Low 1.0
+00001558            Medium 1.0
+0000155c            High 1.0
+00001560            Ultra 1.0
+00001564        MaxNearbyInstanceCount 0
+00001568        NearbyRadius 1.0
+0000156c        EmitterTags *nullArray*
+00001570        DrawOrderSlot 128
+00001571        LocalPlayerOnly False
+00001580    EmitterEntityData 00000007
+00001580        $::ChildEffectEntityData
+00001580            $::SpatialEntityData
+00001580                $::EntityData
+00001580                    $::GameObjectData
+00001580                        $::DataBusPeer
+00001580                            $::GameDataContainer
+00001580                                $::DataContainer
+00001588                            Flags 25452393
+00001590                Transform::LinearTransform
+00001590                    right::Vec3
+00001590                        x 1.0
+00001594                        y 0.0
+00001598                        z 0.0
+000015a0                    up::Vec3
+000015a0                        x 0.0
+000015a4                        y 1.0
+000015a8                        z 0.0
+000015b0                    forward::Vec3
+000015b0                        x 0.0
+000015b4                        y 0.0
+000015b8                        z 1.0
+000015c0                    trans::Vec3
+000015c0                        x 0.0
+000015c4                        y 0.0
+000015c8                        z 0.0
+000015d0            Components *nullArray*
+000015d4            MaxActiveInstanceCount::QualityScalableInt
+000015d4                Low 30
+000015d8                Medium 30
+000015dc                High 30
+000015e0                Ultra 30
+000015e4            CullDistance::QualityScalableFloat
+000015e4                Low 0.0
+000015e8                Medium 0.0
+000015ec                High 0.0
+000015f0                Ultra 0.0
+000015f4            StartDelay 0.0
+000015f8            KillWhenDistanceCulled False
+000015f9            ResetInstanceWhenStarted True
+000015fa            AttachToSpawnSurface False
+000015fb            Enable::QualityScalableBool
+000015fb                Low True
+000015fc                Medium True
+000015fd                High True
+000015fe                Ultra True
+000015ff            OverrideDrawOrder False
+00001600        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_spraylinger/549e95f8feac5147a910018b2d7ba627
+00001604        SpawnProbability::QualityScalableFloat
+00001604            Low 1.0
+00001608            Medium 1.0
+0000160c            High 1.0
+00001610            Ultra 1.0
+00001614        MaxNearbyInstanceCount 0
+00001618        NearbyRadius 1.0
+0000161c        EmitterTags *nullArray*
+00001620        DrawOrderSlot 128
+00001621        LocalPlayerOnly False
+00001630    EmitterEntityData 00000008
+00001630        $::ChildEffectEntityData
+00001630            $::SpatialEntityData
+00001630                $::EntityData
+00001630                    $::GameObjectData
+00001630                        $::DataBusPeer
+00001630                            $::GameDataContainer
+00001630                                $::DataContainer
+00001638                            Flags 18007938
+00001640                Transform::LinearTransform
+00001640                    right::Vec3
+00001640                        x 1.0
+00001644                        y 0.0
+00001648                        z 0.0
+00001650                    up::Vec3
+00001650                        x 0.0
+00001654                        y 1.0
+00001658                        z 0.0
+00001660                    forward::Vec3
+00001660                        x 0.0
+00001664                        y 0.0
+00001668                        z 1.0
+00001670                    trans::Vec3
+00001670                        x 0.0
+00001674                        y 12.9686050415
+00001678                        z 0.0
+00001680            Components *nullArray*
+00001684            MaxActiveInstanceCount::QualityScalableInt
+00001684                Low 30
+00001688                Medium 30
+0000168c                High 30
+00001690                Ultra 30
+00001694            CullDistance::QualityScalableFloat
+00001694                Low 0.0
+00001698                Medium 0.0
+0000169c                High 0.0
+000016a0                Ultra 0.0
+000016a4            StartDelay 3.0
+000016a8            KillWhenDistanceCulled False
+000016a9            ResetInstanceWhenStarted True
+000016aa            AttachToSpawnSurface False
+000016ab            Enable::QualityScalableBool
+000016ab                Low True
+000016ac                Medium True
+000016ad                High True
+000016ae                Ultra True
+000016af            OverrideDrawOrder False
+000016b0        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_columncap/91429c31c09dc642a628902421cd77bf
+000016b4        SpawnProbability::QualityScalableFloat
+000016b4            Low 1.0
+000016b8            Medium 1.0
+000016bc            High 1.0
+000016c0            Ultra 1.0
+000016c4        MaxNearbyInstanceCount 0
+000016c8        NearbyRadius 1.0
+000016cc        EmitterTags *nullArray*
+000016d0        DrawOrderSlot 128
+000016d1        LocalPlayerOnly False
+000016e0    EmitterEntityData 00000009
+000016e0        $::ChildEffectEntityData
+000016e0            $::SpatialEntityData
+000016e0                $::EntityData
+000016e0                    $::GameObjectData
+000016e0                        $::DataBusPeer
+000016e0                            $::GameDataContainer
+000016e0                                $::DataContainer
+000016e8                            Flags 32233642
+000016f0                Transform::LinearTransform
+000016f0                    right::Vec3
+000016f0                        x 1.0
+000016f4                        y 0.0
+000016f8                        z 0.0
+00001700                    up::Vec3
+00001700                        x 0.0
+00001704                        y 1.0
+00001708                        z 0.0
+00001710                    forward::Vec3
+00001710                        x 0.0
+00001714                        y 0.0
+00001718                        z 1.0
+00001720                    trans::Vec3
+00001720                        x 0.0
+00001724                        y 0.0
+00001728                        z 0.0
+00001730            Components *nullArray*
+00001734            MaxActiveInstanceCount::QualityScalableInt
+00001734                Low 30
+00001738                Medium 30
+0000173c                High 30
+00001740                Ultra 30
+00001744            CullDistance::QualityScalableFloat
+00001744                Low 0.0
+00001748                Medium 0.0
+0000174c                High 0.0
+00001750                Ultra 0.0
+00001754            StartDelay 1.0
+00001758            KillWhenDistanceCulled True
+00001759            ResetInstanceWhenStarted True
+0000175a            AttachToSpawnSurface False
+0000175b            Enable::QualityScalableBool
+0000175b                Low True
+0000175c                Medium True
+0000175d                High True
+0000175e                Ultra True
+0000175f            OverrideDrawOrder False
+00001760        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_closeupcamprox/24976cdf0cc3914a863eda4722be7a2e
+00001764        SpawnProbability::QualityScalableFloat
+00001764            Low 1.0
+00001768            Medium 1.0
+0000176c            High 1.0
+00001770            Ultra 1.0
+00001774        MaxNearbyInstanceCount 0
+00001778        NearbyRadius 1.0
+0000177c        EmitterTags *nullArray*
+00001780        DrawOrderSlot 128
+00001781        LocalPlayerOnly False
+00001790    EmitterEntityData 0000000a
+00001790        $::ChildEffectEntityData
+00001790            $::SpatialEntityData
+00001790                $::EntityData
+00001790                    $::GameObjectData
+00001790                        $::DataBusPeer
+00001790                            $::GameDataContainer
+00001790                                $::DataContainer
+00001798                            Flags 13490358
+000017a0                Transform::LinearTransform
+000017a0                    right::Vec3
+000017a0                        x 1.0
+000017a4                        y 0.0
+000017a8                        z 0.0
+000017b0                    up::Vec3
+000017b0                        x 0.0
+000017b4                        y 1.78813934326e-07
+000017b8                        z 0.999999940395
+000017c0                    forward::Vec3
+000017c0                        x 0.0
+000017c4                        y -0.999999940395
+000017c8                        z 1.78813934326e-07
+000017d0                    trans::Vec3
+000017d0                        x 0.0
+000017d4                        y 0.10000000149
+000017d8                        z 0.0
+000017e0            Components *nullArray*
+000017e4            MaxActiveInstanceCount::QualityScalableInt
+000017e4                Low 30
+000017e8                Medium 30
+000017ec                High 30
+000017f0                Ultra 30
+000017f4            CullDistance::QualityScalableFloat
+000017f4                Low 0.0
+000017f8                Medium 0.0
+000017fc                High 0.0
+00001800                Ultra 0.0
+00001804            StartDelay 0.0
+00001808            KillWhenDistanceCulled False
+00001809            ResetInstanceWhenStarted True
+0000180a            AttachToSpawnSurface False
+0000180b            Enable::QualityScalableBool
+0000180b                Low True
+0000180c                Medium True
+0000180d                High True
+0000180e                Ultra True
+0000180f            OverrideDrawOrder False
+00001810        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_shockwave/83604d574dd87f46bbbb371d99dcfc9b
+00001814        SpawnProbability::QualityScalableFloat
+00001814            Low 0.600000023842
+00001818            Medium 0.600000023842
+0000181c            High 0.600000023842
+00001820            Ultra 0.600000023842
+00001824        MaxNearbyInstanceCount 0
+00001828        NearbyRadius 1.0
+0000182c        EmitterTags *nullArray*
+00001830        DrawOrderSlot 128
+00001831        LocalPlayerOnly False
+00001840    EmitterEntityData 0000000b
+00001840        $::ChildEffectEntityData
+00001840            $::SpatialEntityData
+00001840                $::EntityData
+00001840                    $::GameObjectData
+00001840                        $::DataBusPeer
+00001840                            $::GameDataContainer
+00001840                                $::DataContainer
+00001848                            Flags 31777742
+00001850                Transform::LinearTransform
+00001850                    right::Vec3
+00001850                        x 1.0
+00001854                        y 0.0
+00001858                        z 0.0
+00001860                    up::Vec3
+00001860                        x 0.0
+00001864                        y 1.0
+00001868                        z 0.0
+00001870                    forward::Vec3
+00001870                        x 0.0
+00001874                        y 0.0
+00001878                        z 1.0
+00001880                    trans::Vec3
+00001880                        x 0.0
+00001884                        y 0.0
+00001888                        z 0.0
+00001890            Components *nullArray*
+00001894            MaxActiveInstanceCount::QualityScalableInt
+00001894                Low 30
+00001898                Medium 30
+0000189c                High 30
+000018a0                Ultra 30
+000018a4            CullDistance::QualityScalableFloat
+000018a4                Low 0.0
+000018a8                Medium 0.0
+000018ac                High 0.0
+000018b0                Ultra 0.0
+000018b4            StartDelay 0.0
+000018b8            KillWhenDistanceCulled False
+000018b9            ResetInstanceWhenStarted True
+000018ba            AttachToSpawnSurface False
+000018bb            Enable::QualityScalableBool
+000018bb                Low True
+000018bc                Medium True
+000018bd                High True
+000018be                Ultra True
+000018bf            OverrideDrawOrder False
+000018c0        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_arms/30ac21eefdf2364cb7c8d510b51c6af5
+000018c4        SpawnProbability::QualityScalableFloat
+000018c4            Low 1.0
+000018c8            Medium 1.0
+000018cc            High 1.0
+000018d0            Ultra 1.0
+000018d4        MaxNearbyInstanceCount 0
+000018d8        NearbyRadius 1.0
+000018dc        EmitterTags *nullArray*
+000018e0        DrawOrderSlot 128
+000018e1        LocalPlayerOnly False
+000018f0    EmitterEntityData 0000000c
+000018f0        $::ChildEffectEntityData
+000018f0            $::SpatialEntityData
+000018f0                $::EntityData
+000018f0                    $::GameObjectData
+000018f0                        $::DataBusPeer
+000018f0                            $::GameDataContainer
+000018f0                                $::DataContainer
+000018f8                            Flags 29966288
+00001900                Transform::LinearTransform
+00001900                    right::Vec3
+00001900                        x 1.0
+00001904                        y 0.0
+00001908                        z 0.0
+00001910                    up::Vec3
+00001910                        x 0.0
+00001914                        y 1.0
+00001918                        z 0.0
+00001920                    forward::Vec3
+00001920                        x 0.0
+00001924                        y 0.0
+00001928                        z 1.0
+00001930                    trans::Vec3
+00001930                        x 0.0
+00001934                        y 0.0
+00001938                        z 0.0
+00001940            Components *nullArray*
+00001944            MaxActiveInstanceCount::QualityScalableInt
+00001944                Low 30
+00001948                Medium 30
+0000194c                High 30
+00001950                Ultra 30
+00001954            CullDistance::QualityScalableFloat
+00001954                Low 0.0
+00001958                Medium 0.0
+0000195c                High 0.0
+00001960                Ultra 0.0
+00001964            StartDelay 1.0
+00001968            KillWhenDistanceCulled True
+00001969            ResetInstanceWhenStarted True
+0000196a            AttachToSpawnSurface False
+0000196b            Enable::QualityScalableBool
+0000196b                Low True
+0000196c                Medium True
+0000196d                High True
+0000196e                Ultra True
+0000196f            OverrideDrawOrder False
+00001970        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_fill_camprox/8f887f7a62149a4e9d388f3069ff95ef
+00001974        SpawnProbability::QualityScalableFloat
+00001974            Low 1.0
+00001978            Medium 1.0
+0000197c            High 1.0
+00001980            Ultra 1.0
+00001984        MaxNearbyInstanceCount 0
+00001988        NearbyRadius 1.0
+0000198c        EmitterTags *nullArray*
+00001990        DrawOrderSlot 128
+00001991        LocalPlayerOnly False
+000019a0    EmitterEntityData 0000000d
+000019a0        $::ChildEffectEntityData
+000019a0            $::SpatialEntityData
+000019a0                $::EntityData
+000019a0                    $::GameObjectData
+000019a0                        $::DataBusPeer
+000019a0                            $::GameDataContainer
+000019a0                                $::DataContainer
+000019a8                            Flags 21490152
+000019b0                Transform::LinearTransform
+000019b0                    right::Vec3
+000019b0                        x 1.0
+000019b4                        y 0.0
+000019b8                        z 0.0
+000019c0                    up::Vec3
+000019c0                        x 0.0
+000019c4                        y 1.0
+000019c8                        z 0.0
+000019d0                    forward::Vec3
+000019d0                        x 0.0
+000019d4                        y 0.0
+000019d8                        z 1.0
+000019e0                    trans::Vec3
+000019e0                        x 0.0
+000019e4                        y 0.0
+000019e8                        z 0.0
+000019f0            Components *nullArray*
+000019f4            MaxActiveInstanceCount::QualityScalableInt
+000019f4                Low 30
+000019f8                Medium 30
+000019fc                High 30
+00001a00                Ultra 30
+00001a04            CullDistance::QualityScalableFloat
+00001a04                Low 0.0
+00001a08                Medium 0.0
+00001a0c                High 0.0
+00001a10                Ultra 0.0
+00001a14            StartDelay 0.0
+00001a18            KillWhenDistanceCulled False
+00001a19            ResetInstanceWhenStarted True
+00001a1a            AttachToSpawnSurface False
+00001a1b            Enable::QualityScalableBool
+00001a1b                Low True
+00001a1c                Medium True
+00001a1d                High True
+00001a1e                Ultra True
+00001a1f            OverrideDrawOrder False
+00001a20        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_base/d25a0711aa104f4dbff56aa0c741857d
+00001a24        SpawnProbability::QualityScalableFloat
+00001a24            Low 1.0
+00001a28            Medium 1.0
+00001a2c            High 1.0
+00001a30            Ultra 1.0
+00001a34        MaxNearbyInstanceCount 0
+00001a38        NearbyRadius 1.0
+00001a3c        EmitterTags *nullArray*
+00001a40        DrawOrderSlot 128
+00001a41        LocalPlayerOnly False
+00001a50    EmitterEntityData 0000000e
+00001a50        $::ChildEffectEntityData
+00001a50            $::SpatialEntityData
+00001a50                $::EntityData
+00001a50                    $::GameObjectData
+00001a50                        $::DataBusPeer
+00001a50                            $::GameDataContainer
+00001a50                                $::DataContainer
+00001a58                            Flags 25500399
+00001a60                Transform::LinearTransform
+00001a60                    right::Vec3
+00001a60                        x 1.0
+00001a64                        y 0.0
+00001a68                        z 0.0
+00001a70                    up::Vec3
+00001a70                        x 0.0
+00001a74                        y 1.0
+00001a78                        z 0.0
+00001a80                    forward::Vec3
+00001a80                        x 0.0
+00001a84                        y 0.0
+00001a88                        z 1.0
+00001a90                    trans::Vec3
+00001a90                        x 0.0
+00001a94                        y 0.49583414197
+00001a98                        z 0.0
+00001aa0            Components *nullArray*
+00001aa4            MaxActiveInstanceCount::QualityScalableInt
+00001aa4                Low 30
+00001aa8                Medium 30
+00001aac                High 30
+00001ab0                Ultra 30
+00001ab4            CullDistance::QualityScalableFloat
+00001ab4                Low 0.0
+00001ab8                Medium 0.0
+00001abc                High 0.0
+00001ac0                Ultra 0.0
+00001ac4            StartDelay 0.649999976158
+00001ac8            KillWhenDistanceCulled False
+00001ac9            ResetInstanceWhenStarted True
+00001aca            AttachToSpawnSurface False
+00001acb            Enable::QualityScalableBool
+00001acb                Low True
+00001acc                Medium True
+00001acd                High True
+00001ace                Ultra True
+00001acf            OverrideDrawOrder False
+00001ad0        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_column/1bcbd1e0f8b21049bd4d6025d58bab03
+00001ad4        SpawnProbability::QualityScalableFloat
+00001ad4            Low 1.0
+00001ad8            Medium 1.0
+00001adc            High 1.0
+00001ae0            Ultra 1.0
+00001ae4        MaxNearbyInstanceCount 0
+00001ae8        NearbyRadius 1.0
+00001aec        EmitterTags *nullArray*
+00001af0        DrawOrderSlot 128
+00001af1        LocalPlayerOnly False
+00001b00    EmitterEntityData 0000000f
+00001b00        $::ChildEffectEntityData
+00001b00            $::SpatialEntityData
+00001b00                $::EntityData
+00001b00                    $::GameObjectData
+00001b00                        $::DataBusPeer
+00001b00                            $::GameDataContainer
+00001b00                                $::DataContainer
+00001b08                            Flags 12886002
+00001b10                Transform::LinearTransform
+00001b10                    right::Vec3
+00001b10                        x 1.0
+00001b14                        y 0.0
+00001b18                        z 0.0
+00001b20                    up::Vec3
+00001b20                        x 0.0
+00001b24                        y 1.0
+00001b28                        z 0.0
+00001b30                    forward::Vec3
+00001b30                        x 0.0
+00001b34                        y 0.0
+00001b38                        z 1.0
+00001b40                    trans::Vec3
+00001b40                        x 0.0
+00001b44                        y 0.0
+00001b48                        z 0.0
+00001b50            Components *nullArray*
+00001b54            MaxActiveInstanceCount::QualityScalableInt
+00001b54                Low 30
+00001b58                Medium 30
+00001b5c                High 30
+00001b60                Ultra 30
+00001b64            CullDistance::QualityScalableFloat
+00001b64                Low 0.0
+00001b68                Medium 0.0
+00001b6c                High 0.0
+00001b70                Ultra 0.0
+00001b74            StartDelay 0.0
+00001b78            KillWhenDistanceCulled False
+00001b79            ResetInstanceWhenStarted True
+00001b7a            AttachToSpawnSurface False
+00001b7b            Enable::QualityScalableBool
+00001b7b                Low True
+00001b7c                Medium True
+00001b7d                High True
+00001b7e                Ultra True
+00001b7f            OverrideDrawOrder False
+00001b80        Emitter ebx\fx\levels\sp_therunner\emitters\em_artillery_expl_water_thick/42a63060ebc0b04c8737d2f27f63faa0
+00001b84        SpawnProbability::QualityScalableFloat
+00001b84            Low 1.0
+00001b88            Medium 1.0
+00001b8c            High 1.0
+00001b90            Ultra 1.0
+00001b94        MaxNearbyInstanceCount 0
+00001b98        NearbyRadius 1.0
+00001b9c        EmitterTags *nullArray*
+00001ba0        DrawOrderSlot 128
+00001ba1        LocalPlayerOnly False
+00001bb0    SoundEffectEntityData 00000010
+00001bb0        $::ChildEffectEntityData
+00001bb0            $::SpatialEntityData
+00001bb0                $::EntityData
+00001bb0                    $::GameObjectData
+00001bb0                        $::DataBusPeer
+00001bb0                            $::GameDataContainer
+00001bb0                                $::DataContainer
+00001bb8                            Flags 2835514
+00001bc0                Transform::LinearTransform
+00001bc0                    right::Vec3
+00001bc0                        x 1.0
+00001bc4                        y 0.0
+00001bc8                        z 0.0
+00001bd0                    up::Vec3
+00001bd0                        x 0.0
+00001bd4                        y 1.0
+00001bd8                        z 0.0
+00001be0                    forward::Vec3
+00001be0                        x 0.0
+00001be4                        y 0.0
+00001be8                        z 1.0
+00001bf0                    trans::Vec3
+00001bf0                        x 0.0
+00001bf4                        y 0.0
+00001bf8                        z 0.0
+00001c00            Components *nullArray*
+00001c04            MaxActiveInstanceCount::QualityScalableInt
+00001c04                Low 30
+00001c08                Medium 30
+00001c0c                High 30
+00001c10                Ultra 30
+00001c14            CullDistance::QualityScalableFloat
+00001c14                Low 0.0
+00001c18                Medium 0.0
+00001c1c                High 0.0
+00001c20                Ultra 0.0
+00001c24            StartDelay 0.0
+00001c28            KillWhenDistanceCulled False
+00001c29            ResetInstanceWhenStarted True
+00001c2a            AttachToSpawnSurface False
+00001c2b            Enable::QualityScalableBool
+00001c2b                Low True
+00001c2c                Medium True
+00001c2d                High True
+00001c2e                Ultra True
+00001c2f            OverrideDrawOrder False
+00001c30        Sound Sound/Levels/SP/E5/A/SFX/SP_E5_A_SFX_Explosion_Artillery_Water/330e43473837cf4cbd612ce6f0af4058
+00001c34        UseDefaultStopEvent True

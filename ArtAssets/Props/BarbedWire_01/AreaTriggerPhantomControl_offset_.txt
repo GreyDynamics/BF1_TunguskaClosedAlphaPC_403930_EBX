@@ -1,0 +1,141 @@
+00000dd0    LogicPrefabBlueprint f09df7ca07c23cf588f01d5caae4c874
+00000dc8        $::PrefabBlueprint
+00000dc8            $::Blueprint
+00000dc8                $::EntityBusData
+00000dc8                    $::DataBusData
+00000dc8                        $::Asset
+00000dc8                            $::DataContainer
+00000dd0                            Name ArtAssets/Props/BarbedWire_01/AreaTriggerPhantomControl
+00000dd4                        PropertyConnections::array
+00000e44                            member(0)::PropertyConnection
+00000e44                                Source 00000000
+00000e48                                Target 00000002
+00000e4c                                SourceFieldId 225375086
+00000e50                                TargetFieldId 965934381
+00000e54                                Flags 17
+00000e58                            member(1)::PropertyConnection
+00000e58                                Source 00000002
+00000e5c                                Target 00000001
+00000e60                                SourceFieldId -533470571
+00000e64                                TargetFieldId 225375086
+00000e68                                Flags 3
+00000dd8                        LinkConnections *nullArray*
+00000ddc                        Interface 00000002
+00000de0                        Flags 14
+00000de4                    EventConnections::array
+00000e70                        member(0)::EventConnection
+00000e70                            Source 00000002
+00000e74                            Target 00000000
+00000e78                            SourceEvent::EventSpec
+00000e78                                Id 1852008239
+00000e7c                            TargetEvent::EventSpec
+00000e7c                                Id 668205626
+00000e80                            TargetType EventConnectionTargetType_ClientAndServer
+00000e84                        member(1)::EventConnection
+00000e84                            Source 00000002
+00000e88                            Target 00000000
+00000e8c                            SourceEvent::EventSpec
+00000e8c                                Id -2068733510
+00000e90                            TargetEvent::EventSpec
+00000e90                                Id -1541066415
+00000e94                            TargetType EventConnectionTargetType_ClientAndServer
+00000e98                        member(2)::EventConnection
+00000e98                            Source 00000002
+00000e9c                            Target 00000002
+00000ea0                            SourceEvent::EventSpec
+00000ea0                                Id 1852008239
+00000ea4                            TargetEvent::EventSpec
+00000ea4                                Id 1183391195
+00000ea8                            TargetType EventConnectionTargetType_ClientAndServer
+00000eac                        member(3)::EventConnection
+00000eac                            Source 00000001
+00000eb0                            Target fce67fea31082e469579a3d72b217b40
+00000eb4                            SourceEvent::EventSpec
+00000eb4                                Id 2089022476
+00000eb8                            TargetEvent::EventSpec
+00000eb8                                Id 668205626
+00000ebc                            TargetType EventConnectionTargetType_Server
+00000ec0                        member(4)::EventConnection
+00000ec0                            Source 00000001
+00000ec4                            Target fce67fea31082e469579a3d72b217b40
+00000ec8                            SourceEvent::EventSpec
+00000ec8                                Id 1653725917
+00000ecc                            TargetEvent::EventSpec
+00000ecc                                Id -1541066415
+00000ed0                            TargetType EventConnectionTargetType_Server
+00000ed4                        member(5)::EventConnection
+00000ed4                            Source fce67fea31082e469579a3d72b217b40
+00000ed8                            Target 00000002
+00000edc                            SourceEvent::EventSpec
+00000edc                                Id -81881639
+00000ee0                            TargetEvent::EventSpec
+00000ee0                                Id 1183391195
+00000ee4                            TargetType EventConnectionTargetType_ClientAndServer
+00000ee8                        member(6)::EventConnection
+00000ee8                            Source fce67fea31082e469579a3d72b217b40
+00000eec                            Target 00000002
+00000ef0                            SourceEvent::EventSpec
+00000ef0                                Id -1433512622
+00000ef4                            TargetEvent::EventSpec
+00000ef4                                Id -312543858
+00000ef8                            TargetType EventConnectionTargetType_ClientAndServer
+00000de8            Objects::array
+00000f00                member(0) 00000000
+00000f04                member(1) 00000001
+00000f08                member(2) fce67fea31082e469579a3d72b217b40
+00000dec            TimeDeltaType TimeDeltaType_None
+00000e00    SyncedBoolEntityData fce67fea31082e469579a3d72b217b40
+00000df8        $::EntityData
+00000df8            $::GameObjectData
+00000df8                $::DataBusPeer
+00000df8                    $::GameDataContainer
+00000df8                        $::DataContainer
+00000e00                    Flags 75491068
+00000e04    BoolEntityData 00000000
+00000dfc        $::EntityData
+00000dfc            $::GameObjectData
+00000dfc                $::DataBusPeer
+00000dfc                    $::GameDataContainer
+00000dfc                        $::DataContainer
+00000e04                    Flags 132800833
+00000e08        Realm Realm_ClientAndServer
+00000e0c        DefaultValue True
+00000e10    CompareIntRangeEntityData 00000001
+00000e08        $::EntityData
+00000e08            $::GameObjectData
+00000e08                $::DataBusPeer
+00000e08                    $::GameDataContainer
+00000e08                        $::DataContainer
+00000e10                    Flags 277960073
+00000e14        Realm Realm_Server
+00000e18        Value 0
+00000e1c        Min 1
+00000e20        Max 1000
+00000e24        TriggerOnPropertyChange True
+00000e25        TriggerOnStart False
+00000e28    InterfaceDescriptorData 00000002
+00000e20        $::DynamicDataContainer
+00000e20            $::DataContainer
+00000e28            Fields::array
+00000f10                member(0)::DataField
+00000f10                    Value *nullString*
+00000f14                    ValueRef *nullGuid*
+00000f18                    Id 965934381
+00000f1c                    AccessType FieldAccessType_Source
+00000f20                member(1)::DataField
+00000f20                    Value *nullString*
+00000f24                    ValueRef *nullGuid*
+00000f28                    Id -533470571
+00000f2c                    AccessType FieldAccessType_Target
+00000e2c        InputEvents::array
+00000f34            member(0)::DynamicEvent
+00000f34                Id 1852008239
+00000f38            member(1)::DynamicEvent
+00000f38                Id -2068733510
+00000e30        OutputEvents::array
+00000f40            member(0)::DynamicEvent
+00000f40                Id -312543858
+00000f44            member(1)::DynamicEvent
+00000f44                Id 1183391195
+00000e34        InputLinks *nullArray*
+00000e38        OutputLinks *nullArray*

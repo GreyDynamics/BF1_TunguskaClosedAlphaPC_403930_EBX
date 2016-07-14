@@ -1,0 +1,174 @@
+000014d0    LogicPrefabBlueprint 8b13075dc96d0a3bdb9ef1407ecfc762
+000014c8        $::PrefabBlueprint
+000014c8            $::Blueprint
+000014c8                $::EntityBusData
+000014c8                    $::DataBusData
+000014c8                        $::Asset
+000014c8                            $::DataContainer
+000014d0                            Name UI/Ingame/Deploy/Logic/DeployBottomBarTransform
+000014d4                        PropertyConnections::array
+000015e4                            member(0)::PropertyConnection
+000015e4                                Source 00000004
+000015e8                                Target 00000002
+000015ec                                SourceFieldId 936870923
+000015f0                                TargetFieldId 5862146
+000015f4                                Flags 2
+000015f8                            member(1)::PropertyConnection
+000015f8                                Source 00000004
+000015fc                                Target 00000002
+00001600                                SourceFieldId 936870923
+00001604                                TargetFieldId 2066049125
+00001608                                Flags 2
+0000160c                            member(2)::PropertyConnection
+0000160c                                Source 00000002
+00001610                                Target 00000001
+00001614                                SourceFieldId 193453899
+00001618                                TargetFieldId 5862146
+0000161c                                Flags 2
+00001620                            member(3)::PropertyConnection
+00001620                                Source 00000001
+00001624                                Target 00000005
+00001628                                SourceFieldId 193453899
+0000162c                                TargetFieldId 177660
+00001630                                Flags 2
+00001634                            member(4)::PropertyConnection
+00001634                                Source 00000005
+00001638                                Target 00000000
+0000163c                                SourceFieldId 193453899
+00001640                                TargetFieldId 227190399
+00001644                                Flags 2
+00001648                            member(5)::PropertyConnection
+00001648                                Source 00000003
+0000164c                                Target 00000004
+00001650                                SourceFieldId 901540267
+00001654                                TargetFieldId 176040160
+00001658                                Flags 2
+0000165c                            member(6)::PropertyConnection
+0000165c                                Source 00000000
+00001660                                Target 00000003
+00001664                                SourceFieldId -2024647575
+00001668                                TargetFieldId -2024647575
+0000166c                                Flags 18
+00001670                            member(7)::PropertyConnection
+00001670                                Source 00000002
+00001674                                Target 00000003
+00001678                                SourceFieldId 193453899
+0000167c                                TargetFieldId 205677681
+00001680                                Flags 18
+000014d8                        LinkConnections *nullArray*
+000014dc                        Interface 00000003
+000014e0                        Flags 14
+000014e4                    EventConnections *nullArray*
+000014e8            Objects::array
+00001688                member(0) 00000004
+0000168c                member(1) 00000002
+00001690                member(2) 00000001
+00001694                member(3) 00000005
+00001698                member(4) 00000000
+000014ec            TimeDeltaType TimeDeltaType_None
+000014f0    TransformBuilderEntityData 00000000
+000014f0        $::EntityData
+000014f0            $::GameObjectData
+000014f0                $::DataBusPeer
+000014f0                    $::GameDataContainer
+000014f0                        $::DataContainer
+000014f8                    Flags 139304768
+000014fc        Realm Realm_Client
+00001500        Left::Vec3
+00001500            x 1.0
+00001504            y 0.0
+00001508            z 0.0
+00001510        Up::Vec3
+00001510            x 0.0
+00001514            y 1.0
+00001518            z 0.0
+00001520        Forward::Vec3
+00001520            x 0.0
+00001524            y 0.0
+00001528            z 1.0
+00001530        Trans::Vec3
+00001530            x 0.0
+00001534            y 0.0
+00001538            z 0.0
+00001540        IsWorldSpace False
+00001541        WaitForAll False
+00001550    FloatEaseFunctionEntityData 00000001
+00001548        $::EntityData
+00001548            $::GameObjectData
+00001548                $::DataBusPeer
+00001548                    $::GameDataContainer
+00001548                        $::DataContainer
+00001550                    Flags 135566270
+00001554        Realm Realm_Client
+00001558        InterpolationType PropertyInterpolationType_Quad
+0000155c        InterpolationMode PropertyInterpolationMode_EaseOut
+00001560        InputRangeMin 0.0
+00001564        InputRangeMax 1.0
+00001568        OutputRangeMin 130.0
+0000156c        OutputRangeMax 0.0
+00001570        In 0.0
+00001574        ClampInput False
+00001575        ClampOutput False
+00001578    FloatInterpolatorEntityData 00000002
+00001570        $::PropertyInterpolatorEntityData
+00001570            $::EntityData
+00001570                $::GameObjectData
+00001570                    $::DataBusPeer
+00001570                        $::GameDataContainer
+00001570                            $::DataContainer
+00001578                        Flags 147884735
+0000157c            Realm Realm_Client
+00001580            InterpolationType PropertyInterpolationType_Linear
+00001584            InterpolationMode PropertyInterpolationMode_EaseIn
+00001588            Duration 0.20000000298
+0000158c            UseRealTimeClock False
+0000158d            ForceFrameCorrectOutput False
+00001590        In 0.0
+00001594        DefaultValue 0.0
+00001598        Velocity 1.0
+0000159c        UseVelocity False
+000015a0    InterfaceDescriptorData 00000003
+00001598        $::DynamicDataContainer
+00001598            $::DataContainer
+000015a0            Fields::array
+000016a0                member(0)::DataField
+000016a0                    Value *nullString*
+000016a4                    ValueRef *nullGuid*
+000016a8                    Id 901540267
+000016ac                    AccessType FieldAccessType_Target
+000016b0                member(1)::DataField
+000016b0                    Value *nullString*
+000016b4                    ValueRef *nullGuid*
+000016b8                    Id -2024647575
+000016bc                    AccessType FieldAccessType_Source
+000016c0                member(2)::DataField
+000016c0                    Value *nullString*
+000016c4                    ValueRef *nullGuid*
+000016c8                    Id 205677681
+000016cc                    AccessType FieldAccessType_Source
+000015a4        InputEvents *nullArray*
+000015a8        OutputEvents *nullArray*
+000015ac        InputLinks *nullArray*
+000015b0        OutputLinks *nullArray*
+000015b4    PropertyCastEntityData 00000004
+000015ac        $::EntityData
+000015ac            $::GameObjectData
+000015ac                $::DataBusPeer
+000015ac                    $::GameDataContainer
+000015ac                        $::DataContainer
+000015b4                    Flags 148079617
+000015b8        Realm Realm_Client
+000015bc        Precision -5
+000015c0        FloatValue 0.0
+000015c4        IntValue 0
+000015c8        UintValue 0
+000015cc        StringValue *nullString*
+000015d0        BoolValue False
+000015d4    Vec3BuilderEntityData 00000005
+000015cc        $::EntityData
+000015cc            $::GameObjectData
+000015cc                $::DataBusPeer
+000015cc                    $::GameDataContainer
+000015cc                        $::DataContainer
+000015d4                    Flags 153122499
+000015d8        Realm Realm_Client

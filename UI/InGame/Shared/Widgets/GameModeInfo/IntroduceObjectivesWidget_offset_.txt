@@ -1,0 +1,120 @@
+00001220    UIWidgetBlueprint 1ad2c98c622dc447a2e764471706ac0d
+00001218        $::ObjectBlueprint
+00001218            $::Blueprint
+00001218                $::EntityBusData
+00001218                    $::DataBusData
+00001218                        $::Asset
+00001218                            $::DataContainer
+00001220                            Name UI/Ingame/Shared/Widgets/GameModeInfo/IntroduceObjectivesWidget
+00001224                        PropertyConnections::array
+000012f4                            member(0)::PropertyConnection
+000012f4                                Source 00000003
+000012f8                                Target 00000002
+000012fc                                SourceFieldId 1884767464
+00001300                                TargetFieldId -1512192206
+00001304                                Flags 2
+00001308                            member(1)::PropertyConnection
+00001308                                Source 00000002
+0000130c                                Target 00000001
+00001310                                SourceFieldId -1528343047
+00001314                                TargetFieldId -124041117
+00001318                                Flags 2
+00001228                        LinkConnections::array
+00001320                            member(0)::LinkConnection
+00001320                                Source 00000001
+00001324                                Target 00000000
+00001328                                SourceFieldId -188171420
+0000132c                                TargetFieldId 0
+0000122c                        Interface *nullGuid*
+00001230                        Flags 0
+00001234                    EventConnections *nullArray*
+00001238            Object 00000001
+0000123c    BFUILayoutGenericListEntityData 00000000
+00001234        $::BFUILayoutEntityData
+00001234            $::EntityData
+00001234                $::GameObjectData
+00001234                    $::DataBusPeer
+00001234                        $::GameDataContainer
+00001234                            $::DataContainer
+0000123c                        Flags 63729433
+00001240        LayoutMargin::Vec2
+00001240            x 0.0
+00001244            y 0.0
+00001248        ElementMargin::Vec2
+00001248            x 0.0
+0000124c            y 0.0
+00001250        ElementStep::Vec2
+00001250            x 15.0
+00001254            y 0.0
+00001258        ElementStepFactor::Vec2
+00001258            x 1.5
+0000125c            y 0.0
+00001260        ElementPivot::Vec2
+00001260            x 0.0
+00001264            y 0.0
+00001268        HorizontalAlignment BFUILayoutHorizontalAlignment_Center
+0000126c        VerticalAlignment BFUILayoutVerticalAlignment_Top
+00001270        AutoSizeElementsHorizontally False
+00001271        AutoSizeElementsVertically False
+00001272        DrawZeroSizeElement True
+00001274    BFUIListWidgetData 00000001
+0000126c        $::BFUIWidgetEntityData
+0000126c            $::UIWidgetEntityData
+0000126c                $::EntityData
+0000126c                    $::GameObjectData
+0000126c                        $::DataBusPeer
+0000126c                            $::GameDataContainer
+0000126c                                $::DataContainer
+00001274                            Flags 1786183529
+00001278                Size::UIElementSize
+00001278                    X 320.0
+0000127c                    Y 54.0
+00001280                Layers *nullArray*
+00001284                TextureMappings *nullArray*
+00001288                Components::array
+00001334                    member(0) 00000000
+00001338                    member(1) 00000002
+0000133c                    member(2) 00000003
+0000128c                Visible True
+00001290            CustomLayout::BFUICustomLayout
+00001290                SnapSettings::BFUISnapLayoutSettings
+00001290                    Left BFUISnapLayoutMode_Default
+00001294                    Right BFUISnapLayoutMode_Default
+00001298                    Top BFUISnapLayoutMode_Default
+0000129c                    Bottom BFUISnapLayoutMode_Default
+000012a0                OverrideDefaultLayout False
+000012a4            UseStencilMask False
+000012a5            UseInputStencilMask False
+000012a6            InputEnabled True
+000012a8        DataInput *nullGuid*
+000012ac        CellWidget UI/InGame/Shared/Widgets/GameModeInfo/IntroduceObjectiveIcon_Cell/19d0dbc68756ae4e9892632efa6c26fb
+000012b0        MaxRows 0
+000012b4        SelectionInput -1
+000012b8        XOffset 0.0
+000012bc        YOffset 0.0
+000012c0        RenderFirstInWidget False
+000012c1        AutoSetSelectionOnInit False
+000012c2        ValidateSetSelection False
+000012c3        WrapSelection False
+000012c4        AutoSizeWidgetHorizontally True
+000012c5        AutoSizeWidgetVertically True
+000012c6        Enabled True
+000012c7        ScrollIntoView False
+000012c8    DataSourceQueryEntityData 00000002
+000012c0        $::EntityData
+000012c0            $::GameObjectData
+000012c0                $::DataBusPeer
+000012c0                    $::GameDataContainer
+000012c0                        $::DataContainer
+000012c8                    Flags 152011427
+000012cc        Realm Realm_Client
+000012d0        InData *nullGuid*
+000012d4        ArrayIndex 0
+000012d8    UIObjectivesDataProviderEntityData 00000003
+000012d0        $::EntityData
+000012d0            $::GameObjectData
+000012d0                $::DataBusPeer
+000012d0                    $::GameDataContainer
+000012d0                        $::DataContainer
+000012d8                    Flags 21689688
+000012dc        OutputOnlyVisibleForTeam True

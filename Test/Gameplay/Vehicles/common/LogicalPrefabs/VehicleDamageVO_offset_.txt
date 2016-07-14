@@ -1,0 +1,230 @@
+00001180    LogicPrefabBlueprint 667e20e0c4352747a53c73ff55808daf
+00001178        $::PrefabBlueprint
+00001178            $::Blueprint
+00001178                $::EntityBusData
+00001178                    $::DataBusData
+00001178                        $::Asset
+00001178                            $::DataContainer
+00001180                            Name Test/Gameplay/Vehicles/common/LogicalPrefabs/VehicleDamageVO
+00001184                        PropertyConnections::array
+000012a4                            member(0)::PropertyConnection
+000012a4                                Source 00000005
+000012a8                                Target 00000004
+000012ac                                SourceFieldId 352761013
+000012b0                                TargetFieldId 177639
+000012b4                                Flags 3
+000012b8                            member(1)::PropertyConnection
+000012b8                                Source 00000005
+000012bc                                Target 00000004
+000012c0                                SourceFieldId -12275326
+000012c4                                TargetFieldId 177636
+000012c8                                Flags 3
+000012cc                            member(2)::PropertyConnection
+000012cc                                Source 00000002
+000012d0                                Target 00000003
+000012d4                                SourceFieldId 225375086
+000012d8                                TargetFieldId 2088812747
+000012dc                                Flags 2
+00001188                        LinkConnections *nullArray*
+0000118c                        Interface 00000005
+00001190                        Flags 15
+00001194                    EventConnections::array
+000012e4                        member(0)::EventConnection
+000012e4                            Source 00000006
+000012e8                            Target 00000002
+000012ec                            SourceEvent::EventSpec
+000012ec                                Id -1864525248
+000012f0                            TargetEvent::EventSpec
+000012f0                                Id -1541066415
+000012f4                            TargetType EventConnectionTargetType_Client
+000012f8                        member(1)::EventConnection
+000012f8                            Source 00000007
+000012fc                            Target 00000002
+00001300                            SourceEvent::EventSpec
+00001300                                Id -1864525248
+00001304                            TargetEvent::EventSpec
+00001304                                Id 668205626
+00001308                            TargetType EventConnectionTargetType_Client
+0000130c                        member(2)::EventConnection
+0000130c                            Source 00000003
+00001310                            Target 00000008
+00001314                            SourceEvent::EventSpec
+00001314                                Id -1433512622
+00001318                            TargetEvent::EventSpec
+00001318                                Id -1688613187
+0000131c                            TargetType EventConnectionTargetType_Client
+00001320                        member(3)::EventConnection
+00001320                            Source 00000005
+00001324                            Target 00000004
+00001328                            SourceEvent::EventSpec
+00001328                                Id -2086358046
+0000132c                            TargetEvent::EventSpec
+0000132c                                Id 5862146
+00001330                            TargetType EventConnectionTargetType_Server
+00001334                        member(4)::EventConnection
+00001334                            Source 00000004
+00001338                            Target 00000003
+0000133c                            SourceEvent::EventSpec
+0000133c                                Id 2088727237
+00001340                            TargetEvent::EventSpec
+00001340                                Id 5862146
+00001344                            TargetType EventConnectionTargetType_NetworkedClient
+00001348                        member(5)::EventConnection
+00001348                            Source 00000005
+0000134c                            Target 00000006
+00001350                            SourceEvent::EventSpec
+00001350                                Id -182176866
+00001354                            TargetEvent::EventSpec
+00001354                                Id 5862146
+00001358                            TargetType EventConnectionTargetType_Client
+0000135c                        member(6)::EventConnection
+0000135c                            Source 00000005
+00001360                            Target 00000007
+00001364                            SourceEvent::EventSpec
+00001364                                Id 775358998
+00001368                            TargetEvent::EventSpec
+00001368                                Id 5862146
+0000136c                            TargetType EventConnectionTargetType_Client
+00001198            Objects::array
+00001374                member(0) 00000008
+00001378                member(1) 00000000
+0000137c                member(2) 00000002
+00001380                member(3) 00000003
+00001384                member(4) 00000006
+00001388                member(5) 00000007
+0000138c                member(6) 00000004
+00001390                member(7) 00000001
+0000119c            TimeDeltaType TimeDeltaType_None
+000011a0    PrintDebugTextEntityData 00000000
+000011a0        $::EntityData
+000011a0            $::GameObjectData
+000011a0                $::DataBusPeer
+000011a0                    $::GameDataContainer
+000011a0                        $::DataContainer
+000011a8                    Flags 21493067
+000011ac        Realm Realm_Client
+000011b0        TextColor::Vec3
+000011b0            x 1.0
+000011b4            y 1.0
+000011b8            z 1.0
+000011c0        Text Local Player Damage!
+000011c4        ScreenPosition::Vec2
+000011c4            x -1.0
+000011c8            y -1.0
+000011cc        TimeToShow -1.0
+000011d0        TextScale 1.0
+000011d4        PrefixLocalPlayerId True
+000011d5        PrefixRealm False
+000011d6        Enabled True
+000011e0    PrintDebugTextEntityData 00000001
+000011e0        $::EntityData
+000011e0            $::GameObjectData
+000011e0                $::DataBusPeer
+000011e0                    $::GameDataContainer
+000011e0                        $::DataContainer
+000011e8                    Flags 5862570
+000011ec        Realm Realm_Client
+000011f0        TextColor::Vec3
+000011f0            x 1.0
+000011f4            y 1.0
+000011f8            z 1.0
+00001200        Text No Player Damage!
+00001204        ScreenPosition::Vec2
+00001204            x -1.0
+00001208            y -1.0
+0000120c        TimeToShow -1.0
+00001210        TextScale 1.0
+00001214        PrefixLocalPlayerId True
+00001215        PrefixRealm False
+00001216        Enabled True
+00001220    BoolEntityData 00000002
+00001218        $::EntityData
+00001218            $::GameObjectData
+00001218                $::DataBusPeer
+00001218                    $::GameDataContainer
+00001218                        $::DataContainer
+00001220                    Flags 60392850
+00001224        Realm Realm_Client
+00001228        DefaultValue False
+0000122c    CompareBoolEntityData 00000003
+00001224        $::EntityData
+00001224            $::GameObjectData
+00001224                $::DataBusPeer
+00001224                    $::GameDataContainer
+00001224                        $::DataContainer
+0000122c                    Flags 200675295
+00001230        Realm Realm_Client
+00001234        Bool False
+00001235        TriggerOnPropertyChange False
+00001236        TriggerOnStart False
+00001237        AlwaysSend False
+00001238    CompareFloatEntityData 00000004
+00001230        $::EntityData
+00001230            $::GameObjectData
+00001230                $::DataBusPeer
+00001230                    $::GameDataContainer
+00001230                        $::DataContainer
+00001238                    Flags 350848235
+0000123c        Realm Realm_Server
+00001240        A 0.0
+00001244        B 0.0
+00001248        TriggerOnPropertyChange False
+00001249        TriggerOnStart False
+0000124c    InterfaceDescriptorData 00000005
+00001244        $::DynamicDataContainer
+00001244            $::DataContainer
+0000124c            Fields::array
+00001398                member(0)::DataField
+00001398                    Value Float32 150
+0000139c                    ValueRef *nullGuid*
+000013a0                    Id 352761013
+000013a4                    AccessType FieldAccessType_Target
+000013a8                member(1)::DataField
+000013a8                    Value *nullString*
+000013ac                    ValueRef *nullGuid*
+000013b0                    Id -12275326
+000013b4                    AccessType FieldAccessType_Target
+00001250        InputEvents::array
+000013bc            member(0)::DynamicEvent
+000013bc                Id -2086358046
+000013c0            member(1)::DynamicEvent
+000013c0                Id -182176866
+000013c4            member(2)::DynamicEvent
+000013c4                Id 775358998
+00001254        OutputEvents *nullArray*
+00001258        InputLinks *nullArray*
+0000125c        OutputLinks *nullArray*
+00001260    PlayerFilterEntityData 00000006
+00001258        $::EntityData
+00001258            $::GameObjectData
+00001258                $::DataBusPeer
+00001258                    $::GameDataContainer
+00001258                        $::DataContainer
+00001260                    Flags 66907002
+00001264        Realm Realm_Client
+00001268        InvertFilter False
+00001269        ForwardToSpectators False
+0000126c    PlayerFilterEntityData 00000007
+00001264        $::EntityData
+00001264            $::GameObjectData
+00001264                $::DataBusPeer
+00001264                    $::GameDataContainer
+00001264                        $::DataContainer
+0000126c                    Flags 52247545
+00001270        Realm Realm_Client
+00001274        InvertFilter False
+00001275        ForwardToSpectators False
+00001278    VoiceOverEventEntityData 00000008
+00001270        $::EntityData
+00001270            $::GameObjectData
+00001270                $::DataBusPeer
+00001270                    $::GameDataContainer
+00001270                        $::DataContainer
+00001278                    Flags 61218468
+0000127c        VoEvent Sound/VO/Logic/Tunguska_VO_Events/11e32aecc3c7fa458f3c79929a724c1f
+00001280        EventPlayer *nullGuid*
+00001284        ExtraEventPlayer *nullGuid*
+00001288        TriggerDelay 0.0
+0000128c        FinishedDelay 0.0
+00001290        RunOnce False
+00001291        CancelOnDeinit True

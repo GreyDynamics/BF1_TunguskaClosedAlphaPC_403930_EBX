@@ -1,0 +1,662 @@
+00002530    SpatialPrefabBlueprint ed446ea8378839812886bf037b09f236
+00002528        $::PrefabBlueprint
+00002528            $::Blueprint
+00002528                $::EntityBusData
+00002528                    $::DataBusData
+00002528                        $::Asset
+00002528                            $::DataContainer
+00002530                            Name Gameplay/GameModes/CommonComponents/Spectator
+00002534                        PropertyConnections::array
+00002cb4                            member(0)::PropertyConnection
+00002cb4                                Source 00000002
+00002cb8                                Target 0000001a
+00002cbc                                SourceFieldId -2073070608
+00002cc0                                TargetFieldId 193450867
+00002cc4                                Flags 2
+00002cc8                            member(1)::PropertyConnection
+00002cc8                                Source 00000001
+00002ccc                                Target 0000001a
+00002cd0                                SourceFieldId -2073070608
+00002cd4                                TargetFieldId 193450864
+00002cd8                                Flags 2
+00002cdc                            member(2)::PropertyConnection
+00002cdc                                Source 00000003
+00002ce0                                Target 0000001a
+00002ce4                                SourceFieldId -2073070608
+00002ce8                                TargetFieldId 193450865
+00002cec                                Flags 2
+00002cf0                            member(3)::PropertyConnection
+00002cf0                                Source 0000001a
+00002cf4                                Target 00000018
+00002cf8                                SourceFieldId 193453899
+00002cfc                                TargetFieldId 421379609
+00002d00                                Flags 2
+00002538                        LinkConnections::array
+00002d08                            member(0)::LinkConnection
+00002d08                                Source 00000019
+00002d0c                                Target 00000001
+00002d10                                SourceFieldId 1814947174
+00002d14                                TargetFieldId 0
+00002d18                            member(1)::LinkConnection
+00002d18                                Source 00000019
+00002d1c                                Target 00000002
+00002d20                                SourceFieldId 623386946
+00002d24                                TargetFieldId 0
+00002d28                            member(2)::LinkConnection
+00002d28                                Source 00000019
+00002d2c                                Target 00000003
+00002d30                                SourceFieldId -2031323260
+00002d34                                TargetFieldId 0
+0000253c                        Interface *nullGuid*
+00002540                        Flags 0
+00002544                    EventConnections *nullArray*
+00002548            Objects::array
+00002d3c                member(0) 00000019
+00002d40                member(1) 00000002
+00002d44                member(2) 00000001
+00002d48                member(3) 00000003
+00002d4c                member(4) 00000018
+00002d50                member(5) 0000001a
+0000254c            TimeDeltaType TimeDeltaType_None
+00002550    AnimatedSoldierCameraData 00000000
+00002550        $::TargetCameraData
+00002550            $::CameraData
+00002550                $::GameObjectData
+00002550                    $::DataBusPeer
+00002550                        $::GameDataContainer
+00002550                            $::DataContainer
+00002558                        Flags 0
+0000255c                PreFadeTime 0.0
+00002560                OcclusionRayOffset::Vec3
+00002560                    x 0.0
+00002564                    y 0.0
+00002568                    z 0.0
+00002570                CameraShakeLimits::Vec3
+00002570                    x 0.523599028587
+00002574                    y 0.523599028587
+00002578                    z 0.523599028587
+00002580                FadeTime 0.0
+00002584                FadeWaitTime 0.0
+00002588                NearPlane -1.0
+0000258c                ShadowViewDistanceScale 1.0
+00002590                SoundOcclusion 0.0
+00002594                SoundListenerRadius 0.5
+00002598                SoundListenerFov 55.0
+0000259c                ShakeFactor 1.0
+000025a0                ViewId LocalPlayerViewId_RootView
+000025a4                StayFadedWhileStreaming False
+000025a5                EnableCameraShakeLimits False
+000025b0            Hud::array
+00002d58                member(0) 0000000a
+00002d5c                member(1) 00000011
+00002d60                member(2) 00000014
+000025c0    BFSpectatorCameraEntityData 00000001
+000025c0        $::CameraEntityData
+000025c0            $::CameraEntityBaseData
+000025c0                $::SpatialEntityData
+000025c0                    $::EntityData
+000025c0                        $::GameObjectData
+000025c0                            $::DataBusPeer
+000025c0                                $::GameDataContainer
+000025c0                                    $::DataContainer
+000025c8                                Flags 131890775
+000025d0                    Transform::LinearTransform
+000025d0                        right::Vec3
+000025d0                            x 1.0
+000025d4                            y 0.0
+000025d8                            z 0.0
+000025e0                        up::Vec3
+000025e0                            x 0.0
+000025e4                            y 1.0
+000025e8                            z 0.0
+000025f0                        forward::Vec3
+000025f0                            x 0.0
+000025f4                            y 0.0
+000025f8                            z 1.0
+00002600                        trans::Vec3
+00002600                            x -0.841821670532
+00002604                            y 0.0
+00002608                            z 0.525811672211
+00002610                NameId *nullString*
+00002614                Priority 1
+00002618                ViewId LocalPlayerViewId_RootView
+0000261c                PhysicalCameraBody *nullGuid*
+00002620                PhysicalCameraLens *nullGuid*
+00002624                FocalLength 35.0
+00002628                FocusDistance 1000.0
+0000262c                ExposureCompensation 0.0
+00002630                Aperture 8.0
+00002634                ShutterSpeed 50.0
+00002638                ExposureMode ExposureMode_AutoExposure
+0000263c                EV 0.0
+00002640                ISO 100.0
+00002644                SpotMeterScale 1.0
+00002648                Enabled True
+00002650            Fov 0.0
+00002654            NearPlane 0.0
+00002658            FarPlane 0.0
+00002660        DefaultCameras::array
+00002d68            member(0) 00000005
+00002664        BoundaryCheckingType SpectatorCameraBoundsCheckingType_None
+00002670    BFSpectatorCameraEntityData 00000002
+00002670        $::CameraEntityData
+00002670            $::CameraEntityBaseData
+00002670                $::SpatialEntityData
+00002670                    $::EntityData
+00002670                        $::GameObjectData
+00002670                            $::DataBusPeer
+00002670                                $::GameDataContainer
+00002670                                    $::DataContainer
+00002678                                Flags 130920310
+00002680                    Transform::LinearTransform
+00002680                        right::Vec3
+00002680                            x 1.0
+00002684                            y 0.0
+00002688                            z 0.0
+00002690                        up::Vec3
+00002690                            x 0.0
+00002694                            y 1.0
+00002698                            z 0.0
+000026a0                        forward::Vec3
+000026a0                            x 0.0
+000026a4                            y 0.0
+000026a8                            z 1.0
+000026b0                        trans::Vec3
+000026b0                            x 1.69219172001
+000026b4                            y 0.0
+000026b8                            z 0.0297951698303
+000026c0                NameId *nullString*
+000026c4                Priority 1
+000026c8                ViewId LocalPlayerViewId_RootView
+000026cc                PhysicalCameraBody *nullGuid*
+000026d0                PhysicalCameraLens *nullGuid*
+000026d4                FocalLength 35.0
+000026d8                FocusDistance 1000.0
+000026dc                ExposureCompensation 0.0
+000026e0                Aperture 8.0
+000026e4                ShutterSpeed 50.0
+000026e8                ExposureMode ExposureMode_AutoExposure
+000026ec                EV 0.0
+000026f0                ISO 100.0
+000026f4                SpotMeterScale 1.0
+000026f8                Enabled True
+00002700            Fov 0.0
+00002704            NearPlane 0.0
+00002708            FarPlane 0.0
+00002710        DefaultCameras::array
+00002d70            member(0) 00000008
+00002d74            member(1) 00000004
+00002d78            member(2) 00000006
+00002d7c            member(3) 00000000
+00002714        BoundaryCheckingType SpectatorCameraBoundsCheckingType_None
+00002720    BFAnimControlledSpectatorCameraEntityData 00000003
+00002720        $::BFSpectatorCameraEntityData
+00002720            $::CameraEntityData
+00002720                $::CameraEntityBaseData
+00002720                    $::SpatialEntityData
+00002720                        $::EntityData
+00002720                            $::GameObjectData
+00002720                                $::DataBusPeer
+00002720                                    $::GameDataContainer
+00002720                                        $::DataContainer
+00002728                                    Flags 112720385
+00002730                        Transform::LinearTransform
+00002730                            right::Vec3
+00002730                                x 1.0
+00002734                                y 0.0
+00002738                                z 0.0
+00002740                            up::Vec3
+00002740                                x 0.0
+00002744                                y 1.0
+00002748                                z 0.0
+00002750                            forward::Vec3
+00002750                                x 0.0
+00002754                                y 0.0
+00002758                                z 1.0
+00002760                            trans::Vec3
+00002760                                x 0.698669433594
+00002764                                y -0.0346374511719
+00002768                                z 1.18106079102
+00002770                    NameId *nullString*
+00002774                    Priority 1
+00002778                    ViewId LocalPlayerViewId_RootView
+0000277c                    PhysicalCameraBody *nullGuid*
+00002780                    PhysicalCameraLens *nullGuid*
+00002784                    FocalLength 35.0
+00002788                    FocusDistance 1000.0
+0000278c                    ExposureCompensation 0.0
+00002790                    Aperture 8.0
+00002794                    ShutterSpeed 50.0
+00002798                    ExposureMode ExposureMode_AutoExposure
+0000279c                    EV 0.0
+000027a0                    ISO 100.0
+000027a4                    SpotMeterScale 1.0
+000027a8                    Enabled True
+000027b0                Fov 0.0
+000027b4                NearPlane 0.0
+000027b8                FarPlane 0.0
+000027c0            DefaultCameras::array
+00002d84                member(0) 00000007
+000027c4            BoundaryCheckingType SpectatorCameraBoundsCheckingType_None
+000027d0    ChaseCameraData 00000004
+000027d0        $::TargetCameraData
+000027d0            $::CameraData
+000027d0                $::GameObjectData
+000027d0                    $::DataBusPeer
+000027d0                        $::GameDataContainer
+000027d0                            $::DataContainer
+000027d8                        Flags 0
+000027dc                PreFadeTime 0.0
+000027e0                OcclusionRayOffset::Vec3
+000027e0                    x 0.0
+000027e4                    y 0.0
+000027e8                    z 0.0
+000027f0                CameraShakeLimits::Vec3
+000027f0                    x 0.523599028587
+000027f4                    y 0.523599028587
+000027f8                    z 0.523599028587
+00002800                FadeTime 0.0
+00002804                FadeWaitTime 0.0
+00002808                NearPlane -1.0
+0000280c                ShadowViewDistanceScale 1.0
+00002810                SoundOcclusion 0.0
+00002814                SoundListenerRadius 0.5
+00002818                SoundListenerFov 55.0
+0000281c                ShakeFactor 1.0
+00002820                ViewId LocalPlayerViewId_RootView
+00002824                StayFadedWhileStreaming False
+00002825                EnableCameraShakeLimits False
+00002830            Hud::array
+00002d8c                member(0) 00000009
+00002d90                member(1) 00000010
+00002d94                member(2) 00000013
+00002840        TargetOffset::Vec3
+00002840            x -0.5
+00002844            y 0.800000011921
+00002848            z 0.0
+00002850        ToWantedPositionScale::Vec3
+00002850            x 300.0
+00002854            y 300.0
+00002858            z 300.0
+00002860        TargetRotationOffset 0.0
+00002864        MaxViewRotationAngleDeg 0.0
+00002868        WantedAngleDeg 10.0
+0000286c        WantedDistance 6.0
+00002870        MaxDistance 10.0
+00002874        SnapDistance 20.0
+00002878        ResetDistance 50.0
+0000287c        ForceFieldRadius 2.0
+00002880        CollisionRadius 0.10000000149
+00002884        ForceFieldForceScale 80.0
+00002888        AwayFromTargetForceScale 1.0
+0000288c        VelocityDrag 50.0
+00002890        MaxVelocity 500.0
+00002894        PillMinimumCollisionRadius 0.5
+00002898        PillMaximumCollisionRadius 1.5
+0000289c        PillMinimumCollisionLength 0.300000011921
+000028a0        PillExpandSizeSpeedAcceleration 50.0
+000028a4        LookDistanceScale 0.0
+000028a8        LookDistanceInFrontOfTarget 30.0
+000028ac        RollWithTargetProfileOption *nullGuid*
+000028b0        UpdateRate 200
+000028b4        KeepTargetPitch True
+000028b5        ShouldRollWithTarget False
+000028b6        InheritTargetVelocity True
+000028b7        BypassChaseCalculations False
+000028b8        BypassChaseCalculationsX False
+000028b9        BypassChaseCalculationsY False
+000028ba        BypassChaseCalculationsZ False
+000028bb        AltBypassChaseCalculationsX False
+000028bc        AltBypassChaseCalculationsY False
+000028bd        AltBypassChaseCalculationsZ False
+000028be        HasCollisionAgainstTarget False
+000028bf        IgnoreCollisionInChaseCalculations False
+000028c0        HasCollision True
+000028d0    CollidableFreeCameraData 00000005
+000028d0        $::CameraData
+000028d0            $::GameObjectData
+000028d0                $::DataBusPeer
+000028d0                    $::GameDataContainer
+000028d0                        $::DataContainer
+000028d8                    Flags 0
+000028dc            PreFadeTime 0.0
+000028e0            OcclusionRayOffset::Vec3
+000028e0                x 0.0
+000028e4                y 0.0
+000028e8                z 0.0
+000028f0            CameraShakeLimits::Vec3
+000028f0                x 0.523599028587
+000028f4                y 0.523599028587
+000028f8                z 0.523599028587
+00002900            FadeTime 0.0
+00002904            FadeWaitTime 0.0
+00002908            NearPlane -1.0
+0000290c            ShadowViewDistanceScale 1.0
+00002910            SoundOcclusion 0.0
+00002914            SoundListenerRadius 0.5
+00002918            SoundListenerFov 55.0
+0000291c            ShakeFactor 1.0
+00002920            ViewId LocalPlayerViewId_RootView
+00002924            StayFadedWhileStreaming False
+00002925            EnableCameraShakeLimits False
+00002930        MaxBounceVelocity::Vec3
+00002930            x 100.0
+00002934            y 100.0
+00002938            z 100.0
+00002940        CollisionRadius 1.0
+00002944        RotateYLimit -0.259999990463
+00002948        ConstraintDynamicFriction 0.0
+0000294c        ConstraintVelocityMultiplier 1.0
+00002950    StaticCameraData 00000006
+00002950        $::TargetCameraData
+00002950            $::CameraData
+00002950                $::GameObjectData
+00002950                    $::DataBusPeer
+00002950                        $::GameDataContainer
+00002950                            $::DataContainer
+00002958                        Flags 0
+0000295c                PreFadeTime 0.0
+00002960                OcclusionRayOffset::Vec3
+00002960                    x 0.0
+00002964                    y 0.0
+00002968                    z 0.0
+00002970                CameraShakeLimits::Vec3
+00002970                    x 0.523599028587
+00002974                    y 0.523599028587
+00002978                    z 0.523599028587
+00002980                FadeTime 0.0
+00002984                FadeWaitTime 0.0
+00002988                NearPlane -1.0
+0000298c                ShadowViewDistanceScale 1.0
+00002990                SoundOcclusion 0.0
+00002994                SoundListenerRadius 0.5
+00002998                SoundListenerFov 55.0
+0000299c                ShakeFactor 1.0
+000029a0                ViewId LocalPlayerViewId_RootView
+000029a4                StayFadedWhileStreaming False
+000029a5                EnableCameraShakeLimits False
+000029b0            Hud::array
+00002d9c                member(0) 0000000c
+00002da0                member(1) 00000012
+00002da4                member(2) 00000017
+000029c0        LeftCurve *nullArray*
+000029c4        RightCurve *nullArray*
+000029c8        UpCurve *nullArray*
+000029cc        DownCurve *nullArray*
+000029d0        LoosePartPhysics *nullArray*
+000029d4        LeftYawAngle 0.0
+000029d8        RightYawAngle 0.0
+000029dc        UpPitchAngle 0.0
+000029e0        DownPitchAngle 0.0
+000029e4        AverageFilterFrames 10
+000029e8        YawInputAction 1018573301
+000029ec        PitchInputAction -754024050
+000029f0        WorldSpaceLockEfficiencyYaw 0.0
+000029f4        WorldSpaceLockEfficiencyYawAway -1.0
+000029f8        WorldSpaceLockEfficiencyPitch 0.0
+000029fc        YawSensitivityNonZoomed 0.0
+00002a00        YawSensitivityZoomed 0.0
+00002a04        PitchSensitivityNonZoomed 0.0
+00002a08        PitchSensitivityZoomed 0.0
+00002a0c        MergeLeftAndRightCurves False
+00002a0d        MergeUpAndDownCurves False
+00002a0e        MirrorHorizontalCurves False
+00002a0f        MirrorVerticalCurves False
+00002a10        AccumulateInput True
+00002a11        ResetAccumulatedInputOnViewChange True
+00002a20    VeniceFPSCameraData 00000007
+00002a20        $::FPSCameraData
+00002a20            $::TargetCameraData
+00002a20                $::CameraData
+00002a20                    $::GameObjectData
+00002a20                        $::DataBusPeer
+00002a20                            $::GameDataContainer
+00002a20                                $::DataContainer
+00002a28                            Flags 0
+00002a2c                    PreFadeTime 0.0
+00002a30                    OcclusionRayOffset::Vec3
+00002a30                        x 0.0
+00002a34                        y 0.0
+00002a38                        z 0.0
+00002a40                    CameraShakeLimits::Vec3
+00002a40                        x 0.523599028587
+00002a44                        y 0.523599028587
+00002a48                        z 0.523599028587
+00002a50                    FadeTime 0.0
+00002a54                    FadeWaitTime 0.0
+00002a58                    NearPlane -1.0
+00002a5c                    ShadowViewDistanceScale 1.0
+00002a60                    SoundOcclusion 0.0
+00002a64                    SoundListenerRadius 0.5
+00002a68                    SoundListenerFov 55.0
+00002a6c                    ShakeFactor 1.0
+00002a70                    ViewId LocalPlayerViewId_RootView
+00002a74                    StayFadedWhileStreaming False
+00002a75                    EnableCameraShakeLimits False
+00002a80                Hud::array
+00002dac                    member(0) 0000000d
+00002db0                    member(1) 0000000f
+00002db4                    member(2) 00000016
+00002a90            TurnEffectSettings::TurnEffectData
+00002a90                MaxRollAngle 0.0
+00002a94                MaxPitchAngle 0.0
+00002a98                YawVelocityThreshhold 10.0
+00002a9c                VelocityThreshhold 10.0
+00002aa0                SafeTime 0.10000000149
+00002aa4                BeginTime 0.20000000298
+00002aa8                HoldTime 0.20000000298
+00002aac                EndTime 0.20000000298
+00002ab0            BlurEffectSettings::BlurEffectData
+00002ab0                DispersionStrength 0.5
+00002ab4                DispersionThreshhold 0.10000000149
+00002ab8                ExplosionStrength 0.5
+00002abc                BulletStrength 0.5
+00002ac0                ExplosionFalloffSpeed 0.5
+00002ac4                BulletFalloffSpeed 0.5
+00002ac8            FOV 0.0
+00002ad0        SuppressionBlurAmountMultiplier 2.0
+00002ad4        SuppressionBlurSizeMultiplier 1.0
+00002ae0    VeniceFPSCameraData 00000008
+00002ae0        $::FPSCameraData
+00002ae0            $::TargetCameraData
+00002ae0                $::CameraData
+00002ae0                    $::GameObjectData
+00002ae0                        $::DataBusPeer
+00002ae0                            $::GameDataContainer
+00002ae0                                $::DataContainer
+00002ae8                            Flags 0
+00002aec                    PreFadeTime 0.0
+00002af0                    OcclusionRayOffset::Vec3
+00002af0                        x 0.0
+00002af4                        y 0.0
+00002af8                        z 0.0
+00002b00                    CameraShakeLimits::Vec3
+00002b00                        x 0.523599028587
+00002b04                        y 0.523599028587
+00002b08                        z 0.523599028587
+00002b10                    FadeTime 0.0
+00002b14                    FadeWaitTime 0.0
+00002b18                    NearPlane -1.0
+00002b1c                    ShadowViewDistanceScale 1.0
+00002b20                    SoundOcclusion 0.0
+00002b24                    SoundListenerRadius 0.5
+00002b28                    SoundListenerFov 55.0
+00002b2c                    ShakeFactor 1.0
+00002b30                    ViewId LocalPlayerViewId_RootView
+00002b34                    StayFadedWhileStreaming False
+00002b35                    EnableCameraShakeLimits True
+00002b40                Hud::array
+00002dbc                    member(0) 0000000b
+00002dc0                    member(1) 0000000e
+00002dc4                    member(2) 00000015
+00002b50            TurnEffectSettings::TurnEffectData
+00002b50                MaxRollAngle 0.0
+00002b54                MaxPitchAngle 0.0
+00002b58                YawVelocityThreshhold 10.0
+00002b5c                VelocityThreshhold 10.0
+00002b60                SafeTime 0.10000000149
+00002b64                BeginTime 0.20000000298
+00002b68                HoldTime 0.20000000298
+00002b6c                EndTime 0.20000000298
+00002b70            BlurEffectSettings::BlurEffectData
+00002b70                DispersionStrength 0.0
+00002b74                DispersionThreshhold 0.10000000149
+00002b78                ExplosionStrength 1.0
+00002b7c                BulletStrength 1.0
+00002b80                ExplosionFalloffSpeed 0.5
+00002b84                BulletFalloffSpeed 0.5
+00002b88            FOV 0.0
+00002b90        SuppressionBlurAmountMultiplier 2.0
+00002b94        SuppressionBlurSizeMultiplier 1.0
+00002ba0    BfCompassHudData 00000009
+00002b98        $::HudData
+00002b98            $::DataContainer
+00002ba0        UseRenderTarget False
+00002ba4    BfCompassHudData 0000000a
+00002b9c        $::HudData
+00002b9c            $::DataContainer
+00002ba4        UseRenderTarget False
+00002ba8    BfCompassHudData 0000000b
+00002ba0        $::HudData
+00002ba0            $::DataContainer
+00002ba8        UseRenderTarget False
+00002bac    BfCompassHudData 0000000c
+00002ba4        $::HudData
+00002ba4            $::DataContainer
+00002bac        UseRenderTarget False
+00002bb0    BfCompassHudData 0000000d
+00002ba8        $::HudData
+00002ba8            $::DataContainer
+00002bb0        UseRenderTarget False
+00002bb4    BfCrosshairHudData 0000000e
+00002bac        $::HudData
+00002bac            $::DataContainer
+00002bb4        CrosshairAngleMin 0.0
+00002bb8        CrosshairAngleMax 5.0
+00002bbc        CrosshairScale 5.0
+00002bc0        CrosshairType *nullGuid*
+00002bc4    BfCrosshairHudData 0000000f
+00002bbc        $::HudData
+00002bbc            $::DataContainer
+00002bc4        CrosshairAngleMin 0.0
+00002bc8        CrosshairAngleMax 5.0
+00002bcc        CrosshairScale 5.0
+00002bd0        CrosshairType *nullGuid*
+00002bd4    BfCrosshairHudData 00000010
+00002bcc        $::HudData
+00002bcc            $::DataContainer
+00002bd4        CrosshairAngleMin 0.0
+00002bd8        CrosshairAngleMax 5.0
+00002bdc        CrosshairScale 5.0
+00002be0        CrosshairType *nullGuid*
+00002be4    BfCrosshairHudData 00000011
+00002bdc        $::HudData
+00002bdc            $::DataContainer
+00002be4        CrosshairAngleMin 0.0
+00002be8        CrosshairAngleMax 5.0
+00002bec        CrosshairScale 5.0
+00002bf0        CrosshairType *nullGuid*
+00002bf4    BfCrosshairHudData 00000012
+00002bec        $::HudData
+00002bec            $::DataContainer
+00002bf4        CrosshairAngleMin 0.0
+00002bf8        CrosshairAngleMax 5.0
+00002bfc        CrosshairScale 5.0
+00002c00        CrosshairType *nullGuid*
+00002c04    BfVehicleHudData 00000013
+00002bfc        $::HudData
+00002bfc            $::DataContainer
+00002c04        SeaLevelAltFreq 0.0
+00002c08        HudPropertyList *nullGuid*
+00002c0c        UseWeaponOrientations False
+00002c0d        UseVelocityVectorMarker False
+00002c0e        UseThrust False
+00002c0f        UseGForce False
+00002c10        UseSkidSlip False
+00002c11        UseClimbRate False
+00002c14    BfVehicleHudData 00000014
+00002c0c        $::HudData
+00002c0c            $::DataContainer
+00002c14        SeaLevelAltFreq 0.0
+00002c18        HudPropertyList *nullGuid*
+00002c1c        UseWeaponOrientations False
+00002c1d        UseVelocityVectorMarker False
+00002c1e        UseThrust False
+00002c1f        UseGForce False
+00002c20        UseSkidSlip False
+00002c21        UseClimbRate False
+00002c24    BfVehicleHudData 00000015
+00002c1c        $::HudData
+00002c1c            $::DataContainer
+00002c24        SeaLevelAltFreq 0.0
+00002c28        HudPropertyList *nullGuid*
+00002c2c        UseWeaponOrientations False
+00002c2d        UseVelocityVectorMarker False
+00002c2e        UseThrust False
+00002c2f        UseGForce False
+00002c30        UseSkidSlip False
+00002c31        UseClimbRate False
+00002c34    BfVehicleHudData 00000016
+00002c2c        $::HudData
+00002c2c            $::DataContainer
+00002c34        SeaLevelAltFreq 0.0
+00002c38        HudPropertyList *nullGuid*
+00002c3c        UseWeaponOrientations False
+00002c3d        UseVelocityVectorMarker False
+00002c3e        UseThrust False
+00002c3f        UseGForce False
+00002c40        UseSkidSlip False
+00002c41        UseClimbRate False
+00002c44    BfVehicleHudData 00000017
+00002c3c        $::HudData
+00002c3c            $::DataContainer
+00002c44        SeaLevelAltFreq 0.0
+00002c48        HudPropertyList *nullGuid*
+00002c4c        UseWeaponOrientations False
+00002c4d        UseVelocityVectorMarker False
+00002c4e        UseThrust False
+00002c4f        UseGForce False
+00002c50        UseSkidSlip False
+00002c51        UseClimbRate False
+00002c54    SchematicChannelEntityData 00000018
+00002c4c        $::EntityData
+00002c4c            $::GameObjectData
+00002c4c                $::DataBusPeer
+00002c4c                    $::GameDataContainer
+00002c4c                        $::DataContainer
+00002c54                    Flags 142994865
+00002c58        Realm Realm_Client
+00002c5c        Channel UI/Ingame/Spectator/Logic/UIChannelSpectator/90043839e0fdda44871c36f45559f69a
+00002c60        InputProperties::array
+00002dcc            member(0) 20
+00002c64        InputRefProperties *nullArray*
+00002c68        OutputProperties *nullArray*
+00002c6c        OutputRefProperties *nullArray*
+00002c70    SchematicChannelEntityData 00000019
+00002c68        $::EntityData
+00002c68            $::GameObjectData
+00002c68                $::DataBusPeer
+00002c68                    $::GameDataContainer
+00002c68                        $::DataContainer
+00002c70                    Flags 1619229895
+00002c74        Realm Realm_ClientAndServer
+00002c78        Channel Gameplay/GameModes/Core_Hub/bd43fdd6808dca00971e3201e806e8e7
+00002c7c        InputProperties *nullArray*
+00002c80        InputRefProperties *nullArray*
+00002c84        OutputProperties *nullArray*
+00002c88        OutputRefProperties *nullArray*
+00002c8c    TransformHubEntityData 0000001a
+00002c84        $::EntityData
+00002c84            $::GameObjectData
+00002c84                $::DataBusPeer
+00002c84                    $::GameDataContainer
+00002c84                        $::DataContainer
+00002c8c                    Flags 135790599
+00002c90        Realm Realm_Client
+00002c94        InputCount 3
+00002c98        InputSelect 0
+00002c9c        HashedInput::array
+00002dd4            member(0) 193450866
+00002dd8            member(1) 193450867
+00002ddc            member(2) 193450864
+00002de0            member(3) 193450865

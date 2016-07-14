@@ -1,0 +1,194 @@
+00001be0    WeaponFiringDataAsset a468c763592098f1a2fc8265e08b11dd
+00001bd8        $::GameDataContainerAsset
+00001bd8            $::Asset
+00001bd8                $::DataContainer
+00001be0                Name Gameplay/Vehicles/common/WeaponData/Halberstadt/50kg_Bomb_HE_Firing_x2
+00001be4            Data 854216356175b9aad461a0dbe6da7d06
+00001c00    FiringFunctionData 0c3ee60e8af4dc3963fdcaf5860a32b3
+00001c00        $::GameDataContainer
+00001c00            $::DataContainer
+00001c08        WeaponDispersion::WeaponDispersion
+00001c08            StandDispersion::FiringDispersionData
+00001c08                MinAngle 30.0
+00001c0c                MaxAngle 30.0
+00001c10                IncreasePerShot 5.0
+00001c14                DecreasePerSecond 5.0
+00001c18            CrouchDispersion::FiringDispersionData
+00001c18                MinAngle 0.0
+00001c1c                MaxAngle 0.0
+00001c20                IncreasePerShot 0.0
+00001c24                DecreasePerSecond 5.0
+00001c28            ProneDispersion::FiringDispersionData
+00001c28                MinAngle 0.0
+00001c2c                MaxAngle 0.0
+00001c30                IncreasePerShot 0.0
+00001c34                DecreasePerSecond 5.0
+00001c38            JumpDispersionAngle 0.0
+00001c3c            ProneTransitionDispersionAngle 0.0
+00001c40            MoveDispersionAngle 0.0
+00001c44            MoveZoomedDispersionAngle 0.0
+00001c48            DecreasePerSecond 5.0
+00001c4c        FireEffects1p *nullArray*
+00001c50        Shot::ShotConfigData
+00001c50            InitialPosition::Vec3
+00001c50                x 0.0
+00001c54                y 0.0
+00001c58                z 0.0
+00001c60            InitialDirection::Vec3
+00001c60                x 1.0
+00001c64                y 0.0
+00001c68                z 0.0
+00001c70            InitialSpeed::Vec3
+00001c70                x 0.0
+00001c74                y 0.0
+00001c78                z 0.0
+00001c80            InitialDirectionScaleByPitch *nullArray*
+00001c84            InitialSpeedScaleByPitch *nullArray*
+00001c88            InheritWeaponSpeedAmount 1.20000004768
+00001c8c            MuzzleExplosion *nullGuid*
+00001c90            ProjectileData Gameplay/Vehicles/common/WeaponData/Halberstadt/50KG_Bomb_Projectile/5434f973a8aeedc475ae6bf1c3c257ae
+00001c94            SecondaryProjectileData *nullGuid*
+00001c98            Projectile Gameplay/Vehicles/common/WeaponData/Halberstadt/50KG_Bomb_Projectile/28f11a5c1a47fb53812e6c870d302d12
+00001c9c            SecondaryProjectile *nullGuid*
+00001ca0            SpawnDelay 0.0
+00001ca4            NumberOfBulletsPerShell 1
+00001ca8            NumberOfBulletsPerShot 2
+00001cac            NumberOfBulletsPerBurst 2
+00001cb0            UseSpawnDelayForQuickSwitch False
+00001cb1            RelativeTargetAiming False
+00001cb2            ForceSpawnToCamera False
+00001cb3            SpawnVisualAtWeaponBone False
+00001cb4            ActiveForceSpawnToCamera True
+00001cc0        OverHeat::OverHeatData
+00001cc0            OverHeatEffect::FireEffectData
+00001cc0                Offset::Vec3
+00001cc0                    x 0.0
+00001cc4                    y 0.0
+00001cc8                    z 0.0
+00001cd0                Rotation::Vec3
+00001cd0                    x 0.0
+00001cd4                    y 0.0
+00001cd8                    z 0.0
+00001ce0                ZoomOffset::Vec3
+00001ce0                    x 0.0
+00001ce4                    y 0.0
+00001ce8                    z 0.0
+00001cf0                ZoomRotation::Vec3
+00001cf0                    x 0.0
+00001cf4                    y 0.0
+00001cf8                    z 0.0
+00001d00                Effect *nullGuid*
+00001d04                UseZoomOffset False
+00001d05                UseZoomRotation False
+00001d06                DisableDuringZoom False
+00001d07                UpdateTransform False
+00001d08                StopLoopingEffects False
+00001d10            HeatPerBullet 0.0
+00001d14            HeatDropPerSecond 0.20000000298
+00001d18            OverHeatDropDelay 0.0
+00001d1c            OverHeatPenaltyTime 3.0
+00001d20            OverHeatThreshold 0.800000011921
+00001d30        FireEffects3p *nullArray*
+00001d34        Sound Sound/Core/Weapons/Vehicle/TwoSeat_BombCam/Weapons_Vehicle_TwoSeat_BombCam/c76e4e2579c9d644b937d6705fc41ceb
+00001d38        SoundRemotePlayer *nullGuid*
+00001d3c        FireLogic::FireLogicData
+00001d3c            HoldAndRelease::HoldAndReleaseData
+00001d3c                MaxHoldTime 10.0
+00001d40                MinPowerModifier 1.0
+00001d44                MaxPowerModifier 2.0
+00001d48                PowerIncreasePerSecond 0.10000000149
+00001d4c                Delay 0.0
+00001d50                KilledHoldingPowerModifier 0.0
+00001d54                ForceFireWhenKilledHolding True
+00001d55                PreciseReplicatedPowerModifier False
+00001d56                SecondaryActionCancelHoldAndRelease False
+00001d58            BoltAction::BoltActionData
+00001d58                BoltActionDelay 0.5
+00001d5c                BoltActionTime 1.0
+00001d60                HoldBoltActionUntilFireRelease True
+00001d61                HoldBoltActionUntilZoomRelease True
+00001d62                ForceBoltActionOnFireTrigger False
+00001d63                UnZoomOnBoltAction True
+00001d64                ReturnToZoomAfterBoltAction True
+00001d68            Recoil::RecoilData
+00001d68                MaxRecoilAngleX 0.0
+00001d6c                MinRecoilAngleX 0.0
+00001d70                MaxRecoilAngleY 0.0
+00001d74                MinRecoilAngleY 0.0
+00001d78                MaxRecoilAngleZ 0.0
+00001d7c                MinRecoilAngleZ 0.0
+00001d80                MaxRecoilFov 0.0
+00001d84                MinRecoilFov 0.0
+00001d88                RecoilFollowsDispersion True
+00001d8c            FireInputAction 1018135856
+00001d90            ReloadInputAction 1131457753
+00001d94            CycleFireModeInputAction -1145593149
+00001d98            TriggerPullWeight 0.10000000149
+00001d9c            RateOfFire 400.0
+00001da0            RateOfFireForBurst 400.0
+00001da4            BurstsPerMinute 0.0
+00001da8            ClientFireRateMultiplier 1.0
+00001dac            ReloadDelay 0.0
+00001db0            PostReloadDelay 0.0
+00001db4            BridgeDelay 0.0
+00001db8            ReloadTime 0.25
+00001dbc            ReloadTimerArray *nullArray*
+00001dc0            ReloadTimeBulletsLeft -1.0
+00001dc4            ReloadThreshold 1.0
+00001dc8            PreFireDelay 0.0
+00001dcc            PendingFireWindow 0.0
+00001dd0            AutomaticDelay 0.0
+00001dd4            ReloadLogic rlReloadUnaffectedByWeaponSwitch
+00001dd8            ReloadType rtMagazine
+00001ddc            FireLogicType fltAutomaticFire
+00001de0            FireLogicTypeArray *nullArray*
+00001de4            CorrectedAutomaticFireReplication False
+00001de5            HoldOffReloadUntilFireRelease False
+00001de6            HoldOffReloadUntilZoomRelease False
+00001de7            ForceReloadActionOnFireTrigger False
+00001de8            ClosedBolt True
+00001de9            FireLogicSwitchOnZoom False
+00001dea            AlwaysAutoReload True
+00001deb            AutoReloadIgnoreFireTriggerPressed True
+00001dec        Ammo::AmmoConfigData
+00001dec            MagazineCapacity 2
+00001df0            NumberOfMagazines 1
+00001df4            StripperClipSize -1
+00001df8            TraceFrequency 1
+00001dfc            AmmoPickupMinAmount 0
+00001e00            AmmoPickupMaxAmount 0
+00001e04            AutoReplenishDelay 17.75
+00001e08            AutoReplenishSpeedupFactor 1.0
+00001e0c            AmmoBagPickupDelayMultiplier 1.0
+00001e10            AmmoBagPickupAmount -1
+00001e14            PersistentAmmoMagazinesOnRespawn 0
+00001e18            SpawnWithoutAmmo False
+00001e19            AutoReplenishMagazine True
+00001e1a            AutoReplenishWhenInactive True
+00001e1b            PersistentAmmo False
+00001e1c        SelfHealTimeWhenDeployed 0.0
+00001e20        UsePrimaryAmmo True
+00001e21        UnlimitedAmmoForAI False
+00001e40    WeaponFiringData 854216356175b9aad461a0dbe6da7d06
+00001e38        $::GameDataContainer
+00001e38            $::DataContainer
+00001e40        PrimaryFire 0c3ee60e8af4dc3963fdcaf5860a32b3
+00001e44        DeployTime 0.5
+00001e48        ReactivateCooldownTime 0.0
+00001e4c        DisableZoomOnDeployTime 0.25
+00001e50        AltDeployTime 2.0
+00001e54        AltDeployId -1
+00001e58        WeaponSway *nullGuid*
+00001e5c        Rumble::RumbleFiringData
+00001e5c            LowRumble 0.0
+00001e60            HighRumble 0.0
+00001e64            RumbleDuration 0.20000000298
+00001e68        SupportDelayStand 0.0
+00001e6c        SupportDelayProne 0.0
+00001e70        UseAutoAiming False
+00001e71        InflictSelfDamage False
+00001e72        ShowEnemyNametagOnAim True
+00001e73        ReloadWholeMags False
+00001e74        DisableReloadWhileSprinting False
+00001e75        AbortReloadOnSprint False
+00001e76        UseRemoteDamageGiverInfo False

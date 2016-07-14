@@ -1,0 +1,361 @@
+00001af0    UIWidgetBlueprint 45d49d28aa9e7f498b5ff8697b385173
+00001ae8        $::ObjectBlueprint
+00001ae8            $::Blueprint
+00001ae8                $::EntityBusData
+00001ae8                    $::DataBusData
+00001ae8                        $::Asset
+00001ae8                            $::DataContainer
+00001af0                            Name UI/CppScreens/Gameplay/KillScreenRoot
+00001af4                        PropertyConnections::array
+00001ee4                            member(0)::PropertyConnection
+00001ee4                                Source 00000003
+00001ee8                                Target 00000002
+00001eec                                SourceFieldId -561051480
+00001ef0                                TargetFieldId -561051480
+00001ef4                                Flags 18
+00001ef8                            member(1)::PropertyConnection
+00001ef8                                Source 00000002
+00001efc                                Target 00000003
+00001f00                                SourceFieldId 255007171
+00001f04                                TargetFieldId 255007171
+00001f08                                Flags 18
+00001af8                        LinkConnections *nullArray*
+00001afc                        Interface 00000003
+00001b00                        Flags 14
+00001b04                    EventConnections::array
+00001f10                        member(0)::EventConnection
+00001f10                            Source 00000002
+00001f14                            Target 00000003
+00001f18                            SourceEvent::EventSpec
+00001f18                                Id -1433448219
+00001f1c                            TargetEvent::EventSpec
+00001f1c                                Id -1433448219
+00001f20                            TargetType EventConnectionTargetType_Client
+00001f24                        member(1)::EventConnection
+00001f24                            Source 00000003
+00001f28                            Target 00000002
+00001f2c                            SourceEvent::EventSpec
+00001f2c                                Id 772610979
+00001f30                            TargetEvent::EventSpec
+00001f30                                Id -1608062910
+00001f34                            TargetType EventConnectionTargetType_Client
+00001b08            Object 6ce63139b6bb5c419277fea26395d2f7
+00001b1c    BFUIWidgetEntityData 6ce63139b6bb5c419277fea26395d2f7
+00001b14        $::UIWidgetEntityData
+00001b14            $::EntityData
+00001b14                $::GameObjectData
+00001b14                    $::DataBusPeer
+00001b14                        $::GameDataContainer
+00001b14                            $::DataContainer
+00001b1c                        Flags 187819628
+00001b20            Size::UIElementSize
+00001b20                X 1920.0
+00001b24                Y 1080.0
+00001b28            Layers::array
+00001f3c                member(0) 00000004
+00001b2c            TextureMappings *nullArray*
+00001b30            Components *nullArray*
+00001b34            Visible True
+00001b38        CustomLayout::BFUICustomLayout
+00001b38            SnapSettings::BFUISnapLayoutSettings
+00001b38                Left BFUISnapLayoutMode_Default
+00001b3c                Right BFUISnapLayoutMode_Default
+00001b40                Top BFUISnapLayoutMode_Default
+00001b44                Bottom BFUISnapLayoutMode_Default
+00001b48            OverrideDefaultLayout False
+00001b4c        UseStencilMask False
+00001b4d        UseInputStencilMask False
+00001b4e        InputEnabled True
+00001b50    UIElementWidgetReferenceEntityData 00000000
+00001b50        $::LogicReferenceObjectData
+00001b50            $::ReferenceObjectData
+00001b50                $::GameObjectData
+00001b50                    $::DataBusPeer
+00001b50                        $::GameDataContainer
+00001b50                            $::DataContainer
+00001b58                        Flags 0
+00001b5c                Blueprint UI/Obsolete/elements/Widgets/ButtonBarWidget/7db3daf6ae7b3fb812c89739a38f0e7f
+00001b60                BlueprintTransform::LinearTransform
+00001b60                    right::Vec3
+00001b60                        x 1.0
+00001b64                        y 0.0
+00001b68                        z 0.0
+00001b70                    up::Vec3
+00001b70                        x 0.0
+00001b74                        y 1.0
+00001b78                        z 0.0
+00001b80                    forward::Vec3
+00001b80                        x 0.0
+00001b84                        y 0.0
+00001b88                        z 1.0
+00001b90                    trans::Vec3
+00001b90                        x 0.0
+00001b94                        y 0.0
+00001b98                        z 0.0
+00001ba0                ObjectVariation *nullGuid*
+00001ba4                StreamRealm StreamRealm_None
+00001ba8                RadiosityTypeOverride RadiosityTypeOverride_None
+00001bac                LightmapResolutionScale 0
+00001bb0                RenderingOverrides::RenderingOverrides
+00001bb0                    ShadowEnable RenderingOverride_Inherit
+00001bb4                    DynamicReflectionEnable RenderingOverride_Inherit
+00001bb8                    StaticReflectionEnable RenderingOverride_Inherit
+00001bbc                ForceSeparateEnlightenSystem False
+00001bbd                CastSunShadowEnable True
+00001bbe                CastReflectionEnable True
+00001bbf                CastEnvmapEnable True
+00001bc0                Excluded False
+00001bd0            LocalPlayerId LocalPlayerId_Invalid
+00001bd4            SubRealm SubRealm_All
+00001be0        UIElementTransform::UIElementTransform
+00001be0            Rotation::Vec3
+00001be0                x 0.0
+00001be4                y 0.0
+00001be8                z 0.0
+00001bf0            RotationPivot::Vec3
+00001bf0                x 0.5
+00001bf4                y 0.5
+00001bf8                z 0.0
+00001c00            Z 0.0
+00001c10        Color::Vec3
+00001c10            x 1.0
+00001c14            y 1.0
+00001c18            z 1.0
+00001c20        InstanceName ButtonBar
+00001c24        InstanceNameHash 3392146242
+00001c28        InclusionSettings::UIElementInclusionSettings
+00001c28            CustomInclusionCritera *nullArray*
+00001c2c            IsSingleplayerLayer True
+00001c2d            IsMultiplayerLayer True
+00001c2e            IsSDLayer True
+00001c2f            IsHDLayer True
+00001c30        Size::Vec2
+00001c30            x 256.0
+00001c34            y 256.0
+00001c38        LayoutMode UILayoutMode_AnchorOffset
+00001c3c        Offset::UIElementOffset
+00001c3c            X 0.0
+00001c40            Y 0.0
+00001c44        Anchor::UIElementAnchor
+00001c44            X 0.0
+00001c48            Y 0.0
+00001c4c        Position::UIElementOffset
+00001c4c            X 0.0
+00001c50            Y 0.0
+00001c54        Expansion::UIElementRectExpansion
+00001c54            X 0.0
+00001c58            Y 0.0
+00001c5c            Width 0.0
+00001c60            Height 0.0
+00001c64        Alpha 1.0
+00001c68        CodeAccessIdentifier *nullString*
+00001c6c        UseElementSize False
+00001c70    UIElementWidgetReferenceEntityData 00000001
+00001c70        $::LogicReferenceObjectData
+00001c70            $::ReferenceObjectData
+00001c70                $::GameObjectData
+00001c70                    $::DataBusPeer
+00001c70                        $::GameDataContainer
+00001c70                            $::DataContainer
+00001c78                        Flags 0
+00001c7c                Blueprint UI/Obsolete/elements/Widgets/ReceiveDamageIndicatorWidget/991dad82f980a78cacfa98fc3329ec23
+00001c80                BlueprintTransform::LinearTransform
+00001c80                    right::Vec3
+00001c80                        x 1.0
+00001c84                        y 0.0
+00001c88                        z 0.0
+00001c90                    up::Vec3
+00001c90                        x 0.0
+00001c94                        y 1.0
+00001c98                        z 0.0
+00001ca0                    forward::Vec3
+00001ca0                        x 0.0
+00001ca4                        y 0.0
+00001ca8                        z 1.0
+00001cb0                    trans::Vec3
+00001cb0                        x 0.0
+00001cb4                        y 0.0
+00001cb8                        z 0.0
+00001cc0                ObjectVariation *nullGuid*
+00001cc4                StreamRealm StreamRealm_None
+00001cc8                RadiosityTypeOverride RadiosityTypeOverride_None
+00001ccc                LightmapResolutionScale 0
+00001cd0                RenderingOverrides::RenderingOverrides
+00001cd0                    ShadowEnable RenderingOverride_Inherit
+00001cd4                    DynamicReflectionEnable RenderingOverride_Inherit
+00001cd8                    StaticReflectionEnable RenderingOverride_Inherit
+00001cdc                ForceSeparateEnlightenSystem False
+00001cdd                CastSunShadowEnable True
+00001cde                CastReflectionEnable True
+00001cdf                CastEnvmapEnable True
+00001ce0                Excluded False
+00001cf0            LocalPlayerId LocalPlayerId_Invalid
+00001cf4            SubRealm SubRealm_All
+00001d00        UIElementTransform::UIElementTransform
+00001d00            Rotation::Vec3
+00001d00                x 0.0
+00001d04                y 0.0
+00001d08                z 0.0
+00001d10            RotationPivot::Vec3
+00001d10                x 0.5
+00001d14                y 0.5
+00001d18                z 0.0
+00001d20            Z 0.0
+00001d30        Color::Vec3
+00001d30            x 1.0
+00001d34            y 1.0
+00001d38            z 1.0
+00001d40        InstanceName ReceiveDamageWidget
+00001d44        InstanceNameHash 1677546633
+00001d48        InclusionSettings::UIElementInclusionSettings
+00001d48            CustomInclusionCritera *nullArray*
+00001d4c            IsSingleplayerLayer True
+00001d4d            IsMultiplayerLayer True
+00001d4e            IsSDLayer True
+00001d4f            IsHDLayer True
+00001d50        Size::Vec2
+00001d50            x 256.0
+00001d54            y 256.0
+00001d58        LayoutMode UILayoutMode_AnchorOffset
+00001d5c        Offset::UIElementOffset
+00001d5c            X 0.0
+00001d60            Y 0.0
+00001d64        Anchor::UIElementAnchor
+00001d64            X 0.5
+00001d68            Y 0.5
+00001d6c        Position::UIElementOffset
+00001d6c            X 0.0
+00001d70            Y 0.0
+00001d74        Expansion::UIElementRectExpansion
+00001d74            X 0.0
+00001d78            Y 0.0
+00001d7c            Width 0.0
+00001d80            Height 0.0
+00001d84        Alpha 1.0
+00001d88        CodeAccessIdentifier *nullString*
+00001d8c        UseElementSize False
+00001d90    UIElementWidgetReferenceEntityData 00000002
+00001d90        $::LogicReferenceObjectData
+00001d90            $::ReferenceObjectData
+00001d90                $::GameObjectData
+00001d90                    $::DataBusPeer
+00001d90                        $::GameDataContainer
+00001d90                            $::DataContainer
+00001d98                        Flags 167772160
+00001d9c                Blueprint UI/KillCard/Widgets/KillScreen/7ee0fd06d9389090738a6e3b4edb4a57
+00001da0                BlueprintTransform::LinearTransform
+00001da0                    right::Vec3
+00001da0                        x 1.0
+00001da4                        y 0.0
+00001da8                        z 0.0
+00001db0                    up::Vec3
+00001db0                        x 0.0
+00001db4                        y 1.0
+00001db8                        z 0.0
+00001dc0                    forward::Vec3
+00001dc0                        x 0.0
+00001dc4                        y 0.0
+00001dc8                        z 1.0
+00001dd0                    trans::Vec3
+00001dd0                        x 0.0
+00001dd4                        y 0.0
+00001dd8                        z 0.0
+00001de0                ObjectVariation *nullGuid*
+00001de4                StreamRealm StreamRealm_None
+00001de8                RadiosityTypeOverride RadiosityTypeOverride_None
+00001dec                LightmapResolutionScale 0
+00001df0                RenderingOverrides::RenderingOverrides
+00001df0                    ShadowEnable RenderingOverride_Inherit
+00001df4                    DynamicReflectionEnable RenderingOverride_Inherit
+00001df8                    StaticReflectionEnable RenderingOverride_Inherit
+00001dfc                ForceSeparateEnlightenSystem False
+00001dfd                CastSunShadowEnable True
+00001dfe                CastReflectionEnable True
+00001dff                CastEnvmapEnable True
+00001e00                Excluded False
+00001e10            LocalPlayerId LocalPlayerId_Invalid
+00001e14            SubRealm SubRealm_All
+00001e20        UIElementTransform::UIElementTransform
+00001e20            Rotation::Vec3
+00001e20                x 0.0
+00001e24                y 0.0
+00001e28                z 0.0
+00001e30            RotationPivot::Vec3
+00001e30                x 0.5
+00001e34                y 0.5
+00001e38                z 0.0
+00001e40            Z 0.0
+00001e50        Color::Vec3
+00001e50            x 1.0
+00001e54            y 1.0
+00001e58            z 1.0
+00001e60        InstanceName KillScreen
+00001e64        InstanceNameHash 59397739
+00001e68        InclusionSettings::UIElementInclusionSettings
+00001e68            CustomInclusionCritera *nullArray*
+00001e6c            IsSingleplayerLayer True
+00001e6d            IsMultiplayerLayer True
+00001e6e            IsSDLayer True
+00001e6f            IsHDLayer True
+00001e70        Size::Vec2
+00001e70            x 256.0
+00001e74            y 256.0
+00001e78        LayoutMode UILayoutMode_PositionExpansion
+00001e7c        Offset::UIElementOffset
+00001e7c            X 0.0
+00001e80            Y 0.0
+00001e84        Anchor::UIElementAnchor
+00001e84            X 0.5
+00001e88            Y 0.5
+00001e8c        Position::UIElementOffset
+00001e8c            X 0.0
+00001e90            Y 0.0
+00001e94        Expansion::UIElementRectExpansion
+00001e94            X 0.0
+00001e98            Y 0.0
+00001e9c            Width 1.0
+00001ea0            Height 1.0
+00001ea4        Alpha 1.0
+00001ea8        CodeAccessIdentifier *nullString*
+00001eac        UseElementSize False
+00001eb0    InterfaceDescriptorData 00000003
+00001ea8        $::DynamicDataContainer
+00001ea8            $::DataContainer
+00001eb0            Fields::array
+00001f44                member(0)::DataField
+00001f44                    Value *nullString*
+00001f48                    ValueRef *nullGuid*
+00001f4c                    Id -561051480
+00001f50                    AccessType FieldAccessType_Target
+00001f54                member(1)::DataField
+00001f54                    Value *nullString*
+00001f58                    ValueRef *nullGuid*
+00001f5c                    Id 255007171
+00001f60                    AccessType FieldAccessType_Source
+00001eb4        InputEvents::array
+00001f68            member(0)::DynamicEvent
+00001f68                Id 772610979
+00001eb8        OutputEvents::array
+00001f70            member(0)::DynamicEvent
+00001f70                Id -1433448219
+00001ebc        InputLinks *nullArray*
+00001ec0        OutputLinks *nullArray*
+00001ec4    UIElementLayerEntityData 00000004
+00001ebc        $::EntityData
+00001ebc            $::GameObjectData
+00001ebc                $::DataBusPeer
+00001ebc                    $::GameDataContainer
+00001ebc                        $::DataContainer
+00001ec4                    Flags 0
+00001ec8        LayerName Widgets
+00001ecc        Elements::array
+00001f78            member(0) 00000002
+00001f7c            member(1) 00000000
+00001f80            member(2) 00000001
+00001ed0        InclusionSettings::UIElementInclusionSettings
+00001ed0            CustomInclusionCritera *nullArray*
+00001ed4            IsSingleplayerLayer True
+00001ed5            IsMultiplayerLayer True
+00001ed6            IsSDLayer True
+00001ed7            IsHDLayer True
+00001ed8        Visible True

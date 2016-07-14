@@ -1,0 +1,149 @@
+00001770    VisualEnvironmentBlueprint 67e439565c941841ad62617b6ba0ae92
+00001768        $::ObjectBlueprint
+00001768            $::Blueprint
+00001768                $::EntityBusData
+00001768                    $::DataBusData
+00001768                        $::Asset
+00001768                            $::DataContainer
+00001770                            Name FX/VE/Gameplay/VE_KillerCam
+00001774                        PropertyConnections::array
+00001914                            member(0)::PropertyConnection
+00001914                                Source 00000002
+00001918                                Target 00000000
+0000191c                                SourceFieldId 1402926186
+00001920                                TargetFieldId 1402926186
+00001924                                Flags 2
+00001778                        LinkConnections *nullArray*
+0000177c                        Interface 00000002
+00001780                        Flags 14
+00001784                    EventConnections *nullArray*
+00001788            Object 00000001
+0000178c        TimeDeltaType TimeDeltaType_None
+00001790    DofComponentData 00000000
+00001790        $::VisualEnvironmentComponentData
+00001790            $::GameComponentData
+00001790                $::ComponentData
+00001790                    $::GameObjectData
+00001790                        $::DataBusPeer
+00001790                            $::GameDataContainer
+00001790                                $::DataContainer
+00001798                            Flags 140446221
+0000179c                    Components *nullArray*
+000017a0                    Transform::LinearTransform
+000017a0                        right::Vec3
+000017a0                            x 1.0
+000017a4                            y 0.0
+000017a8                            z 0.0
+000017b0                        up::Vec3
+000017b0                            x 0.0
+000017b4                            y 1.0
+000017b8                            z 0.0
+000017c0                        forward::Vec3
+000017c0                            x 0.0
+000017c4                            y 0.0
+000017c8                            z 1.0
+000017d0                        trans::Vec3
+000017d0                            x 0.0
+000017d4                            y 0.0
+000017d8                            z 0.0
+000017e0                    Excluded False
+000017f0            PropertyOverrides::array
+0000192c                member(0) Realm
+00001930                member(1) Enable
+00001934                member(2) DebugDrawFocusPlane
+00001938                member(3) FocusDistance
+0000193c                member(4) SpriteDofNearStart
+00001940                member(5) SpriteDofNearEnd
+00001944                member(6) BlurFactor
+00001948                member(7) BlurAdd
+0000194c                member(8) SpriteDofBokehTexture
+00001950                member(9) SpriteDofMaxBlur
+00001954                member(10) SpriteDofFarEnd
+00001958                member(11) SimpleDofFarEnd
+0000195c                member(12) SimpleDofFarStart
+00001960                member(13) SimpleDofNearEnd
+00001964                member(14) SimpleDofNearStart
+00001968                member(15) SimpleDofMaxBlur
+0000196c                member(16) SimpleDofBlurFilter
+00001970                member(17) SpriteDofFarStart
+000017f4            PropertyOverrideMasks::array
+00001978                member(0) 6276095
+0000197c                member(1) 0
+00001800        Realm Realm_Client
+00001804        FocusDistance 5.0
+00001808        BlurFactor 0.171000003815
+0000180c        BlurAdd 0.0
+00001810        SimpleDofBlurFilter BfGaussian3Pixels
+00001814        SimpleDofMaxBlur 3.0
+00001818        SimpleDofNearStart 5.0
+0000181c        SimpleDofNearEnd 7.0
+00001820        SimpleDofFarStart 5.0
+00001824        SimpleDofFarEnd 7.0
+00001828        HipToIronsightsFade 1.0
+0000182c        IronsightsDofStartFade 0.5
+00001830        IronsightsFocalDistance 1.5
+00001834        IronsightsDofCircleDistance 0.34999999404
+00001838        SpriteDofNearStart 5.0
+0000183c        SpriteDofNearEnd 7.0
+00001840        SpriteDofFarStart 0.0
+00001844        SpriteDofFarEnd 10.0
+00001848        SpriteDofMaxBlur 6.0
+0000184c        SpriteDofBokehTexture FX/Lensflare/Textures/FE_Iris_Spots/51691ef5354a734daa05733d5c9f20fa
+00001850        Enable False
+00001851        UseCameraSettings False
+00001852        DebugDrawFocusPlane False
+00001853        IronsightsDofActive False
+00001854        IronsightsDofCircleBlur False
+00001860    VisualEnvironmentEntityData 00000001
+00001860        $::GameComponentEntityData
+00001860            $::ComponentEntityData
+00001860                $::SpatialEntityData
+00001860                    $::EntityData
+00001860                        $::GameObjectData
+00001860                            $::DataBusPeer
+00001860                                $::GameDataContainer
+00001860                                    $::DataContainer
+00001868                                Flags 179349151
+00001870                    Transform::LinearTransform
+00001870                        right::Vec3
+00001870                            x 1.0
+00001874                            y 0.0
+00001878                            z 0.0
+00001880                        up::Vec3
+00001880                            x 0.0
+00001884                            y 1.0
+00001888                            z 0.0
+00001890                        forward::Vec3
+00001890                            x 0.0
+00001894                            y 0.0
+00001898                            z 1.0
+000018a0                        trans::Vec3
+000018a0                            x 0.0
+000018a4                            y 0.0
+000018a8                            z 0.0
+000018b0                Components::array
+00001984                    member(0) 00000000
+000018b4                ClientRuntimeComponentCount 1
+000018b5                ServerRuntimeComponentCount 0
+000018b6                ClientRuntimeTransformationCount 0
+000018b7                ServerRuntimeTransformationCount 0
+000018c0            Enabled True
+000018c1            EnableOutOfBoundsCheck True
+000018d0        Visibility 1.0
+000018d4        FutureVisibility 0.0
+000018d8        Priority 20000
+000018dc        BlendMode VisualEnvironmentBlendMode_Lerp
+000018e0        ExplicitPriorityEnable False
+000018f0    InterfaceDescriptorData 00000002
+000018e8        $::DynamicDataContainer
+000018e8            $::DataContainer
+000018f0            Fields::array
+0000198c                member(0)::DataField
+0000198c                    Value *nullString*
+00001990                    ValueRef *nullGuid*
+00001994                    Id 1402926186
+00001998                    AccessType FieldAccessType_Target
+000018f4        InputEvents *nullArray*
+000018f8        OutputEvents *nullArray*
+000018fc        InputLinks *nullArray*
+00001900        OutputLinks *nullArray*

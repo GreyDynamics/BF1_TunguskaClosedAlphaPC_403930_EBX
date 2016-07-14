@@ -1,0 +1,764 @@
+00000bc0    GameModeConfiguration 0bcd1ec987ab992f01acb5458ab0fbd5
+00000bb8        $::Asset
+00000bb8            $::DataContainer
+00000bc0            Name Gameplay/GameModes/GameModeConfig
+00000bc4        Information::array
+00001618            member(0)::GameModeInformation
+00001618                Platform GamePlatform_Win32
+0000161c                Sizes::array
+00000d94                    member(0)::GameModeSize
+00000d94                        Name Rush
+00000d98                        NameSID ID_M_GAMEMODE_RUSH
+00000d9c                        ShortName R
+00000da0                        ShortNameSID ID_M_GAMEMODE_RUSH_SHORT
+00000da4                        Description ID_M_GAMEMODE_RUSH_DESC
+00000da8                        Hints::array
+00000bd4                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000bd8                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000bdc                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000dac                        MetaIdentifier Rush
+00000db0                        PlayerCount 24
+00000db4                        CommanderCount 0
+00000db8                        Teams::array
+00000be4                            member(0)::GameModeTeamSize
+00000be4                                PlayerCount 0
+00000be8                                SquadSize 0
+00000bec                                SquadAutoFillLimit 0
+00000bf0                            member(1)::GameModeTeamSize
+00000bf0                                PlayerCount 12
+00000bf4                                SquadSize 5
+00000bf8                                SquadAutoFillLimit 4
+00000bfc                            member(2)::GameModeTeamSize
+00000bfc                                PlayerCount 12
+00000c00                                SquadSize 5
+00000c04                                SquadAutoFillLimit 4
+00000dbc                        RoundsPerMap 2
+00000dc0                        ForceSquad False
+00000dc4                    member(1)::GameModeSize
+00000dc4                        Name Conquest
+00000dc8                        NameSID ID_M_GAMEMODE_CONQUEST
+00000dcc                        ShortName CQ
+00000dd0                        ShortNameSID ID_M_GAMEMODE_CONQUEST_SHORT
+00000dd4                        Description ID_M_GAMEMODE_CONQUEST_DESC
+00000dd8                        Hints::array
+00000c0c                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000c10                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000c14                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000ddc                        MetaIdentifier Conquest
+00000de0                        PlayerCount 64
+00000de4                        CommanderCount 0
+00000de8                        Teams::array
+00000c1c                            member(0)::GameModeTeamSize
+00000c1c                                PlayerCount 0
+00000c20                                SquadSize 0
+00000c24                                SquadAutoFillLimit 0
+00000c28                            member(1)::GameModeTeamSize
+00000c28                                PlayerCount 32
+00000c2c                                SquadSize 5
+00000c30                                SquadAutoFillLimit 4
+00000c34                            member(2)::GameModeTeamSize
+00000c34                                PlayerCount 32
+00000c38                                SquadSize 5
+00000c3c                                SquadAutoFillLimit 4
+00000dec                        RoundsPerMap 1
+00000df0                        ForceSquad False
+00000df4                    member(2)::GameModeSize
+00000df4                        Name TeamDeathMatch
+00000df8                        NameSID ID_M_GAMEMODE_TEAMDEATHMATCH
+00000dfc                        ShortName TDM
+00000e00                        ShortNameSID ID_M_GAMEMODE_TEAMDEATHMATCH_SHORT
+00000e04                        Description ID_M_GAMEMODE_TEAMDEATHMATCH_DESC
+00000e08                        Hints::array
+00000c44                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000c48                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000c4c                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000e0c                        MetaIdentifier TeamDeathMatch
+00000e10                        PlayerCount 24
+00000e14                        CommanderCount 0
+00000e18                        Teams::array
+00000c54                            member(0)::GameModeTeamSize
+00000c54                                PlayerCount 0
+00000c58                                SquadSize 0
+00000c5c                                SquadAutoFillLimit 0
+00000c60                            member(1)::GameModeTeamSize
+00000c60                                PlayerCount 12
+00000c64                                SquadSize 5
+00000c68                                SquadAutoFillLimit 4
+00000c6c                            member(2)::GameModeTeamSize
+00000c6c                                PlayerCount 12
+00000c70                                SquadSize 5
+00000c74                                SquadAutoFillLimit 4
+00000e1c                        RoundsPerMap 1
+00000e20                        ForceSquad False
+00000e24                    member(3)::GameModeSize
+00000e24                        Name Breakthrough
+00000e28                        NameSID ID_M_GAMEMODE_BREAKTHROUGH
+00000e2c                        ShortName BT
+00000e30                        ShortNameSID ID_M_GAMEMODE_BREAKTHROUGH_SHORT
+00000e34                        Description ID_M_GAMEMODE_BREAKTHROUGH_DESC
+00000e38                        Hints::array
+00000c7c                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000c80                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000c84                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000e3c                        MetaIdentifier Breakthrough
+00000e40                        PlayerCount 40
+00000e44                        CommanderCount 2
+00000e48                        Teams::array
+00000c8c                            member(0)::GameModeTeamSize
+00000c8c                                PlayerCount 0
+00000c90                                SquadSize 0
+00000c94                                SquadAutoFillLimit 0
+00000c98                            member(1)::GameModeTeamSize
+00000c98                                PlayerCount 20
+00000c9c                                SquadSize 5
+00000ca0                                SquadAutoFillLimit 4
+00000ca4                            member(2)::GameModeTeamSize
+00000ca4                                PlayerCount 20
+00000ca8                                SquadSize 5
+00000cac                                SquadAutoFillLimit 4
+00000e4c                        RoundsPerMap 1
+00000e50                        ForceSquad False
+00000e54                    member(4)::GameModeSize
+00000e54                        Name Domination
+00000e58                        NameSID ID_M_GAMEMODE_DOMINATION
+00000e5c                        ShortName DOM
+00000e60                        ShortNameSID ID_M_GAMEMODE_DOMINATION_SHORT
+00000e64                        Description ID_M_GAMEMODE_DOMINATION_DESC
+00000e68                        Hints::array
+00000cb4                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000cb8                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000cbc                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000e6c                        MetaIdentifier Domination
+00000e70                        PlayerCount 24
+00000e74                        CommanderCount 0
+00000e78                        Teams::array
+00000cc4                            member(0)::GameModeTeamSize
+00000cc4                                PlayerCount 0
+00000cc8                                SquadSize 0
+00000ccc                                SquadAutoFillLimit 0
+00000cd0                            member(1)::GameModeTeamSize
+00000cd0                                PlayerCount 12
+00000cd4                                SquadSize 5
+00000cd8                                SquadAutoFillLimit 4
+00000cdc                            member(2)::GameModeTeamSize
+00000cdc                                PlayerCount 12
+00000ce0                                SquadSize 5
+00000ce4                                SquadAutoFillLimit 4
+00000e7c                        RoundsPerMap 1
+00000e80                        ForceSquad False
+00000e84                    member(5)::GameModeSize
+00000e84                        Name Possession
+00000e88                        NameSID ID_M_GAMEMODE_POSSESSION
+00000e8c                        ShortName POS
+00000e90                        ShortNameSID ID_M_GAMEMODE_POSSESSION_SHORT
+00000e94                        Description ID_M_GAMEMODE_POSSESSION_DESC
+00000e98                        Hints::array
+00000cec                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000cf0                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000cf4                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000e9c                        MetaIdentifier Possession
+00000ea0                        PlayerCount 24
+00000ea4                        CommanderCount 0
+00000ea8                        Teams::array
+00000cfc                            member(0)::GameModeTeamSize
+00000cfc                                PlayerCount 0
+00000d00                                SquadSize 0
+00000d04                                SquadAutoFillLimit 0
+00000d08                            member(1)::GameModeTeamSize
+00000d08                                PlayerCount 12
+00000d0c                                SquadSize 5
+00000d10                                SquadAutoFillLimit 4
+00000d14                            member(2)::GameModeTeamSize
+00000d14                                PlayerCount 12
+00000d18                                SquadSize 5
+00000d1c                                SquadAutoFillLimit 4
+00000eac                        RoundsPerMap 1
+00000eb0                        ForceSquad False
+00000eb4                    member(6)::GameModeSize
+00000eb4                        Name AirSuperiority
+00000eb8                        NameSID ID_M_GAMEMODE_AIRSUPERIORITY
+00000ebc                        ShortName AS
+00000ec0                        ShortNameSID ID_M_GAMEMODE_AIRSUPERIORITY_SHORT
+00000ec4                        Description ID_M_GAMEMODE_AIRSUPERIORITY_DESC
+00000ec8                        Hints::array
+00000d24                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000d28                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000d2c                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000ecc                        MetaIdentifier AirSuperiority
+00000ed0                        PlayerCount 64
+00000ed4                        CommanderCount 0
+00000ed8                        Teams::array
+00000d34                            member(0)::GameModeTeamSize
+00000d34                                PlayerCount 0
+00000d38                                SquadSize 0
+00000d3c                                SquadAutoFillLimit 0
+00000d40                            member(1)::GameModeTeamSize
+00000d40                                PlayerCount 32
+00000d44                                SquadSize 5
+00000d48                                SquadAutoFillLimit 4
+00000d4c                            member(2)::GameModeTeamSize
+00000d4c                                PlayerCount 32
+00000d50                                SquadSize 5
+00000d54                                SquadAutoFillLimit 4
+00000edc                        RoundsPerMap 1
+00000ee0                        ForceSquad False
+00000ee4                    member(7)::GameModeSize
+00000ee4                        Name ConquestSmall
+00000ee8                        NameSID ID_M_GAMEMODE_CONQUEST_SMALL
+00000eec                        ShortName CQS
+00000ef0                        ShortNameSID ID_M_GAMEMODE_CONQUEST_SMALL_SHORT
+00000ef4                        Description ID_M_GAMEMODE_CONQUEST_DESC
+00000ef8                        Hints::array
+00000d5c                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000d60                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000d64                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00000efc                        MetaIdentifier ConquestSmall
+00000f00                        PlayerCount 40
+00000f04                        CommanderCount 0
+00000f08                        Teams::array
+00000d6c                            member(0)::GameModeTeamSize
+00000d6c                                PlayerCount 0
+00000d70                                SquadSize 0
+00000d74                                SquadAutoFillLimit 0
+00000d78                            member(1)::GameModeTeamSize
+00000d78                                PlayerCount 20
+00000d7c                                SquadSize 5
+00000d80                                SquadAutoFillLimit 4
+00000d84                            member(2)::GameModeTeamSize
+00000d84                                PlayerCount 20
+00000d88                                SquadSize 5
+00000d8c                                SquadAutoFillLimit 4
+00000f0c                        RoundsPerMap 1
+00000f10                        ForceSquad False
+00001620                DefaultSize::GameModeSize
+00001620                    Name Default Fallback
+00001624                    NameSID *nullString*
+00001628                    ShortName *nullString*
+0000162c                    ShortNameSID *nullString*
+00001630                    Description *nullString*
+00001634                    Hints *nullArray*
+00001638                    MetaIdentifier *nullString*
+0000163c                    PlayerCount 64
+00001640                    CommanderCount 0
+00001644                    Teams::array
+00000f18                        member(0)::GameModeTeamSize
+00000f18                            PlayerCount 0
+00000f1c                            SquadSize 0
+00000f20                            SquadAutoFillLimit 0
+00000f24                        member(1)::GameModeTeamSize
+00000f24                            PlayerCount 32
+00000f28                            SquadSize 5
+00000f2c                            SquadAutoFillLimit 4
+00000f30                        member(2)::GameModeTeamSize
+00000f30                            PlayerCount 32
+00000f34                            SquadSize 5
+00000f38                            SquadAutoFillLimit 4
+00001648                    RoundsPerMap 1
+0000164c                    ForceSquad False
+00001650                AllowFallbackToDefault True
+00001654            member(1)::GameModeInformation
+00001654                Platform GamePlatform_Gen4a
+00001658                Sizes::array
+00001100                    member(0)::GameModeSize
+00001100                        Name Rush
+00001104                        NameSID ID_M_GAMEMODE_RUSH
+00001108                        ShortName R
+0000110c                        ShortNameSID ID_M_GAMEMODE_RUSH_SHORT
+00001110                        Description ID_M_GAMEMODE_RUSH_DESC
+00001114                        Hints::array
+00000f40                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000f44                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000f48                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001118                        MetaIdentifier Rush
+0000111c                        PlayerCount 24
+00001120                        CommanderCount 0
+00001124                        Teams::array
+00000f50                            member(0)::GameModeTeamSize
+00000f50                                PlayerCount 0
+00000f54                                SquadSize 0
+00000f58                                SquadAutoFillLimit 0
+00000f5c                            member(1)::GameModeTeamSize
+00000f5c                                PlayerCount 12
+00000f60                                SquadSize 5
+00000f64                                SquadAutoFillLimit 4
+00000f68                            member(2)::GameModeTeamSize
+00000f68                                PlayerCount 12
+00000f6c                                SquadSize 5
+00000f70                                SquadAutoFillLimit 4
+00001128                        RoundsPerMap 2
+0000112c                        ForceSquad False
+00001130                    member(1)::GameModeSize
+00001130                        Name Conquest
+00001134                        NameSID ID_M_GAMEMODE_CONQUEST
+00001138                        ShortName CQ
+0000113c                        ShortNameSID ID_M_GAMEMODE_CONQUEST_SHORT
+00001140                        Description ID_M_GAMEMODE_CONQUEST_DESC
+00001144                        Hints::array
+00000f78                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000f7c                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000f80                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001148                        MetaIdentifier Conquest
+0000114c                        PlayerCount 64
+00001150                        CommanderCount 0
+00001154                        Teams::array
+00000f88                            member(0)::GameModeTeamSize
+00000f88                                PlayerCount 0
+00000f8c                                SquadSize 0
+00000f90                                SquadAutoFillLimit 0
+00000f94                            member(1)::GameModeTeamSize
+00000f94                                PlayerCount 32
+00000f98                                SquadSize 5
+00000f9c                                SquadAutoFillLimit 4
+00000fa0                            member(2)::GameModeTeamSize
+00000fa0                                PlayerCount 32
+00000fa4                                SquadSize 5
+00000fa8                                SquadAutoFillLimit 4
+00001158                        RoundsPerMap 1
+0000115c                        ForceSquad False
+00001160                    member(2)::GameModeSize
+00001160                        Name TeamDeathMatch
+00001164                        NameSID ID_M_GAMEMODE_TEAMDEATHMATCH
+00001168                        ShortName TDM
+0000116c                        ShortNameSID ID_M_GAMEMODE_TEAMDEATHMATCH_SHORT
+00001170                        Description ID_M_GAMEMODE_TEAMDEATHMATCH_DESC
+00001174                        Hints::array
+00000fb0                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000fb4                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000fb8                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001178                        MetaIdentifier TeamDeathMatch
+0000117c                        PlayerCount 24
+00001180                        CommanderCount 0
+00001184                        Teams::array
+00000fc0                            member(0)::GameModeTeamSize
+00000fc0                                PlayerCount 0
+00000fc4                                SquadSize 0
+00000fc8                                SquadAutoFillLimit 0
+00000fcc                            member(1)::GameModeTeamSize
+00000fcc                                PlayerCount 12
+00000fd0                                SquadSize 5
+00000fd4                                SquadAutoFillLimit 4
+00000fd8                            member(2)::GameModeTeamSize
+00000fd8                                PlayerCount 12
+00000fdc                                SquadSize 5
+00000fe0                                SquadAutoFillLimit 4
+00001188                        RoundsPerMap 1
+0000118c                        ForceSquad False
+00001190                    member(3)::GameModeSize
+00001190                        Name Breakthrough
+00001194                        NameSID ID_M_GAMEMODE_BREAKTHROUGH
+00001198                        ShortName BT
+0000119c                        ShortNameSID ID_M_GAMEMODE_BREAKTHROUGH_SHORT
+000011a0                        Description ID_M_GAMEMODE_BREAKTHROUGH_DESC
+000011a4                        Hints::array
+00000fe8                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00000fec                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00000ff0                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+000011a8                        MetaIdentifier Breakthrough
+000011ac                        PlayerCount 40
+000011b0                        CommanderCount 2
+000011b4                        Teams::array
+00000ff8                            member(0)::GameModeTeamSize
+00000ff8                                PlayerCount 0
+00000ffc                                SquadSize 0
+00001000                                SquadAutoFillLimit 0
+00001004                            member(1)::GameModeTeamSize
+00001004                                PlayerCount 20
+00001008                                SquadSize 5
+0000100c                                SquadAutoFillLimit 4
+00001010                            member(2)::GameModeTeamSize
+00001010                                PlayerCount 20
+00001014                                SquadSize 5
+00001018                                SquadAutoFillLimit 4
+000011b8                        RoundsPerMap 1
+000011bc                        ForceSquad False
+000011c0                    member(4)::GameModeSize
+000011c0                        Name Domination
+000011c4                        NameSID ID_M_GAMEMODE_DOMINATION
+000011c8                        ShortName DOM
+000011cc                        ShortNameSID ID_M_GAMEMODE_DOMINATION_SHORT
+000011d0                        Description ID_M_GAMEMODE_DOMINATION_DESC
+000011d4                        Hints::array
+00001020                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00001024                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00001028                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+000011d8                        MetaIdentifier Domination
+000011dc                        PlayerCount 24
+000011e0                        CommanderCount 0
+000011e4                        Teams::array
+00001030                            member(0)::GameModeTeamSize
+00001030                                PlayerCount 0
+00001034                                SquadSize 0
+00001038                                SquadAutoFillLimit 0
+0000103c                            member(1)::GameModeTeamSize
+0000103c                                PlayerCount 12
+00001040                                SquadSize 5
+00001044                                SquadAutoFillLimit 4
+00001048                            member(2)::GameModeTeamSize
+00001048                                PlayerCount 12
+0000104c                                SquadSize 5
+00001050                                SquadAutoFillLimit 4
+000011e8                        RoundsPerMap 1
+000011ec                        ForceSquad False
+000011f0                    member(5)::GameModeSize
+000011f0                        Name Possession
+000011f4                        NameSID ID_M_GAMEMODE_POSSESSION
+000011f8                        ShortName POS
+000011fc                        ShortNameSID ID_M_GAMEMODE_POSSESSION_SHORT
+00001200                        Description ID_M_GAMEMODE_POSSESSION_DESC
+00001204                        Hints::array
+00001058                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+0000105c                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00001060                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001208                        MetaIdentifier Possession
+0000120c                        PlayerCount 24
+00001210                        CommanderCount 0
+00001214                        Teams::array
+00001068                            member(0)::GameModeTeamSize
+00001068                                PlayerCount 0
+0000106c                                SquadSize 0
+00001070                                SquadAutoFillLimit 0
+00001074                            member(1)::GameModeTeamSize
+00001074                                PlayerCount 12
+00001078                                SquadSize 5
+0000107c                                SquadAutoFillLimit 4
+00001080                            member(2)::GameModeTeamSize
+00001080                                PlayerCount 12
+00001084                                SquadSize 5
+00001088                                SquadAutoFillLimit 4
+00001218                        RoundsPerMap 1
+0000121c                        ForceSquad False
+00001220                    member(6)::GameModeSize
+00001220                        Name AirSuperiority
+00001224                        NameSID ID_M_GAMEMODE_AIRSUPERIORITY
+00001228                        ShortName AS
+0000122c                        ShortNameSID ID_M_GAMEMODE_AIRSUPERIORITY_SHORT
+00001230                        Description ID_M_GAMEMODE_AIRSUPERIORITY_DESC
+00001234                        Hints::array
+00001090                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00001094                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00001098                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001238                        MetaIdentifier AirSuperiority
+0000123c                        PlayerCount 64
+00001240                        CommanderCount 0
+00001244                        Teams::array
+000010a0                            member(0)::GameModeTeamSize
+000010a0                                PlayerCount 0
+000010a4                                SquadSize 0
+000010a8                                SquadAutoFillLimit 0
+000010ac                            member(1)::GameModeTeamSize
+000010ac                                PlayerCount 32
+000010b0                                SquadSize 5
+000010b4                                SquadAutoFillLimit 4
+000010b8                            member(2)::GameModeTeamSize
+000010b8                                PlayerCount 32
+000010bc                                SquadSize 5
+000010c0                                SquadAutoFillLimit 4
+00001248                        RoundsPerMap 1
+0000124c                        ForceSquad False
+00001250                    member(7)::GameModeSize
+00001250                        Name ConquestSmall
+00001254                        NameSID ID_M_GAMEMODE_CONQUEST_SMALL
+00001258                        ShortName CQS
+0000125c                        ShortNameSID ID_M_GAMEMODE_CONQUEST_SMALL_SHORT
+00001260                        Description ID_M_GAMEMODE_CONQUEST_DESC
+00001264                        Hints::array
+000010c8                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+000010cc                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+000010d0                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001268                        MetaIdentifier ConquestSmall
+0000126c                        PlayerCount 40
+00001270                        CommanderCount 0
+00001274                        Teams::array
+000010d8                            member(0)::GameModeTeamSize
+000010d8                                PlayerCount 0
+000010dc                                SquadSize 0
+000010e0                                SquadAutoFillLimit 0
+000010e4                            member(1)::GameModeTeamSize
+000010e4                                PlayerCount 20
+000010e8                                SquadSize 5
+000010ec                                SquadAutoFillLimit 4
+000010f0                            member(2)::GameModeTeamSize
+000010f0                                PlayerCount 0
+000010f4                                SquadSize 0
+000010f8                                SquadAutoFillLimit 0
+00001278                        RoundsPerMap 1
+0000127c                        ForceSquad False
+0000165c                DefaultSize::GameModeSize
+0000165c                    Name Default Fallback
+00001660                    NameSID *nullString*
+00001664                    ShortName *nullString*
+00001668                    ShortNameSID *nullString*
+0000166c                    Description *nullString*
+00001670                    Hints *nullArray*
+00001674                    MetaIdentifier *nullString*
+00001678                    PlayerCount 64
+0000167c                    CommanderCount 0
+00001680                    Teams::array
+00001284                        member(0)::GameModeTeamSize
+00001284                            PlayerCount 0
+00001288                            SquadSize 0
+0000128c                            SquadAutoFillLimit 0
+00001290                        member(1)::GameModeTeamSize
+00001290                            PlayerCount 32
+00001294                            SquadSize 5
+00001298                            SquadAutoFillLimit 4
+0000129c                        member(2)::GameModeTeamSize
+0000129c                            PlayerCount 32
+000012a0                            SquadSize 5
+000012a4                            SquadAutoFillLimit 4
+00001684                    RoundsPerMap 1
+00001688                    ForceSquad False
+0000168c                AllowFallbackToDefault True
+00001690            member(2)::GameModeInformation
+00001690                Platform GamePlatform_Gen4b
+00001694                Sizes::array
+0000146c                    member(0)::GameModeSize
+0000146c                        Name Rush
+00001470                        NameSID ID_M_GAMEMODE_RUSH
+00001474                        ShortName R
+00001478                        ShortNameSID ID_M_GAMEMODE_RUSH_SHORT
+0000147c                        Description ID_M_GAMEMODE_RUSH_DESC
+00001480                        Hints::array
+000012ac                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+000012b0                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+000012b4                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001484                        MetaIdentifier Rush
+00001488                        PlayerCount 24
+0000148c                        CommanderCount 0
+00001490                        Teams::array
+000012bc                            member(0)::GameModeTeamSize
+000012bc                                PlayerCount 0
+000012c0                                SquadSize 0
+000012c4                                SquadAutoFillLimit 0
+000012c8                            member(1)::GameModeTeamSize
+000012c8                                PlayerCount 12
+000012cc                                SquadSize 5
+000012d0                                SquadAutoFillLimit 4
+000012d4                            member(2)::GameModeTeamSize
+000012d4                                PlayerCount 12
+000012d8                                SquadSize 5
+000012dc                                SquadAutoFillLimit 4
+00001494                        RoundsPerMap 2
+00001498                        ForceSquad False
+0000149c                    member(1)::GameModeSize
+0000149c                        Name Conquest
+000014a0                        NameSID ID_M_GAMEMODE_CONQUEST
+000014a4                        ShortName CQ
+000014a8                        ShortNameSID ID_M_GAMEMODE_CONQUEST_SHORT
+000014ac                        Description ID_M_GAMEMODE_CONQUEST_DESC
+000014b0                        Hints::array
+000012e4                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+000012e8                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+000012ec                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+000014b4                        MetaIdentifier Conquest
+000014b8                        PlayerCount 64
+000014bc                        CommanderCount 2
+000014c0                        Teams::array
+000012f4                            member(0)::GameModeTeamSize
+000012f4                                PlayerCount 0
+000012f8                                SquadSize 0
+000012fc                                SquadAutoFillLimit 0
+00001300                            member(1)::GameModeTeamSize
+00001300                                PlayerCount 32
+00001304                                SquadSize 5
+00001308                                SquadAutoFillLimit 4
+0000130c                            member(2)::GameModeTeamSize
+0000130c                                PlayerCount 32
+00001310                                SquadSize 5
+00001314                                SquadAutoFillLimit 4
+000014c4                        RoundsPerMap 1
+000014c8                        ForceSquad False
+000014cc                    member(2)::GameModeSize
+000014cc                        Name TeamDeathMatch
+000014d0                        NameSID ID_M_GAMEMODE_TEAMDEATHMATCH
+000014d4                        ShortName TDM
+000014d8                        ShortNameSID ID_M_GAMEMODE_TEAMDEATHMATCH_SHORT
+000014dc                        Description ID_M_GAMEMODE_TEAMDEATHMATCH_DESC
+000014e0                        Hints::array
+0000131c                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00001320                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00001324                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+000014e4                        MetaIdentifier TeamDeathMatch
+000014e8                        PlayerCount 24
+000014ec                        CommanderCount 0
+000014f0                        Teams::array
+0000132c                            member(0)::GameModeTeamSize
+0000132c                                PlayerCount 0
+00001330                                SquadSize 0
+00001334                                SquadAutoFillLimit 0
+00001338                            member(1)::GameModeTeamSize
+00001338                                PlayerCount 12
+0000133c                                SquadSize 5
+00001340                                SquadAutoFillLimit 4
+00001344                            member(2)::GameModeTeamSize
+00001344                                PlayerCount 12
+00001348                                SquadSize 5
+0000134c                                SquadAutoFillLimit 4
+000014f4                        RoundsPerMap 1
+000014f8                        ForceSquad False
+000014fc                    member(3)::GameModeSize
+000014fc                        Name Breakthrough
+00001500                        NameSID ID_M_GAMEMODE_BREAKTHROUGH
+00001504                        ShortName BT
+00001508                        ShortNameSID ID_M_GAMEMODE_BREAKTHROUGH_SHORT
+0000150c                        Description ID_M_GAMEMODE_BREAKTHROUGH_DESC
+00001510                        Hints::array
+00001354                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00001358                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+0000135c                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001514                        MetaIdentifier Breakthrough
+00001518                        PlayerCount 40
+0000151c                        CommanderCount 2
+00001520                        Teams::array
+00001364                            member(0)::GameModeTeamSize
+00001364                                PlayerCount 0
+00001368                                SquadSize 0
+0000136c                                SquadAutoFillLimit 0
+00001370                            member(1)::GameModeTeamSize
+00001370                                PlayerCount 20
+00001374                                SquadSize 5
+00001378                                SquadAutoFillLimit 4
+0000137c                            member(2)::GameModeTeamSize
+0000137c                                PlayerCount 20
+00001380                                SquadSize 5
+00001384                                SquadAutoFillLimit 4
+00001524                        RoundsPerMap 1
+00001528                        ForceSquad False
+0000152c                    member(4)::GameModeSize
+0000152c                        Name Domination
+00001530                        NameSID ID_M_GAMEMODE_DOMINATION
+00001534                        ShortName DOM
+00001538                        ShortNameSID ID_M_GAMEMODE_DOMINATION_SHORT
+0000153c                        Description ID_M_GAMEMODE_DOMINATION_DESC
+00001540                        Hints::array
+0000138c                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00001390                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00001394                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001544                        MetaIdentifier Domination
+00001548                        PlayerCount 24
+0000154c                        CommanderCount 0
+00001550                        Teams::array
+0000139c                            member(0)::GameModeTeamSize
+0000139c                                PlayerCount 0
+000013a0                                SquadSize 0
+000013a4                                SquadAutoFillLimit 0
+000013a8                            member(1)::GameModeTeamSize
+000013a8                                PlayerCount 12
+000013ac                                SquadSize 5
+000013b0                                SquadAutoFillLimit 4
+000013b4                            member(2)::GameModeTeamSize
+000013b4                                PlayerCount 12
+000013b8                                SquadSize 5
+000013bc                                SquadAutoFillLimit 4
+00001554                        RoundsPerMap 1
+00001558                        ForceSquad False
+0000155c                    member(5)::GameModeSize
+0000155c                        Name Possession
+00001560                        NameSID ID_M_GAMEMODE_POSSESSION
+00001564                        ShortName POS
+00001568                        ShortNameSID ID_M_GAMEMODE_POSSESSION_SHORT
+0000156c                        Description ID_M_GAMEMODE_POSSESSION_DESC
+00001570                        Hints::array
+000013c4                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+000013c8                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+000013cc                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+00001574                        MetaIdentifier Possession
+00001578                        PlayerCount 24
+0000157c                        CommanderCount 0
+00001580                        Teams::array
+000013d4                            member(0)::GameModeTeamSize
+000013d4                                PlayerCount 0
+000013d8                                SquadSize 0
+000013dc                                SquadAutoFillLimit 0
+000013e0                            member(1)::GameModeTeamSize
+000013e0                                PlayerCount 12
+000013e4                                SquadSize 5
+000013e8                                SquadAutoFillLimit 4
+000013ec                            member(2)::GameModeTeamSize
+000013ec                                PlayerCount 12
+000013f0                                SquadSize 5
+000013f4                                SquadAutoFillLimit 4
+00001584                        RoundsPerMap 1
+00001588                        ForceSquad False
+0000158c                    member(6)::GameModeSize
+0000158c                        Name AirSuperiority
+00001590                        NameSID ID_M_GAMEMODE_AIRSUPERIORITY
+00001594                        ShortName AS
+00001598                        ShortNameSID ID_M_GAMEMODE_AIRSUPERIORITY_SHORT
+0000159c                        Description ID_M_GAMEMODE_AIRSUPERIORITY_DESC
+000015a0                        Hints::array
+000013fc                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00001400                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+00001404                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+000015a4                        MetaIdentifier AirSuperiority
+000015a8                        PlayerCount 64
+000015ac                        CommanderCount 0
+000015b0                        Teams::array
+0000140c                            member(0)::GameModeTeamSize
+0000140c                                PlayerCount 0
+00001410                                SquadSize 0
+00001414                                SquadAutoFillLimit 0
+00001418                            member(1)::GameModeTeamSize
+00001418                                PlayerCount 32
+0000141c                                SquadSize 5
+00001420                                SquadAutoFillLimit 4
+00001424                            member(2)::GameModeTeamSize
+00001424                                PlayerCount 32
+00001428                                SquadSize 5
+0000142c                                SquadAutoFillLimit 4
+000015b4                        RoundsPerMap 1
+000015b8                        ForceSquad False
+000015bc                    member(7)::GameModeSize
+000015bc                        Name ConquestSmall
+000015c0                        NameSID ID_M_GAMEMODE_CONQUEST_SMALL
+000015c4                        ShortName CQS
+000015c8                        ShortNameSID ID_M_GAMEMODE_CONQUEST_SMALL_SHORT
+000015cc                        Description ID_M_GAMEMODE_CONQUEST_DESC
+000015d0                        Hints::array
+00001434                            member(0) EXAMPLE_HINT_NOT_IN_LOC
+00001438                            member(1) EXAMPLE_HINT_NOT_IN_LOC
+0000143c                            member(2) EXAMPLE_HINT_NOT_IN_LOC
+000015d4                        MetaIdentifier *nullString*
+000015d8                        PlayerCount 40
+000015dc                        CommanderCount 0
+000015e0                        Teams::array
+00001444                            member(0)::GameModeTeamSize
+00001444                                PlayerCount 0
+00001448                                SquadSize 0
+0000144c                                SquadAutoFillLimit 0
+00001450                            member(1)::GameModeTeamSize
+00001450                                PlayerCount 20
+00001454                                SquadSize 5
+00001458                                SquadAutoFillLimit 4
+0000145c                            member(2)::GameModeTeamSize
+0000145c                                PlayerCount 20
+00001460                                SquadSize 5
+00001464                                SquadAutoFillLimit 4
+000015e4                        RoundsPerMap 1
+000015e8                        ForceSquad False
+00001698                DefaultSize::GameModeSize
+00001698                    Name Default Fallback
+0000169c                    NameSID *nullString*
+000016a0                    ShortName *nullString*
+000016a4                    ShortNameSID *nullString*
+000016a8                    Description *nullString*
+000016ac                    Hints *nullArray*
+000016b0                    MetaIdentifier *nullString*
+000016b4                    PlayerCount 64
+000016b8                    CommanderCount 0
+000016bc                    Teams::array
+000015f0                        member(0)::GameModeTeamSize
+000015f0                            PlayerCount 0
+000015f4                            SquadSize 0
+000015f8                            SquadAutoFillLimit 0
+000015fc                        member(1)::GameModeTeamSize
+000015fc                            PlayerCount 32
+00001600                            SquadSize 5
+00001604                            SquadAutoFillLimit 4
+00001608                        member(2)::GameModeTeamSize
+00001608                            PlayerCount 32
+0000160c                            SquadSize 5
+00001610                            SquadAutoFillLimit 4
+000016c0                    RoundsPerMap 1
+000016c4                    ForceSquad False
+000016c8                AllowFallbackToDefault True

@@ -1,0 +1,850 @@
+00001860    EffectBlueprint 2b1960b289d038459c1ecbc9a3d12678
+00001858        $::ObjectBlueprint
+00001858            $::Blueprint
+00001858                $::EntityBusData
+00001858                    $::DataBusData
+00001858                        $::Asset
+00001858                            $::DataContainer
+00001860                            Name FX/Materials/Explosions/FX_Exp_M_Metal
+00001864                        PropertyConnections *nullArray*
+00001868                        LinkConnections *nullArray*
+0000186c                        Interface *nullGuid*
+00001870                        Flags 0
+00001874                    EventConnections *nullArray*
+00001878            Object 00000000
+0000187c        TimeDeltaType TimeDeltaType_None
+00001880    EffectEntityData 00000000
+00001880        $::SpatialEntityData
+00001880            $::EntityData
+00001880                $::GameObjectData
+00001880                    $::DataBusPeer
+00001880                        $::GameDataContainer
+00001880                            $::DataContainer
+00001888                        Flags 178801343
+00001890            Transform::LinearTransform
+00001890                right::Vec3
+00001890                    x 1.0
+00001894                    y 0.0
+00001898                    z 0.0
+000018a0                up::Vec3
+000018a0                    x 0.0
+000018a4                    y 1.0
+000018a8                    z 0.0
+000018b0                forward::Vec3
+000018b0                    x 0.0
+000018b4                    y 0.0
+000018b8                    z 1.0
+000018c0                trans::Vec3
+000018c0                    x 0.0
+000018c4                    y 0.0
+000018c8                    z 0.0
+000018d0        Components::array
+00002264            member(0) 00000004
+00002268            member(1) 0000000d
+0000226c            member(2) 0000000b
+00002270            member(3) 00000002
+00002274            member(4) 00000006
+00002278            member(5) 00000009
+0000227c            member(6) 00000005
+00002280            member(7) 00000008
+00002284            member(8) 00000003
+00002288            member(9) 0000000a
+0000228c            member(10) 00000001
+00002290            member(11) 00000007
+000018d4        MaxActiveInstanceCount::QualityScalableInt
+000018d4            Low 30
+000018d8            Medium 30
+000018dc            High 30
+000018e0            Ultra 30
+000018e4        CullDistance::QualityScalableFloat
+000018e4            Low 500.0
+000018e8            Medium 500.0
+000018ec            High 500.0
+000018f0            Ultra 500.0
+000018f4        StartDelay 0.0
+000018f8        KillWhenDistanceCulled True
+000018f9        KillByWater False
+000018fa        ResetInstanceWhenStarted True
+000018fb        AttachToSpawnSurface False
+000018fc        Enable::QualityScalableBool
+000018fc            Low True
+000018fd            Medium True
+000018fe            High True
+000018ff            Ultra True
+00001900        OverrideDrawOrder False
+00001901        UseLowFrequencyUpdate False
+00001910    EmitterEntityData 00000001
+00001910        $::ChildEffectEntityData
+00001910            $::SpatialEntityData
+00001910                $::EntityData
+00001910                    $::GameObjectData
+00001910                        $::DataBusPeer
+00001910                            $::GameDataContainer
+00001910                                $::DataContainer
+00001918                            Flags 13819406
+00001920                Transform::LinearTransform
+00001920                    right::Vec3
+00001920                        x 1.0
+00001924                        y 0.0
+00001928                        z 0.0
+00001930                    up::Vec3
+00001930                        x 0.0
+00001934                        y 1.0
+00001938                        z 0.0
+00001940                    forward::Vec3
+00001940                        x 0.0
+00001944                        y 0.0
+00001948                        z 1.0
+00001950                    trans::Vec3
+00001950                        x 0.0
+00001954                        y 0.0
+00001958                        z 0.0
+00001960            Components *nullArray*
+00001964            MaxActiveInstanceCount::QualityScalableInt
+00001964                Low 30
+00001968                Medium 30
+0000196c                High 30
+00001970                Ultra 30
+00001974            CullDistance::QualityScalableFloat
+00001974                Low 0.0
+00001978                Medium 0.0
+0000197c                High 0.0
+00001980                Ultra 0.0
+00001984            StartDelay 0.0
+00001988            KillWhenDistanceCulled False
+00001989            ResetInstanceWhenStarted True
+0000198a            AttachToSpawnSurface False
+0000198b            Enable::QualityScalableBool
+0000198b                Low True
+0000198c                Medium True
+0000198d                High True
+0000198e                Ultra True
+0000198f            OverrideDrawOrder False
+00001990        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_metal_debris_meshp/f9d298573401d64286eb21ec9b66fb75
+00001994        SpawnProbability::QualityScalableFloat
+00001994            Low 1.0
+00001998            Medium 1.0
+0000199c            High 1.0
+000019a0            Ultra 1.0
+000019a4        MaxNearbyInstanceCount 0
+000019a8        NearbyRadius 1.0
+000019ac        EmitterTags *nullArray*
+000019b0        DrawOrderSlot 128
+000019b1        LocalPlayerOnly False
+000019c0    EmitterEntityData 00000002
+000019c0        $::ChildEffectEntityData
+000019c0            $::SpatialEntityData
+000019c0                $::EntityData
+000019c0                    $::GameObjectData
+000019c0                        $::DataBusPeer
+000019c0                            $::GameDataContainer
+000019c0                                $::DataContainer
+000019c8                            Flags 11825179
+000019d0                Transform::LinearTransform
+000019d0                    right::Vec3
+000019d0                        x 1.0
+000019d4                        y 0.0
+000019d8                        z 0.0
+000019e0                    up::Vec3
+000019e0                        x 0.0
+000019e4                        y 1.0
+000019e8                        z 0.0
+000019f0                    forward::Vec3
+000019f0                        x 0.0
+000019f4                        y 0.0
+000019f8                        z 1.0
+00001a00                    trans::Vec3
+00001a00                        x 0.0
+00001a04                        y 0.0
+00001a08                        z 0.0
+00001a10            Components *nullArray*
+00001a14            MaxActiveInstanceCount::QualityScalableInt
+00001a14                Low 30
+00001a18                Medium 30
+00001a1c                High 30
+00001a20                Ultra 30
+00001a24            CullDistance::QualityScalableFloat
+00001a24                Low 0.0
+00001a28                Medium 0.0
+00001a2c                High 0.0
+00001a30                Ultra 0.0
+00001a34            StartDelay 0.0
+00001a38            KillWhenDistanceCulled False
+00001a39            ResetInstanceWhenStarted True
+00001a3a            AttachToSpawnSurface False
+00001a3b            Enable::QualityScalableBool
+00001a3b                Low True
+00001a3c                Medium True
+00001a3d                High True
+00001a3e                Ultra True
+00001a3f            OverrideDrawOrder False
+00001a40        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_smokearms_light/fa7448f5afded54a9d7df6998a3c3908
+00001a44        SpawnProbability::QualityScalableFloat
+00001a44            Low 1.0
+00001a48            Medium 1.0
+00001a4c            High 1.0
+00001a50            Ultra 1.0
+00001a54        MaxNearbyInstanceCount 0
+00001a58        NearbyRadius 1.0
+00001a5c        EmitterTags *nullArray*
+00001a60        DrawOrderSlot 128
+00001a61        LocalPlayerOnly False
+00001a70    EmitterEntityData 00000003
+00001a70        $::ChildEffectEntityData
+00001a70            $::SpatialEntityData
+00001a70                $::EntityData
+00001a70                    $::GameObjectData
+00001a70                        $::DataBusPeer
+00001a70                            $::GameDataContainer
+00001a70                                $::DataContainer
+00001a78                            Flags 2269751
+00001a80                Transform::LinearTransform
+00001a80                    right::Vec3
+00001a80                        x 1.0
+00001a84                        y 0.0
+00001a88                        z 0.0
+00001a90                    up::Vec3
+00001a90                        x 0.0
+00001a94                        y 1.0
+00001a98                        z 0.0
+00001aa0                    forward::Vec3
+00001aa0                        x 0.0
+00001aa4                        y 0.0
+00001aa8                        z 1.0
+00001ab0                    trans::Vec3
+00001ab0                        x 0.0
+00001ab4                        y 0.0
+00001ab8                        z 0.0
+00001ac0            Components *nullArray*
+00001ac4            MaxActiveInstanceCount::QualityScalableInt
+00001ac4                Low 30
+00001ac8                Medium 30
+00001acc                High 30
+00001ad0                Ultra 30
+00001ad4            CullDistance::QualityScalableFloat
+00001ad4                Low 0.0
+00001ad8                Medium 0.0
+00001adc                High 0.0
+00001ae0                Ultra 0.0
+00001ae4            StartDelay 0.0
+00001ae8            KillWhenDistanceCulled False
+00001ae9            ResetInstanceWhenStarted True
+00001aea            AttachToSpawnSurface False
+00001aeb            Enable::QualityScalableBool
+00001aeb                Low True
+00001aec                Medium True
+00001aed                High True
+00001aee                Ultra True
+00001aef            OverrideDrawOrder False
+00001af0        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_darkdebris/cd41385db82e9d46914693b9fb5d5759
+00001af4        SpawnProbability::QualityScalableFloat
+00001af4            Low 0.0
+00001af8            Medium 0.0
+00001afc            High 0.0
+00001b00            Ultra 0.0
+00001b04        MaxNearbyInstanceCount 0
+00001b08        NearbyRadius 1.0
+00001b0c        EmitterTags *nullArray*
+00001b10        DrawOrderSlot 128
+00001b11        LocalPlayerOnly False
+00001b20    EmitterEntityData 00000004
+00001b20        $::ChildEffectEntityData
+00001b20            $::SpatialEntityData
+00001b20                $::EntityData
+00001b20                    $::GameObjectData
+00001b20                        $::DataBusPeer
+00001b20                            $::GameDataContainer
+00001b20                                $::DataContainer
+00001b28                            Flags 23950655
+00001b30                Transform::LinearTransform
+00001b30                    right::Vec3
+00001b30                        x 1.0
+00001b34                        y 0.0
+00001b38                        z 0.0
+00001b40                    up::Vec3
+00001b40                        x 0.0
+00001b44                        y 1.0
+00001b48                        z 0.0
+00001b50                    forward::Vec3
+00001b50                        x 0.0
+00001b54                        y 0.0
+00001b58                        z 1.0
+00001b60                    trans::Vec3
+00001b60                        x 0.0
+00001b64                        y 0.0
+00001b68                        z 0.0
+00001b70            Components *nullArray*
+00001b74            MaxActiveInstanceCount::QualityScalableInt
+00001b74                Low 30
+00001b78                Medium 30
+00001b7c                High 30
+00001b80                Ultra 30
+00001b84            CullDistance::QualityScalableFloat
+00001b84                Low 0.0
+00001b88                Medium 0.0
+00001b8c                High 0.0
+00001b90                Ultra 0.0
+00001b94            StartDelay 0.300000011921
+00001b98            KillWhenDistanceCulled False
+00001b99            ResetInstanceWhenStarted True
+00001b9a            AttachToSpawnSurface False
+00001b9b            Enable::QualityScalableBool
+00001b9b                Low True
+00001b9c                Medium True
+00001b9d                High True
+00001b9e                Ultra True
+00001b9f            OverrideDrawOrder False
+00001ba0        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_camprox_blurredshapes/fc725a9feaec264689256cf2fe38a3f1
+00001ba4        SpawnProbability::QualityScalableFloat
+00001ba4            Low 1.0
+00001ba8            Medium 1.0
+00001bac            High 1.0
+00001bb0            Ultra 1.0
+00001bb4        MaxNearbyInstanceCount 25
+00001bb8        NearbyRadius 1.0
+00001bbc        EmitterTags *nullArray*
+00001bc0        DrawOrderSlot 128
+00001bc1        LocalPlayerOnly False
+00001bd0    EmitterEntityData 00000005
+00001bd0        $::ChildEffectEntityData
+00001bd0            $::SpatialEntityData
+00001bd0                $::EntityData
+00001bd0                    $::GameObjectData
+00001bd0                        $::DataBusPeer
+00001bd0                            $::GameDataContainer
+00001bd0                                $::DataContainer
+00001bd8                            Flags 12062562
+00001be0                Transform::LinearTransform
+00001be0                    right::Vec3
+00001be0                        x 1.0
+00001be4                        y 0.0
+00001be8                        z 0.0
+00001bf0                    up::Vec3
+00001bf0                        x 0.0
+00001bf4                        y 1.0
+00001bf8                        z 0.0
+00001c00                    forward::Vec3
+00001c00                        x 0.0
+00001c04                        y 0.0
+00001c08                        z 1.0
+00001c10                    trans::Vec3
+00001c10                        x 0.0
+00001c14                        y 0.0
+00001c18                        z 0.0
+00001c20            Components *nullArray*
+00001c24            MaxActiveInstanceCount::QualityScalableInt
+00001c24                Low 30
+00001c28                Medium 30
+00001c2c                High 30
+00001c30                Ultra 30
+00001c34            CullDistance::QualityScalableFloat
+00001c34                Low 0.0
+00001c38                Medium 0.0
+00001c3c                High 0.0
+00001c40                Ultra 0.0
+00001c44            StartDelay 0.0
+00001c48            KillWhenDistanceCulled False
+00001c49            ResetInstanceWhenStarted True
+00001c4a            AttachToSpawnSurface False
+00001c4b            Enable::QualityScalableBool
+00001c4b                Low True
+00001c4c                Medium True
+00001c4d                High True
+00001c4e                Ultra True
+00001c4f            OverrideDrawOrder False
+00001c50        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_metal_smokefilllight/c2be66d7aafbd940b9bad3d182928a8a
+00001c54        SpawnProbability::QualityScalableFloat
+00001c54            Low 1.0
+00001c58            Medium 1.0
+00001c5c            High 1.0
+00001c60            Ultra 1.0
+00001c64        MaxNearbyInstanceCount 0
+00001c68        NearbyRadius 1.0
+00001c6c        EmitterTags *nullArray*
+00001c70        DrawOrderSlot 128
+00001c71        LocalPlayerOnly False
+00001c80    EmitterEntityData 00000006
+00001c80        $::ChildEffectEntityData
+00001c80            $::SpatialEntityData
+00001c80                $::EntityData
+00001c80                    $::GameObjectData
+00001c80                        $::DataBusPeer
+00001c80                            $::GameDataContainer
+00001c80                                $::DataContainer
+00001c88                            Flags 28980838
+00001c90                Transform::LinearTransform
+00001c90                    right::Vec3
+00001c90                        x 1.0
+00001c94                        y 0.0
+00001c98                        z 0.0
+00001ca0                    up::Vec3
+00001ca0                        x 0.0
+00001ca4                        y 1.0
+00001ca8                        z 0.0
+00001cb0                    forward::Vec3
+00001cb0                        x 0.0
+00001cb4                        y 0.0
+00001cb8                        z 1.0
+00001cc0                    trans::Vec3
+00001cc0                        x 0.0
+00001cc4                        y 0.0
+00001cc8                        z 0.0
+00001cd0            Components *nullArray*
+00001cd4            MaxActiveInstanceCount::QualityScalableInt
+00001cd4                Low 30
+00001cd8                Medium 30
+00001cdc                High 30
+00001ce0                Ultra 30
+00001ce4            CullDistance::QualityScalableFloat
+00001ce4                Low 0.0
+00001ce8                Medium 0.0
+00001cec                High 0.0
+00001cf0                Ultra 0.0
+00001cf4            StartDelay 0.0
+00001cf8            KillWhenDistanceCulled False
+00001cf9            ResetInstanceWhenStarted True
+00001cfa            AttachToSpawnSurface False
+00001cfb            Enable::QualityScalableBool
+00001cfb                Low True
+00001cfc                Medium True
+00001cfd                High True
+00001cfe                Ultra True
+00001cff            OverrideDrawOrder False
+00001d00        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_smokearms_dark/7ae4a1a02e17654f9fd2d1ed4606baa9
+00001d04        SpawnProbability::QualityScalableFloat
+00001d04            Low 1.0
+00001d08            Medium 1.0
+00001d0c            High 1.0
+00001d10            Ultra 1.0
+00001d14        MaxNearbyInstanceCount 0
+00001d18        NearbyRadius 1.0
+00001d1c        EmitterTags *nullArray*
+00001d20        DrawOrderSlot 128
+00001d21        LocalPlayerOnly False
+00001d30    EmitterEntityData 00000007
+00001d30        $::ChildEffectEntityData
+00001d30            $::SpatialEntityData
+00001d30                $::EntityData
+00001d30                    $::GameObjectData
+00001d30                        $::DataBusPeer
+00001d30                            $::GameDataContainer
+00001d30                                $::DataContainer
+00001d38                            Flags 25251708
+00001d40                Transform::LinearTransform
+00001d40                    right::Vec3
+00001d40                        x 1.0
+00001d44                        y 0.0
+00001d48                        z 0.0
+00001d50                    up::Vec3
+00001d50                        x 0.0
+00001d54                        y 1.0
+00001d58                        z 0.0
+00001d60                    forward::Vec3
+00001d60                        x 0.0
+00001d64                        y 0.0
+00001d68                        z 1.0
+00001d70                    trans::Vec3
+00001d70                        x 0.0
+00001d74                        y 0.0
+00001d78                        z 0.0
+00001d80            Components *nullArray*
+00001d84            MaxActiveInstanceCount::QualityScalableInt
+00001d84                Low 30
+00001d88                Medium 30
+00001d8c                High 30
+00001d90                Ultra 30
+00001d94            CullDistance::QualityScalableFloat
+00001d94                Low 0.0
+00001d98                Medium 0.0
+00001d9c                High 0.0
+00001da0                Ultra 0.0
+00001da4            StartDelay 0.0
+00001da8            KillWhenDistanceCulled False
+00001da9            ResetInstanceWhenStarted True
+00001daa            AttachToSpawnSurface False
+00001dab            Enable::QualityScalableBool
+00001dab                Low True
+00001dac                Medium True
+00001dad                High True
+00001dae                Ultra True
+00001daf            OverrideDrawOrder False
+00001db0        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_metal_debris_meshp_small/611bcf8a8fed9f43873bc798b25dacc2
+00001db4        SpawnProbability::QualityScalableFloat
+00001db4            Low 1.0
+00001db8            Medium 1.0
+00001dbc            High 1.0
+00001dc0            Ultra 1.0
+00001dc4        MaxNearbyInstanceCount 0
+00001dc8        NearbyRadius 1.0
+00001dcc        EmitterTags *nullArray*
+00001dd0        DrawOrderSlot 128
+00001dd1        LocalPlayerOnly False
+00001de0    EmitterEntityData 00000008
+00001de0        $::ChildEffectEntityData
+00001de0            $::SpatialEntityData
+00001de0                $::EntityData
+00001de0                    $::GameObjectData
+00001de0                        $::DataBusPeer
+00001de0                            $::GameDataContainer
+00001de0                                $::DataContainer
+00001de8                            Flags 236671
+00001df0                Transform::LinearTransform
+00001df0                    right::Vec3
+00001df0                        x 1.0
+00001df4                        y 0.0
+00001df8                        z 0.0
+00001e00                    up::Vec3
+00001e00                        x 0.0
+00001e04                        y 1.0
+00001e08                        z 0.0
+00001e10                    forward::Vec3
+00001e10                        x 0.0
+00001e14                        y 0.0
+00001e18                        z 1.0
+00001e20                    trans::Vec3
+00001e20                        x 0.0
+00001e24                        y 0.0
+00001e28                        z 0.0
+00001e30            Components *nullArray*
+00001e34            MaxActiveInstanceCount::QualityScalableInt
+00001e34                Low 30
+00001e38                Medium 30
+00001e3c                High 30
+00001e40                Ultra 30
+00001e44            CullDistance::QualityScalableFloat
+00001e44                Low 0.0
+00001e48                Medium 0.0
+00001e4c                High 0.0
+00001e50                Ultra 0.0
+00001e54            StartDelay 0.0
+00001e58            KillWhenDistanceCulled False
+00001e59            ResetInstanceWhenStarted True
+00001e5a            AttachToSpawnSurface False
+00001e5b            Enable::QualityScalableBool
+00001e5b                Low True
+00001e5c                Medium True
+00001e5d                High True
+00001e5e                Ultra True
+00001e5f            OverrideDrawOrder False
+00001e60        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_metal_smoke/fd21c4e34f06f747b17fe4eee8e72a3d
+00001e64        SpawnProbability::QualityScalableFloat
+00001e64            Low 1.0
+00001e68            Medium 1.0
+00001e6c            High 1.0
+00001e70            Ultra 1.0
+00001e74        MaxNearbyInstanceCount 0
+00001e78        NearbyRadius 1.0
+00001e7c        EmitterTags *nullArray*
+00001e80        DrawOrderSlot 128
+00001e81        LocalPlayerOnly False
+00001e90    EmitterEntityData 00000009
+00001e90        $::ChildEffectEntityData
+00001e90            $::SpatialEntityData
+00001e90                $::EntityData
+00001e90                    $::GameObjectData
+00001e90                        $::DataBusPeer
+00001e90                            $::GameDataContainer
+00001e90                                $::DataContainer
+00001e98                            Flags 28181637
+00001ea0                Transform::LinearTransform
+00001ea0                    right::Vec3
+00001ea0                        x 1.0
+00001ea4                        y 0.0
+00001ea8                        z 0.0
+00001eb0                    up::Vec3
+00001eb0                        x 0.0
+00001eb4                        y 1.0
+00001eb8                        z 0.0
+00001ec0                    forward::Vec3
+00001ec0                        x 0.0
+00001ec4                        y 0.0
+00001ec8                        z 1.0
+00001ed0                    trans::Vec3
+00001ed0                        x 0.0
+00001ed4                        y 0.0
+00001ed8                        z 0.0
+00001ee0            Components *nullArray*
+00001ee4            MaxActiveInstanceCount::QualityScalableInt
+00001ee4                Low 30
+00001ee8                Medium 30
+00001eec                High 30
+00001ef0                Ultra 30
+00001ef4            CullDistance::QualityScalableFloat
+00001ef4                Low 0.0
+00001ef8                Medium 0.0
+00001efc                High 0.0
+00001f00                Ultra 0.0
+00001f04            StartDelay 0.0
+00001f08            KillWhenDistanceCulled False
+00001f09            ResetInstanceWhenStarted True
+00001f0a            AttachToSpawnSurface False
+00001f0b            Enable::QualityScalableBool
+00001f0b                Low True
+00001f0c                Medium True
+00001f0d                High True
+00001f0e                Ultra True
+00001f0f            OverrideDrawOrder False
+00001f10        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_onscreendirt_m/91e427ff5111094ca113a15bb1771f90
+00001f14        SpawnProbability::QualityScalableFloat
+00001f14            Low 1.0
+00001f18            Medium 1.0
+00001f1c            High 1.0
+00001f20            Ultra 1.0
+00001f24        MaxNearbyInstanceCount 0
+00001f28        NearbyRadius 1.0
+00001f2c        EmitterTags *nullArray*
+00001f30        DrawOrderSlot 128
+00001f31        LocalPlayerOnly False
+00001f40    EmitterEntityData 0000000a
+00001f40        $::ChildEffectEntityData
+00001f40            $::SpatialEntityData
+00001f40                $::EntityData
+00001f40                    $::GameObjectData
+00001f40                        $::DataBusPeer
+00001f40                            $::GameDataContainer
+00001f40                                $::DataContainer
+00001f48                            Flags 8637409
+00001f50                Transform::LinearTransform
+00001f50                    right::Vec3
+00001f50                        x 1.0
+00001f54                        y 0.0
+00001f58                        z 0.0
+00001f60                    up::Vec3
+00001f60                        x 0.0
+00001f64                        y 1.0
+00001f68                        z 0.0
+00001f70                    forward::Vec3
+00001f70                        x 0.0
+00001f74                        y 0.0
+00001f78                        z 1.0
+00001f80                    trans::Vec3
+00001f80                        x 0.0
+00001f84                        y 0.0
+00001f88                        z 0.0
+00001f90            Components *nullArray*
+00001f94            MaxActiveInstanceCount::QualityScalableInt
+00001f94                Low 30
+00001f98                Medium 30
+00001f9c                High 30
+00001fa0                Ultra 30
+00001fa4            CullDistance::QualityScalableFloat
+00001fa4                Low 0.0
+00001fa8                Medium 0.0
+00001fac                High 0.0
+00001fb0                Ultra 0.0
+00001fb4            StartDelay 0.0
+00001fb8            KillWhenDistanceCulled False
+00001fb9            ResetInstanceWhenStarted True
+00001fba            AttachToSpawnSurface False
+00001fbb            Enable::QualityScalableBool
+00001fbb                Low True
+00001fbc                Medium True
+00001fbd                High True
+00001fbe                Ultra True
+00001fbf            OverrideDrawOrder False
+00001fc0        Emitter ebx\fx\materials\explosions\emitters_m\em_exp_m_ws_sparks/42b598a2dea916428dbc6b045c26d73d
+00001fc4        SpawnProbability::QualityScalableFloat
+00001fc4            Low 1.0
+00001fc8            Medium 1.0
+00001fcc            High 1.0
+00001fd0            Ultra 1.0
+00001fd4        MaxNearbyInstanceCount 0
+00001fd8        NearbyRadius 1.0
+00001fdc        EmitterTags *nullArray*
+00001fe0        DrawOrderSlot 128
+00001fe1        LocalPlayerOnly False
+00001ff0    LightEffectEntityData 0000000b
+00001ff0        $::ChildEffectEntityData
+00001ff0            $::SpatialEntityData
+00001ff0                $::EntityData
+00001ff0                    $::GameObjectData
+00001ff0                        $::DataBusPeer
+00001ff0                            $::GameDataContainer
+00001ff0                                $::DataContainer
+00001ff8                            Flags 15632790
+00002000                Transform::LinearTransform
+00002000                    right::Vec3
+00002000                        x 1.0
+00002004                        y 0.0
+00002008                        z 0.0
+00002010                    up::Vec3
+00002010                        x 0.0
+00002014                        y 1.0
+00002018                        z 0.0
+00002020                    forward::Vec3
+00002020                        x 0.0
+00002024                        y 0.0
+00002028                        z 1.0
+00002030                    trans::Vec3
+00002030                        x 0.0
+00002034                        y 2.0
+00002038                        z 0.0
+00002040            Components *nullArray*
+00002044            MaxActiveInstanceCount::QualityScalableInt
+00002044                Low 30
+00002048                Medium 30
+0000204c                High 30
+00002050                Ultra 30
+00002054            CullDistance::QualityScalableFloat
+00002054                Low 0.0
+00002058                Medium 0.0
+0000205c                High 0.0
+00002060                Ultra 0.0
+00002064            StartDelay 0.0
+00002068            KillWhenDistanceCulled False
+00002069            ResetInstanceWhenStarted True
+0000206a            AttachToSpawnSurface False
+0000206b            Enable::QualityScalableBool
+0000206b                Low True
+0000206c                Medium True
+0000206d                High True
+0000206e                Ultra True
+0000206f            OverrideDrawOrder False
+00002070        IntensityCurve::Vec4
+00002070            x 0.0
+00002074            y 0.0
+00002078            z -1.0
+0000207c            w 1.0
+00002080        Light 0000000c
+00002084        Lifetime 0.300000011921
+00002088        SpawnProbability::QualityScalableFloat
+00002088            Low 1.0
+0000208c            Medium 1.0
+00002090            High 1.0
+00002094            Ultra 1.0
+00002098        RandomIntensityMin 1.0
+0000209c        RandomIntensityMax 1.0
+000020a0        IntensityMin 0.0
+000020a4        IntensityMax 1.0
+000020a8        Looping False
+000020a9        LocalPlayerOnly False
+000020b0    PbrSphereLightEntityData 0000000c
+000020b0        $::PbrAnalyticLightEntityData
+000020b0            $::LocalLightEntityData
+000020b0                $::SpatialEntityData
+000020b0                    $::EntityData
+000020b0                        $::GameObjectData
+000020b0                            $::DataBusPeer
+000020b0                                $::GameDataContainer
+000020b0                                    $::DataContainer
+000020b8                                Flags 0
+000020c0                    Transform::LinearTransform
+000020c0                        right::Vec3
+000020c0                            x 1.0
+000020c4                            y 0.0
+000020c8                            z 0.0
+000020d0                        up::Vec3
+000020d0                            x 0.0
+000020d4                            y 1.0
+000020d8                            z 0.0
+000020e0                        forward::Vec3
+000020e0                            x 0.0
+000020e4                            y 0.0
+000020e8                            z 1.0
+000020f0                        trans::Vec3
+000020f0                            x 0.0
+000020f4                            y 0.0
+000020f8                            z 0.0
+00002100                Enabled True
+00002110            Color::Vec3
+00002110                x 589.695922852
+00002114                y 304.094146729
+00002118                z 124.64150238
+00002120            ParticleColorScale::Vec3
+00002120                x 1.0
+00002124                y 1.0
+00002128                z 1.0
+00002130            RadiosityColorScale::Vec3
+00002130                x 1.0
+00002134                y 1.0
+00002138                z 1.0
+00002140            LightColorMode LightColorMode_RGB
+00002144            Temperature 2700
+00002148            Intensity 15000.0
+0000214c            AttenuationRadius 5.0
+00002150            AttenuationOffset 0.10000000149
+00002154            LightUnit LightUnitType_LuminousPower
+00002158            CastShadows QualityScalableEnabled_Disabled
+0000215c            CastVolumetricShadows QualityScalableEnabled_Disabled
+00002160            ShadowRadius 0.0
+00002164            ShadowCullDistance 80.0
+00002168            ShadowFadeDistance 0.0
+0000216c            ShadowDimmer 1.0
+00002170            Dimmer 1.0
+00002174            EmissiveShapeEnable False
+00002175            AffectDiffuse True
+00002176            AffectSpecular True
+00002177            CastShadowsEnable True
+00002178            CastVolumetricShadowsEnable True
+00002179            AffectRadiosity False
+00002180        SphereRadius 0.0
+00002184        IESProfile *nullGuid*
+00002188        IESMultiplier 1.0
+0000218c        OnlyHempishere False
+0000218d        UseIESProfileAsMask False
+00002190    VisualEnvironmentEffectEntityData 0000000d
+00002190        $::ChildEffectEntityData
+00002190            $::SpatialEntityData
+00002190                $::EntityData
+00002190                    $::GameObjectData
+00002190                        $::DataBusPeer
+00002190                            $::GameDataContainer
+00002190                                $::DataContainer
+00002198                            Flags 25148446
+000021a0                Transform::LinearTransform
+000021a0                    right::Vec3
+000021a0                        x 1.0
+000021a4                        y 0.0
+000021a8                        z 0.0
+000021b0                    up::Vec3
+000021b0                        x 0.0
+000021b4                        y 1.0
+000021b8                        z 0.0
+000021c0                    forward::Vec3
+000021c0                        x 0.0
+000021c4                        y 0.0
+000021c8                        z 1.0
+000021d0                    trans::Vec3
+000021d0                        x 0.0
+000021d4                        y 0.0
+000021d8                        z 0.0
+000021e0            Components *nullArray*
+000021e4            MaxActiveInstanceCount::QualityScalableInt
+000021e4                Low 30
+000021e8                Medium 30
+000021ec                High 30
+000021f0                Ultra 30
+000021f4            CullDistance::QualityScalableFloat
+000021f4                Low 20.0
+000021f8                Medium 20.0
+000021fc                High 20.0
+00002200                Ultra 20.0
+00002204            StartDelay 0.0
+00002208            KillWhenDistanceCulled False
+00002209            ResetInstanceWhenStarted True
+0000220a            AttachToSpawnSurface False
+0000220b            Enable::QualityScalableBool
+0000220b                Low True
+0000220c                Medium True
+0000220d                High True
+0000220e                Ultra True
+0000220f            OverrideDrawOrder False
+00002210        LifetimeCurve::Vec4
+00002210            x 0.0
+00002214            y 0.0
+00002218            z 0.0
+0000221c            w 1.0
+00002220        CullAngleCurve::Vec4
+00002220            x 0.0
+00002224            y 0.0
+00002228            z -4.52271175385
+0000222c            w 2.80908060074
+00002230        CullDistanceCurve::Vec4
+00002230            x 0.0
+00002234            y 0.0
+00002238            z -2.15957093239
+0000223c            w 1.86382651329
+00002240        VisualEnvironment FX/test/FXVE_ViewAngle/fae1ede0ecbcf39876a6391f2428d51c
+00002244        Lifetime 1.0
+00002248        SampleOnStartOnly False
+00002249        HideOccluded False

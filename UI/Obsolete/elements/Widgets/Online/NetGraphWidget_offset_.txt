@@ -1,0 +1,375 @@
+00001400    UIWidgetBlueprint 545a91771c07146e5ea7086e61a3e82e
+000013f8        $::ObjectBlueprint
+000013f8            $::Blueprint
+000013f8                $::EntityBusData
+000013f8                    $::DataBusData
+000013f8                        $::Asset
+000013f8                            $::DataContainer
+00001400                            Name UI/Obsolete/elements/Widgets/Online/NetGraphWidget
+00001404                        PropertyConnections *nullArray*
+00001408                        LinkConnections *nullArray*
+0000140c                        Interface *nullGuid*
+00001410                        Flags 0
+00001414                    EventConnections *nullArray*
+00001418            Object 00000000
+00001420    UINetGraphWidgetData 00000000
+00001420        $::BFUIWidgetEntityData
+00001420            $::UIWidgetEntityData
+00001420                $::EntityData
+00001420                    $::GameObjectData
+00001420                        $::DataBusPeer
+00001420                            $::GameDataContainer
+00001420                                $::DataContainer
+00001428                            Flags 190583047
+0000142c                Size::UIElementSize
+0000142c                    X 415.0
+00001430                    Y 450.0
+00001434                Layers *nullArray*
+00001438                TextureMappings *nullArray*
+0000143c                Components *nullArray*
+00001440                Visible True
+00001444            CustomLayout::BFUICustomLayout
+00001444                SnapSettings::BFUISnapLayoutSettings
+00001444                    Left BFUISnapLayoutMode_Default
+00001448                    Right BFUISnapLayoutMode_Default
+0000144c                    Top BFUISnapLayoutMode_Default
+00001450                    Bottom BFUISnapLayoutMode_Default
+00001454                OverrideDefaultLayout False
+00001458            UseStencilMask False
+00001459            UseInputStencilMask False
+0000145a            InputEnabled True
+0000145c        DataSeries::array
+00001520            member(0)::NetGraphDataSeries
+00001520                DataSeriesLabelFontColor::UIElementColor
+00001520                    Rgb::Vec3
+00001520                        x 1.0
+00001524                        y 1.0
+00001528                        z 1.0
+00001530                    Alpha 1.0
+00001540                DataSeriesValuesFontColor::UIElementColor
+00001540                    Rgb::Vec3
+00001540                        x 1.0
+00001544                        y 1.0
+00001548                        z 1.0
+00001550                    Alpha 1.0
+00001560                DataSeriesBackgroundFillColor::UIElementColor
+00001560                    Rgb::Vec3
+00001560                        x 0.231000006199
+00001564                        y 0.231000006199
+00001568                        z 0.231000006199
+00001570                    Alpha 0.5
+00001580                DataSeriesName *nullString*
+00001584                DataSeriesInfoType NetGraphDataSeriesInfoType_Header
+00001588                DataSeriesHeight 27.0
+0000158c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001590                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium16pt/a36cc81c71134e4b96dc3da5731cd589
+00001594                DataSeriesLineWidth 0.0
+000015a0            member(1)::NetGraphDataSeries
+000015a0                DataSeriesLabelFontColor::UIElementColor
+000015a0                    Rgb::Vec3
+000015a0                        x 1.0
+000015a4                        y 1.0
+000015a8                        z 1.0
+000015b0                    Alpha 1.0
+000015c0                DataSeriesValuesFontColor::UIElementColor
+000015c0                    Rgb::Vec3
+000015c0                        x 1.0
+000015c4                        y 1.0
+000015c8                        z 1.0
+000015d0                    Alpha 1.0
+000015e0                DataSeriesBackgroundFillColor::UIElementColor
+000015e0                    Rgb::Vec3
+000015e0                        x 1.0
+000015e4                        y 1.0
+000015e8                        z 1.0
+000015f0                    Alpha 0.0
+00001600                DataSeriesName Tick Rate
+00001604                DataSeriesInfoType NetGraphDataSeriesInfoType_Update
+00001608                DataSeriesHeight 27.0
+0000160c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001610                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001614                DataSeriesLineWidth 0.0
+00001620            member(2)::NetGraphDataSeries
+00001620                DataSeriesLabelFontColor::UIElementColor
+00001620                    Rgb::Vec3
+00001620                        x 1.0
+00001624                        y 0.391999989748
+00001628                        z 1.0
+00001630                    Alpha 1.0
+00001640                DataSeriesValuesFontColor::UIElementColor
+00001640                    Rgb::Vec3
+00001640                        x 1.0
+00001644                        y 1.0
+00001648                        z 1.0
+00001650                    Alpha 1.0
+00001660                DataSeriesBackgroundFillColor::UIElementColor
+00001660                    Rgb::Vec3
+00001660                        x 1.0
+00001664                        y 1.0
+00001668                        z 1.0
+00001670                    Alpha 0.0
+00001680                DataSeriesName Srv Tick
+00001684                DataSeriesInfoType NetGraphDataSeriesInfoType_ServerTickTime
+00001688                DataSeriesHeight 23.0
+0000168c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001690                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001694                DataSeriesLineWidth 0.0
+000016a0            member(3)::NetGraphDataSeries
+000016a0                DataSeriesLabelFontColor::UIElementColor
+000016a0                    Rgb::Vec3
+000016a0                        x 0.391999989748
+000016a4                        y 1.0
+000016a8                        z 1.0
+000016b0                    Alpha 1.0
+000016c0                DataSeriesValuesFontColor::UIElementColor
+000016c0                    Rgb::Vec3
+000016c0                        x 1.0
+000016c4                        y 1.0
+000016c8                        z 1.0
+000016d0                    Alpha 1.0
+000016e0                DataSeriesBackgroundFillColor::UIElementColor
+000016e0                    Rgb::Vec3
+000016e0                        x 1.0
+000016e4                        y 1.0
+000016e8                        z 1.0
+000016f0                    Alpha 0.0
+00001700                DataSeriesName Latency
+00001704                DataSeriesInfoType NetGraphDataSeriesInfoType_NetwDelay
+00001708                DataSeriesHeight 23.0
+0000170c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001710                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001714                DataSeriesLineWidth 0.0
+00001720            member(4)::NetGraphDataSeries
+00001720                DataSeriesLabelFontColor::UIElementColor
+00001720                    Rgb::Vec3
+00001720                        x 0.391999989748
+00001724                        y 0.391999989748
+00001728                        z 1.0
+00001730                    Alpha 1.0
+00001740                DataSeriesValuesFontColor::UIElementColor
+00001740                    Rgb::Vec3
+00001740                        x 1.0
+00001744                        y 1.0
+00001748                        z 1.0
+00001750                    Alpha 1.0
+00001760                DataSeriesBackgroundFillColor::UIElementColor
+00001760                    Rgb::Vec3
+00001760                        x 1.0
+00001764                        y 1.0
+00001768                        z 1.0
+00001770                    Alpha 0.0
+00001780                DataSeriesName Lat Vrtn
+00001784                DataSeriesInfoType NetGraphDataSeriesInfoType_NetwVariation
+00001788                DataSeriesHeight 23.0
+0000178c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001790                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001794                DataSeriesLineWidth 0.0
+000017a0            member(5)::NetGraphDataSeries
+000017a0                DataSeriesLabelFontColor::UIElementColor
+000017a0                    Rgb::Vec3
+000017a0                        x 1.0
+000017a4                        y 1.0
+000017a8                        z 0.391999989748
+000017b0                    Alpha 1.0
+000017c0                DataSeriesValuesFontColor::UIElementColor
+000017c0                    Rgb::Vec3
+000017c0                        x 1.0
+000017c4                        y 1.0
+000017c8                        z 1.0
+000017d0                    Alpha 1.0
+000017e0                DataSeriesBackgroundFillColor::UIElementColor
+000017e0                    Rgb::Vec3
+000017e0                        x 1.0
+000017e4                        y 1.0
+000017e8                        z 1.0
+000017f0                    Alpha 0.0
+00001800                DataSeriesName Pkt Loss
+00001804                DataSeriesInfoType NetGraphDataSeriesInfoType_PacketLoss
+00001808                DataSeriesHeight 23.0
+0000180c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001810                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001814                DataSeriesLineWidth 0.0
+00001820            member(6)::NetGraphDataSeries
+00001820                DataSeriesLabelFontColor::UIElementColor
+00001820                    Rgb::Vec3
+00001820                        x 0.626999974251
+00001824                        y 1.0
+00001828                        z 0.168999999762
+00001830                    Alpha 1.0
+00001840                DataSeriesValuesFontColor::UIElementColor
+00001840                    Rgb::Vec3
+00001840                        x 1.0
+00001844                        y 1.0
+00001848                        z 1.0
+00001850                    Alpha 1.0
+00001860                DataSeriesBackgroundFillColor::UIElementColor
+00001860                    Rgb::Vec3
+00001860                        x 1.0
+00001864                        y 1.0
+00001868                        z 1.0
+00001870                    Alpha 0.0
+00001880                DataSeriesName Srv Offset
+00001884                DataSeriesInfoType NetGraphDataSeriesInfoType_BehindSrvTime
+00001888                DataSeriesHeight 23.0
+0000188c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001890                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001894                DataSeriesLineWidth 0.0
+000018a0            member(7)::NetGraphDataSeries
+000018a0                DataSeriesLabelFontColor::UIElementColor
+000018a0                    Rgb::Vec3
+000018a0                        x 1.0
+000018a4                        y 0.536000013351
+000018a8                        z 0.0
+000018b0                    Alpha 1.0
+000018c0                DataSeriesValuesFontColor::UIElementColor
+000018c0                    Rgb::Vec3
+000018c0                        x 1.0
+000018c4                        y 1.0
+000018c8                        z 1.0
+000018d0                    Alpha 1.0
+000018e0                DataSeriesBackgroundFillColor::UIElementColor
+000018e0                    Rgb::Vec3
+000018e0                        x 1.0
+000018e4                        y 1.0
+000018e8                        z 1.0
+000018f0                    Alpha 0.0
+00001900                DataSeriesName Down Str
+00001904                DataSeriesInfoType NetGraphDataSeriesInfoType_DownStrm
+00001908                DataSeriesHeight 23.0
+0000190c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001910                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001914                DataSeriesLineWidth 0.0
+00001920            member(8)::NetGraphDataSeries
+00001920                DataSeriesLabelFontColor::UIElementColor
+00001920                    Rgb::Vec3
+00001920                        x 0.899999976158
+00001924                        y 0.899999976158
+00001928                        z 0.899999976158
+00001930                    Alpha 1.0
+00001940                DataSeriesValuesFontColor::UIElementColor
+00001940                    Rgb::Vec3
+00001940                        x 1.0
+00001944                        y 1.0
+00001948                        z 1.0
+00001950                    Alpha 1.0
+00001960                DataSeriesBackgroundFillColor::UIElementColor
+00001960                    Rgb::Vec3
+00001960                        x 1.0
+00001964                        y 1.0
+00001968                        z 1.0
+00001970                    Alpha 0.0
+00001980                DataSeriesName Recv Rate
+00001984                DataSeriesInfoType NetGraphDataSeriesInfoType_ReceiveRate
+00001988                DataSeriesHeight 23.0
+0000198c                DataSeriesLabelFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001990                DataSeriesValuesFontStyle UI/Fonts/Styles/TunguskaFuturaMedium12pt/52111d1c7c846a48ab4c6fe414f4c7cc
+00001994                DataSeriesLineWidth 0.0
+00001460        BackgroundColor::UIElementColor
+00001460            Rgb::Vec3
+00001460                x 0.0
+00001464                y 0.0
+00001468                z 0.0
+00001470            Alpha 0.0
+00001480        CriticalValueColor::UIElementColor
+00001480            Rgb::Vec3
+00001480                x 1.0
+00001484                y 0.0
+00001488                z 0.0
+00001490            Alpha 0.75
+000014a0        GraphProperties::NetGraphProperties
+000014a0            GraphGridColor::UIElementColor
+000014a0                Rgb::Vec3
+000014a0                    x 0.20000000298
+000014a4                    y 0.20000000298
+000014a8                    z 0.20000000298
+000014b0                Alpha 0.20000000298
+000014c0            GraphBorderColor::UIElementColor
+000014c0                Rgb::Vec3
+000014c0                    x 0.20000000298
+000014c4                    y 0.20000000298
+000014c8                    z 0.20000000298
+000014d0                Alpha 0.20000000298
+000014e0            GraphMargin 1.0
+000014e4            GraphNumHeightDividers 9
+000014e8            GraphVertLineIntervals 10.0
+000014f0        DataColumns::array
+000019b0            member(0)::NetGraphDataColumn
+000019b0                DataColumnFontColor::UIElementColor
+000019b0                    Rgb::Vec3
+000019b0                        x 1.0
+000019b4                        y 1.0
+000019b8                        z 1.0
+000019c0                    Alpha 1.0
+000019d0                DataColumnName *nullString*
+000019d4                DataColumnInfoType NetGraphDataColumnInfoType_Empty
+000019d8                DataColumnMaxWidth 5.0
+000019e0            member(1)::NetGraphDataColumn
+000019e0                DataColumnFontColor::UIElementColor
+000019e0                    Rgb::Vec3
+000019e0                        x 1.0
+000019e4                        y 1.0
+000019e8                        z 1.0
+000019f0                    Alpha 1.0
+00001a00                DataColumnName *nullString*
+00001a04                DataColumnInfoType NetGraphDataColumnInfoType_Label
+00001a08                DataColumnMaxWidth 110.0
+00001a10            member(2)::NetGraphDataColumn
+00001a10                DataColumnFontColor::UIElementColor
+00001a10                    Rgb::Vec3
+00001a10                        x 0.800000011921
+00001a14                        y 0.800000011921
+00001a18                        z 0.800000011921
+00001a20                    Alpha 1.0
+00001a30                DataColumnName *nullString*
+00001a34                DataColumnInfoType NetGraphDataColumnInfoType_Unit
+00001a38                DataColumnMaxWidth 35.0
+00001a40            member(3)::NetGraphDataColumn
+00001a40                DataColumnFontColor::UIElementColor
+00001a40                    Rgb::Vec3
+00001a40                        x 1.0
+00001a44                        y 1.0
+00001a48                        z 1.0
+00001a50                    Alpha 1.0
+00001a60                DataColumnName *nullString*
+00001a64                DataColumnInfoType NetGraphDataColumnInfoType_Current
+00001a68                DataColumnMaxWidth 65.0
+00001a70            member(4)::NetGraphDataColumn
+00001a70                DataColumnFontColor::UIElementColor
+00001a70                    Rgb::Vec3
+00001a70                        x 0.899999976158
+00001a74                        y 0.899999976158
+00001a78                        z 0.899999976158
+00001a80                    Alpha 1.0
+00001a90                DataColumnName avg
+00001a94                DataColumnInfoType NetGraphDataColumnInfoType_Average
+00001a98                DataColumnMaxWidth 65.0
+00001aa0            member(5)::NetGraphDataColumn
+00001aa0                DataColumnFontColor::UIElementColor
+00001aa0                    Rgb::Vec3
+00001aa0                        x 0.10000000149
+00001aa4                        y 0.850000023842
+00001aa8                        z 0.10000000149
+00001ab0                    Alpha 1.0
+00001ac0                DataColumnName min
+00001ac4                DataColumnInfoType NetGraphDataColumnInfoType_Min
+00001ac8                DataColumnMaxWidth 65.0
+00001ad0            member(6)::NetGraphDataColumn
+00001ad0                DataColumnFontColor::UIElementColor
+00001ad0                    Rgb::Vec3
+00001ad0                        x 1.0
+00001ad4                        y 0.800000011921
+00001ad8                        z 0.10000000149
+00001ae0                    Alpha 1.0
+00001af0                DataColumnName max
+00001af4                DataColumnInfoType NetGraphDataColumnInfoType_Max
+00001af8                DataColumnMaxWidth 65.0
+00001b00            member(7)::NetGraphDataColumn
+00001b00                DataColumnFontColor::UIElementColor
+00001b00                    Rgb::Vec3
+00001b00                        x 1.0
+00001b04                        y 1.0
+00001b08                        z 1.0
+00001b10                    Alpha 1.0
+00001b20                DataColumnName *nullString*
+00001b24                DataColumnInfoType NetGraphDataColumnInfoType_Empty
+00001b28                DataColumnMaxWidth 5.0

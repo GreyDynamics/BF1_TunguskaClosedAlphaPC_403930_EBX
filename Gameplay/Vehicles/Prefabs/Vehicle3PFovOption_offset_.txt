@@ -1,0 +1,125 @@
+00001990    LogicPrefabBlueprint f1d13765f069307891b37c28dbdeb55b
+00001988        $::PrefabBlueprint
+00001988            $::Blueprint
+00001988                $::EntityBusData
+00001988                    $::DataBusData
+00001988                        $::Asset
+00001988                            $::DataContainer
+00001990                            Name Gameplay/Vehicles/Prefabs/Vehicle3PFovOption
+00001994                        PropertyConnections::array
+00001a04                            member(0)::PropertyConnection
+00001a04                                Source 00000000
+00001a08                                Target 00000002
+00001a0c                                SourceFieldId 993810272
+00001a10                                TargetFieldId 1385360371
+00001a14                                Flags 2
+00001a18                            member(1)::PropertyConnection
+00001a18                                Source 00000000
+00001a1c                                Target 00000002
+00001a20                                SourceFieldId 2066049125
+00001a24                                TargetFieldId 2143448529
+00001a28                                Flags 2
+00001a2c                            member(2)::PropertyConnection
+00001a2c                                Source 00000000
+00001a30                                Target 00000002
+00001a34                                SourceFieldId 193446607
+00001a38                                TargetFieldId -1661271216
+00001a3c                                Flags 2
+00001a40                            member(3)::PropertyConnection
+00001a40                                Source 00000000
+00001a44                                Target 00000002
+00001a48                                SourceFieldId 193446865
+00001a4c                                TargetFieldId -1652125810
+00001a50                                Flags 2
+00001a54                            member(4)::PropertyConnection
+00001a54                                Source 00000002
+00001a58                                Target 00000001
+00001a5c                                SourceFieldId 193453899
+00001a60                                TargetFieldId 1863090577
+00001a64                                Flags 18
+00001998                        LinkConnections *nullArray*
+0000199c                        Interface 00000001
+000019a0                        Flags 2
+000019a4                    EventConnections *nullArray*
+000019a8            Objects::array
+00001a6c                member(0) 00000000
+00001a70                member(1) 00000002
+000019ac            TimeDeltaType TimeDeltaType_None
+000019b0    BFUIProfileOptionFloatEntityData 00000000
+000019a8        $::BFUIProfileOptionEntityData
+000019a8            $::EntityData
+000019a8                $::GameObjectData
+000019a8                    $::DataBusPeer
+000019a8                        $::GameDataContainer
+000019a8                            $::DataContainer
+000019b0                        Flags 22036510
+000019b4            Realm Realm_Client
+000019b8            LocalPlayerId LocalPlayerId_0
+000019bc            Option Profile/OptionFieldOfViewVehicle/93af86a7bcff2247b2ad7c229c2708bf
+000019c0        Realm Realm_Client
+000019c4        InValue 0.0
+000019c8    InterfaceDescriptorData 00000001
+000019c0        $::DynamicDataContainer
+000019c0            $::DataContainer
+000019c8            Fields::array
+00001a78                member(0)::DataField
+00001a78                    Value *nullString*
+00001a7c                    ValueRef *nullGuid*
+00001a80                    Id 1863090577
+00001a84                    AccessType FieldAccessType_Source
+000019cc        InputEvents *nullArray*
+000019d0        OutputEvents *nullArray*
+000019d4        InputLinks *nullArray*
+000019d8        OutputLinks *nullArray*
+000019dc    MathEntityData 00000002
+000019d4        $::EntityData
+000019d4            $::GameObjectData
+000019d4                $::DataBusPeer
+000019d4                    $::GameDataContainer
+000019d4                        $::DataContainer
+000019dc                    Flags 145376704
+000019e0        Realm Realm_Client
+000019e4        Assembly::MathEntityAssembly
+000019e4            FunctionCalls::array
+00001a9c                member(0)::MathEntityFunctionCall
+00001a9c                    Parameters::array
+00001a8c                        member(0) 0
+00001a90                        member(1) 1
+00001a94                        member(2) 2
+000019e8            Instructions::array
+00001aa4                member(0)::MathEntityInstruction
+00001aa4                    Code MathOpCode_InputF
+00001aa8                    Result 0
+00001aac                    Param1 1385360371
+00001ab0                    Param2 0
+00001ab4                member(1)::MathEntityInstruction
+00001ab4                    Code MathOpCode_InputF
+00001ab8                    Result 1
+00001abc                    Param1 -1661271216
+00001ac0                    Param2 0
+00001ac4                member(2)::MathEntityInstruction
+00001ac4                    Code MathOpCode_InputF
+00001ac8                    Result 2
+00001acc                    Param1 -1652125810
+00001ad0                    Param2 0
+00001ad4                member(3)::MathEntityInstruction
+00001ad4                    Code MathOpCode_Func
+00001ad8                    Result 0
+00001adc                    Param1 1543335376
+00001ae0                    Param2 0
+00001ae4                member(4)::MathEntityInstruction
+00001ae4                    Code MathOpCode_InputF
+00001ae8                    Result 1
+00001aec                    Param1 2143448529
+00001af0                    Param2 0
+00001af4                member(5)::MathEntityInstruction
+00001af4                    Code MathOpCode_DivF
+00001af8                    Result 0
+00001afc                    Param1 0
+00001b00                    Param2 1
+00001b04                member(6)::MathEntityInstruction
+00001b04                    Code MathOpCode_Return
+00001b08                    Result 0
+00001b0c                    Param1 4
+00001b10                    Param2 0
+000019ec        EvaluateOnEvent False

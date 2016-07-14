@@ -1,0 +1,125 @@
+000013f0    SpatialPrefabBlueprint e77775837801c2e2877e4dce471cd658
+000013e8        $::PrefabBlueprint
+000013e8            $::Blueprint
+000013e8                $::EntityBusData
+000013e8                    $::DataBusData
+000013e8                        $::Asset
+000013e8                            $::DataContainer
+000013f0                            Name Gameplay/Vehicles/Prefabs/TriggerGroundExplotion
+000013f4                        PropertyConnections::array
+00001504                            member(0)::PropertyConnection
+00001504                                Source 00000001
+00001508                                Target 00000000
+0000150c                                SourceFieldId 225375086
+00001510                                TargetFieldId 2662400
+00001514                                Flags 1
+00001518                            member(1)::PropertyConnection
+00001518                                Source 00000002
+0000151c                                Target 00000000
+00001520                                SourceFieldId 803090037
+00001524                                TargetFieldId -2024647575
+00001528                                Flags 1
+000013f8                        LinkConnections *nullArray*
+000013fc                        Interface 00000002
+00001400                        Flags 14
+00001404                    EventConnections::array
+00001530                        member(0)::EventConnection
+00001530                            Source 00000002
+00001534                            Target 00000001
+00001538                            SourceEvent::EventSpec
+00001538                                Id 1325304637
+0000153c                            TargetEvent::EventSpec
+0000153c                                Id -1541066415
+00001540                            TargetType EventConnectionTargetType_ClientAndServer
+00001408            Objects::array
+00001548                member(0) 00000001
+0000154c                member(1) 00000000
+0000140c            TimeDeltaType TimeDeltaType_None
+00001410    VeniceExplosionEntityData 00000000
+00001410        $::ExplosionEntityData
+00001410            $::SpatialEntityData
+00001410                $::EntityData
+00001410                    $::GameObjectData
+00001410                        $::DataBusPeer
+00001410                            $::GameDataContainer
+00001410                                $::DataContainer
+00001418                            Flags 423769063
+00001420                Transform::LinearTransform
+00001420                    right::Vec3
+00001420                        x 1.0
+00001424                        y 0.0
+00001428                        z 0.0
+00001430                    up::Vec3
+00001430                        x 0.0
+00001434                        y 1.0
+00001438                        z 0.0
+00001440                    forward::Vec3
+00001440                        x 0.0
+00001444                        y 0.0
+00001448                        z 1.0
+00001450                    trans::Vec3
+00001450                        x 0.0
+00001454                        y 0.0
+00001458                        z 0.0
+00001460            DetonationEffect *nullGuid*
+00001464            DetonationEffectForFriendlies *nullGuid*
+00001468            MaskVolume *nullGuid*
+0000146c            DestructionMaskVolume *nullGuid*
+00001470            MaterialPair::MaterialDecl
+00001470                Packed 1160544256
+00001474            SecondaryMaterialPair::MaterialDecl
+00001474                Packed 32768
+00001478            ShockwaveWindForce *nullGuid*
+0000147c            DamageIndicationType DamageIndicationType_ExplosionCenter
+00001480            EmpTime 0.0
+00001484            MaxOcclusionRaycastRadius 0.5
+00001488            InnerBlastRadius 2.0
+0000148c            BlastDamage 500.0
+00001490            BlastRadius 5.0
+00001494            BlastImpulse 15000.0
+00001498            ShockwaveDamage 1.0
+0000149c            ShockwaveRadius 6.0
+000014a0            ShockwaveImpulse 5000.0
+000014a4            ShockwaveTime 0.140000000596
+000014a8            CameraShockwaveRadius 0.0
+000014ac            SpawnDelay 0.0
+000014b0            NoFriendliesEffectOnEnabledFriendlyFire True
+000014b1            UseEntityTransformForDetonationEffect True
+000014b2            SecondaryMaterialsActive False
+000014b3            HasStunEffect False
+000014b4            AllowDamageToOwner True
+000014b5            ApplyBlastDamageToVehiclesAndCharactersInstantly True
+000014b6            ForceServersideAiDamage False
+000014b7            DisableOcclusion False
+000014b8            DisableStaticEntityOcclusion True
+000014b9            DisableOcclusionOutsideBlastRadius True
+000014ba            TriggerImpairedHearing True
+000014bb            Enabled False
+000014c0        UnspottableTime 1.0
+000014c4        IsCausingSuppression False
+000014c5        UnspotsOnExplode False
+000014c6        SpotsOnExplode False
+000014d0    BoolEntityData 00000001
+000014c8        $::EntityData
+000014c8            $::GameObjectData
+000014c8                $::DataBusPeer
+000014c8                    $::GameDataContainer
+000014c8                        $::DataContainer
+000014d0                    Flags 111899099
+000014d4        Realm Realm_ClientAndServer
+000014d8        DefaultValue False
+000014dc    InterfaceDescriptorData 00000002
+000014d4        $::DynamicDataContainer
+000014d4            $::DataContainer
+000014dc            Fields::array
+00001554                member(0)::DataField
+00001554                    Value *nullString*
+00001558                    ValueRef *nullGuid*
+0000155c                    Id 803090037
+00001560                    AccessType FieldAccessType_Target
+000014e0        InputEvents::array
+00001568            member(0)::DynamicEvent
+00001568                Id 1325304637
+000014e4        OutputEvents *nullArray*
+000014e8        InputLinks *nullArray*
+000014ec        OutputLinks *nullArray*

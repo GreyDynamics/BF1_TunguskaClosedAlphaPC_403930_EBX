@@ -1,0 +1,150 @@
+00001930    LogicPrefabBlueprint 49bcf1d61ed23c495bc0e42dc5b0b2b3
+00001928        $::PrefabBlueprint
+00001928            $::Blueprint
+00001928                $::EntityBusData
+00001928                    $::DataBusData
+00001928                        $::Asset
+00001928                            $::DataContainer
+00001930                            Name Sound/Levels/SourcePatch/SoundArea_Relevance_Prefab
+00001934                        PropertyConnections::array
+000019b4                            member(0)::PropertyConnection
+000019b4                                Source 00000002
+000019b8                                Target 00000003
+000019bc                                SourceFieldId -381128976
+000019c0                                TargetFieldId -381128976
+000019c4                                Flags 2
+000019c8                            member(1)::PropertyConnection
+000019c8                                Source 00000003
+000019cc                                Target 00000002
+000019d0                                SourceFieldId 193453899
+000019d4                                TargetFieldId -799172945
+000019d8                                Flags 18
+000019dc                            member(2)::PropertyConnection
+000019dc                                Source 00000002
+000019e0                                Target 00000004
+000019e4                                SourceFieldId 1931223179
+000019e8                                TargetFieldId -504009772
+000019ec                                Flags 2
+000019f0                            member(3)::PropertyConnection
+000019f0                                Source 00000001
+000019f4                                Target 00000000
+000019f8                                SourceFieldId 2133122043
+000019fc                                TargetFieldId 1800624758
+00001a00                                Flags 2
+00001a04                            member(4)::PropertyConnection
+00001a04                                Source 00000004
+00001a08                                Target 00000000
+00001a0c                                SourceFieldId -2073499165
+00001a10                                TargetFieldId -1379054756
+00001a14                                Flags 2
+00001a18                            member(5)::PropertyConnection
+00001a18                                Source 00000000
+00001a1c                                Target 00000003
+00001a20                                SourceFieldId -1399230854
+00001a24                                TargetFieldId 1561327222
+00001a28                                Flags 2
+00001938                        LinkConnections *nullArray*
+0000193c                        Interface 00000002
+00001940                        Flags 14
+00001944                    EventConnections *nullArray*
+00001948            Objects::array
+00001a30                member(0) 00000004
+00001a34                member(1) 00000003
+00001a38                member(2) 00000001
+00001a3c                member(3) 00000000
+0000194c            TimeDeltaType TimeDeltaType_None
+00001950    ConditionalFloatEntityData 00000000
+00001948        $::ConditionalStateEntityData
+00001948            $::EntityData
+00001948                $::GameObjectData
+00001948                    $::DataBusPeer
+00001948                        $::GameDataContainer
+00001948                            $::DataContainer
+00001950                        Flags 157440474
+00001954            Realm Realm_Client
+00001958            Condition False
+0000195c        ValueIfTrue 1.0
+00001960        ValueIfFalse 0.0
+00001964    GameViewQueryEntityData 00000001
+0000195c        $::EntityData
+0000195c            $::GameObjectData
+0000195c                $::DataBusPeer
+0000195c                    $::GameDataContainer
+0000195c                        $::DataContainer
+00001964                    Flags 23912448
+00001968        Realm Realm_Client
+0000196c    InterfaceDescriptorData 00000002
+00001964        $::DynamicDataContainer
+00001964            $::DataContainer
+0000196c            Fields::array
+00001a44                member(0)::DataField
+00001a44                    Value Float32 1
+00001a48                    ValueRef *nullGuid*
+00001a4c                    Id -381128976
+00001a50                    AccessType FieldAccessType_Target
+00001a54                member(1)::DataField
+00001a54                    Value *nullString*
+00001a58                    ValueRef *nullGuid*
+00001a5c                    Id -799172945
+00001a60                    AccessType FieldAccessType_Source
+00001a64                member(2)::DataField
+00001a64                    Value *nullString*
+00001a68                    ValueRef *nullGuid*
+00001a6c                    Id 1931223179
+00001a70                    AccessType FieldAccessType_Target
+00001970        InputEvents *nullArray*
+00001974        OutputEvents *nullArray*
+00001978        InputLinks *nullArray*
+0000197c        OutputLinks *nullArray*
+00001980    MathEntityData 00000003
+00001978        $::EntityData
+00001978            $::GameObjectData
+00001978                $::DataBusPeer
+00001978                    $::GameDataContainer
+00001978                        $::DataContainer
+00001980                    Flags 157861313
+00001984        Realm Realm_Client
+00001988        Assembly::MathEntityAssembly
+00001988            FunctionCalls::array
+00001a88                member(0)::MathEntityFunctionCall
+00001a88                    Parameters::array
+00001a78                        member(0) 0
+00001a7c                        member(1) 1
+00001a80                        member(2) 2
+0000198c            Instructions::array
+00001a90                member(0)::MathEntityInstruction
+00001a90                    Code MathOpCode_InputF
+00001a94                    Result 0
+00001a98                    Param1 1561327222
+00001a9c                    Param2 0
+00001aa0                member(1)::MathEntityInstruction
+00001aa0                    Code MathOpCode_ConstF
+00001aa4                    Result 1
+00001aa8                    Param1 0
+00001aac                    Param2 0
+00001ab0                member(2)::MathEntityInstruction
+00001ab0                    Code MathOpCode_InputF
+00001ab4                    Result 2
+00001ab8                    Param1 -381128976
+00001abc                    Param2 0
+00001ac0                member(3)::MathEntityInstruction
+00001ac0                    Code MathOpCode_Func
+00001ac4                    Result 0
+00001ac8                    Param1 1543335376
+00001acc                    Param2 0
+00001ad0                member(4)::MathEntityInstruction
+00001ad0                    Code MathOpCode_Return
+00001ad4                    Result 0
+00001ad8                    Param1 4
+00001adc                    Param2 0
+00001990        EvaluateOnEvent False
+00001994    MixerEntityData 00000004
+0000198c        $::EntityData
+0000198c            $::GameObjectData
+0000198c                $::DataBusPeer
+0000198c                    $::GameDataContainer
+0000198c                        $::DataContainer
+00001994                    Flags 153085500
+00001998        Mixer Sound/Mixers/AreaType_Mixer/7c6e25d53fe8fb4ab3fbfd491321e540
+0000199c        ActivateOnCreation True
+0000199d        AccumulatedInputs True

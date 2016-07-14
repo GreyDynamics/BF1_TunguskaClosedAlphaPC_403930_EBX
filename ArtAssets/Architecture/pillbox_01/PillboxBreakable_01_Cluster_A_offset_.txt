@@ -1,0 +1,870 @@
+00002110    ObjectBlueprint f5c78862332fd02cd85f6c6d16a49272
+00002108        $::Blueprint
+00002108            $::EntityBusData
+00002108                $::DataBusData
+00002108                    $::Asset
+00002108                        $::DataContainer
+00002110                        Name ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A
+00002114                    PropertyConnections *nullArray*
+00002118                    LinkConnections *nullArray*
+0000211c                    Interface *nullGuid*
+00002120                    Flags 0
+00002124                EventConnections *nullArray*
+00002128        Object 00000000
+00002140    PhysicsEntityData 644dbf77cf5884bd64d681dd7c1edd75
+00002140        $::EntityData
+00002140            $::GameObjectData
+00002140                $::DataBusPeer
+00002140                    $::GameDataContainer
+00002140                        $::DataContainer
+00002148                    Flags 0
+0000214c        Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002150        InertiaModifier::Vec3
+00002150            x 1.0
+00002154            y 1.0
+00002158            z 1.0
+00002160        RigidBodies::array
+00002a74            member(0) 00000008
+00002a78            member(1) 00000001
+00002a7c            member(2) 00000002
+00002a80            member(3) 00000003
+00002a84            member(4) 00000004
+00002a88            member(5) 00000005
+00002a8c            member(6) 00000006
+00002a90            member(7) 00000007
+00002164        FloatPhysics *nullGuid*
+00002168        Mass 1000010.0
+0000216c        AngularVelocityDamping -1.0
+00002170        LinearVelocityDamping -1.0
+00002174        Proximity *nullGuid*
+00002178        Constraints *nullArray*
+0000217c        MovableParts True
+0000217d        IsComposite True
+00002180    DebrisClusterData 00000000
+00002180        $::GameComponentEntityData
+00002180            $::ComponentEntityData
+00002180                $::SpatialEntityData
+00002180                    $::EntityData
+00002180                        $::GameObjectData
+00002180                            $::DataBusPeer
+00002180                                $::GameDataContainer
+00002180                                    $::DataContainer
+00002188                                Flags 514483798
+00002190                    Transform::LinearTransform
+00002190                        right::Vec3
+00002190                            x 1.0
+00002194                            y 0.0
+00002198                            z 0.0
+000021a0                        up::Vec3
+000021a0                            x 0.0
+000021a4                            y 1.0
+000021a8                            z 0.0
+000021b0                        forward::Vec3
+000021b0                            x 0.0
+000021b4                            y 0.0
+000021b8                            z 1.0
+000021c0                        trans::Vec3
+000021c0                            x 0.0
+000021c4                            y 0.0
+000021c8                            z 0.0
+000021d0                Components *nullArray*
+000021d4                ClientRuntimeComponentCount 0
+000021d5                ServerRuntimeComponentCount 0
+000021d6                ClientRuntimeTransformationCount 0
+000021d7                ServerRuntimeTransformationCount 0
+000021e0            Enabled True
+000021e1            EnableOutOfBoundsCheck True
+000021f0        PushVelocityMul::Vec3
+000021f0            x 0.0
+000021f4            y 0.0
+000021f8            z 0.0
+00002200        PushVelocityRndMul::Vec3
+00002200            x 1.0
+00002204            y 1.0
+00002208            z 1.0
+00002210        InitRotationRndMul::Vec3
+00002210            x 0.40000000596
+00002214            y 0.40000000596
+00002218            z 0.40000000596
+00002220        MaxActivePartsCount 500
+00002224        CullDistanceScale 1.0
+00002228        RuntimeClusterLifetime 2.5
+0000222c        Mesh artassets/architecture/pillbox_01/pillboxbreakable_01_cluster_a_Mesh/2fa9da17d285794ef0c4190765ee9f14
+00002230        CompositePartCount 8
+00002234        PartHierarchy::array
+00002aa0            member(0)::DebrisClusterPartInfoData
+00002aa0                LinearVelocity::Vec3
+00002aa0                    x 0.0
+00002aa4                    y 0.0
+00002aa8                    z 0.0
+00002ab0                AngularVelocity::Vec3
+00002ab0                    x 0.0
+00002ab4                    y 0.0
+00002ab8                    z 0.0
+00002ac0                PartIndex 0
+00002ac4                NumberOfChildren 8
+00002ac8                SplitSpeedThreshold 0.0
+00002acc                SyncRestPosition False
+00002acd                SyncContinous False
+00002ace                InEffectWorldOnly False
+00002ad0            member(1)::DebrisClusterPartInfoData
+00002ad0                LinearVelocity::Vec3
+00002ad0                    x 0.0
+00002ad4                    y -0.0
+00002ad8                    z 0.0
+00002ae0                AngularVelocity::Vec3
+00002ae0                    x 0.0
+00002ae4                    y 0.0
+00002ae8                    z 0.0
+00002af0                PartIndex 0
+00002af4                NumberOfChildren 0
+00002af8                SplitSpeedThreshold 0.5
+00002afc                SyncRestPosition False
+00002afd                SyncContinous False
+00002afe                InEffectWorldOnly False
+00002b00            member(2)::DebrisClusterPartInfoData
+00002b00                LinearVelocity::Vec3
+00002b00                    x 0.0
+00002b04                    y 0.0
+00002b08                    z 0.0
+00002b10                AngularVelocity::Vec3
+00002b10                    x 0.0
+00002b14                    y 0.0
+00002b18                    z 0.0
+00002b20                PartIndex 1
+00002b24                NumberOfChildren 0
+00002b28                SplitSpeedThreshold 0.5
+00002b2c                SyncRestPosition False
+00002b2d                SyncContinous False
+00002b2e                InEffectWorldOnly False
+00002b30            member(3)::DebrisClusterPartInfoData
+00002b30                LinearVelocity::Vec3
+00002b30                    x 0.0
+00002b34                    y -0.0
+00002b38                    z 0.0
+00002b40                AngularVelocity::Vec3
+00002b40                    x 0.0
+00002b44                    y 0.0
+00002b48                    z 0.0
+00002b50                PartIndex 2
+00002b54                NumberOfChildren 0
+00002b58                SplitSpeedThreshold 0.5
+00002b5c                SyncRestPosition False
+00002b5d                SyncContinous False
+00002b5e                InEffectWorldOnly False
+00002b60            member(4)::DebrisClusterPartInfoData
+00002b60                LinearVelocity::Vec3
+00002b60                    x 0.0
+00002b64                    y -0.0
+00002b68                    z 0.0
+00002b70                AngularVelocity::Vec3
+00002b70                    x 0.0
+00002b74                    y 0.0
+00002b78                    z 0.0
+00002b80                PartIndex 3
+00002b84                NumberOfChildren 0
+00002b88                SplitSpeedThreshold 0.5
+00002b8c                SyncRestPosition False
+00002b8d                SyncContinous False
+00002b8e                InEffectWorldOnly False
+00002b90            member(5)::DebrisClusterPartInfoData
+00002b90                LinearVelocity::Vec3
+00002b90                    x 0.0
+00002b94                    y -0.0
+00002b98                    z 0.0
+00002ba0                AngularVelocity::Vec3
+00002ba0                    x 0.0
+00002ba4                    y 0.0
+00002ba8                    z 0.0
+00002bb0                PartIndex 4
+00002bb4                NumberOfChildren 0
+00002bb8                SplitSpeedThreshold 0.5
+00002bbc                SyncRestPosition False
+00002bbd                SyncContinous False
+00002bbe                InEffectWorldOnly False
+00002bc0            member(6)::DebrisClusterPartInfoData
+00002bc0                LinearVelocity::Vec3
+00002bc0                    x 0.0
+00002bc4                    y -0.0
+00002bc8                    z -0.0
+00002bd0                AngularVelocity::Vec3
+00002bd0                    x 0.0
+00002bd4                    y 0.0
+00002bd8                    z 0.0
+00002be0                PartIndex 5
+00002be4                NumberOfChildren 0
+00002be8                SplitSpeedThreshold 0.5
+00002bec                SyncRestPosition False
+00002bed                SyncContinous False
+00002bee                InEffectWorldOnly False
+00002bf0            member(7)::DebrisClusterPartInfoData
+00002bf0                LinearVelocity::Vec3
+00002bf0                    x 0.0
+00002bf4                    y 0.0
+00002bf8                    z -0.0
+00002c00                AngularVelocity::Vec3
+00002c00                    x 0.0
+00002c04                    y 0.0
+00002c08                    z 0.0
+00002c10                PartIndex 6
+00002c14                NumberOfChildren 0
+00002c18                SplitSpeedThreshold 0.5
+00002c1c                SyncRestPosition False
+00002c1d                SyncContinous False
+00002c1e                InEffectWorldOnly False
+00002c20            member(8)::DebrisClusterPartInfoData
+00002c20                LinearVelocity::Vec3
+00002c20                    x 0.0
+00002c24                    y -0.0
+00002c28                    z -0.0
+00002c30                AngularVelocity::Vec3
+00002c30                    x 0.0
+00002c34                    y 0.0
+00002c38                    z 0.0
+00002c40                PartIndex 7
+00002c44                NumberOfChildren 0
+00002c48                SplitSpeedThreshold 0.5
+00002c4c                SyncRestPosition False
+00002c4d                SyncContinous False
+00002c4e                InEffectWorldOnly False
+00002238        PhysicsData 644dbf77cf5884bd64d681dd7c1edd75
+0000223c        ActivationPushForceMul 0.40000000596
+00002240        ProjectileForceTransferMul 0.0
+00002244        ActivationEffect FX/Test/BF4_Obsolete/Explosion/FX_Impact_Explosion_S_Concrete/e44e26629450d3a78b61110edc66df20
+00002248        OnPartCollisionSpeedThreshold 2.09999990463
+0000224c        Effect FX/Destruction/MicroDest/FX_MicroDest_Stone_L/c0d68df648429b46b0532da22f78be4d
+00002250        Explosion *nullGuid*
+00002254        PartialDestruction False
+00002255        ClientSideOnly True
+00002256        ActivateOnSpawn True
+00002257        InEffectWorldOnly False
+00002258        NoCollision False
+00002259        IsActivationEffectDynamic True
+0000225a        OnPartCollisionEnable True
+0000225b        KillPartsOnCollision True
+0000225c        DeactivatePartsOnSleep True
+0000225d        SpawnExplosionOnFirstImpactOnly False
+00002260    RigidBodyData 00000001
+00002260        $::PhysicsBodyData
+00002260            $::EntityData
+00002260                $::GameObjectData
+00002260                    $::DataBusPeer
+00002260                        $::GameDataContainer
+00002260                            $::DataContainer
+00002268                        Flags 0
+0000226c            Realm Realm_Client
+00002270            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002274            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002278            AssetIndex 0
+00002279            TransformIndex 0
+0000227a            WorldIndex 1
+0000227b            CollisionRootShapeIndex 1
+0000227c            RaycastRootShapeIndex 0
+0000227d            AddToSpatialQueryManager False
+00002280        CenterOfMass::Vec3
+00002280            x 0.0
+00002284            y 0.0
+00002288            z 0.0
+00002290        InertiaModifier::Vec3
+00002290            x 1.0
+00002294            y 1.0
+00002298            z 1.0
+000022a0        Transform::LinearTransform
+000022a0            right::Vec3
+000022a0                x 1.0
+000022a4                y 0.0
+000022a8                z 0.0
+000022b0            up::Vec3
+000022b0                x 0.0
+000022b4                y 1.0
+000022b8                z 0.0
+000022c0            forward::Vec3
+000022c0                x 0.0
+000022c4                y 0.0
+000022c8                z 1.0
+000022d0            trans::Vec3
+000022d0                x 0.0
+000022d4                y 0.0
+000022d8                z 0.0
+000022e0        KeyframeTransform::LinearTransform
+000022e0            right::Vec3
+000022e0                x 1.0
+000022e4                y 0.0
+000022e8                z 0.0
+000022f0            up::Vec3
+000022f0                x 0.0
+000022f4                y 1.0
+000022f8                z 0.0
+00002300            forward::Vec3
+00002300                x 0.0
+00002304                y 0.0
+00002308                z 1.0
+00002310            trans::Vec3
+00002310                x 0.0
+00002314                y 0.0
+00002318                z 0.0
+00002320        RigidBodyType RBTypeCollision
+00002324        Mass 275.0
+00002328        Material::MaterialDecl
+00002328            Packed 491520
+0000232c        DynamicFriction -1.0
+00002330        StaticFriction -1.0
+00002334        Restitution -1.0
+00002338        AngularVelocityDamping -1.0
+0000233c        LinearVelocityDamping -1.0
+00002340        MotionType RigidBodyMotionType_Dynamic
+00002344        QualityType RigidBodyQualityType_Debris
+00002348        SystemGroup 0
+0000234c        SubSystemId 0
+00002350        SubSystemIdNoCollide 0
+00002354        PartIndices::array
+00002c54            member(0) 1
+00002358        FloatPhysics *nullGuid*
+0000235c        ComputeCenterOfMass True
+0000235d        IsRootController True
+00002360    RigidBodyData 00000002
+00002360        $::PhysicsBodyData
+00002360            $::EntityData
+00002360                $::GameObjectData
+00002360                    $::DataBusPeer
+00002360                        $::GameDataContainer
+00002360                            $::DataContainer
+00002368                        Flags 0
+0000236c            Realm Realm_Client
+00002370            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002374            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002378            AssetIndex 0
+00002379            TransformIndex 0
+0000237a            WorldIndex 1
+0000237b            CollisionRootShapeIndex 2
+0000237c            RaycastRootShapeIndex 0
+0000237d            AddToSpatialQueryManager False
+00002380        CenterOfMass::Vec3
+00002380            x 0.0
+00002384            y 0.0
+00002388            z 0.0
+00002390        InertiaModifier::Vec3
+00002390            x 1.0
+00002394            y 1.0
+00002398            z 1.0
+000023a0        Transform::LinearTransform
+000023a0            right::Vec3
+000023a0                x 1.0
+000023a4                y 0.0
+000023a8                z 0.0
+000023b0            up::Vec3
+000023b0                x 0.0
+000023b4                y 1.0
+000023b8                z 0.0
+000023c0            forward::Vec3
+000023c0                x 0.0
+000023c4                y 0.0
+000023c8                z 1.0
+000023d0            trans::Vec3
+000023d0                x 0.0
+000023d4                y 0.0
+000023d8                z 0.0
+000023e0        KeyframeTransform::LinearTransform
+000023e0            right::Vec3
+000023e0                x 1.0
+000023e4                y 0.0
+000023e8                z 0.0
+000023f0            up::Vec3
+000023f0                x 0.0
+000023f4                y 1.0
+000023f8                z 0.0
+00002400            forward::Vec3
+00002400                x 0.0
+00002404                y 0.0
+00002408                z 1.0
+00002410            trans::Vec3
+00002410                x 0.0
+00002414                y 0.0
+00002418                z 0.0
+00002420        RigidBodyType RBTypeCollision
+00002424        Mass 275.0
+00002428        Material::MaterialDecl
+00002428            Packed 491520
+0000242c        DynamicFriction -1.0
+00002430        StaticFriction -1.0
+00002434        Restitution -1.0
+00002438        AngularVelocityDamping -1.0
+0000243c        LinearVelocityDamping -1.0
+00002440        MotionType RigidBodyMotionType_Dynamic
+00002444        QualityType RigidBodyQualityType_Debris
+00002448        SystemGroup 0
+0000244c        SubSystemId 0
+00002450        SubSystemIdNoCollide 0
+00002454        PartIndices::array
+00002c5c            member(0) 2
+00002458        FloatPhysics *nullGuid*
+0000245c        ComputeCenterOfMass True
+0000245d        IsRootController True
+00002460    RigidBodyData 00000003
+00002460        $::PhysicsBodyData
+00002460            $::EntityData
+00002460                $::GameObjectData
+00002460                    $::DataBusPeer
+00002460                        $::GameDataContainer
+00002460                            $::DataContainer
+00002468                        Flags 0
+0000246c            Realm Realm_Client
+00002470            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002474            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002478            AssetIndex 0
+00002479            TransformIndex 0
+0000247a            WorldIndex 1
+0000247b            CollisionRootShapeIndex 3
+0000247c            RaycastRootShapeIndex 0
+0000247d            AddToSpatialQueryManager False
+00002480        CenterOfMass::Vec3
+00002480            x 0.0
+00002484            y 0.0
+00002488            z 0.0
+00002490        InertiaModifier::Vec3
+00002490            x 1.0
+00002494            y 1.0
+00002498            z 1.0
+000024a0        Transform::LinearTransform
+000024a0            right::Vec3
+000024a0                x 1.0
+000024a4                y 0.0
+000024a8                z 0.0
+000024b0            up::Vec3
+000024b0                x 0.0
+000024b4                y 1.0
+000024b8                z 0.0
+000024c0            forward::Vec3
+000024c0                x 0.0
+000024c4                y 0.0
+000024c8                z 1.0
+000024d0            trans::Vec3
+000024d0                x 0.0
+000024d4                y 0.0
+000024d8                z 0.0
+000024e0        KeyframeTransform::LinearTransform
+000024e0            right::Vec3
+000024e0                x 1.0
+000024e4                y 0.0
+000024e8                z 0.0
+000024f0            up::Vec3
+000024f0                x 0.0
+000024f4                y 1.0
+000024f8                z 0.0
+00002500            forward::Vec3
+00002500                x 0.0
+00002504                y 0.0
+00002508                z 1.0
+00002510            trans::Vec3
+00002510                x 0.0
+00002514                y 0.0
+00002518                z 0.0
+00002520        RigidBodyType RBTypeCollision
+00002524        Mass 275.0
+00002528        Material::MaterialDecl
+00002528            Packed 491520
+0000252c        DynamicFriction -1.0
+00002530        StaticFriction -1.0
+00002534        Restitution -1.0
+00002538        AngularVelocityDamping -1.0
+0000253c        LinearVelocityDamping -1.0
+00002540        MotionType RigidBodyMotionType_Dynamic
+00002544        QualityType RigidBodyQualityType_Debris
+00002548        SystemGroup 0
+0000254c        SubSystemId 0
+00002550        SubSystemIdNoCollide 0
+00002554        PartIndices::array
+00002c64            member(0) 3
+00002558        FloatPhysics *nullGuid*
+0000255c        ComputeCenterOfMass True
+0000255d        IsRootController True
+00002560    RigidBodyData 00000004
+00002560        $::PhysicsBodyData
+00002560            $::EntityData
+00002560                $::GameObjectData
+00002560                    $::DataBusPeer
+00002560                        $::GameDataContainer
+00002560                            $::DataContainer
+00002568                        Flags 0
+0000256c            Realm Realm_Client
+00002570            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002574            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002578            AssetIndex 0
+00002579            TransformIndex 0
+0000257a            WorldIndex 1
+0000257b            CollisionRootShapeIndex 4
+0000257c            RaycastRootShapeIndex 0
+0000257d            AddToSpatialQueryManager False
+00002580        CenterOfMass::Vec3
+00002580            x 0.0
+00002584            y 0.0
+00002588            z 0.0
+00002590        InertiaModifier::Vec3
+00002590            x 1.0
+00002594            y 1.0
+00002598            z 1.0
+000025a0        Transform::LinearTransform
+000025a0            right::Vec3
+000025a0                x 1.0
+000025a4                y 0.0
+000025a8                z 0.0
+000025b0            up::Vec3
+000025b0                x 0.0
+000025b4                y 1.0
+000025b8                z 0.0
+000025c0            forward::Vec3
+000025c0                x 0.0
+000025c4                y 0.0
+000025c8                z 1.0
+000025d0            trans::Vec3
+000025d0                x 0.0
+000025d4                y 0.0
+000025d8                z 0.0
+000025e0        KeyframeTransform::LinearTransform
+000025e0            right::Vec3
+000025e0                x 1.0
+000025e4                y 0.0
+000025e8                z 0.0
+000025f0            up::Vec3
+000025f0                x 0.0
+000025f4                y 1.0
+000025f8                z 0.0
+00002600            forward::Vec3
+00002600                x 0.0
+00002604                y 0.0
+00002608                z 1.0
+00002610            trans::Vec3
+00002610                x 0.0
+00002614                y 0.0
+00002618                z 0.0
+00002620        RigidBodyType RBTypeCollision
+00002624        Mass 275.0
+00002628        Material::MaterialDecl
+00002628            Packed 491520
+0000262c        DynamicFriction -1.0
+00002630        StaticFriction -1.0
+00002634        Restitution -1.0
+00002638        AngularVelocityDamping -1.0
+0000263c        LinearVelocityDamping -1.0
+00002640        MotionType RigidBodyMotionType_Dynamic
+00002644        QualityType RigidBodyQualityType_Debris
+00002648        SystemGroup 0
+0000264c        SubSystemId 0
+00002650        SubSystemIdNoCollide 0
+00002654        PartIndices::array
+00002c6c            member(0) 4
+00002658        FloatPhysics *nullGuid*
+0000265c        ComputeCenterOfMass True
+0000265d        IsRootController True
+00002660    RigidBodyData 00000005
+00002660        $::PhysicsBodyData
+00002660            $::EntityData
+00002660                $::GameObjectData
+00002660                    $::DataBusPeer
+00002660                        $::GameDataContainer
+00002660                            $::DataContainer
+00002668                        Flags 0
+0000266c            Realm Realm_Client
+00002670            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002674            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002678            AssetIndex 0
+00002679            TransformIndex 0
+0000267a            WorldIndex 1
+0000267b            CollisionRootShapeIndex 5
+0000267c            RaycastRootShapeIndex 0
+0000267d            AddToSpatialQueryManager False
+00002680        CenterOfMass::Vec3
+00002680            x 0.0
+00002684            y 0.0
+00002688            z 0.0
+00002690        InertiaModifier::Vec3
+00002690            x 1.0
+00002694            y 1.0
+00002698            z 1.0
+000026a0        Transform::LinearTransform
+000026a0            right::Vec3
+000026a0                x 1.0
+000026a4                y 0.0
+000026a8                z 0.0
+000026b0            up::Vec3
+000026b0                x 0.0
+000026b4                y 1.0
+000026b8                z 0.0
+000026c0            forward::Vec3
+000026c0                x 0.0
+000026c4                y 0.0
+000026c8                z 1.0
+000026d0            trans::Vec3
+000026d0                x 0.0
+000026d4                y 0.0
+000026d8                z 0.0
+000026e0        KeyframeTransform::LinearTransform
+000026e0            right::Vec3
+000026e0                x 1.0
+000026e4                y 0.0
+000026e8                z 0.0
+000026f0            up::Vec3
+000026f0                x 0.0
+000026f4                y 1.0
+000026f8                z 0.0
+00002700            forward::Vec3
+00002700                x 0.0
+00002704                y 0.0
+00002708                z 1.0
+00002710            trans::Vec3
+00002710                x 0.0
+00002714                y 0.0
+00002718                z 0.0
+00002720        RigidBodyType RBTypeCollision
+00002724        Mass 275.0
+00002728        Material::MaterialDecl
+00002728            Packed 491520
+0000272c        DynamicFriction -1.0
+00002730        StaticFriction -1.0
+00002734        Restitution -1.0
+00002738        AngularVelocityDamping -1.0
+0000273c        LinearVelocityDamping -1.0
+00002740        MotionType RigidBodyMotionType_Dynamic
+00002744        QualityType RigidBodyQualityType_Debris
+00002748        SystemGroup 0
+0000274c        SubSystemId 0
+00002750        SubSystemIdNoCollide 0
+00002754        PartIndices::array
+00002c74            member(0) 5
+00002758        FloatPhysics *nullGuid*
+0000275c        ComputeCenterOfMass True
+0000275d        IsRootController True
+00002760    RigidBodyData 00000006
+00002760        $::PhysicsBodyData
+00002760            $::EntityData
+00002760                $::GameObjectData
+00002760                    $::DataBusPeer
+00002760                        $::GameDataContainer
+00002760                            $::DataContainer
+00002768                        Flags 0
+0000276c            Realm Realm_Client
+00002770            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002774            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002778            AssetIndex 0
+00002779            TransformIndex 0
+0000277a            WorldIndex 1
+0000277b            CollisionRootShapeIndex 6
+0000277c            RaycastRootShapeIndex 0
+0000277d            AddToSpatialQueryManager False
+00002780        CenterOfMass::Vec3
+00002780            x 0.0
+00002784            y 0.0
+00002788            z 0.0
+00002790        InertiaModifier::Vec3
+00002790            x 1.0
+00002794            y 1.0
+00002798            z 1.0
+000027a0        Transform::LinearTransform
+000027a0            right::Vec3
+000027a0                x 1.0
+000027a4                y 0.0
+000027a8                z 0.0
+000027b0            up::Vec3
+000027b0                x 0.0
+000027b4                y 1.0
+000027b8                z 0.0
+000027c0            forward::Vec3
+000027c0                x 0.0
+000027c4                y 0.0
+000027c8                z 1.0
+000027d0            trans::Vec3
+000027d0                x 0.0
+000027d4                y 0.0
+000027d8                z 0.0
+000027e0        KeyframeTransform::LinearTransform
+000027e0            right::Vec3
+000027e0                x 1.0
+000027e4                y 0.0
+000027e8                z 0.0
+000027f0            up::Vec3
+000027f0                x 0.0
+000027f4                y 1.0
+000027f8                z 0.0
+00002800            forward::Vec3
+00002800                x 0.0
+00002804                y 0.0
+00002808                z 1.0
+00002810            trans::Vec3
+00002810                x 0.0
+00002814                y 0.0
+00002818                z 0.0
+00002820        RigidBodyType RBTypeCollision
+00002824        Mass 275.0
+00002828        Material::MaterialDecl
+00002828            Packed 491520
+0000282c        DynamicFriction -1.0
+00002830        StaticFriction -1.0
+00002834        Restitution -1.0
+00002838        AngularVelocityDamping -1.0
+0000283c        LinearVelocityDamping -1.0
+00002840        MotionType RigidBodyMotionType_Dynamic
+00002844        QualityType RigidBodyQualityType_Debris
+00002848        SystemGroup 0
+0000284c        SubSystemId 0
+00002850        SubSystemIdNoCollide 0
+00002854        PartIndices::array
+00002c7c            member(0) 6
+00002858        FloatPhysics *nullGuid*
+0000285c        ComputeCenterOfMass True
+0000285d        IsRootController True
+00002860    RigidBodyData 00000007
+00002860        $::PhysicsBodyData
+00002860            $::EntityData
+00002860                $::GameObjectData
+00002860                    $::DataBusPeer
+00002860                        $::GameDataContainer
+00002860                            $::DataContainer
+00002868                        Flags 0
+0000286c            Realm Realm_Client
+00002870            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002874            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002878            AssetIndex 0
+00002879            TransformIndex 0
+0000287a            WorldIndex 1
+0000287b            CollisionRootShapeIndex 7
+0000287c            RaycastRootShapeIndex 0
+0000287d            AddToSpatialQueryManager False
+00002880        CenterOfMass::Vec3
+00002880            x 0.0
+00002884            y 0.0
+00002888            z 0.0
+00002890        InertiaModifier::Vec3
+00002890            x 1.0
+00002894            y 1.0
+00002898            z 1.0
+000028a0        Transform::LinearTransform
+000028a0            right::Vec3
+000028a0                x 1.0
+000028a4                y 0.0
+000028a8                z 0.0
+000028b0            up::Vec3
+000028b0                x 0.0
+000028b4                y 1.0
+000028b8                z 0.0
+000028c0            forward::Vec3
+000028c0                x 0.0
+000028c4                y 0.0
+000028c8                z 1.0
+000028d0            trans::Vec3
+000028d0                x 0.0
+000028d4                y 0.0
+000028d8                z 0.0
+000028e0        KeyframeTransform::LinearTransform
+000028e0            right::Vec3
+000028e0                x 1.0
+000028e4                y 0.0
+000028e8                z 0.0
+000028f0            up::Vec3
+000028f0                x 0.0
+000028f4                y 1.0
+000028f8                z 0.0
+00002900            forward::Vec3
+00002900                x 0.0
+00002904                y 0.0
+00002908                z 1.0
+00002910            trans::Vec3
+00002910                x 0.0
+00002914                y 0.0
+00002918                z 0.0
+00002920        RigidBodyType RBTypeCollision
+00002924        Mass 275.0
+00002928        Material::MaterialDecl
+00002928            Packed 491520
+0000292c        DynamicFriction -1.0
+00002930        StaticFriction -1.0
+00002934        Restitution -1.0
+00002938        AngularVelocityDamping -1.0
+0000293c        LinearVelocityDamping -1.0
+00002940        MotionType RigidBodyMotionType_Dynamic
+00002944        QualityType RigidBodyQualityType_Debris
+00002948        SystemGroup 0
+0000294c        SubSystemId 0
+00002950        SubSystemIdNoCollide 0
+00002954        PartIndices::array
+00002c84            member(0) 7
+00002958        FloatPhysics *nullGuid*
+0000295c        ComputeCenterOfMass True
+0000295d        IsRootController True
+00002960    RigidBodyData 00000008
+00002960        $::PhysicsBodyData
+00002960            $::EntityData
+00002960                $::GameObjectData
+00002960                    $::DataBusPeer
+00002960                        $::GameDataContainer
+00002960                            $::DataContainer
+00002968                        Flags 0
+0000296c            Realm Realm_Client
+00002970            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+00002974            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A_Physics_Win32/7400d3f98217317f738e42064e09755a
+00002978            AssetIndex 0
+00002979            TransformIndex 0
+0000297a            WorldIndex 1
+0000297b            CollisionRootShapeIndex 0
+0000297c            RaycastRootShapeIndex 0
+0000297d            AddToSpatialQueryManager False
+00002980        CenterOfMass::Vec3
+00002980            x 0.0
+00002984            y 0.0
+00002988            z 0.0
+00002990        InertiaModifier::Vec3
+00002990            x 1.0
+00002994            y 1.0
+00002998            z 1.0
+000029a0        Transform::LinearTransform
+000029a0            right::Vec3
+000029a0                x 1.0
+000029a4                y 0.0
+000029a8                z 0.0
+000029b0            up::Vec3
+000029b0                x 0.0
+000029b4                y 1.0
+000029b8                z 0.0
+000029c0            forward::Vec3
+000029c0                x 0.0
+000029c4                y 0.0
+000029c8                z 1.0
+000029d0            trans::Vec3
+000029d0                x 0.0
+000029d4                y 0.0
+000029d8                z 0.0
+000029e0        KeyframeTransform::LinearTransform
+000029e0            right::Vec3
+000029e0                x 1.0
+000029e4                y 0.0
+000029e8                z 0.0
+000029f0            up::Vec3
+000029f0                x 0.0
+000029f4                y 1.0
+000029f8                z 0.0
+00002a00            forward::Vec3
+00002a00                x 0.0
+00002a04                y 0.0
+00002a08                z 1.0
+00002a10            trans::Vec3
+00002a10                x 0.0
+00002a14                y 0.0
+00002a18                z 0.0
+00002a20        RigidBodyType RBTypeCollision
+00002a24        Mass 275.0
+00002a28        Material::MaterialDecl
+00002a28            Packed 491520
+00002a2c        DynamicFriction -1.0
+00002a30        StaticFriction -1.0
+00002a34        Restitution -1.0
+00002a38        AngularVelocityDamping 0.10000000149
+00002a3c        LinearVelocityDamping -1.0
+00002a40        MotionType RigidBodyMotionType_Dynamic
+00002a44        QualityType RigidBodyQualityType_Debris
+00002a48        SystemGroup 0
+00002a4c        SubSystemId 0
+00002a50        SubSystemIdNoCollide 0
+00002a54        PartIndices::array
+00002c8c            member(0) 0
+00002a58        FloatPhysics *nullGuid*
+00002a5c        ComputeCenterOfMass True
+00002a5d        IsRootController True

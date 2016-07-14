@@ -1,0 +1,109 @@
+00000b70    LogicPrefabBlueprint 618d4da1aafd753586e648f5d0e125df
+00000b68        $::PrefabBlueprint
+00000b68            $::Blueprint
+00000b68                $::EntityBusData
+00000b68                    $::DataBusData
+00000b68                        $::Asset
+00000b68                            $::DataContainer
+00000b70                            Name Gameplay/DVR/DVRMoments
+00000b74                        PropertyConnections::array
+00000c34                            member(0)::PropertyConnection
+00000c34                                Source 00000006
+00000c38                                Target 00000007
+00000c3c                                SourceFieldId -2050001613
+00000c40                                TargetFieldId -2050001613
+00000c44                                Flags 2
+00000c48                            member(1)::PropertyConnection
+00000c48                                Source 00000006
+00000c4c                                Target 00000007
+00000c50                                SourceFieldId 2066495085
+00000c54                                TargetFieldId 2066495085
+00000c58                                Flags 2
+00000c5c                            member(2)::PropertyConnection
+00000c5c                                Source 00000006
+00000c60                                Target 00000007
+00000c64                                SourceFieldId 1265865016
+00000c68                                TargetFieldId 1134474212
+00000c6c                                Flags 2
+00000b78                        LinkConnections *nullArray*
+00000b7c                        Interface *nullGuid*
+00000b80                        Flags 0
+00000b84                    EventConnections::array
+00000c74                        member(0)::EventConnection
+00000c74                            Source 00000006
+00000c78                            Target 00000007
+00000c7c                            SourceEvent::EventSpec
+00000c7c                                Id -492088627
+00000c80                            TargetEvent::EventSpec
+00000c80                                Id -1186591032
+00000c84                            TargetType EventConnectionTargetType_Client
+00000b88            Objects::array
+00000c8c                member(0) 00000006
+00000c90                member(1) 00000007
+00000b8c            TimeDeltaType TimeDeltaType_None
+00000b90    DVRMomentEvent 00000000
+00000b88        $::DataContainer
+00000b90        MomentType Moment_ScoringChain1000Plus
+00000b94        SecondsStartTime -15.0
+00000b98        SecondsDurationTime 15.0
+00000b9c        MomentId 5
+00000ba0        VariableTiming True
+00000ba4    DVRMomentEvent 00000001
+00000b9c        $::DataContainer
+00000ba4        MomentType Moment_VehicleHeadshot
+00000ba8        SecondsStartTime -15.0
+00000bac        SecondsDurationTime 30.0
+00000bb0        MomentId 6
+00000bb4        VariableTiming False
+00000bb8    DVRMomentEvent 00000002
+00000bb0        $::DataContainer
+00000bb8        MomentType Moment_DefibKill
+00000bbc        SecondsStartTime -15.0
+00000bc0        SecondsDurationTime 20.0
+00000bc4        MomentId 3
+00000bc8        VariableTiming False
+00000bcc    DVRMomentEvent 00000003
+00000bc4        $::DataContainer
+00000bcc        MomentType Moment_DogTagPayback
+00000bd0        SecondsStartTime -15.0
+00000bd4        SecondsDurationTime 20.0
+00000bd8        MomentId 2
+00000bdc        VariableTiming False
+00000be0    DVRMomentEvent 00000004
+00000bd8        $::DataContainer
+00000be0        MomentType Moment_Marksman500Plus
+00000be4        SecondsStartTime -15.0
+00000be8        SecondsDurationTime 30.0
+00000bec        MomentId 4
+00000bf0        VariableTiming False
+00000bf4    DVRMomentEvent 00000005
+00000bec        $::DataContainer
+00000bf4        MomentType Moment_RankUp
+00000bf8        SecondsStartTime -15.0
+00000bfc        SecondsDurationTime 20.0
+00000c00        MomentId 1
+00000c04        VariableTiming False
+00000c08    DVRMomentsEntityData 00000006
+00000c00        $::EntityData
+00000c00            $::GameObjectData
+00000c00                $::DataBusPeer
+00000c00                    $::GameDataContainer
+00000c00                        $::DataContainer
+00000c08                    Flags 32837222
+00000c0c        Moments::array
+00000c98            member(0) 00000005
+00000c9c            member(1) 00000003
+00000ca0            member(2) 00000002
+00000ca4            member(3) 00000004
+00000ca8            member(4) 00000000
+00000cac            member(5) 00000001
+00000c10    VideoRecorderEntityData 00000007
+00000c08        $::EntityData
+00000c08            $::GameObjectData
+00000c08                $::DataBusPeer
+00000c08                    $::GameDataContainer
+00000c08                        $::DataContainer
+00000c10                    Flags 187267506
+00000c14        FileName defaultDVRFileName
+00000c18        SecondsStartTime 0.0
+00000c1c        SecondsDurationTime 0.0

@@ -1,0 +1,151 @@
+00000de0    LogicPrefabBlueprint a2408c765b64013d61fee5b86a8e391d
+00000dd8        $::PrefabBlueprint
+00000dd8            $::Blueprint
+00000dd8                $::EntityBusData
+00000dd8                    $::DataBusData
+00000dd8                        $::Asset
+00000dd8                            $::DataContainer
+00000de0                            Name UI/Ingame/Hud/Logic/UISkipDeath
+00000de4                        PropertyConnections::array
+00000e54                            member(0)::PropertyConnection
+00000e54                                Source 00000003
+00000e58                                Target 00000001
+00000e5c                                SourceFieldId 208768368
+00000e60                                TargetFieldId 208768368
+00000e64                                Flags 2
+00000e68                            member(1)::PropertyConnection
+00000e68                                Source 00000000
+00000e6c                                Target 00000003
+00000e70                                SourceFieldId 225375086
+00000e74                                TargetFieldId -561051480
+00000e78                                Flags 18
+00000de8                        LinkConnections *nullArray*
+00000dec                        Interface 00000003
+00000df0                        Flags 14
+00000df4                    EventConnections::array
+00000e80                        member(0)::EventConnection
+00000e80                            Source 00000003
+00000e84                            Target 00000001
+00000e88                            SourceEvent::EventSpec
+00000e88                                Id -1952177180
+00000e8c                            TargetEvent::EventSpec
+00000e8c                                Id 5862146
+00000e90                            TargetType EventConnectionTargetType_Client
+00000e94                        member(1)::EventConnection
+00000e94                            Source 00000003
+00000e98                            Target 00000001
+00000e9c                            SourceEvent::EventSpec
+00000e9c                                Id -117303631
+00000ea0                            TargetEvent::EventSpec
+00000ea0                                Id 229946160
+00000ea4                            TargetType EventConnectionTargetType_Client
+00000ea8                        member(2)::EventConnection
+00000ea8                            Source 00000001
+00000eac                            Target 00000002
+00000eb0                            SourceEvent::EventSpec
+00000eb0                                Id 193453899
+00000eb4                            TargetEvent::EventSpec
+00000eb4                                Id 193450867
+00000eb8                            TargetType EventConnectionTargetType_Client
+00000ebc                        member(3)::EventConnection
+00000ebc                            Source 00000002
+00000ec0                            Target 00000003
+00000ec4                            SourceEvent::EventSpec
+00000ec4                                Id 193453899
+00000ec8                            TargetEvent::EventSpec
+00000ec8                                Id 2089423588
+00000ecc                            TargetType EventConnectionTargetType_Client
+00000ed0                        member(4)::EventConnection
+00000ed0                            Source 00000003
+00000ed4                            Target 00000002
+00000ed8                            SourceEvent::EventSpec
+00000ed8                                Id -1952177180
+00000edc                            TargetEvent::EventSpec
+00000edc                                Id 229946160
+00000ee0                            TargetType EventConnectionTargetType_Client
+00000ee4                        member(5)::EventConnection
+00000ee4                            Source 00000003
+00000ee8                            Target 00000002
+00000eec                            SourceEvent::EventSpec
+00000eec                                Id -1544091339
+00000ef0                            TargetEvent::EventSpec
+00000ef0                                Id 193450864
+00000ef4                            TargetType EventConnectionTargetType_Client
+00000ef8                        member(6)::EventConnection
+00000ef8                            Source 00000001
+00000efc                            Target 00000000
+00000f00                            SourceEvent::EventSpec
+00000f00                                Id 193453899
+00000f04                            TargetEvent::EventSpec
+00000f04                                Id -1541066415
+00000f08                            TargetType EventConnectionTargetType_Client
+00000f0c                        member(7)::EventConnection
+00000f0c                            Source 00000003
+00000f10                            Target 00000000
+00000f14                            SourceEvent::EventSpec
+00000f14                                Id -117303631
+00000f18                            TargetEvent::EventSpec
+00000f18                                Id 668205626
+00000f1c                            TargetType EventConnectionTargetType_Client
+00000df8            Objects::array
+00000f24                member(0) 00000001
+00000f28                member(1) 00000002
+00000f2c                member(2) 00000000
+00000dfc            TimeDeltaType TimeDeltaType_None
+00000e00    BoolEntityData 00000000
+00000df8        $::EntityData
+00000df8            $::GameObjectData
+00000df8                $::DataBusPeer
+00000df8                    $::GameDataContainer
+00000df8                        $::DataContainer
+00000e00                    Flags 35683784
+00000e04        Realm Realm_Client
+00000e08        DefaultValue False
+00000e0c    DelayEntityData 00000001
+00000e04        $::EntityData
+00000e04            $::GameObjectData
+00000e04                $::DataBusPeer
+00000e04                    $::GameDataContainer
+00000e04                        $::DataContainer
+00000e0c                    Flags 189217586
+00000e10        Delay 2.0
+00000e14        Realm Realm_Client
+00000e18        TimeDeltaType TimeDeltaType_World
+00000e1c        AutoStart False
+00000e1d        RunOnce False
+00000e1e        RemoveDuplicateEvents True
+00000e20    EventAndGateEntityData 00000002
+00000e18        $::EntityData
+00000e18            $::GameObjectData
+00000e18                $::DataBusPeer
+00000e18                    $::GameDataContainer
+00000e18                        $::DataContainer
+00000e20                    Flags 47531326
+00000e24        Realm Realm_Client
+00000e28        EventCount 2
+00000e2c    InterfaceDescriptorData 00000003
+00000e24        $::DynamicDataContainer
+00000e24            $::DataContainer
+00000e2c            Fields::array
+00000f34                member(0)::DataField
+00000f34                    Value Float32 2
+00000f38                    ValueRef *nullGuid*
+00000f3c                    Id 208768368
+00000f40                    AccessType FieldAccessType_Target
+00000f44                member(1)::DataField
+00000f44                    Value *nullString*
+00000f48                    ValueRef *nullGuid*
+00000f4c                    Id -561051480
+00000f50                    AccessType FieldAccessType_Source
+00000e30        InputEvents::array
+00000f58            member(0)::DynamicEvent
+00000f58                Id -1952177180
+00000f5c            member(1)::DynamicEvent
+00000f5c                Id -117303631
+00000f60            member(2)::DynamicEvent
+00000f60                Id -1544091339
+00000e34        OutputEvents::array
+00000f68            member(0)::DynamicEvent
+00000f68                Id 2089423588
+00000e38        InputLinks *nullArray*
+00000e3c        OutputLinks *nullArray*

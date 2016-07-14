@@ -1,0 +1,103 @@
+00000fd0    AIWeaponData c71b37638ed8094db40502ddce57cc4a
+00000fc8        $::GameAIWeaponData
+00000fc8            $::Asset
+00000fc8                $::DataContainer
+00000fd0                Name AI/Weapons/LMG
+00000fd4        FiringWeaponClass WeaponClass_MachineGun
+00000fd8        VoPrimaryFireType VoPrimaryFireType_MachineGun
+00000fdc        WeaponRange 1000.0
+00000fe0        MinimumUsageDistance -1.0
+00000fe4        MaximumUsageDistance -1.0
+00000fe8        VehicleMaxTargetLOSLost -1.0
+00000fec        MinEnterVehicleDistance -1.0
+00000ff0        ExitVehicleDisableTime -1.0
+00000ff4        EvasionVolume *nullGuid*
+00000ff8        PreferredRange da828181db17474a82ab6d60b537cfdf
+00000ffc        IndoorPreferredRange 3c153cfd4e054549a750b9fae89bc3c5
+00001000        OutdoorPreferredRange df11b6ecb2b5fa4295065349da62a7aa
+00001004        FiringIntervalPattern *nullGuid*
+00001008        SustainFiringData *nullGuid*
+0000100c        BurstIntervalPattern *nullGuid*
+00001010        CreepingAirBarrage *nullGuid*
+00001014        SprayPattern *nullGuid*
+00001018        AccuracyHitBox 9523f14501fada4b8c2d2c9bb3e67401
+0000101c        VehicleAimerSettings *nullGuid*
+00001020        VisionModifier 89e85c08c879174b9b586dda62d7c624
+00001024        HearingModifier *nullGuid*
+00001028        TargetModifier *nullGuid*
+0000102c        TargetingSettingsOverride *nullGuid*
+00001030        VehicleInaccuracySettings *nullGuid*
+00001034        SuppressedBehavior *nullGuid*
+00001038        DamageModifier *nullGuid*
+0000103c        DamageModifierExtended 09d58cacea41fe408c3f2d76d82048ec
+00001040        FriendlyWeaponRestrictions *nullGuid*
+00001044        SpecialBehavior *nullGuid*
+00001048        HumanTargetHitProbability *nullGuid*
+0000104c        DistanceToAwareCurveOverride *nullGuid*
+00001050        ValidAgainst ValidAgainst_All
+00001054        TargetPreference TargetPreference_Soldiers
+00001058        WeaponThreatScale 1.0
+0000105c        ValidWeaponScale 1.0
+00001060        InValidWeaponScale 1.0
+00001064        UseTargetExtrapolation True
+00001065        CausesEvasionOnFire False
+00001066        UseShootspaceForVision False
+00001078    DamageModifierExtended 09d58cacea41fe408c3f2d76d82048ec
+00001070        $::DataContainer
+00001078        Damage::PiecewiseLinearCurve
+00001078            Points::array
+00001164                member(0)::CurvePoint
+00001164                    X 5.0
+00001168                    Y 50.0
+0000116c                member(1)::CurvePoint
+0000116c                    X 100.0
+00001170                    Y 25.0
+00001174                member(2)::CurvePoint
+00001174                    X 1000.0
+00001178                    Y 12.5
+0000107c            InterpolateCurve False
+00001090    PreferredRange 3c153cfd4e054549a750b9fae89bc3c5
+00001088        $::DataContainer
+00001090        Start 0.0
+00001094        Ideal 0.5
+00001098        End 80.0
+000010ac    VisionModifier 89e85c08c879174b9b586dda62d7c624
+000010a4        $::DataContainer
+000010ac        SensingConeRange 30.0
+000010b0        SensingConeRangeWhenAlerted 150.0
+000010b4        SensingConeAngle 30.0
+000010b8        SensingConeAngleWhenAlerted 90.0
+000010bc        SensingConeAngleAbove 25.0
+000010c0        SensingConeAngleBelow 55.0
+000010c4        SensingStaticTargetObjectDistance 25.0
+000010c8        SensingMovingTargetObjectDistance 32.0
+000010cc        FlashlightModifier *nullGuid*
+000010d0        AlwaysSeeHuman False
+000010e4    AccuracyHitBox 9523f14501fada4b8c2d2c9bb3e67401
+000010dc        $::DataContainer
+000010e4        AimBoxDistMin 20.0
+000010e8        AimBoxDistMax 40.0
+000010ec        AimBoxDistFarStart 0.0
+000010f0        AimBoxDistFarEnd 0.0
+000010f4        AimBoxWidthMinDistMin 1.0
+000010f8        AimBoxWidthMaxDistMin 2.0
+000010fc        AimBoxHeightMinDistMin 2.0
+00001100        AimBoxHeightMaxDistMin 2.5
+00001104        AimBoxWidthMinDistMax 2.0
+00001108        AimBoxWidthMaxDistMax 4.0
+0000110c        AimBoxHeightMinDistMax 2.0
+00001110        AimBoxHeightMaxDistMax 3.0
+00001114        AimBoxWidthMinDistFar 4.0
+00001118        AimBoxWidthMaxDistFar 8.0
+0000111c        AimBoxHeightMinDistFar 2.0
+00001120        AimBoxHeightMaxDistFar 4.0
+00001134    PreferredRange da828181db17474a82ab6d60b537cfdf
+0000112c        $::DataContainer
+00001134        Start 0.0
+00001138        Ideal 0.5
+0000113c        End 80.0
+00001150    PreferredRange df11b6ecb2b5fa4295065349da62a7aa
+00001148        $::DataContainer
+00001150        Start 0.0
+00001154        Ideal 0.5
+00001158        End 80.0

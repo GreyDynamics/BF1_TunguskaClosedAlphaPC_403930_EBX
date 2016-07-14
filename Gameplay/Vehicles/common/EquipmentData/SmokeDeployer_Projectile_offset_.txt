@@ -1,0 +1,330 @@
+00002240    ProjectileBlueprint b4e4012425f2914fa9e3ae7c8b79067a
+00002238        $::ObjectBlueprint
+00002238            $::Blueprint
+00002238                $::EntityBusData
+00002238                    $::DataBusData
+00002238                        $::Asset
+00002238                            $::DataContainer
+00002240                            Name Gameplay/Vehicles/common/EquipmentData/SmokeDeployer_Projectile
+00002244                        PropertyConnections *nullArray*
+00002248                        LinkConnections *nullArray*
+0000224c                        Interface *nullGuid*
+00002250                        Flags 1
+00002254                    EventConnections::array
+00002664                        member(0)::EventConnection
+00002664                            Source 21b944f3f3304c48964722ea506d4fe2
+00002668                            Target 00000001
+0000266c                            SourceEvent::EventSpec
+0000266c                                Id 95128145
+00002670                            TargetEvent::EventSpec
+00002670                                Id 2002525581
+00002674                            TargetType EventConnectionTargetType_ClientAndServer
+00002678                        member(1)::EventConnection
+00002678                            Source 21b944f3f3304c48964722ea506d4fe2
+0000267c                            Target 00000000
+00002680                            SourceEvent::EventSpec
+00002680                                Id 95128145
+00002684                            TargetEvent::EventSpec
+00002684                                Id 2002525581
+00002688                            TargetType EventConnectionTargetType_Client
+00002258            Object 21b944f3f3304c48964722ea506d4fe2
+0000225c        TimeDeltaType TimeDeltaType_None
+00002270    GrenadeEntityData 21b944f3f3304c48964722ea506d4fe2
+00002270        $::GhostedProjectileEntityData
+00002270            $::MeshProjectileEntityData
+00002270                $::ProjectileEntityData
+00002270                    $::GamePhysicsEntityData
+00002270                        $::GameComponentEntityData
+00002270                            $::ComponentEntityData
+00002270                                $::SpatialEntityData
+00002270                                    $::EntityData
+00002270                                        $::GameObjectData
+00002270                                            $::DataBusPeer
+00002270                                                $::GameDataContainer
+00002270                                                    $::DataContainer
+00002278                                                Flags 524597537
+00002280                                    Transform::LinearTransform
+00002280                                        right::Vec3
+00002280                                            x 1.0
+00002284                                            y 0.0
+00002288                                            z 0.0
+00002290                                        up::Vec3
+00002290                                            x 0.0
+00002294                                            y 1.0
+00002298                                            z 0.0
+000022a0                                        forward::Vec3
+000022a0                                            x 0.0
+000022a4                                            y 0.0
+000022a8                                            z 1.0
+000022b0                                        trans::Vec3
+000022b0                                            x 0.0
+000022b4                                            y 0.0
+000022b8                                            z 0.0
+000022c0                                Components::array
+00002690                                    member(0) 00000003
+000022c4                                ClientRuntimeComponentCount 3
+000022c5                                ServerRuntimeComponentCount 2
+000022c6                                ClientRuntimeTransformationCount 1
+000022c7                                ServerRuntimeTransformationCount 1
+000022d0                            Enabled True
+000022d1                            EnableOutOfBoundsCheck False
+000022e0                        PhysicsData *nullGuid*
+000022f0                    InitialSpeed 350.0
+000022f4                    TimeToLive 0.25
+000022f8                    MaxCount 0
+000022fc                    InitMeshHideTime 0.0
+00002300                    VisualConvergeDistance 3.0
+00002304                    VisualConvergenceDelay 0.0
+00002308                    VisualConvergenceDuration 0.15000000596
+0000230c                    ProxyVisualConvergenceDelay -1.0
+00002310                    ProxyVisualConvergenceDuration 1.20000004768
+00002314                    Explosion 00000004
+00002318                    SuppressionData *nullGuid*
+0000231c                    AmmunitionType Smoke
+00002320                    MaterialPair::MaterialDecl
+00002320                        Packed 1409318912
+00002324                    HitReactionWeaponType AntHitReactionWeaponType_Flashbang
+00002328                    VoiceOverInfo *nullGuid*
+0000232c                    DetonateOnTimeout True
+0000232d                    ServerProjectileDisabled False
+0000232e                    HideOnDetonation True
+00002330                InitialAngularVelocity::Vec3
+00002330                    x 0.0
+00002334                    y 0.0
+00002338                    z 0.0
+00002340                Mesh gameplay/vehicles/common/equipmentdata/smokedeployer_projectile_Mesh/5781af578ec6384e9989d883f1cad957
+00002344                TrailEffect *nullGuid*
+00002348                TrailEffect1p *nullGuid*
+0000234c                InstantAttachableTestDistance 3.0
+00002350                InstantAttachableVisualConvergenceDelay -1.0
+00002354                InstantAttachableVisualConvergenceDuration -1.0
+00002358                MaxAttachableInclination 45.0
+0000235c                UnspawnAfterDetonationDelay 0.0
+00002360                IsAttachable False
+00002361                InstantAttachableTestUnderReticule True
+00002362                ExtraDamping False
+00002370            ProxyConvergenceDelay 0.0
+00002374            ProxyConvergenceDuration 3.59999990463
+00002378            ProxyConvergenceInstantOnAttach True
+00002379            ForceProxyConvergence True
+0000237a            ConvergenceUsingInitialSpeed False
+00002380        Gravity -9.80000019073
+00002384        CollisionSpeedMultiplier 0.300000011921
+00002388        MinBounceSpeed 2.0
+0000238c        CollisionDamage 0.0
+00002390        GrenadeType GrenadeType_Smoke
+00002394        HudIndicatorIcon grenade2
+00002398        MaterialPairOverride::MaterialDecl
+00002398            Packed 32768
+0000239c        ShowHudIndicator False
+0000239d        UseMaterialOverride False
+000023a0    BlockAimAssistComponentData 00000000
+000023a0        $::GameComponentData
+000023a0            $::ComponentData
+000023a0                $::GameObjectData
+000023a0                    $::DataBusPeer
+000023a0                        $::GameDataContainer
+000023a0                            $::DataContainer
+000023a8                        Flags 66239792
+000023ac                Components *nullArray*
+000023b0                Transform::LinearTransform
+000023b0                    right::Vec3
+000023b0                        x 1.0
+000023b4                        y 0.0
+000023b8                        z 0.0
+000023c0                    up::Vec3
+000023c0                        x 0.0
+000023c4                        y 1.0
+000023c8                        z 0.0
+000023d0                    forward::Vec3
+000023d0                        x 0.0
+000023d4                        y 0.0
+000023d8                        z 1.0
+000023e0                    trans::Vec3
+000023e0                        x 0.0
+000023e4                        y 0.0
+000023e8                        z 0.0
+000023f0                Excluded False
+00002400        BlockData::BlockAimAssistData
+00002400            BlockingRadius 5.0
+00002404            LifeTime 16.0
+00002410    BlockSpottingComponentData 00000001
+00002410        $::GameComponentData
+00002410            $::ComponentData
+00002410                $::GameObjectData
+00002410                    $::DataBusPeer
+00002410                        $::GameDataContainer
+00002410                            $::DataContainer
+00002418                        Flags 106735668
+0000241c                Components *nullArray*
+00002420                Transform::LinearTransform
+00002420                    right::Vec3
+00002420                        x 1.0
+00002424                        y 0.0
+00002428                        z 0.0
+00002430                    up::Vec3
+00002430                        x 0.0
+00002434                        y 1.0
+00002438                        z 0.0
+00002440                    forward::Vec3
+00002440                        x 0.0
+00002444                        y 0.0
+00002448                        z 1.0
+00002450                    trans::Vec3
+00002450                        x 0.0
+00002454                        y 0.0
+00002458                        z 0.0
+00002460                Excluded False
+00002470        BlockSpottingEntity 00000002
+00002480    BlockSpottingEntityData 00000002
+00002480        $::SpatialEntityData
+00002480            $::EntityData
+00002480                $::GameObjectData
+00002480                    $::DataBusPeer
+00002480                        $::GameDataContainer
+00002480                            $::DataContainer
+00002488                        Flags 0
+00002490            Transform::LinearTransform
+00002490                right::Vec3
+00002490                    x 1.0
+00002494                    y 0.0
+00002498                    z 0.0
+000024a0                up::Vec3
+000024a0                    x 0.0
+000024a4                    y 1.0
+000024a8                    z 0.0
+000024b0                forward::Vec3
+000024b0                    x 0.0
+000024b4                    y 0.0
+000024b8                    z 1.0
+000024c0                trans::Vec3
+000024c0                    x 0.0
+000024c4                    y 0.0
+000024c8                    z 0.0
+000024d0        BlockingRadius 5.0
+000024d4        LifeTime 16.0
+000024d8        InitialDelay 0.20000000298
+000024dc        UnspotTime 0.0
+000024e0        UnspotControllables True
+000024f0    PartComponentData 00000003
+000024f0        $::GameComponentData
+000024f0            $::ComponentData
+000024f0                $::GameObjectData
+000024f0                    $::DataBusPeer
+000024f0                        $::GameDataContainer
+000024f0                            $::DataContainer
+000024f8                        Flags 29084316
+000024fc                Components::array
+00002698                    member(0) 00000001
+0000269c                    member(1) 00000000
+00002500                Transform::LinearTransform
+00002500                    right::Vec3
+00002500                        x 1.0
+00002504                        y 0.0
+00002508                        z 0.0
+00002510                    up::Vec3
+00002510                        x 0.0
+00002514                        y 1.0
+00002518                        z 0.0
+00002520                    forward::Vec3
+00002520                        x 0.0
+00002524                        y 0.0
+00002528                        z 1.0
+00002530                    trans::Vec3
+00002530                        x 0.0
+00002534                        y 0.0
+00002538                        z 0.0
+00002540                Excluded False
+00002550        HealthStates::array
+000026a4            member(0) 00000005
+00002554        PartLinks *nullArray*
+00002558        IsSupported False
+00002559        IsFragile False
+0000255a        AffectsBoundingBox True
+0000255b        IsNetworkable True
+0000255c        IsWindow False
+0000255d        AnimatePhysics False
+00002560    VeniceExplosionEntityData 00000004
+00002560        $::ExplosionEntityData
+00002560            $::SpatialEntityData
+00002560                $::EntityData
+00002560                    $::GameObjectData
+00002560                        $::DataBusPeer
+00002560                            $::GameDataContainer
+00002560                                $::DataContainer
+00002568                            Flags 0
+00002570                Transform::LinearTransform
+00002570                    right::Vec3
+00002570                        x 1.0
+00002574                        y 0.0
+00002578                        z 0.0
+00002580                    up::Vec3
+00002580                        x 0.0
+00002584                        y 1.0
+00002588                        z 0.0
+00002590                    forward::Vec3
+00002590                        x 0.0
+00002594                        y 0.0
+00002598                        z 1.0
+000025a0                    trans::Vec3
+000025a0                        x 0.0
+000025a4                        y 0.0
+000025a8                        z 0.0
+000025b0            DetonationEffect FX/Weapons/Grenades/FX_Grenade_Smoke/d02360fdc30f74458317776033294511
+000025b4            DetonationEffectForFriendlies *nullGuid*
+000025b8            MaskVolume *nullGuid*
+000025bc            DestructionMaskVolume *nullGuid*
+000025c0            MaterialPair::MaterialDecl
+000025c0                Packed 32768
+000025c4            SecondaryMaterialPair::MaterialDecl
+000025c4                Packed 32768
+000025c8            ShockwaveWindForce *nullGuid*
+000025cc            DamageIndicationType DamageIndicationType_ExplosionCenter
+000025d0            EmpTime 0.0
+000025d4            MaxOcclusionRaycastRadius 0.0
+000025d8            InnerBlastRadius 0.10000000149
+000025dc            BlastDamage 0.0
+000025e0            BlastRadius 0.20000000298
+000025e4            BlastImpulse 0.0
+000025e8            ShockwaveDamage 0.0
+000025ec            ShockwaveRadius 5.0
+000025f0            ShockwaveImpulse 0.0
+000025f4            ShockwaveTime 0.25
+000025f8            CameraShockwaveRadius 0.0
+000025fc            SpawnDelay 0.0
+00002600            NoFriendliesEffectOnEnabledFriendlyFire True
+00002601            UseEntityTransformForDetonationEffect False
+00002602            SecondaryMaterialsActive False
+00002603            HasStunEffect False
+00002604            AllowDamageToOwner True
+00002605            ApplyBlastDamageToVehiclesAndCharactersInstantly True
+00002606            ForceServersideAiDamage False
+00002607            DisableOcclusion True
+00002608            DisableStaticEntityOcclusion True
+00002609            DisableOcclusionOutsideBlastRadius True
+0000260a            TriggerImpairedHearing False
+0000260b            Enabled True
+00002610        UnspottableTime 2.0
+00002614        IsCausingSuppression False
+00002615        UnspotsOnExplode True
+00002616        SpotsOnExplode False
+00002620    HealthStateData 00000005
+00002618        $::DataContainer
+00002620        Objects *nullArray*
+00002624        LoosePartPhysics *nullArray*
+00002628        SpawnedBangerBlueprint *nullGuid*
+0000262c        SpawnedBangerImpulseParams *nullGuid*
+00002630        Health 0.0
+00002634        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00002634            DebrisCullDistance 30.0
+00002638            DebrisCullDistanceOutsideView 5.0
+0000263c            SoundCullDistance 0.0
+00002640            SoundCullDistanceOutsideView 0.0
+00002644            EffectCullDistance 0.0
+00002648            EffectCullDistanceOutsideView 0.0
+0000264c        PartIndex 0
+00002650        BangerInheritsObjectVariation False
+00002651        SpawnedObjectsInheritObjectVariation False
+00002652        CopyDamageToBanger True
+00002653        PhysicsEnabled True
+00002654        CanSupportOtherParts False

@@ -1,0 +1,246 @@
+000010c0    LogicPrefabBlueprint 8df9ae9f678a1ca1f9f4e7aee4db59cb
+000010b8        $::PrefabBlueprint
+000010b8            $::Blueprint
+000010b8                $::EntityBusData
+000010b8                    $::DataBusData
+000010b8                        $::Asset
+000010b8                            $::DataContainer
+000010c0                            Name Gameplay/Vehicles/Prefabs/VehicleHorn
+000010c4                        PropertyConnections::array
+000011d4                            member(0)::PropertyConnection
+000011d4                                Source 00000002
+000011d8                                Target 00000007
+000011dc                                SourceFieldId 225375086
+000011e0                                TargetFieldId -1171175106
+000011e4                                Flags 3
+000011e8                            member(1)::PropertyConnection
+000011e8                                Source 00000007
+000011ec                                Target cdaa341dbeece14d815def5669922060
+000011f0                                SourceFieldId -492348331
+000011f4                                TargetFieldId 5862146
+000011f8                                Flags 3
+000011fc                            member(2)::PropertyConnection
+000011fc                                Source cdaa341dbeece14d815def5669922060
+00001200                                Target 00000001
+00001204                                SourceFieldId 193453899
+00001208                                TargetFieldId 193450866
+0000120c                                Flags 2
+00001210                            member(3)::PropertyConnection
+00001210                                Source 00000003
+00001214                                Target 00000008
+00001218                                SourceFieldId 225375086
+0000121c                                TargetFieldId -1171175106
+00001220                                Flags 2
+00001224                            member(4)::PropertyConnection
+00001224                                Source 00000008
+00001228                                Target 00000001
+0000122c                                SourceFieldId -492348331
+00001230                                TargetFieldId 193450867
+00001234                                Flags 2
+00001238                            member(5)::PropertyConnection
+00001238                                Source 00000001
+0000123c                                Target 00000004
+00001240                                SourceFieldId 193453899
+00001244                                TargetFieldId 1939631184
+00001248                                Flags 18
+0000124c                            member(6)::PropertyConnection
+0000124c                                Source 00000006
+00001250                                Target 00000001
+00001254                                SourceFieldId 245372264
+00001258                                TargetFieldId 858290427
+0000125c                                Flags 2
+00001260                            member(7)::PropertyConnection
+00001260                                Source 00000000
+00001264                                Target 00000006
+00001268                                SourceFieldId 225375086
+0000126c                                TargetFieldId 176040160
+00001270                                Flags 2
+00001274                            member(8)::PropertyConnection
+00001274                                Source 00000000
+00001278                                Target 00000003
+0000127c                                SourceFieldId 225375086
+00001280                                TargetFieldId 2662400
+00001284                                Flags 2
+000010c8                        LinkConnections::array
+0000128c                            member(0)::LinkConnection
+0000128c                                Source 00000002
+00001290                                Target 00000004
+00001294                                SourceFieldId -1359990792
+00001298                                TargetFieldId 75973246
+0000129c                            member(1)::LinkConnection
+0000129c                                Source 00000003
+000012a0                                Target 00000004
+000012a4                                SourceFieldId -1359990792
+000012a8                                TargetFieldId 75973246
+000010cc                        Interface 00000004
+000010d0                        Flags 2
+000010d4                    EventConnections::array
+000012b0                        member(0)::EventConnection
+000012b0                            Source 00000004
+000012b4                            Target 00000005
+000012b8                            SourceEvent::EventSpec
+000012b8                                Id 1577401599
+000012bc                            TargetEvent::EventSpec
+000012bc                                Id 5862146
+000012c0                            TargetType EventConnectionTargetType_Client
+000012c4                        member(1)::EventConnection
+000012c4                            Source 00000005
+000012c8                            Target 00000000
+000012cc                            SourceEvent::EventSpec
+000012cc                                Id 193453899
+000012d0                            TargetEvent::EventSpec
+000012d0                                Id -1541066415
+000012d4                            TargetType EventConnectionTargetType_Client
+000012d8                        member(2)::EventConnection
+000012d8                            Source 00000004
+000012dc                            Target 00000000
+000012e0                            SourceEvent::EventSpec
+000012e0                                Id 47785047
+000012e4                            TargetEvent::EventSpec
+000012e4                                Id 668205626
+000012e8                            TargetType EventConnectionTargetType_Client
+000010d8            Objects::array
+000012f0                member(0) 00000006
+000012f4                member(1) 00000003
+000012f8                member(2) 00000002
+000012fc                member(3) 00000007
+00001300                member(4) cdaa341dbeece14d815def5669922060
+00001304                member(5) 00000001
+00001308                member(6) 00000008
+0000130c                member(7) 00000005
+00001310                member(8) 00000000
+000010dc            TimeDeltaType TimeDeltaType_None
+000010f0    SyncedBoolEntityData cdaa341dbeece14d815def5669922060
+000010e8        $::EntityData
+000010e8            $::GameObjectData
+000010e8                $::DataBusPeer
+000010e8                    $::GameDataContainer
+000010e8                        $::DataContainer
+000010f0                    Flags 288664269
+000010f4    BoolEntityData 00000000
+000010ec        $::EntityData
+000010ec            $::GameObjectData
+000010ec                $::DataBusPeer
+000010ec                    $::GameDataContainer
+000010ec                        $::DataContainer
+000010f4                    Flags 64329509
+000010f8        Realm Realm_Client
+000010fc        DefaultValue False
+00001100    BoolHubEntityData 00000001
+000010f8        $::EntityData
+000010f8            $::GameObjectData
+000010f8                $::DataBusPeer
+000010f8                    $::GameDataContainer
+000010f8                        $::DataContainer
+00001100                    Flags 134847950
+00001104        Realm Realm_Client
+00001108        InputCount 2
+0000110c        InputSelect 0
+00001110        HashedInput::array
+00001318            member(0) 193450866
+0000131c            member(1) 193450867
+00001320            member(2) 193450864
+00001114    InputQueryEntityData 00000002
+0000110c        $::GameplayQueryBaseEntityData
+0000110c            $::CustomSchedulableEntityData
+0000110c                $::EntityData
+0000110c                    $::GameObjectData
+0000110c                        $::DataBusPeer
+0000110c                            $::GameDataContainer
+0000110c                                $::DataContainer
+00001114                            Flags 1625212464
+00001118        Realm Realm_Server
+0000111c        Action 1018135856
+00001120        TimeSincePressedAdjustment 0.0
+00001124        MouseInputScale 1.0
+00001128        GamepadInputScale 1.0
+0000112c        AlwaysOutputValue False
+0000112d        Enabled True
+0000112e        UseEntityCorrectionInterface False
+00001130    InputQueryEntityData 00000003
+00001128        $::GameplayQueryBaseEntityData
+00001128            $::CustomSchedulableEntityData
+00001128                $::EntityData
+00001128                    $::GameObjectData
+00001128                        $::DataBusPeer
+00001128                            $::GameDataContainer
+00001128                                $::DataContainer
+00001130                            Flags 1763308367
+00001134        Realm Realm_Client
+00001138        Action 1018135856
+0000113c        TimeSincePressedAdjustment 0.0
+00001140        MouseInputScale 1.0
+00001144        GamepadInputScale 1.0
+00001148        AlwaysOutputValue False
+00001149        Enabled False
+0000114a        UseEntityCorrectionInterface False
+0000114c    InterfaceDescriptorData 00000004
+00001144        $::DynamicDataContainer
+00001144            $::DataContainer
+0000114c            Fields::array
+00001328                member(0)::DataField
+00001328                    Value *nullString*
+0000132c                    ValueRef *nullGuid*
+00001330                    Id 1939631184
+00001334                    AccessType FieldAccessType_Source
+00001150        InputEvents::array
+0000133c            member(0)::DynamicEvent
+0000133c                Id 1577401599
+00001340            member(1)::DynamicEvent
+00001340                Id 47785047
+00001154        OutputEvents *nullArray*
+00001158        InputLinks *nullArray*
+0000115c        OutputLinks::array
+00001348            member(0)::DynamicLink
+00001348                Id 75973246
+00001160    LocalPlayerFilterEntityData 00000005
+00001158        $::EntityData
+00001158            $::GameObjectData
+00001158                $::DataBusPeer
+00001158                    $::GameDataContainer
+00001158                        $::DataContainer
+00001160                    Flags 50628838
+00001164        Realm Realm_Client
+00001168        ForwardToLocalSpectators False
+0000116c    PropertyCastEntityData 00000006
+00001164        $::EntityData
+00001164            $::GameObjectData
+00001164                $::DataBusPeer
+00001164                    $::GameDataContainer
+00001164                        $::DataContainer
+0000116c                    Flags 138868755
+00001170        Realm Realm_Client
+00001174        Precision -5
+00001178        FloatValue 0.0
+0000117c        IntValue 0
+00001180        UintValue 0
+00001184        StringValue *nullString*
+00001188        BoolValue False
+0000118c    PropertyCastEntityData 00000007
+00001184        $::EntityData
+00001184            $::GameObjectData
+00001184                $::DataBusPeer
+00001184                    $::GameDataContainer
+00001184                        $::DataContainer
+0000118c                    Flags 286170980
+00001190        Realm Realm_Server
+00001194        Precision -5
+00001198        FloatValue 0.0
+0000119c        IntValue 0
+000011a0        UintValue 0
+000011a4        StringValue *nullString*
+000011a8        BoolValue False
+000011ac    PropertyCastEntityData 00000008
+000011a4        $::EntityData
+000011a4            $::GameObjectData
+000011a4                $::DataBusPeer
+000011a4                    $::GameDataContainer
+000011a4                        $::DataContainer
+000011ac                    Flags 151163526
+000011b0        Realm Realm_Client
+000011b4        Precision -5
+000011b8        FloatValue 0.0
+000011bc        IntValue 0
+000011c0        UintValue 0
+000011c4        StringValue *nullString*
+000011c8        BoolValue False

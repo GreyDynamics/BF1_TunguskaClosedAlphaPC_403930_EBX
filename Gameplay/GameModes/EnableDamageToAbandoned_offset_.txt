@@ -1,0 +1,111 @@
+00000da0    LogicPrefabBlueprint 482e67ec1ade2672b596762d413d5a66
+00000d98        $::PrefabBlueprint
+00000d98            $::Blueprint
+00000d98                $::EntityBusData
+00000d98                    $::DataBusData
+00000d98                        $::Asset
+00000d98                            $::DataContainer
+00000da0                            Name Gameplay/GameModes/EnableDamageToAbandoned
+00000da4                        PropertyConnections::array
+00000e14                            member(0)::PropertyConnection
+00000e14                                Source 00000002
+00000e18                                Target 00000000
+00000e1c                                SourceFieldId 2662400
+00000e20                                TargetFieldId 2088812747
+00000e24                                Flags 3
+00000e28                            member(1)::PropertyConnection
+00000e28                                Source aa7cabd309fe9b4eb2957b809ff3b904
+00000e2c                                Target 00000002
+00000e30                                SourceFieldId 193453899
+00000e34                                TargetFieldId -1541066415
+00000e38                                Flags 17
+00000e3c                            member(2)::PropertyConnection
+00000e3c                                Source 00000002
+00000e40                                Target aa7cabd309fe9b4eb2957b809ff3b904
+00000e44                                SourceFieldId -141474860
+00000e48                                TargetFieldId 5862146
+00000e4c                                Flags 3
+00000da8                        LinkConnections *nullArray*
+00000dac                        Interface 00000002
+00000db0                        Flags 14
+00000db4                    EventConnections::array
+00000e54                        member(0)::EventConnection
+00000e54                            Source 00000000
+00000e58                            Target 00000001
+00000e5c                            SourceEvent::EventSpec
+00000e5c                                Id -1433512622
+00000e60                            TargetEvent::EventSpec
+00000e60                                Id 2089008817
+00000e64                            TargetType EventConnectionTargetType_Server
+00000e68                        member(1)::EventConnection
+00000e68                            Source 00000000
+00000e6c                            Target 00000001
+00000e70                            SourceEvent::EventSpec
+00000e70                                Id -81881639
+00000e74                            TargetEvent::EventSpec
+00000e74                                Id 5862146
+00000e78                            TargetType EventConnectionTargetType_Server
+00000e7c                        member(2)::EventConnection
+00000e7c                            Source 00000001
+00000e80                            Target aa7cabd309fe9b4eb2957b809ff3b904
+00000e84                            SourceEvent::EventSpec
+00000e84                                Id 193453899
+00000e88                            TargetEvent::EventSpec
+00000e88                                Id -1541066415
+00000e8c                            TargetType EventConnectionTargetType_Server
+00000db8            Objects::array
+00000e94                member(0) 00000001
+00000e98                member(1) 00000000
+00000e9c                member(2) aa7cabd309fe9b4eb2957b809ff3b904
+00000dbc            TimeDeltaType TimeDeltaType_None
+00000dd0    SyncedBoolEntityData aa7cabd309fe9b4eb2957b809ff3b904
+00000dc8        $::EntityData
+00000dc8            $::GameObjectData
+00000dc8                $::DataBusPeer
+00000dc8                    $::GameDataContainer
+00000dc8                        $::DataContainer
+00000dd0                    Flags 363560106
+00000dd4    CompareBoolEntityData 00000000
+00000dcc        $::EntityData
+00000dcc            $::GameObjectData
+00000dcc                $::DataBusPeer
+00000dcc                    $::GameDataContainer
+00000dcc                        $::DataContainer
+00000dd4                    Flags 284124270
+00000dd8        Realm Realm_Server
+00000ddc        Bool False
+00000ddd        TriggerOnPropertyChange True
+00000dde        TriggerOnStart False
+00000ddf        AlwaysSend False
+00000de0    EventGateEntityData 00000001
+00000dd8        $::EntityData
+00000dd8            $::GameObjectData
+00000dd8                $::DataBusPeer
+00000dd8                    $::GameDataContainer
+00000dd8                        $::DataContainer
+00000de0                    Flags 93740052
+00000de4        Realm Realm_Server
+00000de8        Default False
+00000dec    InterfaceDescriptorData 00000002
+00000de4        $::DynamicDataContainer
+00000de4            $::DataContainer
+00000dec            Fields::array
+00000ea4                member(0)::DataField
+00000ea4                    Value *nullString*
+00000ea8                    ValueRef *nullGuid*
+00000eac                    Id 2662400
+00000eb0                    AccessType FieldAccessType_Target
+00000eb4                member(1)::DataField
+00000eb4                    Value *nullString*
+00000eb8                    ValueRef *nullGuid*
+00000ebc                    Id -1541066415
+00000ec0                    AccessType FieldAccessType_Source
+00000ec4                member(2)::DataField
+00000ec4                    Value Boolean False
+00000ec8                    ValueRef *nullGuid*
+00000ecc                    Id -141474860
+00000ed0                    AccessType FieldAccessType_Target
+00000df0        InputEvents *nullArray*
+00000df4        OutputEvents *nullArray*
+00000df8        InputLinks *nullArray*
+00000dfc        OutputLinks *nullArray*

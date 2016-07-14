@@ -1,0 +1,570 @@
+000026b0    LogicPrefabBlueprint a36449068be098d19037bd4fb893411d
+000026a8        $::PrefabBlueprint
+000026a8            $::Blueprint
+000026a8                $::EntityBusData
+000026a8                    $::DataBusData
+000026a8                        $::Asset
+000026a8                            $::DataContainer
+000026b0                            Name ArtAssets/Destruction/Logic/CollapseBlackoutLogic
+000026b4                        PropertyConnections::array
+00002a54                            member(0)::PropertyConnection
+00002a54                                Source 00000004
+00002a58                                Target 00000003
+00002a5c                                SourceFieldId 225375086
+00002a60                                TargetFieldId 2662400
+00002a64                                Flags 34
+00002a68                            member(1)::PropertyConnection
+00002a68                                Source 0000000d
+00002a6c                                Target 00000003
+00002a70                                SourceFieldId 993287091
+00002a74                                TargetFieldId 1708270083
+00002a78                                Flags 34
+00002a7c                            member(2)::PropertyConnection
+00002a7c                                Source 0000000d
+00002a80                                Target 00000000
+00002a84                                SourceFieldId 993287088
+00002a88                                TargetFieldId 968667256
+00002a8c                                Flags 3
+00002a90                            member(3)::PropertyConnection
+00002a90                                Source 0000000d
+00002a94                                Target 00000000
+00002a98                                SourceFieldId 993287088
+00002a9c                                TargetFieldId -684018485
+00002aa0                                Flags 3
+00002aa4                            member(4)::PropertyConnection
+00002aa4                                Source 0000000d
+00002aa8                                Target 00000000
+00002aac                                SourceFieldId 993287088
+00002ab0                                TargetFieldId -406476397
+00002ab4                                Flags 3
+00002ab8                            member(5)::PropertyConnection
+00002ab8                                Source 0000000d
+00002abc                                Target 00000000
+00002ac0                                SourceFieldId 993287088
+00002ac4                                TargetFieldId 1418472942
+00002ac8                                Flags 3
+000026b8                        LinkConnections::array
+00002ad0                            member(0)::LinkConnection
+00002ad0                                Source 00000002
+00002ad4                                Target 00000009
+00002ad8                                SourceFieldId 838548383
+00002adc                                TargetFieldId 838548383
+000026bc                        Interface 00000009
+000026c0                        Flags 3
+000026c4                    EventConnections::array
+00002ae4                        member(0)::EventConnection
+00002ae4                            Source 00000009
+00002ae8                            Target 0000000d
+00002aec                            SourceEvent::EventSpec
+00002aec                                Id 230748069
+00002af0                            TargetEvent::EventSpec
+00002af0                                Id 230748069
+00002af4                            TargetType EventConnectionTargetType_ClientAndServer
+00002af8                        member(1)::EventConnection
+00002af8                            Source 00000009
+00002afc                            Target 00000005
+00002b00                            SourceEvent::EventSpec
+00002b00                                Id 230748069
+00002b04                            TargetEvent::EventSpec
+00002b04                                Id 212633683
+00002b08                            TargetType EventConnectionTargetType_Client
+00002b0c                        member(2)::EventConnection
+00002b0c                            Source 00000002
+00002b10                            Target 00000005
+00002b14                            SourceEvent::EventSpec
+00002b14                                Id -70038721
+00002b18                            TargetEvent::EventSpec
+00002b18                                Id 5862146
+00002b1c                            TargetType EventConnectionTargetType_NetworkedClient
+00002b20                        member(3)::EventConnection
+00002b20                            Source 00000005
+00002b24                            Target 00000004
+00002b28                            SourceEvent::EventSpec
+00002b28                                Id 193453899
+00002b2c                            TargetEvent::EventSpec
+00002b2c                                Id 668205626
+00002b30                            TargetType EventConnectionTargetType_Client
+00002b34                        member(4)::EventConnection
+00002b34                            Source 0000000b
+00002b38                            Target 00000000
+00002b3c                            SourceEvent::EventSpec
+00002b3c                                Id -1864525248
+00002b40                            TargetEvent::EventSpec
+00002b40                                Id -1996040326
+00002b44                            TargetType EventConnectionTargetType_Server
+00002b48                        member(5)::EventConnection
+00002b48                            Source 0000000b
+00002b4c                            Target 00000000
+00002b50                            SourceEvent::EventSpec
+00002b50                                Id -1864525248
+00002b54                            TargetEvent::EventSpec
+00002b54                                Id 1637984329
+00002b58                            TargetType EventConnectionTargetType_Server
+00002b5c                        member(6)::EventConnection
+00002b5c                            Source 0000000b
+00002b60                            Target 00000000
+00002b64                            SourceEvent::EventSpec
+00002b64                                Id -1864525248
+00002b68                            TargetEvent::EventSpec
+00002b68                                Id 1374422353
+00002b6c                            TargetType EventConnectionTargetType_Server
+00002b70                        member(7)::EventConnection
+00002b70                            Source 0000000b
+00002b74                            Target 00000000
+00002b78                            SourceEvent::EventSpec
+00002b78                                Id -1864525248
+00002b7c                            TargetEvent::EventSpec
+00002b7c                                Id 94555244
+00002b80                            TargetType EventConnectionTargetType_Server
+00002b84                        member(8)::EventConnection
+00002b84                            Source 00000006
+00002b88                            Target 0000000b
+00002b8c                            SourceEvent::EventSpec
+00002b8c                                Id 193453899
+00002b90                            TargetEvent::EventSpec
+00002b90                                Id 5862146
+00002b94                            TargetType EventConnectionTargetType_Server
+00002b98                        member(9)::EventConnection
+00002b98                            Source 0000000d
+00002b9c                            Target 00000006
+00002ba0                            SourceEvent::EventSpec
+00002ba0                                Id -1193365339
+00002ba4                            TargetEvent::EventSpec
+00002ba4                                Id 2089008817
+00002ba8                            TargetType EventConnectionTargetType_Server
+00002bac                        member(10)::EventConnection
+00002bac                            Source 0000000d
+00002bb0                            Target 00000006
+00002bb4                            SourceEvent::EventSpec
+00002bb4                                Id -1176973715
+00002bb8                            TargetEvent::EventSpec
+00002bb8                                Id 212633683
+00002bbc                            TargetType EventConnectionTargetType_Server
+00002bc0                        member(11)::EventConnection
+00002bc0                            Source 00000002
+00002bc4                            Target 00000006
+00002bc8                            SourceEvent::EventSpec
+00002bc8                                Id -1822435441
+00002bcc                            TargetEvent::EventSpec
+00002bcc                                Id 5862146
+00002bd0                            TargetType EventConnectionTargetType_Server
+00002bd4                        member(12)::EventConnection
+00002bd4                            Source 0000000d
+00002bd8                            Target 00000002
+00002bdc                            SourceEvent::EventSpec
+00002bdc                                Id -1193365339
+00002be0                            TargetEvent::EventSpec
+00002be0                                Id -1952177180
+00002be4                            TargetType EventConnectionTargetType_Server
+00002be8                        member(13)::EventConnection
+00002be8                            Source 0000000c
+00002bec                            Target 00000001
+00002bf0                            SourceEvent::EventSpec
+00002bf0                                Id -1864525248
+00002bf4                            TargetEvent::EventSpec
+00002bf4                                Id -1996040326
+00002bf8                            TargetType EventConnectionTargetType_Server
+00002bfc                        member(14)::EventConnection
+00002bfc                            Source 0000000c
+00002c00                            Target 00000001
+00002c04                            SourceEvent::EventSpec
+00002c04                                Id -1864525248
+00002c08                            TargetEvent::EventSpec
+00002c08                                Id 1637984329
+00002c0c                            TargetType EventConnectionTargetType_Server
+00002c10                        member(15)::EventConnection
+00002c10                            Source 0000000c
+00002c14                            Target 00000001
+00002c18                            SourceEvent::EventSpec
+00002c18                                Id -1864525248
+00002c1c                            TargetEvent::EventSpec
+00002c1c                                Id 1374422353
+00002c20                            TargetType EventConnectionTargetType_Server
+00002c24                        member(16)::EventConnection
+00002c24                            Source 0000000c
+00002c28                            Target 00000001
+00002c2c                            SourceEvent::EventSpec
+00002c2c                                Id -1864525248
+00002c30                            TargetEvent::EventSpec
+00002c30                                Id 94555244
+00002c34                            TargetType EventConnectionTargetType_Server
+00002c38                        member(17)::EventConnection
+00002c38                            Source 0000000d
+00002c3c                            Target 00000002
+00002c40                            SourceEvent::EventSpec
+00002c40                                Id 650265526
+00002c44                            TargetEvent::EventSpec
+00002c44                                Id -117303631
+00002c48                            TargetType EventConnectionTargetType_Server
+00002c4c                        member(18)::EventConnection
+00002c4c                            Source 00000002
+00002c50                            Target 0000000c
+00002c54                            SourceEvent::EventSpec
+00002c54                                Id -70038721
+00002c58                            TargetEvent::EventSpec
+00002c58                                Id 5862146
+00002c5c                            TargetType EventConnectionTargetType_Server
+00002c60                        member(19)::EventConnection
+00002c60                            Source 0000000a
+00002c64                            Target 00000004
+00002c68                            SourceEvent::EventSpec
+00002c68                                Id 193453899
+00002c6c                            TargetEvent::EventSpec
+00002c6c                                Id -1541066415
+00002c70                            TargetType EventConnectionTargetType_Client
+00002c74                        member(20)::EventConnection
+00002c74                            Source 00000002
+00002c78                            Target 0000000a
+00002c7c                            SourceEvent::EventSpec
+00002c7c                                Id -80368276
+00002c80                            TargetEvent::EventSpec
+00002c80                                Id 5862146
+00002c84                            TargetType EventConnectionTargetType_NetworkedClient
+000026c8            Objects::array
+00002c8c                member(0) 00000002
+00002c90                member(1) 00000004
+00002c94                member(2) 00000003
+00002c98                member(3) 0000000d
+00002c9c                member(4) 00000005
+00002ca0                member(5) 0000000b
+00002ca4                member(6) 00000000
+00002ca8                member(7) 00000006
+00002cac                member(8) 0000000c
+00002cb0                member(9) 00000001
+00002cb4                member(10) 0000000a
+000026cc            TimeDeltaType TimeDeltaType_None
+000026d0    CharacterStateTriggerEntityData 00000000
+000026d0        $::TriggerEntityData
+000026d0            $::SpatialEntityData
+000026d0                $::EntityData
+000026d0                    $::GameObjectData
+000026d0                        $::DataBusPeer
+000026d0                            $::GameDataContainer
+000026d0                                $::DataContainer
+000026d8                            Flags 343805848
+000026e0                Transform::LinearTransform
+000026e0                    right::Vec3
+000026e0                        x 1.0
+000026e4                        y 0.0
+000026e8                        z 0.0
+000026f0                    up::Vec3
+000026f0                        x 0.0
+000026f4                        y 1.0
+000026f8                        z 0.0
+00002700                    forward::Vec3
+00002700                        x 0.0
+00002704                        y 0.0
+00002708                        z 1.0
+00002710                    trans::Vec3
+00002710                        x 0.0
+00002714                        y 0.0
+00002718                        z 0.0
+00002720            Delay 0.0
+00002724            RunOnce False
+00002725            Enabled True
+00002730        Pitch 0.0
+00002734        CharacterPose CPTForceToProne
+00002738        SoldierWeapon *nullGuid*
+0000273c        SeatIndex 0
+00002740        HealthToSet 100
+00002744        HealthToCheck 100
+00002748        AmmoToSet 75
+0000274c        PoseToCheck CPTForceToProne
+00002750        ActiveWeaponSlot 0
+00002754        MoveSpeedMultiplier 1.0
+00002758        SprintSpeedMultiplier 1.0
+0000275c        JumpHeightMultiplier 1.0
+00002760        LookSpeedMultiplier 1.0
+00002764        UsePitch False
+00002765        ExcludeConnectedVehicles False
+00002766        StayInVehicleOnMove False
+00002767        LeaveVehicleOnMove True
+00002768        ClearAreaOnMove True
+00002769        CheckAllWeapons False
+0000276a        CheckOnlyReadyWeapons False
+0000276b        ContinueToCheckIfHoldingWrongWeapon False
+0000276c        ShouldCheckSeatIndex False
+0000276d        AllowRemoteControlledVehicles False
+0000276e        CheckHealthGreaterOrEqual True
+0000276f        UseExitPointWhenLeavingVehicle True
+00002770        DisablePhysicsWhenLeavingVehicle False
+00002771        LeaveRemoteVehicles False
+00002780    CharacterStateTriggerEntityData 00000001
+00002780        $::TriggerEntityData
+00002780            $::SpatialEntityData
+00002780                $::EntityData
+00002780                    $::GameObjectData
+00002780                        $::DataBusPeer
+00002780                            $::GameDataContainer
+00002780                                $::DataContainer
+00002788                            Flags 74408126
+00002790                Transform::LinearTransform
+00002790                    right::Vec3
+00002790                        x 1.0
+00002794                        y 0.0
+00002798                        z 0.0
+000027a0                    up::Vec3
+000027a0                        x 0.0
+000027a4                        y 1.0
+000027a8                        z 0.0
+000027b0                    forward::Vec3
+000027b0                        x 0.0
+000027b4                        y 0.0
+000027b8                        z 1.0
+000027c0                    trans::Vec3
+000027c0                        x 0.0
+000027c4                        y 0.0
+000027c8                        z 0.0
+000027d0            Delay 0.0
+000027d4            RunOnce False
+000027d5            Enabled True
+000027e0        Pitch 0.0
+000027e4        CharacterPose CPTForceToProne
+000027e8        SoldierWeapon *nullGuid*
+000027ec        SeatIndex 0
+000027f0        HealthToSet 100
+000027f4        HealthToCheck 100
+000027f8        AmmoToSet 75
+000027fc        PoseToCheck CPTForceToProne
+00002800        ActiveWeaponSlot 0
+00002804        MoveSpeedMultiplier 1.0
+00002808        SprintSpeedMultiplier 1.0
+0000280c        JumpHeightMultiplier 1.0
+00002810        LookSpeedMultiplier 1.0
+00002814        UsePitch False
+00002815        ExcludeConnectedVehicles False
+00002816        StayInVehicleOnMove False
+00002817        LeaveVehicleOnMove True
+00002818        ClearAreaOnMove True
+00002819        CheckAllWeapons False
+0000281a        CheckOnlyReadyWeapons False
+0000281b        ContinueToCheckIfHoldingWrongWeapon False
+0000281c        ShouldCheckSeatIndex False
+0000281d        AllowRemoteControlledVehicles False
+0000281e        CheckHealthGreaterOrEqual True
+0000281f        UseExitPointWhenLeavingVehicle True
+00002820        DisablePhysicsWhenLeavingVehicle False
+00002821        LeaveRemoteVehicles False
+00002830    GeometryTriggerEntityData 00000002
+00002830        $::AreaTriggerEntityData
+00002830            $::TriggerEntityData
+00002830                $::SpatialEntityData
+00002830                    $::EntityData
+00002830                        $::GameObjectData
+00002830                            $::DataBusPeer
+00002830                                $::GameDataContainer
+00002830                                    $::DataContainer
+00002838                                Flags 1704553771
+00002840                    Transform::LinearTransform
+00002840                        right::Vec3
+00002840                            x 1.0
+00002844                            y 0.0
+00002848                            z 0.0
+00002850                        up::Vec3
+00002850                            x 0.0
+00002854                            y 1.0
+00002858                            z 0.0
+00002860                        forward::Vec3
+00002860                            x 0.0
+00002864                            y 0.0
+00002868                            z 1.0
+00002870                        trans::Vec3
+00002870                            x 0.0
+00002874                            y 0.0
+00002878                            z 0.0
+00002880                Delay 0.0
+00002884                RunOnce False
+00002885                Enabled False
+00002890            GeometryTransform::LinearTransform
+00002890                right::Vec3
+00002890                    x 1.0
+00002894                    y 0.0
+00002898                    z 0.0
+000028a0                up::Vec3
+000028a0                    x 0.0
+000028a4                    y 1.0
+000028a8                    z 0.0
+000028b0                forward::Vec3
+000028b0                    x 0.0
+000028b4                    y 0.0
+000028b8                    z 1.0
+000028c0                trans::Vec3
+000028c0                    x 0.0
+000028c4                    y 0.0
+000028c8                    z 0.0
+000028d0            Include ATPlayers
+000028d4            Radius 0.0
+000028d8            InsideAreaEventRepeatTime 1.0
+000028dc            TeamOfAllies TeamNeutral
+000028e0            UseCharacterEntity False
+000028e1            UseRadiusWithGeometryTransform False
+000028e2            GeometriesFollowObject False
+000028e3            OneInsideAreaEventPerSoldier True
+000028e4            TriggerOnlyOnLeave False
+000028e5            ResetOnEnable True
+000028e6            TriggerOnLeaveOnDeath True
+000028e7            TriggerOnLeaveOnDisable False
+000028f0    VisualEnvironmentReferenceObjectData 00000003
+000028f0        $::LogicReferenceObjectData
+000028f0            $::ReferenceObjectData
+000028f0                $::GameObjectData
+000028f0                    $::DataBusPeer
+000028f0                        $::GameDataContainer
+000028f0                            $::DataContainer
+000028f8                        Flags 152517806
+000028fc                Blueprint Test/ArtAssets/Architecture/Fort_Bunker/BunkerCollapse/decd435927b7c9123db24fc5e0f3790e
+00002900                BlueprintTransform::LinearTransform
+00002900                    right::Vec3
+00002900                        x 1.0
+00002904                        y 0.0
+00002908                        z 0.0
+00002910                    up::Vec3
+00002910                        x 0.0
+00002914                        y 1.0
+00002918                        z 0.0
+00002920                    forward::Vec3
+00002920                        x 0.0
+00002924                        y 0.0
+00002928                        z 1.0
+00002930                    trans::Vec3
+00002930                        x 0.0
+00002934                        y 0.0
+00002938                        z 0.0
+00002940                ObjectVariation *nullGuid*
+00002944                StreamRealm StreamRealm_None
+00002948                RadiosityTypeOverride RadiosityTypeOverride_None
+0000294c                LightmapResolutionScale 0
+00002950                RenderingOverrides::RenderingOverrides
+00002950                    ShadowEnable RenderingOverride_Inherit
+00002954                    DynamicReflectionEnable RenderingOverride_Inherit
+00002958                    StaticReflectionEnable RenderingOverride_Inherit
+0000295c                ForceSeparateEnlightenSystem False
+0000295d                CastSunShadowEnable True
+0000295e                CastReflectionEnable True
+0000295f                CastEnvmapEnable True
+00002960                Excluded False
+00002970            LocalPlayerId LocalPlayerId_0
+00002974            SubRealm SubRealm_All
+00002980        Priority 0
+00002984        OverrideVisibility False
+00002985        OwnedByLightingContextPad False
+00002990    BoolEntityData 00000004
+00002988        $::EntityData
+00002988            $::GameObjectData
+00002988                $::DataBusPeer
+00002988                    $::GameDataContainer
+00002988                        $::DataContainer
+00002990                    Flags 65633705
+00002994        Realm Realm_Client
+00002998        DefaultValue False
+0000299c    EventGateEntityData 00000005
+00002994        $::EntityData
+00002994            $::GameObjectData
+00002994                $::DataBusPeer
+00002994                    $::GameDataContainer
+00002994                        $::DataContainer
+0000299c                    Flags 53832438
+000029a0        Realm Realm_Client
+000029a4        Default True
+000029a8    EventGateEntityData 00000006
+000029a0        $::EntityData
+000029a0            $::GameObjectData
+000029a0                $::DataBusPeer
+000029a0                    $::GameDataContainer
+000029a0                        $::DataContainer
+000029a8                    Flags 68641275
+000029ac        Realm Realm_Server
+000029b0        Default False
+000029b4    FloatPropertyTrackData 00000007
+000029ac        $::SimplePropertyTrackData
+000029ac            $::PropertyTrackData
+000029ac                $::DataContainer
+000029b4                Id 993287091
+000029b8                Times::array
+00002cbc                    member(0) 0
+00002cc0                    member(1) 1500
+00002cc4                    member(2) 10000
+000029bc            InterpolationType InterpolationType_CatmullRom
+000029c0        Values::array
+00002ccc            member(0) 0.0
+00002cd0            member(1) 1.0
+00002cd4            member(2) 0.0
+000029c4    FloatPropertyTrackData 00000008
+000029bc        $::SimplePropertyTrackData
+000029bc            $::PropertyTrackData
+000029bc                $::DataContainer
+000029c4                Id 993287088
+000029c8                Times::array
+00002cdc                    member(0) 0
+00002ce0                    member(1) 1484
+00002ce4                    member(2) 7000
+000029cc            InterpolationType InterpolationType_CatmullRom
+000029d0        Values::array
+00002cec            member(0) 1.0
+00002cf0            member(1) 0.25
+00002cf4            member(2) 1.0
+000029d4    InterfaceDescriptorData 00000009
+000029cc        $::DynamicDataContainer
+000029cc            $::DataContainer
+000029d4            Fields *nullArray*
+000029d8        InputEvents::array
+00002cfc            member(0)::DynamicEvent
+00002cfc                Id 230748069
+000029dc        OutputEvents *nullArray*
+000029e0        InputLinks *nullArray*
+000029e4        OutputLinks::array
+00002d04            member(0)::DynamicLink
+00002d04                Id 838548383
+000029e8    LocalPlayerFilterEntityData 0000000a
+000029e0        $::EntityData
+000029e0            $::GameObjectData
+000029e0                $::DataBusPeer
+000029e0                    $::GameDataContainer
+000029e0                        $::DataContainer
+000029e8                    Flags 60934411
+000029ec        Realm Realm_Client
+000029f0        ForwardToLocalSpectators False
+000029f4    PlayerFilterEntityData 0000000b
+000029ec        $::EntityData
+000029ec            $::GameObjectData
+000029ec                $::DataBusPeer
+000029ec                    $::GameDataContainer
+000029ec                        $::DataContainer
+000029f4                    Flags 90986845
+000029f8        Realm Realm_Server
+000029fc        InvertFilter False
+000029fd        ForwardToSpectators False
+00002a00    PlayerFilterEntityData 0000000c
+000029f8        $::EntityData
+000029f8            $::GameObjectData
+000029f8                $::DataBusPeer
+000029f8                    $::GameDataContainer
+000029f8                        $::DataContainer
+00002a00                    Flags 85018344
+00002a04        Realm Realm_Server
+00002a08        InvertFilter False
+00002a09        ForwardToSpectators False
+00002a0c    SequenceEntityData 0000000d
+00002a04        $::EntityData
+00002a04            $::GameObjectData
+00002a04                $::DataBusPeer
+00002a04                    $::GameDataContainer
+00002a04                        $::DataContainer
+00002a0c                    Flags 108441991
+00002a10        Events *nullArray*
+00002a14        SequenceStartTime 0
+00002a18        SequenceLength 10000
+00002a1c        Realm Realm_ClientAndServer
+00002a20        PropertyTracks::array
+00002d0c            member(0) 00000007
+00002d10            member(1) 00000008
+00002a24        CustomSequenceTracks *nullArray*
+00002a28        ClientUpdatePass UpdatePass_PostFrame
+00002a2c        ServerUpdatePass UpdatePass_PreSim
+00002a30        ExternalTime 0.0
+00002a34        PlaybackSpeed 1.0
+00002a38        Looping False
+00002a39        AutoStart False
+00002a3a        AutoPlayFirstFrame True
+00002a3b        PlayInReverse False
+00002a3c        UseRealTimeClock False

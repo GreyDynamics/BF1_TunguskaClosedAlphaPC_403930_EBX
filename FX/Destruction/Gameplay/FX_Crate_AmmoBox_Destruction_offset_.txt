@@ -1,0 +1,762 @@
+00001480    EffectBlueprint f09a5b0477b57f42811a9d15ebf04541
+00001478        $::ObjectBlueprint
+00001478            $::Blueprint
+00001478                $::EntityBusData
+00001478                    $::DataBusData
+00001478                        $::Asset
+00001478                            $::DataContainer
+00001480                            Name FX/Destruction/Gameplay/FX_Crate_AmmoBox_Destruction
+00001484                        PropertyConnections *nullArray*
+00001488                        LinkConnections *nullArray*
+0000148c                        Interface *nullGuid*
+00001490                        Flags 0
+00001494                    EventConnections *nullArray*
+00001498            Object 00000000
+0000149c        TimeDeltaType TimeDeltaType_None
+000014a0    EffectEntityData 00000000
+000014a0        $::SpatialEntityData
+000014a0            $::EntityData
+000014a0                $::GameObjectData
+000014a0                    $::DataBusPeer
+000014a0                        $::GameDataContainer
+000014a0                            $::DataContainer
+000014a8                        Flags 170479138
+000014b0            Transform::LinearTransform
+000014b0                right::Vec3
+000014b0                    x 1.0
+000014b4                    y 0.0
+000014b8                    z 0.0
+000014c0                up::Vec3
+000014c0                    x 0.0
+000014c4                    y 1.0
+000014c8                    z 0.0
+000014d0                forward::Vec3
+000014d0                    x 0.0
+000014d4                    y 0.0
+000014d8                    z 1.0
+000014e0                trans::Vec3
+000014e0                    x 0.0
+000014e4                    y 0.0
+000014e8                    z 0.0
+000014f0        Components::array
+00001d94            member(0) 0000000a
+00001d98            member(1) 00000008
+00001d9c            member(2) 00000003
+00001da0            member(3) 00000002
+00001da4            member(4) 00000007
+00001da8            member(5) 00000004
+00001dac            member(6) 00000009
+00001db0            member(7) 00000005
+00001db4            member(8) 00000001
+00001db8            member(9) 00000006
+00001dbc            member(10) 0000000c
+000014f4        MaxActiveInstanceCount::QualityScalableInt
+000014f4            Low 50
+000014f8            Medium 50
+000014fc            High 50
+00001500            Ultra 50
+00001504        CullDistance::QualityScalableFloat
+00001504            Low 0.0
+00001508            Medium 0.0
+0000150c            High 0.0
+00001510            Ultra 0.0
+00001514        StartDelay 0.0
+00001518        KillWhenDistanceCulled False
+00001519        KillByWater False
+0000151a        ResetInstanceWhenStarted True
+0000151b        AttachToSpawnSurface False
+0000151c        Enable::QualityScalableBool
+0000151c            Low True
+0000151d            Medium True
+0000151e            High True
+0000151f            Ultra True
+00001520        OverrideDrawOrder False
+00001521        UseLowFrequencyUpdate False
+00001530    EmitterEntityData 00000001
+00001530        $::ChildEffectEntityData
+00001530            $::SpatialEntityData
+00001530                $::EntityData
+00001530                    $::GameObjectData
+00001530                        $::DataBusPeer
+00001530                            $::GameDataContainer
+00001530                                $::DataContainer
+00001538                            Flags 32621827
+00001540                Transform::LinearTransform
+00001540                    right::Vec3
+00001540                        x 1.0
+00001544                        y 0.0
+00001548                        z 0.0
+00001550                    up::Vec3
+00001550                        x 0.0
+00001554                        y 1.0
+00001558                        z 0.0
+00001560                    forward::Vec3
+00001560                        x 0.0
+00001564                        y 0.0
+00001568                        z 1.0
+00001570                    trans::Vec3
+00001570                        x 0.0
+00001574                        y -0.15000000596
+00001578                        z 0.0
+00001580            Components *nullArray*
+00001584            MaxActiveInstanceCount::QualityScalableInt
+00001584                Low 30
+00001588                Medium 30
+0000158c                High 30
+00001590                Ultra 30
+00001594            CullDistance::QualityScalableFloat
+00001594                Low 0.0
+00001598                Medium 0.0
+0000159c                High 0.0
+000015a0                Ultra 0.0
+000015a4            StartDelay 0.0
+000015a8            KillWhenDistanceCulled False
+000015a9            ResetInstanceWhenStarted True
+000015aa            AttachToSpawnSurface False
+000015ab            Enable::QualityScalableBool
+000015ab                Low True
+000015ac                Medium True
+000015ad                High True
+000015ae                Ultra True
+000015af            OverrideDrawOrder False
+000015b0        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_explosion/7377ead5d5ea254f88516ffae22d13c6
+000015b4        SpawnProbability::QualityScalableFloat
+000015b4            Low 1.0
+000015b8            Medium 1.0
+000015bc            High 1.0
+000015c0            Ultra 1.0
+000015c4        MaxNearbyInstanceCount 0
+000015c8        NearbyRadius 1.0
+000015cc        EmitterTags *nullArray*
+000015d0        DrawOrderSlot 128
+000015d1        LocalPlayerOnly False
+000015e0    EmitterEntityData 00000002
+000015e0        $::ChildEffectEntityData
+000015e0            $::SpatialEntityData
+000015e0                $::EntityData
+000015e0                    $::GameObjectData
+000015e0                        $::DataBusPeer
+000015e0                            $::GameDataContainer
+000015e0                                $::DataContainer
+000015e8                            Flags 31122693
+000015f0                Transform::LinearTransform
+000015f0                    right::Vec3
+000015f0                        x 1.0
+000015f4                        y 0.0
+000015f8                        z 0.0
+00001600                    up::Vec3
+00001600                        x 0.0
+00001604                        y 1.0
+00001608                        z 0.0
+00001610                    forward::Vec3
+00001610                        x 0.0
+00001614                        y 0.0
+00001618                        z 1.0
+00001620                    trans::Vec3
+00001620                        x 0.0
+00001624                        y -0.15000000596
+00001628                        z 0.0
+00001630            Components *nullArray*
+00001634            MaxActiveInstanceCount::QualityScalableInt
+00001634                Low 30
+00001638                Medium 30
+0000163c                High 30
+00001640                Ultra 30
+00001644            CullDistance::QualityScalableFloat
+00001644                Low 0.0
+00001648                Medium 0.0
+0000164c                High 0.0
+00001650                Ultra 0.0
+00001654            StartDelay 0.0
+00001658            KillWhenDistanceCulled False
+00001659            ResetInstanceWhenStarted True
+0000165a            AttachToSpawnSurface False
+0000165b            Enable::QualityScalableBool
+0000165b                Low True
+0000165c                Medium True
+0000165d                High True
+0000165e                Ultra True
+0000165f            OverrideDrawOrder False
+00001660        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_smokethick/e4744be951019c4db3654f4971d7072f
+00001664        SpawnProbability::QualityScalableFloat
+00001664            Low 1.0
+00001668            Medium 1.0
+0000166c            High 1.0
+00001670            Ultra 1.0
+00001674        MaxNearbyInstanceCount 0
+00001678        NearbyRadius 1.0
+0000167c        EmitterTags *nullArray*
+00001680        DrawOrderSlot 128
+00001681        LocalPlayerOnly False
+00001690    EmitterEntityData 00000003
+00001690        $::ChildEffectEntityData
+00001690            $::SpatialEntityData
+00001690                $::EntityData
+00001690                    $::GameObjectData
+00001690                        $::DataBusPeer
+00001690                            $::GameDataContainer
+00001690                                $::DataContainer
+00001698                            Flags 23837287
+000016a0                Transform::LinearTransform
+000016a0                    right::Vec3
+000016a0                        x 1.0
+000016a4                        y 0.0
+000016a8                        z 0.0
+000016b0                    up::Vec3
+000016b0                        x 0.0
+000016b4                        y 1.0
+000016b8                        z 0.0
+000016c0                    forward::Vec3
+000016c0                        x 0.0
+000016c4                        y 0.0
+000016c8                        z 1.0
+000016d0                    trans::Vec3
+000016d0                        x 0.0
+000016d4                        y -0.10000000149
+000016d8                        z 0.0
+000016e0            Components *nullArray*
+000016e4            MaxActiveInstanceCount::QualityScalableInt
+000016e4                Low 30
+000016e8                Medium 30
+000016ec                High 30
+000016f0                Ultra 30
+000016f4            CullDistance::QualityScalableFloat
+000016f4                Low 0.0
+000016f8                Medium 0.0
+000016fc                High 0.0
+00001700                Ultra 0.0
+00001704            StartDelay 0.0
+00001708            KillWhenDistanceCulled False
+00001709            ResetInstanceWhenStarted True
+0000170a            AttachToSpawnSurface False
+0000170b            Enable::QualityScalableBool
+0000170b                Low False
+0000170c                Medium True
+0000170d                High True
+0000170e                Ultra True
+0000170f            OverrideDrawOrder False
+00001710        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_splinter_meshp_small_01/6192fd42f9fa444f92e37c4a2ee3a491
+00001714        SpawnProbability::QualityScalableFloat
+00001714            Low 1.0
+00001718            Medium 1.0
+0000171c            High 1.0
+00001720            Ultra 1.0
+00001724        MaxNearbyInstanceCount 0
+00001728        NearbyRadius 1.0
+0000172c        EmitterTags *nullArray*
+00001730        DrawOrderSlot 128
+00001731        LocalPlayerOnly False
+00001740    EmitterEntityData 00000004
+00001740        $::ChildEffectEntityData
+00001740            $::SpatialEntityData
+00001740                $::EntityData
+00001740                    $::GameObjectData
+00001740                        $::DataBusPeer
+00001740                            $::GameDataContainer
+00001740                                $::DataContainer
+00001748                            Flags 2704519
+00001750                Transform::LinearTransform
+00001750                    right::Vec3
+00001750                        x 0.617905974388
+00001754                        y 0.769546806812
+00001758                        z 0.161213025451
+00001760                    up::Vec3
+00001760                        x -0.734765768051
+00001764                        y 0.638152718544
+00001768                        z -0.229957655072
+00001770                    forward::Vec3
+00001770                        x -0.27984175086
+00001774                        y 0.0236383676529
+00001778                        z 0.959755122662
+00001780                    trans::Vec3
+00001780                        x -0.338122069836
+00001784                        y 0.15000000596
+00001788                        z 0.0270544178784
+00001790            Components *nullArray*
+00001794            MaxActiveInstanceCount::QualityScalableInt
+00001794                Low 30
+00001798                Medium 30
+0000179c                High 30
+000017a0                Ultra 30
+000017a4            CullDistance::QualityScalableFloat
+000017a4                Low 0.0
+000017a8                Medium 0.0
+000017ac                High 0.0
+000017b0                Ultra 0.0
+000017b4            StartDelay 0.0
+000017b8            KillWhenDistanceCulled False
+000017b9            ResetInstanceWhenStarted True
+000017ba            AttachToSpawnSurface False
+000017bb            Enable::QualityScalableBool
+000017bb                Low False
+000017bc                Medium False
+000017bd                High True
+000017be                Ultra True
+000017bf            OverrideDrawOrder False
+000017c0        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_ws_sparks/3c651b419be1924d91debdbe01be6c4f
+000017c4        SpawnProbability::QualityScalableFloat
+000017c4            Low 0.0
+000017c8            Medium 0.0
+000017cc            High 1.0
+000017d0            Ultra 1.0
+000017d4        MaxNearbyInstanceCount 0
+000017d8        NearbyRadius 1.0
+000017dc        EmitterTags *nullArray*
+000017e0        DrawOrderSlot 128
+000017e1        LocalPlayerOnly False
+000017f0    EmitterEntityData 00000005
+000017f0        $::ChildEffectEntityData
+000017f0            $::SpatialEntityData
+000017f0                $::EntityData
+000017f0                    $::GameObjectData
+000017f0                        $::DataBusPeer
+000017f0                            $::GameDataContainer
+000017f0                                $::DataContainer
+000017f8                            Flags 12714889
+00001800                Transform::LinearTransform
+00001800                    right::Vec3
+00001800                        x 0.987852931023
+00001804                        y -0.146206483245
+00001808                        z -0.0526347756386
+00001810                    up::Vec3
+00001810                        x 0.113697163761
+00001814                        y 0.910953521729
+00001818                        z -0.396530330181
+00001820                    forward::Vec3
+00001820                        x 0.105923190713
+00001824                        y 0.385729283094
+00001828                        z 0.916511416435
+00001830                    trans::Vec3
+00001830                        x 0.276621729136
+00001834                        y 0.15000000596
+00001838                        z 0.0
+00001840            Components *nullArray*
+00001844            MaxActiveInstanceCount::QualityScalableInt
+00001844                Low 30
+00001848                Medium 30
+0000184c                High 30
+00001850                Ultra 30
+00001854            CullDistance::QualityScalableFloat
+00001854                Low 0.0
+00001858                Medium 0.0
+0000185c                High 0.0
+00001860                Ultra 0.0
+00001864            StartDelay 0.0
+00001868            KillWhenDistanceCulled False
+00001869            ResetInstanceWhenStarted True
+0000186a            AttachToSpawnSurface False
+0000186b            Enable::QualityScalableBool
+0000186b                Low False
+0000186c                Medium True
+0000186d                High True
+0000186e                Ultra True
+0000186f            OverrideDrawOrder False
+00001870        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_ws_sparks/3c651b419be1924d91debdbe01be6c4f
+00001874        SpawnProbability::QualityScalableFloat
+00001874            Low 0.0
+00001878            Medium 1.0
+0000187c            High 1.0
+00001880            Ultra 1.0
+00001884        MaxNearbyInstanceCount 0
+00001888        NearbyRadius 1.0
+0000188c        EmitterTags *nullArray*
+00001890        DrawOrderSlot 128
+00001891        LocalPlayerOnly False
+000018a0    EmitterEntityData 00000006
+000018a0        $::ChildEffectEntityData
+000018a0            $::SpatialEntityData
+000018a0                $::EntityData
+000018a0                    $::GameObjectData
+000018a0                        $::DataBusPeer
+000018a0                            $::GameDataContainer
+000018a0                                $::DataContainer
+000018a8                            Flags 9681341
+000018b0                Transform::LinearTransform
+000018b0                    right::Vec3
+000018b0                        x 1.0
+000018b4                        y 0.0
+000018b8                        z 0.0
+000018c0                    up::Vec3
+000018c0                        x 0.0
+000018c4                        y 1.0
+000018c8                        z 0.0
+000018d0                    forward::Vec3
+000018d0                        x 0.0
+000018d4                        y 0.0
+000018d8                        z 1.0
+000018e0                    trans::Vec3
+000018e0                        x 0.0
+000018e4                        y -0.10000000149
+000018e8                        z 0.0
+000018f0            Components *nullArray*
+000018f4            MaxActiveInstanceCount::QualityScalableInt
+000018f4                Low 30
+000018f8                Medium 30
+000018fc                High 30
+00001900                Ultra 30
+00001904            CullDistance::QualityScalableFloat
+00001904                Low 0.0
+00001908                Medium 0.0
+0000190c                High 0.0
+00001910                Ultra 0.0
+00001914            StartDelay 0.0
+00001918            KillWhenDistanceCulled False
+00001919            ResetInstanceWhenStarted True
+0000191a            AttachToSpawnSurface False
+0000191b            Enable::QualityScalableBool
+0000191b                Low True
+0000191c                Medium True
+0000191d                High True
+0000191e                Ultra True
+0000191f            OverrideDrawOrder False
+00001920        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_hotmetaldebris/615e3b5ab2d7554a86a0399cc34c951c
+00001924        SpawnProbability::QualityScalableFloat
+00001924            Low 0.25
+00001928            Medium 0.5
+0000192c            High 1.0
+00001930            Ultra 1.0
+00001934        MaxNearbyInstanceCount 0
+00001938        NearbyRadius 1.0
+0000193c        EmitterTags *nullArray*
+00001940        DrawOrderSlot 128
+00001941        LocalPlayerOnly False
+00001950    EmitterEntityData 00000007
+00001950        $::ChildEffectEntityData
+00001950            $::SpatialEntityData
+00001950                $::EntityData
+00001950                    $::GameObjectData
+00001950                        $::DataBusPeer
+00001950                            $::GameDataContainer
+00001950                                $::DataContainer
+00001958                            Flags 30562770
+00001960                Transform::LinearTransform
+00001960                    right::Vec3
+00001960                        x 1.0
+00001964                        y 0.0
+00001968                        z 0.0
+00001970                    up::Vec3
+00001970                        x 0.0
+00001974                        y 1.0
+00001978                        z 0.0
+00001980                    forward::Vec3
+00001980                        x 0.0
+00001984                        y 0.0
+00001988                        z 1.0
+00001990                    trans::Vec3
+00001990                        x 0.0
+00001994                        y -0.10000000149
+00001998                        z 0.0
+000019a0            Components *nullArray*
+000019a4            MaxActiveInstanceCount::QualityScalableInt
+000019a4                Low 30
+000019a8                Medium 30
+000019ac                High 30
+000019b0                Ultra 30
+000019b4            CullDistance::QualityScalableFloat
+000019b4                Low 0.0
+000019b8                Medium 0.0
+000019bc                High 0.0
+000019c0                Ultra 0.0
+000019c4            StartDelay 0.0
+000019c8            KillWhenDistanceCulled False
+000019c9            ResetInstanceWhenStarted True
+000019ca            AttachToSpawnSurface False
+000019cb            Enable::QualityScalableBool
+000019cb                Low True
+000019cc                Medium True
+000019cd                High True
+000019ce                Ultra True
+000019cf            OverrideDrawOrder False
+000019d0        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_metaldebris/e5e253ba1ebf7347aa7f8cac05bf5c56
+000019d4        SpawnProbability::QualityScalableFloat
+000019d4            Low 1.0
+000019d8            Medium 1.0
+000019dc            High 1.0
+000019e0            Ultra 1.0
+000019e4        MaxNearbyInstanceCount 0
+000019e8        NearbyRadius 1.0
+000019ec        EmitterTags *nullArray*
+000019f0        DrawOrderSlot 128
+000019f1        LocalPlayerOnly False
+00001a00    EmitterEntityData 00000008
+00001a00        $::ChildEffectEntityData
+00001a00            $::SpatialEntityData
+00001a00                $::EntityData
+00001a00                    $::GameObjectData
+00001a00                        $::DataBusPeer
+00001a00                            $::GameDataContainer
+00001a00                                $::DataContainer
+00001a08                            Flags 31104732
+00001a10                Transform::LinearTransform
+00001a10                    right::Vec3
+00001a10                        x 1.0
+00001a14                        y 0.0
+00001a18                        z 0.0
+00001a20                    up::Vec3
+00001a20                        x 0.0
+00001a24                        y 1.0
+00001a28                        z 0.0
+00001a30                    forward::Vec3
+00001a30                        x 0.0
+00001a34                        y 0.0
+00001a38                        z 1.0
+00001a40                    trans::Vec3
+00001a40                        x 0.0
+00001a44                        y -0.10000000149
+00001a48                        z 0.0
+00001a50            Components *nullArray*
+00001a54            MaxActiveInstanceCount::QualityScalableInt
+00001a54                Low 30
+00001a58                Medium 30
+00001a5c                High 30
+00001a60                Ultra 30
+00001a64            CullDistance::QualityScalableFloat
+00001a64                Low 0.0
+00001a68                Medium 0.0
+00001a6c                High 0.0
+00001a70                Ultra 0.0
+00001a74            StartDelay 0.0
+00001a78            KillWhenDistanceCulled False
+00001a79            ResetInstanceWhenStarted True
+00001a7a            AttachToSpawnSurface False
+00001a7b            Enable::QualityScalableBool
+00001a7b                Low True
+00001a7c                Medium True
+00001a7d                High True
+00001a7e                Ultra True
+00001a7f            OverrideDrawOrder False
+00001a80        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_splinter_meshp_m_01/174d459fcc40ab42a69f2694b9df9f37
+00001a84        SpawnProbability::QualityScalableFloat
+00001a84            Low 1.0
+00001a88            Medium 1.0
+00001a8c            High 1.0
+00001a90            Ultra 1.0
+00001a94        MaxNearbyInstanceCount 0
+00001a98        NearbyRadius 1.0
+00001a9c        EmitterTags *nullArray*
+00001aa0        DrawOrderSlot 128
+00001aa1        LocalPlayerOnly False
+00001ab0    EmitterEntityData 00000009
+00001ab0        $::ChildEffectEntityData
+00001ab0            $::SpatialEntityData
+00001ab0                $::EntityData
+00001ab0                    $::GameObjectData
+00001ab0                        $::DataBusPeer
+00001ab0                            $::GameDataContainer
+00001ab0                                $::DataContainer
+00001ab8                            Flags 32506366
+00001ac0                Transform::LinearTransform
+00001ac0                    right::Vec3
+00001ac0                        x 0.953969120979
+00001ac4                        y 0.203522473574
+00001ac8                        z -0.220275998116
+00001ad0                    up::Vec3
+00001ad0                        x -0.198304638267
+00001ad4                        y 0.97907024622
+00001ad8                        z 0.0457894802094
+00001ae0                    forward::Vec3
+00001ae0                        x 0.224984884262
+00001ae4                        y -1.86264514923e-09
+00001ae8                        z 0.974362254143
+00001af0                    trans::Vec3
+00001af0                        x -0.0354423969984
+00001af4                        y 0.15000000596
+00001af8                        z 0.0
+00001b00            Components *nullArray*
+00001b04            MaxActiveInstanceCount::QualityScalableInt
+00001b04                Low 30
+00001b08                Medium 30
+00001b0c                High 30
+00001b10                Ultra 30
+00001b14            CullDistance::QualityScalableFloat
+00001b14                Low 0.0
+00001b18                Medium 0.0
+00001b1c                High 0.0
+00001b20                Ultra 0.0
+00001b24            StartDelay 0.0
+00001b28            KillWhenDistanceCulled False
+00001b29            ResetInstanceWhenStarted True
+00001b2a            AttachToSpawnSurface False
+00001b2b            Enable::QualityScalableBool
+00001b2b                Low True
+00001b2c                Medium True
+00001b2d                High True
+00001b2e                Ultra True
+00001b2f            OverrideDrawOrder False
+00001b30        Emitter ebx\fx\weapons\gadgets\emitters\em_crate_ammobox_destruction_ws_sparks/3c651b419be1924d91debdbe01be6c4f
+00001b34        SpawnProbability::QualityScalableFloat
+00001b34            Low 1.0
+00001b38            Medium 1.0
+00001b3c            High 1.0
+00001b40            Ultra 1.0
+00001b44        MaxNearbyInstanceCount 0
+00001b48        NearbyRadius 1.0
+00001b4c        EmitterTags *nullArray*
+00001b50        DrawOrderSlot 128
+00001b51        LocalPlayerOnly False
+00001b60    LightEffectEntityData 0000000a
+00001b60        $::ChildEffectEntityData
+00001b60            $::SpatialEntityData
+00001b60                $::EntityData
+00001b60                    $::GameObjectData
+00001b60                        $::DataBusPeer
+00001b60                            $::GameDataContainer
+00001b60                                $::DataContainer
+00001b68                            Flags 859134
+00001b70                Transform::LinearTransform
+00001b70                    right::Vec3
+00001b70                        x 0.999999940395
+00001b74                        y 0.0
+00001b78                        z -7.45058015283e-09
+00001b80                    up::Vec3
+00001b80                        x 0.0
+00001b84                        y 0.999999821186
+00001b88                        z 0.0
+00001b90                    forward::Vec3
+00001b90                        x 7.45057970875e-09
+00001b94                        y 0.0
+00001b98                        z 0.999999880791
+00001ba0                    trans::Vec3
+00001ba0                        x 0.0
+00001ba4                        y 0.25
+00001ba8                        z 0.0
+00001bb0            Components *nullArray*
+00001bb4            MaxActiveInstanceCount::QualityScalableInt
+00001bb4                Low 30
+00001bb8                Medium 30
+00001bbc                High 30
+00001bc0                Ultra 30
+00001bc4            CullDistance::QualityScalableFloat
+00001bc4                Low 0.0
+00001bc8                Medium 0.0
+00001bcc                High 0.0
+00001bd0                Ultra 0.0
+00001bd4            StartDelay 0.0
+00001bd8            KillWhenDistanceCulled False
+00001bd9            ResetInstanceWhenStarted True
+00001bda            AttachToSpawnSurface False
+00001bdb            Enable::QualityScalableBool
+00001bdb                Low True
+00001bdc                Medium True
+00001bdd                High True
+00001bde                Ultra True
+00001bdf            OverrideDrawOrder False
+00001be0        IntensityCurve::Vec4
+00001be0            x 0.0
+00001be4            y 0.0
+00001be8            z -4.82429504395
+00001bec            w 1.07736504078
+00001bf0        Light 0000000b
+00001bf4        Lifetime 0.25
+00001bf8        SpawnProbability::QualityScalableFloat
+00001bf8            Low 1.0
+00001bfc            Medium 1.0
+00001c00            High 1.0
+00001c04            Ultra 1.0
+00001c08        RandomIntensityMin 1.0
+00001c0c        RandomIntensityMax 1.0
+00001c10        IntensityMin 0.0
+00001c14        IntensityMax 1.0
+00001c18        Looping False
+00001c19        LocalPlayerOnly False
+00001c20    PointLightEntityData 0000000b
+00001c20        $::OriginalLocalLightEntityData
+00001c20            $::LocalLightEntityData
+00001c20                $::SpatialEntityData
+00001c20                    $::EntityData
+00001c20                        $::GameObjectData
+00001c20                            $::DataBusPeer
+00001c20                                $::GameDataContainer
+00001c20                                    $::DataContainer
+00001c28                                Flags 0
+00001c30                    Transform::LinearTransform
+00001c30                        right::Vec3
+00001c30                            x 1.0
+00001c34                            y 0.0
+00001c38                            z 0.0
+00001c40                        up::Vec3
+00001c40                            x 0.0
+00001c44                            y 1.0
+00001c48                            z 0.0
+00001c50                        forward::Vec3
+00001c50                            x 0.0
+00001c54                            y 0.0
+00001c58                            z 1.0
+00001c60                        trans::Vec3
+00001c60                            x 0.0
+00001c64                            y 0.0
+00001c68                            z 0.0
+00001c70                Enabled True
+00001c80            Color::Vec3
+00001c80                x 223.826370239
+00001c84                y 108.602745056
+00001c88                z 44.1757507324
+00001c90            EnlightenColorScale::Vec3
+00001c90                x 1.0
+00001c94                y 1.0
+00001c98                z 1.0
+00001ca0            ParticleColorScale::Vec3
+00001ca0                x 42.9659996033
+00001ca4                y 42.9659996033
+00001ca8                z 42.9659996033
+00001cb0            Radius 10.0
+00001cb4            Intensity 1000.0
+00001cb8            AttenuationOffset 5.0
+00001cbc            EnlightenColorMode EnlightenColorMode_Multiply
+00001cc0            DirectLightEnable True
+00001cc1            SpecularEnable True
+00001cc2            EnlightenEnable False
+00001cd0        Width 0.0
+00001cd4        TranslucencyAmbient 0.0
+00001cd8        TranslucencyScale 0.0
+00001cdc        TranslucencyPower 8.0
+00001ce0        TranslucencyDistortion 0.10000000149
+00001cf0    SoundEffectEntityData 0000000c
+00001cf0        $::ChildEffectEntityData
+00001cf0            $::SpatialEntityData
+00001cf0                $::EntityData
+00001cf0                    $::GameObjectData
+00001cf0                        $::DataBusPeer
+00001cf0                            $::GameDataContainer
+00001cf0                                $::DataContainer
+00001cf8                            Flags 1215677
+00001d00                Transform::LinearTransform
+00001d00                    right::Vec3
+00001d00                        x 1.0
+00001d04                        y 0.0
+00001d08                        z 0.0
+00001d10                    up::Vec3
+00001d10                        x 0.0
+00001d14                        y 1.0
+00001d18                        z 0.0
+00001d20                    forward::Vec3
+00001d20                        x 0.0
+00001d24                        y 0.0
+00001d28                        z 1.0
+00001d30                    trans::Vec3
+00001d30                        x 0.0
+00001d34                        y 0.0
+00001d38                        z 0.0
+00001d40            Components *nullArray*
+00001d44            MaxActiveInstanceCount::QualityScalableInt
+00001d44                Low 30
+00001d48                Medium 30
+00001d4c                High 30
+00001d50                Ultra 30
+00001d54            CullDistance::QualityScalableFloat
+00001d54                Low 0.0
+00001d58                Medium 0.0
+00001d5c                High 0.0
+00001d60                Ultra 0.0
+00001d64            StartDelay 0.0
+00001d68            KillWhenDistanceCulled False
+00001d69            ResetInstanceWhenStarted True
+00001d6a            AttachToSpawnSurface False
+00001d6b            Enable::QualityScalableBool
+00001d6b                Low True
+00001d6c                Medium True
+00001d6d                High True
+00001d6e                Ultra True
+00001d6f            OverrideDrawOrder False
+00001d70        Sound Sound/Core/Explosions/Explosion_Mini/59facbe058f01c4b847bccfc7b5f861b
+00001d74        UseDefaultStopEvent True

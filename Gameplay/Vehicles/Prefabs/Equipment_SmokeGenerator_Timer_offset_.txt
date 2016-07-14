@@ -1,0 +1,119 @@
+00000ef0    LogicPrefabBlueprint 911e381d0bd881e7abdd074319dda8a1
+00000ee8        $::PrefabBlueprint
+00000ee8            $::Blueprint
+00000ee8                $::EntityBusData
+00000ee8                    $::DataBusData
+00000ee8                        $::Asset
+00000ee8                            $::DataContainer
+00000ef0                            Name Gameplay/Vehicles/Prefabs/Equipment_SmokeGenerator_Timer
+00000ef4                        PropertyConnections::array
+00000f54                            member(0)::PropertyConnection
+00000f54                                Source 00000001
+00000f58                                Target 00000002
+00000f5c                                SourceFieldId 1828507227
+00000f60                                TargetFieldId 2068878889
+00000f64                                Flags 2
+00000f68                            member(1)::PropertyConnection
+00000f68                                Source 00000000
+00000f6c                                Target 00000001
+00000f70                                SourceFieldId 225375086
+00000f74                                TargetFieldId 1772829333
+00000f78                                Flags 18
+00000ef8                        LinkConnections *nullArray*
+00000efc                        Interface 00000001
+00000f00                        Flags 14
+00000f04                    EventConnections::array
+00000f80                        member(0)::EventConnection
+00000f80                            Source 00000001
+00000f84                            Target 00000002
+00000f88                            SourceEvent::EventSpec
+00000f88                                Id -1543942718
+00000f8c                            TargetEvent::EventSpec
+00000f8c                                Id 230748069
+00000f90                            TargetType EventConnectionTargetType_Client
+00000f94                        member(1)::EventConnection
+00000f94                            Source 00000002
+00000f98                            Target 00000001
+00000f9c                            SourceEvent::EventSpec
+00000f9c                                Id 1975570652
+00000fa0                            TargetEvent::EventSpec
+00000fa0                                Id -412266294
+00000fa4                            TargetType EventConnectionTargetType_Client
+00000fa8                        member(2)::EventConnection
+00000fa8                            Source 00000002
+00000fac                            Target 00000000
+00000fb0                            SourceEvent::EventSpec
+00000fb0                                Id 1975570652
+00000fb4                            TargetEvent::EventSpec
+00000fb4                                Id 668205626
+00000fb8                            TargetType EventConnectionTargetType_Client
+00000fbc                        member(3)::EventConnection
+00000fbc                            Source 00000002
+00000fc0                            Target 00000002
+00000fc4                            SourceEvent::EventSpec
+00000fc4                                Id 1975570652
+00000fc8                            TargetEvent::EventSpec
+00000fc8                                Id 2089401213
+00000fcc                            TargetType EventConnectionTargetType_Client
+00000fd0                        member(4)::EventConnection
+00000fd0                            Source 00000002
+00000fd4                            Target 00000002
+00000fd8                            SourceEvent::EventSpec
+00000fd8                                Id 1975570652
+00000fdc                            TargetEvent::EventSpec
+00000fdc                                Id 229946160
+00000fe0                            TargetType EventConnectionTargetType_Client
+00000fe4                        member(5)::EventConnection
+00000fe4                            Source 00000001
+00000fe8                            Target 00000000
+00000fec                            SourceEvent::EventSpec
+00000fec                                Id -1543942718
+00000ff0                            TargetEvent::EventSpec
+00000ff0                                Id -1541066415
+00000ff4                            TargetType EventConnectionTargetType_Client
+00000f08            Objects::array
+00000ffc                member(0) 00000002
+00001000                member(1) 00000000
+00000f0c            TimeDeltaType TimeDeltaType_None
+00000f10    BoolEntityData 00000000
+00000f08        $::EntityData
+00000f08            $::GameObjectData
+00000f08                $::DataBusPeer
+00000f08                    $::GameDataContainer
+00000f08                        $::DataContainer
+00000f10                    Flags 39272689
+00000f14        Realm Realm_Client
+00000f18        DefaultValue False
+00000f1c    InterfaceDescriptorData 00000001
+00000f14        $::DynamicDataContainer
+00000f14            $::DataContainer
+00000f1c            Fields::array
+00001008                member(0)::DataField
+00001008                    Value Float32 7
+0000100c                    ValueRef *nullGuid*
+00001010                    Id 1828507227
+00001014                    AccessType FieldAccessType_Target
+00001018                member(1)::DataField
+00001018                    Value *nullString*
+0000101c                    ValueRef *nullGuid*
+00001020                    Id 1772829333
+00001024                    AccessType FieldAccessType_Source
+00000f20        InputEvents::array
+0000102c            member(0)::DynamicEvent
+0000102c                Id -1543942718
+00000f24        OutputEvents::array
+00001034            member(0)::DynamicEvent
+00001034                Id -412266294
+00000f28        InputLinks *nullArray*
+00000f2c        OutputLinks *nullArray*
+00000f30    StopWatchEntityData 00000002
+00000f28        $::EntityData
+00000f28            $::GameObjectData
+00000f28                $::DataBusPeer
+00000f28                    $::GameDataContainer
+00000f28                        $::DataContainer
+00000f30                    Flags 183512641
+00000f34        Realm Realm_Client
+00000f38        UpdatePass UpdatePass_PreSim
+00000f3c        Multiplier 1.0
+00000f40        TriggerOnTime 0.0

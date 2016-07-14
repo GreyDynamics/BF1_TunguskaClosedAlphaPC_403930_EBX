@@ -1,0 +1,574 @@
+00003130    ObjectBlueprint cc8c753c117a6f4eb065bc43d2ec44b6
+00003128        $::Blueprint
+00003128            $::EntityBusData
+00003128                $::DataBusData
+00003128                    $::Asset
+00003128                        $::DataContainer
+00003130                        Name Gameplay/Vehicles/GBR_RNAS_ArmoredCar/GBR_RNAS_ArmoredCar_wreck
+00003134                    PropertyConnections *nullArray*
+00003138                    LinkConnections *nullArray*
+0000313c                    Interface *nullGuid*
+00003140                    Flags 1
+00003144                EventConnections::array
+00003894                    member(0)::EventConnection
+00003894                        Source 00000009
+00003898                        Target 00000003
+0000389c                        SourceEvent::EventSpec
+0000389c                            Id 193453899
+000038a0                        TargetEvent::EventSpec
+000038a0                            Id 230748069
+000038a4                        TargetType EventConnectionTargetType_NetworkedClient
+00003148        Object 563319fd68319681ae085ad7c7def97c
+00003160    BangerEntityData 563319fd68319681ae085ad7c7def97c
+00003160        $::DynamicGamePhysicsEntityData
+00003160            $::GamePhysicsEntityData
+00003160                $::GameComponentEntityData
+00003160                    $::ComponentEntityData
+00003160                        $::SpatialEntityData
+00003160                            $::EntityData
+00003160                                $::GameObjectData
+00003160                                    $::DataBusPeer
+00003160                                        $::GameDataContainer
+00003160                                            $::DataContainer
+00003168                                        Flags 521745238
+00003170                            Transform::LinearTransform
+00003170                                right::Vec3
+00003170                                    x 1.0
+00003174                                    y 0.0
+00003178                                    z 0.0
+00003180                                up::Vec3
+00003180                                    x 0.0
+00003184                                    y 1.0
+00003188                                    z 0.0
+00003190                                forward::Vec3
+00003190                                    x 0.0
+00003194                                    y 0.0
+00003198                                    z 1.0
+000031a0                                trans::Vec3
+000031a0                                    x 0.0
+000031a4                                    y 0.0
+000031a8                                    z 0.0
+000031b0                        Components::array
+000038ac                            member(0) 00000001
+000038b0                            member(1) 00000006
+000038b4                            member(2) 00000009
+000038b8                            member(3) 00000002
+000038bc                            member(4) 00000000
+000031b4                        ClientRuntimeComponentCount 4
+000031b5                        ServerRuntimeComponentCount 4
+000031b6                        ClientRuntimeTransformationCount 2
+000031b7                        ServerRuntimeTransformationCount 1
+000031c0                    Enabled True
+000031c1                    EnableOutOfBoundsCheck True
+000031d0                PhysicsData 00000007
+000031e0        Mesh gameplay/vehicles/gbr_rnas_armoredcar/gbr_rnas_armoredcar_wreck_Mesh/d3b511f5ec9c9dba36d0c08db71fc853
+000031e4        Explosion *nullGuid*
+000031e8        TimeToLive 60.0
+000031ec        DestructiblePartCount 1
+000031f0        CullDistanceScale 1.0
+000031f4        VisualCullScreenArea 0.00999999977648
+000031f8        UseVariableNetworkFrequency True
+00003210    RigidBodyData d1f315a20d1619177be6c403089d6506
+00003210        $::PhysicsBodyData
+00003210            $::EntityData
+00003210                $::GameObjectData
+00003210                    $::DataBusPeer
+00003210                        $::GameDataContainer
+00003210                            $::DataContainer
+00003218                        Flags 0
+0000321c            Realm Realm_ClientAndServer
+00003220            CollisionLayer RigidBodyCollisionLayer_DynamicLayer
+00003224            Asset Gameplay/Vehicles/GBR_RNAS_ArmoredCar/GBR_RNAS_ArmoredCar_wreck_Physics_Win32/3a6d819a91fe55a0c7a5eef8e8dad519
+00003228            AssetIndex 0
+00003229            TransformIndex 0
+0000322a            WorldIndex 0
+0000322b            CollisionRootShapeIndex 0
+0000322c            RaycastRootShapeIndex 1
+0000322d            AddToSpatialQueryManager True
+00003230        CenterOfMass::Vec3
+00003230            x 0.0
+00003234            y 0.0
+00003238            z 0.0
+00003240        InertiaModifier::Vec3
+00003240            x 1.0
+00003244            y 1.0
+00003248            z 1.0
+00003250        Transform::LinearTransform
+00003250            right::Vec3
+00003250                x 1.0
+00003254                y 0.0
+00003258                z 0.0
+00003260            up::Vec3
+00003260                x 0.0
+00003264                y 1.0
+00003268                z 0.0
+00003270            forward::Vec3
+00003270                x 0.0
+00003274                y 0.0
+00003278                z 1.0
+00003280            trans::Vec3
+00003280                x 0.0
+00003284                y 0.0
+00003288                z 0.0
+00003290        KeyframeTransform::LinearTransform
+00003290            right::Vec3
+00003290                x 1.0
+00003294                y 0.0
+00003298                z 0.0
+000032a0            up::Vec3
+000032a0                x 0.0
+000032a4                y 1.0
+000032a8                z 0.0
+000032b0            forward::Vec3
+000032b0                x 0.0
+000032b4                y 0.0
+000032b8                z 1.0
+000032c0            trans::Vec3
+000032c0                x 0.0
+000032c4                y 0.0
+000032c8                z 0.0
+000032d0        RigidBodyType RBTypeCollision
+000032d4        Mass 2000.0
+000032d8        Material::MaterialDecl
+000032d8            Packed 32768
+000032dc        DynamicFriction -1.0
+000032e0        StaticFriction -1.0
+000032e4        Restitution -1.0
+000032e8        AngularVelocityDamping -1.0
+000032ec        LinearVelocityDamping -1.0
+000032f0        MotionType RigidBodyMotionType_Dynamic
+000032f4        QualityType RigidBodyQualityType_Dynamic
+000032f8        SystemGroup 0
+000032fc        SubSystemId 0
+00003300        SubSystemIdNoCollide 0
+00003304        PartIndices::array
+000038c4            member(0) 0
+00003308        FloatPhysics *nullGuid*
+0000330c        ComputeCenterOfMass True
+0000330d        IsRootController True
+00003310    BangerHealthComponentData 00000000
+00003310        $::GameHealthComponentData
+00003310            $::HealthComponentData
+00003310                $::ComponentData
+00003310                    $::GameObjectData
+00003310                        $::DataBusPeer
+00003310                            $::GameDataContainer
+00003310                                $::DataContainer
+00003318                            Flags 10442451
+0000331c                    Components *nullArray*
+00003320                    Transform::LinearTransform
+00003320                        right::Vec3
+00003320                            x 1.0
+00003324                            y 0.0
+00003328                            z 0.0
+00003330                        up::Vec3
+00003330                            x 0.0
+00003334                            y 1.0
+00003338                            z 0.0
+00003340                        forward::Vec3
+00003340                            x 0.0
+00003344                            y 0.0
+00003348                            z 1.0
+00003350                        trans::Vec3
+00003350                            x 0.0
+00003354                            y 0.0
+00003358                            z 0.0
+00003360                    Excluded False
+00003370    BangerHealthModuleData 00000001
+00003370        $::GameComponentData
+00003370            $::ComponentData
+00003370                $::GameObjectData
+00003370                    $::DataBusPeer
+00003370                        $::GameDataContainer
+00003370                            $::DataContainer
+00003378                        Flags 33293900
+0000337c                Components *nullArray*
+00003380                Transform::LinearTransform
+00003380                    right::Vec3
+00003380                        x 1.0
+00003384                        y 0.0
+00003388                        z 0.0
+00003390                    up::Vec3
+00003390                        x 0.0
+00003394                        y 1.0
+00003398                        z 0.0
+000033a0                    forward::Vec3
+000033a0                        x 0.0
+000033a4                        y 0.0
+000033a8                        z 1.0
+000033b0                    trans::Vec3
+000033b0                        x 0.0
+000033b4                        y 0.0
+000033b8                        z 0.0
+000033c0                Excluded False
+000033d0        Health 100.0
+000033d4        MaterialPair::MaterialDecl
+000033d4            Packed 1006665760
+000033e0    BangerPhysicsComponentData 00000002
+000033e0        $::GamePhysicsComponentData
+000033e0            $::PhysicsComponentData
+000033e0                $::ComponentData
+000033e0                    $::GameObjectData
+000033e0                        $::DataBusPeer
+000033e0                            $::GameDataContainer
+000033e0                                $::DataContainer
+000033e8                            Flags 27048076
+000033ec                    Components *nullArray*
+000033f0                    Transform::LinearTransform
+000033f0                        right::Vec3
+000033f0                            x 1.0
+000033f4                            y 0.0
+000033f8                            z 0.0
+00003400                        up::Vec3
+00003400                            x 0.0
+00003404                            y 1.0
+00003408                            z 0.0
+00003410                        forward::Vec3
+00003410                            x 0.0
+00003414                            y 0.0
+00003418                            z 1.0
+00003420                        trans::Vec3
+00003420                            x 0.0
+00003424                            y 0.0
+00003428                            z 0.0
+00003430                    Excluded False
+00003440                PhysicsBodies::array
+000038cc                    member(0) d1f315a20d1619177be6c403089d6506
+000038d0                    member(1) 00000008
+00003444                PhysicsConstraints *nullArray*
+00003448                Parts::array
+000038e0                    member(0)::PhysicsPartData
+000038e0                        Aabb::AxisAlignedBox
+000038e0                            min::Vec3
+000038e0                                x 0.0
+000038e4                                y 0.0
+000038e8                                z 0.0
+000038f0                            max::Vec3
+000038f0                                x 0.0
+000038f4                                y 0.0
+000038f8                                z 0.0
+0000344c                InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+00003450                MovableParts False
+00003460            Realm Realm_ClientAndServer
+00003464            EffectParameters *nullArray*
+00003470        ImpulseInput::Vec3
+00003470            x 0.0
+00003474            y 0.0
+00003478            z 0.0
+00003480    EffectComponentData 00000003
+00003480        $::GameComponentData
+00003480            $::ComponentData
+00003480                $::GameObjectData
+00003480                    $::DataBusPeer
+00003480                        $::GameDataContainer
+00003480                            $::DataContainer
+00003488                        Flags 36624185
+0000348c                Components *nullArray*
+00003490                Transform::LinearTransform
+00003490                    right::Vec3
+00003490                        x 1.0
+00003494                        y 6.80370744553e-17
+00003498                        z -2.71050543121e-18
+000034a0                    up::Vec3
+000034a0                        x -6.80370744553e-17
+000034a4                        y 1.0
+000034a8                        z 1.38777878078e-17
+000034b0                    forward::Vec3
+000034b0                        x 2.71050543121e-18
+000034b4                        y -1.38777878078e-17
+000034b8                        z 1.0
+000034c0                    trans::Vec3
+000034c0                        x -5.29411407727e-17
+000034c4                        y 0.831107318401
+000034c8                        z 1.24012927483e-17
+000034d0                Excluded False
+000034e0        Effect FX/Vehicles/Destruction/FX_ArmoredCar_Destruction/7021b898b35f5748957251d9e5b3fa41
+000034e4        EmitterParameter1 0.0
+000034e8        EmitterParameter2 0.0
+000034ec        EmitterParameter3 0.0
+000034f0        OverrideHeight 0.0
+000034f4        MaxInstances 1
+000034f8        EffectParameters *nullArray*
+000034fc        Attach *nullGuid*
+00003500        AutoStart False
+00003501        SnapToWaterSurface False
+00003502        IsFirstPerson False
+00003503        UpdateTransformOnPropertyChanged False
+00003510    EffectReferenceObjectData 00000004
+00003510        $::SpatialReferenceObjectData
+00003510            $::ReferenceObjectData
+00003510                $::GameObjectData
+00003510                    $::DataBusPeer
+00003510                        $::GameDataContainer
+00003510                            $::DataContainer
+00003518                        Flags 0
+0000351c                Blueprint FX/Vehicles/Wreck/FX_Land_WreckFire_Medium/882abdf616dac14da21871c0a4ebf7ab
+00003520                BlueprintTransform::LinearTransform
+00003520                    right::Vec3
+00003520                        x 1.0
+00003524                        y -6.80370744553e-17
+00003528                        z 2.71050543121e-18
+00003530                    up::Vec3
+00003530                        x 6.80370744553e-17
+00003534                        y 1.0
+00003538                        z -1.38777878078e-17
+00003540                    forward::Vec3
+00003540                        x -2.71050543121e-18
+00003544                        y 1.38777878078e-17
+00003548                        z 1.0
+00003550                    trans::Vec3
+00003550                        x -3.60497222351e-18
+00003554                        y 0.817219793797
+00003558                        z -8.67361737988e-19
+00003560                ObjectVariation *nullGuid*
+00003564                StreamRealm StreamRealm_None
+00003568                RadiosityTypeOverride RadiosityTypeOverride_None
+0000356c                LightmapResolutionScale 1
+00003570                RenderingOverrides::RenderingOverrides
+00003570                    ShadowEnable RenderingOverride_Inherit
+00003574                    DynamicReflectionEnable RenderingOverride_Inherit
+00003578                    StaticReflectionEnable RenderingOverride_Inherit
+0000357c                ForceSeparateEnlightenSystem False
+0000357d                CastSunShadowEnable True
+0000357e                CastReflectionEnable True
+0000357f                CastEnvmapEnable True
+00003580                Excluded False
+00003590            LocalPlayerId LocalPlayerId_Invalid
+000035a0        EffectParameters *nullArray*
+000035a4        AutoStart True
+000035a5        AffectedByLightprobeVisibility False
+000035b0    EffectReferenceObjectData 00000005
+000035b0        $::SpatialReferenceObjectData
+000035b0            $::ReferenceObjectData
+000035b0                $::GameObjectData
+000035b0                    $::DataBusPeer
+000035b0                        $::GameDataContainer
+000035b0                            $::DataContainer
+000035b8                        Flags 0
+000035bc                Blueprint FX/Vehicles/Wreck/FX_Land_WreckDestruction_Medium/600eaea06d1a0a44abf442e1496f316e
+000035c0                BlueprintTransform::LinearTransform
+000035c0                    right::Vec3
+000035c0                        x 1.0
+000035c4                        y -6.80370744553e-17
+000035c8                        z 2.71050543121e-18
+000035d0                    up::Vec3
+000035d0                        x 6.80370744553e-17
+000035d4                        y 1.0
+000035d8                        z -1.38777878078e-17
+000035e0                    forward::Vec3
+000035e0                        x -2.71050543121e-18
+000035e4                        y 1.38777878078e-17
+000035e8                        z 1.0
+000035f0                    trans::Vec3
+000035f0                        x -3.60496974197e-18
+000035f4                        y 0.911384701729
+000035f8                        z -0.273799777031
+00003600                ObjectVariation *nullGuid*
+00003604                StreamRealm StreamRealm_None
+00003608                RadiosityTypeOverride RadiosityTypeOverride_None
+0000360c                LightmapResolutionScale 1
+00003610                RenderingOverrides::RenderingOverrides
+00003610                    ShadowEnable RenderingOverride_Inherit
+00003614                    DynamicReflectionEnable RenderingOverride_Inherit
+00003618                    StaticReflectionEnable RenderingOverride_Inherit
+0000361c                ForceSeparateEnlightenSystem False
+0000361d                CastSunShadowEnable True
+0000361e                CastReflectionEnable True
+0000361f                CastEnvmapEnable True
+00003620                Excluded False
+00003630            LocalPlayerId LocalPlayerId_Invalid
+00003640        EffectParameters *nullArray*
+00003644        AutoStart True
+00003645        AffectedByLightprobeVisibility False
+00003650    PartComponentData 00000006
+00003650        $::GameComponentData
+00003650            $::ComponentData
+00003650                $::GameObjectData
+00003650                    $::DataBusPeer
+00003650                        $::GameDataContainer
+00003650                            $::DataContainer
+00003658                        Flags 19218488
+0000365c                Components::array
+00003904                    member(0) 00000003
+00003660                Transform::LinearTransform
+00003660                    right::Vec3
+00003660                        x 1.0
+00003664                        y 0.0
+00003668                        z 0.0
+00003670                    up::Vec3
+00003670                        x 0.0
+00003674                        y 1.0
+00003678                        z 0.0
+00003680                    forward::Vec3
+00003680                        x 0.0
+00003684                        y 0.0
+00003688                        z 1.0
+00003690                    trans::Vec3
+00003690                        x 0.0
+00003694                        y 0.0
+00003698                        z 0.0
+000036a0                Excluded False
+000036b0        HealthStates::array
+0000390c            member(0) 0000000a
+00003910            member(1) 0000000b
+000036b4        PartLinks *nullArray*
+000036b8        IsSupported False
+000036b9        IsFragile False
+000036ba        AffectsBoundingBox True
+000036bb        IsNetworkable True
+000036bc        IsWindow False
+000036bd        AnimatePhysics False
+000036c0    PhysicsEntityData 00000007
+000036c0        $::EntityData
+000036c0            $::GameObjectData
+000036c0                $::DataBusPeer
+000036c0                    $::GameDataContainer
+000036c0                        $::DataContainer
+000036c8                    Flags 0
+000036cc        Asset Gameplay/Vehicles/GBR_RNAS_ArmoredCar/GBR_RNAS_ArmoredCar_wreck_Physics_Win32/3a6d819a91fe55a0c7a5eef8e8dad519
+000036d0        InertiaModifier::Vec3
+000036d0            x 1.0
+000036d4            y 1.0
+000036d8            z 1.0
+000036e0        RigidBodies *nullArray*
+000036e4        FloatPhysics *nullGuid*
+000036e8        Mass 1000010.0
+000036ec        AngularVelocityDamping -1.0
+000036f0        LinearVelocityDamping -1.0
+000036f4        Proximity *nullGuid*
+000036f8        Constraints *nullArray*
+000036fc        MovableParts False
+000036fd        IsComposite False
+00003700    RigidBodyData 00000008
+00003700        $::PhysicsBodyData
+00003700            $::EntityData
+00003700                $::GameObjectData
+00003700                    $::DataBusPeer
+00003700                        $::GameDataContainer
+00003700                            $::DataContainer
+00003708                        Flags 0
+0000370c            Realm Realm_Client
+00003710            CollisionLayer RigidBodyCollisionLayer_DynamicLayer
+00003714            Asset Gameplay/Vehicles/GBR_RNAS_ArmoredCar/GBR_RNAS_ArmoredCar_wreck_Physics_Win32/3a6d819a91fe55a0c7a5eef8e8dad519
+00003718            AssetIndex 0
+00003719            TransformIndex 0
+0000371a            WorldIndex 1
+0000371b            CollisionRootShapeIndex 0
+0000371c            RaycastRootShapeIndex 1
+0000371d            AddToSpatialQueryManager False
+00003720        CenterOfMass::Vec3
+00003720            x 0.0
+00003724            y 0.0
+00003728            z 0.0
+00003730        InertiaModifier::Vec3
+00003730            x 1.0
+00003734            y 1.0
+00003738            z 1.0
+00003740        Transform::LinearTransform
+00003740            right::Vec3
+00003740                x 1.0
+00003744                y 0.0
+00003748                z 0.0
+00003750            up::Vec3
+00003750                x 0.0
+00003754                y 1.0
+00003758                z 0.0
+00003760            forward::Vec3
+00003760                x 0.0
+00003764                y 0.0
+00003768                z 1.0
+00003770            trans::Vec3
+00003770                x 0.0
+00003774                y 0.0
+00003778                z 0.0
+00003780        KeyframeTransform::LinearTransform
+00003780            right::Vec3
+00003780                x 1.0
+00003784                y 0.0
+00003788                z 0.0
+00003790            up::Vec3
+00003790                x 0.0
+00003794                y 1.0
+00003798                z 0.0
+000037a0            forward::Vec3
+000037a0                x 0.0
+000037a4                y 0.0
+000037a8                z 1.0
+000037b0            trans::Vec3
+000037b0                x 0.0
+000037b4                y 0.0
+000037b8                z 0.0
+000037c0        RigidBodyType RBTypeProxy
+000037c4        Mass 2000.0
+000037c8        Material::MaterialDecl
+000037c8            Packed 32768
+000037cc        DynamicFriction -1.0
+000037d0        StaticFriction -1.0
+000037d4        Restitution -1.0
+000037d8        AngularVelocityDamping -1.0
+000037dc        LinearVelocityDamping -1.0
+000037e0        MotionType RigidBodyMotionType_Keyframed
+000037e4        QualityType RigidBodyQualityType_Dynamic
+000037e8        SystemGroup 0
+000037ec        SubSystemId 0
+000037f0        SubSystemIdNoCollide 0
+000037f4        PartIndices::array
+00003918            member(0) 0
+000037f8        FloatPhysics *nullGuid*
+000037fc        ComputeCenterOfMass True
+000037fd        IsRootController True
+00003800    DelayEntityData 00000009
+000037f8        $::EntityData
+000037f8            $::GameObjectData
+000037f8                $::DataBusPeer
+000037f8                    $::GameDataContainer
+000037f8                        $::DataContainer
+00003800                    Flags 7492233
+00003804        Delay 0.0
+00003808        Realm Realm_Server
+0000380c        TimeDeltaType TimeDeltaType_World
+00003810        AutoStart True
+00003811        RunOnce False
+00003812        RemoveDuplicateEvents True
+00003814    HealthStateData 0000000a
+0000380c        $::DataContainer
+00003814        Objects::array
+00003920            member(0) 00000004
+00003818        LoosePartPhysics *nullArray*
+0000381c        SpawnedBangerBlueprint *nullGuid*
+00003820        SpawnedBangerImpulseParams *nullGuid*
+00003824        Health 9.99999944212e+27
+00003828        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003828            DebrisCullDistance 30.0
+0000382c            DebrisCullDistanceOutsideView 5.0
+00003830            SoundCullDistance 0.0
+00003834            SoundCullDistanceOutsideView 0.0
+00003838            EffectCullDistance 0.0
+0000383c            EffectCullDistanceOutsideView 0.0
+00003840        PartIndex 0
+00003844        BangerInheritsObjectVariation False
+00003845        SpawnedObjectsInheritObjectVariation False
+00003846        CopyDamageToBanger True
+00003847        PhysicsEnabled True
+00003848        CanSupportOtherParts True
+0000384c    HealthStateData 0000000b
+00003844        $::DataContainer
+0000384c        Objects::array
+00003928            member(0) 00000005
+00003850        LoosePartPhysics *nullArray*
+00003854        SpawnedBangerBlueprint *nullGuid*
+00003858        SpawnedBangerImpulseParams *nullGuid*
+0000385c        Health 0.0
+00003860        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003860            DebrisCullDistance 30.0
+00003864            DebrisCullDistanceOutsideView 5.0
+00003868            SoundCullDistance 0.0
+0000386c            SoundCullDistanceOutsideView 0.0
+00003870            EffectCullDistance 0.0
+00003874            EffectCullDistanceOutsideView 0.0
+00003878        PartIndex 4294967295
+0000387c        BangerInheritsObjectVariation False
+0000387d        SpawnedObjectsInheritObjectVariation False
+0000387e        CopyDamageToBanger True
+0000387f        PhysicsEnabled True
+00003880        CanSupportOtherParts False

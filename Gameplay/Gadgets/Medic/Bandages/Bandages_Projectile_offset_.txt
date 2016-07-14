@@ -1,0 +1,655 @@
+000044e0    ProjectileBlueprint 5c84a8a638324c48ab9ae29dea919e3c
+000044d8        $::ObjectBlueprint
+000044d8            $::Blueprint
+000044d8                $::EntityBusData
+000044d8                    $::DataBusData
+000044d8                        $::Asset
+000044d8                            $::DataContainer
+000044e0                            Name Gameplay/Gadgets/Medic/Bandages/Bandages_Projectile
+000044e4                        PropertyConnections *nullArray*
+000044e8                        LinkConnections *nullArray*
+000044ec                        Interface *nullGuid*
+000044f0                        Flags 1
+000044f4                    EventConnections *nullArray*
+000044f8            Object 7783ceca01c03c4691f615bcdedffef5
+000044fc        TimeDeltaType TimeDeltaType_None
+00004510    SupplySphereEntityData 7783ceca01c03c4691f615bcdedffef5
+00004510        $::ExplosionPackEntityData
+00004510            $::GhostedProjectileEntityData
+00004510                $::MeshProjectileEntityData
+00004510                    $::ProjectileEntityData
+00004510                        $::GamePhysicsEntityData
+00004510                            $::GameComponentEntityData
+00004510                                $::ComponentEntityData
+00004510                                    $::SpatialEntityData
+00004510                                        $::EntityData
+00004510                                            $::GameObjectData
+00004510                                                $::DataBusPeer
+00004510                                                    $::GameDataContainer
+00004510                                                        $::DataContainer
+00004518                                                    Flags 516850551
+00004520                                        Transform::LinearTransform
+00004520                                            right::Vec3
+00004520                                                x 1.0
+00004524                                                y 0.0
+00004528                                                z 0.0
+00004530                                            up::Vec3
+00004530                                                x 0.0
+00004534                                                y 1.0
+00004538                                                z 0.0
+00004540                                            forward::Vec3
+00004540                                                x 0.0
+00004544                                                y 0.0
+00004548                                                z 1.0
+00004550                                            trans::Vec3
+00004550                                                x 0.0
+00004554                                                y 0.0
+00004558                                                z 0.0
+00004560                                    Components::array
+00004d34                                        member(0) 00000003
+00004d38                                        member(1) 00000000
+00004d3c                                        member(2) 00000001
+00004d40                                        member(3) 00000002
+00004d44                                        member(4) 00000006
+00004564                                    ClientRuntimeComponentCount 4
+00004565                                    ServerRuntimeComponentCount 5
+00004566                                    ClientRuntimeTransformationCount 1
+00004567                                    ServerRuntimeTransformationCount 1
+00004570                                Enabled True
+00004571                                EnableOutOfBoundsCheck False
+00004580                            PhysicsData 00000004
+00004590                        InitialSpeed 0.0
+00004594                        TimeToLive 0.0
+00004598                        MaxCount 3
+0000459c                        InitMeshHideTime 0.0
+000045a0                        VisualConvergeDistance 30.0
+000045a4                        VisualConvergenceDelay 0.10000000149
+000045a8                        VisualConvergenceDuration 0.10000000149
+000045ac                        ProxyVisualConvergenceDelay 0.0
+000045b0                        ProxyVisualConvergenceDuration 0.300000011921
+000045b4                        Explosion 00000007
+000045b8                        SuppressionData *nullGuid*
+000045bc                        AmmunitionType *nullString*
+000045c0                        MaterialPair::MaterialDecl
+000045c0                            Packed 1393393664
+000045c4                        HitReactionWeaponType AntHitReactionWeaponType_AssaultRifle
+000045c8                        VoiceOverInfo *nullGuid*
+000045cc                        DetonateOnTimeout False
+000045cd                        ServerProjectileDisabled False
+000045ce                        HideOnDetonation False
+000045d0                    InitialAngularVelocity::Vec3
+000045d0                        x 0.0
+000045d4                        y 0.0
+000045d8                        z 0.0
+000045e0                    Mesh gameplay/gadgets/medic/bandages/bandages_projectile_Mesh/a30a6e9e3ac55a4496932b183b5bfa50
+000045e4                    TrailEffect *nullGuid*
+000045e8                    TrailEffect1p *nullGuid*
+000045ec                    InstantAttachableTestDistance 3.0
+000045f0                    InstantAttachableVisualConvergenceDelay -1.0
+000045f4                    InstantAttachableVisualConvergenceDuration -1.0
+000045f8                    MaxAttachableInclination 25.0
+000045fc                    UnspawnAfterDetonationDelay 0.0
+00004600                    IsAttachable False
+00004601                    InstantAttachableTestUnderReticule True
+00004602                    ExtraDamping False
+00004610                ProxyConvergenceDelay 0.0
+00004614                ProxyConvergenceDuration 0.300000011921
+00004618                ProxyConvergenceInstantOnAttach True
+00004619                ForceProxyConvergence True
+0000461a                ConvergenceUsingInitialSpeed False
+00004620            ExplosionOffsetTransform::LinearTransform
+00004620                right::Vec3
+00004620                    x 1.0
+00004624                    y 0.0
+00004628                    z 0.0
+00004630                up::Vec3
+00004630                    x 0.0
+00004634                    y 1.0
+00004638                    z 0.0
+00004640                forward::Vec3
+00004640                    x 0.0
+00004644                    y 0.0
+00004648                    z 1.0
+00004650                trans::Vec3
+00004650                    x 0.0
+00004654                    y 0.0
+00004658                    z 0.0
+00004660            WorldIconOffset::Vec3
+00004660                x 0.0
+00004664                y 0.0500000007451
+00004668                z 0.0
+00004670            SoldierDetonationData::SoldierDetonationData
+00004670                Angle 30.0
+00004674                Radius 1.0
+00004678                SoldierDetonationActivationDelay 0.0
+0000467c                MinSpeedForActivation 0.0
+00004680                HasSoldierDetonation False
+00004681                UseAngle False
+00004684            ExplosionPackTriggers *nullArray*
+00004688            VehicleDetonationSampleInterval 0.20000000298
+0000468c            SoldierDetonationSampleInterval 0.230000004172
+00004690            GravityScale 1.0
+00004694            OnCollisionLinearVelocityDamping 0.0
+00004698            TimeToLiveOnPlayerDeath 10.0
+0000469c            Health 10.0
+000046a0            SpottedTime 30.0
+000046a4            DefuseRadius 2.0
+000046a8            IconName pickups.medbag
+000046ac            IconBehavior UI/Static/GroundItemsIconBehavior/11dac6d4a9a6ab39a328341e7cfdeb20
+000046b0            AlignWithGroundRayLength 5.0
+000046b4            IsDestructible True
+000046b5            ReceivesExplosionDamage True
+000046b6            ShowInSpectatorUI False
+000046b7            AlignWithGround False
+000046c0        SupplyData::SupplyData
+000046c0            Healing 00000009
+000046c4            Ammo 00000008
+000046c8            ExclusionTimeout 0.5
+000046cc            ExcludeDamagedSoldierTime 1.0
+000046d0            ExcludeSuppressedSoldierTime 0.0
+000046d4            SupplySoldiers True
+000046d5            SupplyVehicles False
+000046d6            TeamSpecific False
+000046d7            ExcludeSelf True
+000046d8            ExcludeSoldiersUnderwater True
+000046d9            ExcludeSoldierIfInMelee True
+000046dc        ForceUnspawnIfTargeted True
+000046f0    RigidBodyData fabb44492d1aaf4ca66b07488d85244e
+000046f0        $::PhysicsBodyData
+000046f0            $::EntityData
+000046f0                $::GameObjectData
+000046f0                    $::DataBusPeer
+000046f0                        $::GameDataContainer
+000046f0                            $::DataContainer
+000046f8                        Flags 0
+000046fc            Realm Realm_Server
+00004700            CollisionLayer RigidBodyCollisionLayer_DynamicNoCharacterCollisionLayer
+00004704            Asset Gameplay/Gadgets/Medic/Bandages/Bandages_Projectile_Physics_Win32/94961070791ed3015eca157a4bd181c3
+00004708            AssetIndex 0
+00004709            TransformIndex 0
+0000470a            WorldIndex 0
+0000470b            CollisionRootShapeIndex 0
+0000470c            RaycastRootShapeIndex 0
+0000470d            AddToSpatialQueryManager True
+00004710        CenterOfMass::Vec3
+00004710            x 0.0
+00004714            y 0.0
+00004718            z 0.0
+00004720        InertiaModifier::Vec3
+00004720            x 1.0
+00004724            y 1.0
+00004728            z 1.0
+00004730        Transform::LinearTransform
+00004730            right::Vec3
+00004730                x 1.0
+00004734                y 0.0
+00004738                z 0.0
+00004740            up::Vec3
+00004740                x 0.0
+00004744                y 1.0
+00004748                z 0.0
+00004750            forward::Vec3
+00004750                x 0.0
+00004754                y 0.0
+00004758                z 1.0
+00004760            trans::Vec3
+00004760                x 0.0
+00004764                y 0.0
+00004768                z 0.0
+00004770        KeyframeTransform::LinearTransform
+00004770            right::Vec3
+00004770                x 1.0
+00004774                y 0.0
+00004778                z 0.0
+00004780            up::Vec3
+00004780                x 0.0
+00004784                y 1.0
+00004788                z 0.0
+00004790            forward::Vec3
+00004790                x 0.0
+00004794                y 0.0
+00004798                z 1.0
+000047a0            trans::Vec3
+000047a0                x 0.0
+000047a4                y 0.0
+000047a8                z 0.0
+000047b0        RigidBodyType RBTypeCollision
+000047b4        Mass 1.0
+000047b8        Material::MaterialDecl
+000047b8            Packed 32768
+000047bc        DynamicFriction -1.0
+000047c0        StaticFriction -1.0
+000047c4        Restitution 0.10000000149
+000047c8        AngularVelocityDamping 1.0
+000047cc        LinearVelocityDamping 1.0
+000047d0        MotionType RigidBodyMotionType_Dynamic
+000047d4        QualityType RigidBodyQualityType_Grenade
+000047d8        SystemGroup 0
+000047dc        SubSystemId 0
+000047e0        SubSystemIdNoCollide 0
+000047e4        PartIndices::array
+00004d4c            member(0) 0
+000047e8        FloatPhysics *nullGuid*
+000047ec        ComputeCenterOfMass True
+000047ed        IsRootController True
+000047f0    DOTReceiverComponentData 00000000
+000047f0        $::GameComponentData
+000047f0            $::ComponentData
+000047f0                $::GameObjectData
+000047f0                    $::DataBusPeer
+000047f0                        $::GameDataContainer
+000047f0                            $::DataContainer
+000047f8                        Flags 32601087
+000047fc                Components *nullArray*
+00004800                Transform::LinearTransform
+00004800                    right::Vec3
+00004800                        x 1.0
+00004804                        y 0.0
+00004808                        z 0.0
+00004810                    up::Vec3
+00004810                        x 0.0
+00004814                        y 1.0
+00004818                        z 0.0
+00004820                    forward::Vec3
+00004820                        x 0.0
+00004824                        y 0.0
+00004828                        z 1.0
+00004830                    trans::Vec3
+00004830                        x 0.0
+00004834                        y 0.0
+00004838                        z 0.0
+00004840                Excluded False
+00004850    ExplosionPackHealthComponentData 00000001
+00004850        $::GameHealthComponentData
+00004850            $::HealthComponentData
+00004850                $::ComponentData
+00004850                    $::GameObjectData
+00004850                        $::DataBusPeer
+00004850                            $::GameDataContainer
+00004850                                $::DataContainer
+00004858                            Flags 27233004
+0000485c                    Components *nullArray*
+00004860                    Transform::LinearTransform
+00004860                        right::Vec3
+00004860                            x 1.0
+00004864                            y 0.0
+00004868                            z 0.0
+00004870                        up::Vec3
+00004870                            x 0.0
+00004874                            y 1.0
+00004878                            z 0.0
+00004880                        forward::Vec3
+00004880                            x 0.0
+00004884                            y 0.0
+00004888                            z 1.0
+00004890                        trans::Vec3
+00004890                            x 0.0
+00004894                            y 0.0
+00004898                            z 0.0
+000048a0                    Excluded False
+000048b0        OnDamageExplosionInheritUnlock True
+000048c0    ExplosionPackPhysicsComponentData 00000002
+000048c0        $::GamePhysicsComponentData
+000048c0            $::PhysicsComponentData
+000048c0                $::ComponentData
+000048c0                    $::GameObjectData
+000048c0                        $::DataBusPeer
+000048c0                            $::GameDataContainer
+000048c0                                $::DataContainer
+000048c8                            Flags 5693546
+000048cc                    Components *nullArray*
+000048d0                    Transform::LinearTransform
+000048d0                        right::Vec3
+000048d0                            x 1.0
+000048d4                            y 0.0
+000048d8                            z 0.0
+000048e0                        up::Vec3
+000048e0                            x 0.0
+000048e4                            y 1.0
+000048e8                            z 0.0
+000048f0                        forward::Vec3
+000048f0                            x 0.0
+000048f4                            y 0.0
+000048f8                            z 1.0
+00004900                        trans::Vec3
+00004900                            x 0.0
+00004904                            y 0.0
+00004908                            z 0.0
+00004910                    Excluded False
+00004920                PhysicsBodies::array
+00004d54                    member(0) fabb44492d1aaf4ca66b07488d85244e
+00004d58                    member(1) 00000005
+00004924                PhysicsConstraints *nullArray*
+00004928                Parts::array
+00004d60                    member(0)::PhysicsPartData
+00004d60                        Aabb::AxisAlignedBox
+00004d60                            min::Vec3
+00004d60                                x 0.0
+00004d64                                y 0.0
+00004d68                                z 0.0
+00004d70                            max::Vec3
+00004d70                                x 0.0
+00004d74                                y 0.0
+00004d78                                z 0.0
+0000492c                InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+00004930                MovableParts False
+00004940            Realm Realm_ClientAndServer
+00004944            EffectParameters *nullArray*
+00004950    PartComponentData 00000003
+00004950        $::GameComponentData
+00004950            $::ComponentData
+00004950                $::GameObjectData
+00004950                    $::DataBusPeer
+00004950                        $::GameDataContainer
+00004950                            $::DataContainer
+00004958                        Flags 2718663
+0000495c                Components *nullArray*
+00004960                Transform::LinearTransform
+00004960                    right::Vec3
+00004960                        x 1.0
+00004964                        y 0.0
+00004968                        z 0.0
+00004970                    up::Vec3
+00004970                        x 0.0
+00004974                        y 1.0
+00004978                        z 0.0
+00004980                    forward::Vec3
+00004980                        x 0.0
+00004984                        y 0.0
+00004988                        z 1.0
+00004990                    trans::Vec3
+00004990                        x 0.0
+00004994                        y -0.00447554746643
+00004998                        z 0.0
+000049a0                Excluded False
+000049b0        HealthStates::array
+00004d84            member(0) 0000000b
+00004d88            member(1) 0000000a
+000049b4        PartLinks *nullArray*
+000049b8        IsSupported False
+000049b9        IsFragile False
+000049ba        AffectsBoundingBox True
+000049bb        IsNetworkable True
+000049bc        IsWindow False
+000049bd        AnimatePhysics False
+000049c0    PhysicsEntityData 00000004
+000049c0        $::EntityData
+000049c0            $::GameObjectData
+000049c0                $::DataBusPeer
+000049c0                    $::GameDataContainer
+000049c0                        $::DataContainer
+000049c8                    Flags 0
+000049cc        Asset Gameplay/Gadgets/Medic/Bandages/Bandages_Projectile_Physics_Win32/94961070791ed3015eca157a4bd181c3
+000049d0        InertiaModifier::Vec3
+000049d0            x 1.0
+000049d4            y 1.0
+000049d8            z 1.0
+000049e0        RigidBodies *nullArray*
+000049e4        FloatPhysics *nullGuid*
+000049e8        Mass 1000010.0
+000049ec        AngularVelocityDamping -1.0
+000049f0        LinearVelocityDamping -1.0
+000049f4        Proximity *nullGuid*
+000049f8        Constraints *nullArray*
+000049fc        MovableParts False
+000049fd        IsComposite False
+00004a00    RigidBodyData 00000005
+00004a00        $::PhysicsBodyData
+00004a00            $::EntityData
+00004a00                $::GameObjectData
+00004a00                    $::DataBusPeer
+00004a00                        $::GameDataContainer
+00004a00                            $::DataContainer
+00004a08                        Flags 0
+00004a0c            Realm Realm_Client
+00004a10            CollisionLayer RigidBodyCollisionLayer_DynamicNoCharacterCollisionLayer
+00004a14            Asset Gameplay/Gadgets/Medic/Bandages/Bandages_Projectile_Physics_Win32/94961070791ed3015eca157a4bd181c3
+00004a18            AssetIndex 0
+00004a19            TransformIndex 0
+00004a1a            WorldIndex 1
+00004a1b            CollisionRootShapeIndex 0
+00004a1c            RaycastRootShapeIndex 0
+00004a1d            AddToSpatialQueryManager False
+00004a20        CenterOfMass::Vec3
+00004a20            x 0.0
+00004a24            y 0.0
+00004a28            z 0.0
+00004a30        InertiaModifier::Vec3
+00004a30            x 1.0
+00004a34            y 1.0
+00004a38            z 1.0
+00004a40        Transform::LinearTransform
+00004a40            right::Vec3
+00004a40                x 1.0
+00004a44                y 0.0
+00004a48                z 0.0
+00004a50            up::Vec3
+00004a50                x 0.0
+00004a54                y 1.0
+00004a58                z 0.0
+00004a60            forward::Vec3
+00004a60                x 0.0
+00004a64                y 0.0
+00004a68                z 1.0
+00004a70            trans::Vec3
+00004a70                x 0.0
+00004a74                y 0.0
+00004a78                z 0.0
+00004a80        KeyframeTransform::LinearTransform
+00004a80            right::Vec3
+00004a80                x 1.0
+00004a84                y 0.0
+00004a88                z 0.0
+00004a90            up::Vec3
+00004a90                x 0.0
+00004a94                y 1.0
+00004a98                z 0.0
+00004aa0            forward::Vec3
+00004aa0                x 0.0
+00004aa4                y 0.0
+00004aa8                z 1.0
+00004ab0            trans::Vec3
+00004ab0                x 0.0
+00004ab4                y 0.0
+00004ab8                z 0.0
+00004ac0        RigidBodyType RBTypeCollision
+00004ac4        Mass 1.0
+00004ac8        Material::MaterialDecl
+00004ac8            Packed 32768
+00004acc        DynamicFriction -1.0
+00004ad0        StaticFriction -1.0
+00004ad4        Restitution 0.10000000149
+00004ad8        AngularVelocityDamping 1.0
+00004adc        LinearVelocityDamping 1.0
+00004ae0        MotionType RigidBodyMotionType_Dynamic
+00004ae4        QualityType RigidBodyQualityType_Grenade
+00004ae8        SystemGroup 0
+00004aec        SubSystemId 0
+00004af0        SubSystemIdNoCollide 0
+00004af4        PartIndices::array
+00004d90            member(0) 0
+00004af8        FloatPhysics *nullGuid*
+00004afc        ComputeCenterOfMass True
+00004afd        IsRootController True
+00004b00    SpottingTargetComponentData 00000006
+00004b00        $::GameComponentData
+00004b00            $::ComponentData
+00004b00                $::GameObjectData
+00004b00                    $::DataBusPeer
+00004b00                        $::GameDataContainer
+00004b00                            $::DataContainer
+00004b08                        Flags 32979133
+00004b0c                Components *nullArray*
+00004b10                Transform::LinearTransform
+00004b10                    right::Vec3
+00004b10                        x 1.0
+00004b14                        y 0.0
+00004b18                        z 0.0
+00004b20                    up::Vec3
+00004b20                        x 0.0
+00004b24                        y 1.0
+00004b28                        z 0.0
+00004b30                    forward::Vec3
+00004b30                        x 0.0
+00004b34                        y 0.0
+00004b38                        z 1.0
+00004b40                    trans::Vec3
+00004b40                        x 0.0
+00004b44                        y 0.0
+00004b48                        z 0.0
+00004b50                Excluded False
+00004b60        SquadSpottedTime 7.0
+00004b64        ActiveSpottedTime 5.0
+00004b68        PassiveSpottedTime 3.0
+00004b6c        SquadSpottedTimeMultiplier 1.0
+00004b70        ActiveSpottedTimeMultiplier 1.0
+00004b74        PassiveSpottedTimeMultiplier 1.0
+00004b78        SpotOnFireMultiplier 0.5
+00004b7c        BoundingSphereDistanceScaling::BoundingSphereDistanceScaleData
+00004b7c            CloseDistance 0.0
+00004b80            CloseScale 1.0
+00004b84            FarDistance 1.0
+00004b88            FarScale 1.0
+00004b8c        RadarSpottedSpeedThresholdOverride -1.0
+00004b90        OutlineColor1Distance 5.0
+00004b94        OutlineColor2Distance 30.0
+00004b98        OutlineColor3Distance 65.0
+00004b9c        OutlineColorIndex 2
+00004ba0        TargetBoundingBoxCenter True
+00004ba1        AllowBoundingSphereTest True
+00004ba2        WeaponFireSpottingEnabled False
+00004ba3        SquadSpottingOutlineOcclusion True
+00004ba4        OnlyShowOutlineWhenOccluded False
+00004ba5        SquadSpottingOutlineEnabled True
+00004ba6        OutlineColorOnDistanceEnabled False
+00004bb0    VeniceExplosionEntityData 00000007
+00004bb0        $::ExplosionEntityData
+00004bb0            $::SpatialEntityData
+00004bb0                $::EntityData
+00004bb0                    $::GameObjectData
+00004bb0                        $::DataBusPeer
+00004bb0                            $::GameDataContainer
+00004bb0                                $::DataContainer
+00004bb8                            Flags 0
+00004bc0                Transform::LinearTransform
+00004bc0                    right::Vec3
+00004bc0                        x 1.0
+00004bc4                        y 0.0
+00004bc8                        z 0.0
+00004bd0                    up::Vec3
+00004bd0                        x 0.0
+00004bd4                        y 1.0
+00004bd8                        z 0.0
+00004be0                    forward::Vec3
+00004be0                        x 0.0
+00004be4                        y 0.0
+00004be8                        z 1.0
+00004bf0                    trans::Vec3
+00004bf0                        x 0.0
+00004bf4                        y 0.0
+00004bf8                        z 0.0
+00004c00            DetonationEffect FX/Destruction/Gameplay/FX_Bandages_Destruction/67390c09e347eb46975a5bd3ddcd6059
+00004c04            DetonationEffectForFriendlies *nullGuid*
+00004c08            MaskVolume *nullGuid*
+00004c0c            DestructionMaskVolume *nullGuid*
+00004c10            MaterialPair::MaterialDecl
+00004c10                Packed 32768
+00004c14            SecondaryMaterialPair::MaterialDecl
+00004c14                Packed 32768
+00004c18            ShockwaveWindForce *nullGuid*
+00004c1c            DamageIndicationType DamageIndicationType_GiverPlayer
+00004c20            EmpTime 0.0
+00004c24            MaxOcclusionRaycastRadius 0.0
+00004c28            InnerBlastRadius 0.10000000149
+00004c2c            BlastDamage 0.0
+00004c30            BlastRadius 0.20000000298
+00004c34            BlastImpulse 0.0
+00004c38            ShockwaveDamage 0.0
+00004c3c            ShockwaveRadius 0.300000011921
+00004c40            ShockwaveImpulse 0.0
+00004c44            ShockwaveTime 0.25
+00004c48            CameraShockwaveRadius 0.0
+00004c4c            SpawnDelay 0.0
+00004c50            NoFriendliesEffectOnEnabledFriendlyFire True
+00004c51            UseEntityTransformForDetonationEffect False
+00004c52            SecondaryMaterialsActive False
+00004c53            HasStunEffect False
+00004c54            AllowDamageToOwner True
+00004c55            ApplyBlastDamageToVehiclesAndCharactersInstantly True
+00004c56            ForceServersideAiDamage False
+00004c57            DisableOcclusion True
+00004c58            DisableStaticEntityOcclusion True
+00004c59            DisableOcclusionOutsideBlastRadius True
+00004c5a            TriggerImpairedHearing True
+00004c5b            Enabled True
+00004c60        UnspottableTime 1.0
+00004c64        IsCausingSuppression False
+00004c65        UnspotsOnExplode False
+00004c66        SpotsOnExplode False
+00004c70    AmmoSupplyUnitSphereData 00000008
+00004c68        $::SupplyUnitSphereData
+00004c68            $::DataContainer
+00004c70            Radius 0.0
+00004c74            MaxRadius 0.0
+00004c78            RadiusChangeTime 0.0
+00004c7c            SupplyIncSpeed 0.0
+00004c80            InstantRefill 0.0
+00004c84            SupplyPointsRefillSpeed 0.0
+00004c88            SupplyPointsCapacity 0.0
+00004c8c            ForceUseInstantRefill False
+00004c8d            InfiniteCapacity True
+00004c90        IgnoredWeaponClasses *nullArray*
+00004c94        SpeedUpAutoReplenish False
+00004c98    HealingSupplyUnitSphereData 00000009
+00004c90        $::SupplyUnitSphereData
+00004c90            $::DataContainer
+00004c98            Radius 0.10000000149
+00004c9c            MaxRadius 0.5
+00004ca0            RadiusChangeTime 0.5
+00004ca4            SupplyIncSpeed 0.0
+00004ca8            InstantRefill 100.0
+00004cac            SupplyPointsRefillSpeed 0.0
+00004cb0            SupplyPointsCapacity 100.0
+00004cb4            ForceUseInstantRefill True
+00004cb5            InfiniteCapacity False
+00004cb8        DistributeHealingOverTime 12.5
+00004cbc    HealthStateData 0000000a
+00004cb4        $::DataContainer
+00004cbc        Objects *nullArray*
+00004cc0        LoosePartPhysics *nullArray*
+00004cc4        SpawnedBangerBlueprint *nullGuid*
+00004cc8        SpawnedBangerImpulseParams *nullGuid*
+00004ccc        Health 0.0
+00004cd0        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00004cd0            DebrisCullDistance 30.0
+00004cd4            DebrisCullDistanceOutsideView 5.0
+00004cd8            SoundCullDistance 0.0
+00004cdc            SoundCullDistanceOutsideView 0.0
+00004ce0            EffectCullDistance 0.0
+00004ce4            EffectCullDistanceOutsideView 0.0
+00004ce8        PartIndex 4294967295
+00004cec        BangerInheritsObjectVariation False
+00004ced        SpawnedObjectsInheritObjectVariation False
+00004cee        CopyDamageToBanger True
+00004cef        PhysicsEnabled True
+00004cf0        CanSupportOtherParts False
+00004cf4    HealthStateData 0000000b
+00004cec        $::DataContainer
+00004cf4        Objects *nullArray*
+00004cf8        LoosePartPhysics *nullArray*
+00004cfc        SpawnedBangerBlueprint *nullGuid*
+00004d00        SpawnedBangerImpulseParams *nullGuid*
+00004d04        Health 10.0
+00004d08        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00004d08            DebrisCullDistance 30.0
+00004d0c            DebrisCullDistanceOutsideView 5.0
+00004d10            SoundCullDistance 0.0
+00004d14            SoundCullDistanceOutsideView 0.0
+00004d18            EffectCullDistance 0.0
+00004d1c            EffectCullDistanceOutsideView 0.0
+00004d20        PartIndex 0
+00004d24        BangerInheritsObjectVariation False
+00004d25        SpawnedObjectsInheritObjectVariation False
+00004d26        CopyDamageToBanger True
+00004d27        PhysicsEnabled True
+00004d28        CanSupportOtherParts False

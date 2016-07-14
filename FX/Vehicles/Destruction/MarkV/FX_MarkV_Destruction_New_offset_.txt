@@ -1,0 +1,1293 @@
+00001120    EffectBlueprint 5f52693153e7174b964a600bbb931d9b
+00001118        $::ObjectBlueprint
+00001118            $::Blueprint
+00001118                $::EntityBusData
+00001118                    $::DataBusData
+00001118                        $::Asset
+00001118                            $::DataContainer
+00001120                            Name FX/Vehicles/Destruction/MarkV/FX_MarkV_Destruction_New
+00001124                        PropertyConnections *nullArray*
+00001128                        LinkConnections *nullArray*
+0000112c                        Interface *nullGuid*
+00001130                        Flags 0
+00001134                    EventConnections *nullArray*
+00001138            Object 00000000
+0000113c        TimeDeltaType TimeDeltaType_None
+00001140    EffectEntityData 00000000
+00001140        $::SpatialEntityData
+00001140            $::EntityData
+00001140                $::GameObjectData
+00001140                    $::DataBusPeer
+00001140                        $::GameDataContainer
+00001140                            $::DataContainer
+00001148                        Flags 199113974
+00001150            Transform::LinearTransform
+00001150                right::Vec3
+00001150                    x 1.0
+00001154                    y 0.0
+00001158                    z 0.0
+00001160                up::Vec3
+00001160                    x 0.0
+00001164                    y 1.0
+00001168                    z 0.0
+00001170                forward::Vec3
+00001170                    x 0.0
+00001174                    y 0.0
+00001178                    z 1.0
+00001180                trans::Vec3
+00001180                    x 0.0
+00001184                    y 0.0
+00001188                    z 0.0
+00001190        Components::array
+00002034            member(0) 00000015
+00002038            member(1) 0000000e
+0000203c            member(2) 00000002
+00002040            member(3) 0000000b
+00002044            member(4) 0000000f
+00002048            member(5) 0000000d
+0000204c            member(6) 00000003
+00002050            member(7) 00000010
+00002054            member(8) 00000012
+00002058            member(9) 00000006
+0000205c            member(10) 00000009
+00002060            member(11) 00000005
+00002064            member(12) 00000014
+00002068            member(13) 00000001
+0000206c            member(14) 0000000a
+00002070            member(15) 00000004
+00002074            member(16) 0000000c
+00002078            member(17) 00000007
+0000207c            member(18) 00000013
+00002080            member(19) 00000011
+00002084            member(20) 00000008
+00001194        MaxActiveInstanceCount::QualityScalableInt
+00001194            Low 30
+00001198            Medium 30
+0000119c            High 30
+000011a0            Ultra 30
+000011a4        CullDistance::QualityScalableFloat
+000011a4            Low 0.0
+000011a8            Medium 0.0
+000011ac            High 0.0
+000011b0            Ultra 0.0
+000011b4        StartDelay 0.0
+000011b8        KillWhenDistanceCulled False
+000011b9        KillByWater False
+000011ba        ResetInstanceWhenStarted True
+000011bb        AttachToSpawnSurface False
+000011bc        Enable::QualityScalableBool
+000011bc            Low True
+000011bd            Medium True
+000011be            High True
+000011bf            Ultra True
+000011c0        OverrideDrawOrder False
+000011c1        UseLowFrequencyUpdate False
+000011d0    EmitterEntityData 00000001
+000011d0        $::ChildEffectEntityData
+000011d0            $::SpatialEntityData
+000011d0                $::EntityData
+000011d0                    $::GameObjectData
+000011d0                        $::DataBusPeer
+000011d0                            $::GameDataContainer
+000011d0                                $::DataContainer
+000011d8                            Flags 3695109
+000011e0                Transform::LinearTransform
+000011e0                    right::Vec3
+000011e0                        x 1.0
+000011e4                        y 0.0
+000011e8                        z 0.0
+000011f0                    up::Vec3
+000011f0                        x 0.0
+000011f4                        y 1.0
+000011f8                        z 0.0
+00001200                    forward::Vec3
+00001200                        x 0.0
+00001204                        y 0.0
+00001208                        z 1.0
+00001210                    trans::Vec3
+00001210                        x 0.0
+00001214                        y 0.5
+00001218                        z 0.0
+00001220            Components *nullArray*
+00001224            MaxActiveInstanceCount::QualityScalableInt
+00001224                Low 30
+00001228                Medium 30
+0000122c                High 30
+00001230                Ultra 30
+00001234            CullDistance::QualityScalableFloat
+00001234                Low 0.0
+00001238                Medium 0.0
+0000123c                High 0.0
+00001240                Ultra 0.0
+00001244            StartDelay 1.5
+00001248            KillWhenDistanceCulled False
+00001249            ResetInstanceWhenStarted True
+0000124a            AttachToSpawnSurface False
+0000124b            Enable::QualityScalableBool
+0000124b                Low False
+0000124c                Medium False
+0000124d                High True
+0000124e                Ultra True
+0000124f            OverrideDrawOrder False
+00001250        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_meshp_01/21d7d9531b8ba448a099383f964bd4f4
+00001254        SpawnProbability::QualityScalableFloat
+00001254            Low 0.0
+00001258            Medium 0.0
+0000125c            High 1.0
+00001260            Ultra 1.0
+00001264        MaxNearbyInstanceCount 0
+00001268        NearbyRadius 1.0
+0000126c        EmitterTags *nullArray*
+00001270        DrawOrderSlot 128
+00001271        LocalPlayerOnly False
+00001280    EmitterEntityData 00000002
+00001280        $::ChildEffectEntityData
+00001280            $::SpatialEntityData
+00001280                $::EntityData
+00001280                    $::GameObjectData
+00001280                        $::DataBusPeer
+00001280                            $::GameDataContainer
+00001280                                $::DataContainer
+00001288                            Flags 18435078
+00001290                Transform::LinearTransform
+00001290                    right::Vec3
+00001290                        x 0.797735571861
+00001294                        y 0.525815963745
+00001298                        z 0.295187324286
+000012a0                    up::Vec3
+000012a0                        x -0.601374149323
+000012a4                        y 0.657723546028
+000012a8                        z 0.453595399857
+000012b0                    forward::Vec3
+000012b0                        x 0.0443561524153
+000012b4                        y -0.539367079735
+000012b8                        z 0.84090167284
+000012c0                    trans::Vec3
+000012c0                        x -0.594811141491
+000012c4                        y 1.081854105
+000012c8                        z 0.979873776436
+000012d0            Components *nullArray*
+000012d4            MaxActiveInstanceCount::QualityScalableInt
+000012d4                Low 30
+000012d8                Medium 30
+000012dc                High 30
+000012e0                Ultra 30
+000012e4            CullDistance::QualityScalableFloat
+000012e4                Low 0.0
+000012e8                Medium 0.0
+000012ec                High 0.0
+000012f0                Ultra 0.0
+000012f4            StartDelay 0.5
+000012f8            KillWhenDistanceCulled False
+000012f9            ResetInstanceWhenStarted True
+000012fa            AttachToSpawnSurface False
+000012fb            Enable::QualityScalableBool
+000012fb                Low True
+000012fc                Medium True
+000012fd                High True
+000012fe                Ultra True
+000012ff            OverrideDrawOrder False
+00001300        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_small/fcb26b3967175f4784953d36eb6a6ea2
+00001304        SpawnProbability::QualityScalableFloat
+00001304            Low 1.0
+00001308            Medium 1.0
+0000130c            High 1.0
+00001310            Ultra 1.0
+00001314        MaxNearbyInstanceCount 0
+00001318        NearbyRadius 1.0
+0000131c        EmitterTags *nullArray*
+00001320        DrawOrderSlot 128
+00001321        LocalPlayerOnly False
+00001330    EmitterEntityData 00000003
+00001330        $::ChildEffectEntityData
+00001330            $::SpatialEntityData
+00001330                $::EntityData
+00001330                    $::GameObjectData
+00001330                        $::DataBusPeer
+00001330                            $::GameDataContainer
+00001330                                $::DataContainer
+00001338                            Flags 7225357
+00001340                Transform::LinearTransform
+00001340                    right::Vec3
+00001340                        x 0.797735333443
+00001344                        y 0.525816500187
+00001348                        z 0.295186728239
+00001350                    up::Vec3
+00001350                        x -0.601374030113
+00001354                        y 0.657724022865
+00001358                        z 0.45359531045
+00001360                    forward::Vec3
+00001360                        x 0.0443565994501
+00001364                        y -0.539366543293
+00001368                        z 0.840901970863
+00001370                    trans::Vec3
+00001370                        x -0.594811141491
+00001374                        y 1.081854105
+00001378                        z 0.979873776436
+00001380            Components *nullArray*
+00001384            MaxActiveInstanceCount::QualityScalableInt
+00001384                Low 30
+00001388                Medium 30
+0000138c                High 30
+00001390                Ultra 30
+00001394            CullDistance::QualityScalableFloat
+00001394                Low 0.0
+00001398                Medium 0.0
+0000139c                High 0.0
+000013a0                Ultra 0.0
+000013a4            StartDelay 0.25
+000013a8            KillWhenDistanceCulled False
+000013a9            ResetInstanceWhenStarted True
+000013aa            AttachToSpawnSurface False
+000013ab            Enable::QualityScalableBool
+000013ab                Low True
+000013ac                Medium True
+000013ad                High True
+000013ae                Ultra True
+000013af            OverrideDrawOrder False
+000013b0        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_smalldebris/2bb75e99e0b6584d83ac097e4b0189ba
+000013b4        SpawnProbability::QualityScalableFloat
+000013b4            Low 1.0
+000013b8            Medium 1.0
+000013bc            High 1.0
+000013c0            Ultra 1.0
+000013c4        MaxNearbyInstanceCount 0
+000013c8        NearbyRadius 1.0
+000013cc        EmitterTags *nullArray*
+000013d0        DrawOrderSlot 128
+000013d1        LocalPlayerOnly False
+000013e0    EmitterEntityData 00000004
+000013e0        $::ChildEffectEntityData
+000013e0            $::SpatialEntityData
+000013e0                $::EntityData
+000013e0                    $::GameObjectData
+000013e0                        $::DataBusPeer
+000013e0                            $::GameDataContainer
+000013e0                                $::DataContainer
+000013e8                            Flags 17230101
+000013f0                Transform::LinearTransform
+000013f0                    right::Vec3
+000013f0                        x 1.0
+000013f4                        y 0.0
+000013f8                        z 0.0
+00001400                    up::Vec3
+00001400                        x 0.0
+00001404                        y 1.0
+00001408                        z 0.0
+00001410                    forward::Vec3
+00001410                        x 0.0
+00001414                        y 0.0
+00001418                        z 1.0
+00001420                    trans::Vec3
+00001420                        x 0.0
+00001424                        y 0.5
+00001428                        z 0.0
+00001430            Components *nullArray*
+00001434            MaxActiveInstanceCount::QualityScalableInt
+00001434                Low 30
+00001438                Medium 30
+0000143c                High 30
+00001440                Ultra 30
+00001444            CullDistance::QualityScalableFloat
+00001444                Low 0.0
+00001448                Medium 0.0
+0000144c                High 0.0
+00001450                Ultra 0.0
+00001454            StartDelay 1.25
+00001458            KillWhenDistanceCulled False
+00001459            ResetInstanceWhenStarted True
+0000145a            AttachToSpawnSurface False
+0000145b            Enable::QualityScalableBool
+0000145b                Low True
+0000145c                Medium True
+0000145d                High True
+0000145e                Ultra True
+0000145f            OverrideDrawOrder False
+00001460        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_meshp_mediumparts/03785fe9487dd6419c4b739739641c2d
+00001464        SpawnProbability::QualityScalableFloat
+00001464            Low 1.0
+00001468            Medium 1.0
+0000146c            High 1.0
+00001470            Ultra 1.0
+00001474        MaxNearbyInstanceCount 0
+00001478        NearbyRadius 1.0
+0000147c        EmitterTags *nullArray*
+00001480        DrawOrderSlot 128
+00001481        LocalPlayerOnly False
+00001490    EmitterEntityData 00000005
+00001490        $::ChildEffectEntityData
+00001490            $::SpatialEntityData
+00001490                $::EntityData
+00001490                    $::GameObjectData
+00001490                        $::DataBusPeer
+00001490                            $::GameDataContainer
+00001490                                $::DataContainer
+00001498                            Flags 20433478
+000014a0                Transform::LinearTransform
+000014a0                    right::Vec3
+000014a0                        x 0.887046098709
+000014a4                        y -0.377148211002
+000014a8                        z 0.266286253929
+000014b0                    up::Vec3
+000014b0                        x 0.46168076992
+000014b4                        y 0.724629700184
+000014b8                        z -0.511627435684
+000014c0                    forward::Vec3
+000014c0                        x 4.32133674622e-07
+000014c4                        y 0.576776385307
+000014c8                        z 0.81690210104
+000014d0                    trans::Vec3
+000014d0                        x 0.0
+000014d4                        y 0.0
+000014d8                        z -1.33188819885
+000014e0            Components *nullArray*
+000014e4            MaxActiveInstanceCount::QualityScalableInt
+000014e4                Low 30
+000014e8                Medium 30
+000014ec                High 30
+000014f0                Ultra 30
+000014f4            CullDistance::QualityScalableFloat
+000014f4                Low 0.0
+000014f8                Medium 0.0
+000014fc                High 0.0
+00001500                Ultra 0.0
+00001504            StartDelay 0.0
+00001508            KillWhenDistanceCulled False
+00001509            ResetInstanceWhenStarted True
+0000150a            AttachToSpawnSurface False
+0000150b            Enable::QualityScalableBool
+0000150b                Low True
+0000150c                Medium True
+0000150d                High True
+0000150e                Ultra True
+0000150f            OverrideDrawOrder False
+00001510        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_va_sparks/331b6e28729e124096a32fa13dcff57b
+00001514        SpawnProbability::QualityScalableFloat
+00001514            Low 1.0
+00001518            Medium 1.0
+0000151c            High 1.0
+00001520            Ultra 1.0
+00001524        MaxNearbyInstanceCount 0
+00001528        NearbyRadius 1.0
+0000152c        EmitterTags *nullArray*
+00001530        DrawOrderSlot 128
+00001531        LocalPlayerOnly False
+00001540    EmitterEntityData 00000006
+00001540        $::ChildEffectEntityData
+00001540            $::SpatialEntityData
+00001540                $::EntityData
+00001540                    $::GameObjectData
+00001540                        $::DataBusPeer
+00001540                            $::GameDataContainer
+00001540                                $::DataContainer
+00001548                            Flags 17985609
+00001550                Transform::LinearTransform
+00001550                    right::Vec3
+00001550                        x 1.0
+00001554                        y 0.0
+00001558                        z 0.0
+00001560                    up::Vec3
+00001560                        x 0.0
+00001564                        y 1.0
+00001568                        z 0.0
+00001570                    forward::Vec3
+00001570                        x 0.0
+00001574                        y 0.0
+00001578                        z 1.0
+00001580                    trans::Vec3
+00001580                        x 0.0
+00001584                        y -0.17499999702
+00001588                        z 0.0
+00001590            Components *nullArray*
+00001594            MaxActiveInstanceCount::QualityScalableInt
+00001594                Low 30
+00001598                Medium 30
+0000159c                High 30
+000015a0                Ultra 30
+000015a4            CullDistance::QualityScalableFloat
+000015a4                Low 0.0
+000015a8                Medium 0.0
+000015ac                High 0.0
+000015b0                Ultra 0.0
+000015b4            StartDelay 1.02499997616
+000015b8            KillWhenDistanceCulled False
+000015b9            ResetInstanceWhenStarted True
+000015ba            AttachToSpawnSurface False
+000015bb            Enable::QualityScalableBool
+000015bb                Low True
+000015bc                Medium True
+000015bd                High True
+000015be                Ultra True
+000015bf            OverrideDrawOrder False
+000015c0        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_streakswide/69361e5889bac2409da5429f4c25c047
+000015c4        SpawnProbability::QualityScalableFloat
+000015c4            Low 1.0
+000015c8            Medium 1.0
+000015cc            High 1.0
+000015d0            Ultra 1.0
+000015d4        MaxNearbyInstanceCount 0
+000015d8        NearbyRadius 1.0
+000015dc        EmitterTags *nullArray*
+000015e0        DrawOrderSlot 128
+000015e1        LocalPlayerOnly False
+000015f0    EmitterEntityData 00000007
+000015f0        $::ChildEffectEntityData
+000015f0            $::SpatialEntityData
+000015f0                $::EntityData
+000015f0                    $::GameObjectData
+000015f0                        $::DataBusPeer
+000015f0                            $::GameDataContainer
+000015f0                                $::DataContainer
+000015f8                            Flags 17556042
+00001600                Transform::LinearTransform
+00001600                    right::Vec3
+00001600                        x 1.0
+00001604                        y 0.0
+00001608                        z 0.0
+00001610                    up::Vec3
+00001610                        x 0.0
+00001614                        y 1.0
+00001618                        z 0.0
+00001620                    forward::Vec3
+00001620                        x 0.0
+00001624                        y 0.0
+00001628                        z 1.0
+00001630                    trans::Vec3
+00001630                        x 0.0
+00001634                        y 0.5
+00001638                        z 0.0
+00001640            Components *nullArray*
+00001644            MaxActiveInstanceCount::QualityScalableInt
+00001644                Low 30
+00001648                Medium 30
+0000164c                High 30
+00001650                Ultra 30
+00001654            CullDistance::QualityScalableFloat
+00001654                Low 0.0
+00001658                Medium 0.0
+0000165c                High 0.0
+00001660                Ultra 0.0
+00001664            StartDelay 1.5
+00001668            KillWhenDistanceCulled False
+00001669            ResetInstanceWhenStarted True
+0000166a            AttachToSpawnSurface False
+0000166b            Enable::QualityScalableBool
+0000166b                Low False
+0000166c                Medium False
+0000166d                High True
+0000166e                Ultra True
+0000166f            OverrideDrawOrder False
+00001670        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_meshp_smallparts/aaaee919072d354e8e6ac77a1422ebb9
+00001674        SpawnProbability::QualityScalableFloat
+00001674            Low 0.0
+00001678            Medium 0.0
+0000167c            High 1.0
+00001680            Ultra 1.0
+00001684        MaxNearbyInstanceCount 0
+00001688        NearbyRadius 1.0
+0000168c        EmitterTags *nullArray*
+00001690        DrawOrderSlot 128
+00001691        LocalPlayerOnly False
+000016a0    EmitterEntityData 00000008
+000016a0        $::ChildEffectEntityData
+000016a0            $::SpatialEntityData
+000016a0                $::EntityData
+000016a0                    $::GameObjectData
+000016a0                        $::DataBusPeer
+000016a0                            $::GameDataContainer
+000016a0                                $::DataContainer
+000016a8                            Flags 29857618
+000016b0                Transform::LinearTransform
+000016b0                    right::Vec3
+000016b0                        x 1.0
+000016b4                        y 0.0
+000016b8                        z 0.0
+000016c0                    up::Vec3
+000016c0                        x 0.0
+000016c4                        y 1.0
+000016c8                        z 0.0
+000016d0                    forward::Vec3
+000016d0                        x 0.0
+000016d4                        y 0.0
+000016d8                        z 1.0
+000016e0                    trans::Vec3
+000016e0                        x 0.0
+000016e4                        y 0.0
+000016e8                        z 0.0
+000016f0            Components *nullArray*
+000016f4            MaxActiveInstanceCount::QualityScalableInt
+000016f4                Low 30
+000016f8                Medium 30
+000016fc                High 30
+00001700                Ultra 30
+00001704            CullDistance::QualityScalableFloat
+00001704                Low 0.0
+00001708                Medium 0.0
+0000170c                High 0.0
+00001710                Ultra 0.0
+00001714            StartDelay 1.14999997616
+00001718            KillWhenDistanceCulled False
+00001719            ResetInstanceWhenStarted True
+0000171a            AttachToSpawnSurface False
+0000171b            Enable::QualityScalableBool
+0000171b                Low False
+0000171c                Medium True
+0000171d                High True
+0000171e                Ultra True
+0000171f            OverrideDrawOrder False
+00001720        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_va_smoketrails/50d4363a911a3740a8bc73cba62dc9f0
+00001724        SpawnProbability::QualityScalableFloat
+00001724            Low 0.0
+00001728            Medium 1.0
+0000172c            High 1.0
+00001730            Ultra 1.0
+00001734        MaxNearbyInstanceCount 0
+00001738        NearbyRadius 1.0
+0000173c        EmitterTags *nullArray*
+00001740        DrawOrderSlot 128
+00001741        LocalPlayerOnly False
+00001750    EmitterEntityData 00000009
+00001750        $::ChildEffectEntityData
+00001750            $::SpatialEntityData
+00001750                $::EntityData
+00001750                    $::GameObjectData
+00001750                        $::DataBusPeer
+00001750                            $::GameDataContainer
+00001750                                $::DataContainer
+00001758                            Flags 24413292
+00001760                Transform::LinearTransform
+00001760                    right::Vec3
+00001760                        x 1.0
+00001764                        y 0.0
+00001768                        z 0.0
+00001770                    up::Vec3
+00001770                        x 0.0
+00001774                        y 1.0
+00001778                        z 0.0
+00001780                    forward::Vec3
+00001780                        x 0.0
+00001784                        y 0.0
+00001788                        z 1.0
+00001790                    trans::Vec3
+00001790                        x 0.0
+00001794                        y 0.0
+00001798                        z 0.0
+000017a0            Components *nullArray*
+000017a4            MaxActiveInstanceCount::QualityScalableInt
+000017a4                Low 30
+000017a8                Medium 30
+000017ac                High 30
+000017b0                Ultra 30
+000017b4            CullDistance::QualityScalableFloat
+000017b4                Low 0.0
+000017b8                Medium 0.0
+000017bc                High 0.0
+000017c0                Ultra 0.0
+000017c4            StartDelay 1.0
+000017c8            KillWhenDistanceCulled False
+000017c9            ResetInstanceWhenStarted True
+000017ca            AttachToSpawnSurface False
+000017cb            Enable::QualityScalableBool
+000017cb                Low True
+000017cc                Medium True
+000017cd                High True
+000017ce                Ultra True
+000017cf            OverrideDrawOrder False
+000017d0        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_distortion/2d58ee7661bf3845b678eaa932c5e3e0
+000017d4        SpawnProbability::QualityScalableFloat
+000017d4            Low 1.0
+000017d8            Medium 1.0
+000017dc            High 1.0
+000017e0            Ultra 1.0
+000017e4        MaxNearbyInstanceCount 0
+000017e8        NearbyRadius 1.0
+000017ec        EmitterTags *nullArray*
+000017f0        DrawOrderSlot 128
+000017f1        LocalPlayerOnly False
+00001800    EmitterEntityData 0000000a
+00001800        $::ChildEffectEntityData
+00001800            $::SpatialEntityData
+00001800                $::EntityData
+00001800                    $::GameObjectData
+00001800                        $::DataBusPeer
+00001800                            $::GameDataContainer
+00001800                                $::DataContainer
+00001808                            Flags 7178127
+00001810                Transform::LinearTransform
+00001810                    right::Vec3
+00001810                        x 1.0
+00001814                        y 0.0
+00001818                        z 0.0
+00001820                    up::Vec3
+00001820                        x 0.0
+00001824                        y 1.0
+00001828                        z 0.0
+00001830                    forward::Vec3
+00001830                        x 0.0
+00001834                        y 0.0
+00001838                        z 1.0
+00001840                    trans::Vec3
+00001840                        x 0.0
+00001844                        y 0.5
+00001848                        z 0.0
+00001850            Components *nullArray*
+00001854            MaxActiveInstanceCount::QualityScalableInt
+00001854                Low 30
+00001858                Medium 30
+0000185c                High 30
+00001860                Ultra 30
+00001864            CullDistance::QualityScalableFloat
+00001864                Low 0.0
+00001868                Medium 0.0
+0000186c                High 0.0
+00001870                Ultra 0.0
+00001874            StartDelay 1.35000002384
+00001878            KillWhenDistanceCulled False
+00001879            ResetInstanceWhenStarted True
+0000187a            AttachToSpawnSurface False
+0000187b            Enable::QualityScalableBool
+0000187b                Low False
+0000187c                Medium True
+0000187d                High True
+0000187e                Ultra True
+0000187f            OverrideDrawOrder False
+00001880        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_meshp_bigparts/5e7e8b87099e46469a2f137ff6dd430b
+00001884        SpawnProbability::QualityScalableFloat
+00001884            Low 0.0
+00001888            Medium 1.0
+0000188c            High 1.0
+00001890            Ultra 1.0
+00001894        MaxNearbyInstanceCount 0
+00001898        NearbyRadius 1.0
+0000189c        EmitterTags *nullArray*
+000018a0        DrawOrderSlot 128
+000018a1        LocalPlayerOnly False
+000018b0    EmitterEntityData 0000000b
+000018b0        $::ChildEffectEntityData
+000018b0            $::SpatialEntityData
+000018b0                $::EntityData
+000018b0                    $::GameObjectData
+000018b0                        $::DataBusPeer
+000018b0                            $::GameDataContainer
+000018b0                                $::DataContainer
+000018b8                            Flags 15647899
+000018c0                Transform::LinearTransform
+000018c0                    right::Vec3
+000018c0                        x 1.0
+000018c4                        y 0.0
+000018c8                        z 0.0
+000018d0                    up::Vec3
+000018d0                        x 0.0
+000018d4                        y 1.0
+000018d8                        z 0.0
+000018e0                    forward::Vec3
+000018e0                        x 0.0
+000018e4                        y 0.0
+000018e8                        z 1.0
+000018f0                    trans::Vec3
+000018f0                        x 0.0
+000018f4                        y 0.0
+000018f8                        z 0.0
+00001900            Components *nullArray*
+00001904            MaxActiveInstanceCount::QualityScalableInt
+00001904                Low 30
+00001908                Medium 30
+0000190c                High 30
+00001910                Ultra 30
+00001914            CullDistance::QualityScalableFloat
+00001914                Low 0.0
+00001918                Medium 0.0
+0000191c                High 0.0
+00001920                Ultra 0.0
+00001924            StartDelay 1.5
+00001928            KillWhenDistanceCulled False
+00001929            ResetInstanceWhenStarted True
+0000192a            AttachToSpawnSurface False
+0000192b            Enable::QualityScalableBool
+0000192b                Low True
+0000192c                Medium True
+0000192d                High True
+0000192e                Ultra True
+0000192f            OverrideDrawOrder False
+00001930        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_smokefill/bd27136857db494a9d90813635f1e9e3
+00001934        SpawnProbability::QualityScalableFloat
+00001934            Low 1.0
+00001938            Medium 1.0
+0000193c            High 1.0
+00001940            Ultra 1.0
+00001944        MaxNearbyInstanceCount 0
+00001948        NearbyRadius 1.0
+0000194c        EmitterTags *nullArray*
+00001950        DrawOrderSlot 128
+00001951        LocalPlayerOnly False
+00001960    EmitterEntityData 0000000c
+00001960        $::ChildEffectEntityData
+00001960            $::SpatialEntityData
+00001960                $::EntityData
+00001960                    $::GameObjectData
+00001960                        $::DataBusPeer
+00001960                            $::GameDataContainer
+00001960                                $::DataContainer
+00001968                            Flags 8664484
+00001970                Transform::LinearTransform
+00001970                    right::Vec3
+00001970                        x 1.0
+00001974                        y 0.0
+00001978                        z 0.0
+00001980                    up::Vec3
+00001980                        x 0.0
+00001984                        y 1.0
+00001988                        z 0.0
+00001990                    forward::Vec3
+00001990                        x 0.0
+00001994                        y 0.0
+00001998                        z 1.0
+000019a0                    trans::Vec3
+000019a0                        x 0.0
+000019a4                        y 0.5
+000019a8                        z 0.0
+000019b0            Components *nullArray*
+000019b4            MaxActiveInstanceCount::QualityScalableInt
+000019b4                Low 30
+000019b8                Medium 30
+000019bc                High 30
+000019c0                Ultra 30
+000019c4            CullDistance::QualityScalableFloat
+000019c4                Low 0.0
+000019c8                Medium 0.0
+000019cc                High 0.0
+000019d0                Ultra 0.0
+000019d4            StartDelay 1.25
+000019d8            KillWhenDistanceCulled False
+000019d9            ResetInstanceWhenStarted True
+000019da            AttachToSpawnSurface False
+000019db            Enable::QualityScalableBool
+000019db                Low False
+000019dc                Medium False
+000019dd                High True
+000019de                Ultra True
+000019df            OverrideDrawOrder False
+000019e0        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_meshp_mediumparts2/3413fa4fea45d84392df7bfe4cce22b2
+000019e4        SpawnProbability::QualityScalableFloat
+000019e4            Low 0.0
+000019e8            Medium 0.0
+000019ec            High 1.0
+000019f0            Ultra 1.0
+000019f4        MaxNearbyInstanceCount 0
+000019f8        NearbyRadius 1.0
+000019fc        EmitterTags *nullArray*
+00001a00        DrawOrderSlot 128
+00001a01        LocalPlayerOnly False
+00001a10    EmitterEntityData 0000000d
+00001a10        $::ChildEffectEntityData
+00001a10            $::SpatialEntityData
+00001a10                $::EntityData
+00001a10                    $::GameObjectData
+00001a10                        $::DataBusPeer
+00001a10                            $::GameDataContainer
+00001a10                                $::DataContainer
+00001a18                            Flags 27840946
+00001a20                Transform::LinearTransform
+00001a20                    right::Vec3
+00001a20                        x 0.887046098709
+00001a24                        y -0.377148211002
+00001a28                        z 0.266286253929
+00001a30                    up::Vec3
+00001a30                        x 0.46168076992
+00001a34                        y 0.724629700184
+00001a38                        z -0.511627435684
+00001a40                    forward::Vec3
+00001a40                        x 4.32133674622e-07
+00001a44                        y 0.576776385307
+00001a48                        z 0.81690210104
+00001a50                    trans::Vec3
+00001a50                        x 0.0
+00001a54                        y 0.0
+00001a58                        z -1.33188819885
+00001a60            Components *nullArray*
+00001a64            MaxActiveInstanceCount::QualityScalableInt
+00001a64                Low 30
+00001a68                Medium 30
+00001a6c                High 30
+00001a70                Ultra 30
+00001a74            CullDistance::QualityScalableFloat
+00001a74                Low 0.0
+00001a78                Medium 0.0
+00001a7c                High 0.0
+00001a80                Ultra 0.0
+00001a84            StartDelay 0.0
+00001a88            KillWhenDistanceCulled False
+00001a89            ResetInstanceWhenStarted True
+00001a8a            AttachToSpawnSurface False
+00001a8b            Enable::QualityScalableBool
+00001a8b                Low True
+00001a8c                Medium True
+00001a8d                High True
+00001a8e                Ultra True
+00001a8f            OverrideDrawOrder False
+00001a90        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_smalldebris/2bb75e99e0b6584d83ac097e4b0189ba
+00001a94        SpawnProbability::QualityScalableFloat
+00001a94            Low 1.0
+00001a98            Medium 1.0
+00001a9c            High 1.0
+00001aa0            Ultra 1.0
+00001aa4        MaxNearbyInstanceCount 0
+00001aa8        NearbyRadius 1.0
+00001aac        EmitterTags *nullArray*
+00001ab0        DrawOrderSlot 128
+00001ab1        LocalPlayerOnly False
+00001ac0    EmitterEntityData 0000000e
+00001ac0        $::ChildEffectEntityData
+00001ac0            $::SpatialEntityData
+00001ac0                $::EntityData
+00001ac0                    $::GameObjectData
+00001ac0                        $::DataBusPeer
+00001ac0                            $::GameDataContainer
+00001ac0                                $::DataContainer
+00001ac8                            Flags 21074613
+00001ad0                Transform::LinearTransform
+00001ad0                    right::Vec3
+00001ad0                        x 0.887046277523
+00001ad4                        y -0.377147525549
+00001ad8                        z 0.266286641359
+00001ae0                    up::Vec3
+00001ae0                        x 0.461680471897
+00001ae4                        y 0.724629640579
+00001ae8                        z -0.511627852917
+00001af0                    forward::Vec3
+00001af0                        x -1.49011611938e-08
+00001af4                        y 0.576777040958
+00001af8                        z 0.816901683807
+00001b00                    trans::Vec3
+00001b00                        x 0.0
+00001b04                        y 0.0
+00001b08                        z -1.33188819885
+00001b10            Components *nullArray*
+00001b14            MaxActiveInstanceCount::QualityScalableInt
+00001b14                Low 30
+00001b18                Medium 30
+00001b1c                High 30
+00001b20                Ultra 30
+00001b24            CullDistance::QualityScalableFloat
+00001b24                Low 0.0
+00001b28                Medium 0.0
+00001b2c                High 0.0
+00001b30                Ultra 0.0
+00001b34            StartDelay 0.0
+00001b38            KillWhenDistanceCulled False
+00001b39            ResetInstanceWhenStarted True
+00001b3a            AttachToSpawnSurface False
+00001b3b            Enable::QualityScalableBool
+00001b3b                Low True
+00001b3c                Medium True
+00001b3d                High True
+00001b3e                Ultra True
+00001b3f            OverrideDrawOrder False
+00001b40        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_small/fcb26b3967175f4784953d36eb6a6ea2
+00001b44        SpawnProbability::QualityScalableFloat
+00001b44            Low 1.0
+00001b48            Medium 1.0
+00001b4c            High 1.0
+00001b50            Ultra 1.0
+00001b54        MaxNearbyInstanceCount 0
+00001b58        NearbyRadius 1.0
+00001b5c        EmitterTags *nullArray*
+00001b60        DrawOrderSlot 128
+00001b61        LocalPlayerOnly False
+00001b70    EmitterEntityData 0000000f
+00001b70        $::ChildEffectEntityData
+00001b70            $::SpatialEntityData
+00001b70                $::EntityData
+00001b70                    $::GameObjectData
+00001b70                        $::DataBusPeer
+00001b70                            $::GameDataContainer
+00001b70                                $::DataContainer
+00001b78                            Flags 27893450
+00001b80                Transform::LinearTransform
+00001b80                    right::Vec3
+00001b80                        x 1.0
+00001b84                        y 0.0
+00001b88                        z 0.0
+00001b90                    up::Vec3
+00001b90                        x 0.0
+00001b94                        y 1.0
+00001b98                        z 0.0
+00001ba0                    forward::Vec3
+00001ba0                        x 0.0
+00001ba4                        y 0.0
+00001ba8                        z 1.0
+00001bb0                    trans::Vec3
+00001bb0                        x 0.0
+00001bb4                        y 0.0
+00001bb8                        z 0.0
+00001bc0            Components *nullArray*
+00001bc4            MaxActiveInstanceCount::QualityScalableInt
+00001bc4                Low 30
+00001bc8                Medium 30
+00001bcc                High 30
+00001bd0                Ultra 30
+00001bd4            CullDistance::QualityScalableFloat
+00001bd4                Low 0.0
+00001bd8                Medium 0.0
+00001bdc                High 0.0
+00001be0                Ultra 0.0
+00001be4            StartDelay 1.14999997616
+00001be8            KillWhenDistanceCulled False
+00001be9            ResetInstanceWhenStarted True
+00001bea            AttachToSpawnSurface False
+00001beb            Enable::QualityScalableBool
+00001beb                Low True
+00001bec                Medium True
+00001bed                High True
+00001bee                Ultra True
+00001bef            OverrideDrawOrder False
+00001bf0        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_smokeout/bb212de6ac2fad4e850a420773446299
+00001bf4        SpawnProbability::QualityScalableFloat
+00001bf4            Low 1.0
+00001bf8            Medium 1.0
+00001bfc            High 1.0
+00001c00            Ultra 1.0
+00001c04        MaxNearbyInstanceCount 0
+00001c08        NearbyRadius 1.0
+00001c0c        EmitterTags *nullArray*
+00001c10        DrawOrderSlot 128
+00001c11        LocalPlayerOnly False
+00001c20    EmitterEntityData 00000010
+00001c20        $::ChildEffectEntityData
+00001c20            $::SpatialEntityData
+00001c20                $::EntityData
+00001c20                    $::GameObjectData
+00001c20                        $::DataBusPeer
+00001c20                            $::GameDataContainer
+00001c20                                $::DataContainer
+00001c28                            Flags 23017165
+00001c30                Transform::LinearTransform
+00001c30                    right::Vec3
+00001c30                        x 1.0
+00001c34                        y 0.0
+00001c38                        z 0.0
+00001c40                    up::Vec3
+00001c40                        x 0.0
+00001c44                        y 1.0
+00001c48                        z 0.0
+00001c50                    forward::Vec3
+00001c50                        x 0.0
+00001c54                        y 0.0
+00001c58                        z 1.0
+00001c60                    trans::Vec3
+00001c60                        x 0.0
+00001c64                        y 0.0
+00001c68                        z 0.0
+00001c70            Components *nullArray*
+00001c74            MaxActiveInstanceCount::QualityScalableInt
+00001c74                Low 30
+00001c78                Medium 30
+00001c7c                High 30
+00001c80                Ultra 30
+00001c84            CullDistance::QualityScalableFloat
+00001c84                Low 0.0
+00001c88                Medium 0.0
+00001c8c                High 0.0
+00001c90                Ultra 0.0
+00001c94            StartDelay 1.0
+00001c98            KillWhenDistanceCulled False
+00001c99            ResetInstanceWhenStarted True
+00001c9a            AttachToSpawnSurface False
+00001c9b            Enable::QualityScalableBool
+00001c9b                Low True
+00001c9c                Medium True
+00001c9d                High True
+00001c9e                Ultra True
+00001c9f            OverrideDrawOrder False
+00001ca0        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_big/f798d7aa38e6664a9217dccbcef53aa8
+00001ca4        SpawnProbability::QualityScalableFloat
+00001ca4            Low 1.0
+00001ca8            Medium 1.0
+00001cac            High 1.0
+00001cb0            Ultra 1.0
+00001cb4        MaxNearbyInstanceCount 0
+00001cb8        NearbyRadius 1.0
+00001cbc        EmitterTags *nullArray*
+00001cc0        DrawOrderSlot 128
+00001cc1        LocalPlayerOnly False
+00001cd0    EmitterEntityData 00000011
+00001cd0        $::ChildEffectEntityData
+00001cd0            $::SpatialEntityData
+00001cd0                $::EntityData
+00001cd0                    $::GameObjectData
+00001cd0                        $::DataBusPeer
+00001cd0                            $::GameDataContainer
+00001cd0                                $::DataContainer
+00001cd8                            Flags 16700884
+00001ce0                Transform::LinearTransform
+00001ce0                    right::Vec3
+00001ce0                        x 1.0
+00001ce4                        y 0.0
+00001ce8                        z 0.0
+00001cf0                    up::Vec3
+00001cf0                        x 0.0
+00001cf4                        y 1.0
+00001cf8                        z 0.0
+00001d00                    forward::Vec3
+00001d00                        x 0.0
+00001d04                        y 0.0
+00001d08                        z 1.0
+00001d10                    trans::Vec3
+00001d10                        x 0.0
+00001d14                        y 0.0
+00001d18                        z 0.0
+00001d20            Components *nullArray*
+00001d24            MaxActiveInstanceCount::QualityScalableInt
+00001d24                Low 30
+00001d28                Medium 30
+00001d2c                High 30
+00001d30                Ultra 30
+00001d34            CullDistance::QualityScalableFloat
+00001d34                Low 0.0
+00001d38                Medium 0.0
+00001d3c                High 0.0
+00001d40                Ultra 0.0
+00001d44            StartDelay 0.10000000149
+00001d48            KillWhenDistanceCulled False
+00001d49            ResetInstanceWhenStarted True
+00001d4a            AttachToSpawnSurface False
+00001d4b            Enable::QualityScalableBool
+00001d4b                Low False
+00001d4c                Medium False
+00001d4d                High True
+00001d4e                Ultra True
+00001d4f            OverrideDrawOrder False
+00001d50        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_aftermath/1a307804688499428ea35115b19a864e
+00001d54        SpawnProbability::QualityScalableFloat
+00001d54            Low 0.0
+00001d58            Medium 0.0
+00001d5c            High 1.0
+00001d60            Ultra 1.0
+00001d64        MaxNearbyInstanceCount 0
+00001d68        NearbyRadius 1.0
+00001d6c        EmitterTags *nullArray*
+00001d70        DrawOrderSlot 128
+00001d71        LocalPlayerOnly False
+00001d80    EmitterEntityData 00000012
+00001d80        $::ChildEffectEntityData
+00001d80            $::SpatialEntityData
+00001d80                $::EntityData
+00001d80                    $::GameObjectData
+00001d80                        $::DataBusPeer
+00001d80                            $::GameDataContainer
+00001d80                                $::DataContainer
+00001d88                            Flags 15263450
+00001d90                Transform::LinearTransform
+00001d90                    right::Vec3
+00001d90                        x 1.0
+00001d94                        y 0.0
+00001d98                        z 0.0
+00001da0                    up::Vec3
+00001da0                        x 0.0
+00001da4                        y 0.999999940395
+00001da8                        z 0.0
+00001db0                    forward::Vec3
+00001db0                        x 0.0
+00001db4                        y 0.0
+00001db8                        z 0.999999940395
+00001dc0                    trans::Vec3
+00001dc0                        x 0.0
+00001dc4                        y 0.0
+00001dc8                        z 0.0
+00001dd0            Components *nullArray*
+00001dd4            MaxActiveInstanceCount::QualityScalableInt
+00001dd4                Low 30
+00001dd8                Medium 30
+00001ddc                High 30
+00001de0                Ultra 30
+00001de4            CullDistance::QualityScalableFloat
+00001de4                Low 0.0
+00001de8                Medium 0.0
+00001dec                High 0.0
+00001df0                Ultra 0.0
+00001df4            StartDelay 1.25
+00001df8            KillWhenDistanceCulled False
+00001df9            ResetInstanceWhenStarted True
+00001dfa            AttachToSpawnSurface False
+00001dfb            Enable::QualityScalableBool
+00001dfb                Low True
+00001dfc                Medium True
+00001dfd                High True
+00001dfe                Ultra True
+00001dff            OverrideDrawOrder False
+00001e00        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_bigsecond/dedfc79883f98f4ebeef337f84f5397e
+00001e04        SpawnProbability::QualityScalableFloat
+00001e04            Low 1.0
+00001e08            Medium 1.0
+00001e0c            High 1.0
+00001e10            Ultra 1.0
+00001e14        MaxNearbyInstanceCount 0
+00001e18        NearbyRadius 1.0
+00001e1c        EmitterTags *nullArray*
+00001e20        DrawOrderSlot 128
+00001e21        LocalPlayerOnly False
+00001e30    EmitterEntityData 00000013
+00001e30        $::ChildEffectEntityData
+00001e30            $::SpatialEntityData
+00001e30                $::EntityData
+00001e30                    $::GameObjectData
+00001e30                        $::DataBusPeer
+00001e30                            $::GameDataContainer
+00001e30                                $::DataContainer
+00001e38                            Flags 26911213
+00001e40                Transform::LinearTransform
+00001e40                    right::Vec3
+00001e40                        x 1.0
+00001e44                        y 0.0
+00001e48                        z 0.0
+00001e50                    up::Vec3
+00001e50                        x 0.0
+00001e54                        y 1.0
+00001e58                        z 0.0
+00001e60                    forward::Vec3
+00001e60                        x 0.0
+00001e64                        y 0.0
+00001e68                        z 1.0
+00001e70                    trans::Vec3
+00001e70                        x 0.0
+00001e74                        y 0.0
+00001e78                        z 0.0
+00001e80            Components *nullArray*
+00001e84            MaxActiveInstanceCount::QualityScalableInt
+00001e84                Low 30
+00001e88                Medium 30
+00001e8c                High 30
+00001e90                Ultra 30
+00001e94            CullDistance::QualityScalableFloat
+00001e94                Low 0.0
+00001e98                Medium 0.0
+00001e9c                High 0.0
+00001ea0                Ultra 0.0
+00001ea4            StartDelay 1.14999997616
+00001ea8            KillWhenDistanceCulled False
+00001ea9            ResetInstanceWhenStarted True
+00001eaa            AttachToSpawnSurface False
+00001eab            Enable::QualityScalableBool
+00001eab                Low True
+00001eac                Medium True
+00001ead                High True
+00001eae                Ultra True
+00001eaf            OverrideDrawOrder False
+00001eb0        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_va_sparks_big/87a0135e9e9096429f7a8d99242f3882
+00001eb4        SpawnProbability::QualityScalableFloat
+00001eb4            Low 1.0
+00001eb8            Medium 1.0
+00001ebc            High 1.0
+00001ec0            Ultra 1.0
+00001ec4        MaxNearbyInstanceCount 0
+00001ec8        NearbyRadius 1.0
+00001ecc        EmitterTags *nullArray*
+00001ed0        DrawOrderSlot 128
+00001ed1        LocalPlayerOnly False
+00001ee0    EmitterEntityData 00000014
+00001ee0        $::ChildEffectEntityData
+00001ee0            $::SpatialEntityData
+00001ee0                $::EntityData
+00001ee0                    $::GameObjectData
+00001ee0                        $::DataBusPeer
+00001ee0                            $::GameDataContainer
+00001ee0                                $::DataContainer
+00001ee8                            Flags 622578
+00001ef0                Transform::LinearTransform
+00001ef0                    right::Vec3
+00001ef0                        x 0.797735333443
+00001ef4                        y 0.525816440582
+00001ef8                        z 0.295186668634
+00001f00                    up::Vec3
+00001f00                        x -0.601374089718
+00001f04                        y 0.657723963261
+00001f08                        z 0.45359519124
+00001f10                    forward::Vec3
+00001f10                        x 0.0443566069007
+00001f14                        y -0.539366543293
+00001f18                        z 0.840901911259
+00001f20                    trans::Vec3
+00001f20                        x -0.594811141491
+00001f24                        y 1.081854105
+00001f28                        z 0.979873776436
+00001f30            Components *nullArray*
+00001f34            MaxActiveInstanceCount::QualityScalableInt
+00001f34                Low 30
+00001f38                Medium 30
+00001f3c                High 30
+00001f40                Ultra 30
+00001f44            CullDistance::QualityScalableFloat
+00001f44                Low 0.0
+00001f48                Medium 0.0
+00001f4c                High 0.0
+00001f50                Ultra 0.0
+00001f54            StartDelay 0.300000011921
+00001f58            KillWhenDistanceCulled False
+00001f59            ResetInstanceWhenStarted True
+00001f5a            AttachToSpawnSurface False
+00001f5b            Enable::QualityScalableBool
+00001f5b                Low True
+00001f5c                Medium True
+00001f5d                High True
+00001f5e                Ultra True
+00001f5f            OverrideDrawOrder False
+00001f60        Emitter ebx\fx\vehicles\destruction\markv\emitters\em_destruction_markv_pyroexplosion_va_sparks/331b6e28729e124096a32fa13dcff57b
+00001f64        SpawnProbability::QualityScalableFloat
+00001f64            Low 1.0
+00001f68            Medium 1.0
+00001f6c            High 1.0
+00001f70            Ultra 1.0
+00001f74        MaxNearbyInstanceCount 0
+00001f78        NearbyRadius 1.0
+00001f7c        EmitterTags *nullArray*
+00001f80        DrawOrderSlot 128
+00001f81        LocalPlayerOnly False
+00001f90    SoundEffectEntityData 00000015
+00001f90        $::ChildEffectEntityData
+00001f90            $::SpatialEntityData
+00001f90                $::EntityData
+00001f90                    $::GameObjectData
+00001f90                        $::DataBusPeer
+00001f90                            $::GameDataContainer
+00001f90                                $::DataContainer
+00001f98                            Flags 24337958
+00001fa0                Transform::LinearTransform
+00001fa0                    right::Vec3
+00001fa0                        x 1.0
+00001fa4                        y 0.0
+00001fa8                        z 0.0
+00001fb0                    up::Vec3
+00001fb0                        x 0.0
+00001fb4                        y 1.0
+00001fb8                        z 0.0
+00001fc0                    forward::Vec3
+00001fc0                        x 0.0
+00001fc4                        y 0.0
+00001fc8                        z 1.0
+00001fd0                    trans::Vec3
+00001fd0                        x 0.0
+00001fd4                        y 0.0
+00001fd8                        z 0.0
+00001fe0            Components *nullArray*
+00001fe4            MaxActiveInstanceCount::QualityScalableInt
+00001fe4                Low 30
+00001fe8                Medium 30
+00001fec                High 30
+00001ff0                Ultra 30
+00001ff4            CullDistance::QualityScalableFloat
+00001ff4                Low 0.0
+00001ff8                Medium 0.0
+00001ffc                High 0.0
+00002000                Ultra 0.0
+00002004            StartDelay 0.0
+00002008            KillWhenDistanceCulled False
+00002009            ResetInstanceWhenStarted True
+0000200a            AttachToSpawnSurface False
+0000200b            Enable::QualityScalableBool
+0000200b                Low True
+0000200c                Medium True
+0000200d                High True
+0000200e                Ultra True
+0000200f            OverrideDrawOrder False
+00002010        Sound Sound/Core/Explosions/Explosion_Tank_Large/7c86a14ae55d0248a1b26216def3b6bb
+00002014        UseDefaultStopEvent True

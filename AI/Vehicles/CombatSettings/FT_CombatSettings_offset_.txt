@@ -1,0 +1,43 @@
+00000550    VehicleCombatSettings 4faed04163ca0743b53df586ddef911a
+00000548        $::Asset
+00000548            $::DataContainer
+00000550            Name AI/Vehicles/CombatSettings/FT_CombatSettings
+00000554        Distances::Distances
+00000554            Min 15.0
+00000558            Max 40.0
+0000055c        NeverLoseInterestDistance 20.0
+00000560        LoseInterestTime 15.0
+00000564        SixthSenseRadius 40.0
+00000568        ForgetTargetDistance 120.0
+0000056c        StopAndFireTimeout 0.0
+00000570        MoveTimeout 2.5
+00000574        CombatSettings::CombatSettings
+00000574            MoveTime 8.0
+00000578            UpdateTime 3.0
+0000057c            IterationCount 2
+00000580            AngleStep 15.0
+00000584            TestLength 25.0
+00000588            StraightOnly True
+0000058c        EvadeSettings::EvadeSettings
+0000058c            HoldEvadeTime 2.0
+00000590            MaxEvadeSearchTime 3.0
+00000594            IterationCount 3
+00000598            AngleStep 15.0
+0000059c            TestLength 35.0
+000005a0            EvadeSpeed 8.0
+000005a4            StraightOnly True
+000005a8        VehicleVsVehicle::VehicleVsVehicle
+000005a8            Distances::Distances
+000005a8                Min 15.0
+000005ac                Max 55.0
+000005b0            SearchTime 9999.0
+000005b4            KeepFocusWhileSearchingTime 5.0
+000005b8        VehicleVsSoldier::VehicleVsSoldier
+000005b8            Distances::Distances
+000005b8                Min 5.0
+000005bc                Max 15.0
+000005c0            NumRepositions 3
+000005c4            FlushOutTime 2.0
+000005c8        UseSimpleBehavior False
+000005c9        InterruptOnDamage True
+000005ca        TurnToAlignWeapons False

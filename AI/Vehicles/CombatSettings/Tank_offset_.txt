@@ -1,0 +1,43 @@
+00000540    VehicleCombatSettings 420bffc236e3ec33ea2f861832bf7353
+00000538        $::Asset
+00000538            $::DataContainer
+00000540            Name AI/Vehicles/CombatSettings/Tank
+00000544        Distances::Distances
+00000544            Min 15.0
+00000548            Max 40.0
+0000054c        NeverLoseInterestDistance 20.0
+00000550        LoseInterestTime 15.0
+00000554        SixthSenseRadius 1.0
+00000558        ForgetTargetDistance 250.0
+0000055c        StopAndFireTimeout 5.0
+00000560        MoveTimeout -1.0
+00000564        CombatSettings::CombatSettings
+00000564            MoveTime 40.0
+00000568            UpdateTime 2.5
+0000056c            IterationCount 2
+00000570            AngleStep 20.0
+00000574            TestLength 15.0
+00000578            StraightOnly False
+0000057c        EvadeSettings::EvadeSettings
+0000057c            HoldEvadeTime 10.0
+00000580            MaxEvadeSearchTime 5.0
+00000584            IterationCount 3
+00000588            AngleStep 25.0
+0000058c            TestLength 15.0
+00000590            EvadeSpeed 6.0
+00000594            StraightOnly True
+00000598        VehicleVsVehicle::VehicleVsVehicle
+00000598            Distances::Distances
+00000598                Min 15.0
+0000059c                Max 150.0
+000005a0            SearchTime 9999.0
+000005a4            KeepFocusWhileSearchingTime 5.0
+000005a8        VehicleVsSoldier::VehicleVsSoldier
+000005a8            Distances::Distances
+000005a8                Min 15.0
+000005ac                Max 150.0
+000005b0            NumRepositions 9999
+000005b4            FlushOutTime 2.0
+000005b8        UseSimpleBehavior False
+000005b9        InterruptOnDamage False
+000005ba        TurnToAlignWeapons False

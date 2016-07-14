@@ -1,0 +1,573 @@
+00002380    UIWidgetBlueprint ec6ea06df1106ce5fc1d0b92029cad04
+00002378        $::ObjectBlueprint
+00002378            $::Blueprint
+00002378                $::EntityBusData
+00002378                    $::DataBusData
+00002378                        $::Asset
+00002378                            $::DataContainer
+00002380                            Name UI/Ingame/Hud/Widgets/DefaultCrosshairWidget
+00002384                        PropertyConnections::array
+000028f4                            member(0)::PropertyConnection
+000028f4                                Source 00000005
+000028f8                                Target 00000006
+000028fc                                SourceFieldId 438508410
+00002900                                TargetFieldId 177629
+00002904                                Flags 2
+00002908                            member(1)::PropertyConnection
+00002908                                Source 00000006
+0000290c                                Target 00000007
+00002910                                SourceFieldId 193453899
+00002914                                TargetFieldId 177629
+00002918                                Flags 2
+0000291c                            member(2)::PropertyConnection
+0000291c                                Source 00000007
+00002920                                Target 00000001
+00002924                                SourceFieldId 193453899
+00002928                                TargetFieldId -2024647575
+0000292c                                Flags 2
+00002930                            member(3)::PropertyConnection
+00002930                                Source 00000007
+00002934                                Target 00000003
+00002938                                SourceFieldId 193453899
+0000293c                                TargetFieldId -2024647575
+00002940                                Flags 2
+00002944                            member(4)::PropertyConnection
+00002944                                Source 00000007
+00002948                                Target 00000002
+0000294c                                SourceFieldId 193453899
+00002950                                TargetFieldId -2024647575
+00002954                                Flags 2
+00002958                            member(5)::PropertyConnection
+00002958                                Source 00000007
+0000295c                                Target 00000000
+00002960                                SourceFieldId 193453899
+00002964                                TargetFieldId -2024647575
+00002968                                Flags 2
+00002388                        LinkConnections *nullArray*
+0000238c                        Interface 00000005
+00002390                        Flags 14
+00002394                    EventConnections *nullArray*
+00002398            Object 00000004
+000023a0    BFUIElementBitmapEntityData 00000000
+000023a0        $::BFUIElementEntityData
+000023a0            $::UIElementEntityData
+000023a0                $::EntityData
+000023a0                    $::GameObjectData
+000023a0                        $::DataBusPeer
+000023a0                            $::GameDataContainer
+000023a0                                $::DataContainer
+000023a8                            Flags 134217728
+000023ac                InstanceName right
+000023b0                UIElementTransform::UIElementTransform
+000023b0                    Rotation::Vec3
+000023b0                        x 0.0
+000023b4                        y 0.0
+000023b8                        z 90.0
+000023c0                    RotationPivot::Vec3
+000023c0                        x 0.5
+000023c4                        y 0.5
+000023c8                        z 0.0
+000023d0                    Z 0.0
+000023e0                Color::Vec3
+000023e0                    x 1.0
+000023e4                    y 1.0
+000023e8                    z 1.0
+000023f0                Transform::LinearTransform
+000023f0                    right::Vec3
+000023f0                        x 1.0
+000023f4                        y 0.0
+000023f8                        z 0.0
+00002400                    up::Vec3
+00002400                        x 0.0
+00002404                        y 1.0
+00002408                        z 0.0
+00002410                    forward::Vec3
+00002410                        x 0.0
+00002414                        y 0.0
+00002418                        z 1.0
+00002420                    trans::Vec3
+00002420                        x 0.0
+00002424                        y 0.0
+00002428                        z 0.0
+00002430                InstanceNameHash 194951909
+00002434                Size::Vec2
+00002434                    x 18.0
+00002438                    y 60.0
+0000243c                LayoutMode UILayoutMode_PositionExpansion
+00002440                Offset::UIElementOffset
+00002440                    X 0.0
+00002444                    Y 0.0
+00002448                Anchor::UIElementAnchor
+00002448                    X 0.0
+0000244c                    Y 0.0
+00002450                Position::UIElementOffset
+00002450                    X 60.0
+00002454                    Y 0.0
+00002458                Expansion::UIElementRectExpansion
+00002458                    X 1.0
+0000245c                    Y 0.0
+00002460                    Width 0.0
+00002464                    Height 1.0
+00002468                Alpha 1.0
+0000246c                Visible True
+00002470            CustomLayout::BFUICustomLayout
+00002470                SnapSettings::BFUISnapLayoutSettings
+00002470                    Left BFUISnapLayoutMode_Default
+00002474                    Right BFUISnapLayoutMode_Default
+00002478                    Top BFUISnapLayoutMode_Default
+0000247c                    Bottom BFUISnapLayoutMode_Default
+00002480                OverrideDefaultLayout False
+00002490        UVRect::Vec4
+00002490            x 1.0
+00002494            y 0.0
+00002498            z 0.0
+0000249c            w 1.0
+000024a0        TextureSource::UITextureSource
+000024a0            UVRect::Vec4
+000024a0                x 0.0
+000024a4                y 0.0
+000024a8                z 1.0
+000024ac                w 1.0
+000024b0        TextureId crosshair_dash
+000024b4        DynamicTextureId *nullString*
+000024b8        BlendMode UIBlendMode_AlphaBlend
+000024bc        ZOrder 0
+000024c0        KeepSourceScale True
+000024c1        KeepSourceAspectRatio False
+000024c2        AutoSizeHorizontally False
+000024c3        AutoSizeVertically False
+000024c4        UseColorAsOverlay False
+000024c5        OverrideBlendMode False
+000024c6        InvertColor False
+000024d0    BFUIElementBitmapEntityData 00000001
+000024d0        $::BFUIElementEntityData
+000024d0            $::UIElementEntityData
+000024d0                $::EntityData
+000024d0                    $::GameObjectData
+000024d0                        $::DataBusPeer
+000024d0                            $::GameDataContainer
+000024d0                                $::DataContainer
+000024d8                            Flags 134217728
+000024dc                InstanceName top
+000024e0                UIElementTransform::UIElementTransform
+000024e0                    Rotation::Vec3
+000024e0                        x 0.0
+000024e4                        y 0.0
+000024e8                        z 0.0
+000024f0                    RotationPivot::Vec3
+000024f0                        x 0.5
+000024f4                        y 0.5
+000024f8                        z 0.0
+00002500                    Z 0.0
+00002510                Color::Vec3
+00002510                    x 1.0
+00002514                    y 1.0
+00002518                    z 1.0
+00002520                Transform::LinearTransform
+00002520                    right::Vec3
+00002520                        x 1.0
+00002524                        y 0.0
+00002528                        z 0.0
+00002530                    up::Vec3
+00002530                        x 0.0
+00002534                        y 1.0
+00002538                        z 0.0
+00002540                    forward::Vec3
+00002540                        x 0.0
+00002544                        y 0.0
+00002548                        z 1.0
+00002550                    trans::Vec3
+00002550                        x 0.0
+00002554                        y 0.0
+00002558                        z 0.0
+00002560                InstanceNameHash 193422126
+00002564                Size::Vec2
+00002564                    x 60.0
+00002568                    y 18.0
+0000256c                LayoutMode UILayoutMode_PositionExpansion
+00002570                Offset::UIElementOffset
+00002570                    X 0.0
+00002574                    Y 0.0
+00002578                Anchor::UIElementAnchor
+00002578                    X 0.0
+0000257c                    Y 0.0
+00002580                Position::UIElementOffset
+00002580                    X 0.0
+00002584                    Y -18.0
+00002588                Expansion::UIElementRectExpansion
+00002588                    X 0.0
+0000258c                    Y 0.0
+00002590                    Width 1.0
+00002594                    Height 0.0
+00002598                Alpha 1.0
+0000259c                Visible True
+000025a0            CustomLayout::BFUICustomLayout
+000025a0                SnapSettings::BFUISnapLayoutSettings
+000025a0                    Left BFUISnapLayoutMode_Default
+000025a4                    Right BFUISnapLayoutMode_Default
+000025a8                    Top BFUISnapLayoutMode_Default
+000025ac                    Bottom BFUISnapLayoutMode_Default
+000025b0                OverrideDefaultLayout False
+000025c0        UVRect::Vec4
+000025c0            x 0.0
+000025c4            y 0.0
+000025c8            z 1.0
+000025cc            w 1.0
+000025d0        TextureSource::UITextureSource
+000025d0            UVRect::Vec4
+000025d0                x 0.0
+000025d4                y 0.0
+000025d8                z 1.0
+000025dc                w 1.0
+000025e0        TextureId crosshair_dash
+000025e4        DynamicTextureId *nullString*
+000025e8        BlendMode UIBlendMode_AlphaBlend
+000025ec        ZOrder 0
+000025f0        KeepSourceScale True
+000025f1        KeepSourceAspectRatio False
+000025f2        AutoSizeHorizontally False
+000025f3        AutoSizeVertically False
+000025f4        UseColorAsOverlay False
+000025f5        OverrideBlendMode False
+000025f6        InvertColor False
+00002600    BFUIElementBitmapEntityData 00000002
+00002600        $::BFUIElementEntityData
+00002600            $::UIElementEntityData
+00002600                $::EntityData
+00002600                    $::GameObjectData
+00002600                        $::DataBusPeer
+00002600                            $::GameDataContainer
+00002600                                $::DataContainer
+00002608                            Flags 134217728
+0000260c                InstanceName left
+00002610                UIElementTransform::UIElementTransform
+00002610                    Rotation::Vec3
+00002610                        x 0.0
+00002614                        y 0.0
+00002618                        z -90.0
+00002620                    RotationPivot::Vec3
+00002620                        x 0.5
+00002624                        y 0.5
+00002628                        z 0.0
+00002630                    Z 0.0
+00002640                Color::Vec3
+00002640                    x 1.0
+00002644                    y 1.0
+00002648                    z 1.0
+00002650                Transform::LinearTransform
+00002650                    right::Vec3
+00002650                        x 1.0
+00002654                        y 0.0
+00002658                        z 0.0
+00002660                    up::Vec3
+00002660                        x 0.0
+00002664                        y 1.0
+00002668                        z 0.0
+00002670                    forward::Vec3
+00002670                        x 0.0
+00002674                        y 0.0
+00002678                        z 1.0
+00002680                    trans::Vec3
+00002680                        x 0.0
+00002684                        y 0.0
+00002688                        z 0.0
+00002690                InstanceNameHash 2087669214
+00002694                Size::Vec2
+00002694                    x 18.0
+00002698                    y 60.0
+0000269c                LayoutMode UILayoutMode_PositionExpansion
+000026a0                Offset::UIElementOffset
+000026a0                    X 0.0
+000026a4                    Y 0.0
+000026a8                Anchor::UIElementAnchor
+000026a8                    X 0.0
+000026ac                    Y 0.0
+000026b0                Position::UIElementOffset
+000026b0                    X -18.0
+000026b4                    Y 0.0
+000026b8                Expansion::UIElementRectExpansion
+000026b8                    X 0.0
+000026bc                    Y 0.0
+000026c0                    Width 0.0
+000026c4                    Height 1.0
+000026c8                Alpha 1.0
+000026cc                Visible True
+000026d0            CustomLayout::BFUICustomLayout
+000026d0                SnapSettings::BFUISnapLayoutSettings
+000026d0                    Left BFUISnapLayoutMode_Default
+000026d4                    Right BFUISnapLayoutMode_Default
+000026d8                    Top BFUISnapLayoutMode_Default
+000026dc                    Bottom BFUISnapLayoutMode_Default
+000026e0                OverrideDefaultLayout False
+000026f0        UVRect::Vec4
+000026f0            x 0.0
+000026f4            y 0.0
+000026f8            z 1.0
+000026fc            w 1.0
+00002700        TextureSource::UITextureSource
+00002700            UVRect::Vec4
+00002700                x 0.0
+00002704                y 0.0
+00002708                z 1.0
+0000270c                w 1.0
+00002710        TextureId crosshair_dash
+00002714        DynamicTextureId *nullString*
+00002718        BlendMode UIBlendMode_AlphaBlend
+0000271c        ZOrder 0
+00002720        KeepSourceScale True
+00002721        KeepSourceAspectRatio False
+00002722        AutoSizeHorizontally False
+00002723        AutoSizeVertically False
+00002724        UseColorAsOverlay False
+00002725        OverrideBlendMode False
+00002726        InvertColor False
+00002730    BFUIElementBitmapEntityData 00000003
+00002730        $::BFUIElementEntityData
+00002730            $::UIElementEntityData
+00002730                $::EntityData
+00002730                    $::GameObjectData
+00002730                        $::DataBusPeer
+00002730                            $::GameDataContainer
+00002730                                $::DataContainer
+00002738                            Flags 134217728
+0000273c                InstanceName bottom
+00002740                UIElementTransform::UIElementTransform
+00002740                    Rotation::Vec3
+00002740                        x 0.0
+00002744                        y 0.0
+00002748                        z -180.0
+00002750                    RotationPivot::Vec3
+00002750                        x 0.5
+00002754                        y 0.5
+00002758                        z 0.0
+00002760                    Z 0.0
+00002770                Color::Vec3
+00002770                    x 1.0
+00002774                    y 1.0
+00002778                    z 1.0
+00002780                Transform::LinearTransform
+00002780                    right::Vec3
+00002780                        x 1.0
+00002784                        y 0.0
+00002788                        z 0.0
+00002790                    up::Vec3
+00002790                        x 0.0
+00002794                        y 1.0
+00002798                        z 0.0
+000027a0                    forward::Vec3
+000027a0                        x 0.0
+000027a4                        y 0.0
+000027a8                        z 1.0
+000027b0                    trans::Vec3
+000027b0                        x 0.0
+000027b4                        y 0.0
+000027b8                        z 0.0
+000027c0                InstanceNameHash 1501375850
+000027c4                Size::Vec2
+000027c4                    x 60.0
+000027c8                    y 18.0
+000027cc                LayoutMode UILayoutMode_PositionExpansion
+000027d0                Offset::UIElementOffset
+000027d0                    X 0.0
+000027d4                    Y 0.0
+000027d8                Anchor::UIElementAnchor
+000027d8                    X 0.0
+000027dc                    Y 0.0
+000027e0                Position::UIElementOffset
+000027e0                    X 0.0
+000027e4                    Y 60.0
+000027e8                Expansion::UIElementRectExpansion
+000027e8                    X 0.0
+000027ec                    Y 1.0
+000027f0                    Width 1.0
+000027f4                    Height 0.0
+000027f8                Alpha 1.0
+000027fc                Visible True
+00002800            CustomLayout::BFUICustomLayout
+00002800                SnapSettings::BFUISnapLayoutSettings
+00002800                    Left BFUISnapLayoutMode_Default
+00002804                    Right BFUISnapLayoutMode_Default
+00002808                    Top BFUISnapLayoutMode_Default
+0000280c                    Bottom BFUISnapLayoutMode_Default
+00002810                OverrideDefaultLayout False
+00002820        UVRect::Vec4
+00002820            x 0.0
+00002824            y 0.0
+00002828            z 1.0
+0000282c            w 1.0
+00002830        TextureSource::UITextureSource
+00002830            UVRect::Vec4
+00002830                x 0.0
+00002834                y 0.0
+00002838                z 1.0
+0000283c                w 1.0
+00002840        TextureId crosshair_dash
+00002844        DynamicTextureId *nullString*
+00002848        BlendMode UIBlendMode_AlphaBlend
+0000284c        ZOrder 0
+00002850        KeepSourceScale True
+00002851        KeepSourceAspectRatio False
+00002852        AutoSizeHorizontally False
+00002853        AutoSizeVertically False
+00002854        UseColorAsOverlay False
+00002855        OverrideBlendMode False
+00002856        InvertColor False
+00002860    BFUIWidgetEntityData 00000004
+00002858        $::UIWidgetEntityData
+00002858            $::EntityData
+00002858                $::GameObjectData
+00002858                    $::DataBusPeer
+00002858                        $::GameDataContainer
+00002858                            $::DataContainer
+00002860                        Flags 190513602
+00002864            Size::UIElementSize
+00002864                X 60.0
+00002868                Y 60.0
+0000286c            Layers::array
+00002970                member(0) 00000008
+00002870            TextureMappings::array
+00002978                member(0) UI/Ingame/Hud/TextureMappings/CrosshairTextures/81095cef6d3e2cba475cd1f465348883
+00002874            Components::array
+00002980                member(0) 00000007
+00002984                member(1) 00000006
+00002878            Visible True
+0000287c        CustomLayout::BFUICustomLayout
+0000287c            SnapSettings::BFUISnapLayoutSettings
+0000287c                Left BFUISnapLayoutMode_Default
+00002880                Right BFUISnapLayoutMode_Default
+00002884                Top BFUISnapLayoutMode_Default
+00002888                Bottom BFUISnapLayoutMode_Default
+0000288c            OverrideDefaultLayout False
+00002890        UseStencilMask False
+00002891        UseInputStencilMask False
+00002892        InputEnabled True
+00002894    InterfaceDescriptorData 00000005
+0000288c        $::DynamicDataContainer
+0000288c            $::DataContainer
+00002894            Fields::array
+0000298c                member(0)::DataField
+0000298c                    Value *nullString*
+00002990                    ValueRef *nullGuid*
+00002994                    Id 438508410
+00002998                    AccessType FieldAccessType_Target
+00002898        InputEvents *nullArray*
+0000289c        OutputEvents *nullArray*
+000028a0        InputLinks *nullArray*
+000028a4        OutputLinks *nullArray*
+000028a8    MathEntityData 00000006
+000028a0        $::EntityData
+000028a0            $::GameObjectData
+000028a0                $::DataBusPeer
+000028a0                    $::GameDataContainer
+000028a0                        $::DataContainer
+000028a8                    Flags 158142785
+000028ac        Realm Realm_Client
+000028b0        Assembly::MathEntityAssembly
+000028b0            FunctionCalls *nullArray*
+000028b4            Instructions::array
+000029a0                member(0)::MathEntityInstruction
+000029a0                    Code MathOpCode_InputF
+000029a4                    Result 0
+000029a8                    Param1 177629
+000029ac                    Param2 0
+000029b0                member(1)::MathEntityInstruction
+000029b0                    Code MathOpCode_ConstF
+000029b4                    Result 1
+000029b8                    Param1 1065353216
+000029bc                    Param2 0
+000029c0                member(2)::MathEntityInstruction
+000029c0                    Code MathOpCode_SubF
+000029c4                    Result 0
+000029c8                    Param1 0
+000029cc                    Param2 1
+000029d0                member(3)::MathEntityInstruction
+000029d0                    Code MathOpCode_ConstF
+000029d4                    Result 1
+000029d8                    Param1 1106247680
+000029dc                    Param2 0
+000029e0                member(4)::MathEntityInstruction
+000029e0                    Code MathOpCode_MulF
+000029e4                    Result 0
+000029e8                    Param1 0
+000029ec                    Param2 1
+000029f0                member(5)::MathEntityInstruction
+000029f0                    Code MathOpCode_Return
+000029f4                    Result 0
+000029f8                    Param1 4
+000029fc                    Param2 0
+000028b8        EvaluateOnEvent False
+000028bc    MathEntityData 00000007
+000028b4        $::EntityData
+000028b4            $::GameObjectData
+000028b4                $::DataBusPeer
+000028b4                    $::GameDataContainer
+000028b4                        $::DataContainer
+000028bc                    Flags 156606629
+000028c0        Realm Realm_Client
+000028c4        Assembly::MathEntityAssembly
+000028c4            FunctionCalls::array
+00002a1c                member(0)::MathEntityFunctionCall
+00002a1c                    Parameters::array
+00002a04                        member(0) 0
+00002a08                        member(1) 1
+00002a0c                        member(2) 2
+00002a20                member(1)::MathEntityFunctionCall
+00002a20                    Parameters::array
+00002a14                        member(0) 0
+000028c8            Instructions::array
+00002a28                member(0)::MathEntityInstruction
+00002a28                    Code MathOpCode_ConstF
+00002a2c                    Result 0
+00002a30                    Param1 0
+00002a34                    Param2 0
+00002a38                member(1)::MathEntityInstruction
+00002a38                    Code MathOpCode_InputF
+00002a3c                    Result 1
+00002a40                    Param1 177629
+00002a44                    Param2 0
+00002a48                member(2)::MathEntityInstruction
+00002a48                    Code MathOpCode_NegF
+00002a4c                    Result 1
+00002a50                    Param1 1
+00002a54                    Param2 0
+00002a58                member(3)::MathEntityInstruction
+00002a58                    Code MathOpCode_ConstF
+00002a5c                    Result 2
+00002a60                    Param1 0
+00002a64                    Param2 0
+00002a68                member(4)::MathEntityInstruction
+00002a68                    Code MathOpCode_Func
+00002a6c                    Result 0
+00002a70                    Param1 2088167974
+00002a74                    Param2 0
+00002a78                member(5)::MathEntityInstruction
+00002a78                    Code MathOpCode_Func
+00002a7c                    Result 0
+00002a80                    Param1 820016430
+00002a84                    Param2 1
+00002a88                member(6)::MathEntityInstruction
+00002a88                    Code MathOpCode_Return
+00002a8c                    Result 0
+00002a90                    Param1 64
+00002a94                    Param2 0
+000028cc        EvaluateOnEvent False
+000028d0    UIElementLayerEntityData 00000008
+000028c8        $::EntityData
+000028c8            $::GameObjectData
+000028c8                $::DataBusPeer
+000028c8                    $::GameDataContainer
+000028c8                        $::DataContainer
+000028d0                    Flags 0
+000028d4        LayerName Crosshair
+000028d8        Elements::array
+00002a9c            member(0) 00000001
+00002aa0            member(1) 00000002
+00002aa4            member(2) 00000000
+00002aa8            member(3) 00000003
+000028dc        InclusionSettings::UIElementInclusionSettings
+000028dc            CustomInclusionCritera *nullArray*
+000028e0            IsSingleplayerLayer True
+000028e1            IsMultiplayerLayer True
+000028e2            IsSDLayer True
+000028e3            IsHDLayer True
+000028e4        Visible True

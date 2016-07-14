@@ -1,0 +1,294 @@
+00002840    UIWidgetBlueprint c7e2b0636e8c5921e982faea95f6b8dd
+00002838        $::ObjectBlueprint
+00002838            $::Blueprint
+00002838                $::EntityBusData
+00002838                    $::DataBusData
+00002838                        $::Asset
+00002838                            $::DataContainer
+00002840                            Name UI/Ingame/Medals/UIMedalTrackerProgressBar
+00002844                        PropertyConnections::array
+00002a44                            member(0)::PropertyConnection
+00002a44                                Source 00000002
+00002a48                                Target 00000003
+00002a4c                                SourceFieldId -1242795728
+00002a50                                TargetFieldId -1292456776
+00002a54                                Flags 2
+00002a58                            member(1)::PropertyConnection
+00002a58                                Source 00000003
+00002a5c                                Target 00000001
+00002a60                                SourceFieldId 193453899
+00002a64                                TargetFieldId 1828507227
+00002a68                                Flags 2
+00002a6c                            member(2)::PropertyConnection
+00002a6c                                Source 00000003
+00002a70                                Target 00000000
+00002a74                                SourceFieldId 193453899
+00002a78                                TargetFieldId -293793429
+00002a7c                                Flags 2
+00002a80                            member(3)::PropertyConnection
+00002a80                                Source 00000002
+00002a84                                Target 00000000
+00002a88                                SourceFieldId 2089429248
+00002a8c                                TargetFieldId 2089429248
+00002a90                                Flags 2
+00002a94                            member(4)::PropertyConnection
+00002a94                                Source 00000002
+00002a98                                Target 00000000
+00002a9c                                SourceFieldId -1131616910
+00002aa0                                TargetFieldId -1131616910
+00002aa4                                Flags 2
+00002aa8                            member(5)::PropertyConnection
+00002aa8                                Source 00000002
+00002aac                                Target 00000000
+00002ab0                                SourceFieldId 1492712908
+00002ab4                                TargetFieldId 1492712908
+00002ab8                                Flags 2
+00002abc                            member(6)::PropertyConnection
+00002abc                                Source 00000002
+00002ac0                                Target 00000003
+00002ac4                                SourceFieldId -141474860
+00002ac8                                TargetFieldId -1557021756
+00002acc                                Flags 2
+00002ad0                            member(7)::PropertyConnection
+00002ad0                                Source 00000002
+00002ad4                                Target 00000003
+00002ad8                                SourceFieldId -141474859
+00002adc                                TargetFieldId -576100480
+00002ae0                                Flags 2
+00002848                        LinkConnections *nullArray*
+0000284c                        Interface 00000002
+00002850                        Flags 14
+00002854                    EventConnections *nullArray*
+00002858            Object 00000005
+00002860    BFUIElementRadialBarEntityData 00000000
+00002860        $::BFUIElementEntityData
+00002860            $::UIElementEntityData
+00002860                $::EntityData
+00002860                    $::GameObjectData
+00002860                        $::DataBusPeer
+00002860                            $::GameDataContainer
+00002860                                $::DataContainer
+00002868                            Flags 134217728
+0000286c                InstanceName FriendlyProgress
+00002870                UIElementTransform::UIElementTransform
+00002870                    Rotation::Vec3
+00002870                        x 0.0
+00002874                        y 0.0
+00002878                        z 0.0
+00002880                    RotationPivot::Vec3
+00002880                        x 0.5
+00002884                        y 0.5
+00002888                        z 0.0
+00002890                    Z 0.0
+000028a0                Color::Vec3
+000028a0                    x 0.899999976158
+000028a4                    y 0.899999976158
+000028a8                    z 0.899999976158
+000028b0                Transform::LinearTransform
+000028b0                    right::Vec3
+000028b0                        x 1.0
+000028b4                        y 0.0
+000028b8                        z 0.0
+000028c0                    up::Vec3
+000028c0                        x 0.0
+000028c4                        y 1.0
+000028c8                        z 0.0
+000028d0                    forward::Vec3
+000028d0                        x 0.0
+000028d4                        y 0.0
+000028d8                        z 1.0
+000028e0                    trans::Vec3
+000028e0                        x 0.0
+000028e4                        y 0.0
+000028e8                        z 0.0
+000028f0                InstanceNameHash 1274718591
+000028f4                Size::Vec2
+000028f4                    x 96.0
+000028f8                    y 96.0
+000028fc                LayoutMode UILayoutMode_AnchorOffset
+00002900                Offset::UIElementOffset
+00002900                    X 0.0
+00002904                    Y 0.0
+00002908                Anchor::UIElementAnchor
+00002908                    X 0.5
+0000290c                    Y 0.5
+00002910                Position::UIElementOffset
+00002910                    X 0.0
+00002914                    Y 0.0
+00002918                Expansion::UIElementRectExpansion
+00002918                    X 0.0
+0000291c                    Y 0.0
+00002920                    Width 0.0
+00002924                    Height 0.0
+00002928                Alpha 0.899999976158
+0000292c                Visible True
+00002930            CustomLayout::BFUICustomLayout
+00002930                SnapSettings::BFUISnapLayoutSettings
+00002930                    Left BFUISnapLayoutMode_Default
+00002934                    Right BFUISnapLayoutMode_Default
+00002938                    Top BFUISnapLayoutMode_Default
+0000293c                    Bottom BFUISnapLayoutMode_Default
+00002940                OverrideDefaultLayout False
+00002950        BaseColor::Vec3
+00002950            x 1.0
+00002954            y 1.0
+00002958            z 1.0
+00002960        BlendMode UIBlendMode_AlphaBlend
+00002964        BarWidth 5.0
+00002968        BarRadius 45.0
+0000296c        StartAngle -90.0
+00002970        EndAngle 270.0
+00002974        ExtraGeometry 3.0
+00002978        RampWidth 1.0
+0000297c        ZOrder 0
+00002980        UseColorAsOverlay False
+00002981        OverrideBlendMode False
+00002990    FloatInterpolatorEntityData 00000001
+00002988        $::PropertyInterpolatorEntityData
+00002988            $::EntityData
+00002988                $::GameObjectData
+00002988                    $::DataBusPeer
+00002988                        $::GameDataContainer
+00002988                            $::DataContainer
+00002990                        Flags 144521317
+00002994            Realm Realm_Client
+00002998            InterpolationType PropertyInterpolationType_Cubic
+0000299c            InterpolationMode PropertyInterpolationMode_EaseOut
+000029a0            Duration 0.25
+000029a4            UseRealTimeClock False
+000029a5            ForceFrameCorrectOutput False
+000029a8        In 0.0
+000029ac        DefaultValue 0.0
+000029b0        Velocity 1.0
+000029b4        UseVelocity False
+000029b8    InterfaceDescriptorData 00000002
+000029b0        $::DynamicDataContainer
+000029b0            $::DataContainer
+000029b8            Fields::array
+00002ae8                member(0)::DataField
+00002ae8                    Value *nullString*
+00002aec                    ValueRef *nullGuid*
+00002af0                    Id -1242795728
+00002af4                    AccessType FieldAccessType_Target
+00002af8                member(1)::DataField
+00002af8                    Value *nullString*
+00002afc                    ValueRef *nullGuid*
+00002b00                    Id 2089429248
+00002b04                    AccessType FieldAccessType_Target
+00002b08                member(2)::DataField
+00002b08                    Value *nullString*
+00002b0c                    ValueRef *nullGuid*
+00002b10                    Id -1131616910
+00002b14                    AccessType FieldAccessType_Target
+00002b18                member(3)::DataField
+00002b18                    Value *nullString*
+00002b1c                    ValueRef *nullGuid*
+00002b20                    Id 1492712908
+00002b24                    AccessType FieldAccessType_Target
+00002b28                member(4)::DataField
+00002b28                    Value Float32 -90
+00002b2c                    ValueRef *nullGuid*
+00002b30                    Id -141474860
+00002b34                    AccessType FieldAccessType_Target
+00002b38                member(5)::DataField
+00002b38                    Value Float32 360
+00002b3c                    ValueRef *nullGuid*
+00002b40                    Id -141474859
+00002b44                    AccessType FieldAccessType_Target
+000029bc        InputEvents *nullArray*
+000029c0        OutputEvents *nullArray*
+000029c4        InputLinks *nullArray*
+000029c8        OutputLinks *nullArray*
+000029cc    MathEntityData 00000003
+000029c4        $::EntityData
+000029c4            $::GameObjectData
+000029c4                $::DataBusPeer
+000029c4                    $::GameDataContainer
+000029c4                        $::DataContainer
+000029cc                    Flags 154709275
+000029d0        Realm Realm_Client
+000029d4        Assembly::MathEntityAssembly
+000029d4            FunctionCalls *nullArray*
+000029d8            Instructions::array
+00002b4c                member(0)::MathEntityInstruction
+00002b4c                    Code MathOpCode_InputF
+00002b50                    Result 0
+00002b54                    Param1 -1557021756
+00002b58                    Param2 0
+00002b5c                member(1)::MathEntityInstruction
+00002b5c                    Code MathOpCode_InputF
+00002b60                    Result 1
+00002b64                    Param1 -576100480
+00002b68                    Param2 0
+00002b6c                member(2)::MathEntityInstruction
+00002b6c                    Code MathOpCode_InputF
+00002b70                    Result 2
+00002b74                    Param1 -1292456776
+00002b78                    Param2 0
+00002b7c                member(3)::MathEntityInstruction
+00002b7c                    Code MathOpCode_MulF
+00002b80                    Result 1
+00002b84                    Param1 1
+00002b88                    Param2 2
+00002b8c                member(4)::MathEntityInstruction
+00002b8c                    Code MathOpCode_AddF
+00002b90                    Result 0
+00002b94                    Param1 0
+00002b98                    Param2 1
+00002b9c                member(5)::MathEntityInstruction
+00002b9c                    Code MathOpCode_Return
+00002ba0                    Result 0
+00002ba4                    Param1 4
+00002ba8                    Param2 0
+000029dc        EvaluateOnEvent False
+000029e0    UIElementLayerEntityData 00000004
+000029d8        $::EntityData
+000029d8            $::GameObjectData
+000029d8                $::DataBusPeer
+000029d8                    $::GameDataContainer
+000029d8                        $::DataContainer
+000029e0                    Flags 0
+000029e4        LayerName New Layer
+000029e8        Elements::array
+00002bb0            member(0) 00000000
+000029ec        InclusionSettings::UIElementInclusionSettings
+000029ec            CustomInclusionCritera *nullArray*
+000029f0            IsSingleplayerLayer True
+000029f1            IsMultiplayerLayer True
+000029f2            IsSDLayer True
+000029f3            IsHDLayer True
+000029f4        Visible True
+000029f8    UIMaskWidgetData 00000005
+000029f0        $::BFUIWidgetEntityData
+000029f0            $::UIWidgetEntityData
+000029f0                $::EntityData
+000029f0                    $::GameObjectData
+000029f0                        $::DataBusPeer
+000029f0                            $::GameDataContainer
+000029f0                                $::DataContainer
+000029f8                            Flags 171582232
+000029fc                Size::UIElementSize
+000029fc                    X 96.0
+00002a00                    Y 96.0
+00002a04                Layers::array
+00002bb8                    member(0) 00000004
+00002a08                TextureMappings::array
+00002bc0                    member(0) UI/Shared/TextureMappings/BitmapMasks/a26aca9d2327214697ceb3de70e905e4
+00002a0c                Components::array
+00002bc8                    member(0) 00000003
+00002bcc                    member(1) 00000001
+00002a10                Visible True
+00002a14            CustomLayout::BFUICustomLayout
+00002a14                SnapSettings::BFUISnapLayoutSettings
+00002a14                    Left BFUISnapLayoutMode_Default
+00002a18                    Right BFUISnapLayoutMode_Default
+00002a1c                    Top BFUISnapLayoutMode_Default
+00002a20                    Bottom BFUISnapLayoutMode_Default
+00002a24                OverrideDefaultLayout False
+00002a28            UseStencilMask False
+00002a29            UseInputStencilMask False
+00002a2a            InputEnabled True
+00002a2c        Threshold 0.0
+00002a30        MaskTexture RadialSweep
+00002a34        InvertTest False
+00002a35        InvertThreshold False

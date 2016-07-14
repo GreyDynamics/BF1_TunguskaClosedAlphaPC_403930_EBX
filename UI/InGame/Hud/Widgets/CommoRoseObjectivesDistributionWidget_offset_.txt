@@ -1,0 +1,160 @@
+00001390    UIWidgetBlueprint 95688992d5e8905fec0084659511e39e
+00001388        $::ObjectBlueprint
+00001388            $::Blueprint
+00001388                $::EntityBusData
+00001388                    $::DataBusData
+00001388                        $::Asset
+00001388                            $::DataContainer
+00001390                            Name UI/Ingame/Hud/Widgets/CommoRoseObjectivesDistributionWidget
+00001394                        PropertyConnections::array
+00001454                            member(0)::PropertyConnection
+00001454                                Source 00000004
+00001458                                Target 00000002
+0000145c                                SourceFieldId 1884767464
+00001460                                TargetFieldId -1512192206
+00001464                                Flags 2
+00001468                            member(1)::PropertyConnection
+00001468                                Source 00000002
+0000146c                                Target 00000001
+00001470                                SourceFieldId -1528343047
+00001474                                TargetFieldId -124041117
+00001478                                Flags 2
+0000147c                            member(2)::PropertyConnection
+0000147c                                Source 00000003
+00001480                                Target 00000000
+00001484                                SourceFieldId -348114046
+00001488                                TargetFieldId -348114046
+0000148c                                Flags 2
+00001490                            member(3)::PropertyConnection
+00001490                                Source 00000003
+00001494                                Target 00000000
+00001498                                SourceFieldId -996560163
+0000149c                                TargetFieldId -996560163
+000014a0                                Flags 2
+000014a4                            member(4)::PropertyConnection
+000014a4                                Source 00000003
+000014a8                                Target 00000000
+000014ac                                SourceFieldId 1252467433
+000014b0                                TargetFieldId 1252467433
+000014b4                                Flags 2
+000014b8                            member(5)::PropertyConnection
+000014b8                                Source 00000003
+000014bc                                Target 00000000
+000014c0                                SourceFieldId -1211338812
+000014c4                                TargetFieldId -1211338812
+000014c8                                Flags 2
+00001398                        LinkConnections::array
+000014d0                            member(0)::LinkConnection
+000014d0                                Source 00000001
+000014d4                                Target 00000000
+000014d8                                SourceFieldId -188171420
+000014dc                                TargetFieldId 0
+0000139c                        Interface 00000003
+000013a0                        Flags 14
+000013a4                    EventConnections *nullArray*
+000013a8            Object 00000001
+000013ac    BFUILayoutRadialListEntityData 00000000
+000013a4        $::BFUILayoutEntityData
+000013a4            $::EntityData
+000013a4                $::GameObjectData
+000013a4                    $::DataBusPeer
+000013a4                        $::GameDataContainer
+000013a4                            $::DataContainer
+000013ac                        Flags 173433671
+000013b0        CenterPoint::Vec2
+000013b0            x 0.0
+000013b4            y 0.0
+000013b8        Radius 0.0
+000013bc        ElementStep 0.0
+000013c0        WeightingAngle 0.0
+000013c4        HorizontalAlignment BFUILayoutHorizontalAlignment_Center
+000013c8        CounterClockwiseLayout True
+000013cc    BFUIListWidgetData 00000001
+000013c4        $::BFUIWidgetEntityData
+000013c4            $::UIWidgetEntityData
+000013c4                $::EntityData
+000013c4                    $::GameObjectData
+000013c4                        $::DataBusPeer
+000013c4                            $::GameDataContainer
+000013c4                                $::DataContainer
+000013cc                            Flags 1788066581
+000013d0                Size::UIElementSize
+000013d0                    X 400.0
+000013d4                    Y 400.0
+000013d8                Layers *nullArray*
+000013dc                TextureMappings *nullArray*
+000013e0                Components::array
+000014e4                    member(0) 00000000
+000014e8                    member(1) 00000004
+000014ec                    member(2) 00000002
+000013e4                Visible True
+000013e8            CustomLayout::BFUICustomLayout
+000013e8                SnapSettings::BFUISnapLayoutSettings
+000013e8                    Left BFUISnapLayoutMode_Default
+000013ec                    Right BFUISnapLayoutMode_Default
+000013f0                    Top BFUISnapLayoutMode_Default
+000013f4                    Bottom BFUISnapLayoutMode_Default
+000013f8                OverrideDefaultLayout False
+000013fc            UseStencilMask False
+000013fd            UseInputStencilMask False
+000013fe            InputEnabled True
+00001400        DataInput *nullGuid*
+00001404        CellWidget UI/Ingame/Hud/Widgets/CommoRoseObjectivesDistributionCellWidget/60837c1205291ebaab37543972607746
+00001408        MaxRows 0
+0000140c        SelectionInput -1
+00001410        XOffset 0.0
+00001414        YOffset 0.0
+00001418        RenderFirstInWidget False
+00001419        AutoSetSelectionOnInit False
+0000141a        ValidateSetSelection False
+0000141b        WrapSelection False
+0000141c        AutoSizeWidgetHorizontally False
+0000141d        AutoSizeWidgetVertically False
+0000141e        Enabled True
+0000141f        ScrollIntoView False
+00001420    DataSourceQueryEntityData 00000002
+00001418        $::EntityData
+00001418            $::GameObjectData
+00001418                $::DataBusPeer
+00001418                    $::GameDataContainer
+00001418                        $::DataContainer
+00001420                    Flags 162485423
+00001424        Realm Realm_Client
+00001428        InData *nullGuid*
+0000142c        ArrayIndex 0
+00001430    InterfaceDescriptorData 00000003
+00001428        $::DynamicDataContainer
+00001428            $::DataContainer
+00001430            Fields::array
+000014f4                member(0)::DataField
+000014f4                    Value *nullString*
+000014f8                    ValueRef *nullGuid*
+000014fc                    Id -348114046
+00001500                    AccessType FieldAccessType_Target
+00001504                member(1)::DataField
+00001504                    Value *nullString*
+00001508                    ValueRef *nullGuid*
+0000150c                    Id -996560163
+00001510                    AccessType FieldAccessType_Target
+00001514                member(2)::DataField
+00001514                    Value *nullString*
+00001518                    ValueRef *nullGuid*
+0000151c                    Id 1252467433
+00001520                    AccessType FieldAccessType_Target
+00001524                member(3)::DataField
+00001524                    Value *nullString*
+00001528                    ValueRef *nullGuid*
+0000152c                    Id -1211338812
+00001530                    AccessType FieldAccessType_Target
+00001434        InputEvents *nullArray*
+00001438        OutputEvents *nullArray*
+0000143c        InputLinks *nullArray*
+00001440        OutputLinks *nullArray*
+00001444    UIObjectivesDataProviderEntityData 00000004
+0000143c        $::EntityData
+0000143c            $::GameObjectData
+0000143c                $::DataBusPeer
+0000143c                    $::GameDataContainer
+0000143c                        $::DataContainer
+00001444                    Flags 25164023
+00001448        OutputOnlyVisibleForTeam True

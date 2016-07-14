@@ -1,0 +1,177 @@
+00001ac0    LogicPrefabBlueprint d1cd7189cc806a05d51697345a3626c1
+00001ab8        $::PrefabBlueprint
+00001ab8            $::Blueprint
+00001ab8                $::EntityBusData
+00001ab8                    $::DataBusData
+00001ab8                        $::Asset
+00001ab8                            $::DataContainer
+00001ac0                            Name UI/Obsolete/Flow/Logic/UIIngameDimmer
+00001ac4                        PropertyConnections::array
+00001c14                            member(0)::PropertyConnection
+00001c14                                Source 00000001
+00001c18                                Target 00000005
+00001c1c                                SourceFieldId 225375086
+00001c20                                TargetFieldId 176040160
+00001c24                                Flags 2
+00001c28                            member(1)::PropertyConnection
+00001c28                                Source 00000005
+00001c2c                                Target 00000002
+00001c30                                SourceFieldId 936870923
+00001c34                                TargetFieldId 5862146
+00001c38                                Flags 2
+00001c3c                            member(2)::PropertyConnection
+00001c3c                                Source 00000002
+00001c40                                Target 00000000
+00001c44                                SourceFieldId 193453899
+00001c48                                TargetFieldId 1708270083
+00001c4c                                Flags 34
+00001c50                            member(3)::PropertyConnection
+00001c50                                Source 00000002
+00001c54                                Target 00000004
+00001c58                                SourceFieldId 193453899
+00001c5c                                TargetFieldId -1171175106
+00001c60                                Flags 2
+00001c64                            member(4)::PropertyConnection
+00001c64                                Source 00000004
+00001c68                                Target 00000000
+00001c6c                                SourceFieldId -492348331
+00001c70                                TargetFieldId 2662400
+00001c74                                Flags 34
+00001ac8                        LinkConnections *nullArray*
+00001acc                        Interface 00000003
+00001ad0                        Flags 2
+00001ad4                    EventConnections::array
+00001c7c                        member(0)::EventConnection
+00001c7c                            Source 00000003
+00001c80                            Target 00000001
+00001c84                            SourceEvent::EventSpec
+00001c84                                Id -1778993948
+00001c88                            TargetEvent::EventSpec
+00001c88                                Id -1541066415
+00001c8c                            TargetType EventConnectionTargetType_Client
+00001c90                        member(1)::EventConnection
+00001c90                            Source 00000003
+00001c94                            Target 00000001
+00001c98                            SourceEvent::EventSpec
+00001c98                                Id 1422740397
+00001c9c                            TargetEvent::EventSpec
+00001c9c                                Id 668205626
+00001ca0                            TargetType EventConnectionTargetType_Client
+00001ad8            Objects::array
+00001ca8                member(0) 00000000
+00001cac                member(1) 00000005
+00001cb0                member(2) 00000002
+00001cb4                member(3) 00000001
+00001cb8                member(4) 00000004
+00001adc            TimeDeltaType TimeDeltaType_None
+00001ae0    VisualEnvironmentReferenceObjectData 00000000
+00001ae0        $::LogicReferenceObjectData
+00001ae0            $::ReferenceObjectData
+00001ae0                $::GameObjectData
+00001ae0                    $::DataBusPeer
+00001ae0                        $::GameDataContainer
+00001ae0                            $::DataContainer
+00001ae8                        Flags 149847504
+00001aec                Blueprint UI/Ingame/Shared/VisualEnvironments/VE_InGameMenu/1c5a0cf1da8ed9c5b60274321edb5a5c
+00001af0                BlueprintTransform::LinearTransform
+00001af0                    right::Vec3
+00001af0                        x 1.0
+00001af4                        y 0.0
+00001af8                        z 0.0
+00001b00                    up::Vec3
+00001b00                        x 0.0
+00001b04                        y 1.0
+00001b08                        z 0.0
+00001b10                    forward::Vec3
+00001b10                        x 0.0
+00001b14                        y 0.0
+00001b18                        z 1.0
+00001b20                    trans::Vec3
+00001b20                        x 0.0
+00001b24                        y 0.0
+00001b28                        z 0.0
+00001b30                ObjectVariation *nullGuid*
+00001b34                StreamRealm StreamRealm_None
+00001b38                RadiosityTypeOverride RadiosityTypeOverride_None
+00001b3c                LightmapResolutionScale 0
+00001b40                RenderingOverrides::RenderingOverrides
+00001b40                    ShadowEnable RenderingOverride_Inherit
+00001b44                    DynamicReflectionEnable RenderingOverride_Inherit
+00001b48                    StaticReflectionEnable RenderingOverride_Inherit
+00001b4c                ForceSeparateEnlightenSystem False
+00001b4d                CastSunShadowEnable True
+00001b4e                CastReflectionEnable True
+00001b4f                CastEnvmapEnable True
+00001b50                Excluded False
+00001b60            LocalPlayerId LocalPlayerId_Invalid
+00001b64            SubRealm SubRealm_All
+00001b70        Priority 0
+00001b74        OverrideVisibility False
+00001b75        OwnedByLightingContextPad False
+00001b80    BoolEntityData 00000001
+00001b78        $::EntityData
+00001b78            $::GameObjectData
+00001b78                $::DataBusPeer
+00001b78                    $::GameDataContainer
+00001b78                        $::DataContainer
+00001b80                    Flags 46686202
+00001b84        Realm Realm_Client
+00001b88        DefaultValue False
+00001b8c    FloatInterpolatorEntityData 00000002
+00001b84        $::PropertyInterpolatorEntityData
+00001b84            $::EntityData
+00001b84                $::GameObjectData
+00001b84                    $::DataBusPeer
+00001b84                        $::GameDataContainer
+00001b84                            $::DataContainer
+00001b8c                        Flags 161906604
+00001b90            Realm Realm_Client
+00001b94            InterpolationType PropertyInterpolationType_Quad
+00001b98            InterpolationMode PropertyInterpolationMode_EaseIn
+00001b9c            Duration 0.25
+00001ba0            UseRealTimeClock False
+00001ba1            ForceFrameCorrectOutput False
+00001ba4        In 0.0
+00001ba8        DefaultValue 0.0
+00001bac        Velocity 1.0
+00001bb0        UseVelocity False
+00001bb4    InterfaceDescriptorData 00000003
+00001bac        $::DynamicDataContainer
+00001bac            $::DataContainer
+00001bb4            Fields *nullArray*
+00001bb8        InputEvents::array
+00001cc0            member(0)::DynamicEvent
+00001cc0                Id -1778993948
+00001cc4            member(1)::DynamicEvent
+00001cc4                Id 1422740397
+00001bbc        OutputEvents *nullArray*
+00001bc0        InputLinks *nullArray*
+00001bc4        OutputLinks *nullArray*
+00001bc8    PropertyCastEntityData 00000004
+00001bc0        $::EntityData
+00001bc0            $::GameObjectData
+00001bc0                $::DataBusPeer
+00001bc0                    $::GameDataContainer
+00001bc0                        $::DataContainer
+00001bc8                    Flags 142434155
+00001bcc        Realm Realm_Client
+00001bd0        Precision -5
+00001bd4        FloatValue 0.0
+00001bd8        IntValue 0
+00001bdc        UintValue 0
+00001be0        StringValue *nullString*
+00001be4        BoolValue False
+00001be8    PropertyCastEntityData 00000005
+00001be0        $::EntityData
+00001be0            $::GameObjectData
+00001be0                $::DataBusPeer
+00001be0                    $::GameDataContainer
+00001be0                        $::DataContainer
+00001be8                    Flags 150063245
+00001bec        Realm Realm_Client
+00001bf0        Precision -5
+00001bf4        FloatValue 0.0
+00001bf8        IntValue 0
+00001bfc        UintValue 0
+00001c00        StringValue *nullString*
+00001c04        BoolValue False

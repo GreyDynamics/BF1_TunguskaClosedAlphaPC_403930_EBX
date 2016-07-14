@@ -1,0 +1,605 @@
+00001bf0    UIWidgetBlueprint 492edc45d0a3ba061cc18b137aa53084
+00001be8        $::ObjectBlueprint
+00001be8            $::Blueprint
+00001be8                $::EntityBusData
+00001be8                    $::DataBusData
+00001be8                        $::Asset
+00001be8                            $::DataContainer
+00001bf0                            Name UI/Ingame/Shared/Widgets/GameModeInfo/GameModeInfoWidget
+00001bf4                        PropertyConnections::array
+00002264                            member(0)::PropertyConnection
+00002264                                Source 00000006
+00002268                                Target 00000005
+0000226c                                SourceFieldId 193453899
+00002270                                TargetFieldId 5862146
+00002274                                Flags 2
+00002278                            member(1)::PropertyConnection
+00002278                                Source 00000007
+0000227c                                Target 00000006
+00002280                                SourceFieldId -1084191294
+00002284                                TargetFieldId 193450864
+00002288                                Flags 2
+0000228c                            member(2)::PropertyConnection
+0000228c                                Source 00000007
+00002290                                Target 00000006
+00002294                                SourceFieldId 91052645
+00002298                                TargetFieldId 193450867
+0000229c                                Flags 2
+000022a0                            member(3)::PropertyConnection
+000022a0                                Source 00000006
+000022a4                                Target 00000000
+000022a8                                SourceFieldId 193453899
+000022ac                                TargetFieldId 901540267
+000022b0                                Flags 34
+000022b4                            member(4)::PropertyConnection
+000022b4                                Source 00000005
+000022b8                                Target 00000004
+000022bc                                SourceFieldId 193453899
+000022c0                                TargetFieldId 901540267
+000022c4                                Flags 34
+000022c8                            member(5)::PropertyConnection
+000022c8                                Source 00000005
+000022cc                                Target 00000003
+000022d0                                SourceFieldId 193453899
+000022d4                                TargetFieldId 901540267
+000022d8                                Flags 34
+000022dc                            member(6)::PropertyConnection
+000022dc                                Source 00000005
+000022e0                                Target 00000001
+000022e4                                SourceFieldId 193453899
+000022e8                                TargetFieldId 901540267
+000022ec                                Flags 34
+000022f0                            member(7)::PropertyConnection
+000022f0                                Source 00000005
+000022f4                                Target 00000002
+000022f8                                SourceFieldId 193453899
+000022fc                                TargetFieldId 901540267
+00002300                                Flags 34
+00002304                            member(8)::PropertyConnection
+00002304                                Source 00000007
+00002308                                Target 00000006
+0000230c                                SourceFieldId 71861230
+00002310                                TargetFieldId 193450865
+00002314                                Flags 2
+00001bf8                        LinkConnections *nullArray*
+00001bfc                        Interface *nullGuid*
+00001c00                        Flags 0
+00001c04                    EventConnections *nullArray*
+00001c08            Object 188edec959bd8946ad4704c697dd7283
+00001c1c    BFUIWidgetEntityData 188edec959bd8946ad4704c697dd7283
+00001c14        $::UIWidgetEntityData
+00001c14            $::EntityData
+00001c14                $::GameObjectData
+00001c14                    $::DataBusPeer
+00001c14                        $::GameDataContainer
+00001c14                            $::DataContainer
+00001c1c                        Flags 199134744
+00001c20            Size::UIElementSize
+00001c20                X 640.0
+00001c24                Y 480.0
+00001c28            Layers::array
+0000231c                member(0) 00000009
+00002320                member(1) 00000008
+00001c2c            TextureMappings *nullArray*
+00001c30            Components::array
+00002328                member(0) 00000007
+0000232c                member(1) 00000005
+00002330                member(2) 00000006
+00001c34            Visible True
+00001c38        CustomLayout::BFUICustomLayout
+00001c38            SnapSettings::BFUISnapLayoutSettings
+00001c38                Left BFUISnapLayoutMode_Default
+00001c3c                Right BFUISnapLayoutMode_Default
+00001c40                Top BFUISnapLayoutMode_Default
+00001c44                Bottom BFUISnapLayoutMode_Default
+00001c48            OverrideDefaultLayout False
+00001c4c        UseStencilMask False
+00001c4d        UseInputStencilMask False
+00001c4e        InputEnabled True
+00001c50    UIElementWidgetReferenceEntityData 00000000
+00001c50        $::LogicReferenceObjectData
+00001c50            $::ReferenceObjectData
+00001c50                $::GameObjectData
+00001c50                    $::DataBusPeer
+00001c50                        $::GameDataContainer
+00001c50                            $::DataContainer
+00001c58                        Flags 134217728
+00001c5c                Blueprint UI/Ingame/Deploy/Widgets/UIPreRoundWidget/3ffad18aa5a627c8abeadc03d5519126
+00001c60                BlueprintTransform::LinearTransform
+00001c60                    right::Vec3
+00001c60                        x 1.0
+00001c64                        y 0.0
+00001c68                        z 0.0
+00001c70                    up::Vec3
+00001c70                        x 0.0
+00001c74                        y 1.0
+00001c78                        z 0.0
+00001c80                    forward::Vec3
+00001c80                        x 0.0
+00001c84                        y 0.0
+00001c88                        z 1.0
+00001c90                    trans::Vec3
+00001c90                        x 0.0
+00001c94                        y 0.0
+00001c98                        z 0.0
+00001ca0                ObjectVariation *nullGuid*
+00001ca4                StreamRealm StreamRealm_None
+00001ca8                RadiosityTypeOverride RadiosityTypeOverride_None
+00001cac                LightmapResolutionScale 0
+00001cb0                RenderingOverrides::RenderingOverrides
+00001cb0                    ShadowEnable RenderingOverride_Inherit
+00001cb4                    DynamicReflectionEnable RenderingOverride_Inherit
+00001cb8                    StaticReflectionEnable RenderingOverride_Inherit
+00001cbc                ForceSeparateEnlightenSystem False
+00001cbd                CastSunShadowEnable True
+00001cbe                CastReflectionEnable True
+00001cbf                CastEnvmapEnable True
+00001cc0                Excluded False
+00001cd0            LocalPlayerId LocalPlayerId_Invalid
+00001cd4            SubRealm SubRealm_All
+00001ce0        UIElementTransform::UIElementTransform
+00001ce0            Rotation::Vec3
+00001ce0                x 0.0
+00001ce4                y 0.0
+00001ce8                z 0.0
+00001cf0            RotationPivot::Vec3
+00001cf0                x 0.5
+00001cf4                y 0.5
+00001cf8                z 0.0
+00001d00            Z 0.0
+00001d10        Color::Vec3
+00001d10            x 1.0
+00001d14            y 1.0
+00001d18            z 1.0
+00001d20        InstanceName Preround
+00001d24        InstanceNameHash 3351271552
+00001d28        InclusionSettings::UIElementInclusionSettings
+00001d28            CustomInclusionCritera *nullArray*
+00001d2c            IsSingleplayerLayer True
+00001d2d            IsMultiplayerLayer True
+00001d2e            IsSDLayer True
+00001d2f            IsHDLayer True
+00001d30        Size::Vec2
+00001d30            x 256.0
+00001d34            y 256.0
+00001d38        LayoutMode UILayoutMode_AnchorOffset
+00001d3c        Offset::UIElementOffset
+00001d3c            X 0.0
+00001d40            Y 0.0
+00001d44        Anchor::UIElementAnchor
+00001d44            X 0.5
+00001d48            Y 0.0
+00001d4c        Position::UIElementOffset
+00001d4c            X 0.0
+00001d50            Y 0.0
+00001d54        Expansion::UIElementRectExpansion
+00001d54            X 0.0
+00001d58            Y 0.0
+00001d5c            Width 0.0
+00001d60            Height 0.0
+00001d64        Alpha 1.0
+00001d68        CodeAccessIdentifier *nullString*
+00001d6c        UseElementSize False
+00001d70    UIElementWidgetReferenceEntityData 00000001
+00001d70        $::LogicReferenceObjectData
+00001d70            $::ReferenceObjectData
+00001d70                $::GameObjectData
+00001d70                    $::DataBusPeer
+00001d70                        $::GameDataContainer
+00001d70                            $::DataContainer
+00001d78                        Flags 134217728
+00001d7c                Blueprint UI/Ingame/Shared/Widgets/GameModeInfo/DominationGameModeWidget/1daf817241c5d95b41b4e33e026f06d5
+00001d80                BlueprintTransform::LinearTransform
+00001d80                    right::Vec3
+00001d80                        x 1.0
+00001d84                        y 0.0
+00001d88                        z 0.0
+00001d90                    up::Vec3
+00001d90                        x 0.0
+00001d94                        y 1.0
+00001d98                        z 0.0
+00001da0                    forward::Vec3
+00001da0                        x 0.0
+00001da4                        y 0.0
+00001da8                        z 1.0
+00001db0                    trans::Vec3
+00001db0                        x 0.0
+00001db4                        y 0.0
+00001db8                        z 0.0
+00001dc0                ObjectVariation *nullGuid*
+00001dc4                StreamRealm StreamRealm_None
+00001dc8                RadiosityTypeOverride RadiosityTypeOverride_None
+00001dcc                LightmapResolutionScale 0
+00001dd0                RenderingOverrides::RenderingOverrides
+00001dd0                    ShadowEnable RenderingOverride_Inherit
+00001dd4                    DynamicReflectionEnable RenderingOverride_Inherit
+00001dd8                    StaticReflectionEnable RenderingOverride_Inherit
+00001ddc                ForceSeparateEnlightenSystem False
+00001ddd                CastSunShadowEnable True
+00001dde                CastReflectionEnable True
+00001ddf                CastEnvmapEnable True
+00001de0                Excluded False
+00001df0            LocalPlayerId LocalPlayerId_Invalid
+00001df4            SubRealm SubRealm_All
+00001e00        UIElementTransform::UIElementTransform
+00001e00            Rotation::Vec3
+00001e00                x 0.0
+00001e04                y 0.0
+00001e08                z 0.0
+00001e10            RotationPivot::Vec3
+00001e10                x 0.5
+00001e14                y 0.5
+00001e18                z 0.0
+00001e20            Z 0.0
+00001e30        Color::Vec3
+00001e30            x 1.0
+00001e34            y 1.0
+00001e38            z 1.0
+00001e40        InstanceName Domination
+00001e44        InstanceNameHash 1720096345
+00001e48        InclusionSettings::UIElementInclusionSettings
+00001e48            CustomInclusionCritera::array
+00002338                member(0) Domination0
+0000233c                member(1) Domination1
+00002340                member(2) Domination2
+00002344                member(3) Domination3
+00001e4c            IsSingleplayerLayer True
+00001e4d            IsMultiplayerLayer True
+00001e4e            IsSDLayer True
+00001e4f            IsHDLayer True
+00001e50        Size::Vec2
+00001e50            x 256.0
+00001e54            y 256.0
+00001e58        LayoutMode UILayoutMode_AnchorOffset
+00001e5c        Offset::UIElementOffset
+00001e5c            X 0.0
+00001e60            Y 1.0
+00001e64        Anchor::UIElementAnchor
+00001e64            X 0.5
+00001e68            Y 0.0
+00001e6c        Position::UIElementOffset
+00001e6c            X 0.0
+00001e70            Y 0.0
+00001e74        Expansion::UIElementRectExpansion
+00001e74            X 0.0
+00001e78            Y 0.0
+00001e7c            Width 0.0
+00001e80            Height 0.0
+00001e84        Alpha 1.0
+00001e88        CodeAccessIdentifier *nullString*
+00001e8c        UseElementSize False
+00001e90    UIElementWidgetReferenceEntityData 00000002
+00001e90        $::LogicReferenceObjectData
+00001e90            $::ReferenceObjectData
+00001e90                $::GameObjectData
+00001e90                    $::DataBusPeer
+00001e90                        $::GameDataContainer
+00001e90                            $::DataContainer
+00001e98                        Flags 134217728
+00001e9c                Blueprint UI/Ingame/Shared/Widgets/GameModeInfo/RushGameModeWidget/0d580e9c98a3886f1b4b48c3fe60867e
+00001ea0                BlueprintTransform::LinearTransform
+00001ea0                    right::Vec3
+00001ea0                        x 1.0
+00001ea4                        y 0.0
+00001ea8                        z 0.0
+00001eb0                    up::Vec3
+00001eb0                        x 0.0
+00001eb4                        y 1.0
+00001eb8                        z 0.0
+00001ec0                    forward::Vec3
+00001ec0                        x 0.0
+00001ec4                        y 0.0
+00001ec8                        z 1.0
+00001ed0                    trans::Vec3
+00001ed0                        x 0.0
+00001ed4                        y 0.0
+00001ed8                        z 0.0
+00001ee0                ObjectVariation *nullGuid*
+00001ee4                StreamRealm StreamRealm_None
+00001ee8                RadiosityTypeOverride RadiosityTypeOverride_None
+00001eec                LightmapResolutionScale 0
+00001ef0                RenderingOverrides::RenderingOverrides
+00001ef0                    ShadowEnable RenderingOverride_Inherit
+00001ef4                    DynamicReflectionEnable RenderingOverride_Inherit
+00001ef8                    StaticReflectionEnable RenderingOverride_Inherit
+00001efc                ForceSeparateEnlightenSystem False
+00001efd                CastSunShadowEnable True
+00001efe                CastReflectionEnable True
+00001eff                CastEnvmapEnable True
+00001f00                Excluded False
+00001f10            LocalPlayerId LocalPlayerId_Invalid
+00001f14            SubRealm SubRealm_All
+00001f20        UIElementTransform::UIElementTransform
+00001f20            Rotation::Vec3
+00001f20                x 0.0
+00001f24                y 0.0
+00001f28                z 0.0
+00001f30            RotationPivot::Vec3
+00001f30                x 0.5
+00001f34                y 0.5
+00001f38                z 0.0
+00001f40            Z 0.0
+00001f50        Color::Vec3
+00001f50            x 1.0
+00001f54            y 1.0
+00001f58            z 1.0
+00001f60        InstanceName Rush
+00001f64        InstanceNameHash 2088286201
+00001f68        InclusionSettings::UIElementInclusionSettings
+00001f68            CustomInclusionCritera::array
+0000234c                member(0) Rush0
+00002350                member(1) Rush1
+00002354                member(2) Rush2
+00002358                member(3) Rush3
+00001f6c            IsSingleplayerLayer True
+00001f6d            IsMultiplayerLayer True
+00001f6e            IsSDLayer True
+00001f6f            IsHDLayer True
+00001f70        Size::Vec2
+00001f70            x 256.0
+00001f74            y 256.0
+00001f78        LayoutMode UILayoutMode_AnchorOffset
+00001f7c        Offset::UIElementOffset
+00001f7c            X 0.0
+00001f80            Y 0.0
+00001f84        Anchor::UIElementAnchor
+00001f84            X 0.5
+00001f88            Y 0.0
+00001f8c        Position::UIElementOffset
+00001f8c            X 0.0
+00001f90            Y 0.0
+00001f94        Expansion::UIElementRectExpansion
+00001f94            X 0.0
+00001f98            Y 0.0
+00001f9c            Width 0.0
+00001fa0            Height 0.0
+00001fa4        Alpha 1.0
+00001fa8        CodeAccessIdentifier *nullString*
+00001fac        UseElementSize False
+00001fb0    UIElementWidgetReferenceEntityData 00000003
+00001fb0        $::LogicReferenceObjectData
+00001fb0            $::ReferenceObjectData
+00001fb0                $::GameObjectData
+00001fb0                    $::DataBusPeer
+00001fb0                        $::GameDataContainer
+00001fb0                            $::DataContainer
+00001fb8                        Flags 134217728
+00001fbc                Blueprint UI/Ingame/Shared/Widgets/GameModeInfo/ConquestGameModeWidget/c7d43379335a4aa5f3e98833fb6a93b5
+00001fc0                BlueprintTransform::LinearTransform
+00001fc0                    right::Vec3
+00001fc0                        x 1.0
+00001fc4                        y 0.0
+00001fc8                        z 0.0
+00001fd0                    up::Vec3
+00001fd0                        x 0.0
+00001fd4                        y 1.0
+00001fd8                        z 0.0
+00001fe0                    forward::Vec3
+00001fe0                        x 0.0
+00001fe4                        y 0.0
+00001fe8                        z 1.0
+00001ff0                    trans::Vec3
+00001ff0                        x 0.0
+00001ff4                        y 0.0
+00001ff8                        z 0.0
+00002000                ObjectVariation *nullGuid*
+00002004                StreamRealm StreamRealm_None
+00002008                RadiosityTypeOverride RadiosityTypeOverride_None
+0000200c                LightmapResolutionScale 0
+00002010                RenderingOverrides::RenderingOverrides
+00002010                    ShadowEnable RenderingOverride_Inherit
+00002014                    DynamicReflectionEnable RenderingOverride_Inherit
+00002018                    StaticReflectionEnable RenderingOverride_Inherit
+0000201c                ForceSeparateEnlightenSystem False
+0000201d                CastSunShadowEnable True
+0000201e                CastReflectionEnable True
+0000201f                CastEnvmapEnable True
+00002020                Excluded False
+00002030            LocalPlayerId LocalPlayerId_Invalid
+00002034            SubRealm SubRealm_All
+00002040        UIElementTransform::UIElementTransform
+00002040            Rotation::Vec3
+00002040                x 0.0
+00002044                y 0.0
+00002048                z 0.0
+00002050            RotationPivot::Vec3
+00002050                x 0.5
+00002054                y 0.5
+00002058                z 0.0
+00002060            Z 0.0
+00002070        Color::Vec3
+00002070            x 1.0
+00002074            y 1.0
+00002078            z 1.0
+00002080        InstanceName Conquest
+00002084        InstanceNameHash 2395334305
+00002088        InclusionSettings::UIElementInclusionSettings
+00002088            CustomInclusionCritera::array
+00002360                member(0) Conquest0
+00002364                member(1) Conquest1
+00002368                member(2) Conquest2
+0000236c                member(3) Conquest3
+0000208c            IsSingleplayerLayer True
+0000208d            IsMultiplayerLayer True
+0000208e            IsSDLayer True
+0000208f            IsHDLayer True
+00002090        Size::Vec2
+00002090            x 800.0
+00002094            y 600.0
+00002098        LayoutMode UILayoutMode_AnchorOffset
+0000209c        Offset::UIElementOffset
+0000209c            X 0.0
+000020a0            Y 0.0
+000020a4        Anchor::UIElementAnchor
+000020a4            X 0.5
+000020a8            Y 0.0
+000020ac        Position::UIElementOffset
+000020ac            X 0.0
+000020b0            Y 0.0
+000020b4        Expansion::UIElementRectExpansion
+000020b4            X 0.0
+000020b8            Y 0.0
+000020bc            Width 0.0
+000020c0            Height 0.0
+000020c4        Alpha 1.0
+000020c8        CodeAccessIdentifier *nullString*
+000020cc        UseElementSize False
+000020d0    UIElementWidgetReferenceEntityData 00000004
+000020d0        $::LogicReferenceObjectData
+000020d0            $::ReferenceObjectData
+000020d0                $::GameObjectData
+000020d0                    $::DataBusPeer
+000020d0                        $::GameDataContainer
+000020d0                            $::DataContainer
+000020d8                        Flags 134217728
+000020dc                Blueprint UI/Ingame/Shared/Widgets/GameModeInfo/BreakthroughGameModeWidget/983226112cc9a3d6fec3ccab02f0bbc3
+000020e0                BlueprintTransform::LinearTransform
+000020e0                    right::Vec3
+000020e0                        x 1.0
+000020e4                        y 0.0
+000020e8                        z 0.0
+000020f0                    up::Vec3
+000020f0                        x 0.0
+000020f4                        y 1.0
+000020f8                        z 0.0
+00002100                    forward::Vec3
+00002100                        x 0.0
+00002104                        y 0.0
+00002108                        z 1.0
+00002110                    trans::Vec3
+00002110                        x 0.0
+00002114                        y 0.0
+00002118                        z 0.0
+00002120                ObjectVariation *nullGuid*
+00002124                StreamRealm StreamRealm_None
+00002128                RadiosityTypeOverride RadiosityTypeOverride_None
+0000212c                LightmapResolutionScale 0
+00002130                RenderingOverrides::RenderingOverrides
+00002130                    ShadowEnable RenderingOverride_Inherit
+00002134                    DynamicReflectionEnable RenderingOverride_Inherit
+00002138                    StaticReflectionEnable RenderingOverride_Inherit
+0000213c                ForceSeparateEnlightenSystem False
+0000213d                CastSunShadowEnable True
+0000213e                CastReflectionEnable True
+0000213f                CastEnvmapEnable True
+00002140                Excluded False
+00002150            LocalPlayerId LocalPlayerId_Invalid
+00002154            SubRealm SubRealm_All
+00002160        UIElementTransform::UIElementTransform
+00002160            Rotation::Vec3
+00002160                x 0.0
+00002164                y 0.0
+00002168                z 0.0
+00002170            RotationPivot::Vec3
+00002170                x 0.5
+00002174                y 0.5
+00002178                z 0.0
+00002180            Z 0.0
+00002190        Color::Vec3
+00002190            x 1.0
+00002194            y 1.0
+00002198            z 1.0
+000021a0        InstanceName Breakthrough
+000021a4        InstanceNameHash 362834177
+000021a8        InclusionSettings::UIElementInclusionSettings
+000021a8            CustomInclusionCritera::array
+00002374                member(0) Breakthrough0
+00002378                member(1) Breakthrough1
+0000237c                member(2) Breakthrough2
+00002380                member(3) Breakthrough3
+000021ac            IsSingleplayerLayer True
+000021ad            IsMultiplayerLayer True
+000021ae            IsSDLayer True
+000021af            IsHDLayer True
+000021b0        Size::Vec2
+000021b0            x 800.0
+000021b4            y 400.0
+000021b8        LayoutMode UILayoutMode_AnchorOffset
+000021bc        Offset::UIElementOffset
+000021bc            X 0.0
+000021c0            Y 0.0
+000021c4        Anchor::UIElementAnchor
+000021c4            X 0.5
+000021c8            Y 0.0
+000021cc        Position::UIElementOffset
+000021cc            X 0.0
+000021d0            Y 0.0
+000021d4        Expansion::UIElementRectExpansion
+000021d4            X 0.0
+000021d8            Y 0.0
+000021dc            Width 0.0
+000021e0            Height 0.0
+000021e4        Alpha 1.0
+000021e8        CodeAccessIdentifier *nullString*
+000021ec        UseElementSize False
+000021f0    NotEntityData 00000005
+000021e8        $::EntityData
+000021e8            $::GameObjectData
+000021e8                $::DataBusPeer
+000021e8                    $::GameDataContainer
+000021e8                        $::DataContainer
+000021f0                    Flags 156125154
+000021f4        Realm Realm_Client
+000021f8        In False
+000021fc    OrEntityData 00000006
+000021f4        $::EntityData
+000021f4            $::GameObjectData
+000021f4                $::DataBusPeer
+000021f4                    $::GameDataContainer
+000021f4                        $::DataContainer
+000021fc                    Flags 156726494
+00002200        Realm Realm_Client
+00002204        InputCount 3
+00002208    SchematicChannelEntityData 00000007
+00002200        $::EntityData
+00002200            $::GameObjectData
+00002200                $::DataBusPeer
+00002200                    $::GameDataContainer
+00002200                        $::DataContainer
+00002208                    Flags 18706772
+0000220c        Realm Realm_Client
+00002210        Channel UI/Ingame/Shared/Logic/UIPreRoundChannel/20d0492abe7ed171e6b4d9458bc906fb
+00002214        InputProperties *nullArray*
+00002218        InputRefProperties *nullArray*
+0000221c        OutputProperties::array
+00002388            member(0) 6
+0000238c            member(1) 7
+00002390            member(2) 14
+00002220        OutputRefProperties *nullArray*
+00002224    UIElementLayerEntityData 00000008
+0000221c        $::EntityData
+0000221c            $::GameObjectData
+0000221c                $::DataBusPeer
+0000221c                    $::GameDataContainer
+0000221c                        $::DataContainer
+00002224                    Flags 0
+00002228        LayerName PreRound warmup
+0000222c        Elements::array
+00002398            member(0) 00000000
+00002230        InclusionSettings::UIElementInclusionSettings
+00002230            CustomInclusionCritera *nullArray*
+00002234            IsSingleplayerLayer True
+00002235            IsMultiplayerLayer True
+00002236            IsSDLayer True
+00002237            IsHDLayer True
+00002238        Visible True
+0000223c    UIElementLayerEntityData 00000009
+00002234        $::EntityData
+00002234            $::GameObjectData
+00002234                $::DataBusPeer
+00002234                    $::GameDataContainer
+00002234                        $::DataContainer
+0000223c                    Flags 0
+00002240        LayerName Game modes
+00002244        Elements::array
+000023a0            member(0) 00000004
+000023a4            member(1) 00000003
+000023a8            member(2) 00000001
+000023ac            member(3) 00000002
+00002248        InclusionSettings::UIElementInclusionSettings
+00002248            CustomInclusionCritera *nullArray*
+0000224c            IsSingleplayerLayer True
+0000224d            IsMultiplayerLayer True
+0000224e            IsSDLayer True
+0000224f            IsHDLayer True
+00002250        Visible True

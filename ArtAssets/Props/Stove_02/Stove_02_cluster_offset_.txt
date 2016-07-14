@@ -1,0 +1,212 @@
+00002060    ObjectBlueprint 87f0618f7e09388ac326def40e77437e
+00002058        $::Blueprint
+00002058            $::EntityBusData
+00002058                $::DataBusData
+00002058                    $::Asset
+00002058                        $::DataContainer
+00002060                        Name ArtAssets/Props/Stove_02/Stove_02_cluster
+00002064                    PropertyConnections *nullArray*
+00002068                    LinkConnections *nullArray*
+0000206c                    Interface *nullGuid*
+00002070                    Flags 0
+00002074                EventConnections *nullArray*
+00002078        Object 00000000
+00002090    PhysicsEntityData 872761761a9fa346313d3d1a657d76f4
+00002090        $::EntityData
+00002090            $::GameObjectData
+00002090                $::DataBusPeer
+00002090                    $::GameDataContainer
+00002090                        $::DataContainer
+00002098                    Flags 0
+0000209c        Asset ArtAssets/Props/Stove_02/Stove_02_cluster_Physics_Win32/ebc1ccb9acc11dae1089c3a93e9a88d7
+000020a0        InertiaModifier::Vec3
+000020a0            x 1.0
+000020a4            y 1.0
+000020a8            z 1.0
+000020b0        RigidBodies::array
+000022c4            member(0) 00000001
+000020b4        FloatPhysics *nullGuid*
+000020b8        Mass 1000010.0
+000020bc        AngularVelocityDamping -1.0
+000020c0        LinearVelocityDamping -1.0
+000020c4        Proximity *nullGuid*
+000020c8        Constraints *nullArray*
+000020cc        MovableParts True
+000020cd        IsComposite False
+000020d0    DebrisClusterData 00000000
+000020d0        $::GameComponentEntityData
+000020d0            $::ComponentEntityData
+000020d0                $::SpatialEntityData
+000020d0                    $::EntityData
+000020d0                        $::GameObjectData
+000020d0                            $::DataBusPeer
+000020d0                                $::GameDataContainer
+000020d0                                    $::DataContainer
+000020d8                                Flags 531649877
+000020e0                    Transform::LinearTransform
+000020e0                        right::Vec3
+000020e0                            x 1.0
+000020e4                            y 0.0
+000020e8                            z 0.0
+000020f0                        up::Vec3
+000020f0                            x 0.0
+000020f4                            y 1.0
+000020f8                            z 0.0
+00002100                        forward::Vec3
+00002100                            x 0.0
+00002104                            y 0.0
+00002108                            z 1.0
+00002110                        trans::Vec3
+00002110                            x 0.0
+00002114                            y 0.0
+00002118                            z 0.0
+00002120                Components *nullArray*
+00002124                ClientRuntimeComponentCount 0
+00002125                ServerRuntimeComponentCount 0
+00002126                ClientRuntimeTransformationCount 0
+00002127                ServerRuntimeTransformationCount 0
+00002130            Enabled True
+00002131            EnableOutOfBoundsCheck True
+00002140        PushVelocityMul::Vec3
+00002140            x 1.0
+00002144            y 2.0
+00002148            z 1.0
+00002150        PushVelocityRndMul::Vec3
+00002150            x 1.0
+00002154            y 1.0
+00002158            z 1.0
+00002160        InitRotationRndMul::Vec3
+00002160            x 3.0
+00002164            y 9.0
+00002168            z 5.0
+00002170        MaxActivePartsCount 500
+00002174        CullDistanceScale 1.0
+00002178        RuntimeClusterLifetime 30.0
+0000217c        Mesh artassets/props/stove_02/stove_02_cluster_Mesh/34949cc4ed1397bf3912de4a1d25ef60
+00002180        CompositePartCount 1
+00002184        PartHierarchy::array
+000022d0            member(0)::DebrisClusterPartInfoData
+000022d0                LinearVelocity::Vec3
+000022d0                    x 0.0
+000022d4                    y 0.0
+000022d8                    z 0.0
+000022e0                AngularVelocity::Vec3
+000022e0                    x 0.0
+000022e4                    y 0.0
+000022e8                    z 0.0
+000022f0                PartIndex 0
+000022f4                NumberOfChildren 1
+000022f8                SplitSpeedThreshold 0.0
+000022fc                SyncRestPosition False
+000022fd                SyncContinous False
+000022fe                InEffectWorldOnly False
+00002300            member(1)::DebrisClusterPartInfoData
+00002300                LinearVelocity::Vec3
+00002300                    x 0.0
+00002304                    y 0.0
+00002308                    z 1.0
+00002310                AngularVelocity::Vec3
+00002310                    x 0.0
+00002314                    y 0.0
+00002318                    z 0.0
+00002320                PartIndex 0
+00002324                NumberOfChildren 0
+00002328                SplitSpeedThreshold 0.5
+0000232c                SyncRestPosition False
+0000232d                SyncContinous False
+0000232e                InEffectWorldOnly False
+00002188        PhysicsData 872761761a9fa346313d3d1a657d76f4
+0000218c        ActivationPushForceMul 1.0
+00002190        ProjectileForceTransferMul 0.0
+00002194        ActivationEffect *nullGuid*
+00002198        OnPartCollisionSpeedThreshold 0.0
+0000219c        Effect *nullGuid*
+000021a0        Explosion *nullGuid*
+000021a4        PartialDestruction False
+000021a5        ClientSideOnly True
+000021a6        ActivateOnSpawn True
+000021a7        InEffectWorldOnly True
+000021a8        NoCollision False
+000021a9        IsActivationEffectDynamic True
+000021aa        OnPartCollisionEnable False
+000021ab        KillPartsOnCollision False
+000021ac        DeactivatePartsOnSleep True
+000021ad        SpawnExplosionOnFirstImpactOnly True
+000021b0    RigidBodyData 00000001
+000021b0        $::PhysicsBodyData
+000021b0            $::EntityData
+000021b0                $::GameObjectData
+000021b0                    $::DataBusPeer
+000021b0                        $::GameDataContainer
+000021b0                            $::DataContainer
+000021b8                        Flags 0
+000021bc            Realm Realm_Client
+000021c0            CollisionLayer RigidBodyCollisionLayer_FastDebrisLayer
+000021c4            Asset ArtAssets/Props/Stove_02/Stove_02_cluster_Physics_Win32/ebc1ccb9acc11dae1089c3a93e9a88d7
+000021c8            AssetIndex 0
+000021c9            TransformIndex 0
+000021ca            WorldIndex 1
+000021cb            CollisionRootShapeIndex 0
+000021cc            RaycastRootShapeIndex 0
+000021cd            AddToSpatialQueryManager False
+000021d0        CenterOfMass::Vec3
+000021d0            x 0.0
+000021d4            y 0.0
+000021d8            z 0.0
+000021e0        InertiaModifier::Vec3
+000021e0            x 1.0
+000021e4            y 1.0
+000021e8            z 1.0
+000021f0        Transform::LinearTransform
+000021f0            right::Vec3
+000021f0                x 1.0
+000021f4                y 0.0
+000021f8                z 0.0
+00002200            up::Vec3
+00002200                x 0.0
+00002204                y 1.0
+00002208                z 0.0
+00002210            forward::Vec3
+00002210                x 0.0
+00002214                y 0.0
+00002218                z 1.0
+00002220            trans::Vec3
+00002220                x 0.0
+00002224                y 0.0
+00002228                z 0.0
+00002230        KeyframeTransform::LinearTransform
+00002230            right::Vec3
+00002230                x 1.0
+00002234                y 0.0
+00002238                z 0.0
+00002240            up::Vec3
+00002240                x 0.0
+00002244                y 1.0
+00002248                z 0.0
+00002250            forward::Vec3
+00002250                x 0.0
+00002254                y 0.0
+00002258                z 1.0
+00002260            trans::Vec3
+00002260                x 0.0
+00002264                y 0.0
+00002268                z 0.0
+00002270        RigidBodyType RBTypeCollision
+00002274        Mass 5.0
+00002278        Material::MaterialDecl
+00002278            Packed 32768
+0000227c        DynamicFriction -1.0
+00002280        StaticFriction -1.0
+00002284        Restitution -1.0
+00002288        AngularVelocityDamping 0.10000000149
+0000228c        LinearVelocityDamping -1.0
+00002290        MotionType RigidBodyMotionType_Dynamic
+00002294        QualityType RigidBodyQualityType_Debris
+00002298        SystemGroup 0
+0000229c        SubSystemId 0
+000022a0        SubSystemIdNoCollide 0
+000022a4        PartIndices::array
+00002334            member(0) 0
+000022a8        FloatPhysics *nullGuid*
+000022ac        ComputeCenterOfMass True
+000022ad        IsRootController True

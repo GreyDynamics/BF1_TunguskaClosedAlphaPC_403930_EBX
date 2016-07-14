@@ -1,0 +1,528 @@
+00002fd0    ObjectBlueprint 45f1ca2219ec47f70b8f98c08beb8bb5
+00002fc8        $::Blueprint
+00002fc8            $::EntityBusData
+00002fc8                $::DataBusData
+00002fc8                    $::Asset
+00002fc8                        $::DataContainer
+00002fd0                        Name Gameplay/Vehicles/GBR_BarrageBaloon/GBR_BarrageBaloon
+00002fd4                    PropertyConnections *nullArray*
+00002fd8                    LinkConnections::array
+000035c4                        member(0)::LinkConnection
+000035c4                            Source 0000000b
+000035c8                            Target 00000004
+000035cc                            SourceFieldId -1711929870
+000035d0                            TargetFieldId 0
+00002fdc                    Interface 0000000b
+00002fe0                    Flags 14
+00002fe4                EventConnections::array
+000035d8                    member(0)::EventConnection
+000035d8                        Source 00000001
+000035dc                        Target 00000007
+000035e0                        SourceEvent::EventSpec
+000035e0                            Id -2120949218
+000035e4                        TargetEvent::EventSpec
+000035e4                            Id 5862146
+000035e8                        TargetType EventConnectionTargetType_ClientAndServer
+000035ec                    member(1)::EventConnection
+000035ec                        Source 00000007
+000035f0                        Target 00000001
+000035f4                        SourceEvent::EventSpec
+000035f4                            Id 193453899
+000035f8                        TargetEvent::EventSpec
+000035f8                            Id -3142077
+000035fc                        TargetType EventConnectionTargetType_ClientAndServer
+00003600                    member(2)::EventConnection
+00003600                        Source 00000001
+00003604                        Target 00000000
+00003608                        SourceEvent::EventSpec
+00003608                            Id -2120949218
+0000360c                        TargetEvent::EventSpec
+0000360c                            Id 230748069
+00003610                        TargetType EventConnectionTargetType_Client
+00003614                    member(3)::EventConnection
+00003614                        Source 00000001
+00003618                        Target 0000000b
+0000361c                        SourceEvent::EventSpec
+0000361c                            Id -2120949218
+00003620                        TargetEvent::EventSpec
+00003620                            Id -2120949218
+00003624                        TargetType EventConnectionTargetType_ClientAndServer
+00002fe8        Object 00000004
+00003000    RigidBodyData 626aae5585faa12b3c0dcf8bb9f55f7e
+00003000        $::PhysicsBodyData
+00003000            $::EntityData
+00003000                $::GameObjectData
+00003000                    $::DataBusPeer
+00003000                        $::GameDataContainer
+00003000                            $::DataContainer
+00003008                        Flags 0
+0000300c            Realm Realm_ClientAndServer
+00003010            CollisionLayer RigidBodyCollisionLayer_Invalid
+00003014            Asset Gameplay/Vehicles/GBR_BarrageBaloon/GBR_BarrageBaloon_Physics_Win32/65f6d20653ab99b75697bdd4bd29d30d
+00003018            AssetIndex 0
+00003019            TransformIndex 0
+0000301a            WorldIndex 0
+0000301b            CollisionRootShapeIndex 0
+0000301c            RaycastRootShapeIndex 1
+0000301d            AddToSpatialQueryManager True
+00003020        CenterOfMass::Vec3
+00003020            x 0.0
+00003024            y 0.0
+00003028            z 0.0
+00003030        InertiaModifier::Vec3
+00003030            x 1.0
+00003034            y 1.0
+00003038            z 1.0
+00003040        Transform::LinearTransform
+00003040            right::Vec3
+00003040                x 1.0
+00003044                y 0.0
+00003048                z 0.0
+00003050            up::Vec3
+00003050                x 0.0
+00003054                y 1.0
+00003058                z 0.0
+00003060            forward::Vec3
+00003060                x 0.0
+00003064                y 0.0
+00003068                z 1.0
+00003070            trans::Vec3
+00003070                x 0.0
+00003074                y 0.0
+00003078                z 0.0
+00003080        KeyframeTransform::LinearTransform
+00003080            right::Vec3
+00003080                x 1.0
+00003084                y 0.0
+00003088                z 0.0
+00003090            up::Vec3
+00003090                x 0.0
+00003094                y 1.0
+00003098                z 0.0
+000030a0            forward::Vec3
+000030a0                x 0.0
+000030a4                y 0.0
+000030a8                z 1.0
+000030b0            trans::Vec3
+000030b0                x 0.0
+000030b4                y 0.0
+000030b8                z 0.0
+000030c0        RigidBodyType RBTypeCollision
+000030c4        Mass 0.0
+000030c8        Material::MaterialDecl
+000030c8            Packed 32768
+000030cc        DynamicFriction -1.0
+000030d0        StaticFriction -1.0
+000030d4        Restitution -1.0
+000030d8        AngularVelocityDamping -1.0
+000030dc        LinearVelocityDamping -1.0
+000030e0        MotionType RigidBodyMotionType_Fixed
+000030e4        QualityType RigidBodyQualityType_Fixed
+000030e8        SystemGroup 0
+000030ec        SubSystemId 0
+000030f0        SubSystemIdNoCollide 0
+000030f4        PartIndices::array
+0000362c            member(0) 0
+000030f8        FloatPhysics *nullGuid*
+000030fc        ComputeCenterOfMass True
+000030fd        IsRootController True
+00003100    EffectComponentData 00000000
+00003100        $::GameComponentData
+00003100            $::ComponentData
+00003100                $::GameObjectData
+00003100                    $::DataBusPeer
+00003100                        $::GameDataContainer
+00003100                            $::DataContainer
+00003108                        Flags 39131131
+0000310c                Components *nullArray*
+00003110                Transform::LinearTransform
+00003110                    right::Vec3
+00003110                        x 1.0
+00003114                        y 0.0
+00003118                        z 0.0
+00003120                    up::Vec3
+00003120                        x 0.0
+00003124                        y 1.0
+00003128                        z 0.0
+00003130                    forward::Vec3
+00003130                        x 0.0
+00003134                        y 0.0
+00003138                        z 1.0
+00003140                    trans::Vec3
+00003140                        x 0.0
+00003144                        y -3.66749572754
+00003148                        z 4.51585912704
+00003150                Excluded False
+00003160        Effect FX/Vehicles/Destruction/FX_BarrageBaloon_Destruction/5b324bae77b7de4bbdaccc78363fb641
+00003164        EmitterParameter1 0.0
+00003168        EmitterParameter2 0.0
+0000316c        EmitterParameter3 0.0
+00003170        OverrideHeight 0.0
+00003174        MaxInstances 1
+00003178        EffectParameters *nullArray*
+0000317c        Attach *nullGuid*
+00003180        AutoStart False
+00003181        SnapToWaterSurface False
+00003182        IsFirstPerson False
+00003183        UpdateTransformOnPropertyChanged False
+00003190    PartComponentData 00000001
+00003190        $::GameComponentData
+00003190            $::ComponentData
+00003190                $::GameObjectData
+00003190                    $::DataBusPeer
+00003190                        $::GameDataContainer
+00003190                            $::DataContainer
+00003198                        Flags 102647308
+0000319c                Components::array
+00003634                    member(0) 00000000
+000031a0                Transform::LinearTransform
+000031a0                    right::Vec3
+000031a0                        x 1.0
+000031a4                        y 0.0
+000031a8                        z 0.0
+000031b0                    up::Vec3
+000031b0                        x 0.0
+000031b4                        y 1.0
+000031b8                        z 0.0
+000031c0                    forward::Vec3
+000031c0                        x 0.0
+000031c4                        y 0.0
+000031c8                        z 1.0
+000031d0                    trans::Vec3
+000031d0                        x 0.0
+000031d4                        y 0.0
+000031d8                        z 0.0
+000031e0                Excluded False
+000031f0        HealthStates::array
+0000363c            member(0) 00000009
+00003640            member(1) 0000000a
+00003644            member(2) 00000008
+000031f4        PartLinks *nullArray*
+000031f8        IsSupported False
+000031f9        IsFragile False
+000031fa        AffectsBoundingBox True
+000031fb        IsNetworkable False
+000031fc        IsWindow False
+000031fd        AnimatePhysics False
+00003200    PhysicsEntityData 00000002
+00003200        $::EntityData
+00003200            $::GameObjectData
+00003200                $::DataBusPeer
+00003200                    $::GameDataContainer
+00003200                        $::DataContainer
+00003208                    Flags 0
+0000320c        Asset Gameplay/Vehicles/GBR_BarrageBaloon/GBR_BarrageBaloon_Physics_Win32/65f6d20653ab99b75697bdd4bd29d30d
+00003210        InertiaModifier::Vec3
+00003210            x 1.0
+00003214            y 1.0
+00003218            z 1.0
+00003220        RigidBodies *nullArray*
+00003224        FloatPhysics *nullGuid*
+00003228        Mass 1000010.0
+0000322c        AngularVelocityDamping -1.0
+00003230        LinearVelocityDamping -1.0
+00003234        Proximity *nullGuid*
+00003238        Constraints *nullArray*
+0000323c        MovableParts False
+0000323d        IsComposite False
+00003240    RigidBodyData 00000003
+00003240        $::PhysicsBodyData
+00003240            $::EntityData
+00003240                $::GameObjectData
+00003240                    $::DataBusPeer
+00003240                        $::GameDataContainer
+00003240                            $::DataContainer
+00003248                        Flags 0
+0000324c            Realm Realm_Client
+00003250            CollisionLayer RigidBodyCollisionLayer_Invalid
+00003254            Asset Gameplay/Vehicles/GBR_BarrageBaloon/GBR_BarrageBaloon_Physics_Win32/65f6d20653ab99b75697bdd4bd29d30d
+00003258            AssetIndex 0
+00003259            TransformIndex 0
+0000325a            WorldIndex 1
+0000325b            CollisionRootShapeIndex 0
+0000325c            RaycastRootShapeIndex 1
+0000325d            AddToSpatialQueryManager False
+00003260        CenterOfMass::Vec3
+00003260            x 0.0
+00003264            y 0.0
+00003268            z 0.0
+00003270        InertiaModifier::Vec3
+00003270            x 1.0
+00003274            y 1.0
+00003278            z 1.0
+00003280        Transform::LinearTransform
+00003280            right::Vec3
+00003280                x 1.0
+00003284                y 0.0
+00003288                z 0.0
+00003290            up::Vec3
+00003290                x 0.0
+00003294                y 1.0
+00003298                z 0.0
+000032a0            forward::Vec3
+000032a0                x 0.0
+000032a4                y 0.0
+000032a8                z 1.0
+000032b0            trans::Vec3
+000032b0                x 0.0
+000032b4                y 0.0
+000032b8                z 0.0
+000032c0        KeyframeTransform::LinearTransform
+000032c0            right::Vec3
+000032c0                x 1.0
+000032c4                y 0.0
+000032c8                z 0.0
+000032d0            up::Vec3
+000032d0                x 0.0
+000032d4                y 1.0
+000032d8                z 0.0
+000032e0            forward::Vec3
+000032e0                x 0.0
+000032e4                y 0.0
+000032e8                z 1.0
+000032f0            trans::Vec3
+000032f0                x 0.0
+000032f4                y 0.0
+000032f8                z 0.0
+00003300        RigidBodyType RBTypeProxy
+00003304        Mass 0.0
+00003308        Material::MaterialDecl
+00003308            Packed 32768
+0000330c        DynamicFriction -1.0
+00003310        StaticFriction -1.0
+00003314        Restitution -1.0
+00003318        AngularVelocityDamping -1.0
+0000331c        LinearVelocityDamping -1.0
+00003320        MotionType RigidBodyMotionType_Fixed
+00003324        QualityType RigidBodyQualityType_Fixed
+00003328        SystemGroup 0
+0000332c        SubSystemId 0
+00003330        SubSystemIdNoCollide 0
+00003334        PartIndices::array
+0000364c            member(0) 0
+00003338        FloatPhysics *nullGuid*
+0000333c        ComputeCenterOfMass True
+0000333d        IsRootController True
+00003340    StaticModelEntityData 00000004
+00003340        $::GamePhysicsEntityData
+00003340            $::GameComponentEntityData
+00003340                $::ComponentEntityData
+00003340                    $::SpatialEntityData
+00003340                        $::EntityData
+00003340                            $::GameObjectData
+00003340                                $::DataBusPeer
+00003340                                    $::GameDataContainer
+00003340                                        $::DataContainer
+00003348                                    Flags 535206227
+00003350                        Transform::LinearTransform
+00003350                            right::Vec3
+00003350                                x 1.0
+00003354                                y 0.0
+00003358                                z 0.0
+00003360                            up::Vec3
+00003360                                x 0.0
+00003364                                y 1.0
+00003368                                z 0.0
+00003370                            forward::Vec3
+00003370                                x 0.0
+00003374                                y 0.0
+00003378                                z 1.0
+00003380                            trans::Vec3
+00003380                                x 0.0
+00003384                                y 0.0
+00003388                                z 0.0
+00003390                    Components::array
+00003654                        member(0) 00000001
+00003658                        member(1) 00000007
+0000365c                        member(2) 00000006
+00003660                        member(3) 00000005
+00003394                    ClientRuntimeComponentCount 4
+00003395                    ServerRuntimeComponentCount 3
+00003396                    ClientRuntimeTransformationCount 2
+00003397                    ServerRuntimeTransformationCount 1
+000033a0                Enabled True
+000033a1                EnableOutOfBoundsCheck True
+000033b0            PhysicsData 00000002
+000033c0        PartLinks *nullArray*
+000033c4        Mesh gameplay/vehicles/gbr_barragebaloon/gbr_barragebaloon_Mesh/2e693ab7efecbed7070e65052190879c
+000033c8        BoneCount 0
+000033cc        BasePoseTransforms *nullArray*
+000033d0        PhysicsPartInfos::array
+00003668            member(0)::PhysicsPartInfo
+00003668                PartComponentIndex 0
+0000366c                HealthStateIndex 0
+000033d4        NetworkInfo::StaticModelNetworkInfo
+000033d4            PartNetworkIdRanges::array
+00003674                member(0)::IndexRange
+00003674                    First 0
+00003678                    Last 1
+000033d8            NetworkIdCount 2
+000033dc            ChildNetworkInfos *nullArray*
+000033e0            ChildNetworkIdCount 0
+000033e4        ExcludeFromNearbyObjectDestruction False
+000033e5        AnimatePhysics False
+000033e6        TerrainShaderNodesEnable False
+000033e7        ExplosionPacksAttachable True
+000033e8        TeleportPhysicsOnTransformChanges False
+000033e9        Visible True
+000033ea        OverlayEnabled False
+000033f0    StaticModelHealthComponentData 00000005
+000033f0        $::GameHealthComponentData
+000033f0            $::HealthComponentData
+000033f0                $::ComponentData
+000033f0                    $::GameObjectData
+000033f0                        $::DataBusPeer
+000033f0                            $::GameDataContainer
+000033f0                                $::DataContainer
+000033f8                            Flags 12035618
+000033fc                    Components *nullArray*
+00003400                    Transform::LinearTransform
+00003400                        right::Vec3
+00003400                            x 1.0
+00003404                            y 0.0
+00003408                            z 0.0
+00003410                        up::Vec3
+00003410                            x 0.0
+00003414                            y 1.0
+00003418                            z 0.0
+00003420                        forward::Vec3
+00003420                            x 0.0
+00003424                            y 0.0
+00003428                            z 1.0
+00003430                        trans::Vec3
+00003430                            x 0.0
+00003434                            y 0.0
+00003438                            z 0.0
+00003440                    Excluded False
+00003450    StaticModelPhysicsComponentData 00000006
+00003450        $::GamePhysicsComponentData
+00003450            $::PhysicsComponentData
+00003450                $::ComponentData
+00003450                    $::GameObjectData
+00003450                        $::DataBusPeer
+00003450                            $::GameDataContainer
+00003450                                $::DataContainer
+00003458                            Flags 28818494
+0000345c                    Components *nullArray*
+00003460                    Transform::LinearTransform
+00003460                        right::Vec3
+00003460                            x 1.0
+00003464                            y 0.0
+00003468                            z 0.0
+00003470                        up::Vec3
+00003470                            x 0.0
+00003474                            y 1.0
+00003478                            z 0.0
+00003480                        forward::Vec3
+00003480                            x 0.0
+00003484                            y 0.0
+00003488                            z 1.0
+00003490                        trans::Vec3
+00003490                            x 0.0
+00003494                            y 0.0
+00003498                            z 0.0
+000034a0                    Excluded False
+000034b0                PhysicsBodies::array
+00003680                    member(0) 626aae5585faa12b3c0dcf8bb9f55f7e
+00003684                    member(1) 00000003
+000034b4                PhysicsConstraints *nullArray*
+000034b8                Parts::array
+00003690                    member(0)::PhysicsPartData
+00003690                        Aabb::AxisAlignedBox
+00003690                            min::Vec3
+00003690                                x 0.0
+00003694                                y 0.0
+00003698                                z 0.0
+000036a0                            max::Vec3
+000036a0                                x 0.0
+000036a4                                y 0.0
+000036a8                                z 0.0
+000034bc                InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+000034c0                MovableParts False
+000034d0            Realm Realm_ClientAndServer
+000034d4            EffectParameters *nullArray*
+000034e0    DelayEntityData 00000007
+000034d8        $::EntityData
+000034d8            $::GameObjectData
+000034d8                $::DataBusPeer
+000034d8                    $::GameDataContainer
+000034d8                        $::DataContainer
+000034e0                    Flags 131443825
+000034e4        Delay 0.75
+000034e8        Realm Realm_ClientAndServer
+000034ec        TimeDeltaType TimeDeltaType_World
+000034f0        AutoStart False
+000034f1        RunOnce False
+000034f2        RemoveDuplicateEvents True
+000034f4    HealthStateData 00000008
+000034ec        $::DataContainer
+000034f4        Objects *nullArray*
+000034f8        LoosePartPhysics *nullArray*
+000034fc        SpawnedBangerBlueprint *nullGuid*
+00003500        SpawnedBangerImpulseParams *nullGuid*
+00003504        Health 0.0
+00003508        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003508            DebrisCullDistance 30.0
+0000350c            DebrisCullDistanceOutsideView 5.0
+00003510            SoundCullDistance 0.0
+00003514            SoundCullDistanceOutsideView 0.0
+00003518            EffectCullDistance 0.0
+0000351c            EffectCullDistanceOutsideView 0.0
+00003520        PartIndex 4294967295
+00003524        BangerInheritsObjectVariation False
+00003525        SpawnedObjectsInheritObjectVariation False
+00003526        CopyDamageToBanger True
+00003527        PhysicsEnabled True
+00003528        CanSupportOtherParts False
+0000352c    HealthStateData 00000009
+00003524        $::DataContainer
+0000352c        Objects *nullArray*
+00003530        LoosePartPhysics *nullArray*
+00003534        SpawnedBangerBlueprint *nullGuid*
+00003538        SpawnedBangerImpulseParams *nullGuid*
+0000353c        Health 11000.0
+00003540        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003540            DebrisCullDistance 30.0
+00003544            DebrisCullDistanceOutsideView 5.0
+00003548            SoundCullDistance 0.0
+0000354c            SoundCullDistanceOutsideView 0.0
+00003550            EffectCullDistance 0.0
+00003554            EffectCullDistanceOutsideView 0.0
+00003558        PartIndex 0
+0000355c        BangerInheritsObjectVariation False
+0000355d        SpawnedObjectsInheritObjectVariation False
+0000355e        CopyDamageToBanger True
+0000355f        PhysicsEnabled True
+00003560        CanSupportOtherParts True
+00003564    HealthStateData 0000000a
+0000355c        $::DataContainer
+00003564        Objects *nullArray*
+00003568        LoosePartPhysics *nullArray*
+0000356c        SpawnedBangerBlueprint *nullGuid*
+00003570        SpawnedBangerImpulseParams *nullGuid*
+00003574        Health 9800.0
+00003578        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003578            DebrisCullDistance 30.0
+0000357c            DebrisCullDistanceOutsideView 5.0
+00003580            SoundCullDistance 0.0
+00003584            SoundCullDistanceOutsideView 0.0
+00003588            EffectCullDistance 0.0
+0000358c            EffectCullDistanceOutsideView 0.0
+00003590        PartIndex 0
+00003594        BangerInheritsObjectVariation False
+00003595        SpawnedObjectsInheritObjectVariation False
+00003596        CopyDamageToBanger True
+00003597        PhysicsEnabled True
+00003598        CanSupportOtherParts False
+0000359c    InterfaceDescriptorData 0000000b
+00003594        $::DynamicDataContainer
+00003594            $::DataContainer
+0000359c            Fields *nullArray*
+000035a0        InputEvents *nullArray*
+000035a4        OutputEvents::array
+000036b4            member(0)::DynamicEvent
+000036b4                Id -2120949218
+000035a8        InputLinks::array
+000036bc            member(0)::DynamicLink
+000036bc                Id -1711929870
+000035ac        OutputLinks *nullArray*

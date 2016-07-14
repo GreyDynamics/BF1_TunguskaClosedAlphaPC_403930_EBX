@@ -1,0 +1,804 @@
+00001d30    CharacterPhysicsData aaf20fa1cff36b41a79be8c5416a9ebc
+00001d28        $::Asset
+00001d28            $::DataContainer
+00001d30            Name Gameplay/Characters/Soldiers/DefaultSoldierPhysics
+00001d34        Poses::array
+000028e4            member(0) 0793d782fb8ae84990ce1ef5aeaa8e99
+000028e8            member(1) 1d659644dce68d4f9f70cdf5d56468c2
+000028ec            member(2) 7a6a836c13677c4b8ddb5d693f2869af
+00001d38        States::array
+000028f4            member(0) 2b5cb918125d1f4dba8c0266a5240c04
+000028f8            member(1) febc29310e0001409f8f316e5835c9fc
+000028fc            member(2) 547b4d58fefb55478ad489065eeb45c3
+00002900            member(3) 83e1e38d74ce404eb3571cdf8ad0bfc6
+00002904            member(4) d83595015b01cb49a137d1380c3504d3
+00002908            member(5) d7f35988ab1f364eb7acf10a39cb8b7a
+0000290c            member(6) 6d7d758ea42d2a4e907b432fe2bdb5ff
+00002910            member(7) 8fd80a8bc5be8c44ad4a4bf0e47961ae
+00002914            member(8) d972ffea799ec14bb673efc084df5452
+00001d3c        DefaultState CharacterStateType_OnGround
+00001d40        Sprint 21c8c7fa6127a3468ce5a6cd793d81e9
+00001d44        MaterialPair::MaterialDecl
+00001d44            Packed 976912385
+00001d48        PushableObjectWeight 100
+00001d4c        Mass 100.0
+00001d50        MaxAscendAngle 50.0
+00001d54        SlideAngle 45.0
+00001d58        SlideSpeedCondition 3.0
+00001d5c        PhysicalRadius 0.25
+00001d60        EnterSwimStateDepth 1.39999997616
+00001d64        ExitSwimStateDepth 0.800000011921
+00001d68        InputAcceleration 0.0
+00001d6c        LadderAcceptAngle 33.0
+00001d70        LadderAcceptAnglePitch -10.0
+00001d74        JumpPenaltyTime 1.5
+00001d78        JumpPenaltyFactor 0.300000011921
+00001d7c        RadiusToPredictCollisionOnCharacters 0.0
+00001d80        PhysicsBody *nullGuid*
+00001d84        CheckSupportRaycastCountMoving 3
+00001d88        CheckSupportLookaheadDistance 0.649999976158
+00001d8c        RayStartHeightOnGround 1.20000004768
+00001d90        RayEndHeightOnGround -1.0
+00001d94        RayStartHeightInAir 1.20000004768
+00001d98        RayEndHeightInAir -4.0
+00001d9c        SpeedForMovingRayCasts 1.89999997616
+00001da0        AllowSupportedSlideState True
+00001da1        AllowPoseChangeDuringTransition True
+00001da2        AutoPushAwayFromWallsInProne True
+00001dc0    CharacterPoseData 0793d782fb8ae84990ce1ef5aeaa8e99
+00001dc0        $::DataContainer
+00001dc8        ThrottleModifierCurve::array
+0000291c            member(0)::Vec2
+0000291c                x 0.0
+00002920                y 0.0
+00002924            member(1)::Vec2
+00002924                x 0.10000000149
+00002928                y 0.0
+0000292c            member(2)::Vec2
+0000292c                x 0.899999976158
+00002930                y 1.0
+00002934            member(3)::Vec2
+00002934                x 1.0
+00002938                y 1.0
+00001dcc        StepHeight 0.5
+00001dd0        EyePosition::Vec3
+00001dd0            x 0.0
+00001dd4            y 1.60000002384
+00001dd8            z 0.0
+00001de0        CollisionBoxMinExpand::Vec3
+00001de0            x 0.20000000298
+00001de4            y 0.0
+00001de8            z 0.10000000149
+00001df0        CollisionBoxMaxExpand::Vec3
+00001df0            x 0.10000000149
+00001df4            y 0.300000011921
+00001df8            z 0.20000000298
+00001e00        RaycastOffset::Vec3
+00001e00            x 0.0
+00001e04            y 0.0
+00001e08            z 0.0
+00001e10        Height 1.70000004768
+00001e14        TransitionTimes::array
+00002940            member(0)::PoseTransitionTime
+00002940                ToPose CharacterPoseType_Crouch
+00002944                TransitionTime 0.300000011921
+00002948                SprintTransitionTime 0.879999995232
+0000294c                SpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+00002950                SprintSpeedTransitionFunction SpeedChangeFunction_EaseOut
+00002954            member(1)::PoseTransitionTime
+00002954                ToPose CharacterPoseType_Prone
+00002958                TransitionTime 0.699999988079
+0000295c                SprintTransitionTime 1.0
+00002960                SpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+00002964                SprintSpeedTransitionFunction SpeedChangeFunction_EaseIn
+00001e18        LookConstraints::LookConstraintsData
+00001e18            MinLookYaw -90.0
+00001e1c            MaxLookYaw 90.0
+00001e20            MinLookPitch -45.0
+00001e24            MaxLookPitch 45.0
+00001e28        PoseType CharacterPoseType_Stand
+00001e2c        CollisionType CharacterPoseCollisionType_Capsule
+00001e30        RaycastRadiusPadding 0.0
+00001e34        RaycastHeightPadding 0.0
+00001e50    CharacterStatePoseInfo 1c924119880ff64eb347204c311a42fc
+00001e48        $::DataContainer
+00001e50        PoseType CharacterPoseType_Prone
+00001e54        Velocity 3.0
+00001e58        AccelerationGain 0.0500000007451
+00001e5c        AccelerationGain_TickRateMult 0.0
+00001e60        AccelerationGain_TickRatePower 1.0
+00001e64        DecelerationGain 0.0250000003725
+00001e68        DecelerationGain_TickRateMult 0.0
+00001e6c        DecelerationGain_TickRatePower 1.0
+00001e70        DirectionChangeAccelerationGain 1.0
+00001e74        DirectionChangeThreshold 180.0
+00001e78        SprintGain 0.0
+00001e7c        SprintGain_TickRateMult 0.0
+00001e80        SprintGain_TickRatePower 1.0
+00001e84        SprintMultiplier 0.0
+00001e88        SpeedModifier::SpeedModifierData
+00001e88            ForwardConstant 1.0
+00001e8c            BackwardConstant 0.340000003576
+00001e90            LeftConstant 0.5
+00001e94            RightConstant 0.5
+00001e98        ShallowWaterMultiplier 1.0
+00001eb0    CharacterPoseData 1d659644dce68d4f9f70cdf5d56468c2
+00001eb0        $::DataContainer
+00001eb8        ThrottleModifierCurve::array
+0000296c            member(0)::Vec2
+0000296c                x 0.0
+00002970                y 0.0
+00002974            member(1)::Vec2
+00002974                x 0.10000000149
+00002978                y 0.0
+0000297c            member(2)::Vec2
+0000297c                x 0.899999976158
+00002980                y 1.0
+00002984            member(3)::Vec2
+00002984                x 1.0
+00002988                y 1.0
+00001ebc        StepHeight 0.5
+00001ec0        EyePosition::Vec3
+00001ec0            x 0.0
+00001ec4            y 1.0
+00001ec8            z 0.0
+00001ed0        CollisionBoxMinExpand::Vec3
+00001ed0            x 0.10000000149
+00001ed4            y 0.0
+00001ed8            z 0.600000023842
+00001ee0        CollisionBoxMaxExpand::Vec3
+00001ee0            x 0.20000000298
+00001ee4            y 0.10000000149
+00001ee8            z 0.40000000596
+00001ef0        RaycastOffset::Vec3
+00001ef0            x 0.0
+00001ef4            y 0.0
+00001ef8            z 0.0
+00001f00        Height 1.14999997616
+00001f04        TransitionTimes::array
+00002990            member(0)::PoseTransitionTime
+00002990                ToPose CharacterPoseType_Stand
+00002994                TransitionTime 0.300000011921
+00002998                SprintTransitionTime 2.0
+0000299c                SpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+000029a0                SprintSpeedTransitionFunction SpeedChangeFunction_EaseInAndOut
+000029a4            member(1)::PoseTransitionTime
+000029a4                ToPose CharacterPoseType_Prone
+000029a8                TransitionTime 0.5
+000029ac                SprintTransitionTime -1.0
+000029b0                SpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+000029b4                SprintSpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+00001f08        LookConstraints::LookConstraintsData
+00001f08            MinLookYaw -90.0
+00001f0c            MaxLookYaw 90.0
+00001f10            MinLookPitch -45.0
+00001f14            MaxLookPitch 45.0
+00001f18        PoseType CharacterPoseType_Crouch
+00001f1c        CollisionType CharacterPoseCollisionType_Capsule
+00001f20        RaycastRadiusPadding 0.0
+00001f24        RaycastHeightPadding 0.0
+00001f40    CharacterStatePoseInfo 20d16d3871d8b245a14f0c9139870088
+00001f38        $::DataContainer
+00001f40        PoseType CharacterPoseType_Crouch
+00001f44        Velocity 10.0
+00001f48        AccelerationGain 1.0
+00001f4c        AccelerationGain_TickRateMult 0.0
+00001f50        AccelerationGain_TickRatePower 1.0
+00001f54        DecelerationGain 1.0
+00001f58        DecelerationGain_TickRateMult 0.0
+00001f5c        DecelerationGain_TickRatePower 1.0
+00001f60        DirectionChangeAccelerationGain 1.0
+00001f64        DirectionChangeThreshold 180.0
+00001f68        SprintGain 1.0
+00001f6c        SprintGain_TickRateMult 0.0
+00001f70        SprintGain_TickRatePower 1.0
+00001f74        SprintMultiplier 0.0
+00001f78        SpeedModifier::SpeedModifierData
+00001f78            ForwardConstant 1.0
+00001f7c            BackwardConstant 1.0
+00001f80            LeftConstant 1.0
+00001f84            RightConstant 1.0
+00001f88        ShallowWaterMultiplier 1.0
+00001f9c    CharacterSprintData 21c8c7fa6127a3468ce5a6cd793d81e9
+00001f94        $::DataContainer
+00001f9c        SprintPowerDecreasePerSecond 0.0
+00001fa0        SprintPowerIncreasePerSecond 1.0
+00001fa4        SprintMinimumPower 0.0
+00001fa8        AllowContinousSprinting True
+00001fbc    CharacterStatePoseInfo 27e1f04b1498a34293bea861b1e6c665
+00001fb4        $::DataContainer
+00001fbc        PoseType CharacterPoseType_Prone
+00001fc0        Velocity 10.0
+00001fc4        AccelerationGain 1.0
+00001fc8        AccelerationGain_TickRateMult 0.0
+00001fcc        AccelerationGain_TickRatePower 1.0
+00001fd0        DecelerationGain 1.0
+00001fd4        DecelerationGain_TickRateMult 0.0
+00001fd8        DecelerationGain_TickRatePower 1.0
+00001fdc        DirectionChangeAccelerationGain 1.0
+00001fe0        DirectionChangeThreshold 180.0
+00001fe4        SprintGain 1.0
+00001fe8        SprintGain_TickRateMult 0.0
+00001fec        SprintGain_TickRatePower 1.0
+00001ff0        SprintMultiplier 0.0
+00001ff4        SpeedModifier::SpeedModifierData
+00001ff4            ForwardConstant 1.0
+00001ff8            BackwardConstant 1.0
+00001ffc            LeftConstant 1.0
+00002000            RightConstant 1.0
+00002004        ShallowWaterMultiplier 1.0
+00002018    OnGroundStateData 2b5cb918125d1f4dba8c0266a5240c04
+00002010        $::CharacterStateData
+00002010            $::DataContainer
+00002018            PoseInfo::array
+000029bc                member(0) a266a8697cdfad4bb55f99536f2551f6
+000029c0                member(1) fb9dc7799e764e4ba279cba6732c85a5
+000029c4                member(2) fc9434174c69c74099ce271feab63e69
+0000201c        JumpDelay 0.0
+00002020        JumpStaminaPenalty 0.0
+00002024        AllowedDistanceFromGround 0.75
+00002028        FallWithGravityDistanceFromGround 0.300000011921
+0000202c        ClampSurfaceNormalAngle 45.0
+00002030        UphillSpeedModifier 0.850000023842
+00002034        UphillSpeedModifierMaxAngle 50.0
+00002038        DownhillSpeedModifier 0.850000023842
+0000203c        DownhillSpeedModifierMaxAngle -50.0
+00002040        HillSpeedModifierDeadZone 45.0
+00002044        CharacterSpringScaleMovingUnderTerrain 0.5
+00002048        CharacterSpringScaleMovingOverTerrain 0.5
+0000204c        CharacterSpringScaleStill 0.800000011921
+00002050        GroundHugging True
+00002051        LimitDownwardVelocity False
+00002064    CharacterStatePoseInfo 4ce9d10c217eef42816e0b5657fe1676
+0000205c        $::DataContainer
+00002064        PoseType CharacterPoseType_Prone
+00002068        Velocity 6.0
+0000206c        AccelerationGain 0.340000003576
+00002070        AccelerationGain_TickRateMult 0.0
+00002074        AccelerationGain_TickRatePower 1.0
+00002078        DecelerationGain 0.0
+0000207c        DecelerationGain_TickRateMult 0.0
+00002080        DecelerationGain_TickRatePower 1.0
+00002084        DirectionChangeAccelerationGain 0.0
+00002088        DirectionChangeThreshold 10.0
+0000208c        SprintGain 0.0
+00002090        SprintGain_TickRateMult 0.0
+00002094        SprintGain_TickRatePower 1.0
+00002098        SprintMultiplier 1.0
+0000209c        SpeedModifier::SpeedModifierData
+0000209c            ForwardConstant 1.0
+000020a0            BackwardConstant 0.5
+000020a4            LeftConstant 0.5
+000020a8            RightConstant 0.5
+000020ac        ShallowWaterMultiplier 1.0
+000020c0    InAirStateData 547b4d58fefb55478ad489065eeb45c3
+000020b8        $::CharacterStateData
+000020b8            $::DataContainer
+000020c0            PoseInfo::array
+000029cc                member(0) f97574df6e21c348aed15483efa3bb15
+000029d0                member(1) 974176224cc6484e940c6e1bd38fdee7
+000029d4                member(2) 4ce9d10c217eef42816e0b5657fe1676
+000020c4        FreeFallVelocity 25.0
+000020d8    CharacterStatePoseInfo 57b535b9c9951e438d2ee1eee9805293
+000020d0        $::DataContainer
+000020d8        PoseType CharacterPoseType_Crouch
+000020dc        Velocity 3.0
+000020e0        AccelerationGain 0.0500000007451
+000020e4        AccelerationGain_TickRateMult 0.0
+000020e8        AccelerationGain_TickRatePower 1.0
+000020ec        DecelerationGain 0.0250000003725
+000020f0        DecelerationGain_TickRateMult 0.0
+000020f4        DecelerationGain_TickRatePower 1.0
+000020f8        DirectionChangeAccelerationGain 1.0
+000020fc        DirectionChangeThreshold 180.0
+00002100        SprintGain 0.0
+00002104        SprintGain_TickRateMult 0.0
+00002108        SprintGain_TickRatePower 1.0
+0000210c        SprintMultiplier 0.0
+00002110        SpeedModifier::SpeedModifierData
+00002110            ForwardConstant 1.0
+00002114            BackwardConstant 0.340000003576
+00002118            LeftConstant 0.5
+0000211c            RightConstant 0.5
+00002120        ShallowWaterMultiplier 1.0
+00002134    ClimbingStateData 6d7d758ea42d2a4e907b432fe2bdb5ff
+0000212c        $::CharacterStateData
+0000212c            $::DataContainer
+00002134            PoseInfo::array
+000029dc                member(0) e9127aaf9ad756488c033c88df1ed8a6
+00002138        LateralInputScale 0.0
+0000213c        DownAngleLimit 90.0
+00002140        DropOffAngle 30.0
+00002144        AttractionVelocity 1.0
+00002148        PushAwayVelocity 5.0
+0000214c        ClimbHeightOffset 0.0
+00002150        ClimbOffVerticalDistance 1.64999997616
+00002154        ClimbOffVerticalTime 0.5
+00002158        ClimbOffHorizontalDistance 0.850000023842
+0000215c        ClimbOffHorizontalTime 0.5
+00002170    CharacterStatePoseInfo 7174356446e2cd4fb0ef6f693fa98d71
+00002168        $::DataContainer
+00002170        PoseType CharacterPoseType_Prone
+00002174        Velocity 15.0
+00002178        AccelerationGain 0.0500000007451
+0000217c        AccelerationGain_TickRateMult 0.0
+00002180        AccelerationGain_TickRatePower 1.0
+00002184        DecelerationGain 0.0
+00002188        DecelerationGain_TickRateMult 0.0
+0000218c        DecelerationGain_TickRatePower 1.0
+00002190        DirectionChangeAccelerationGain 1.0
+00002194        DirectionChangeThreshold 180.0
+00002198        SprintGain 0.0
+0000219c        SprintGain_TickRateMult 0.0
+000021a0        SprintGain_TickRatePower 1.0
+000021a4        SprintMultiplier 1.0
+000021a8        SpeedModifier::SpeedModifierData
+000021a8            ForwardConstant 1.0
+000021ac            BackwardConstant 1.0
+000021b0            LeftConstant 1.0
+000021b4            RightConstant 1.0
+000021b8        ShallowWaterMultiplier 1.0
+000021cc    CharacterStatePoseInfo 775fdf98c719a548830ef01179c28507
+000021c4        $::DataContainer
+000021cc        PoseType CharacterPoseType_Crouch
+000021d0        Velocity 1.60000002384
+000021d4        AccelerationGain 0.40000000596
+000021d8        AccelerationGain_TickRateMult 0.0
+000021dc        AccelerationGain_TickRatePower 1.0
+000021e0        DecelerationGain 1.0
+000021e4        DecelerationGain_TickRateMult 0.0
+000021e8        DecelerationGain_TickRatePower 1.0
+000021ec        DirectionChangeAccelerationGain 1.0
+000021f0        DirectionChangeThreshold 180.0
+000021f4        SprintGain 1.0
+000021f8        SprintGain_TickRateMult 0.0
+000021fc        SprintGain_TickRatePower 1.0
+00002200        SprintMultiplier 0.0
+00002204        SpeedModifier::SpeedModifierData
+00002204            ForwardConstant 1.0
+00002208            BackwardConstant 1.0
+0000220c            LeftConstant 1.0
+00002210            RightConstant 1.0
+00002214        ShallowWaterMultiplier 1.0
+00002230    CharacterPoseData 7a6a836c13677c4b8ddb5d693f2869af
+00002230        $::DataContainer
+00002238        ThrottleModifierCurve::array
+000029e4            member(0)::Vec2
+000029e4                x 0.0
+000029e8                y 0.0
+000029ec            member(1)::Vec2
+000029ec                x 0.10000000149
+000029f0                y 0.0
+000029f4            member(2)::Vec2
+000029f4                x 0.899999976158
+000029f8                y 1.0
+000029fc            member(3)::Vec2
+000029fc                x 1.0
+00002a00                y 1.0
+0000223c        StepHeight 0.15000000596
+00002240        EyePosition::Vec3
+00002240            x 0.0
+00002244            y 0.300000011921
+00002248            z 0.0
+00002250        CollisionBoxMinExpand::Vec3
+00002250            x 0.300000011921
+00002254            y 0.0
+00002258            z 1.29999995232
+00002260        CollisionBoxMaxExpand::Vec3
+00002260            x 0.300000011921
+00002264            y 0.0
+00002268            z 1.10000002384
+00002270        RaycastOffset::Vec3
+00002270            x 0.0
+00002274            y 0.0
+00002278            z 0.0
+00002280        Height 0.75
+00002284        TransitionTimes::array
+00002a08            member(0)::PoseTransitionTime
+00002a08                ToPose CharacterPoseType_Stand
+00002a0c                TransitionTime 0.699999988079
+00002a10                SprintTransitionTime 2.0
+00002a14                SpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+00002a18                SprintSpeedTransitionFunction SpeedChangeFunction_EaseIn
+00002a1c            member(1)::PoseTransitionTime
+00002a1c                ToPose CharacterPoseType_Crouch
+00002a20                TransitionTime 0.699999988079
+00002a24                SprintTransitionTime -1.0
+00002a28                SpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+00002a2c                SprintSpeedTransitionFunction SpeedChangeFunction_DirectAtEnd
+00002288        LookConstraints::LookConstraintsData
+00002288            MinLookYaw -90.0
+0000228c            MaxLookYaw 90.0
+00002290            MinLookPitch -30.0
+00002294            MaxLookPitch 45.0
+00002298        PoseType CharacterPoseType_Prone
+0000229c        CollisionType CharacterPoseCollisionType_Capsule
+000022a0        RaycastRadiusPadding 0.0
+000022a4        RaycastHeightPadding 0.0
+000022c0    FallingStateData 83e1e38d74ce404eb3571cdf8ad0bfc6
+000022b8        $::CharacterStateData
+000022b8            $::DataContainer
+000022c0            PoseInfo::array
+00002a34                member(0) 96d11d6f9c9b3845b12871bc14835652
+00002a38                member(1) 96358cccc5ee5949a6448e5d5677ce15
+00002a3c                member(2) 7174356446e2cd4fb0ef6f693fa98d71
+000022d4    AnimationControlledStateData 8fd80a8bc5be8c44ad4a4bf0e47961ae
+000022cc        $::CharacterStateData
+000022cc            $::DataContainer
+000022d4            PoseInfo::array
+00002a44                member(0) b3ce8fd44c3361459e4a7d88117293a7
+00002a48                member(1) 20d16d3871d8b245a14f0c9139870088
+00002a4c                member(2) 27e1f04b1498a34293bea861b1e6c665
+000022d8        UpNormalTolerance 0.0
+000022dc        CharacterSpringStrength 0.800000011921
+000022f0    CharacterStatePoseInfo 900bdcc272f0894b8ce69fc2e16fb3c3
+000022e8        $::DataContainer
+000022f0        PoseType CharacterPoseType_Stand
+000022f4        Velocity 3.40000009537
+000022f8        AccelerationGain 1.0
+000022fc        AccelerationGain_TickRateMult 0.0
+00002300        AccelerationGain_TickRatePower 1.0
+00002304        DecelerationGain 1.0
+00002308        DecelerationGain_TickRateMult 0.0
+0000230c        DecelerationGain_TickRatePower 1.0
+00002310        DirectionChangeAccelerationGain 1.0
+00002314        DirectionChangeThreshold 180.0
+00002318        SprintGain 0.234999999404
+0000231c        SprintGain_TickRateMult 0.0
+00002320        SprintGain_TickRatePower 1.0
+00002324        SprintMultiplier 1.0
+00002328        SpeedModifier::SpeedModifierData
+00002328            ForwardConstant 1.0
+0000232c            BackwardConstant 1.0
+00002330            LeftConstant 1.0
+00002334            RightConstant 1.0
+00002338        ShallowWaterMultiplier 1.0
+0000234c    CharacterStatePoseInfo 915175c39f6b884b867759488afc7530
+00002344        $::DataContainer
+0000234c        PoseType CharacterPoseType_Stand
+00002350        Velocity 3.0
+00002354        AccelerationGain 0.0500000007451
+00002358        AccelerationGain_TickRateMult 0.0
+0000235c        AccelerationGain_TickRatePower 1.0
+00002360        DecelerationGain 0.0250000003725
+00002364        DecelerationGain_TickRateMult 0.0
+00002368        DecelerationGain_TickRatePower 1.0
+0000236c        DirectionChangeAccelerationGain 1.0
+00002370        DirectionChangeThreshold 180.0
+00002374        SprintGain 0.34999999404
+00002378        SprintGain_TickRateMult 0.0
+0000237c        SprintGain_TickRatePower 1.0
+00002380        SprintMultiplier 1.60000002384
+00002384        SpeedModifier::SpeedModifierData
+00002384            ForwardConstant 1.0
+00002388            BackwardConstant 0.340000003576
+0000238c            LeftConstant 0.5
+00002390            RightConstant 0.5
+00002394        ShallowWaterMultiplier 1.0
+000023a8    CharacterStatePoseInfo 91859af369bae94bb289b2a0b336a7ee
+000023a0        $::DataContainer
+000023a8        PoseType CharacterPoseType_Stand
+000023ac        Velocity 6.5
+000023b0        AccelerationGain 0.0
+000023b4        AccelerationGain_TickRateMult 0.0
+000023b8        AccelerationGain_TickRatePower 1.0
+000023bc        DecelerationGain 0.0
+000023c0        DecelerationGain_TickRateMult 0.0
+000023c4        DecelerationGain_TickRatePower 1.0
+000023c8        DirectionChangeAccelerationGain 1.0
+000023cc        DirectionChangeThreshold 180.0
+000023d0        SprintGain 0.0
+000023d4        SprintGain_TickRateMult 0.0
+000023d8        SprintGain_TickRatePower 1.0
+000023dc        SprintMultiplier 0.0
+000023e0        SpeedModifier::SpeedModifierData
+000023e0            ForwardConstant 1.0
+000023e4            BackwardConstant 1.0
+000023e8            LeftConstant 1.0
+000023ec            RightConstant 1.0
+000023f0        ShallowWaterMultiplier 1.0
+00002404    CharacterStatePoseInfo 96358cccc5ee5949a6448e5d5677ce15
+000023fc        $::DataContainer
+00002404        PoseType CharacterPoseType_Crouch
+00002408        Velocity 15.0
+0000240c        AccelerationGain 0.0500000007451
+00002410        AccelerationGain_TickRateMult 0.0
+00002414        AccelerationGain_TickRatePower 1.0
+00002418        DecelerationGain 0.0
+0000241c        DecelerationGain_TickRateMult 0.0
+00002420        DecelerationGain_TickRatePower 1.0
+00002424        DirectionChangeAccelerationGain 1.0
+00002428        DirectionChangeThreshold 180.0
+0000242c        SprintGain 0.0
+00002430        SprintGain_TickRateMult 0.0
+00002434        SprintGain_TickRatePower 1.0
+00002438        SprintMultiplier 1.0
+0000243c        SpeedModifier::SpeedModifierData
+0000243c            ForwardConstant 1.0
+00002440            BackwardConstant 1.0
+00002444            LeftConstant 1.0
+00002448            RightConstant 1.0
+0000244c        ShallowWaterMultiplier 1.0
+00002460    CharacterStatePoseInfo 96d11d6f9c9b3845b12871bc14835652
+00002458        $::DataContainer
+00002460        PoseType CharacterPoseType_Stand
+00002464        Velocity 15.0
+00002468        AccelerationGain 0.0500000007451
+0000246c        AccelerationGain_TickRateMult 0.0
+00002470        AccelerationGain_TickRatePower 1.0
+00002474        DecelerationGain 0.0
+00002478        DecelerationGain_TickRateMult 0.0
+0000247c        DecelerationGain_TickRatePower 1.0
+00002480        DirectionChangeAccelerationGain 1.0
+00002484        DirectionChangeThreshold 180.0
+00002488        SprintGain 0.0
+0000248c        SprintGain_TickRateMult 0.0
+00002490        SprintGain_TickRatePower 1.0
+00002494        SprintMultiplier 1.0
+00002498        SpeedModifier::SpeedModifierData
+00002498            ForwardConstant 1.0
+0000249c            BackwardConstant 1.0
+000024a0            LeftConstant 1.0
+000024a4            RightConstant 1.0
+000024a8        ShallowWaterMultiplier 1.0
+000024bc    CharacterStatePoseInfo 974176224cc6484e940c6e1bd38fdee7
+000024b4        $::DataContainer
+000024bc        PoseType CharacterPoseType_Crouch
+000024c0        Velocity 6.0
+000024c4        AccelerationGain 0.340000003576
+000024c8        AccelerationGain_TickRateMult 0.0
+000024cc        AccelerationGain_TickRatePower 1.0
+000024d0        DecelerationGain 0.0
+000024d4        DecelerationGain_TickRateMult 0.0
+000024d8        DecelerationGain_TickRatePower 1.0
+000024dc        DirectionChangeAccelerationGain 0.0
+000024e0        DirectionChangeThreshold 10.0
+000024e4        SprintGain 0.0
+000024e8        SprintGain_TickRateMult 0.0
+000024ec        SprintGain_TickRatePower 1.0
+000024f0        SprintMultiplier 1.0
+000024f4        SpeedModifier::SpeedModifierData
+000024f4            ForwardConstant 1.0
+000024f8            BackwardConstant 0.5
+000024fc            LeftConstant 0.5
+00002500            RightConstant 0.5
+00002504        ShallowWaterMultiplier 1.0
+00002518    CharacterStatePoseInfo a11c7d35dbc59245a94a4f56fd57f90d
+00002510        $::DataContainer
+00002518        PoseType CharacterPoseType_Stand
+0000251c        Velocity 3.40000009537
+00002520        AccelerationGain 0.20000000298
+00002524        AccelerationGain_TickRateMult 0.0
+00002528        AccelerationGain_TickRatePower 1.0
+0000252c        DecelerationGain 0.0
+00002530        DecelerationGain_TickRateMult 0.0
+00002534        DecelerationGain_TickRatePower 1.0
+00002538        DirectionChangeAccelerationGain 0.20000000298
+0000253c        DirectionChangeThreshold 180.0
+00002540        SprintGain 0.20000000298
+00002544        SprintGain_TickRateMult 0.0
+00002548        SprintGain_TickRatePower 1.0
+0000254c        SprintMultiplier 0.0
+00002550        SpeedModifier::SpeedModifierData
+00002550            ForwardConstant 1.0
+00002554            BackwardConstant 1.0
+00002558            LeftConstant 1.0
+0000255c            RightConstant 1.0
+00002560        ShallowWaterMultiplier 1.0
+00002574    CharacterStatePoseInfo a266a8697cdfad4bb55f99536f2551f6
+0000256c        $::DataContainer
+00002574        PoseType CharacterPoseType_Stand
+00002578        Velocity 3.40000009537
+0000257c        AccelerationGain 0.330000013113
+00002580        AccelerationGain_TickRateMult 0.0
+00002584        AccelerationGain_TickRatePower 1.0
+00002588        DecelerationGain -24.0
+0000258c        DecelerationGain_TickRateMult 0.0
+00002590        DecelerationGain_TickRatePower 1.0
+00002594        DirectionChangeAccelerationGain 0.144999995828
+00002598        DirectionChangeThreshold 45.0
+0000259c        SprintGain 0.15000000596
+000025a0        SprintGain_TickRateMult 0.0
+000025a4        SprintGain_TickRatePower 1.0
+000025a8        SprintMultiplier 1.77499997616
+000025ac        SpeedModifier::SpeedModifierData
+000025ac            ForwardConstant 1.0
+000025b0            BackwardConstant 1.0
+000025b4            LeftConstant 1.0
+000025b8            RightConstant 1.0
+000025bc        ShallowWaterMultiplier 0.75
+000025d0    CharacterStatePoseInfo a454cef0bd0e514489715005532f49f0
+000025c8        $::DataContainer
+000025d0        PoseType CharacterPoseType_Prone
+000025d4        Velocity 0.850000023842
+000025d8        AccelerationGain 0.34999999404
+000025dc        AccelerationGain_TickRateMult 0.0
+000025e0        AccelerationGain_TickRatePower 1.0
+000025e4        DecelerationGain 1.0
+000025e8        DecelerationGain_TickRateMult 0.0
+000025ec        DecelerationGain_TickRatePower 1.0
+000025f0        DirectionChangeAccelerationGain 1.0
+000025f4        DirectionChangeThreshold 180.0
+000025f8        SprintGain 1.0
+000025fc        SprintGain_TickRateMult 0.0
+00002600        SprintGain_TickRatePower 1.0
+00002604        SprintMultiplier 0.0
+00002608        SpeedModifier::SpeedModifierData
+00002608            ForwardConstant 1.0
+0000260c            BackwardConstant 1.0
+00002610            LeftConstant 1.0
+00002614            RightConstant 1.0
+00002618        ShallowWaterMultiplier 1.0
+0000262c    CharacterStatePoseInfo b3ce8fd44c3361459e4a7d88117293a7
+00002624        $::DataContainer
+0000262c        PoseType CharacterPoseType_Stand
+00002630        Velocity 10.0
+00002634        AccelerationGain 1.0
+00002638        AccelerationGain_TickRateMult 0.0
+0000263c        AccelerationGain_TickRatePower 1.0
+00002640        DecelerationGain 1.0
+00002644        DecelerationGain_TickRateMult 0.0
+00002648        DecelerationGain_TickRatePower 1.0
+0000264c        DirectionChangeAccelerationGain 1.0
+00002650        DirectionChangeThreshold 180.0
+00002654        SprintGain 1.0
+00002658        SprintGain_TickRateMult 0.0
+0000265c        SprintGain_TickRatePower 1.0
+00002660        SprintMultiplier 0.0
+00002664        SpeedModifier::SpeedModifierData
+00002664            ForwardConstant 1.0
+00002668            BackwardConstant 1.0
+0000266c            LeftConstant 1.0
+00002670            RightConstant 1.0
+00002674        ShallowWaterMultiplier 1.0
+00002688    CharacterStatePoseInfo d75368e52f0fca429e2c496e29ae77ba
+00002680        $::DataContainer
+00002688        PoseType CharacterPoseType_Crouch
+0000268c        Velocity 3.5
+00002690        AccelerationGain 1.0
+00002694        AccelerationGain_TickRateMult 0.0
+00002698        AccelerationGain_TickRatePower 1.0
+0000269c        DecelerationGain 1.0
+000026a0        DecelerationGain_TickRateMult 0.0
+000026a4        DecelerationGain_TickRatePower 1.0
+000026a8        DirectionChangeAccelerationGain 1.0
+000026ac        DirectionChangeThreshold 180.0
+000026b0        SprintGain 1.0
+000026b4        SprintGain_TickRateMult 0.0
+000026b8        SprintGain_TickRatePower 1.0
+000026bc        SprintMultiplier 0.0
+000026c0        SpeedModifier::SpeedModifierData
+000026c0            ForwardConstant 1.0
+000026c4            BackwardConstant 1.0
+000026c8            LeftConstant 1.0
+000026cc            RightConstant 1.0
+000026d0        ShallowWaterMultiplier 1.0
+000026e4    SwimmingStateData d7f35988ab1f364eb7acf10a39cb8b7a
+000026dc        $::CharacterStateData
+000026dc            $::DataContainer
+000026e4            PoseInfo::array
+00002a54                member(0) 915175c39f6b884b867759488afc7530
+00002a58                member(1) 57b535b9c9951e438d2ee1eee9805293
+00002a5c                member(2) 1c924119880ff64eb347204c311a42fc
+000026e8        BodyUnderWater 1.39999997616
+000026fc    ParachuteStateData d83595015b01cb49a137d1380c3504d3
+000026f4        $::CharacterStateData
+000026f4            $::DataContainer
+000026fc            PoseInfo::array
+00002a64                member(0) 91859af369bae94bb289b2a0b336a7ee
+00002700        DeployTime 0.5
+00002704        TerminalVelocity 7.0
+00002708        ForwardDragCoefficient 0.070000000298
+0000270c        AngleOfAttack 4.5
+00002710        BankOffset 0.15000000596
+00002714        ThrottleOffset 0.15000000596
+00002718        BrakeOffset 0.10000000149
+0000271c        MaxRollVelocity 15.0
+00002720        MaxPitchVelocity 50.0
+00002724        MaxYawVelocity 15.0
+00002738    SlidingStateData d972ffea799ec14bb673efc084df5452
+00002730        $::CharacterStateData
+00002730            $::DataContainer
+00002738            PoseInfo::array
+00002a6c                member(0) a11c7d35dbc59245a94a4f56fd57f90d
+00002a70                member(1) 775fdf98c719a548830ef01179c28507
+00002a74                member(2) a454cef0bd0e514489715005532f49f0
+0000273c        HorizontalInputScale 0.5
+00002740        GravityScale 0.75
+00002744        CharacterSpringScale 0.00999999977648
+00002748        AllowedDistanceFromGround 0.40000000596
+0000275c    CharacterStatePoseInfo e9127aaf9ad756488c033c88df1ed8a6
+00002754        $::DataContainer
+0000275c        PoseType CharacterPoseType_Stand
+00002760        Velocity 2.20000004768
+00002764        AccelerationGain 1.0
+00002768        AccelerationGain_TickRateMult 0.0
+0000276c        AccelerationGain_TickRatePower 1.0
+00002770        DecelerationGain 1.0
+00002774        DecelerationGain_TickRateMult 0.0
+00002778        DecelerationGain_TickRatePower 1.0
+0000277c        DirectionChangeAccelerationGain 1.0
+00002780        DirectionChangeThreshold 180.0
+00002784        SprintGain 1.0
+00002788        SprintGain_TickRateMult 0.0
+0000278c        SprintGain_TickRatePower 1.0
+00002790        SprintMultiplier 0.0
+00002794        SpeedModifier::SpeedModifierData
+00002794            ForwardConstant 1.0
+00002798            BackwardConstant 1.0
+0000279c            LeftConstant 1.0
+000027a0            RightConstant 1.0
+000027a4        ShallowWaterMultiplier 1.0
+000027b8    CharacterStatePoseInfo f97574df6e21c348aed15483efa3bb15
+000027b0        $::DataContainer
+000027b8        PoseType CharacterPoseType_Stand
+000027bc        Velocity 6.0
+000027c0        AccelerationGain 0.340000003576
+000027c4        AccelerationGain_TickRateMult 0.0
+000027c8        AccelerationGain_TickRatePower 1.0
+000027cc        DecelerationGain 0.0
+000027d0        DecelerationGain_TickRateMult 0.0
+000027d4        DecelerationGain_TickRatePower 1.0
+000027d8        DirectionChangeAccelerationGain 0.0
+000027dc        DirectionChangeThreshold 10.0
+000027e0        SprintGain 0.0
+000027e4        SprintGain_TickRateMult 0.0
+000027e8        SprintGain_TickRatePower 1.0
+000027ec        SprintMultiplier 1.0
+000027f0        SpeedModifier::SpeedModifierData
+000027f0            ForwardConstant 1.0
+000027f4            BackwardConstant 0.5
+000027f8            LeftConstant 0.5
+000027fc            RightConstant 0.5
+00002800        ShallowWaterMultiplier 1.0
+00002814    CharacterStatePoseInfo fb9dc7799e764e4ba279cba6732c85a5
+0000280c        $::DataContainer
+00002814        PoseType CharacterPoseType_Crouch
+00002818        Velocity 2.40000009537
+0000281c        AccelerationGain 0.40000000596
+00002820        AccelerationGain_TickRateMult 0.0
+00002824        AccelerationGain_TickRatePower 1.0
+00002828        DecelerationGain -24.0
+0000282c        DecelerationGain_TickRateMult 0.0
+00002830        DecelerationGain_TickRatePower 1.0
+00002834        DirectionChangeAccelerationGain 0.234999999404
+00002838        DirectionChangeThreshold 45.0
+0000283c        SprintGain 1.0
+00002840        SprintGain_TickRateMult 0.0
+00002844        SprintGain_TickRatePower 1.0
+00002848        SprintMultiplier 0.0
+0000284c        SpeedModifier::SpeedModifierData
+0000284c            ForwardConstant 1.0
+00002850            BackwardConstant 0.666666686535
+00002854            LeftConstant 0.666666686535
+00002858            RightConstant 0.666666686535
+0000285c        ShallowWaterMultiplier 1.0
+00002870    CharacterStatePoseInfo fc9434174c69c74099ce271feab63e69
+00002868        $::DataContainer
+00002870        PoseType CharacterPoseType_Prone
+00002874        Velocity 0.850000023842
+00002878        AccelerationGain 0.40000000596
+0000287c        AccelerationGain_TickRateMult 0.0
+00002880        AccelerationGain_TickRatePower 1.0
+00002884        DecelerationGain -8.5
+00002888        DecelerationGain_TickRateMult 0.0
+0000288c        DecelerationGain_TickRatePower 1.0
+00002890        DirectionChangeAccelerationGain 0.34999999404
+00002894        DirectionChangeThreshold 180.0
+00002898        SprintGain 1.0
+0000289c        SprintGain_TickRateMult 0.0
+000028a0        SprintGain_TickRatePower 1.0
+000028a4        SprintMultiplier 0.0
+000028a8        SpeedModifier::SpeedModifierData
+000028a8            ForwardConstant 1.0
+000028ac            BackwardConstant 0.699999988079
+000028b0            LeftConstant 0.699999988079
+000028b4            RightConstant 0.699999988079
+000028b8        ShallowWaterMultiplier 1.0
+000028cc    JumpStateData febc29310e0001409f8f316e5835c9fc
+000028c4        $::CharacterStateData
+000028c4            $::DataContainer
+000028cc            PoseInfo::array
+00002a7c                member(0) 900bdcc272f0894b8ce69fc2e16fb3c3
+000028d0        JumpHeight 0.600000023842
+000028d4        JumpEffectSize 0.119999997318

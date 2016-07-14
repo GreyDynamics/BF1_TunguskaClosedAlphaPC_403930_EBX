@@ -1,0 +1,1057 @@
+00001500    EffectBlueprint 7021b898b35f5748957251d9e5b3fa41
+000014f8        $::ObjectBlueprint
+000014f8            $::Blueprint
+000014f8                $::EntityBusData
+000014f8                    $::DataBusData
+000014f8                        $::Asset
+000014f8                            $::DataContainer
+00001500                            Name FX/Vehicles/Destruction/FX_ArmoredCar_Destruction
+00001504                        PropertyConnections *nullArray*
+00001508                        LinkConnections *nullArray*
+0000150c                        Interface *nullGuid*
+00001510                        Flags 0
+00001514                    EventConnections *nullArray*
+00001518            Object 00000000
+0000151c        TimeDeltaType TimeDeltaType_None
+00001520    EffectEntityData 00000000
+00001520        $::SpatialEntityData
+00001520            $::EntityData
+00001520                $::GameObjectData
+00001520                    $::DataBusPeer
+00001520                        $::GameDataContainer
+00001520                            $::DataContainer
+00001528                        Flags 174415399
+00001530            Transform::LinearTransform
+00001530                right::Vec3
+00001530                    x 1.0
+00001534                    y 0.0
+00001538                    z 0.0
+00001540                up::Vec3
+00001540                    x 0.0
+00001544                    y 1.0
+00001548                    z 0.0
+00001550                forward::Vec3
+00001550                    x 0.0
+00001554                    y 0.0
+00001558                    z 1.0
+00001560                trans::Vec3
+00001560                    x 0.0
+00001564                    y 0.0
+00001568                    z 0.0
+00001570        Components::array
+00002184            member(0) 0000000a
+00002188            member(1) 00000008
+0000218c            member(2) 00000011
+00002190            member(3) 00000004
+00002194            member(4) 00000009
+00002198            member(5) 0000000b
+0000219c            member(6) 0000000f
+000021a0            member(7) 00000003
+000021a4            member(8) 00000006
+000021a8            member(9) 00000007
+000021ac            member(10) 00000001
+000021b0            member(11) 0000000d
+000021b4            member(12) 0000000c
+000021b8            member(13) 00000005
+000021bc            member(14) 0000000e
+000021c0            member(15) 00000002
+00001574        MaxActiveInstanceCount::QualityScalableInt
+00001574            Low 30
+00001578            Medium 30
+0000157c            High 30
+00001580            Ultra 30
+00001584        CullDistance::QualityScalableFloat
+00001584            Low 0.0
+00001588            Medium 0.0
+0000158c            High 0.0
+00001590            Ultra 0.0
+00001594        StartDelay 0.0
+00001598        KillWhenDistanceCulled False
+00001599        KillByWater False
+0000159a        ResetInstanceWhenStarted True
+0000159b        AttachToSpawnSurface False
+0000159c        Enable::QualityScalableBool
+0000159c            Low True
+0000159d            Medium True
+0000159e            High True
+0000159f            Ultra True
+000015a0        OverrideDrawOrder False
+000015a1        UseLowFrequencyUpdate False
+000015b0    EmitterEntityData 00000001
+000015b0        $::ChildEffectEntityData
+000015b0            $::SpatialEntityData
+000015b0                $::EntityData
+000015b0                    $::GameObjectData
+000015b0                        $::DataBusPeer
+000015b0                            $::GameDataContainer
+000015b0                                $::DataContainer
+000015b8                            Flags 1966132
+000015c0                Transform::LinearTransform
+000015c0                    right::Vec3
+000015c0                        x 0.579696953297
+000015c4                        y 0.814832150936
+000015c8                        z 0.0
+000015d0                    up::Vec3
+000015d0                        x -0.814832150936
+000015d4                        y 0.579696953297
+000015d8                        z 0.0
+000015e0                    forward::Vec3
+000015e0                        x 0.0
+000015e4                        y 0.0
+000015e8                        z 1.0
+000015f0                    trans::Vec3
+000015f0                        x 0.0
+000015f4                        y 0.0
+000015f8                        z 0.0
+00001600            Components *nullArray*
+00001604            MaxActiveInstanceCount::QualityScalableInt
+00001604                Low 30
+00001608                Medium 30
+0000160c                High 30
+00001610                Ultra 30
+00001614            CullDistance::QualityScalableFloat
+00001614                Low 0.0
+00001618                Medium 0.0
+0000161c                High 0.0
+00001620                Ultra 0.0
+00001624            StartDelay 2.0
+00001628            KillWhenDistanceCulled False
+00001629            ResetInstanceWhenStarted True
+0000162a            AttachToSpawnSurface False
+0000162b            Enable::QualityScalableBool
+0000162b                Low True
+0000162c                Medium True
+0000162d                High True
+0000162e                Ultra True
+0000162f            OverrideDrawOrder False
+00001630        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_debris_meshp_01/386d029a90d4a04d8f037539dbeda273
+00001634        SpawnProbability::QualityScalableFloat
+00001634            Low 1.0
+00001638            Medium 1.0
+0000163c            High 1.0
+00001640            Ultra 1.0
+00001644        MaxNearbyInstanceCount 0
+00001648        NearbyRadius 1.0
+0000164c        EmitterTags *nullArray*
+00001650        DrawOrderSlot 128
+00001651        LocalPlayerOnly False
+00001660    EmitterEntityData 00000002
+00001660        $::ChildEffectEntityData
+00001660            $::SpatialEntityData
+00001660                $::EntityData
+00001660                    $::GameObjectData
+00001660                        $::DataBusPeer
+00001660                            $::GameDataContainer
+00001660                                $::DataContainer
+00001668                            Flags 959559
+00001670                Transform::LinearTransform
+00001670                    right::Vec3
+00001670                        x 0.770601272583
+00001674                        y -0.637317538261
+00001678                        z 0.0
+00001680                    up::Vec3
+00001680                        x 0.637317538261
+00001684                        y 0.770601272583
+00001688                        z 0.0
+00001690                    forward::Vec3
+00001690                        x 0.0
+00001694                        y 0.0
+00001698                        z 1.0
+000016a0                    trans::Vec3
+000016a0                        x 0.0
+000016a4                        y -1.21928906441
+000016a8                        z 0.0
+000016b0            Components *nullArray*
+000016b4            MaxActiveInstanceCount::QualityScalableInt
+000016b4                Low 30
+000016b8                Medium 30
+000016bc                High 30
+000016c0                Ultra 30
+000016c4            CullDistance::QualityScalableFloat
+000016c4                Low 0.0
+000016c8                Medium 0.0
+000016cc                High 0.0
+000016d0                Ultra 0.0
+000016d4            StartDelay 1.0
+000016d8            KillWhenDistanceCulled False
+000016d9            ResetInstanceWhenStarted True
+000016da            AttachToSpawnSurface False
+000016db            Enable::QualityScalableBool
+000016db                Low True
+000016dc                Medium True
+000016dd                High True
+000016de                Ultra True
+000016df            OverrideDrawOrder False
+000016e0        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_explosion_main_far/b5bcc4567c8424469a3bcfd8892e070a
+000016e4        SpawnProbability::QualityScalableFloat
+000016e4            Low 1.0
+000016e8            Medium 1.0
+000016ec            High 1.0
+000016f0            Ultra 1.0
+000016f4        MaxNearbyInstanceCount 0
+000016f8        NearbyRadius 1.0
+000016fc        EmitterTags *nullArray*
+00001700        DrawOrderSlot 128
+00001701        LocalPlayerOnly False
+00001710    EmitterEntityData 00000003
+00001710        $::ChildEffectEntityData
+00001710            $::SpatialEntityData
+00001710                $::EntityData
+00001710                    $::GameObjectData
+00001710                        $::DataBusPeer
+00001710                            $::GameDataContainer
+00001710                                $::DataContainer
+00001718                            Flags 28668237
+00001720                Transform::LinearTransform
+00001720                    right::Vec3
+00001720                        x 1.0
+00001724                        y 0.0
+00001728                        z 0.0
+00001730                    up::Vec3
+00001730                        x 0.0
+00001734                        y 1.0
+00001738                        z 0.0
+00001740                    forward::Vec3
+00001740                        x 0.0
+00001744                        y 0.0
+00001748                        z 1.0
+00001750                    trans::Vec3
+00001750                        x 0.234723448753
+00001754                        y 0.0
+00001758                        z -0.317472457886
+00001760            Components *nullArray*
+00001764            MaxActiveInstanceCount::QualityScalableInt
+00001764                Low 30
+00001768                Medium 30
+0000176c                High 30
+00001770                Ultra 30
+00001774            CullDistance::QualityScalableFloat
+00001774                Low 0.0
+00001778                Medium 0.0
+0000177c                High 0.0
+00001780                Ultra 0.0
+00001784            StartDelay 0.0
+00001788            KillWhenDistanceCulled False
+00001789            ResetInstanceWhenStarted True
+0000178a            AttachToSpawnSurface False
+0000178b            Enable::QualityScalableBool
+0000178b                Low True
+0000178c                Medium True
+0000178d                High True
+0000178e                Ultra True
+0000178f            OverrideDrawOrder False
+00001790        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_destruction_lingeringsmoke/55562aa88febc44bbd289663353af5a6
+00001794        SpawnProbability::QualityScalableFloat
+00001794            Low 1.0
+00001798            Medium 1.0
+0000179c            High 1.0
+000017a0            Ultra 1.0
+000017a4        MaxNearbyInstanceCount 0
+000017a8        NearbyRadius 1.0
+000017ac        EmitterTags *nullArray*
+000017b0        DrawOrderSlot 128
+000017b1        LocalPlayerOnly False
+000017c0    EmitterEntityData 00000004
+000017c0        $::ChildEffectEntityData
+000017c0            $::SpatialEntityData
+000017c0                $::EntityData
+000017c0                    $::GameObjectData
+000017c0                        $::DataBusPeer
+000017c0                            $::GameDataContainer
+000017c0                                $::DataContainer
+000017c8                            Flags 24089934
+000017d0                Transform::LinearTransform
+000017d0                    right::Vec3
+000017d0                        x 1.0
+000017d4                        y 0.0
+000017d8                        z 0.0
+000017e0                    up::Vec3
+000017e0                        x 0.0
+000017e4                        y 1.0
+000017e8                        z 0.0
+000017f0                    forward::Vec3
+000017f0                        x 0.0
+000017f4                        y 0.0
+000017f8                        z 1.0
+00001800                    trans::Vec3
+00001800                        x 0.0
+00001804                        y 0.0
+00001808                        z 0.0
+00001810            Components *nullArray*
+00001814            MaxActiveInstanceCount::QualityScalableInt
+00001814                Low 30
+00001818                Medium 30
+0000181c                High 30
+00001820                Ultra 30
+00001824            CullDistance::QualityScalableFloat
+00001824                Low 0.0
+00001828                Medium 0.0
+0000182c                High 0.0
+00001830                Ultra 0.0
+00001834            StartDelay 1.0
+00001838            KillWhenDistanceCulled False
+00001839            ResetInstanceWhenStarted True
+0000183a            AttachToSpawnSurface False
+0000183b            Enable::QualityScalableBool
+0000183b                Low True
+0000183c                Medium True
+0000183d                High True
+0000183e                Ultra True
+0000183f            OverrideDrawOrder False
+00001840        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_destruction_ws_sparks/4722ab53ee700541b35b1fbf15d3abe0
+00001844        SpawnProbability::QualityScalableFloat
+00001844            Low 1.0
+00001848            Medium 1.0
+0000184c            High 1.0
+00001850            Ultra 1.0
+00001854        MaxNearbyInstanceCount 0
+00001858        NearbyRadius 1.0
+0000185c        EmitterTags *nullArray*
+00001860        DrawOrderSlot 128
+00001861        LocalPlayerOnly False
+00001870    EmitterEntityData 00000005
+00001870        $::ChildEffectEntityData
+00001870            $::SpatialEntityData
+00001870                $::EntityData
+00001870                    $::GameObjectData
+00001870                        $::DataBusPeer
+00001870                            $::GameDataContainer
+00001870                                $::DataContainer
+00001878                            Flags 18103125
+00001880                Transform::LinearTransform
+00001880                    right::Vec3
+00001880                        x 0.9395378232
+00001884                        y -0.342445164919
+00001888                        z 0.0
+00001890                    up::Vec3
+00001890                        x 0.342445164919
+00001894                        y 0.9395378232
+00001898                        z 0.0
+000018a0                    forward::Vec3
+000018a0                        x 0.0
+000018a4                        y 0.0
+000018a8                        z 1.0
+000018b0                    trans::Vec3
+000018b0                        x 0.0
+000018b4                        y 0.0
+000018b8                        z 0.0
+000018c0            Components *nullArray*
+000018c4            MaxActiveInstanceCount::QualityScalableInt
+000018c4                Low 30
+000018c8                Medium 30
+000018cc                High 30
+000018d0                Ultra 30
+000018d4            CullDistance::QualityScalableFloat
+000018d4                Low 0.0
+000018d8                Medium 0.0
+000018dc                High 0.0
+000018e0                Ultra 0.0
+000018e4            StartDelay 2.0
+000018e8            KillWhenDistanceCulled False
+000018e9            ResetInstanceWhenStarted True
+000018ea            AttachToSpawnSurface False
+000018eb            Enable::QualityScalableBool
+000018eb                Low True
+000018ec                Medium True
+000018ed                High True
+000018ee                Ultra True
+000018ef            OverrideDrawOrder False
+000018f0        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_debris_meshp_mediumparts2/c7a2a1f53238454eb94ab81b3e718ad1
+000018f4        SpawnProbability::QualityScalableFloat
+000018f4            Low 1.0
+000018f8            Medium 1.0
+000018fc            High 1.0
+00001900            Ultra 1.0
+00001904        MaxNearbyInstanceCount 0
+00001908        NearbyRadius 1.0
+0000190c        EmitterTags *nullArray*
+00001910        DrawOrderSlot 128
+00001911        LocalPlayerOnly False
+00001920    EmitterEntityData 00000006
+00001920        $::ChildEffectEntityData
+00001920            $::SpatialEntityData
+00001920                $::EntityData
+00001920                    $::GameObjectData
+00001920                        $::DataBusPeer
+00001920                            $::GameDataContainer
+00001920                                $::DataContainer
+00001928                            Flags 17051789
+00001930                Transform::LinearTransform
+00001930                    right::Vec3
+00001930                        x 0.770601272583
+00001934                        y -0.637317538261
+00001938                        z 0.0
+00001940                    up::Vec3
+00001940                        x 0.637317538261
+00001944                        y 0.770601272583
+00001948                        z 0.0
+00001950                    forward::Vec3
+00001950                        x 0.0
+00001954                        y 0.0
+00001958                        z 1.0
+00001960                    trans::Vec3
+00001960                        x 0.0
+00001964                        y -1.21928906441
+00001968                        z 0.0
+00001970            Components *nullArray*
+00001974            MaxActiveInstanceCount::QualityScalableInt
+00001974                Low 30
+00001978                Medium 30
+0000197c                High 30
+00001980                Ultra 30
+00001984            CullDistance::QualityScalableFloat
+00001984                Low 0.0
+00001988                Medium 0.0
+0000198c                High 0.0
+00001990                Ultra 0.0
+00001994            StartDelay 1.0
+00001998            KillWhenDistanceCulled False
+00001999            ResetInstanceWhenStarted True
+0000199a            AttachToSpawnSurface False
+0000199b            Enable::QualityScalableBool
+0000199b                Low True
+0000199c                Medium True
+0000199d                High True
+0000199e                Ultra True
+0000199f            OverrideDrawOrder False
+000019a0        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_explosion_main/abfaaa4434d20d4a8037c11560b732e8
+000019a4        SpawnProbability::QualityScalableFloat
+000019a4            Low 1.0
+000019a8            Medium 1.0
+000019ac            High 1.0
+000019b0            Ultra 1.0
+000019b4        MaxNearbyInstanceCount 0
+000019b8        NearbyRadius 1.0
+000019bc        EmitterTags *nullArray*
+000019c0        DrawOrderSlot 128
+000019c1        LocalPlayerOnly False
+000019d0    EmitterEntityData 00000007
+000019d0        $::ChildEffectEntityData
+000019d0            $::SpatialEntityData
+000019d0                $::EntityData
+000019d0                    $::GameObjectData
+000019d0                        $::DataBusPeer
+000019d0                            $::GameDataContainer
+000019d0                                $::DataContainer
+000019d8                            Flags 25225109
+000019e0                Transform::LinearTransform
+000019e0                    right::Vec3
+000019e0                        x 0.846290647984
+000019e4                        y 0.53272151947
+000019e8                        z -1.49011611938e-08
+000019f0                    up::Vec3
+000019f0                        x -0.505244851112
+000019f4                        y 0.802640676498
+000019f8                        z -0.317010402679
+00001a00                    forward::Vec3
+00001a00                        x -0.168878242373
+00001a04                        y 0.268282920122
+00001a08                        z 0.948422074318
+00001a10                    trans::Vec3
+00001a10                        x -0.43378034234
+00001a14                        y 0.557251751423
+00001a18                        z 0.0
+00001a20            Components *nullArray*
+00001a24            MaxActiveInstanceCount::QualityScalableInt
+00001a24                Low 30
+00001a28                Medium 30
+00001a2c                High 30
+00001a30                Ultra 30
+00001a34            CullDistance::QualityScalableFloat
+00001a34                Low 0.0
+00001a38                Medium 0.0
+00001a3c                High 0.0
+00001a40                Ultra 0.0
+00001a44            StartDelay 2.0
+00001a48            KillWhenDistanceCulled False
+00001a49            ResetInstanceWhenStarted True
+00001a4a            AttachToSpawnSurface False
+00001a4b            Enable::QualityScalableBool
+00001a4b                Low True
+00001a4c                Medium True
+00001a4d                High True
+00001a4e                Ultra True
+00001a4f            OverrideDrawOrder False
+00001a50        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_explosion_main/abfaaa4434d20d4a8037c11560b732e8
+00001a54        SpawnProbability::QualityScalableFloat
+00001a54            Low 1.0
+00001a58            Medium 1.0
+00001a5c            High 1.0
+00001a60            Ultra 1.0
+00001a64        MaxNearbyInstanceCount 0
+00001a68        NearbyRadius 1.0
+00001a6c        EmitterTags *nullArray*
+00001a70        DrawOrderSlot 128
+00001a71        LocalPlayerOnly False
+00001a80    EmitterEntityData 00000008
+00001a80        $::ChildEffectEntityData
+00001a80            $::SpatialEntityData
+00001a80                $::EntityData
+00001a80                    $::GameObjectData
+00001a80                        $::DataBusPeer
+00001a80                            $::GameDataContainer
+00001a80                                $::DataContainer
+00001a88                            Flags 11900838
+00001a90                Transform::LinearTransform
+00001a90                    right::Vec3
+00001a90                        x 0.906307816505
+00001a94                        y 0.422618210316
+00001a98                        z 0.0
+00001aa0                    up::Vec3
+00001aa0                        x -0.422618210316
+00001aa4                        y 0.906307816505
+00001aa8                        z 0.0
+00001ab0                    forward::Vec3
+00001ab0                        x 0.0
+00001ab4                        y 0.0
+00001ab8                        z 1.0
+00001ac0                    trans::Vec3
+00001ac0                        x 0.0
+00001ac4                        y 0.0
+00001ac8                        z 0.0
+00001ad0            Components *nullArray*
+00001ad4            MaxActiveInstanceCount::QualityScalableInt
+00001ad4                Low 30
+00001ad8                Medium 30
+00001adc                High 30
+00001ae0                Ultra 30
+00001ae4            CullDistance::QualityScalableFloat
+00001ae4                Low 0.0
+00001ae8                Medium 0.0
+00001aec                High 0.0
+00001af0                Ultra 0.0
+00001af4            StartDelay 1.0
+00001af8            KillWhenDistanceCulled False
+00001af9            ResetInstanceWhenStarted True
+00001afa            AttachToSpawnSurface False
+00001afb            Enable::QualityScalableBool
+00001afb                Low True
+00001afc                Medium True
+00001afd                High False
+00001afe                Ultra False
+00001aff            OverrideDrawOrder False
+00001b00        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_debris_meshp_smallparts/8e047a4be8411f469b7a4a6affdbfb03
+00001b04        SpawnProbability::QualityScalableFloat
+00001b04            Low 1.0
+00001b08            Medium 1.0
+00001b0c            High 1.0
+00001b10            Ultra 1.0
+00001b14        MaxNearbyInstanceCount 0
+00001b18        NearbyRadius 1.0
+00001b1c        EmitterTags *nullArray*
+00001b20        DrawOrderSlot 128
+00001b21        LocalPlayerOnly False
+00001b30    EmitterEntityData 00000009
+00001b30        $::ChildEffectEntityData
+00001b30            $::SpatialEntityData
+00001b30                $::EntityData
+00001b30                    $::GameObjectData
+00001b30                        $::DataBusPeer
+00001b30                            $::GameDataContainer
+00001b30                                $::DataContainer
+00001b38                            Flags 24738983
+00001b40                Transform::LinearTransform
+00001b40                    right::Vec3
+00001b40                        x 1.0
+00001b44                        y 0.0
+00001b48                        z 0.0
+00001b50                    up::Vec3
+00001b50                        x 0.0
+00001b54                        y 1.0
+00001b58                        z 0.0
+00001b60                    forward::Vec3
+00001b60                        x 0.0
+00001b64                        y 0.0
+00001b68                        z 1.0
+00001b70                    trans::Vec3
+00001b70                        x 0.0
+00001b74                        y 0.0
+00001b78                        z 0.0
+00001b80            Components *nullArray*
+00001b84            MaxActiveInstanceCount::QualityScalableInt
+00001b84                Low 30
+00001b88                Medium 30
+00001b8c                High 30
+00001b90                Ultra 30
+00001b94            CullDistance::QualityScalableFloat
+00001b94                Low 0.0
+00001b98                Medium 0.0
+00001b9c                High 0.0
+00001ba0                Ultra 0.0
+00001ba4            StartDelay 0.0
+00001ba8            KillWhenDistanceCulled False
+00001ba9            ResetInstanceWhenStarted True
+00001baa            AttachToSpawnSurface False
+00001bab            Enable::QualityScalableBool
+00001bab                Low True
+00001bac                Medium True
+00001bad                High True
+00001bae                Ultra True
+00001baf            OverrideDrawOrder False
+00001bb0        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_destruction_corefire/4ff5c4e4d1501149a48f7e71a2d2502d
+00001bb4        SpawnProbability::QualityScalableFloat
+00001bb4            Low 1.0
+00001bb8            Medium 1.0
+00001bbc            High 1.0
+00001bc0            Ultra 1.0
+00001bc4        MaxNearbyInstanceCount 0
+00001bc8        NearbyRadius 1.0
+00001bcc        EmitterTags *nullArray*
+00001bd0        DrawOrderSlot 128
+00001bd1        LocalPlayerOnly False
+00001be0    EmitterEntityData 0000000a
+00001be0        $::ChildEffectEntityData
+00001be0            $::SpatialEntityData
+00001be0                $::EntityData
+00001be0                    $::GameObjectData
+00001be0                        $::DataBusPeer
+00001be0                            $::GameDataContainer
+00001be0                                $::DataContainer
+00001be8                            Flags 3587761
+00001bf0                Transform::LinearTransform
+00001bf0                    right::Vec3
+00001bf0                        x 0.579696953297
+00001bf4                        y 0.814832150936
+00001bf8                        z 0.0
+00001c00                    up::Vec3
+00001c00                        x -0.814832150936
+00001c04                        y 0.579696953297
+00001c08                        z 0.0
+00001c10                    forward::Vec3
+00001c10                        x 0.0
+00001c14                        y 0.0
+00001c18                        z 1.0
+00001c20                    trans::Vec3
+00001c20                        x 0.0
+00001c24                        y 0.0
+00001c28                        z 0.0
+00001c30            Components *nullArray*
+00001c34            MaxActiveInstanceCount::QualityScalableInt
+00001c34                Low 30
+00001c38                Medium 30
+00001c3c                High 30
+00001c40                Ultra 30
+00001c44            CullDistance::QualityScalableFloat
+00001c44                Low 0.0
+00001c48                Medium 0.0
+00001c4c                High 0.0
+00001c50                Ultra 0.0
+00001c54            StartDelay 1.0
+00001c58            KillWhenDistanceCulled False
+00001c59            ResetInstanceWhenStarted True
+00001c5a            AttachToSpawnSurface False
+00001c5b            Enable::QualityScalableBool
+00001c5b                Low True
+00001c5c                Medium True
+00001c5d                High True
+00001c5e                Ultra True
+00001c5f            OverrideDrawOrder False
+00001c60        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_debris_meshp_01/386d029a90d4a04d8f037539dbeda273
+00001c64        SpawnProbability::QualityScalableFloat
+00001c64            Low 1.0
+00001c68            Medium 1.0
+00001c6c            High 1.0
+00001c70            Ultra 1.0
+00001c74        MaxNearbyInstanceCount 0
+00001c78        NearbyRadius 1.0
+00001c7c        EmitterTags *nullArray*
+00001c80        DrawOrderSlot 128
+00001c81        LocalPlayerOnly False
+00001c90    EmitterEntityData 0000000b
+00001c90        $::ChildEffectEntityData
+00001c90            $::SpatialEntityData
+00001c90                $::EntityData
+00001c90                    $::GameObjectData
+00001c90                        $::DataBusPeer
+00001c90                            $::GameDataContainer
+00001c90                                $::DataContainer
+00001c98                            Flags 5106618
+00001ca0                Transform::LinearTransform
+00001ca0                    right::Vec3
+00001ca0                        x 1.0
+00001ca4                        y 0.0
+00001ca8                        z 0.0
+00001cb0                    up::Vec3
+00001cb0                        x 0.0
+00001cb4                        y 1.0
+00001cb8                        z 0.0
+00001cc0                    forward::Vec3
+00001cc0                        x 0.0
+00001cc4                        y 0.0
+00001cc8                        z 1.0
+00001cd0                    trans::Vec3
+00001cd0                        x 0.0
+00001cd4                        y 0.0
+00001cd8                        z 0.0
+00001ce0            Components *nullArray*
+00001ce4            MaxActiveInstanceCount::QualityScalableInt
+00001ce4                Low 30
+00001ce8                Medium 30
+00001cec                High 30
+00001cf0                Ultra 30
+00001cf4            CullDistance::QualityScalableFloat
+00001cf4                Low 0.0
+00001cf8                Medium 0.0
+00001cfc                High 0.0
+00001d00                Ultra 0.0
+00001d04            StartDelay 0.800000011921
+00001d08            KillWhenDistanceCulled False
+00001d09            ResetInstanceWhenStarted True
+00001d0a            AttachToSpawnSurface False
+00001d0b            Enable::QualityScalableBool
+00001d0b                Low True
+00001d0c                Medium True
+00001d0d                High True
+00001d0e                Ultra True
+00001d0f            OverrideDrawOrder False
+00001d10        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_destruction_thicksmoke/4bcbc44d3efdec488e549bbfeba189d8
+00001d14        SpawnProbability::QualityScalableFloat
+00001d14            Low 0.0
+00001d18            Medium 0.0
+00001d1c            High 0.0
+00001d20            Ultra 0.0
+00001d24        MaxNearbyInstanceCount 0
+00001d28        NearbyRadius 1.0
+00001d2c        EmitterTags *nullArray*
+00001d30        DrawOrderSlot 128
+00001d31        LocalPlayerOnly False
+00001d40    EmitterEntityData 0000000c
+00001d40        $::ChildEffectEntityData
+00001d40            $::SpatialEntityData
+00001d40                $::EntityData
+00001d40                    $::GameObjectData
+00001d40                        $::DataBusPeer
+00001d40                            $::GameDataContainer
+00001d40                                $::DataContainer
+00001d48                            Flags 15551961
+00001d50                Transform::LinearTransform
+00001d50                    right::Vec3
+00001d50                        x 1.0
+00001d54                        y 0.0
+00001d58                        z 0.0
+00001d60                    up::Vec3
+00001d60                        x 0.0
+00001d64                        y 0.730166494846
+00001d68                        z -0.683269262314
+00001d70                    forward::Vec3
+00001d70                        x 0.0
+00001d74                        y 0.683269262314
+00001d78                        z 0.730166494846
+00001d80                    trans::Vec3
+00001d80                        x 0.0
+00001d84                        y 0.0
+00001d88                        z 0.0
+00001d90            Components *nullArray*
+00001d94            MaxActiveInstanceCount::QualityScalableInt
+00001d94                Low 30
+00001d98                Medium 30
+00001d9c                High 30
+00001da0                Ultra 30
+00001da4            CullDistance::QualityScalableFloat
+00001da4                Low 0.0
+00001da8                Medium 0.0
+00001dac                High 0.0
+00001db0                Ultra 0.0
+00001db4            StartDelay 2.0
+00001db8            KillWhenDistanceCulled False
+00001db9            ResetInstanceWhenStarted True
+00001dba            AttachToSpawnSurface False
+00001dbb            Enable::QualityScalableBool
+00001dbb                Low True
+00001dbc                Medium True
+00001dbd                High True
+00001dbe                Ultra True
+00001dbf            OverrideDrawOrder False
+00001dc0        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_debris_meshp_mediumparts/8b1424d56dbd8a41a1b75b6b8c71c5f8
+00001dc4        SpawnProbability::QualityScalableFloat
+00001dc4            Low 1.0
+00001dc8            Medium 1.0
+00001dcc            High 1.0
+00001dd0            Ultra 1.0
+00001dd4        MaxNearbyInstanceCount 0
+00001dd8        NearbyRadius 1.0
+00001ddc        EmitterTags *nullArray*
+00001de0        DrawOrderSlot 128
+00001de1        LocalPlayerOnly False
+00001df0    EmitterEntityData 0000000d
+00001df0        $::ChildEffectEntityData
+00001df0            $::SpatialEntityData
+00001df0                $::EntityData
+00001df0                    $::GameObjectData
+00001df0                        $::DataBusPeer
+00001df0                            $::GameDataContainer
+00001df0                                $::DataContainer
+00001df8                            Flags 13585894
+00001e00                Transform::LinearTransform
+00001e00                    right::Vec3
+00001e00                        x 1.0
+00001e04                        y 0.0
+00001e08                        z 0.0
+00001e10                    up::Vec3
+00001e10                        x 0.0
+00001e14                        y 1.0
+00001e18                        z 0.0
+00001e20                    forward::Vec3
+00001e20                        x 0.0
+00001e24                        y 0.0
+00001e28                        z 1.0
+00001e30                    trans::Vec3
+00001e30                        x 0.0
+00001e34                        y 0.0
+00001e38                        z 0.0
+00001e40            Components *nullArray*
+00001e44            MaxActiveInstanceCount::QualityScalableInt
+00001e44                Low 30
+00001e48                Medium 30
+00001e4c                High 30
+00001e50                Ultra 30
+00001e54            CullDistance::QualityScalableFloat
+00001e54                Low 0.0
+00001e58                Medium 0.0
+00001e5c                High 0.0
+00001e60                Ultra 0.0
+00001e64            StartDelay 2.0
+00001e68            KillWhenDistanceCulled False
+00001e69            ResetInstanceWhenStarted True
+00001e6a            AttachToSpawnSurface False
+00001e6b            Enable::QualityScalableBool
+00001e6b                Low True
+00001e6c                Medium True
+00001e6d                High True
+00001e6e                Ultra True
+00001e6f            OverrideDrawOrder False
+00001e70        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_debris_meshp_bigparts/8b39cfa0ff36164e8f890d6f46490bdb
+00001e74        SpawnProbability::QualityScalableFloat
+00001e74            Low 1.0
+00001e78            Medium 1.0
+00001e7c            High 1.0
+00001e80            Ultra 1.0
+00001e84        MaxNearbyInstanceCount 0
+00001e88        NearbyRadius 1.0
+00001e8c        EmitterTags *nullArray*
+00001e90        DrawOrderSlot 128
+00001e91        LocalPlayerOnly False
+00001ea0    EmitterEntityData 0000000e
+00001ea0        $::ChildEffectEntityData
+00001ea0            $::SpatialEntityData
+00001ea0                $::EntityData
+00001ea0                    $::GameObjectData
+00001ea0                        $::DataBusPeer
+00001ea0                            $::GameDataContainer
+00001ea0                                $::DataContainer
+00001ea8                            Flags 3167728
+00001eb0                Transform::LinearTransform
+00001eb0                    right::Vec3
+00001eb0                        x 0.846290647984
+00001eb4                        y 0.53272151947
+00001eb8                        z -1.49011611938e-08
+00001ec0                    up::Vec3
+00001ec0                        x -0.505244851112
+00001ec4                        y 0.802640676498
+00001ec8                        z -0.317010402679
+00001ed0                    forward::Vec3
+00001ed0                        x -0.168878242373
+00001ed4                        y 0.268282920122
+00001ed8                        z 0.948422074318
+00001ee0                    trans::Vec3
+00001ee0                        x -0.43378034234
+00001ee4                        y 0.557251751423
+00001ee8                        z 0.0
+00001ef0            Components *nullArray*
+00001ef4            MaxActiveInstanceCount::QualityScalableInt
+00001ef4                Low 30
+00001ef8                Medium 30
+00001efc                High 30
+00001f00                Ultra 30
+00001f04            CullDistance::QualityScalableFloat
+00001f04                Low 0.0
+00001f08                Medium 0.0
+00001f0c                High 0.0
+00001f10                Ultra 0.0
+00001f14            StartDelay 2.0
+00001f18            KillWhenDistanceCulled False
+00001f19            ResetInstanceWhenStarted True
+00001f1a            AttachToSpawnSurface False
+00001f1b            Enable::QualityScalableBool
+00001f1b                Low True
+00001f1c                Medium True
+00001f1d                High True
+00001f1e                Ultra True
+00001f1f            OverrideDrawOrder False
+00001f20        Emitter ebx\fx\vehicles\destruction\emitters_armoredcar\em_armoredcar_explosion_main_far/b5bcc4567c8424469a3bcfd8892e070a
+00001f24        SpawnProbability::QualityScalableFloat
+00001f24            Low 1.0
+00001f28            Medium 1.0
+00001f2c            High 1.0
+00001f30            Ultra 1.0
+00001f34        MaxNearbyInstanceCount 0
+00001f38        NearbyRadius 1.0
+00001f3c        EmitterTags *nullArray*
+00001f40        DrawOrderSlot 128
+00001f41        LocalPlayerOnly False
+00001f50    LightEffectEntityData 0000000f
+00001f50        $::ChildEffectEntityData
+00001f50            $::SpatialEntityData
+00001f50                $::EntityData
+00001f50                    $::GameObjectData
+00001f50                        $::DataBusPeer
+00001f50                            $::GameDataContainer
+00001f50                                $::DataContainer
+00001f58                            Flags 8021919
+00001f60                Transform::LinearTransform
+00001f60                    right::Vec3
+00001f60                        x 1.0
+00001f64                        y 0.0
+00001f68                        z 0.0
+00001f70                    up::Vec3
+00001f70                        x 0.0
+00001f74                        y 1.0
+00001f78                        z 0.0
+00001f80                    forward::Vec3
+00001f80                        x 0.0
+00001f84                        y 0.0
+00001f88                        z 1.0
+00001f90                    trans::Vec3
+00001f90                        x 0.0
+00001f94                        y 0.615662753582
+00001f98                        z 0.0
+00001fa0            Components *nullArray*
+00001fa4            MaxActiveInstanceCount::QualityScalableInt
+00001fa4                Low 30
+00001fa8                Medium 30
+00001fac                High 30
+00001fb0                Ultra 30
+00001fb4            CullDistance::QualityScalableFloat
+00001fb4                Low 0.0
+00001fb8                Medium 0.0
+00001fbc                High 0.0
+00001fc0                Ultra 0.0
+00001fc4            StartDelay 0.0
+00001fc8            KillWhenDistanceCulled False
+00001fc9            ResetInstanceWhenStarted True
+00001fca            AttachToSpawnSurface False
+00001fcb            Enable::QualityScalableBool
+00001fcb                Low True
+00001fcc                Medium True
+00001fcd                High True
+00001fce                Ultra True
+00001fcf            OverrideDrawOrder False
+00001fd0        IntensityCurve::Vec4
+00001fd0            x 0.0
+00001fd4            y 0.0
+00001fd8            z -1.01538467407
+00001fdc            w 0.989846110344
+00001fe0        Light 00000010
+00001fe4        Lifetime 3.0
+00001fe8        SpawnProbability::QualityScalableFloat
+00001fe8            Low 1.0
+00001fec            Medium 1.0
+00001ff0            High 1.0
+00001ff4            Ultra 1.0
+00001ff8        RandomIntensityMin 1.0
+00001ffc        RandomIntensityMax 1.0
+00002000        IntensityMin 0.0
+00002004        IntensityMax 1.0
+00002008        Looping False
+00002009        LocalPlayerOnly False
+00002010    PointLightEntityData 00000010
+00002010        $::OriginalLocalLightEntityData
+00002010            $::LocalLightEntityData
+00002010                $::SpatialEntityData
+00002010                    $::EntityData
+00002010                        $::GameObjectData
+00002010                            $::DataBusPeer
+00002010                                $::GameDataContainer
+00002010                                    $::DataContainer
+00002018                                Flags 0
+00002020                    Transform::LinearTransform
+00002020                        right::Vec3
+00002020                            x 1.0
+00002024                            y 0.0
+00002028                            z 0.0
+00002030                        up::Vec3
+00002030                            x 0.0
+00002034                            y 1.0
+00002038                            z 0.0
+00002040                        forward::Vec3
+00002040                            x 0.0
+00002044                            y 0.0
+00002048                            z 1.0
+00002050                        trans::Vec3
+00002050                            x 0.0
+00002054                            y 0.0
+00002058                            z 0.0
+00002060                Enabled True
+00002070            Color::Vec3
+00002070                x 223.826370239
+00002074                y 86.4229278564
+00002078                z 14.6809654236
+00002080            EnlightenColorScale::Vec3
+00002080                x 1.0
+00002084                y 1.0
+00002088                z 1.0
+00002090            ParticleColorScale::Vec3
+00002090                x 223.826370239
+00002094                y 223.826370239
+00002098                z 223.826370239
+000020a0            Radius 30.0
+000020a4            Intensity 100.0
+000020a8            AttenuationOffset 0.00999999977648
+000020ac            EnlightenColorMode EnlightenColorMode_Multiply
+000020b0            DirectLightEnable True
+000020b1            SpecularEnable True
+000020b2            EnlightenEnable False
+000020c0        Width 0.0
+000020c4        TranslucencyAmbient 0.0
+000020c8        TranslucencyScale 0.0
+000020cc        TranslucencyPower 8.0
+000020d0        TranslucencyDistortion 0.10000000149
+000020e0    SoundEffectEntityData 00000011
+000020e0        $::ChildEffectEntityData
+000020e0            $::SpatialEntityData
+000020e0                $::EntityData
+000020e0                    $::GameObjectData
+000020e0                        $::DataBusPeer
+000020e0                            $::GameDataContainer
+000020e0                                $::DataContainer
+000020e8                            Flags 14410345
+000020f0                Transform::LinearTransform
+000020f0                    right::Vec3
+000020f0                        x 1.0
+000020f4                        y 0.0
+000020f8                        z 0.0
+00002100                    up::Vec3
+00002100                        x 0.0
+00002104                        y 1.0
+00002108                        z 0.0
+00002110                    forward::Vec3
+00002110                        x 0.0
+00002114                        y 0.0
+00002118                        z 1.0
+00002120                    trans::Vec3
+00002120                        x 0.0
+00002124                        y 0.0
+00002128                        z 0.0
+00002130            Components *nullArray*
+00002134            MaxActiveInstanceCount::QualityScalableInt
+00002134                Low 30
+00002138                Medium 30
+0000213c                High 30
+00002140                Ultra 30
+00002144            CullDistance::QualityScalableFloat
+00002144                Low 0.0
+00002148                Medium 0.0
+0000214c                High 0.0
+00002150                Ultra 0.0
+00002154            StartDelay 0.0
+00002158            KillWhenDistanceCulled False
+00002159            ResetInstanceWhenStarted True
+0000215a            AttachToSpawnSurface False
+0000215b            Enable::QualityScalableBool
+0000215b                Low True
+0000215c                Medium True
+0000215d                High True
+0000215e                Ultra True
+0000215f            OverrideDrawOrder False
+00002160        Sound Sound/Core/Explosions/Explosion_Tank_Large/7c86a14ae55d0248a1b26216def3b6bb
+00002164        UseDefaultStopEvent True

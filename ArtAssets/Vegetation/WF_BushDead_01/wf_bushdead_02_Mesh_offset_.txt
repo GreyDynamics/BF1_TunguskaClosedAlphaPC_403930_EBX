@@ -1,0 +1,82 @@
+00001000    RigidMeshAsset f843246feeb60408ed343cb05db34165
+00001000        $::MeshAsset
+00001000            $::Asset
+00001000                $::DataContainer
+00001008                Name artassets/vegetation/wf_bushdead_01/wf_bushdead_02_Mesh
+0000100c            BlendShapeChannelHashes *nullArray*
+00001010            MeshSetResource 094d0cb23898b62c
+00001018            OccluderMeshResource 0000000000000000
+00001020            LodGroup LodGroups/Vegetation_Default/96506a5477af0e48b5273ef7e18bc96c
+00001024            LodScale 1.0
+00001028            CullScale 0.40000000596
+0000102c            LodDistanceMethod LodDistanceMethod_BoundingSphere
+00001030            CoverageValue 0.0
+00001034            EnlightenType EnlightenType_Dynamic
+00001038            EnlightenMeshLod -1
+0000103c            AutoLightmapUVsMaxDistance 0.300000011921
+00001040            AutoLightmapUVsExpansionFactor 0.20000000298
+00001044            AutoLightmapUVsMaxNormalDeviation 85.0
+00001048            ProceduralAnimation fa28e68bdf59d94e93f15249245392dc
+0000104c            Materials::array
+000010e4                member(0) 6f86c38528cf94eeb754dcccd6d8897d
+00001050            NameHash 922173529
+00001054            StreamingEnable True
+00001055            OccluderMeshEnable False
+00001056            OccluderHighPriority False
+00001057            OccluderIsConservative True
+00001058            DestructionMaterialEnable False
+00001059            EnableEnlightenStaticOverride False
+0000105a            LightmapUVsScaleCharts True
+0000105b            AutoLightmapUVs False
+00001070    MeshMaterial 6f86c38528cf94eeb754dcccd6d8897d
+00001068        $::DataContainer
+00001070        ShaderInstance *nullGuid*
+00001074        Shader::SurfaceShaderInstanceDataStruct
+00001074            Shader ArtAssets/Nature/Vegetation/_Shaders/SS_Vegetation_Foliage_01_AngleCulling/0d2d8cc631b40541ab2650e5945b2661
+00001078            BoolParameters *nullArray*
+0000107c            VectorParameters::array
+000010f0                member(0)::VectorShaderParameter
+000010f0                    Value::Vec4
+000010f0                        x 0.00999999977648
+000010f4                        y 0.0
+000010f8                        z 0.0
+000010fc                        w 0.0
+00001100                    ParameterName WPBlendIntensity
+00001104                    ParameterType ShaderParameterType_Scalar
+00001110                member(1)::VectorShaderParameter
+00001110                    Value::Vec4
+00001110                        x 0.651405692101
+00001114                        y 0.651405692101
+00001118                        z 0.651405692101
+0000111c                        w 1.0
+00001120                    ParameterName TintColorBranch
+00001124                    ParameterType ShaderParameterType_Color
+00001130                member(2)::VectorShaderParameter
+00001130                    Value::Vec4
+00001130                        x 0.651405692101
+00001134                        y 0.651405692101
+00001138                        z 0.651405692101
+0000113c                        w 1.0
+00001140                    ParameterName TintColorLeaves
+00001144                    ParameterType ShaderParameterType_Color
+00001080            VectorArrayParameters *nullArray*
+00001084            TextureParameters *nullArray*
+00001088        TessellationType ShaderTessellationType_None
+0000108c        TessellationTriangleSize 12.0
+00001090        TessellationMaxDistance 20.0
+00001094        BackFaceCullEpsilon 0.5
+00001098        ShapeFactor 0.75
+0000109c        DisplacementMap *nullGuid*
+000010a0        DisplacementScale 1.0
+000010a4        DisplacementBias 0.5
+000010a8        DisplacementMapTexCoord 0
+000010ac        CastShadow True
+000010ad        SmoothEdgeVertices False
+000010ae        DisplacementObjectScale False
+000010c0    ProceduralAnimationTypeWind fa28e68bdf59d94e93f15249245392dc
+000010b8        $::ProceduralAnimationTypeSimple
+000010b8            $::DataContainer
+000010c0            BendMultiplier 0.0
+000010c4            WiggleSpeedMultiplier 1.0
+000010c8            WindInfluenceMultiplier 0.300000011921
+000010cc        WindMethod Wind_Cloth

@@ -1,0 +1,154 @@
+000014b0    AIWeaponData dde8405dfb3ad5479c52d58419f4047b
+000014a8        $::GameAIWeaponData
+000014a8            $::Asset
+000014a8                $::DataContainer
+000014b0                Name AI/Weapons/Tank_MG_A7V_Sides
+000014b4        FiringWeaponClass WeaponClass_MachineGun
+000014b8        VoPrimaryFireType VoPrimaryFireType_MachineGun
+000014bc        WeaponRange 50.0
+000014c0        MinimumUsageDistance -1.0
+000014c4        MaximumUsageDistance -1.0
+000014c8        VehicleMaxTargetLOSLost -1.0
+000014cc        MinEnterVehicleDistance -1.0
+000014d0        ExitVehicleDisableTime -1.0
+000014d4        EvasionVolume *nullGuid*
+000014d8        PreferredRange *nullGuid*
+000014dc        IndoorPreferredRange *nullGuid*
+000014e0        OutdoorPreferredRange *nullGuid*
+000014e4        FiringIntervalPattern *nullGuid*
+000014e8        SustainFiringData *nullGuid*
+000014ec        BurstIntervalPattern fb0274818d071145bb0afb3bfd1a2103
+000014f0        CreepingAirBarrage *nullGuid*
+000014f4        SprayPattern *nullGuid*
+000014f8        AccuracyHitBox *nullGuid*
+000014fc        VehicleAimerSettings 426638722231924aa357d15cd518d6f5
+00001500        VisionModifier 13840cc68d0205428de9e3b16dde1f73
+00001504        HearingModifier b82c45be5561544c81d36781a3b6a1d0
+00001508        TargetModifier *nullGuid*
+0000150c        TargetingSettingsOverride d0c10e22cc1c73459b4579e6e2c1c841
+00001510        VehicleInaccuracySettings *nullGuid*
+00001514        SuppressedBehavior *nullGuid*
+00001518        DamageModifier *nullGuid*
+0000151c        DamageModifierExtended *nullGuid*
+00001520        FriendlyWeaponRestrictions *nullGuid*
+00001524        SpecialBehavior *nullGuid*
+00001528        HumanTargetHitProbability a477f4927a70434d8a80233af6c42a7b
+0000152c        DistanceToAwareCurveOverride c0834a9cb3c3f445adeeab5c7f04ff71
+00001530        ValidAgainst ValidAgainst_SoldiersAndUnshieldedVehicles
+00001534        TargetPreference TargetPreference_Soldiers
+00001538        WeaponThreatScale 0.600000023842
+0000153c        ValidWeaponScale 1.0
+00001540        InValidWeaponScale 1.0
+00001544        UseTargetExtrapolation True
+00001545        CausesEvasionOnFire False
+00001546        UseShootspaceForVision True
+00001558    VisionModifier 13840cc68d0205428de9e3b16dde1f73
+00001550        $::DataContainer
+00001558        SensingConeRange 100.0
+0000155c        SensingConeRangeWhenAlerted 225.0
+00001560        SensingConeAngle 75.0
+00001564        SensingConeAngleWhenAlerted 75.0
+00001568        SensingConeAngleAbove 20.0
+0000156c        SensingConeAngleBelow 30.0
+00001570        SensingStaticTargetObjectDistance 30.0
+00001574        SensingMovingTargetObjectDistance 75.0
+00001578        FlashlightModifier *nullGuid*
+0000157c        AlwaysSeeHuman False
+00001590    VehicleAimerSettings 426638722231924aa357d15cd518d6f5
+00001588        $::DataContainer
+00001590        MinPrecisionToFire 2.0
+00001594        IsParabolic False
+00001595        AimHigh False
+00001596        TrackTowardsTarget False
+00001597        TrackBeyondTarget False
+000015a8    WeaponRestrictions 459135b42b94a749a71cafc414c44e5e
+000015a0        $::DataContainer
+000015a8        FireDelayMin 3.0
+000015ac        FireDelayMax 5.0
+000015c0    WeaponRestrictions 562240c46b75ff4d9ce4f9977b59390b
+000015b8        $::DataContainer
+000015c0        FireDelayMin 0.0
+000015c4        FireDelayMax 0.0
+000015d8    WeaponHitProbability a477f4927a70434d8a80233af6c42a7b
+000015d0        $::DataContainer
+000015d8        DistanceToTarget::array
+000016d4            member(0) 50.0
+000016d8            member(1) 100.0
+000015dc        DistanceProbability::array
+000016e0            member(0) 1.0
+000016e4            member(1) 0.20000000298
+000015e0        TargetVisibility::array
+000016ec            member(0) 0.15000000596
+000016f0            member(1) 0.330000013113
+000016f4            member(2) 0.670000016689
+000016f8            member(3) 1.0
+000015e4        VisibleProbability::array
+00001700            member(0) 0.0
+00001704            member(1) 0.20000000298
+00001708            member(2) 1.0
+0000170c            member(3) 1.0
+000015f8    HearingModifier b82c45be5561544c81d36781a3b6a1d0
+000015f0        $::DataContainer
+000015f8        SensingShotFiredDistance 5.0
+000015fc        SensingHumanDrivenVehicleDistance 5.0
+00001600        SensingExplosionDistance 5.0
+00001604        SensingGrenadeDistance 5.0
+00001618    DistanceToAwareCurveOverride c0834a9cb3c3f445adeeab5c7f04ff71
+00001610        $::DataContainer
+00001618        DistanceToAwareTimeCurveCentral::TinyPiecewiseLinearCurve
+00001618            X0 30.0
+0000161c            Y0 1.0
+00001620            X1 110.0
+00001624            Y1 9.0
+00001628        DistanceToAwareTimeCurvePeripheral::TinyPiecewiseLinearCurve
+00001628            X0 30.0
+0000162c            Y0 1.0
+00001630            X1 110.0
+00001634            Y1 9.0
+00001648    TargetingData d0c10e22cc1c73459b4579e6e2c1c841
+00001640        $::DataContainer
+00001648        AimOffsetY -1.0
+0000164c        VisibleTargetLimit 0.300000011921
+00001650        TargetLostTimer 0.699999988079
+00001654        TargetDistanceEvaluation::TinyPiecewiseLinearCurve
+00001654            X0 10.0
+00001658            Y0 1.5
+0000165c            X1 80.0
+00001660            Y1 0.800000011921
+00001664        SuppressionScore::SuppressionValues
+00001664            Front 0.800000011921
+00001668            Back 0.899999976158
+0000166c        HumanSuppressionScoreMultiplier 0.300000011921
+00001670        SuppressionTimeLimit 5.0
+00001674        AquiredTimer 2.0
+00001678        AquiredObjectTimer 1.0
+0000167c        AquiredDistScale 1.0
+00001680        TargetAimingTimer 2.0
+00001684        CurrentHumanTargetAimingDistScale 0.800000011921
+00001688        LowHealthPercentage 0.25
+0000168c        CurrentHumanTargetLowHealthDistScale 1.0
+00001690        ElevationAboveThreshold 2.0
+00001694        ElevationDistScaleY 5.0
+00001698        CurrentTargetDistScale 1.0
+0000169c        TargetVisibleDistScale 0.5
+000016a0        HumanPreferenceScale 2.5
+000016a4        TargetObjectDistScale 1.20000004768
+000016a8        BalanceDistribution True
+000016bc    BurstIntervalPattern fb0274818d071145bb0afb3bfd1a2103
+000016b4        $::DataContainer
+000016bc        BurstInterval::array
+00001714            member(0)::BurstInterval
+00001714                BurstLength 1.5
+00001718                BurstLengthVariation 1.0
+0000171c                TimeBetweenBursts 3.0
+00001720                TimeBetweenBurstsVariation 1.5
+00001724            member(1)::BurstInterval
+00001724                BurstLength 1.5
+00001728                BurstLengthVariation 1.0
+0000172c                TimeBetweenBursts 3.0
+00001730                TimeBetweenBurstsVariation 1.5
+00001734            member(2)::BurstInterval
+00001734                BurstLength 2.0
+00001738                BurstLengthVariation 1.0
+0000173c                TimeBetweenBursts 2.5
+00001740                TimeBetweenBurstsVariation 1.5

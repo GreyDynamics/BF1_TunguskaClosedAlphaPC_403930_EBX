@@ -1,0 +1,186 @@
+00001e50    LogicPrefabBlueprint c8c4732acc520152f26d2fe08e2cc755
+00001e48        $::PrefabBlueprint
+00001e48            $::Blueprint
+00001e48                $::EntityBusData
+00001e48                    $::DataBusData
+00001e48                        $::Asset
+00001e48                            $::DataContainer
+00001e50                            Name UI/Shared/Logic/BoolDelay
+00001e54                        PropertyConnections::array
+00001f04                            member(0)::PropertyConnection
+00001f04                                Source 00000003
+00001f08                                Target 00000005
+00001f0c                                SourceFieldId -1952177180
+00001f10                                TargetFieldId 176040160
+00001f14                                Flags 2
+00001f18                            member(1)::PropertyConnection
+00001f18                                Source 00000005
+00001f1c                                Target 00000002
+00001f20                                SourceFieldId 936870923
+00001f24                                TargetFieldId 5862146
+00001f28                                Flags 2
+00001f2c                            member(2)::PropertyConnection
+00001f2c                                Source 00000003
+00001f30                                Target 00000002
+00001f34                                SourceFieldId 208768368
+00001f38                                TargetFieldId 1828507227
+00001f3c                                Flags 2
+00001f40                            member(3)::PropertyConnection
+00001f40                                Source 00000005
+00001f44                                Target 00000002
+00001f48                                SourceFieldId 936870923
+00001f4c                                TargetFieldId 2066049125
+00001f50                                Flags 2
+00001f54                            member(4)::PropertyConnection
+00001f54                                Source 00000002
+00001f58                                Target 00000004
+00001f5c                                SourceFieldId 193453899
+00001f60                                TargetFieldId 177629
+00001f64                                Flags 2
+00001f68                            member(5)::PropertyConnection
+00001f68                                Source 00000004
+00001f6c                                Target 00000001
+00001f70                                SourceFieldId 193453899
+00001f74                                TargetFieldId 2088812747
+00001f78                                Flags 2
+00001f7c                            member(6)::PropertyConnection
+00001f7c                                Source 00000000
+00001f80                                Target 00000003
+00001f84                                SourceFieldId 225375086
+00001f88                                TargetFieldId 2662400
+00001f8c                                Flags 18
+00001e58                        LinkConnections *nullArray*
+00001e5c                        Interface 00000003
+00001e60                        Flags 14
+00001e64                    EventConnections::array
+00001f94                        member(0)::EventConnection
+00001f94                            Source 00000001
+00001f98                            Target 00000000
+00001f9c                            SourceEvent::EventSpec
+00001f9c                                Id -1433512622
+00001fa0                            TargetEvent::EventSpec
+00001fa0                                Id -1541066415
+00001fa4                            TargetType EventConnectionTargetType_Client
+00001fa8                        member(1)::EventConnection
+00001fa8                            Source 00000001
+00001fac                            Target 00000000
+00001fb0                            SourceEvent::EventSpec
+00001fb0                                Id -81881639
+00001fb4                            TargetEvent::EventSpec
+00001fb4                                Id 668205626
+00001fb8                            TargetType EventConnectionTargetType_Client
+00001e68            Objects::array
+00001fc0                member(0) 00000005
+00001fc4                member(1) 00000002
+00001fc8                member(2) 00000004
+00001fcc                member(3) 00000001
+00001fd0                member(4) 00000000
+00001e6c            TimeDeltaType TimeDeltaType_None
+00001e70    BoolEntityData 00000000
+00001e68        $::EntityData
+00001e68            $::GameObjectData
+00001e68                $::DataBusPeer
+00001e68                    $::GameDataContainer
+00001e68                        $::DataContainer
+00001e70                    Flags 57806894
+00001e74        Realm Realm_Client
+00001e78        DefaultValue False
+00001e7c    CompareBoolEntityData 00000001
+00001e74        $::EntityData
+00001e74            $::GameObjectData
+00001e74                $::DataBusPeer
+00001e74                    $::GameDataContainer
+00001e74                        $::DataContainer
+00001e7c                    Flags 134537709
+00001e80        Realm Realm_Client
+00001e84        Bool False
+00001e85        TriggerOnPropertyChange True
+00001e86        TriggerOnStart True
+00001e87        AlwaysSend False
+00001e88    FloatInterpolatorEntityData 00000002
+00001e80        $::PropertyInterpolatorEntityData
+00001e80            $::EntityData
+00001e80                $::GameObjectData
+00001e80                    $::DataBusPeer
+00001e80                        $::GameDataContainer
+00001e80                            $::DataContainer
+00001e88                        Flags 142424072
+00001e8c            Realm Realm_Client
+00001e90            InterpolationType PropertyInterpolationType_Linear
+00001e94            InterpolationMode PropertyInterpolationMode_EaseOut
+00001e98            Duration 1.0
+00001e9c            UseRealTimeClock False
+00001e9d            ForceFrameCorrectOutput False
+00001ea0        In 0.0
+00001ea4        DefaultValue 1.0
+00001ea8        Velocity 1.0
+00001eac        UseVelocity False
+00001eb0    InterfaceDescriptorData 00000003
+00001ea8        $::DynamicDataContainer
+00001ea8            $::DataContainer
+00001eb0            Fields::array
+00001fd8                member(0)::DataField
+00001fd8                    Value *nullString*
+00001fdc                    ValueRef *nullGuid*
+00001fe0                    Id -1952177180
+00001fe4                    AccessType FieldAccessType_Target
+00001fe8                member(1)::DataField
+00001fe8                    Value *nullString*
+00001fec                    ValueRef *nullGuid*
+00001ff0                    Id 208768368
+00001ff4                    AccessType FieldAccessType_Target
+00001ff8                member(2)::DataField
+00001ff8                    Value *nullString*
+00001ffc                    ValueRef *nullGuid*
+00002000                    Id 2662400
+00002004                    AccessType FieldAccessType_Source
+00001eb4        InputEvents *nullArray*
+00001eb8        OutputEvents *nullArray*
+00001ebc        InputLinks *nullArray*
+00001ec0        OutputLinks *nullArray*
+00001ec4    MathEntityData 00000004
+00001ebc        $::EntityData
+00001ebc            $::GameObjectData
+00001ebc                $::DataBusPeer
+00001ebc                    $::GameDataContainer
+00001ebc                        $::DataContainer
+00001ec4                    Flags 152584265
+00001ec8        Realm Realm_Client
+00001ecc        Assembly::MathEntityAssembly
+00001ecc            FunctionCalls *nullArray*
+00001ed0            Instructions::array
+0000200c                member(0)::MathEntityInstruction
+0000200c                    Code MathOpCode_InputF
+00002010                    Result 0
+00002014                    Param1 177629
+00002018                    Param2 0
+0000201c                member(1)::MathEntityInstruction
+0000201c                    Code MathOpCode_ConstF
+00002020                    Result 1
+00002024                    Param1 0
+00002028                    Param2 0
+0000202c                member(2)::MathEntityInstruction
+0000202c                    Code MathOpCode_GreaterF
+00002030                    Result 0
+00002034                    Param1 0
+00002038                    Param2 1
+0000203c                member(3)::MathEntityInstruction
+0000203c                    Code MathOpCode_Return
+00002040                    Result 0
+00002044                    Param1 1
+00002048                    Param2 0
+00001ed4        EvaluateOnEvent False
+00001ed8    PropertyCastEntityData 00000005
+00001ed0        $::EntityData
+00001ed0            $::GameObjectData
+00001ed0                $::DataBusPeer
+00001ed0                    $::GameDataContainer
+00001ed0                        $::DataContainer
+00001ed8                    Flags 153116601
+00001edc        Realm Realm_Client
+00001ee0        Precision -5
+00001ee4        FloatValue 0.0
+00001ee8        IntValue 0
+00001eec        UintValue 0
+00001ef0        StringValue *nullString*
+00001ef4        BoolValue False

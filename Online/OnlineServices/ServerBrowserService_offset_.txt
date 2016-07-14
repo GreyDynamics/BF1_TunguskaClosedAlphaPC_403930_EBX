@@ -1,0 +1,74 @@
+00000cc0    PresenceServerBrowserServiceData 836c24a26a08e3fc86607dcab9e9cc69
+00000cb8        $::PresenceServiceData
+00000cb8            $::Asset
+00000cb8                $::DataContainer
+00000cc0                Name Online/OnlineServices/ServerBrowserService
+00000cc4        FilterCriterias::MatchmakingCriteria
+00000cc4            SizeRule::MatchmakingSizeRule
+00000cc4                Settings *nullArray*
+00000cc8                Configurations *nullArray*
+00000ccc            PingSiteRule::MatchmakingPingSiteRule
+00000ccc                MinFitThreshold *nullString*
+00000cd0            RankedRule::MatchmakingRankedRule
+00000cd0                MinFitThreshold requireExactMatch
+00000cd4            GenericRules::array
+00000d14                member(0)::MatchmakingGenericRule
+00000d14                    Rule levelRule
+00000d18                    MinFitThresHold requireExactMatch
+00000d1c                    Setting level
+00000d20                    GenericRuleType GenericRuleType_Game
+00000d24                    DesiredValues *nullArray*
+00000d28                    IgnoreIfDefault True
+00000d29                    MergeValues False
+00000d2a                    SortValues False
+00000d2c                member(1)::MatchmakingGenericRule
+00000d2c                    Rule gameModeRule
+00000d30                    MinFitThresHold requireExactMatch
+00000d34                    Setting mode
+00000d38                    GenericRuleType GenericRuleType_Game
+00000d3c                    DesiredValues *nullArray*
+00000d40                    IgnoreIfDefault True
+00000d41                    MergeValues False
+00000d42                    SortValues False
+00000d44                member(2)::MatchmakingGenericRule
+00000d44                    Rule presetRule
+00000d48                    MinFitThresHold requireExactMatch
+00000d4c                    Setting preset
+00000d50                    GenericRuleType GenericRuleType_Game
+00000d54                    DesiredValues *nullArray*
+00000d58                    IgnoreIfDefault True
+00000d59                    MergeValues False
+00000d5a                    SortValues False
+00000d5c                member(3)::MatchmakingGenericRule
+00000d5c                    Rule rspPingSiteRule
+00000d60                    MinFitThresHold requireExactMatch
+00000d64                    Setting pingsite
+00000d68                    GenericRuleType GenericRuleType_Game
+00000d6c                    DesiredValues *nullArray*
+00000d70                    IgnoreIfDefault True
+00000d71                    MergeValues False
+00000d72                    SortValues False
+00000d74                member(4)::MatchmakingGenericRule
+00000d74                    Rule serverTypeRule
+00000d78                    MinFitThresHold requireExactMatch
+00000d7c                    Setting serverType
+00000d80                    GenericRuleType GenericRuleType_Game
+00000d84                    DesiredValues *nullArray*
+00000d88                    IgnoreIfDefault False
+00000d89                    MergeValues False
+00000d8a                    SortValues False
+00000cd8            VirtualizedRule::MatchmakingVirtualizedRule
+00000cd8                MinFitThreshold requireExactMatch
+00000cdc                VirtualizationMode MatchmakingVirtualizationMode_Any
+00000ce0            UEDRules *nullArray*
+00000ce4            ModRule::MatchmakingModRule
+00000ce4                Mods *nullArray*
+00000ce8                MinFitThresholdListName *nullString*
+00000cec            SlotUtilizationRule::MatchmakingSlotUtilizationRule
+00000cec                PreferredPercentage 75
+00000cf0                MinPercentage 0
+00000cf4                MaxPercentage 100
+00000cf8                RangeOffsetListName matchAny
+00000cfc            HostViabilityRule::MatchmakingHostViabilityRule
+00000cfc                MinFitThreshold *nullString*
+00000d00        ListCapacity 1000

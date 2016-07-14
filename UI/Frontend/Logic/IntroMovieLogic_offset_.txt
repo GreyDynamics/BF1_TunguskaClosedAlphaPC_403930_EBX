@@ -1,0 +1,103 @@
+00000e80    LogicPrefabBlueprint b4e690e24654c849fc67da5ffa69dfcd
+00000e78        $::PrefabBlueprint
+00000e78            $::Blueprint
+00000e78                $::EntityBusData
+00000e78                    $::DataBusData
+00000e78                        $::Asset
+00000e78                            $::DataContainer
+00000e80                            Name UI/Frontend/Logic/IntroMovieLogic
+00000e84                        PropertyConnections::array
+00000ee4                            member(0)::PropertyConnection
+00000ee4                                Source 00000001
+00000ee8                                Target 00000000
+00000eec                                SourceFieldId -1997699783
+00000ef0                                TargetFieldId 2088812747
+00000ef4                                Flags 2
+00000e88                        LinkConnections::array
+00000efc                            member(0)::LinkConnection
+00000efc                                Source 00000001
+00000f00                                Target 00000002
+00000f04                                SourceFieldId -431780160
+00000f08                                TargetFieldId 0
+00000e8c                        Interface 00000001
+00000e90                        Flags 14
+00000e94                    EventConnections::array
+00000f10                        member(0)::EventConnection
+00000f10                            Source 00000001
+00000f14                            Target 00000002
+00000f18                            SourceEvent::EventSpec
+00000f18                                Id -33636742
+00000f1c                            TargetEvent::EventSpec
+00000f1c                                Id 201149837
+00000f20                            TargetType EventConnectionTargetType_Client
+00000f24                        member(1)::EventConnection
+00000f24                            Source 00000002
+00000f28                            Target 00000000
+00000f2c                            SourceEvent::EventSpec
+00000f2c                                Id -80368276
+00000f30                            TargetEvent::EventSpec
+00000f30                                Id 5862146
+00000f34                            TargetType EventConnectionTargetType_Client
+00000f38                        member(2)::EventConnection
+00000f38                            Source 00000000
+00000f3c                            Target 00000001
+00000f40                            SourceEvent::EventSpec
+00000f40                                Id -81881639
+00000f44                            TargetEvent::EventSpec
+00000f44                                Id 1721230493
+00000f48                            TargetType EventConnectionTargetType_Client
+00000f4c                        member(3)::EventConnection
+00000f4c                            Source 00000000
+00000f50                            Target 00000001
+00000f54                            SourceEvent::EventSpec
+00000f54                                Id -1433512622
+00000f58                            TargetEvent::EventSpec
+00000f58                                Id 1721230493
+00000f5c                            TargetType EventConnectionTargetType_Client
+00000e98            Objects::array
+00000f64                member(0) 00000002
+00000f68                member(1) 00000000
+00000e9c            TimeDeltaType TimeDeltaType_None
+00000ea0    CompareBoolEntityData 00000000
+00000e98        $::EntityData
+00000e98            $::GameObjectData
+00000e98                $::DataBusPeer
+00000e98                    $::GameDataContainer
+00000e98                        $::DataContainer
+00000ea0                    Flags 192314102
+00000ea4        Realm Realm_Client
+00000ea8        Bool False
+00000ea9        TriggerOnPropertyChange False
+00000eaa        TriggerOnStart False
+00000eab        AlwaysSend False
+00000eac    InterfaceDescriptorData 00000001
+00000ea4        $::DynamicDataContainer
+00000ea4            $::DataContainer
+00000eac            Fields::array
+00000f70                member(0)::DataField
+00000f70                    Value *nullString*
+00000f74                    ValueRef *nullGuid*
+00000f78                    Id -1997699783
+00000f7c                    AccessType FieldAccessType_Target
+00000eb0        InputEvents::array
+00000f84            member(0)::DynamicEvent
+00000f84                Id -33636742
+00000eb4        OutputEvents::array
+00000f8c            member(0)::DynamicEvent
+00000f8c                Id 1721230493
+00000eb8        InputLinks::array
+00000f94            member(0)::DynamicLink
+00000f94                Id -431780160
+00000ebc        OutputLinks *nullArray*
+00000ec0    StateNodeEntityData 00000002
+00000eb8        $::StateNodeEntityBaseData
+00000eb8            $::EntityData
+00000eb8                $::GameObjectData
+00000eb8                    $::DataBusPeer
+00000eb8                        $::GameDataContainer
+00000eb8                            $::DataContainer
+00000ec0                        Flags 118170488
+00000ec4            StateName IntroMovies
+00000ec8            Realm Realm_Client
+00000ecc        EventTriggersInfo *nullArray*
+00000ed0        ConsumedEventsInfo *nullArray*

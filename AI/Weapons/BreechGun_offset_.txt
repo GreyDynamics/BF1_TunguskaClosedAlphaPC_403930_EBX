@@ -1,0 +1,110 @@
+00000f40    AIWeaponData ed90100174fe0e45b8164b2572a71d64
+00000f38        $::GameAIWeaponData
+00000f38            $::Asset
+00000f38                $::DataContainer
+00000f40                Name AI/Weapons/BreechGun
+00000f44        FiringWeaponClass WeaponClass_SniperRifle
+00000f48        VoPrimaryFireType VoPrimaryFireType_SniperRifle
+00000f4c        WeaponRange 150.0
+00000f50        MinimumUsageDistance -1.0
+00000f54        MaximumUsageDistance -1.0
+00000f58        VehicleMaxTargetLOSLost -1.0
+00000f5c        MinEnterVehicleDistance -1.0
+00000f60        ExitVehicleDisableTime -1.0
+00000f64        EvasionVolume *nullGuid*
+00000f68        PreferredRange 1102375bfce14c48a45f2577f5c39cba
+00000f6c        IndoorPreferredRange ba8f4f33ae99a24288c811dea53b9c73
+00000f70        OutdoorPreferredRange fde41ee25dfd8041b442d8fb1b42c325
+00000f74        FiringIntervalPattern *nullGuid*
+00000f78        SustainFiringData *nullGuid*
+00000f7c        BurstIntervalPattern *nullGuid*
+00000f80        CreepingAirBarrage *nullGuid*
+00000f84        SprayPattern *nullGuid*
+00000f88        AccuracyHitBox *nullGuid*
+00000f8c        VehicleAimerSettings *nullGuid*
+00000f90        VisionModifier d3830cf88d738d40a655b95c9f104516
+00000f94        HearingModifier *nullGuid*
+00000f98        TargetModifier *nullGuid*
+00000f9c        TargetingSettingsOverride *nullGuid*
+00000fa0        VehicleInaccuracySettings 407100dc0b0ab14bb0d302cde52cedcd
+00000fa4        SuppressedBehavior *nullGuid*
+00000fa8        DamageModifier 8054c401258b904a9d433855965d9796
+00000fac        DamageModifierExtended *nullGuid*
+00000fb0        FriendlyWeaponRestrictions *nullGuid*
+00000fb4        SpecialBehavior 95e7f0536344bc4ab55006a7b5b75d0b
+00000fb8        HumanTargetHitProbability 9e85ee6678d48c4fa477193098c7902b
+00000fbc        DistanceToAwareCurveOverride *nullGuid*
+00000fc0        ValidAgainst ValidAgainst_SoldiersAndUnshieldedVehicles
+00000fc4        TargetPreference TargetPreference_Soldiers
+00000fc8        WeaponThreatScale 1.0
+00000fcc        ValidWeaponScale 1.0
+00000fd0        InValidWeaponScale 1.0
+00000fd4        UseTargetExtrapolation True
+00000fd5        CausesEvasionOnFire False
+00000fd6        UseShootspaceForVision False
+00000fe8    PreferredRange 1102375bfce14c48a45f2577f5c39cba
+00000fe0        $::DataContainer
+00000fe8        Start 30.0
+00000fec        Ideal 0.40000000596
+00000ff0        End 75.0
+00001004    VehicleInaccuracySettings 407100dc0b0ab14bb0d302cde52cedcd
+00000ffc        $::DataContainer
+00001004        MinAimAngle 0.0
+00001008        MaxAimAngle 20.0
+0000100c        AccuracyIncreaseSpeed 0.125
+00001010        AccuracyDecreaseSpeed 0.25
+00001014        ResetOnReTarget True
+00001028    DamageModifier 8054c401258b904a9d433855965d9796
+00001020        $::DataContainer
+00001028        Damage::TinyPiecewiseLinearCurve
+00001028            X0 12.0
+0000102c            Y0 15.0
+00001030            X1 50.0
+00001034            Y1 8.0
+00001048    SpecialBehavior 95e7f0536344bc4ab55006a7b5b75d0b
+00001040        $::DataContainer
+00001048        AllowFireWhileTargetIsHidden True
+0000105c    WeaponHitProbability 9e85ee6678d48c4fa477193098c7902b
+00001054        $::DataContainer
+0000105c        DistanceToTarget::array
+000010e4            member(0) 12.0
+000010e8            member(1) 25.0
+000010ec            member(2) 49.0
+000010f0            member(3) 50.0
+00001060        DistanceProbability::array
+000010f8            member(0) 0.670000016689
+000010fc            member(1) 1.0
+00001100            member(2) 0.20000000298
+00001104            member(3) 0.10000000149
+00001064        TargetVisibility::array
+0000110c            member(0) 0.15000000596
+00001110            member(1) 0.330000013113
+00001114            member(2) 0.670000016689
+00001118            member(3) 1.0
+00001068        VisibleProbability::array
+00001120            member(0) 0.0
+00001124            member(1) 0.20000000298
+00001128            member(2) 0.5
+0000112c            member(3) 1.0
+0000107c    PreferredRange ba8f4f33ae99a24288c811dea53b9c73
+00001074        $::DataContainer
+0000107c        Start 30.0
+00001080        Ideal 0.40000000596
+00001084        End 75.0
+00001098    VisionModifier d3830cf88d738d40a655b95c9f104516
+00001090        $::DataContainer
+00001098        SensingConeRange 32.0
+0000109c        SensingConeRangeWhenAlerted 100.0
+000010a0        SensingConeAngle 55.0
+000010a4        SensingConeAngleWhenAlerted 120.0
+000010a8        SensingConeAngleAbove 25.0
+000010ac        SensingConeAngleBelow 55.0
+000010b0        SensingStaticTargetObjectDistance 32.0
+000010b4        SensingMovingTargetObjectDistance 55.0
+000010b8        FlashlightModifier *nullGuid*
+000010bc        AlwaysSeeHuman False
+000010d0    PreferredRange fde41ee25dfd8041b442d8fb1b42c325
+000010c8        $::DataContainer
+000010d0        Start 30.0
+000010d4        Ideal 0.40000000596
+000010d8        End 75.0

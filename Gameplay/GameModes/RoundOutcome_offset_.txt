@@ -1,0 +1,180 @@
+00001600    LogicPrefabBlueprint f070554d975329291b788c0fba1c7b53
+000015f8        $::PrefabBlueprint
+000015f8            $::Blueprint
+000015f8                $::EntityBusData
+000015f8                    $::DataBusData
+000015f8                        $::Asset
+000015f8                            $::DataContainer
+00001600                            Name Gameplay/GameModes/RoundOutcome
+00001604                        PropertyConnections::array
+00001714                            member(0)::PropertyConnection
+00001714                                Source 00000003
+00001718                                Target 00000001
+0000171c                                SourceFieldId 208768368
+00001720                                TargetFieldId 208768368
+00001724                                Flags 1
+00001608                        LinkConnections *nullArray*
+0000160c                        Interface 00000003
+00001610                        Flags 14
+00001614                    EventConnections::array
+0000172c                        member(0)::EventConnection
+0000172c                            Source 00000003
+00001730                            Target 00000004
+00001734                            SourceEvent::EventSpec
+00001734                                Id 230748069
+00001738                            TargetEvent::EventSpec
+00001738                                Id -724996953
+0000173c                            TargetType EventConnectionTargetType_Client
+00001740                        member(1)::EventConnection
+00001740                            Source 00000003
+00001744                            Target 00000000
+00001748                            SourceEvent::EventSpec
+00001748                                Id 230748069
+0000174c                            TargetEvent::EventSpec
+0000174c                                Id -559281700
+00001750                            TargetType EventConnectionTargetType_Server
+00001754                        member(2)::EventConnection
+00001754                            Source 00000003
+00001758                            Target 00000002
+0000175c                            SourceEvent::EventSpec
+0000175c                                Id 230748069
+00001760                            TargetEvent::EventSpec
+00001760                                Id 5862146
+00001764                            TargetType EventConnectionTargetType_Server
+00001768                        member(3)::EventConnection
+00001768                            Source 00000002
+0000176c                            Target 00000003
+00001770                            SourceEvent::EventSpec
+00001770                                Id 193453899
+00001774                            TargetEvent::EventSpec
+00001774                                Id 2089430886
+00001778                            TargetType EventConnectionTargetType_Server
+0000177c                        member(4)::EventConnection
+0000177c                            Source 00000001
+00001780                            Target 00000000
+00001784                            SourceEvent::EventSpec
+00001784                                Id 193453899
+00001788                            TargetEvent::EventSpec
+00001788                                Id 1928776733
+0000178c                            TargetType EventConnectionTargetType_Server
+00001790                        member(5)::EventConnection
+00001790                            Source 00000001
+00001794                            Target 00000003
+00001798                            SourceEvent::EventSpec
+00001798                                Id 193453899
+0000179c                            TargetEvent::EventSpec
+0000179c                                Id -1769712170
+000017a0                            TargetType EventConnectionTargetType_Server
+000017a4                        member(6)::EventConnection
+000017a4                            Source 00000003
+000017a8                            Target 00000001
+000017ac                            SourceEvent::EventSpec
+000017ac                                Id 230748069
+000017b0                            TargetEvent::EventSpec
+000017b0                                Id 5862146
+000017b4                            TargetType EventConnectionTargetType_ClientAndServer
+00001618            Objects::array
+000017bc                member(0) 00000004
+000017c0                member(1) 00000001
+000017c4                member(2) 00000000
+000017c8                member(3) 00000002
+0000161c            TimeDeltaType TimeDeltaType_None
+00001620    LogicPrefabReferenceObjectData 00000000
+00001620        $::LogicReferenceObjectData
+00001620            $::ReferenceObjectData
+00001620                $::GameObjectData
+00001620                    $::DataBusPeer
+00001620                        $::GameDataContainer
+00001620                            $::DataContainer
+00001628                        Flags 88091109
+0000162c                Blueprint Gameplay/GameModes/InputRestriction/1e29a570541fefdf9792e7857d625c57
+00001630                BlueprintTransform::LinearTransform
+00001630                    right::Vec3
+00001630                        x 1.0
+00001634                        y 0.0
+00001638                        z 0.0
+00001640                    up::Vec3
+00001640                        x 0.0
+00001644                        y 1.0
+00001648                        z 0.0
+00001650                    forward::Vec3
+00001650                        x 0.0
+00001654                        y 0.0
+00001658                        z 1.0
+00001660                    trans::Vec3
+00001660                        x 0.0
+00001664                        y 0.0
+00001668                        z 0.0
+00001670                ObjectVariation *nullGuid*
+00001674                StreamRealm StreamRealm_None
+00001678                RadiosityTypeOverride RadiosityTypeOverride_None
+0000167c                LightmapResolutionScale 0
+00001680                RenderingOverrides::RenderingOverrides
+00001680                    ShadowEnable RenderingOverride_Inherit
+00001684                    DynamicReflectionEnable RenderingOverride_Inherit
+00001688                    StaticReflectionEnable RenderingOverride_Inherit
+0000168c                ForceSeparateEnlightenSystem False
+0000168d                CastSunShadowEnable True
+0000168e                CastReflectionEnable True
+0000168f                CastEnvmapEnable True
+00001690                Excluded False
+000016a0            LocalPlayerId LocalPlayerId_Invalid
+000016a4            SubRealm SubRealm_All
+000016b0    DelayEntityData 00000001
+000016a8        $::EntityData
+000016a8            $::GameObjectData
+000016a8                $::DataBusPeer
+000016a8                    $::GameDataContainer
+000016a8                        $::DataContainer
+000016b0                    Flags 516415206
+000016b4        Delay 10.0
+000016b8        Realm Realm_ClientAndServer
+000016bc        TimeDeltaType TimeDeltaType_World
+000016c0        AutoStart False
+000016c1        RunOnce False
+000016c2        RemoveDuplicateEvents True
+000016c4    DelayEntityData 00000002
+000016bc        $::EntityData
+000016bc            $::GameObjectData
+000016bc                $::DataBusPeer
+000016bc                    $::GameDataContainer
+000016bc                        $::DataContainer
+000016c4                    Flags 82533873
+000016c8        Delay 1.0
+000016cc        Realm Realm_Server
+000016d0        TimeDeltaType TimeDeltaType_World
+000016d4        AutoStart False
+000016d5        RunOnce False
+000016d6        RemoveDuplicateEvents True
+000016d8    InterfaceDescriptorData 00000003
+000016d0        $::DynamicDataContainer
+000016d0            $::DataContainer
+000016d8            Fields::array
+000017d0                member(0)::DataField
+000017d0                    Value Float32 8
+000017d4                    ValueRef *nullGuid*
+000017d8                    Id 208768368
+000017dc                    AccessType FieldAccessType_Target
+000016dc        InputEvents::array
+000017e4            member(0)::DynamicEvent
+000017e4                Id 230748069
+000016e0        OutputEvents::array
+000017ec            member(0)::DynamicEvent
+000017ec                Id 2089430886
+000017f0            member(1)::DynamicEvent
+000017f0                Id -1769712170
+000016e4        InputLinks *nullArray*
+000016e8        OutputLinks *nullArray*
+000016ec    SchematicChannelEntityData 00000004
+000016e4        $::EntityData
+000016e4            $::GameObjectData
+000016e4                $::DataBusPeer
+000016e4                    $::GameDataContainer
+000016e4                        $::DataContainer
+000016ec                    Flags 36140860
+000016f0        Realm Realm_Client
+000016f4        Channel UI/InGame/Hud/channels/UIChannelHud/e815cabcac398fc5b36ec20f5585a955
+000016f8        InputProperties *nullArray*
+000016fc        InputRefProperties *nullArray*
+00001700        OutputProperties *nullArray*
+00001704        OutputRefProperties *nullArray*

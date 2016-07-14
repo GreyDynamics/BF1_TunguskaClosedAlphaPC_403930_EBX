@@ -1,0 +1,252 @@
+00001480    LogicPrefabBlueprint c45065ff600ee7981972d29bbf5f70e9
+00001478        $::PrefabBlueprint
+00001478            $::Blueprint
+00001478                $::EntityBusData
+00001478                    $::DataBusData
+00001478                        $::Asset
+00001478                            $::DataContainer
+00001480                            Name UI/Shared/Logic/UIFadeInOnEvent
+00001484                        PropertyConnections::array
+00001564                            member(0)::PropertyConnection
+00001564                                Source 00000001
+00001568                                Target 00000002
+0000156c                                SourceFieldId 225375086
+00001570                                TargetFieldId 1800624758
+00001574                                Flags 2
+00001578                            member(1)::PropertyConnection
+00001578                                Source 00000002
+0000157c                                Target 00000007
+00001580                                SourceFieldId -1399230854
+00001584                                TargetFieldId 5862146
+00001588                                Flags 2
+0000158c                            member(2)::PropertyConnection
+0000158c                                Source 00000003
+00001590                                Target 00000006
+00001594                                SourceFieldId -1399230854
+00001598                                TargetFieldId 858290427
+0000159c                                Flags 2
+000015a0                            member(3)::PropertyConnection
+000015a0                                Source 00000006
+000015a4                                Target 00000007
+000015a8                                SourceFieldId 193453899
+000015ac                                TargetFieldId 1828507227
+000015b0                                Flags 2
+000015b4                            member(4)::PropertyConnection
+000015b4                                Source 00000000
+000015b8                                Target 00000003
+000015bc                                SourceFieldId 225375086
+000015c0                                TargetFieldId 1800624758
+000015c4                                Flags 2
+000015c8                            member(5)::PropertyConnection
+000015c8                                Source 00000007
+000015cc                                Target 00000008
+000015d0                                SourceFieldId 193453899
+000015d4                                TargetFieldId 205677681
+000015d8                                Flags 18
+000015dc                            member(6)::PropertyConnection
+000015dc                                Source 00000008
+000015e0                                Target 00000006
+000015e4                                SourceFieldId 1828507227
+000015e8                                TargetFieldId 193450866
+000015ec                                Flags 2
+000015f0                            member(7)::PropertyConnection
+000015f0                                Source 00000008
+000015f4                                Target 00000006
+000015f8                                SourceFieldId -141474860
+000015fc                                TargetFieldId 193450867
+00001600                                Flags 2
+00001488                        LinkConnections *nullArray*
+0000148c                        Interface 00000008
+00001490                        Flags 14
+00001494                    EventConnections::array
+00001608                        member(0)::EventConnection
+00001608                            Source 00000004
+0000160c                            Target 00000000
+00001610                            SourceEvent::EventSpec
+00001610                                Id 193453899
+00001614                            TargetEvent::EventSpec
+00001614                                Id -1541066415
+00001618                            TargetType EventConnectionTargetType_Client
+0000161c                        member(1)::EventConnection
+0000161c                            Source 00000005
+00001620                            Target 00000001
+00001624                            SourceEvent::EventSpec
+00001624                                Id 193453899
+00001628                            TargetEvent::EventSpec
+00001628                                Id -1541066415
+0000162c                            TargetType EventConnectionTargetType_Client
+00001630                        member(2)::EventConnection
+00001630                            Source 00000008
+00001634                            Target 00000007
+00001638                            SourceEvent::EventSpec
+00001638                                Id 201427689
+0000163c                            TargetEvent::EventSpec
+0000163c                                Id 229946160
+00001640                            TargetType EventConnectionTargetType_Client
+00001644                        member(3)::EventConnection
+00001644                            Source 00000008
+00001648                            Target 00000001
+0000164c                            SourceEvent::EventSpec
+0000164c                                Id 201427689
+00001650                            TargetEvent::EventSpec
+00001650                                Id 668205626
+00001654                            TargetType EventConnectionTargetType_Client
+00001658                        member(4)::EventConnection
+00001658                            Source 00000008
+0000165c                            Target 00000000
+00001660                            SourceEvent::EventSpec
+00001660                                Id 201427689
+00001664                            TargetEvent::EventSpec
+00001664                                Id 668205626
+00001668                            TargetType EventConnectionTargetType_Client
+0000166c                        member(5)::EventConnection
+0000166c                            Source 00000008
+00001670                            Target 00000005
+00001674                            SourceEvent::EventSpec
+00001674                                Id 201427689
+00001678                            TargetEvent::EventSpec
+00001678                                Id 5862146
+0000167c                            TargetType EventConnectionTargetType_Client
+00001680                        member(6)::EventConnection
+00001680                            Source 00000008
+00001684                            Target 00000004
+00001688                            SourceEvent::EventSpec
+00001688                                Id 201427689
+0000168c                            TargetEvent::EventSpec
+0000168c                                Id 5862146
+00001690                            TargetType EventConnectionTargetType_Client
+00001498            Objects::array
+00001698                member(0) 00000000
+0000169c                member(1) 00000003
+000016a0                member(2) 00000001
+000016a4                member(3) 00000004
+000016a8                member(4) 00000005
+000016ac                member(5) 00000006
+000016b0                member(6) 00000007
+000016b4                member(7) 00000002
+0000149c            TimeDeltaType TimeDeltaType_None
+000014a0    BoolEntityData 00000000
+00001498        $::EntityData
+00001498            $::GameObjectData
+00001498                $::DataBusPeer
+00001498                    $::GameDataContainer
+00001498                        $::DataContainer
+000014a0                    Flags 56932619
+000014a4        Realm Realm_Client
+000014a8        DefaultValue True
+000014ac    BoolEntityData 00000001
+000014a4        $::EntityData
+000014a4            $::GameObjectData
+000014a4                $::DataBusPeer
+000014a4                    $::GameDataContainer
+000014a4                        $::DataContainer
+000014ac                    Flags 44814994
+000014b0        Realm Realm_Client
+000014b4        DefaultValue True
+000014b8    ConditionalFloatEntityData 00000002
+000014b0        $::ConditionalStateEntityData
+000014b0            $::EntityData
+000014b0                $::GameObjectData
+000014b0                    $::DataBusPeer
+000014b0                        $::GameDataContainer
+000014b0                            $::DataContainer
+000014b8                        Flags 155051046
+000014bc            Realm Realm_Client
+000014c0            Condition False
+000014c4        ValueIfTrue 1.0
+000014c8        ValueIfFalse 0.0
+000014cc    ConditionalIntEntityData 00000003
+000014c4        $::ConditionalStateEntityData
+000014c4            $::EntityData
+000014c4                $::GameObjectData
+000014c4                    $::DataBusPeer
+000014c4                        $::GameDataContainer
+000014c4                            $::DataContainer
+000014cc                        Flags 151828856
+000014d0            Realm Realm_Client
+000014d4            Condition False
+000014d8        ValueIfTrue 1
+000014dc        ValueIfFalse 0
+000014e0    DelayEntityData 00000004
+000014d8        $::EntityData
+000014d8            $::GameObjectData
+000014d8                $::DataBusPeer
+000014d8                    $::GameDataContainer
+000014d8                        $::DataContainer
+000014e0                    Flags 43940197
+000014e4        Delay 0.00999999977648
+000014e8        Realm Realm_Client
+000014ec        TimeDeltaType TimeDeltaType_World
+000014f0        AutoStart False
+000014f1        RunOnce False
+000014f2        RemoveDuplicateEvents True
+000014f4    DelayEntityData 00000005
+000014ec        $::EntityData
+000014ec            $::GameObjectData
+000014ec                $::DataBusPeer
+000014ec                    $::GameDataContainer
+000014ec                        $::DataContainer
+000014f4                    Flags 51994251
+000014f8        Delay 0.00999999977648
+000014fc        Realm Realm_Client
+00001500        TimeDeltaType TimeDeltaType_World
+00001504        AutoStart False
+00001505        RunOnce False
+00001506        RemoveDuplicateEvents True
+00001508    FloatHubEntityData 00000006
+00001500        $::EntityData
+00001500            $::GameObjectData
+00001500                $::DataBusPeer
+00001500                    $::GameDataContainer
+00001500                        $::DataContainer
+00001508                    Flags 165014097
+0000150c        Realm Realm_Client
+00001510        InputCount 2
+00001514        InputSelect 0
+00001518        HashedInput::array
+000016bc            member(0) 193450866
+000016c0            member(1) 193450867
+000016c4            member(2) 193450864
+0000151c    FloatInterpolatorEntityData 00000007
+00001514        $::PropertyInterpolatorEntityData
+00001514            $::EntityData
+00001514                $::GameObjectData
+00001514                    $::DataBusPeer
+00001514                        $::GameDataContainer
+00001514                            $::DataContainer
+0000151c                        Flags 184699259
+00001520            Realm Realm_Client
+00001524            InterpolationType PropertyInterpolationType_Quad
+00001528            InterpolationMode PropertyInterpolationMode_EaseOut
+0000152c            Duration 1.0
+00001530            UseRealTimeClock False
+00001531            ForceFrameCorrectOutput False
+00001534        In 0.0
+00001538        DefaultValue 0.0
+0000153c        Velocity 1.0
+00001540        UseVelocity False
+00001544    InterfaceDescriptorData 00000008
+0000153c        $::DynamicDataContainer
+0000153c            $::DataContainer
+00001544            Fields::array
+000016cc                member(0)::DataField
+000016cc                    Value *nullString*
+000016d0                    ValueRef *nullGuid*
+000016d4                    Id 205677681
+000016d8                    AccessType FieldAccessType_Source
+000016dc                member(1)::DataField
+000016dc                    Value Float32 0
+000016e0                    ValueRef *nullGuid*
+000016e4                    Id 1828507227
+000016e8                    AccessType FieldAccessType_Target
+000016ec                member(2)::DataField
+000016ec                    Value Float32 0
+000016f0                    ValueRef *nullGuid*
+000016f4                    Id -141474860
+000016f8                    AccessType FieldAccessType_Target
+00001548        InputEvents::array
+00001700            member(0)::DynamicEvent
+00001700                Id 201427689
+0000154c        OutputEvents *nullArray*
+00001550        InputLinks *nullArray*
+00001554        OutputLinks *nullArray*

@@ -1,0 +1,1948 @@
+000035b0    ObjectBlueprint 259f5622248cb396f420254dbea23d2c
+000035a8        $::Blueprint
+000035a8            $::EntityBusData
+000035a8                $::DataBusData
+000035a8                    $::Asset
+000035a8                        $::DataContainer
+000035b0                        Name ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01
+000035b4                    PropertyConnections::array
+00004014                        member(0)::PropertyConnection
+00004014                            Source 00000012
+00004018                            Target 00000013
+0000401c                            SourceFieldId 225375086
+00004020                            TargetFieldId 1800624758
+00004024                            Flags 2
+00004028                        member(1)::PropertyConnection
+00004028                            Source 00000013
+0000402c                            Target 00000010
+00004030                            SourceFieldId -1399230854
+00004034                            TargetFieldId 972165084
+00004038                            Flags 2
+0000403c                        member(2)::PropertyConnection
+0000403c                            Source 00000012
+00004040                            Target 00000007
+00004044                            SourceFieldId 225375086
+00004048                            TargetFieldId 1800624758
+0000404c                            Flags 2
+00004050                        member(3)::PropertyConnection
+00004050                            Source 00000007
+00004054                            Target 00000010
+00004058                            SourceFieldId -1399230854
+0000405c                            TargetFieldId 212387320
+00004060                            Flags 2
+000035b8                    LinkConnections *nullArray*
+000035bc                    Interface 00000015
+000035c0                    Flags 2
+000035c4                EventConnections::array
+00004068                    member(0)::EventConnection
+00004068                        Source 00000004
+0000406c                        Target 00000015
+00004070                        SourceEvent::EventSpec
+00004070                            Id -1452333337
+00004074                        TargetEvent::EventSpec
+00004074                            Id -101704476
+00004078                        TargetType EventConnectionTargetType_ClientAndServer
+0000407c                    member(1)::EventConnection
+0000407c                        Source 00000006
+00004080                        Target 00000015
+00004084                        SourceEvent::EventSpec
+00004084                            Id -1452333337
+00004088                        TargetEvent::EventSpec
+00004088                            Id 938719574
+0000408c                        TargetType EventConnectionTargetType_ClientAndServer
+00004090                    member(2)::EventConnection
+00004090                        Source 00000006
+00004094                        Target 00000012
+00004098                        SourceEvent::EventSpec
+00004098                            Id -1452333337
+0000409c                        TargetEvent::EventSpec
+0000409c                            Id 668205626
+000040a0                        TargetType EventConnectionTargetType_Client
+000040a4                    member(3)::EventConnection
+000040a4                        Source 00000004
+000040a8                        Target 00000012
+000040ac                        SourceEvent::EventSpec
+000040ac                            Id -1452333337
+000040b0                        TargetEvent::EventSpec
+000040b0                            Id 668205626
+000040b4                        TargetType EventConnectionTargetType_Client
+000035c8        Object 00000001
+000035e0    RigidBodyData cc0c9cfa763466f628e657b573c9300a
+000035e0        $::PhysicsBodyData
+000035e0            $::EntityData
+000035e0                $::GameObjectData
+000035e0                    $::DataBusPeer
+000035e0                        $::GameDataContainer
+000035e0                            $::DataContainer
+000035e8                        Flags 0
+000035ec            Realm Realm_ClientAndServer
+000035f0            CollisionLayer RigidBodyCollisionLayer_Invalid
+000035f4            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Physics_Win32/7121b8860627812bcf4b1c706a5faf51
+000035f8            AssetIndex 0
+000035f9            TransformIndex 0
+000035fa            WorldIndex 0
+000035fb            CollisionRootShapeIndex 0
+000035fc            RaycastRootShapeIndex 0
+000035fd            AddToSpatialQueryManager True
+00003600        CenterOfMass::Vec3
+00003600            x 0.0
+00003604            y 0.0
+00003608            z 0.0
+00003610        InertiaModifier::Vec3
+00003610            x 1.0
+00003614            y 1.0
+00003618            z 1.0
+00003620        Transform::LinearTransform
+00003620            right::Vec3
+00003620                x 1.0
+00003624                y 0.0
+00003628                z 0.0
+00003630            up::Vec3
+00003630                x 0.0
+00003634                y 1.0
+00003638                z 0.0
+00003640            forward::Vec3
+00003640                x 0.0
+00003644                y 0.0
+00003648                z 1.0
+00003650            trans::Vec3
+00003650                x 0.0
+00003654                y 0.0
+00003658                z 0.0
+00003660        KeyframeTransform::LinearTransform
+00003660            right::Vec3
+00003660                x 1.0
+00003664                y 0.0
+00003668                z 0.0
+00003670            up::Vec3
+00003670                x 0.0
+00003674                y 1.0
+00003678                z 0.0
+00003680            forward::Vec3
+00003680                x 0.0
+00003684                y 0.0
+00003688                z 1.0
+00003690            trans::Vec3
+00003690                x 0.0
+00003694                y 0.0
+00003698                z 0.0
+000036a0        RigidBodyType RBTypeCollision
+000036a4        Mass 1000.0
+000036a8        Material::MaterialDecl
+000036a8            Packed 32768
+000036ac        DynamicFriction -1.0
+000036b0        StaticFriction -1.0
+000036b4        Restitution -1.0
+000036b8        AngularVelocityDamping -1.0
+000036bc        LinearVelocityDamping -1.0
+000036c0        MotionType RigidBodyMotionType_Fixed
+000036c4        QualityType RigidBodyQualityType_Invalid
+000036c8        SystemGroup 0
+000036cc        SubSystemId 0
+000036d0        SubSystemIdNoCollide 0
+000036d4        PartIndices::array
+000040bc            member(0) 4294967295
+000040c0            member(1) 0
+000040c4            member(2) 1
+000040c8            member(3) 2
+000036d8        FloatPhysics *nullGuid*
+000036dc        ComputeCenterOfMass True
+000036dd        IsRootController True
+000036e0    BreakableControllerComponentData 00000000
+000036e0        $::DestructionControllerComponentData
+000036e0            $::GameComponentData
+000036e0                $::ComponentData
+000036e0                    $::GameObjectData
+000036e0                        $::DataBusPeer
+000036e0                            $::GameDataContainer
+000036e0                                $::DataContainer
+000036e8                            Flags 18992278
+000036ec                    Components *nullArray*
+000036f0                    Transform::LinearTransform
+000036f0                        right::Vec3
+000036f0                            x 1.0
+000036f4                            y 0.0
+000036f8                            z 0.0
+00003700                        up::Vec3
+00003700                            x 0.0
+00003704                            y 1.0
+00003708                            z 0.0
+00003710                        forward::Vec3
+00003710                            x 0.0
+00003714                            y 0.0
+00003718                            z 1.0
+00003720                        trans::Vec3
+00003720                            x 0.0
+00003724                            y 0.0
+00003728                            z 0.0
+00003730                    Excluded False
+00003740            BreakingLength 8.0
+00003744            FracturePosition 0.40000000596
+00003748            DestructionRadius 0.0
+0000374c            Delay 0.0
+00003750            RefineRadius 0.0
+00003754            StructuralIntegrityAnalyzerEnable False
+00003760        BreakablePartCount 3
+00003764        NetworkIdCount 8
+00003770    BreakableModelEntityData 00000001
+00003770        $::GamePhysicsEntityData
+00003770            $::GameComponentEntityData
+00003770                $::ComponentEntityData
+00003770                    $::SpatialEntityData
+00003770                        $::EntityData
+00003770                            $::GameObjectData
+00003770                                $::DataBusPeer
+00003770                                    $::GameDataContainer
+00003770                                        $::DataContainer
+00003778                                    Flags 524320080
+00003780                        Transform::LinearTransform
+00003780                            right::Vec3
+00003780                                x 1.0
+00003784                                y 0.0
+00003788                                z 0.0
+00003790                            up::Vec3
+00003790                                x 0.0
+00003794                                y 1.0
+00003798                                z 0.0
+000037a0                            forward::Vec3
+000037a0                                x 0.0
+000037a4                                y 0.0
+000037a8                                z 1.0
+000037b0                            trans::Vec3
+000037b0                                x 0.0
+000037b4                                y 0.0
+000037b8                                z 0.0
+000037c0                    Components::array
+000040d0                        member(0) 00000006
+000040d4                        member(1) 00000004
+000040d8                        member(2) 00000005
+000040dc                        member(3) 0000000a
+000040e0                        member(4) 00000008
+000040e4                        member(5) 00000007
+000040e8                        member(6) 00000012
+000040ec                        member(7) 00000010
+000040f0                        member(8) 00000013
+000040f4                        member(9) 00000000
+000040f8                        member(10) 00000003
+000040fc                        member(11) 00000002
+000037c4                    ClientRuntimeComponentCount 8
+000037c5                    ServerRuntimeComponentCount 7
+000037c6                    ClientRuntimeTransformationCount 3
+000037c7                    ServerRuntimeTransformationCount 3
+000037d0                Enabled True
+000037d1                EnableOutOfBoundsCheck True
+000037e0            PhysicsData 0000000f
+000037f0        DecalVolumeShader *nullGuid*
+000037f4        DecalVolumeScaleFactor 2.0
+000037f8        Mesh artassets/architecture/pillbox_01/pillboxbreakable_01_Mesh/e92dec9edf3807bd586599702394ddf5
+000037fc        BoneCount 0
+00003800        EdgeModelLightMapData 00000014
+00003804        TerrainShaderNodesEnable False
+00003810    BreakableModelHealthComponentData 00000002
+00003810        $::GameHealthComponentData
+00003810            $::HealthComponentData
+00003810                $::ComponentData
+00003810                    $::GameObjectData
+00003810                        $::DataBusPeer
+00003810                            $::GameDataContainer
+00003810                                $::DataContainer
+00003818                            Flags 25381830
+0000381c                    Components *nullArray*
+00003820                    Transform::LinearTransform
+00003820                        right::Vec3
+00003820                            x 1.0
+00003824                            y 0.0
+00003828                            z 0.0
+00003830                        up::Vec3
+00003830                            x 0.0
+00003834                            y 1.0
+00003838                            z 0.0
+00003840                        forward::Vec3
+00003840                            x 0.0
+00003844                            y 0.0
+00003848                            z 1.0
+00003850                        trans::Vec3
+00003850                            x 0.0
+00003854                            y 0.0
+00003858                            z 0.0
+00003860                    Excluded False
+00003870    BreakableModelPhysicsComponentData 00000003
+00003870        $::GamePhysicsComponentData
+00003870            $::PhysicsComponentData
+00003870                $::ComponentData
+00003870                    $::GameObjectData
+00003870                        $::DataBusPeer
+00003870                            $::GameDataContainer
+00003870                                $::DataContainer
+00003878                            Flags 26801186
+0000387c                    Components *nullArray*
+00003880                    Transform::LinearTransform
+00003880                        right::Vec3
+00003880                            x 1.0
+00003884                            y 0.0
+00003888                            z 0.0
+00003890                        up::Vec3
+00003890                            x 0.0
+00003894                            y 1.0
+00003898                            z 0.0
+000038a0                        forward::Vec3
+000038a0                            x 0.0
+000038a4                            y 0.0
+000038a8                            z 1.0
+000038b0                        trans::Vec3
+000038b0                            x 0.0
+000038b4                            y 0.0
+000038b8                            z 0.0
+000038c0                    Excluded False
+000038d0                PhysicsBodies::array
+00004104                    member(0) cc0c9cfa763466f628e657b573c9300a
+00004108                    member(1) 00000011
+000038d4                PhysicsConstraints *nullArray*
+000038d8                Parts::array
+00004110                    member(0)::PhysicsPartData
+00004110                        Aabb::AxisAlignedBox
+00004110                            min::Vec3
+00004110                                x 0.0
+00004114                                y 0.0
+00004118                                z 0.0
+00004120                            max::Vec3
+00004120                                x 0.0
+00004124                                y 0.0
+00004128                                z 0.0
+00004130                    member(1)::PhysicsPartData
+00004130                        Aabb::AxisAlignedBox
+00004130                            min::Vec3
+00004130                                x 0.0
+00004134                                y 0.0
+00004138                                z 0.0
+00004140                            max::Vec3
+00004140                                x 0.0
+00004144                                y 0.0
+00004148                                z 0.0
+00004150                    member(2)::PhysicsPartData
+00004150                        Aabb::AxisAlignedBox
+00004150                            min::Vec3
+00004150                                x 0.0
+00004154                                y 0.0
+00004158                                z 0.0
+00004160                            max::Vec3
+00004160                                x 0.0
+00004164                                y 0.0
+00004168                                z 0.0
+000038dc                InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+000038e0                MovableParts False
+000038f0            Realm Realm_ClientAndServer
+000038f4            EffectParameters *nullArray*
+00003900        BreakableBodies::array
+00004174            member(0) cc0c9cfa763466f628e657b573c9300a
+00004178            member(1) 00000011
+00003910    BreakablePartComponentData 00000004
+00003910        $::DestructionPartComponentData
+00003910            $::GameComponentData
+00003910                $::ComponentData
+00003910                    $::GameObjectData
+00003910                        $::DataBusPeer
+00003910                            $::GameDataContainer
+00003910                                $::DataContainer
+00003918                            Flags 19070593
+0000391c                    Components *nullArray*
+00003920                    Transform::LinearTransform
+00003920                        right::Vec3
+00003920                            x 1.0
+00003924                            y 0.0
+00003928                            z 0.0
+00003930                        up::Vec3
+00003930                            x 0.0
+00003934                            y 1.0
+00003938                            z 0.0
+00003940                        forward::Vec3
+00003940                            x 0.0
+00003944                            y 0.0
+00003948                            z 1.0
+00003950                        trans::Vec3
+00003950                            x 0.0
+00003954                            y 0.0
+00003958                            z 0.0
+00003960                    Excluded False
+00003970            Objects::array
+00004180                member(0) 0000000d
+00004184                member(1) 0000000b
+00003974            PartIndex 1
+00003978            Fixed False
+00003979            Fragile False
+00003980        HealthPercentage 100
+00003984        Collapsable True
+00003985        DestroyNearbyStaticEntities True
+00003990    BreakablePartComponentData 00000005
+00003990        $::DestructionPartComponentData
+00003990            $::GameComponentData
+00003990                $::ComponentData
+00003990                    $::GameObjectData
+00003990                        $::DataBusPeer
+00003990                            $::GameDataContainer
+00003990                                $::DataContainer
+00003998                            Flags 28386506
+0000399c                    Components *nullArray*
+000039a0                    Transform::LinearTransform
+000039a0                        right::Vec3
+000039a0                            x 1.0
+000039a4                            y 0.0
+000039a8                            z 0.0
+000039b0                        up::Vec3
+000039b0                            x 0.0
+000039b4                            y 1.0
+000039b8                            z 0.0
+000039c0                        forward::Vec3
+000039c0                            x 0.0
+000039c4                            y 0.0
+000039c8                            z 1.0
+000039d0                        trans::Vec3
+000039d0                            x 0.0
+000039d4                            y 0.0
+000039d8                            z 0.0
+000039e0                    Excluded False
+000039f0            Objects *nullArray*
+000039f4            PartIndex 2
+000039f8            Fixed True
+000039f9            Fragile False
+00003a00        HealthPercentage 100
+00003a04        Collapsable True
+00003a05        DestroyNearbyStaticEntities False
+00003a10    BreakablePartComponentData 00000006
+00003a10        $::DestructionPartComponentData
+00003a10            $::GameComponentData
+00003a10                $::ComponentData
+00003a10                    $::GameObjectData
+00003a10                        $::DataBusPeer
+00003a10                            $::GameDataContainer
+00003a10                                $::DataContainer
+00003a18                            Flags 23155670
+00003a1c                    Components *nullArray*
+00003a20                    Transform::LinearTransform
+00003a20                        right::Vec3
+00003a20                            x 1.0
+00003a24                            y 0.0
+00003a28                            z 0.0
+00003a30                        up::Vec3
+00003a30                            x 0.0
+00003a34                            y 1.0
+00003a38                            z 0.0
+00003a40                        forward::Vec3
+00003a40                            x 0.0
+00003a44                            y 0.0
+00003a48                            z 1.0
+00003a50                        trans::Vec3
+00003a50                            x 0.0
+00003a54                            y 0.0
+00003a58                            z 0.0
+00003a60                    Excluded False
+00003a70            Objects::array
+0000418c                member(0) 0000000e
+00004190                member(1) 0000000c
+00003a74            PartIndex 0
+00003a78            Fixed False
+00003a79            Fragile False
+00003a80        HealthPercentage 100
+00003a84        Collapsable True
+00003a85        DestroyNearbyStaticEntities True
+00003a90    ConditionalVec3EntityData 00000007
+00003a90        $::ConditionalStateEntityData
+00003a90            $::EntityData
+00003a90                $::GameObjectData
+00003a90                    $::DataBusPeer
+00003a90                        $::GameDataContainer
+00003a90                            $::DataContainer
+00003a98                        Flags 166908320
+00003a9c            Realm Realm_Client
+00003aa0            Condition False
+00003ab0        ValueIfTrue::Vec3
+00003ab0            x 0.10000000149
+00003ab4            y 0.10000000149
+00003ab8            z 0.10000000149
+00003ac0        ValueIfFalse::Vec3
+00003ac0            x 0.20000000298
+00003ac4            y 0.20000000298
+00003ac8            z 0.20000000298
+00003ad0    DestructionVolumeComponentData 00000008
+00003ad0        $::GameComponentData
+00003ad0            $::ComponentData
+00003ad0                $::GameObjectData
+00003ad0                    $::DataBusPeer
+00003ad0                        $::GameDataContainer
+00003ad0                            $::DataContainer
+00003ad8                        Flags 28767215
+00003adc                Components *nullArray*
+00003ae0                Transform::LinearTransform
+00003ae0                    right::Vec3
+00003ae0                        x 1.0
+00003ae4                        y 0.0
+00003ae8                        z 0.0
+00003af0                    up::Vec3
+00003af0                        x 0.0
+00003af4                        y 1.0
+00003af8                        z 0.0
+00003b00                    forward::Vec3
+00003b00                        x 0.0
+00003b04                        y 0.0
+00003b08                        z 1.0
+00003b10                    trans::Vec3
+00003b10                        x 0.0
+00003b14                        y 0.0
+00003b18                        z 0.0
+00003b20                Excluded False
+00003b30        DestructionVolumeData 00000009
+00003b40    DestructionVolumeData 00000009
+00003b40        $::DataContainer
+00003b48        Asset ArtAssets/Destruction/DestructionVolume/Container_DestructionVolume_01/e1930f2a7eada34e870feb4e8db48532
+00003b4c        Impacts::array
+000041a0            member(0)::Vec4
+000041a0                x -2.41182494164
+000041a4                y 1.48547327518
+000041a8                z -2.9701936245
+000041ac                w 2.25839805603
+000041b0            member(1)::Vec4
+000041b0                x -1.13810229301
+000041b4                y 2.99098992348
+000041b8                z -1.37061798573
+000041bc                w 2.61367678642
+000041c0            member(2)::Vec4
+000041c0                x -1.53121078014
+000041c4                y 1.89190638065
+000041c8                z -4.10647344589
+000041cc                w 2.44621086121
+000041d0            member(3)::Vec4
+000041d0                x -1.78410828114
+000041d4                y 3.47707486153
+000041d8                z 2.45574355125
+000041dc                w 2.12528061867
+000041e0            member(4)::Vec4
+000041e0                x -2.61913180351
+000041e4                y 2.23277950287
+000041e8                z 3.08740925789
+000041ec                w 2.14658141136
+000041f0            member(5)::Vec4
+000041f0                x -3.88234448433
+000041f4                y 2.34741568565
+000041f8                z 1.64015316963
+000041fc                w 3.06565451622
+00004200            member(6)::Vec4
+00004200                x -3.88234448433
+00004204                y 1.68367147446
+00004208                z -1.45963430405
+0000420c                w 2.17123794556
+00004210            member(7)::Vec4
+00004210                x 5.07786989212
+00004214                y 1.36524045467
+00004218                z -0.0712052583694
+0000421c                w 2.30069041252
+00004220            member(8)::Vec4
+00004220                x 4.05438995361
+00004224                y 3.41349077225
+00004228                z -0.0776426717639
+0000422c                w 2.18711280823
+00004230            member(9)::Vec4
+00004230                x 3.10497641563
+00004234                y 0.807786881924
+00004238                z -3.19145298004
+0000423c                w 1.93875873089
+00004240            member(10)::Vec4
+00004240                x 0.272051692009
+00004244                y 2.83641576767
+00004248                z 0.738161146641
+0000424c                w 2.89350271225
+00004250            member(11)::Vec4
+00004250                x 1.90482890606
+00004254                y 1.49600934982
+00004258                z -3.27393436432
+0000425c                w 2.07375884056
+00004260            member(12)::Vec4
+00004260                x 0.119786351919
+00004264                y 1.99240064621
+00004268                z -3.49804639816
+0000426c                w 2.62357020378
+00003b50        BoundingBox::AxisAlignedBox
+00003b50            min::Vec3
+00003b50                x -4.33506536484
+00003b54                y -2.80336976051
+00003b58                z -4.33506631851
+00003b60            max::Vec3
+00003b60                x 4.33543395996
+00003b64                y 3.36052274704
+00003b68                z 6.84647941589
+00003b70        PartToImpactIndices::array
+00004274            member(0) 0
+00004278            member(1) 7
+0000427c            member(2) 13
+00004280            member(3) 13
+00003b80    EdgeModelComponentData 0000000a
+00003b80        $::GameComponentData
+00003b80            $::ComponentData
+00003b80                $::GameObjectData
+00003b80                    $::DataBusPeer
+00003b80                        $::GameDataContainer
+00003b80                            $::DataContainer
+00003b88                        Flags 22010481
+00003b8c                Components *nullArray*
+00003b90                Transform::LinearTransform
+00003b90                    right::Vec3
+00003b90                        x 1.0
+00003b94                        y 0.0
+00003b98                        z 0.0
+00003ba0                    up::Vec3
+00003ba0                        x 0.0
+00003ba4                        y 1.0
+00003ba8                        z 0.0
+00003bb0                    forward::Vec3
+00003bb0                        x 0.0
+00003bb4                        y 0.0
+00003bb8                        z 1.0
+00003bc0                    trans::Vec3
+00003bc0                        x 0.0
+00003bc4                        y 0.0
+00003bc8                        z 0.0
+00003bd0                Excluded False
+00003be0        RigidBodies::array
+00004288            member(0) ArtAssets/Destruction/EdgeModels/ConcreteAll_01_64x128/fa4c0bee0597a3ab670201d92d157f21
+0000428c            member(1) ArtAssets/Destruction/EdgeModels/ConcreteAll_02_64x128/d499cd07a25850ea62ae549f48a61626
+00003be4        RigidMeshes::array
+00004294            member(0) artassets/destruction/edgemodels/concreteall_01_64x128_Mesh/7b3dd6469399167a78daf29b877c1667
+00004298            member(1) artassets/destruction/edgemodels/concreteall_02_64x128_Mesh/c4c462c9cb88324537b90e825aed99ee
+00003be8        InstanceTransforms::array
+000042a0            member(0)::LinearTransform
+000042a0                right::Vec3
+000042a0                    x -0.996239364147
+000042a4                    y 0.0454519018531
+000042a8                    z 0.0737659707665
+000042b0                up::Vec3
+000042b0                    x -0.0778655409813
+000042b4                    y 0.024022962898
+000042b8                    z -1.06640720367
+000042c0                forward::Vec3
+000042c0                    x -0.036702837795
+000042c4                    y -0.780295193195
+000042c8                    z -0.0148976482451
+000042d0                trans::Vec3
+000042d0                    x -0.937010407448
+000042d4                    y 1.12891936302
+000042d8                    z -3.71124196053
+000042e0            member(1)::LinearTransform
+000042e0                right::Vec3
+000042e0                    x -0.87873673439
+000042e4                    y 8.5348972334e-08
+000042e8                    z -0.477305799723
+000042f0                up::Vec3
+000042f0                    x -3.82713338017e-14
+000042f4                    y 1.0
+000042f8                    z 1.78813891694e-07
+00004300                forward::Vec3
+00004300                    x 0.477305799723
+00004304                    y 1.57130514822e-07
+00004308                    z -0.87873673439
+00004310                trans::Vec3
+00004310                    x -0.574257850647
+00004314                    y 2.94000291824
+00004318                    z -0.0572165325284
+00004320            member(2)::LinearTransform
+00004320                right::Vec3
+00004320                    x -0.986650049686
+00004324                    y 0.0443987250328
+00004328                    z 0.156685933471
+00004330                up::Vec3
+00004330                    x -0.0834733322263
+00004334                    y 0.643342196941
+00004338                    z -0.707929432392
+00004340                forward::Vec3
+00004340                    x -0.0989323481917
+00004344                    y -0.532360672951
+00004348                    z -0.472126156092
+00004350                trans::Vec3
+00004350                    x -0.804416954517
+00004354                    y 2.69517350197
+00004358                    z -3.47847080231
+00004360            member(3)::LinearTransform
+00004360                right::Vec3
+00004360                    x -0.988681077957
+00004364                    y -1.23617340364e-07
+00004368                    z 0.691318333149
+00004370                up::Vec3
+00004370                    x -4.54521674204e-14
+00004374                    y 1.0
+00004378                    z 1.78813905904e-07
+00004380                forward::Vec3
+00004380                    x -0.573040366173
+00004384                    y 1.46542930679e-07
+00004388                    z -0.819527208805
+00004390                trans::Vec3
+00004390                    x 0.0126183135435
+00004394                    y 2.94000434875
+00004398                    z -1.90160679817
+000043a0            member(4)::LinearTransform
+000043a0                right::Vec3
+000043a0                    x -0.960155785084
+000043a4                    y -4.99723675773e-08
+000043a8                    z 0.279465645552
+000043b0                up::Vec3
+000043b0                    x -1.55625465043e-14
+000043b4                    y 1.0
+000043b8                    z 1.78813877483e-07
+000043c0                forward::Vec3
+000043c0                    x -0.284354567528
+000043c4                    y 1.74692857513e-07
+000043c8                    z -0.9769526124
+000043d0                trans::Vec3
+000043d0                    x -0.558243453503
+000043d4                    y 2.94000458717
+000043d8                    z -2.68544316292
+000043e0            member(5)::LinearTransform
+000043e0                right::Vec3
+000043e0                    x -0.998972892761
+000043e4                    y 0.0430875010788
+000043e8                    z 0.0140292290598
+000043f0                up::Vec3
+000043f0                    x -0.0138989947736
+000043f4                    y 0.0120637817308
+000043f8                    z -1.0267457962
+00004400                forward::Vec3
+00004400                    x -0.0337875969708
+00004404                    y -0.780520498753
+00004408                    z -0.00871322862804
+00004410                trans::Vec3
+00004410                    x -0.897290945053
+00004414                    y 2.00342845917
+00004418                    z -3.6872150898
+00004420            member(6)::LinearTransform
+00004420                right::Vec3
+00004420                    x 0.133411690593
+00004424                    y 1.52784669399
+00004428                    z -0.40284755826
+00004430                up::Vec3
+00004430                    x -1.32589006424
+00004434                    y 0.122614912689
+00004438                    z 0.0259335637093
+00004440                forward::Vec3
+00004440                    x 0.0568211488426
+00004444                    y 0.338735073805
+00004448                    z 1.30350840092
+00004450                trans::Vec3
+00004450                    x -3.77298855782
+00004454                    y 0.25281342864
+00004458                    z 0.838661134243
+00004460            member(7)::LinearTransform
+00004460                right::Vec3
+00004460                    x -0.227823808789
+00004464                    y 0.935920894146
+00004468                    z -0.268604487181
+00004470                up::Vec3
+00004470                    x -0.78031039238
+00004474                    y 0.0393929705024
+00004478                    z 0.799102187157
+00004480                forward::Vec3
+00004480                    x 0.595468938351
+00004484                    y 0.307477802038
+00004488                    z 0.56630808115
+00004490                trans::Vec3
+00004490                    x -2.69780516624
+00004494                    y 0.927745521069
+00004498                    z 2.56674742699
+000044a0            member(8)::LinearTransform
+000044a0                right::Vec3
+000044a0                    x -0.700263619423
+000044a4                    y -0.0060132141225
+000044a8                    z -0.544718921185
+000044b0                up::Vec3
+000044b0                    x -0.454833120108
+000044b4                    y 0.65276235342
+000044b8                    z 0.577506005764
+000044c0                forward::Vec3
+000044c0                    x 0.278922706842
+000044c4                    y 0.516624867916
+000044c8                    z -0.364272624254
+000044d0                trans::Vec3
+000044d0                    x -1.48677062988
+000044d4                    y 2.71339869499
+000044d8                    z 3.37929821014
+000044e0            member(9)::LinearTransform
+000044e0                right::Vec3
+000044e0                    x -0.215787544847
+000044e4                    y 1.12706840038
+000044e8                    z 0.0733292922378
+000044f0                up::Vec3
+000044f0                    x 0.00551178073511
+000044f4                    y 0.0764209032059
+000044f8                    z -1.15836882591
+00004500                forward::Vec3
+00004500                    x -0.80139529705
+00004504                    y -0.152531534433
+00004508                    z -0.0138764977455
+00004510                trans::Vec3
+00004510                    x -1.15946662426
+00004514                    y 0.625023126602
+00004518                    z -3.74013972282
+00004520            member(10)::LinearTransform
+00004520                right::Vec3
+00004520                    x 0.119005039334
+00004524                    y 1.49694216251
+00004528                    z 0.0923219248652
+00004530                up::Vec3
+00004530                    x -1.30961978436
+00004534                    y 0.10408654809
+00004538                    z 0.000431706866948
+00004540                forward::Vec3
+00004540                    x -0.00498734973371
+00004544                    y -0.067304469645
+00004548                    z 1.09772765636
+00004550                trans::Vec3
+00004550                    x -3.79324746132
+00004554                    y 0.115166246891
+00004558                    z -0.159797117114
+00004560            member(11)::LinearTransform
+00004560                right::Vec3
+00004560                    x 0.209601730108
+00004564                    y 1.16232252121
+00004568                    z -0.0818093121052
+00004570                up::Vec3
+00004570                    x -0.835487365723
+00004574                    y 0.0939426869154
+00004578                    z -0.805871605873
+00004580                forward::Vec3
+00004580                    x -0.731783628464
+00004584                    y 0.186894759536
+00004588                    z 0.780462920666
+00004590                trans::Vec3
+00004590                    x -2.70152616501
+00004594                    y 0.662742137909
+00004598                    z -2.59395456314
+000045a0            member(12)::LinearTransform
+000045a0                right::Vec3
+000045a0                    x -0.911596357822
+000045a4                    y 0.00226907315664
+000045a8                    z -0.663847863674
+000045b0                up::Vec3
+000045b0                    x 0.00633765337989
+000045b4                    y 1.01602363586
+000045b8                    z -0.00523005332798
+000045c0                forward::Vec3
+000045c0                    x 0.732214689255
+000045c4                    y -0.00974329095334
+000045c8                    z -1.00551223755
+000045d0                trans::Vec3
+000045d0                    x -0.919811189175
+000045d4                    y 2.94440054893
+000045d8                    z 2.60516738892
+000045e0            member(13)::LinearTransform
+000045e0                right::Vec3
+000045e0                    x -0.308893203735
+000045e4                    y 0.885338664055
+000045e8                    z -0.347506046295
+000045f0                up::Vec3
+000045f0                    x -0.723815858364
+000045f4                    y 0.0314576812088
+000045f8                    z 0.723535239697
+00004600                forward::Vec3
+00004600                    x 0.676883816719
+00004604                    y 0.493529230356
+00004608                    z 0.655688643456
+00004610                trans::Vec3
+00004610                    x -2.09728932381
+00004614                    y 1.26920390129
+00004618                    z 3.11826229095
+00004620            member(14)::LinearTransform
+00004620                right::Vec3
+00004620                    x 0.0923917293549
+00004624                    y 1.29140949249
+00004628                    z 0.468592464924
+00004630                up::Vec3
+00004630                    x -1.2721632719
+00004634                    y 0.103207848966
+00004638                    z -0.0336030684412
+00004640                forward::Vec3
+00004640                    x -0.0574031360447
+00004644                    y -0.370991587639
+00004648                    z 1.03374564648
+00004650                trans::Vec3
+00004650                    x -3.75562286377
+00004654                    y 0.520140111446
+00004658                    z -0.985639572144
+00004660            member(15)::LinearTransform
+00004660                right::Vec3
+00004660                    x 1.00462758541
+00004664                    y -1.17616103523e-07
+00004668                    z 0.657756745815
+00004670                up::Vec3
+00004670                    x 4.28293400636e-14
+00004674                    y 1.0
+00004678                    z 1.78813877483e-07
+00004680                forward::Vec3
+00004680                    x -0.586492538452
+00004684                    y -1.60178160513e-07
+00004688                    z 0.895781815052
+00004690                trans::Vec3
+00004690                    x -0.505213022232
+00004694                    y 2.9400036335
+00004698                    z -0.476235926151
+000046a0            member(16)::LinearTransform
+000046a0                right::Vec3
+000046a0                    x 0.812059402466
+000046a4                    y 1.04351265406e-07
+000046a8                    z -0.583574771881
+000046b0                up::Vec3
+000046b0                    x -4.68588706113e-15
+000046b4                    y 1.014570117
+000046b8                    z 1.81419153478e-07
+000046c0                forward::Vec3
+000046c0                    x 0.583574771881
+000046c4                    y -1.45207437185e-07
+000046c8                    z 0.812059402466
+000046d0                trans::Vec3
+000046d0                    x -0.236305803061
+000046d4                    y 2.94000387192
+000046d8                    z -2.14599108696
+000046e0            member(17)::LinearTransform
+000046e0                right::Vec3
+000046e0                    x 0.991977930069
+000046e4                    y -0.0736282169819
+000046e8                    z -0.102755561471
+000046f0                up::Vec3
+000046f0                    x -0.0227069295943
+000046f4                    y 0.644738674164
+000046f8                    z -0.681186974049
+00004700                forward::Vec3
+00004700                    x 0.0920897200704
+00004704                    y 0.536419808865
+00004708                    z 0.504647254944
+00004710                trans::Vec3
+00004710                    x -0.844006419182
+00004714                    y 2.7003569603
+00004718                    z -3.4701230526
+00004720            member(18)::LinearTransform
+00004720                right::Vec3
+00004720                    x 1.12357056141
+00004724                    y -0.0480449087918
+00004728                    z 0.00248909625225
+00004730                up::Vec3
+00004730                    x 0.00318033085205
+00004734                    y 0.0198273584247
+00004738                    z -1.0529358387
+00004740                forward::Vec3
+00004740                    x 0.0503191240132
+00004744                    y 1.17791426182
+00004748                    z 0.0223326217383
+00004750                trans::Vec3
+00004750                    x -0.944082856178
+00004754                    y 1.71596884727
+00004758                    z -3.70263981819
+00004760            member(19)::LinearTransform
+00004760                right::Vec3
+00004760                    x 0.982036590576
+00004764                    y -0.0554983764887
+00004768                    z -0.180344238877
+00004770                up::Vec3
+00004770                    x 0.0579072125256
+00004774                    y 0.99280077219
+00004778                    z 0.00980439130217
+00004780                forward::Vec3
+00004780                    x 0.179482385516
+00004784                    y -0.0201817676425
+00004788                    z 0.983554184437
+00004790                trans::Vec3
+00004790                    x -0.646392226219
+00004794                    y 2.94000530243
+00004798                    z -2.66247057915
+000047a0            member(20)::LinearTransform
+000047a0                right::Vec3
+000047a0                    x -0.0727773010731
+000047a4                    y 0.888298153877
+000047a8                    z 0.00674859434366
+000047b0                up::Vec3
+000047b0                    x 1.13289320469
+000047b4                    y 0.0926904827356
+000047b8                    z 0.0166317913681
+000047c0                forward::Vec3
+000047c0                    x 0.014680037275
+000047c4                    y 0.00918864831328
+000047c8                    z -1.05115735531
+000047d0                trans::Vec3
+000047d0                    x 3.73057723045
+000047d4                    y 0.823897004128
+000047d8                    z -0.963562190533
+000047e0            member(21)::LinearTransform
+000047e0                right::Vec3
+000047e0                    x -0.049597684294
+000047e4                    y -0.018564466387
+000047e8                    z -0.842938005924
+000047f0                up::Vec3
+000047f0                    x 0.686227917671
+000047f4                    y 0.634665966034
+000047f8                    z -0.0543539822102
+00004800                forward::Vec3
+00004800                    x 0.49756193161
+00004804                    y -0.539474308491
+00004808                    z -0.0173945855349
+00004810                trans::Vec3
+00004810                    x 3.46055459976
+00004814                    y 2.70948719978
+00004818                    z 0.892333686352
+00004820            member(22)::LinearTransform
+00004820                right::Vec3
+00004820                    x -0.40343362093
+00004824                    y 1.63616306281e-07
+00004828                    z -0.91500890255
+00004830                up::Vec3
+00004830                    x -4.17927038733e-14
+00004834                    y 0.980300009251
+00004838                    z 1.75291248183e-07
+00004840                forward::Vec3
+00004840                    x 1.08294188976
+00004844                    y 8.53794830391e-08
+00004848                    z -0.477476447821
+00004850                trans::Vec3
+00004850                    x 0.120472669601
+00004854                    y 2.94000458717
+00004858                    z 1.61349570751
+00004860            member(23)::LinearTransform
+00004860                right::Vec3
+00004860                    x -0.516070842743
+00004864                    y 1.10567104816
+00004868                    z -0.330417752266
+00004870                up::Vec3
+00004870                    x 0.897776544094
+00004874                    y 0.145477429032
+00004878                    z -0.915404617786
+00004880                forward::Vec3
+00004880                    x -0.636397838593
+00004884                    y -0.507665634155
+00004888                    z -0.704820215702
+00004890                trans::Vec3
+00004890                    x 2.70337176323
+00004894                    y 0.242439523339
+00004898                    z -2.64524006844
+000048a0            member(24)::LinearTransform
+000048a0                right::Vec3
+000048a0                    x 0.382509797812
+000048a4                    y 0.999840915203
+000048a8                    z 0.449877500534
+000048b0                up::Vec3
+000048b0                    x 0.934232115746
+000048b4                    y 0.0589084625244
+000048b8                    z -0.925257742405
+000048c0                forward::Vec3
+000048c0                    x -0.688882827759
+000048c4                    y 0.560459971428
+000048c8                    z -0.659883320332
+000048d0                trans::Vec3
+000048d0                    x 1.91812181473
+000048d4                    y 0.231322869658
+000048d8                    z -3.4325838089
+000048e0            member(25)::LinearTransform
+000048e0                right::Vec3
+000048e0                    x -0.0725577399135
+000048e4                    y 1.73017312477e-07
+000048e8                    z -0.967583298683
+000048f0                up::Vec3
+000048f0                    x -4.27845286326e-14
+000048f4                    y 1.00535356998
+000048f8                    z 1.79771092235e-07
+00004900                forward::Vec3
+00004900                    x 1.04785788059
+00004904                    y 1.40507934177e-08
+00004908                    z -0.0785773992538
+00004910                trans::Vec3
+00004910                    x 2.60103440285
+00004914                    y 2.94341373444
+00004918                    z 0.911594688892
+00004920            member(26)::LinearTransform
+00004920                right::Vec3
+00004920                    x 0.0198944471776
+00004924                    y 0.0245455428958
+00004928                    z -0.965383112431
+00004930                up::Vec3
+00004930                    x 1.03922152519
+00004934                    y 0.00845528207719
+00004938                    z 0.0216309595853
+00004940                forward::Vec3
+00004940                    x 0.00910278595984
+00004944                    y -1.05092573166
+00004948                    z -0.0265329983085
+00004950                trans::Vec3
+00004950                    x 3.68724179268
+00004954                    y 1.84046959877
+00004958                    z 0.852106273174
+00004960            member(27)::LinearTransform
+00004960                right::Vec3
+00004960                    x 0.0682165697217
+00004964                    y 1.07757496834
+00004968                    z 0.0652217641473
+00004970                up::Vec3
+00004970                    x 0.00838934723288
+00004974                    y 0.0683418139815
+00004978                    z -1.13790178299
+00004980                forward::Vec3
+00004980                    x -0.890100538731
+00004984                    y 0.0565398335457
+00004988                    z -0.00316683715209
+00004990                trans::Vec3
+00004990                    x 0.484386742115
+00004994                    y 0.814135432243
+00004998                    z -3.73688292503
+000049a0            member(28)::LinearTransform
+000049a0                right::Vec3
+000049a0                    x -0.102126263082
+000049a4                    y 1.11702334881
+000049a8                    z 0.177886426449
+000049b0                up::Vec3
+000049b0                    x 1.21243739128
+000049b4                    y 0.114271625876
+000049b8                    z -0.021486306563
+000049c0                forward::Vec3
+000049c0                    x -0.0303332339972
+000049c4                    y 0.14608310163
+000049c8                    z -0.934731006622
+000049d0                trans::Vec3
+000049d0                    x 3.75125050545
+000049d4                    y 0.703843176365
+000049d8                    z 0.0827627778053
+000049e0            member(29)::LinearTransform
+000049e0                right::Vec3
+000049e0                    x 0.270012110472
+000049e4                    y 1.03848779202
+000049e8                    z 0.136786222458
+000049f0                up::Vec3
+000049f0                    x 0.0233440343291
+000049f4                    y 0.148297294974
+000049f8                    z -1.17196333408
+00004a00                forward::Vec3
+00004a00                    x -0.863486528397
+00004a04                    y 0.223058417439
+00004a08                    z 0.0110254930332
+00004a10                trans::Vec3
+00004a10                    x 1.15741109848
+00004a14                    y 0.643355965614
+00004a18                    z -3.75992894173
+00004a20            member(30)::LinearTransform
+00004a20                right::Vec3
+00004a20                    x -0.880668818951
+00004a24                    y 8.47098249324e-08
+00004a28                    z -0.473731637001
+00004a30                up::Vec3
+00004a30                    x 2.01964045666e-14
+00004a34                    y 1.0
+00004a38                    z 1.78813877483e-07
+00004a40                forward::Vec3
+00004a40                    x 0.473731637001
+00004a44                    y 1.57475881224e-07
+00004a48                    z -0.880668818951
+00004a50                trans::Vec3
+00004a50                    x -0.103701256216
+00004a54                    y 2.9400036335
+00004a58                    z -0.880771875381
+00004a60            member(31)::LinearTransform
+00004a60                right::Vec3
+00004a60                    x -1.06460297108
+00004a64                    y -4.34648654846e-08
+00004a68                    z 0.243073299527
+00004a70                up::Vec3
+00004a70                    x 1.6872233506e-15
+00004a74                    y 1.0
+00004a78                    z 1.78813920115e-07
+00004a80                forward::Vec3
+00004a80                    x -0.286438047886
+00004a84                    y 2.24327379783e-07
+00004a88                    z -1.254529953
+00004a90                trans::Vec3
+00004a90                    x -0.570589005947
+00004a94                    y 2.94000196457
+00004a98                    z 1.16083943844
+00004aa0            member(32)::LinearTransform
+00004aa0                right::Vec3
+00004aa0                    x 0.0204364582896
+00004aa4                    y 0.935838401318
+00004aa8                    z -0.0826135724783
+00004ab0                up::Vec3
+00004ab0                    x -0.860137820244
+00004ab4                    y 0.0899371132255
+00004ab8                    z 0.80602222681
+00004ac0                forward::Vec3
+00004ac0                    x 0.733522951603
+00004ac4                    y 0.0525649040937
+00004ac8                    z 0.776905655861
+00004ad0                trans::Vec3
+00004ad0                    x -3.34289169312
+00004ad4                    y 0.760783910751
+00004ad8                    z 1.95507967472
+00004ae0            member(33)::LinearTransform
+00004ae0                right::Vec3
+00004ae0                    x -0.711406052113
+00004ae4                    y 0.000583489076234
+00004ae8                    z -0.707468688488
+00004af0                up::Vec3
+00004af0                    x -0.736278295517
+00004af4                    y 0.00462945457548
+00004af8                    z 0.740379452705
+00004b00                forward::Vec3
+00004b00                    x 0.00286380643956
+00004b04                    y 0.809291899204
+00004b08                    z -0.00221228227019
+00004b10                trans::Vec3
+00004b10                    x -1.63623833656
+00004b14                    y 2.00405406952
+00004b18                    z 3.57404112816
+00004b20            member(34)::LinearTransform
+00004b20                right::Vec3
+00004b20                    x 0.0832234248519
+00004b24                    y 1.07916879654
+00004b28                    z 0.161802351475
+00004b30                up::Vec3
+00004b30                    x -0.777966320515
+00004b34                    y 0.176637843251
+00004b38                    z -0.777966678143
+00004b40                forward::Vec3
+00004b40                    x -0.725752770901
+00004b44                    y -0.0511055737734
+00004b48                    z 0.714149415493
+00004b50                trans::Vec3
+00004b50                    x -3.34986114502
+00004b54                    y 0.812568128109
+00004b58                    z -1.92979896069
+00004b60            member(35)::LinearTransform
+00004b60                right::Vec3
+00004b60                    x 0.10560913384
+00004b64                    y 1.08728790283
+00004b68                    z 0.0660533979535
+00004b70                up::Vec3
+00004b70                    x -0.867286026478
+00004b74                    y 0.135093048215
+00004b78                    z -0.837073028088
+00004b80                forward::Vec3
+00004b80                    x -0.686930596828
+00004b84                    y 0.0232563037425
+00004b88                    z 0.715479314327
+00004b90                trans::Vec3
+00004b90                    x -1.93756651878
+00004b94                    y 0.504711687565
+00004b98                    z -3.38393378258
+00004ba0            member(36)::LinearTransform
+00004ba0                right::Vec3
+00004ba0                    x 1.19546878338
+00004ba4                    y 5.28778301145e-08
+00004ba8                    z -0.295714110136
+00004bb0                up::Vec3
+00004bb0                    x -5.90570818702e-14
+00004bb4                    y 0.992423355579
+00004bb8                    z 1.77459028805e-07
+00004bc0                forward::Vec3
+00004bc0                    x 0.276215910912
+00004bc4                    y -1.99671077894e-07
+00004bc8                    z 1.11664450169
+00004bd0                trans::Vec3
+00004bd0                    x -0.875903010368
+00004bd4                    y 2.93999767303
+00004bd8                    z 0.866913318634
+00004be0            member(37)::LinearTransform
+00004be0                right::Vec3
+00004be0                    x 0.999885082245
+00004be4                    y -2.71172551081e-09
+00004be8                    z 0.0151653438807
+00004bf0                up::Vec3
+00004bf0                    x -5.68434188608e-14
+00004bf4                    y 1.0
+00004bf8                    z 1.78813849061e-07
+00004c00                forward::Vec3
+00004c00                    x -0.0151653438807
+00004c04                    y -1.78793087002e-07
+00004c08                    z 0.999885082245
+00004c10                trans::Vec3
+00004c10                    x -0.0862029790878
+00004c14                    y 2.9399998188
+00004c18                    z -1.44804763794
+00004c20            member(38)::LinearTransform
+00004c20                right::Vec3
+00004c20                    x -0.668922543526
+00004c24                    y 1.32917918449e-07
+00004c28                    z -0.743332207203
+00004c30                up::Vec3
+00004c30                    x -7.8020265758e-14
+00004c34                    y 1.00469994545
+00004c38                    z 1.79654335852e-07
+00004c40                forward::Vec3
+00004c40                    x 0.727167367935
+00004c44                    y 1.17011381917e-07
+00004c48                    z -0.654375970364
+00004c50                trans::Vec3
+00004c50                    x -0.155316710472
+00004c54                    y 2.94000458717
+00004c58                    z 1.75435864925
+00004c60            member(39)::LinearTransform
+00004c60                right::Vec3
+00004c60                    x -0.290855675936
+00004c64                    y 1.71083158307e-07
+00004c68                    z -0.956766963005
+00004c70                up::Vec3
+00004c70                    x -6.39488462184e-14
+00004c74                    y 1.0
+00004c78                    z 1.78813849061e-07
+00004c80                forward::Vec3
+00004c80                    x 0.956766963005
+00004c84                    y 5.20090743805e-08
+00004c88                    z -0.290855675936
+00004c90                trans::Vec3
+00004c90                    x 1.34612119198
+00004c94                    y 2.94000220299
+00004c98                    z 1.123467803
+00004ca0            member(40)::LinearTransform
+00004ca0                right::Vec3
+00004ca0                    x -0.046128872782
+00004ca4                    y 1.1006963253
+00004ca8                    z 0.0228738710284
+00004cb0                up::Vec3
+00004cb0                    x -0.0057706143707
+00004cb4                    y 0.023685619235
+00004cb8                    z -1.15138983727
+00004cc0                forward::Vec3
+00004cc0                    x -1.09152853489
+00004cc4                    y -0.0458382815123
+00004cc8                    z 0.00452703610063
+00004cd0                trans::Vec3
+00004cd0                    x -0.253709584475
+00004cd4                    y 0.735835373402
+00004cd8                    z -3.72788071632
+00004ce0            member(41)::LinearTransform
+00004ce0                right::Vec3
+00004ce0                    x 0.0849112942815
+00004ce4                    y 0.373807489872
+00004ce8                    z -0.923611402512
+00004cf0                up::Vec3
+00004cf0                    x 1.08715367317
+00004cf4                    y -0.00771567318588
+00004cf8                    z 0.0968236550689
+00004d00                forward::Vec3
+00004d00                    x 0.0183089599013
+00004d04                    y -0.637642145157
+00004d08                    z -0.256385713816
+00004d10                trans::Vec3
+00004d10                    x 3.71143627167
+00004d14                    y 0.968823313713
+00004d18                    z 0.803042948246
+00004d20            member(42)::LinearTransform
+00004d20                right::Vec3
+00004d20                    x -0.182427659631
+00004d24                    y 0.968015193939
+00004d28                    z -0.172239154577
+00004d30                up::Vec3
+00004d30                    x 0.829129397869
+00004d34                    y 0.00961787253618
+00004d38                    z -0.82412135601
+00004d40                forward::Vec3
+00004d40                    x -0.648286342621
+00004d44                    y -0.238719537854
+00004d48                    z -0.655012607574
+00004d50                trans::Vec3
+00004d50                    x 3.39244031906
+00004d54                    y 0.730498373508
+00004d58                    z -1.89854323864
+00003bec        MeshInstanceRanges::array
+00004d64            member(0) 30
+00004d66            member(1) 43
+00003bf0        ConnectionInstanceLookupTable::array
+00004d6c            member(0) 0
+00004d6e            member(1) 1
+00004d70            member(2) 30
+00004d72            member(3) 31
+00004d74            member(4) 2
+00004d76            member(5) 3
+00004d78            member(6) 4
+00004d7a            member(7) 5
+00004d7c            member(8) 6
+00004d7e            member(9) 32
+00004d80            member(10) 7
+00004d82            member(11) 8
+00004d84            member(12) 33
+00004d86            member(13) 9
+00004d88            member(14) 10
+00004d8a            member(15) 11
+00004d8c            member(16) 12
+00004d8e            member(17) 34
+00004d90            member(18) 13
+00004d92            member(19) 35
+00004d94            member(20) 14
+00004d96            member(21) 15
+00004d98            member(22) 16
+00004d9a            member(23) 17
+00004d9c            member(24) 18
+00004d9e            member(25) 19
+00004da0            member(26) 36
+00004da2            member(27) 37
+00004da4            member(28) 20
+00004da6            member(29) 21
+00004da8            member(30) 38
+00004daa            member(31) 22
+00004dac            member(32) 23
+00004dae            member(33) 24
+00004db0            member(34) 25
+00004db2            member(35) 26
+00004db4            member(36) 39
+00004db6            member(37) 27
+00004db8            member(38) 40
+00004dba            member(39) 41
+00004dbc            member(40) 28
+00004dbe            member(41) 42
+00004dc0            member(42) 29
+00003bf4        Connections::array
+00004dc8            member(0)::EdgeModelConnectionInfo
+00004dc8                ConnectionInstanceRange 8
+00004dca                NeighbourPartIndex 1
+00004dcc            member(1)::EdgeModelConnectionInfo
+00004dcc                ConnectionInstanceRange 21
+00004dce                NeighbourPartIndex 2
+00004dd0            member(2)::EdgeModelConnectionInfo
+00004dd0                ConnectionInstanceRange 28
+00004dd2                NeighbourPartIndex 0
+00004dd4            member(3)::EdgeModelConnectionInfo
+00004dd4                ConnectionInstanceRange 43
+00004dd6                NeighbourPartIndex 2
+00004dd8            member(4)::EdgeModelConnectionInfo
+00004dd8                ConnectionInstanceRange 43
+00004dda                NeighbourPartIndex 0
+00004ddc            member(5)::EdgeModelConnectionInfo
+00004ddc                ConnectionInstanceRange 43
+00004dde                NeighbourPartIndex 1
+00003bf8        PartConnectionRanges::array
+00004de4            member(0) 2
+00004de6            member(1) 4
+00004de8            member(2) 6
+00003bfc        AddToSpatialQueryManager False
+00003c00    EffectReferenceObjectData 0000000b
+00003c00        $::SpatialReferenceObjectData
+00003c00            $::ReferenceObjectData
+00003c00                $::GameObjectData
+00003c00                    $::DataBusPeer
+00003c00                        $::GameDataContainer
+00003c00                            $::DataContainer
+00003c08                        Flags 0
+00003c0c                Blueprint FX/Destruction/MacroDest/FX_MacroDest_Stone_Large_Sound/9c672d07d750464f9de0f111dce62fb5
+00003c10                BlueprintTransform::LinearTransform
+00003c10                    right::Vec3
+00003c10                        x 1.0
+00003c14                        y 0.0
+00003c18                        z 0.0
+00003c20                    up::Vec3
+00003c20                        x 0.0
+00003c24                        y 1.0
+00003c28                        z 0.0
+00003c30                    forward::Vec3
+00003c30                        x 0.0
+00003c34                        y 0.0
+00003c38                        z 1.0
+00003c40                    trans::Vec3
+00003c40                        x 3.08215403557
+00003c44                        y 1.70931470394
+00003c48                        z -3.19199705124
+00003c50                ObjectVariation *nullGuid*
+00003c54                StreamRealm StreamRealm_None
+00003c58                RadiosityTypeOverride RadiosityTypeOverride_None
+00003c5c                LightmapResolutionScale 1
+00003c60                RenderingOverrides::RenderingOverrides
+00003c60                    ShadowEnable RenderingOverride_Inherit
+00003c64                    DynamicReflectionEnable RenderingOverride_Inherit
+00003c68                    StaticReflectionEnable RenderingOverride_Inherit
+00003c6c                ForceSeparateEnlightenSystem False
+00003c6d                CastSunShadowEnable True
+00003c6e                CastReflectionEnable True
+00003c6f                CastEnvmapEnable True
+00003c70                Excluded False
+00003c80            LocalPlayerId LocalPlayerId_Invalid
+00003c90        EffectParameters *nullArray*
+00003c94        AutoStart True
+00003c95        AffectedByLightprobeVisibility False
+00003ca0    EffectReferenceObjectData 0000000c
+00003ca0        $::SpatialReferenceObjectData
+00003ca0            $::ReferenceObjectData
+00003ca0                $::GameObjectData
+00003ca0                    $::DataBusPeer
+00003ca0                        $::GameDataContainer
+00003ca0                            $::DataContainer
+00003ca8                        Flags 0
+00003cac                Blueprint FX/Destruction/MacroDest/FX_MacroDest_Stone_XLarge_Sound/b87dbda685977b42a0b50733fae09441
+00003cb0                BlueprintTransform::LinearTransform
+00003cb0                    right::Vec3
+00003cb0                        x 1.0
+00003cb4                        y 0.0
+00003cb8                        z 0.0
+00003cc0                    up::Vec3
+00003cc0                        x 0.0
+00003cc4                        y 1.0
+00003cc8                        z 0.0
+00003cd0                    forward::Vec3
+00003cd0                        x 0.0
+00003cd4                        y 0.0
+00003cd8                        z 1.0
+00003ce0                    trans::Vec3
+00003ce0                        x -4.17844200134
+00003ce4                        y 1.70905578136
+00003ce8                        z 0.0754183679819
+00003cf0                ObjectVariation *nullGuid*
+00003cf4                StreamRealm StreamRealm_None
+00003cf8                RadiosityTypeOverride RadiosityTypeOverride_None
+00003cfc                LightmapResolutionScale 1
+00003d00                RenderingOverrides::RenderingOverrides
+00003d00                    ShadowEnable RenderingOverride_Inherit
+00003d04                    DynamicReflectionEnable RenderingOverride_Inherit
+00003d08                    StaticReflectionEnable RenderingOverride_Inherit
+00003d0c                ForceSeparateEnlightenSystem False
+00003d0d                CastSunShadowEnable True
+00003d0e                CastReflectionEnable True
+00003d0f                CastEnvmapEnable True
+00003d10                Excluded False
+00003d20            LocalPlayerId LocalPlayerId_Invalid
+00003d30        EffectParameters *nullArray*
+00003d34        AutoStart True
+00003d35        AffectedByLightprobeVisibility False
+00003d40    ObjectReferenceObjectData 0000000d
+00003d40        $::SpatialReferenceObjectData
+00003d40            $::ReferenceObjectData
+00003d40                $::GameObjectData
+00003d40                    $::DataBusPeer
+00003d40                        $::GameDataContainer
+00003d40                            $::DataContainer
+00003d48                        Flags 0
+00003d4c                Blueprint ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A/f5c78862332fd02cd85f6c6d16a49272
+00003d50                BlueprintTransform::LinearTransform
+00003d50                    right::Vec3
+00003d50                        x -0.677236139774
+00003d54                        y 0.0
+00003d58                        z 0.735765755177
+00003d60                    up::Vec3
+00003d60                        x 0.0
+00003d64                        y 1.0
+00003d68                        z 0.0
+00003d70                    forward::Vec3
+00003d70                        x -0.735765755177
+00003d74                        y 0.0
+00003d78                        z -0.677236139774
+00003d80                    trans::Vec3
+00003d80                        x 0.571614146233
+00003d84                        y 0.405452489853
+00003d88                        z -0.327235490084
+00003d90                ObjectVariation *nullGuid*
+00003d94                StreamRealm StreamRealm_None
+00003d98                RadiosityTypeOverride RadiosityTypeOverride_None
+00003d9c                LightmapResolutionScale 1
+00003da0                RenderingOverrides::RenderingOverrides
+00003da0                    ShadowEnable RenderingOverride_Inherit
+00003da4                    DynamicReflectionEnable RenderingOverride_Inherit
+00003da8                    StaticReflectionEnable RenderingOverride_Inherit
+00003dac                ForceSeparateEnlightenSystem False
+00003dad                CastSunShadowEnable True
+00003dae                CastReflectionEnable True
+00003daf                CastEnvmapEnable True
+00003db0                Excluded False
+00003dc0            LocalPlayerId LocalPlayerId_Invalid
+00003dd0    ObjectReferenceObjectData 0000000e
+00003dd0        $::SpatialReferenceObjectData
+00003dd0            $::ReferenceObjectData
+00003dd0                $::GameObjectData
+00003dd0                    $::DataBusPeer
+00003dd0                        $::GameDataContainer
+00003dd0                            $::DataContainer
+00003dd8                        Flags 0
+00003ddc                Blueprint ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Cluster_A/f5c78862332fd02cd85f6c6d16a49272
+00003de0                BlueprintTransform::LinearTransform
+00003de0                    right::Vec3
+00003de0                        x 1.0
+00003de4                        y 0.0
+00003de8                        z 0.0
+00003df0                    up::Vec3
+00003df0                        x 0.0
+00003df4                        y 1.0
+00003df8                        z 0.0
+00003e00                    forward::Vec3
+00003e00                        x 0.0
+00003e04                        y 0.0
+00003e08                        z 1.0
+00003e10                    trans::Vec3
+00003e10                        x -0.479443788528
+00003e14                        y 0.420401662588
+00003e18                        z -0.08644413203
+00003e20                ObjectVariation *nullGuid*
+00003e24                StreamRealm StreamRealm_None
+00003e28                RadiosityTypeOverride RadiosityTypeOverride_None
+00003e2c                LightmapResolutionScale 1
+00003e30                RenderingOverrides::RenderingOverrides
+00003e30                    ShadowEnable RenderingOverride_Inherit
+00003e34                    DynamicReflectionEnable RenderingOverride_Inherit
+00003e38                    StaticReflectionEnable RenderingOverride_Inherit
+00003e3c                ForceSeparateEnlightenSystem False
+00003e3d                CastSunShadowEnable True
+00003e3e                CastReflectionEnable True
+00003e3f                CastEnvmapEnable True
+00003e40                Excluded False
+00003e50            LocalPlayerId LocalPlayerId_Invalid
+00003e60    PhysicsEntityData 0000000f
+00003e60        $::EntityData
+00003e60            $::GameObjectData
+00003e60                $::DataBusPeer
+00003e60                    $::GameDataContainer
+00003e60                        $::DataContainer
+00003e68                    Flags 0
+00003e6c        Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Physics_Win32/7121b8860627812bcf4b1c706a5faf51
+00003e70        InertiaModifier::Vec3
+00003e70            x 1.0
+00003e74            y 1.0
+00003e78            z 1.0
+00003e80        RigidBodies *nullArray*
+00003e84        FloatPhysics *nullGuid*
+00003e88        Mass 1000010.0
+00003e8c        AngularVelocityDamping -1.0
+00003e90        LinearVelocityDamping -1.0
+00003e94        Proximity *nullGuid*
+00003e98        Constraints *nullArray*
+00003e9c        MovableParts False
+00003e9d        IsComposite False
+00003ea0    RadiosityMaterialInstanceEntityData 00000010
+00003ea0        $::EntityData
+00003ea0            $::GameObjectData
+00003ea0                $::DataBusPeer
+00003ea0                    $::GameDataContainer
+00003ea0                        $::DataContainer
+00003ea8                    Flags 151294692
+00003eac        MaterialId 3448176118
+00003eb0        Color::Vec3
+00003eb0            x 0.0
+00003eb4            y 0.0
+00003eb8            z 0.0
+00003ec0        Blueprint 259f5622248cb396f420254dbea23d2c
+00003ec4        EmissiveIntensity 0.0
+00003ec8        Opacity 0.0
+00003ed0    RigidBodyData 00000011
+00003ed0        $::PhysicsBodyData
+00003ed0            $::EntityData
+00003ed0                $::GameObjectData
+00003ed0                    $::DataBusPeer
+00003ed0                        $::GameDataContainer
+00003ed0                            $::DataContainer
+00003ed8                        Flags 0
+00003edc            Realm Realm_Client
+00003ee0            CollisionLayer RigidBodyCollisionLayer_Invalid
+00003ee4            Asset ArtAssets/Architecture/Pillbox_01/PillboxBreakable_01_Physics_Win32/7121b8860627812bcf4b1c706a5faf51
+00003ee8            AssetIndex 0
+00003ee9            TransformIndex 0
+00003eea            WorldIndex 1
+00003eeb            CollisionRootShapeIndex 0
+00003eec            RaycastRootShapeIndex 0
+00003eed            AddToSpatialQueryManager False
+00003ef0        CenterOfMass::Vec3
+00003ef0            x 0.0
+00003ef4            y 0.0
+00003ef8            z 0.0
+00003f00        InertiaModifier::Vec3
+00003f00            x 1.0
+00003f04            y 1.0
+00003f08            z 1.0
+00003f10        Transform::LinearTransform
+00003f10            right::Vec3
+00003f10                x 1.0
+00003f14                y 0.0
+00003f18                z 0.0
+00003f20            up::Vec3
+00003f20                x 0.0
+00003f24                y 1.0
+00003f28                z 0.0
+00003f30            forward::Vec3
+00003f30                x 0.0
+00003f34                y 0.0
+00003f38                z 1.0
+00003f40            trans::Vec3
+00003f40                x 0.0
+00003f44                y 0.0
+00003f48                z 0.0
+00003f50        KeyframeTransform::LinearTransform
+00003f50            right::Vec3
+00003f50                x 1.0
+00003f54                y 0.0
+00003f58                z 0.0
+00003f60            up::Vec3
+00003f60                x 0.0
+00003f64                y 1.0
+00003f68                z 0.0
+00003f70            forward::Vec3
+00003f70                x 0.0
+00003f74                y 0.0
+00003f78                z 1.0
+00003f80            trans::Vec3
+00003f80                x 0.0
+00003f84                y 0.0
+00003f88                z 0.0
+00003f90        RigidBodyType RBTypeProxy
+00003f94        Mass 1000.0
+00003f98        Material::MaterialDecl
+00003f98            Packed 32768
+00003f9c        DynamicFriction -1.0
+00003fa0        StaticFriction -1.0
+00003fa4        Restitution -1.0
+00003fa8        AngularVelocityDamping -1.0
+00003fac        LinearVelocityDamping -1.0
+00003fb0        MotionType RigidBodyMotionType_Fixed
+00003fb4        QualityType RigidBodyQualityType_Invalid
+00003fb8        SystemGroup 0
+00003fbc        SubSystemId 0
+00003fc0        SubSystemIdNoCollide 0
+00003fc4        PartIndices::array
+00004df0            member(0) 4294967295
+00004df4            member(1) 0
+00004df8            member(2) 1
+00004dfc            member(3) 2
+00003fc8        FloatPhysics *nullGuid*
+00003fcc        ComputeCenterOfMass True
+00003fcd        IsRootController True
+00003fd0    BoolEntityData 00000012
+00003fc8        $::EntityData
+00003fc8            $::GameObjectData
+00003fc8                $::DataBusPeer
+00003fc8                    $::GameDataContainer
+00003fc8                        $::DataContainer
+00003fd0                    Flags 41662372
+00003fd4        Realm Realm_Client
+00003fd8        DefaultValue True
+00003fdc    ConditionalFloatEntityData 00000013
+00003fd4        $::ConditionalStateEntityData
+00003fd4            $::EntityData
+00003fd4                $::GameObjectData
+00003fd4                    $::DataBusPeer
+00003fd4                        $::GameDataContainer
+00003fd4                            $::DataContainer
+00003fdc                        Flags 134504995
+00003fe0            Realm Realm_Client
+00003fe4            Condition False
+00003fe8        ValueIfTrue 1.0
+00003fec        ValueIfFalse 0.800000011921
+00003ff0    EdgeModelLightMapData 00000014
+00003fe8        $::DataContainer
+00003ff0        LightMapUvs::array
+00004e10            member(0)::Vec4
+00004e10                x 0.450561106205
+00004e14                y 0.603095769882
+00004e18                z 0.460175305605
+00004e1c                w 0.316970825195
+00004e20            member(1)::Vec4
+00004e20                x 0.607440650463
+00004e24                y 0.113667443395
+00004e28                z 0.89397084713
+00004e2c                w 0.0841588973999
+00004e30            member(2)::Vec4
+00004e30                x 0.947859227657
+00004e34                y 0.654226064682
+00004e38                z 0.465132772923
+00004e3c                w 0.255970627069
+00004e40            member(3)::Vec4
+00004e40                x 0.625483393669
+00004e44                y 0.0613247640431
+00004e48                z 0.874479234219
+00004e4c                w 0.0453040748835
+00004e50            member(4)::Vec4
+00004e50                x 0.607932686806
+00004e54                y 0.0390801504254
+00004e58                z 0.893438816071
+00004e5c                w 0.0287913493812
+00004e60            member(5)::Vec4
+00004e60                x 0.450319170952
+00004e64                y 0.574176907539
+00004e68                z 0.460650444031
+00004e6c                w 0.276937961578
+00004e70            member(6)::Vec4
+00004e70                x 0.696895062923
+00004e74                y 0.321272879839
+00004e78                z 0.0466402620077
+00004e7c                w 0.894908249378
+00004e80            member(7)::Vec4
+00004e80                x 0.830951035023
+00004e84                y 0.223821163177
+00004e88                z 0.087687432766
+00004e8c                w 0.401574671268
+00004e90            member(8)::Vec4
+00004e90                x 0.4720672369
+00004e94                y 0.883361101151
+00004e98                z 0.0218041688204
+00004e9c                w 0.336568981409
+00004ea0            member(9)::Vec4
+00004ea0                x 0.457710564137
+00004ea4                y 0.617994487286
+00004ea8                z 0.448407560587
+00004eac                w 0.33952921629
+00004eb0            member(10)::Vec4
+00004eb0                x 0.661093890667
+00004eb4                y 0.325664639473
+00004eb8                z 0.0907655581832
+00004ebc                w 0.900611758232
+00004ec0            member(11)::Vec4
+00004ec0                x 0.419331789017
+00004ec4                y 0.462890803814
+00004ec8                z 0.248402103782
+00004ecc                w 0.492393165827
+00004ed0            member(12)::Vec4
+00004ed0                x 0.596875309944
+00004ed4                y 0.189179778099
+00004ed8                z 0.709988951683
+00004edc                w 0.64873945713
+00004ee0            member(13)::Vec4
+00004ee0                x 0.860441565514
+00004ee4                y 0.213182121515
+00004ee8                z 0.0508885607123
+00004eec                w 0.386016607285
+00004ef0            member(14)::Vec4
+00004ef0                x 0.631441116333
+00004ef4                y 0.313256144524
+00004ef8                z 0.126672238111
+00004efc                w 0.883235931396
+00004f00            member(15)::Vec4
+00004f00                x 0.609563469887
+00004f04                y 0.101775884628
+00004f08                z 0.891677677631
+00004f0c                w 0.0753316432238
+00004f10            member(16)::Vec4
+00004f10                x 0.617830395699
+00004f14                y 0.054389346391
+00004f18                z 0.882746577263
+00004f1c                w 0.0401557311416
+00004f20            member(17)::Vec4
+00004f20                x 0.948967456818
+00004f24                y 0.653580904007
+00004f28                z 0.4622425735
+00004f2c                w 0.255871713161
+00004f30            member(18)::Vec4
+00004f30                x 0.451569259167
+00004f34                y 0.58299601078
+00004f38                z 0.459080904722
+00004f3c                w 0.290212154388
+00004f40            member(19)::Vec4
+00004f40                x 0.605779707432
+00004f44                y 0.0398191511631
+00004f48                z 0.896986305714
+00004f4c                w 0.0292087309062
+00004f50            member(20)::Vec4
+00004f50                x 0.117890954018
+00004f54                y 0.534847915173
+00004f58                z 0.375318616629
+00004f5c                w 0.793384432793
+00004f60            member(21)::Vec4
+00004f60                x 0.212203025818
+00004f64                y 0.884088814259
+00004f68                z 0.793506264687
+00004f6c                w 0.805813789368
+00004f70            member(22)::Vec4
+00004f70                x 0.628799319267
+00004f74                y 0.16108135879
+00004f78                z 0.8708974123
+00004f7c                w 0.119354911149
+00004f80            member(23)::Vec4
+00004f80                x 0.24856364727
+00004f84                y 0.782929420471
+00004f88                z 0.585788369179
+00004f8c                w 0.664960503578
+00004f90            member(24)::Vec4
+00004f90                x 0.287925511599
+00004f94                y 0.784113287926
+00004f98                z 0.535700261593
+00004f9c                w 0.664201557636
+00004fa0            member(25)::Vec4
+00004fa0                x 0.705061674118
+00004fa4                y 0.141161799431
+00004fa8                z 0.788512468338
+00004fac                w 0.104568317533
+00004fb0            member(26)::Vec4
+00004fb0                x 0.0516994260252
+00004fb4                y 0.502249956131
+00004fb8                z 0.452048003674
+00004fbc                w 0.734108805656
+00004fc0            member(27)::Vec4
+00004fc0                x 0.399616807699
+00004fc4                y 0.612320721149
+00004fc8                z 0.521816432476
+00004fcc                w 0.331242859364
+00004fd0            member(28)::Vec4
+00004fd0                x 0.0800195783377
+00004fd4                y 0.538392901421
+00004fd8                z 0.422519445419
+00004fdc                w 0.798766851425
+00004fe0            member(29)::Vec4
+00004fe0                x 0.375451207161
+00004fe4                y 0.616833150387
+00004fe8                z 0.551232516766
+00004fec                w 0.339797437191
+00004ff0            member(30)::Vec4
+00004ff0                x 0.621907353401
+00004ff4                y 0.0902953594923
+00004ff8                z 0.878342628479
+00004ffc                w 0.0668095201254
+00005000            member(31)::Vec4
+00005000                x 0.607553422451
+00005004                y 0.14823526144
+00005008                z 0.893849015236
+0000500c                w 0.1098190099
+00005010            member(32)::Vec4
+00005010                x 0.797394871712
+00005014                y 0.228602588177
+00005018                z 0.126854225993
+0000501c                w 0.409797519445
+00005020            member(33)::Vec4
+00005020                x 0.884892404079
+00005024                y 0.19039209187
+00005028                z 0.0218056105077
+0000502c                w 0.352447748184
+00005030            member(34)::Vec4
+00005030                x 0.452036112547
+00005034                y 0.457515567541
+00005038                z 0.206701427698
+0000503c                w 0.487210631371
+00005040            member(35)::Vec4
+00005040                x 0.380513131618
+00005044                y 0.467412382364
+00005048                z 0.295760303736
+0000504c                w 0.499734580517
+00005050            member(36)::Vec4
+00005050                x 0.598166882992
+00005054                y 0.13989380002
+00005058                z 0.903989076614
+0000505c                w 0.103627026081
+00005060            member(37)::Vec4
+00005060                x 0.622445344925
+00005064                y 0.074196383357
+00005068                z 0.877761363983
+0000506c                w 0.0548590160906
+00005070            member(38)::Vec4
+00005070                x 0.620320439339
+00005074                y 0.16507896781
+00005078                z 0.880056917667
+0000507c                w 0.122322410345
+00005080            member(39)::Vec4
+00005080                x 0.666480660439
+00005084                y 0.147174656391
+00005088                z 0.830190956593
+0000508c                w 0.109031736851
+00005090            member(40)::Vec4
+00005090                x 0.426005721092
+00005094                y 0.615126848221
+00005098                z 0.489452302456
+0000509c                w 0.334027767181
+000050a0            member(41)::Vec4
+000050a0                x 0.0529275983572
+000050a4                y 0.53135573864
+000050a8                z 0.449515372515
+000050ac                w 0.7857619524
+000050b0            member(42)::Vec4
+000050b0                x 0.212544620037
+000050b4                y 0.769266366959
+000050b8                z 0.628873944283
+000050bc                w 0.642108798027
+00003ff4    InterfaceDescriptorData 00000015
+00003fec        $::DynamicDataContainer
+00003fec            $::DataContainer
+00003ff4            Fields *nullArray*
+00003ff8        InputEvents::array
+000050c4            member(0)::DynamicEvent
+000050c4                Id -274579609
+00003ffc        OutputEvents::array
+000050cc            member(0)::DynamicEvent
+000050cc                Id -101704476
+000050d0            member(1)::DynamicEvent
+000050d0                Id 938719574
+00004000        InputLinks *nullArray*
+00004004        OutputLinks *nullArray*

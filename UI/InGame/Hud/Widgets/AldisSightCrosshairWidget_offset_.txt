@@ -1,0 +1,241 @@
+000014d0    UIWidgetBlueprint 250adb2d0ea34f419ba245420d9455c6
+000014c8        $::ObjectBlueprint
+000014c8            $::Blueprint
+000014c8                $::EntityBusData
+000014c8                    $::DataBusData
+000014c8                        $::Asset
+000014c8                            $::DataContainer
+000014d0                            Name UI/Ingame/Hud/Widgets/AldisSightCrosshairWidget
+000014d4                        PropertyConnections *nullArray*
+000014d8                        LinkConnections *nullArray*
+000014dc                        Interface *nullGuid*
+000014e0                        Flags 0
+000014e4                    EventConnections *nullArray*
+000014e8            Object 00000002
+000014f0    BFUIElementBitmapEntityData 00000000
+000014f0        $::BFUIElementEntityData
+000014f0            $::UIElementEntityData
+000014f0                $::EntityData
+000014f0                    $::GameObjectData
+000014f0                        $::DataBusPeer
+000014f0                            $::GameDataContainer
+000014f0                                $::DataContainer
+000014f8                            Flags 0
+000014fc                InstanceName CenteredBitmap
+00001500                UIElementTransform::UIElementTransform
+00001500                    Rotation::Vec3
+00001500                        x 0.0
+00001504                        y 0.0
+00001508                        z 0.0
+00001510                    RotationPivot::Vec3
+00001510                        x 0.5
+00001514                        y 0.5
+00001518                        z 0.0
+00001520                    Z 0.0
+00001530                Color::Vec3
+00001530                    x 1.0
+00001534                    y 1.0
+00001538                    z 1.0
+00001540                Transform::LinearTransform
+00001540                    right::Vec3
+00001540                        x 1.0
+00001544                        y 0.0
+00001548                        z 0.0
+00001550                    up::Vec3
+00001550                        x 0.0
+00001554                        y 1.0
+00001558                        z 0.0
+00001560                    forward::Vec3
+00001560                        x 0.0
+00001564                        y 0.0
+00001568                        z 1.0
+00001570                    trans::Vec3
+00001570                        x 0.0
+00001574                        y 0.0
+00001578                        z 0.0
+00001580                InstanceNameHash 3932416140
+00001584                Size::Vec2
+00001584                    x 40.0
+00001588                    y 40.0
+0000158c                LayoutMode UILayoutMode_AnchorOffset
+00001590                Offset::UIElementOffset
+00001590                    X 0.0
+00001594                    Y 0.0
+00001598                Anchor::UIElementAnchor
+00001598                    X 0.5
+0000159c                    Y 0.5
+000015a0                Position::UIElementOffset
+000015a0                    X 0.0
+000015a4                    Y 0.0
+000015a8                Expansion::UIElementRectExpansion
+000015a8                    X 0.0
+000015ac                    Y 0.0
+000015b0                    Width 0.0
+000015b4                    Height 0.0
+000015b8                Alpha 1.0
+000015bc                Visible True
+000015c0            CustomLayout::BFUICustomLayout
+000015c0                SnapSettings::BFUISnapLayoutSettings
+000015c0                    Left BFUISnapLayoutMode_Default
+000015c4                    Right BFUISnapLayoutMode_Default
+000015c8                    Top BFUISnapLayoutMode_Default
+000015cc                    Bottom BFUISnapLayoutMode_Default
+000015d0                OverrideDefaultLayout False
+000015e0        UVRect::Vec4
+000015e0            x 0.0
+000015e4            y 0.0
+000015e8            z 1.0
+000015ec            w 1.0
+000015f0        TextureSource::UITextureSource
+000015f0            UVRect::Vec4
+000015f0                x 0.0
+000015f4                y 0.0
+000015f8                z 1.0
+000015fc                w 1.0
+00001600        TextureId crosshair_smallcircle
+00001604        DynamicTextureId *nullString*
+00001608        BlendMode UIBlendMode_Add
+0000160c        ZOrder 0
+00001610        KeepSourceScale False
+00001611        KeepSourceAspectRatio False
+00001612        AutoSizeHorizontally False
+00001613        AutoSizeVertically False
+00001614        UseColorAsOverlay False
+00001615        OverrideBlendMode True
+00001616        InvertColor False
+00001620    BFUIElementBitmapEntityData 00000001
+00001620        $::BFUIElementEntityData
+00001620            $::UIElementEntityData
+00001620                $::EntityData
+00001620                    $::GameObjectData
+00001620                        $::DataBusPeer
+00001620                            $::GameDataContainer
+00001620                                $::DataContainer
+00001628                            Flags 0
+0000162c                InstanceName LargeCircle
+00001630                UIElementTransform::UIElementTransform
+00001630                    Rotation::Vec3
+00001630                        x 0.0
+00001634                        y 0.0
+00001638                        z 0.0
+00001640                    RotationPivot::Vec3
+00001640                        x 0.5
+00001644                        y 0.5
+00001648                        z 0.0
+00001650                    Z 0.0
+00001660                Color::Vec3
+00001660                    x 1.0
+00001664                    y 1.0
+00001668                    z 1.0
+00001670                Transform::LinearTransform
+00001670                    right::Vec3
+00001670                        x 1.0
+00001674                        y 0.0
+00001678                        z 0.0
+00001680                    up::Vec3
+00001680                        x 0.0
+00001684                        y 1.0
+00001688                        z 0.0
+00001690                    forward::Vec3
+00001690                        x 0.0
+00001694                        y 0.0
+00001698                        z 1.0
+000016a0                    trans::Vec3
+000016a0                        x 0.0
+000016a4                        y 0.0
+000016a8                        z 0.0
+000016b0                InstanceNameHash 3589187050
+000016b4                Size::Vec2
+000016b4                    x 50.0
+000016b8                    y 50.0
+000016bc                LayoutMode UILayoutMode_AnchorOffset
+000016c0                Offset::UIElementOffset
+000016c0                    X 0.0
+000016c4                    Y 0.0
+000016c8                Anchor::UIElementAnchor
+000016c8                    X 0.5
+000016cc                    Y 0.5
+000016d0                Position::UIElementOffset
+000016d0                    X 0.0
+000016d4                    Y 0.0
+000016d8                Expansion::UIElementRectExpansion
+000016d8                    X 0.0
+000016dc                    Y 0.0
+000016e0                    Width 0.0
+000016e4                    Height 0.0
+000016e8                Alpha 0.40000000596
+000016ec                Visible True
+000016f0            CustomLayout::BFUICustomLayout
+000016f0                SnapSettings::BFUISnapLayoutSettings
+000016f0                    Left BFUISnapLayoutMode_Default
+000016f4                    Right BFUISnapLayoutMode_Default
+000016f8                    Top BFUISnapLayoutMode_Default
+000016fc                    Bottom BFUISnapLayoutMode_Default
+00001700                OverrideDefaultLayout False
+00001710        UVRect::Vec4
+00001710            x 0.0
+00001714            y 0.0
+00001718            z 1.0
+0000171c            w 1.0
+00001720        TextureSource::UITextureSource
+00001720            UVRect::Vec4
+00001720                x 0.0
+00001724                y 0.0
+00001728                z 1.0
+0000172c                w 1.0
+00001730        TextureId crosshair_largecircle
+00001734        DynamicTextureId *nullString*
+00001738        BlendMode UIBlendMode_Add
+0000173c        ZOrder 0
+00001740        KeepSourceScale False
+00001741        KeepSourceAspectRatio False
+00001742        AutoSizeHorizontally False
+00001743        AutoSizeVertically False
+00001744        UseColorAsOverlay False
+00001745        OverrideBlendMode True
+00001746        InvertColor False
+00001750    BFUIWidgetEntityData 00000002
+00001748        $::UIWidgetEntityData
+00001748            $::EntityData
+00001748                $::GameObjectData
+00001748                    $::DataBusPeer
+00001748                        $::GameDataContainer
+00001748                            $::DataContainer
+00001750                        Flags 168297271
+00001754            Size::UIElementSize
+00001754                X 256.0
+00001758                Y 256.0
+0000175c            Layers::array
+000017a4                member(0) 00000003
+00001760            TextureMappings::array
+000017ac                member(0) UI/Ingame/Hud/TextureMappings/CrosshairTextures/81095cef6d3e2cba475cd1f465348883
+00001764            Components *nullArray*
+00001768            Visible True
+0000176c        CustomLayout::BFUICustomLayout
+0000176c            SnapSettings::BFUISnapLayoutSettings
+0000176c                Left BFUISnapLayoutMode_Default
+00001770                Right BFUISnapLayoutMode_Default
+00001774                Top BFUISnapLayoutMode_Default
+00001778                Bottom BFUISnapLayoutMode_Default
+0000177c            OverrideDefaultLayout False
+00001780        UseStencilMask False
+00001781        UseInputStencilMask False
+00001782        InputEnabled True
+00001784    UIElementLayerEntityData 00000003
+0000177c        $::EntityData
+0000177c            $::GameObjectData
+0000177c                $::DataBusPeer
+0000177c                    $::GameDataContainer
+0000177c                        $::DataContainer
+00001784                    Flags 0
+00001788        LayerName Layer
+0000178c        Elements::array
+000017b4            member(0) 00000000
+000017b8            member(1) 00000001
+00001790        InclusionSettings::UIElementInclusionSettings
+00001790            CustomInclusionCritera *nullArray*
+00001794            IsSingleplayerLayer True
+00001795            IsMultiplayerLayer True
+00001796            IsSDLayer True
+00001797            IsHDLayer True
+00001798        Visible True

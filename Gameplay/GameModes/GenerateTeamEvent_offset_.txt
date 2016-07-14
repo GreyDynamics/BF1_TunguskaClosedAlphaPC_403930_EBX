@@ -1,0 +1,105 @@
+00000ec0    LogicPrefabBlueprint 0528884eed6192d5d9d5d33f05767a7b
+00000eb8        $::PrefabBlueprint
+00000eb8            $::Blueprint
+00000eb8                $::EntityBusData
+00000eb8                    $::DataBusData
+00000eb8                        $::Asset
+00000eb8                            $::DataContainer
+00000ec0                            Name Gameplay/GameModes/GenerateTeamEvent
+00000ec4                        PropertyConnections *nullArray*
+00000ec8                        LinkConnections *nullArray*
+00000ecc                        Interface 00000000
+00000ed0                        Flags 2
+00000ed4                    EventConnections::array
+00000f24                        member(0)::EventConnection
+00000f24                            Source 00000000
+00000f28                            Target 00000002
+00000f2c                            SourceEvent::EventSpec
+00000f2c                                Id 814308174
+00000f30                            TargetEvent::EventSpec
+00000f30                                Id 5862146
+00000f34                            TargetType EventConnectionTargetType_Client
+00000f38                        member(1)::EventConnection
+00000f38                            Source 00000000
+00000f3c                            Target 00000001
+00000f40                            SourceEvent::EventSpec
+00000f40                                Id 814308174
+00000f44                            TargetEvent::EventSpec
+00000f44                                Id 5862146
+00000f48                            TargetType EventConnectionTargetType_Client
+00000f4c                        member(2)::EventConnection
+00000f4c                            Source 00000002
+00000f50                            Target 00000000
+00000f54                            SourceEvent::EventSpec
+00000f54                                Id -332763188
+00000f58                            TargetEvent::EventSpec
+00000f58                                Id 227737705
+00000f5c                            TargetType EventConnectionTargetType_Client
+00000f60                        member(3)::EventConnection
+00000f60                            Source 00000002
+00000f64                            Target 00000000
+00000f68                            SourceEvent::EventSpec
+00000f68                                Id -332763188
+00000f6c                            TargetEvent::EventSpec
+00000f6c                                Id 193442660
+00000f70                            TargetType EventConnectionTargetType_Client
+00000f74                        member(4)::EventConnection
+00000f74                            Source 00000001
+00000f78                            Target 00000000
+00000f7c                            SourceEvent::EventSpec
+00000f7c                                Id -332763188
+00000f80                            TargetEvent::EventSpec
+00000f80                                Id 227737706
+00000f84                            TargetType EventConnectionTargetType_Client
+00000f88                        member(5)::EventConnection
+00000f88                            Source 00000001
+00000f8c                            Target 00000000
+00000f90                            SourceEvent::EventSpec
+00000f90                                Id -332763188
+00000f94                            TargetEvent::EventSpec
+00000f94                                Id 193442660
+00000f98                            TargetType EventConnectionTargetType_Client
+00000ed8            Objects::array
+00000fa0                member(0) 00000002
+00000fa4                member(1) 00000001
+00000edc            TimeDeltaType TimeDeltaType_None
+00000ee0    InterfaceDescriptorData 00000000
+00000ed8        $::DynamicDataContainer
+00000ed8            $::DataContainer
+00000ee0            Fields *nullArray*
+00000ee4        InputEvents::array
+00000fac            member(0)::DynamicEvent
+00000fac                Id 814308174
+00000ee8        OutputEvents::array
+00000fb4            member(0)::DynamicEvent
+00000fb4                Id 227737705
+00000fb8            member(1)::DynamicEvent
+00000fb8                Id 227737706
+00000fbc            member(2)::DynamicEvent
+00000fbc                Id 193442660
+00000eec        InputLinks *nullArray*
+00000ef0        OutputLinks *nullArray*
+00000ef4    TeamFilterEntityData 00000001
+00000eec        $::EntityData
+00000eec            $::GameObjectData
+00000eec                $::DataBusPeer
+00000eec                    $::GameDataContainer
+00000eec                        $::DataContainer
+00000ef4                    Flags 61952094
+00000ef8        Realm Realm_Client
+00000efc        Team Team2
+00000f00        InvertFilter False
+00000f01        GenerateEventForEveryMatchingTeamMember True
+00000f02        GetTeamFromPlayerEvent False
+00000f04    TeamFilterEntityData 00000002
+00000efc        $::EntityData
+00000efc            $::GameObjectData
+00000efc                $::DataBusPeer
+00000efc                    $::GameDataContainer
+00000efc                        $::DataContainer
+00000f04                    Flags 50337008
+00000f08        Realm Realm_Client
+00000f0c        Team Team1
+00000f10        InvertFilter False
+00000f11        GenerateEventForEveryMatchingTeamMember True
+00000f12        GetTeamFromPlayerEvent False

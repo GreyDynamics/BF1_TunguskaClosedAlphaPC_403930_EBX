@@ -1,0 +1,981 @@
+00001820    UIWidgetBlueprint 553e61af6f12a54c9dec2e2659a9f412
+00001818        $::ObjectBlueprint
+00001818            $::Blueprint
+00001818                $::EntityBusData
+00001818                    $::DataBusData
+00001818                        $::Asset
+00001818                            $::DataContainer
+00001820                            Name UI/Ingame/Hud/Widgets/RocketAmmoCrosshairWidget
+00001824                        PropertyConnections::array
+00002364                            member(0)::PropertyConnection
+00002364                                Source 0000000a
+00002368                                Target 00000002
+0000236c                                SourceFieldId -667785379
+00002370                                TargetFieldId 901540267
+00002374                                Flags 2
+00002378                            member(1)::PropertyConnection
+00002378                                Source 0000000a
+0000237c                                Target 00000001
+00002380                                SourceFieldId -667785380
+00002384                                TargetFieldId 901540267
+00002388                                Flags 2
+0000238c                            member(2)::PropertyConnection
+0000238c                                Source 0000000a
+00002390                                Target 00000003
+00002394                                SourceFieldId -667785378
+00002398                                TargetFieldId 901540267
+0000239c                                Flags 2
+000023a0                            member(3)::PropertyConnection
+000023a0                                Source 0000000a
+000023a4                                Target 00000005
+000023a8                                SourceFieldId -667785381
+000023ac                                TargetFieldId 901540267
+000023b0                                Flags 2
+000023b4                            member(4)::PropertyConnection
+000023b4                                Source 0000000a
+000023b8                                Target 00000007
+000023bc                                SourceFieldId -667785382
+000023c0                                TargetFieldId 901540267
+000023c4                                Flags 2
+000023c8                            member(5)::PropertyConnection
+000023c8                                Source 0000000a
+000023cc                                Target 00000000
+000023d0                                SourceFieldId -667785383
+000023d4                                TargetFieldId 901540267
+000023d8                                Flags 2
+000023dc                            member(6)::PropertyConnection
+000023dc                                Source 0000000a
+000023e0                                Target 00000008
+000023e4                                SourceFieldId -667785384
+000023e8                                TargetFieldId 901540267
+000023ec                                Flags 2
+000023f0                            member(7)::PropertyConnection
+000023f0                                Source 0000000a
+000023f4                                Target 00000006
+000023f8                                SourceFieldId -667785385
+000023fc                                TargetFieldId 901540267
+00002400                                Flags 2
+00001828                        LinkConnections *nullArray*
+0000182c                        Interface 0000000a
+00001830                        Flags 14
+00001834                    EventConnections *nullArray*
+00001838            Object 00000009
+00001840    BFUIElementBitmapEntityData 00000000
+00001840        $::BFUIElementEntityData
+00001840            $::UIElementEntityData
+00001840                $::EntityData
+00001840                    $::GameObjectData
+00001840                        $::DataBusPeer
+00001840                            $::GameDataContainer
+00001840                                $::DataContainer
+00001848                            Flags 134217728
+0000184c                InstanceName Rocket Ammo 6
+00001850                UIElementTransform::UIElementTransform
+00001850                    Rotation::Vec3
+00001850                        x 0.0
+00001854                        y 0.0
+00001858                        z 0.0
+00001860                    RotationPivot::Vec3
+00001860                        x 0.5
+00001864                        y 0.5
+00001868                        z 0.0
+00001870                    Z 0.0
+00001880                Color::Vec3
+00001880                    x 1.0
+00001884                    y 1.0
+00001888                    z 1.0
+00001890                Transform::LinearTransform
+00001890                    right::Vec3
+00001890                        x 1.0
+00001894                        y 0.0
+00001898                        z 0.0
+000018a0                    up::Vec3
+000018a0                        x 0.0
+000018a4                        y 1.0
+000018a8                        z 0.0
+000018b0                    forward::Vec3
+000018b0                        x 0.0
+000018b4                        y 0.0
+000018b8                        z 1.0
+000018c0                    trans::Vec3
+000018c0                        x 0.0
+000018c4                        y 0.0
+000018c8                        z 0.0
+000018d0                InstanceNameHash 2853849369
+000018d4                Size::Vec2
+000018d4                    x 16.0
+000018d8                    y 16.0
+000018dc                LayoutMode UILayoutMode_AnchorOffset
+000018e0                Offset::UIElementOffset
+000018e0                    X 45.0
+000018e4                    Y 5.0
+000018e8                Anchor::UIElementAnchor
+000018e8                    X 0.5
+000018ec                    Y 0.5
+000018f0                Position::UIElementOffset
+000018f0                    X 0.0
+000018f4                    Y 0.0
+000018f8                Expansion::UIElementRectExpansion
+000018f8                    X 0.0
+000018fc                    Y 0.0
+00001900                    Width 0.0
+00001904                    Height 0.0
+00001908                Alpha 0.40000000596
+0000190c                Visible True
+00001910            CustomLayout::BFUICustomLayout
+00001910                SnapSettings::BFUISnapLayoutSettings
+00001910                    Left BFUISnapLayoutMode_Default
+00001914                    Right BFUISnapLayoutMode_Default
+00001918                    Top BFUISnapLayoutMode_Default
+0000191c                    Bottom BFUISnapLayoutMode_Default
+00001920                OverrideDefaultLayout False
+00001930        UVRect::Vec4
+00001930            x 0.0
+00001934            y 0.0
+00001938            z 1.0
+0000193c            w 1.0
+00001940        TextureSource::UITextureSource
+00001940            UVRect::Vec4
+00001940                x 0.0
+00001944                y 0.0
+00001948                z 1.0
+0000194c                w 1.0
+00001950        TextureId crosshair_dot
+00001954        DynamicTextureId *nullString*
+00001958        BlendMode UIBlendMode_Add
+0000195c        ZOrder 0
+00001960        KeepSourceScale True
+00001961        KeepSourceAspectRatio False
+00001962        AutoSizeHorizontally False
+00001963        AutoSizeVertically False
+00001964        UseColorAsOverlay False
+00001965        OverrideBlendMode True
+00001966        InvertColor False
+00001970    BFUIElementBitmapEntityData 00000001
+00001970        $::BFUIElementEntityData
+00001970            $::UIElementEntityData
+00001970                $::EntityData
+00001970                    $::GameObjectData
+00001970                        $::DataBusPeer
+00001970                            $::GameDataContainer
+00001970                                $::DataContainer
+00001978                            Flags 134217728
+0000197c                InstanceName Rocket Ammo 3
+00001980                UIElementTransform::UIElementTransform
+00001980                    Rotation::Vec3
+00001980                        x 0.0
+00001984                        y 0.0
+00001988                        z 0.0
+00001990                    RotationPivot::Vec3
+00001990                        x 0.5
+00001994                        y 0.5
+00001998                        z 0.0
+000019a0                    Z 0.0
+000019b0                Color::Vec3
+000019b0                    x 1.0
+000019b4                    y 1.0
+000019b8                    z 1.0
+000019c0                Transform::LinearTransform
+000019c0                    right::Vec3
+000019c0                        x 1.0
+000019c4                        y 0.0
+000019c8                        z 0.0
+000019d0                    up::Vec3
+000019d0                        x 0.0
+000019d4                        y 1.0
+000019d8                        z 0.0
+000019e0                    forward::Vec3
+000019e0                        x 0.0
+000019e4                        y 0.0
+000019e8                        z 1.0
+000019f0                    trans::Vec3
+000019f0                        x 0.0
+000019f4                        y 0.0
+000019f8                        z 0.0
+00001a00                InstanceNameHash 2853849372
+00001a04                Size::Vec2
+00001a04                    x 16.0
+00001a08                    y 16.0
+00001a0c                LayoutMode UILayoutMode_AnchorOffset
+00001a10                Offset::UIElementOffset
+00001a10                    X -45.0
+00001a14                    Y -5.0
+00001a18                Anchor::UIElementAnchor
+00001a18                    X 0.5
+00001a1c                    Y 0.5
+00001a20                Position::UIElementOffset
+00001a20                    X 0.0
+00001a24                    Y 0.0
+00001a28                Expansion::UIElementRectExpansion
+00001a28                    X 0.0
+00001a2c                    Y 0.0
+00001a30                    Width 0.0
+00001a34                    Height 0.0
+00001a38                Alpha 0.40000000596
+00001a3c                Visible True
+00001a40            CustomLayout::BFUICustomLayout
+00001a40                SnapSettings::BFUISnapLayoutSettings
+00001a40                    Left BFUISnapLayoutMode_Default
+00001a44                    Right BFUISnapLayoutMode_Default
+00001a48                    Top BFUISnapLayoutMode_Default
+00001a4c                    Bottom BFUISnapLayoutMode_Default
+00001a50                OverrideDefaultLayout False
+00001a60        UVRect::Vec4
+00001a60            x 0.0
+00001a64            y 0.0
+00001a68            z 1.0
+00001a6c            w 1.0
+00001a70        TextureSource::UITextureSource
+00001a70            UVRect::Vec4
+00001a70                x 0.0
+00001a74                y 0.0
+00001a78                z 1.0
+00001a7c                w 1.0
+00001a80        TextureId crosshair_dot
+00001a84        DynamicTextureId *nullString*
+00001a88        BlendMode UIBlendMode_Add
+00001a8c        ZOrder 0
+00001a90        KeepSourceScale True
+00001a91        KeepSourceAspectRatio False
+00001a92        AutoSizeHorizontally False
+00001a93        AutoSizeVertically False
+00001a94        UseColorAsOverlay False
+00001a95        OverrideBlendMode True
+00001a96        InvertColor False
+00001aa0    BFUIElementBitmapEntityData 00000002
+00001aa0        $::BFUIElementEntityData
+00001aa0            $::UIElementEntityData
+00001aa0                $::EntityData
+00001aa0                    $::GameObjectData
+00001aa0                        $::DataBusPeer
+00001aa0                            $::GameDataContainer
+00001aa0                                $::DataContainer
+00001aa8                            Flags 134217728
+00001aac                InstanceName Rocket Ammo 2
+00001ab0                UIElementTransform::UIElementTransform
+00001ab0                    Rotation::Vec3
+00001ab0                        x 0.0
+00001ab4                        y 0.0
+00001ab8                        z 0.0
+00001ac0                    RotationPivot::Vec3
+00001ac0                        x 0.5
+00001ac4                        y 0.5
+00001ac8                        z 0.0
+00001ad0                    Z 0.0
+00001ae0                Color::Vec3
+00001ae0                    x 1.0
+00001ae4                    y 1.0
+00001ae8                    z 1.0
+00001af0                Transform::LinearTransform
+00001af0                    right::Vec3
+00001af0                        x 1.0
+00001af4                        y 0.0
+00001af8                        z 0.0
+00001b00                    up::Vec3
+00001b00                        x 0.0
+00001b04                        y 1.0
+00001b08                        z 0.0
+00001b10                    forward::Vec3
+00001b10                        x 0.0
+00001b14                        y 0.0
+00001b18                        z 1.0
+00001b20                    trans::Vec3
+00001b20                        x 0.0
+00001b24                        y 0.0
+00001b28                        z 0.0
+00001b30                InstanceNameHash 2853849373
+00001b34                Size::Vec2
+00001b34                    x 16.0
+00001b38                    y 16.0
+00001b3c                LayoutMode UILayoutMode_AnchorOffset
+00001b40                Offset::UIElementOffset
+00001b40                    X 45.0
+00001b44                    Y -15.0
+00001b48                Anchor::UIElementAnchor
+00001b48                    X 0.5
+00001b4c                    Y 0.5
+00001b50                Position::UIElementOffset
+00001b50                    X 0.0
+00001b54                    Y 0.0
+00001b58                Expansion::UIElementRectExpansion
+00001b58                    X 0.0
+00001b5c                    Y 0.0
+00001b60                    Width 0.0
+00001b64                    Height 0.0
+00001b68                Alpha 0.40000000596
+00001b6c                Visible True
+00001b70            CustomLayout::BFUICustomLayout
+00001b70                SnapSettings::BFUISnapLayoutSettings
+00001b70                    Left BFUISnapLayoutMode_Default
+00001b74                    Right BFUISnapLayoutMode_Default
+00001b78                    Top BFUISnapLayoutMode_Default
+00001b7c                    Bottom BFUISnapLayoutMode_Default
+00001b80                OverrideDefaultLayout False
+00001b90        UVRect::Vec4
+00001b90            x 0.0
+00001b94            y 0.0
+00001b98            z 1.0
+00001b9c            w 1.0
+00001ba0        TextureSource::UITextureSource
+00001ba0            UVRect::Vec4
+00001ba0                x 0.0
+00001ba4                y 0.0
+00001ba8                z 1.0
+00001bac                w 1.0
+00001bb0        TextureId crosshair_dot
+00001bb4        DynamicTextureId *nullString*
+00001bb8        BlendMode UIBlendMode_Add
+00001bbc        ZOrder 0
+00001bc0        KeepSourceScale True
+00001bc1        KeepSourceAspectRatio False
+00001bc2        AutoSizeHorizontally False
+00001bc3        AutoSizeVertically False
+00001bc4        UseColorAsOverlay False
+00001bc5        OverrideBlendMode True
+00001bc6        InvertColor False
+00001bd0    BFUIElementBitmapEntityData 00000003
+00001bd0        $::BFUIElementEntityData
+00001bd0            $::UIElementEntityData
+00001bd0                $::EntityData
+00001bd0                    $::GameObjectData
+00001bd0                        $::DataBusPeer
+00001bd0                            $::GameDataContainer
+00001bd0                                $::DataContainer
+00001bd8                            Flags 134217728
+00001bdc                InstanceName Rocket Ammo 1
+00001be0                UIElementTransform::UIElementTransform
+00001be0                    Rotation::Vec3
+00001be0                        x 0.0
+00001be4                        y 0.0
+00001be8                        z 0.0
+00001bf0                    RotationPivot::Vec3
+00001bf0                        x 0.5
+00001bf4                        y 0.5
+00001bf8                        z 0.0
+00001c00                    Z 0.0
+00001c10                Color::Vec3
+00001c10                    x 1.0
+00001c14                    y 1.0
+00001c18                    z 1.0
+00001c20                Transform::LinearTransform
+00001c20                    right::Vec3
+00001c20                        x 1.0
+00001c24                        y 0.0
+00001c28                        z 0.0
+00001c30                    up::Vec3
+00001c30                        x 0.0
+00001c34                        y 1.0
+00001c38                        z 0.0
+00001c40                    forward::Vec3
+00001c40                        x 0.0
+00001c44                        y 0.0
+00001c48                        z 1.0
+00001c50                    trans::Vec3
+00001c50                        x 0.0
+00001c54                        y 0.0
+00001c58                        z 0.0
+00001c60                InstanceNameHash 2853849374
+00001c64                Size::Vec2
+00001c64                    x 16.0
+00001c68                    y 16.0
+00001c6c                LayoutMode UILayoutMode_AnchorOffset
+00001c70                Offset::UIElementOffset
+00001c70                    X -45.0
+00001c74                    Y -15.0
+00001c78                Anchor::UIElementAnchor
+00001c78                    X 0.5
+00001c7c                    Y 0.5
+00001c80                Position::UIElementOffset
+00001c80                    X 0.0
+00001c84                    Y 0.0
+00001c88                Expansion::UIElementRectExpansion
+00001c88                    X 0.0
+00001c8c                    Y 0.0
+00001c90                    Width 0.0
+00001c94                    Height 0.0
+00001c98                Alpha 0.40000000596
+00001c9c                Visible True
+00001ca0            CustomLayout::BFUICustomLayout
+00001ca0                SnapSettings::BFUISnapLayoutSettings
+00001ca0                    Left BFUISnapLayoutMode_Default
+00001ca4                    Right BFUISnapLayoutMode_Default
+00001ca8                    Top BFUISnapLayoutMode_Default
+00001cac                    Bottom BFUISnapLayoutMode_Default
+00001cb0                OverrideDefaultLayout False
+00001cc0        UVRect::Vec4
+00001cc0            x 0.0
+00001cc4            y 0.0
+00001cc8            z 1.0
+00001ccc            w 1.0
+00001cd0        TextureSource::UITextureSource
+00001cd0            UVRect::Vec4
+00001cd0                x 0.0
+00001cd4                y 0.0
+00001cd8                z 1.0
+00001cdc                w 1.0
+00001ce0        TextureId crosshair_dot
+00001ce4        DynamicTextureId *nullString*
+00001ce8        BlendMode UIBlendMode_Add
+00001cec        ZOrder 0
+00001cf0        KeepSourceScale True
+00001cf1        KeepSourceAspectRatio False
+00001cf2        AutoSizeHorizontally False
+00001cf3        AutoSizeVertically False
+00001cf4        UseColorAsOverlay False
+00001cf5        OverrideBlendMode True
+00001cf6        InvertColor False
+00001d00    BFUIElementBitmapEntityData 00000004
+00001d00        $::BFUIElementEntityData
+00001d00            $::UIElementEntityData
+00001d00                $::EntityData
+00001d00                    $::GameObjectData
+00001d00                        $::DataBusPeer
+00001d00                            $::GameDataContainer
+00001d00                                $::DataContainer
+00001d08                            Flags 0
+00001d0c                InstanceName RocketCrosshair
+00001d10                UIElementTransform::UIElementTransform
+00001d10                    Rotation::Vec3
+00001d10                        x 0.0
+00001d14                        y 0.0
+00001d18                        z 0.0
+00001d20                    RotationPivot::Vec3
+00001d20                        x 0.5
+00001d24                        y 0.5
+00001d28                        z 0.0
+00001d30                    Z 0.0
+00001d40                Color::Vec3
+00001d40                    x 1.0
+00001d44                    y 1.0
+00001d48                    z 1.0
+00001d50                Transform::LinearTransform
+00001d50                    right::Vec3
+00001d50                        x 1.0
+00001d54                        y 0.0
+00001d58                        z 0.0
+00001d60                    up::Vec3
+00001d60                        x 0.0
+00001d64                        y 1.0
+00001d68                        z 0.0
+00001d70                    forward::Vec3
+00001d70                        x 0.0
+00001d74                        y 0.0
+00001d78                        z 1.0
+00001d80                    trans::Vec3
+00001d80                        x 0.0
+00001d84                        y 0.0
+00001d88                        z 0.0
+00001d90                InstanceNameHash 2494437389
+00001d94                Size::Vec2
+00001d94                    x 64.0
+00001d98                    y 64.0
+00001d9c                LayoutMode UILayoutMode_AnchorOffset
+00001da0                Offset::UIElementOffset
+00001da0                    X 0.0
+00001da4                    Y 0.0
+00001da8                Anchor::UIElementAnchor
+00001da8                    X 0.5
+00001dac                    Y 0.5
+00001db0                Position::UIElementOffset
+00001db0                    X 0.0
+00001db4                    Y 0.0
+00001db8                Expansion::UIElementRectExpansion
+00001db8                    X 0.0
+00001dbc                    Y 0.0
+00001dc0                    Width 0.0
+00001dc4                    Height 0.0
+00001dc8                Alpha 0.699999988079
+00001dcc                Visible True
+00001dd0            CustomLayout::BFUICustomLayout
+00001dd0                SnapSettings::BFUISnapLayoutSettings
+00001dd0                    Left BFUISnapLayoutMode_Default
+00001dd4                    Right BFUISnapLayoutMode_Default
+00001dd8                    Top BFUISnapLayoutMode_Default
+00001ddc                    Bottom BFUISnapLayoutMode_Default
+00001de0                OverrideDefaultLayout False
+00001df0        UVRect::Vec4
+00001df0            x 0.0
+00001df4            y 0.0
+00001df8            z 1.0
+00001dfc            w 1.0
+00001e00        TextureSource::UITextureSource
+00001e00            UVRect::Vec4
+00001e00                x 0.0
+00001e04                y 0.0
+00001e08                z 1.0
+00001e0c                w 1.0
+00001e10        TextureId crosshair_rockets
+00001e14        DynamicTextureId *nullString*
+00001e18        BlendMode UIBlendMode_Add
+00001e1c        ZOrder 0
+00001e20        KeepSourceScale False
+00001e21        KeepSourceAspectRatio False
+00001e22        AutoSizeHorizontally False
+00001e23        AutoSizeVertically False
+00001e24        UseColorAsOverlay False
+00001e25        OverrideBlendMode True
+00001e26        InvertColor False
+00001e30    BFUIElementBitmapEntityData 00000005
+00001e30        $::BFUIElementEntityData
+00001e30            $::UIElementEntityData
+00001e30                $::EntityData
+00001e30                    $::GameObjectData
+00001e30                        $::DataBusPeer
+00001e30                            $::GameDataContainer
+00001e30                                $::DataContainer
+00001e38                            Flags 134217728
+00001e3c                InstanceName Rocket Ammo 4
+00001e40                UIElementTransform::UIElementTransform
+00001e40                    Rotation::Vec3
+00001e40                        x 0.0
+00001e44                        y 0.0
+00001e48                        z 0.0
+00001e50                    RotationPivot::Vec3
+00001e50                        x 0.5
+00001e54                        y 0.5
+00001e58                        z 0.0
+00001e60                    Z 0.0
+00001e70                Color::Vec3
+00001e70                    x 1.0
+00001e74                    y 1.0
+00001e78                    z 1.0
+00001e80                Transform::LinearTransform
+00001e80                    right::Vec3
+00001e80                        x 1.0
+00001e84                        y 0.0
+00001e88                        z 0.0
+00001e90                    up::Vec3
+00001e90                        x 0.0
+00001e94                        y 1.0
+00001e98                        z 0.0
+00001ea0                    forward::Vec3
+00001ea0                        x 0.0
+00001ea4                        y 0.0
+00001ea8                        z 1.0
+00001eb0                    trans::Vec3
+00001eb0                        x 0.0
+00001eb4                        y 0.0
+00001eb8                        z 0.0
+00001ec0                InstanceNameHash 2853849371
+00001ec4                Size::Vec2
+00001ec4                    x 16.0
+00001ec8                    y 16.0
+00001ecc                LayoutMode UILayoutMode_AnchorOffset
+00001ed0                Offset::UIElementOffset
+00001ed0                    X 45.0
+00001ed4                    Y -5.0
+00001ed8                Anchor::UIElementAnchor
+00001ed8                    X 0.5
+00001edc                    Y 0.5
+00001ee0                Position::UIElementOffset
+00001ee0                    X 0.0
+00001ee4                    Y 0.0
+00001ee8                Expansion::UIElementRectExpansion
+00001ee8                    X 0.0
+00001eec                    Y 0.0
+00001ef0                    Width 0.0
+00001ef4                    Height 0.0
+00001ef8                Alpha 0.40000000596
+00001efc                Visible True
+00001f00            CustomLayout::BFUICustomLayout
+00001f00                SnapSettings::BFUISnapLayoutSettings
+00001f00                    Left BFUISnapLayoutMode_Default
+00001f04                    Right BFUISnapLayoutMode_Default
+00001f08                    Top BFUISnapLayoutMode_Default
+00001f0c                    Bottom BFUISnapLayoutMode_Default
+00001f10                OverrideDefaultLayout False
+00001f20        UVRect::Vec4
+00001f20            x 0.0
+00001f24            y 0.0
+00001f28            z 1.0
+00001f2c            w 1.0
+00001f30        TextureSource::UITextureSource
+00001f30            UVRect::Vec4
+00001f30                x 0.0
+00001f34                y 0.0
+00001f38                z 1.0
+00001f3c                w 1.0
+00001f40        TextureId crosshair_dot
+00001f44        DynamicTextureId *nullString*
+00001f48        BlendMode UIBlendMode_Add
+00001f4c        ZOrder 0
+00001f50        KeepSourceScale True
+00001f51        KeepSourceAspectRatio False
+00001f52        AutoSizeHorizontally False
+00001f53        AutoSizeVertically False
+00001f54        UseColorAsOverlay False
+00001f55        OverrideBlendMode True
+00001f56        InvertColor False
+00001f60    BFUIElementBitmapEntityData 00000006
+00001f60        $::BFUIElementEntityData
+00001f60            $::UIElementEntityData
+00001f60                $::EntityData
+00001f60                    $::GameObjectData
+00001f60                        $::DataBusPeer
+00001f60                            $::GameDataContainer
+00001f60                                $::DataContainer
+00001f68                            Flags 134217728
+00001f6c                InstanceName Rocket Ammo 8
+00001f70                UIElementTransform::UIElementTransform
+00001f70                    Rotation::Vec3
+00001f70                        x 0.0
+00001f74                        y 0.0
+00001f78                        z 0.0
+00001f80                    RotationPivot::Vec3
+00001f80                        x 0.5
+00001f84                        y 0.5
+00001f88                        z 0.0
+00001f90                    Z 0.0
+00001fa0                Color::Vec3
+00001fa0                    x 1.0
+00001fa4                    y 1.0
+00001fa8                    z 1.0
+00001fb0                Transform::LinearTransform
+00001fb0                    right::Vec3
+00001fb0                        x 1.0
+00001fb4                        y 0.0
+00001fb8                        z 0.0
+00001fc0                    up::Vec3
+00001fc0                        x 0.0
+00001fc4                        y 1.0
+00001fc8                        z 0.0
+00001fd0                    forward::Vec3
+00001fd0                        x 0.0
+00001fd4                        y 0.0
+00001fd8                        z 1.0
+00001fe0                    trans::Vec3
+00001fe0                        x 0.0
+00001fe4                        y 0.0
+00001fe8                        z 0.0
+00001ff0                InstanceNameHash 2853849367
+00001ff4                Size::Vec2
+00001ff4                    x 16.0
+00001ff8                    y 16.0
+00001ffc                LayoutMode UILayoutMode_AnchorOffset
+00002000                Offset::UIElementOffset
+00002000                    X 45.0
+00002004                    Y 15.0
+00002008                Anchor::UIElementAnchor
+00002008                    X 0.5
+0000200c                    Y 0.5
+00002010                Position::UIElementOffset
+00002010                    X 0.0
+00002014                    Y 0.0
+00002018                Expansion::UIElementRectExpansion
+00002018                    X 0.0
+0000201c                    Y 0.0
+00002020                    Width 0.0
+00002024                    Height 0.0
+00002028                Alpha 0.40000000596
+0000202c                Visible True
+00002030            CustomLayout::BFUICustomLayout
+00002030                SnapSettings::BFUISnapLayoutSettings
+00002030                    Left BFUISnapLayoutMode_Default
+00002034                    Right BFUISnapLayoutMode_Default
+00002038                    Top BFUISnapLayoutMode_Default
+0000203c                    Bottom BFUISnapLayoutMode_Default
+00002040                OverrideDefaultLayout False
+00002050        UVRect::Vec4
+00002050            x 0.0
+00002054            y 0.0
+00002058            z 1.0
+0000205c            w 1.0
+00002060        TextureSource::UITextureSource
+00002060            UVRect::Vec4
+00002060                x 0.0
+00002064                y 0.0
+00002068                z 1.0
+0000206c                w 1.0
+00002070        TextureId crosshair_dot
+00002074        DynamicTextureId *nullString*
+00002078        BlendMode UIBlendMode_Add
+0000207c        ZOrder 0
+00002080        KeepSourceScale True
+00002081        KeepSourceAspectRatio False
+00002082        AutoSizeHorizontally False
+00002083        AutoSizeVertically False
+00002084        UseColorAsOverlay False
+00002085        OverrideBlendMode True
+00002086        InvertColor False
+00002090    BFUIElementBitmapEntityData 00000007
+00002090        $::BFUIElementEntityData
+00002090            $::UIElementEntityData
+00002090                $::EntityData
+00002090                    $::GameObjectData
+00002090                        $::DataBusPeer
+00002090                            $::GameDataContainer
+00002090                                $::DataContainer
+00002098                            Flags 134217728
+0000209c                InstanceName Rocket Ammo 5
+000020a0                UIElementTransform::UIElementTransform
+000020a0                    Rotation::Vec3
+000020a0                        x 0.0
+000020a4                        y 0.0
+000020a8                        z 0.0
+000020b0                    RotationPivot::Vec3
+000020b0                        x 0.5
+000020b4                        y 0.5
+000020b8                        z 0.0
+000020c0                    Z 0.0
+000020d0                Color::Vec3
+000020d0                    x 1.0
+000020d4                    y 1.0
+000020d8                    z 1.0
+000020e0                Transform::LinearTransform
+000020e0                    right::Vec3
+000020e0                        x 1.0
+000020e4                        y 0.0
+000020e8                        z 0.0
+000020f0                    up::Vec3
+000020f0                        x 0.0
+000020f4                        y 1.0
+000020f8                        z 0.0
+00002100                    forward::Vec3
+00002100                        x 0.0
+00002104                        y 0.0
+00002108                        z 1.0
+00002110                    trans::Vec3
+00002110                        x 0.0
+00002114                        y 0.0
+00002118                        z 0.0
+00002120                InstanceNameHash 2853849370
+00002124                Size::Vec2
+00002124                    x 16.0
+00002128                    y 16.0
+0000212c                LayoutMode UILayoutMode_AnchorOffset
+00002130                Offset::UIElementOffset
+00002130                    X -45.0
+00002134                    Y 5.0
+00002138                Anchor::UIElementAnchor
+00002138                    X 0.5
+0000213c                    Y 0.5
+00002140                Position::UIElementOffset
+00002140                    X 0.0
+00002144                    Y 0.0
+00002148                Expansion::UIElementRectExpansion
+00002148                    X 0.0
+0000214c                    Y 0.0
+00002150                    Width 0.0
+00002154                    Height 0.0
+00002158                Alpha 0.40000000596
+0000215c                Visible True
+00002160            CustomLayout::BFUICustomLayout
+00002160                SnapSettings::BFUISnapLayoutSettings
+00002160                    Left BFUISnapLayoutMode_Default
+00002164                    Right BFUISnapLayoutMode_Default
+00002168                    Top BFUISnapLayoutMode_Default
+0000216c                    Bottom BFUISnapLayoutMode_Default
+00002170                OverrideDefaultLayout False
+00002180        UVRect::Vec4
+00002180            x 0.0
+00002184            y 0.0
+00002188            z 1.0
+0000218c            w 1.0
+00002190        TextureSource::UITextureSource
+00002190            UVRect::Vec4
+00002190                x 0.0
+00002194                y 0.0
+00002198                z 1.0
+0000219c                w 1.0
+000021a0        TextureId crosshair_dot
+000021a4        DynamicTextureId *nullString*
+000021a8        BlendMode UIBlendMode_Add
+000021ac        ZOrder 0
+000021b0        KeepSourceScale True
+000021b1        KeepSourceAspectRatio False
+000021b2        AutoSizeHorizontally False
+000021b3        AutoSizeVertically False
+000021b4        UseColorAsOverlay False
+000021b5        OverrideBlendMode True
+000021b6        InvertColor False
+000021c0    BFUIElementBitmapEntityData 00000008
+000021c0        $::BFUIElementEntityData
+000021c0            $::UIElementEntityData
+000021c0                $::EntityData
+000021c0                    $::GameObjectData
+000021c0                        $::DataBusPeer
+000021c0                            $::GameDataContainer
+000021c0                                $::DataContainer
+000021c8                            Flags 134217728
+000021cc                InstanceName Rocket Ammo 7
+000021d0                UIElementTransform::UIElementTransform
+000021d0                    Rotation::Vec3
+000021d0                        x 0.0
+000021d4                        y 0.0
+000021d8                        z 0.0
+000021e0                    RotationPivot::Vec3
+000021e0                        x 0.5
+000021e4                        y 0.5
+000021e8                        z 0.0
+000021f0                    Z 0.0
+00002200                Color::Vec3
+00002200                    x 1.0
+00002204                    y 1.0
+00002208                    z 1.0
+00002210                Transform::LinearTransform
+00002210                    right::Vec3
+00002210                        x 1.0
+00002214                        y 0.0
+00002218                        z 0.0
+00002220                    up::Vec3
+00002220                        x 0.0
+00002224                        y 1.0
+00002228                        z 0.0
+00002230                    forward::Vec3
+00002230                        x 0.0
+00002234                        y 0.0
+00002238                        z 1.0
+00002240                    trans::Vec3
+00002240                        x 0.0
+00002244                        y 0.0
+00002248                        z 0.0
+00002250                InstanceNameHash 2853849368
+00002254                Size::Vec2
+00002254                    x 16.0
+00002258                    y 16.0
+0000225c                LayoutMode UILayoutMode_AnchorOffset
+00002260                Offset::UIElementOffset
+00002260                    X -45.0
+00002264                    Y 15.0
+00002268                Anchor::UIElementAnchor
+00002268                    X 0.5
+0000226c                    Y 0.5
+00002270                Position::UIElementOffset
+00002270                    X 0.0
+00002274                    Y 0.0
+00002278                Expansion::UIElementRectExpansion
+00002278                    X 0.0
+0000227c                    Y 0.0
+00002280                    Width 0.0
+00002284                    Height 0.0
+00002288                Alpha 0.40000000596
+0000228c                Visible True
+00002290            CustomLayout::BFUICustomLayout
+00002290                SnapSettings::BFUISnapLayoutSettings
+00002290                    Left BFUISnapLayoutMode_Default
+00002294                    Right BFUISnapLayoutMode_Default
+00002298                    Top BFUISnapLayoutMode_Default
+0000229c                    Bottom BFUISnapLayoutMode_Default
+000022a0                OverrideDefaultLayout False
+000022b0        UVRect::Vec4
+000022b0            x 0.0
+000022b4            y 0.0
+000022b8            z 1.0
+000022bc            w 1.0
+000022c0        TextureSource::UITextureSource
+000022c0            UVRect::Vec4
+000022c0                x 0.0
+000022c4                y 0.0
+000022c8                z 1.0
+000022cc                w 1.0
+000022d0        TextureId crosshair_dot
+000022d4        DynamicTextureId *nullString*
+000022d8        BlendMode UIBlendMode_Add
+000022dc        ZOrder 0
+000022e0        KeepSourceScale True
+000022e1        KeepSourceAspectRatio False
+000022e2        AutoSizeHorizontally False
+000022e3        AutoSizeVertically False
+000022e4        UseColorAsOverlay False
+000022e5        OverrideBlendMode True
+000022e6        InvertColor False
+000022f0    BFUIWidgetEntityData 00000009
+000022e8        $::UIWidgetEntityData
+000022e8            $::EntityData
+000022e8                $::GameObjectData
+000022e8                    $::DataBusPeer
+000022e8                        $::GameDataContainer
+000022e8                            $::DataContainer
+000022f0                        Flags 195070363
+000022f4            Size::UIElementSize
+000022f4                X 256.0
+000022f8                Y 256.0
+000022fc            Layers::array
+00002408                member(0) 0000000b
+00002300            TextureMappings::array
+00002410                member(0) UI/Ingame/Hud/TextureMappings/CrosshairTextures/81095cef6d3e2cba475cd1f465348883
+00002304            Components *nullArray*
+00002308            Visible True
+0000230c        CustomLayout::BFUICustomLayout
+0000230c            SnapSettings::BFUISnapLayoutSettings
+0000230c                Left BFUISnapLayoutMode_Default
+00002310                Right BFUISnapLayoutMode_Default
+00002314                Top BFUISnapLayoutMode_Default
+00002318                Bottom BFUISnapLayoutMode_Default
+0000231c            OverrideDefaultLayout False
+00002320        UseStencilMask False
+00002321        UseInputStencilMask False
+00002322        InputEnabled True
+00002324    InterfaceDescriptorData 0000000a
+0000231c        $::DynamicDataContainer
+0000231c            $::DataContainer
+00002324            Fields::array
+00002418                member(0)::DataField
+00002418                    Value *nullString*
+0000241c                    ValueRef *nullGuid*
+00002420                    Id -667785379
+00002424                    AccessType FieldAccessType_Target
+00002428                member(1)::DataField
+00002428                    Value *nullString*
+0000242c                    ValueRef *nullGuid*
+00002430                    Id -667785380
+00002434                    AccessType FieldAccessType_Target
+00002438                member(2)::DataField
+00002438                    Value *nullString*
+0000243c                    ValueRef *nullGuid*
+00002440                    Id -667785378
+00002444                    AccessType FieldAccessType_Target
+00002448                member(3)::DataField
+00002448                    Value *nullString*
+0000244c                    ValueRef *nullGuid*
+00002450                    Id -667785381
+00002454                    AccessType FieldAccessType_Target
+00002458                member(4)::DataField
+00002458                    Value *nullString*
+0000245c                    ValueRef *nullGuid*
+00002460                    Id -667785382
+00002464                    AccessType FieldAccessType_Target
+00002468                member(5)::DataField
+00002468                    Value *nullString*
+0000246c                    ValueRef *nullGuid*
+00002470                    Id -667785383
+00002474                    AccessType FieldAccessType_Target
+00002478                member(6)::DataField
+00002478                    Value *nullString*
+0000247c                    ValueRef *nullGuid*
+00002480                    Id -667785384
+00002484                    AccessType FieldAccessType_Target
+00002488                member(7)::DataField
+00002488                    Value *nullString*
+0000248c                    ValueRef *nullGuid*
+00002490                    Id -667785385
+00002494                    AccessType FieldAccessType_Target
+00002328        InputEvents *nullArray*
+0000232c        OutputEvents *nullArray*
+00002330        InputLinks *nullArray*
+00002334        OutputLinks *nullArray*
+00002338    UIElementLayerEntityData 0000000b
+00002330        $::EntityData
+00002330            $::GameObjectData
+00002330                $::DataBusPeer
+00002330                    $::GameDataContainer
+00002330                        $::DataContainer
+00002338                    Flags 0
+0000233c        LayerName Layer
+00002340        Elements::array
+0000249c            member(0) 00000003
+000024a0            member(1) 00000002
+000024a4            member(2) 00000001
+000024a8            member(3) 00000005
+000024ac            member(4) 00000007
+000024b0            member(5) 00000000
+000024b4            member(6) 00000008
+000024b8            member(7) 00000006
+000024bc            member(8) 00000004
+00002344        InclusionSettings::UIElementInclusionSettings
+00002344            CustomInclusionCritera *nullArray*
+00002348            IsSingleplayerLayer True
+00002349            IsMultiplayerLayer True
+0000234a            IsSDLayer True
+0000234b            IsHDLayer True
+0000234c        Visible True

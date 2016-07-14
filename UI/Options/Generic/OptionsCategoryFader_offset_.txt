@@ -1,0 +1,101 @@
+00001c70    LogicPrefabBlueprint 4a5df8c9faa116d1ad09d975cdee04e4
+00001c68        $::PrefabBlueprint
+00001c68            $::Blueprint
+00001c68                $::EntityBusData
+00001c68                    $::DataBusData
+00001c68                        $::Asset
+00001c68                            $::DataContainer
+00001c70                            Name UI/Options/Generic/OptionsCategoryFader
+00001c74                        PropertyConnections::array
+00001cf4                            member(0)::PropertyConnection
+00001cf4                                Source 00000002
+00001cf8                                Target 00000000
+00001cfc                                SourceFieldId 193453899
+00001d00                                TargetFieldId 5862146
+00001d04                                Flags 2
+00001d08                            member(1)::PropertyConnection
+00001d08                                Source 00000001
+00001d0c                                Target 00000002
+00001d10                                SourceFieldId -1810789047
+00001d14                                TargetFieldId 177607
+00001d18                                Flags 2
+00001d1c                            member(2)::PropertyConnection
+00001d1c                                Source 00000000
+00001d20                                Target 00000001
+00001d24                                SourceFieldId 193453899
+00001d28                                TargetFieldId 205677681
+00001d2c                                Flags 18
+00001c78                        LinkConnections *nullArray*
+00001c7c                        Interface 00000001
+00001c80                        Flags 14
+00001c84                    EventConnections *nullArray*
+00001c88            Objects::array
+00001d34                member(0) 00000002
+00001d38                member(1) 00000000
+00001c8c            TimeDeltaType TimeDeltaType_None
+00001c90    FloatInterpolatorEntityData 00000000
+00001c88        $::PropertyInterpolatorEntityData
+00001c88            $::EntityData
+00001c88                $::GameObjectData
+00001c88                    $::DataBusPeer
+00001c88                        $::GameDataContainer
+00001c88                            $::DataContainer
+00001c90                        Flags 141166915
+00001c94            Realm Realm_Client
+00001c98            InterpolationType PropertyInterpolationType_Cubic
+00001c9c            InterpolationMode PropertyInterpolationMode_EaseOut
+00001ca0            Duration 0.20000000298
+00001ca4            UseRealTimeClock True
+00001ca5            ForceFrameCorrectOutput False
+00001ca8        In 0.0
+00001cac        DefaultValue 0.0
+00001cb0        Velocity 1.0
+00001cb4        UseVelocity False
+00001cb8    InterfaceDescriptorData 00000001
+00001cb0        $::DynamicDataContainer
+00001cb0            $::DataContainer
+00001cb8            Fields::array
+00001d40                member(0)::DataField
+00001d40                    Value *nullString*
+00001d44                    ValueRef *nullGuid*
+00001d48                    Id -1810789047
+00001d4c                    AccessType FieldAccessType_Target
+00001d50                member(1)::DataField
+00001d50                    Value *nullString*
+00001d54                    ValueRef *nullGuid*
+00001d58                    Id 205677681
+00001d5c                    AccessType FieldAccessType_Source
+00001cbc        InputEvents *nullArray*
+00001cc0        OutputEvents *nullArray*
+00001cc4        InputLinks *nullArray*
+00001cc8        OutputLinks *nullArray*
+00001ccc    MathEntityData 00000002
+00001cc4        $::EntityData
+00001cc4            $::GameObjectData
+00001cc4                $::DataBusPeer
+00001cc4                    $::GameDataContainer
+00001cc4                        $::DataContainer
+00001ccc                    Flags 160088691
+00001cd0        Realm Realm_Client
+00001cd4        Assembly::MathEntityAssembly
+00001cd4            FunctionCalls::array
+00001d6c                member(0)::MathEntityFunctionCall
+00001d6c                    Parameters::array
+00001d64                        member(0) 0
+00001cd8            Instructions::array
+00001d74                member(0)::MathEntityInstruction
+00001d74                    Code MathOpCode_InputB
+00001d78                    Result 0
+00001d7c                    Param1 177607
+00001d80                    Param2 0
+00001d84                member(1)::MathEntityInstruction
+00001d84                    Code MathOpCode_Func
+00001d88                    Result 0
+00001d8c                    Param1 1358875319
+00001d90                    Param2 0
+00001d94                member(2)::MathEntityInstruction
+00001d94                    Code MathOpCode_Return
+00001d98                    Result 0
+00001d9c                    Param1 4
+00001da0                    Param2 0
+00001cdc        EvaluateOnEvent False

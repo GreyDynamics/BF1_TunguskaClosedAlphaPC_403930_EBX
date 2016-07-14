@@ -1,0 +1,235 @@
+00002360    UIWidgetBlueprint 9b2788b15c61ca3745d199f48d69dc2a
+00002358        $::ObjectBlueprint
+00002358            $::Blueprint
+00002358                $::EntityBusData
+00002358                    $::DataBusData
+00002358                        $::Asset
+00002358                            $::DataContainer
+00002360                            Name UI/InGame/Deploy/Widgets/UIBreakthroughDeploySectorsWidget
+00002364                        PropertyConnections::array
+00002514                            member(0)::PropertyConnection
+00002514                                Source 00000003
+00002518                                Target 00000004
+0000251c                                SourceFieldId 225375086
+00002520                                TargetFieldId 5862146
+00002524                                Flags 2
+00002528                            member(1)::PropertyConnection
+00002528                                Source 00000008
+0000252c                                Target 00000000
+00002530                                SourceFieldId -291319045
+00002534                                TargetFieldId -1298441311
+00002538                                Flags 2
+00002368                        LinkConnections *nullArray*
+0000236c                        Interface 00000006
+00002370                        Flags 2
+00002374                    EventConnections::array
+00002540                        member(0)::EventConnection
+00002540                            Source 00000002
+00002544                            Target 00000003
+00002548                            SourceEvent::EventSpec
+00002548                                Id 193453899
+0000254c                            TargetEvent::EventSpec
+0000254c                                Id -395651742
+00002550                            TargetType EventConnectionTargetType_Client
+00002554                        member(1)::EventConnection
+00002554                            Source 00000006
+00002558                            Target 00000002
+0000255c                            SourceEvent::EventSpec
+0000255c                                Id 2088909055
+00002560                            TargetEvent::EventSpec
+00002560                                Id 5862146
+00002564                            TargetType EventConnectionTargetType_Client
+00002378            Object 00000000
+00002380    UIBreakthroughDeploySectorsWidgetData 00000000
+00002380        $::UIShapeBaseData
+00002380            $::BFUIWidgetEntityData
+00002380                $::UIWidgetEntityData
+00002380                    $::EntityData
+00002380                        $::GameObjectData
+00002380                            $::DataBusPeer
+00002380                                $::GameDataContainer
+00002380                                    $::DataContainer
+00002388                                Flags 197784877
+0000238c                    Size::UIElementSize
+0000238c                        X 1920.0
+00002390                        Y 1080.0
+00002394                    Layers *nullArray*
+00002398                    TextureMappings *nullArray*
+0000239c                    Components::array
+0000256c                        member(0) 00000002
+00002570                        member(1) 00000003
+00002574                        member(2) 00000004
+00002578                        member(3) 00000008
+000023a0                    Visible True
+000023a4                CustomLayout::BFUICustomLayout
+000023a4                    SnapSettings::BFUISnapLayoutSettings
+000023a4                        Left BFUISnapLayoutMode_Default
+000023a8                        Right BFUISnapLayoutMode_Default
+000023ac                        Top BFUISnapLayoutMode_Default
+000023b0                        Bottom BFUISnapLayoutMode_Default
+000023b4                    OverrideDefaultLayout False
+000023b8                UseStencilMask False
+000023b9                UseInputStencilMask False
+000023ba                InputEnabled True
+000023bc            MasterFade 1.0
+000023c0            NumSubDivisions 1
+000023c4            LineWidth 1.5
+000023c8            LineAlpha 1.0
+000023cc        ProcectionType UIVisualWidgetType_DeployMap
+000023d0        ContestedColor::Vec3
+000023d0            x 1.0
+000023d4            y 1.0
+000023d8            z 1.0
+000023e0        ContestedSectorAlpha 0.0
+000023e4        FriendlySectorAlpha 0.0
+000023e8        EnemySectorAlpha 0.0
+000023ec        FriendlySectorNeighbouringContestedAlpha 0.0
+000023f0        EnemySectorNeighbouringContestedAlpha 0.0
+000023f4        LostSectorColorBlend 0.0
+000023f8        ProjectToVisualWidget False
+00002400    CurveData 00000001
+000023f8        $::DataContainer
+00002400        PreInfinity InfinityType_Constant
+00002404        PostInfinity InfinityType_Constant
+00002408        CurveType CurveType_Complex
+0000240c        Time::array
+00002580            member(0) 0.0
+00002584            member(1) 1.0
+00002588            member(2) 2.0
+00002410        Value::array
+00002590            member(0) 0.0
+00002594            member(1) 1.0
+00002598            member(2) 0.0
+00002414        InTanX::array
+000025a0            member(0) 1.0
+000025a4            member(1) 1.0
+000025a8            member(2) 1.0
+00002418        InTanY::array
+000025b0            member(0) 0.0
+000025b4            member(1) 0.0
+000025b8            member(2) 0.0
+0000241c        OutTanX::array
+000025c0            member(0) 1.0
+000025c4            member(1) 1.0
+000025c8            member(2) 1.0
+00002420        OutTanY::array
+000025d0            member(0) 0.0
+000025d4            member(1) 0.0
+000025d8            member(2) 0.0
+00002424        IsWeighted False
+00002428    DelayEntityData 00000002
+00002420        $::EntityData
+00002420            $::GameObjectData
+00002420                $::DataBusPeer
+00002420                    $::GameDataContainer
+00002420                        $::DataContainer
+00002428                    Flags 35044077
+0000242c        Delay 2.0
+00002430        Realm Realm_Client
+00002434        TimeDeltaType TimeDeltaType_World
+00002438        AutoStart False
+00002439        RunOnce False
+0000243a        RemoveDuplicateEvents True
+0000243c    FloatEntityData 00000003
+00002434        $::EntityData
+00002434            $::GameObjectData
+00002434                $::DataBusPeer
+00002434                    $::GameDataContainer
+00002434                        $::DataContainer
+0000243c                    Flags 43640592
+00002440        Realm Realm_Client
+00002444        DefaultValue 0.15000000596
+00002448        IncDecValue 0.15000000596
+0000244c    FloatInterpolatorEntityData 00000004
+00002444        $::PropertyInterpolatorEntityData
+00002444            $::EntityData
+00002444                $::GameObjectData
+00002444                    $::DataBusPeer
+00002444                        $::GameDataContainer
+00002444                            $::DataContainer
+0000244c                        Flags 138054144
+00002450            Realm Realm_Client
+00002454            InterpolationType PropertyInterpolationType_Quad
+00002458            InterpolationMode PropertyInterpolationMode_EaseOut
+0000245c            Duration 1.5
+00002460            UseRealTimeClock True
+00002461            ForceFrameCorrectOutput False
+00002464        In 0.0
+00002468        DefaultValue 0.15000000596
+0000246c        Velocity 1.0
+00002470        UseVelocity False
+00002474    FloatTrackData 00000005
+0000246c        $::PropertyTrackBaseData
+0000246c            $::SchematicPinTrackData
+0000246c                $::TimelineTrackData
+0000246c                    $::GameObjectData
+0000246c                        $::DataBusPeer
+0000246c                            $::GameDataContainer
+0000246c                                $::DataContainer
+00002474                            Flags 0
+00002478                    Conditions *nullArray*
+0000247c                    UpdatePassFlags 64
+0000247e                    BucketPreChildrenOrder 0
+00002480                    BucketOrder 1
+00002482                    ExposePins True
+00002483                    IsDisabled False
+00002484                SourcePinId -291319045
+00002488                TargetPinId 0
+0000248c                TargetPinNameHash 231633466
+00002490        CurveData 00000001
+00002494    InterfaceDescriptorData 00000006
+0000248c        $::DynamicDataContainer
+0000248c            $::DataContainer
+00002494            Fields *nullArray*
+00002498        InputEvents::array
+000025e0            member(0)::DynamicEvent
+000025e0                Id 2088909055
+0000249c        OutputEvents *nullArray*
+000024a0        InputLinks *nullArray*
+000024a4        OutputLinks *nullArray*
+000024a8    TimelineData 00000007
+000024a0        $::TimelineTrackData
+000024a0            $::GameObjectData
+000024a0                $::DataBusPeer
+000024a0                    $::GameDataContainer
+000024a0                        $::DataContainer
+000024a8                    Flags 0
+000024ac            Conditions *nullArray*
+000024b0            UpdatePassFlags 3072
+000024b2            BucketPreChildrenOrder 0
+000024b4            BucketOrder 2
+000024b6            ExposePins False
+000024b7            IsDisabled False
+000024b8        Children::array
+000025e8            member(0) 00000005
+000024bc    TimelineEntityData 00000008
+000024b4        $::EntityData
+000024b4            $::GameObjectData
+000024b4                $::DataBusPeer
+000024b4                    $::GameDataContainer
+000024b4                        $::DataContainer
+000024bc                    Flags 20293787
+000024c0        Realm Realm_Client
+000024c4        TimelineData 00000007
+000024c8        DeltaTimeClock Clock_SimTimeWithWorldDilation
+000024cc        BlendInTime 0.0
+000024d0        BlendOutTime 0.0
+000024d4        InitTime 0.0
+000024d8        StartTime 0.0
+000024dc        EndTime 2.0
+000024e0        JumpTime 0.0
+000024e4        PlaybackRate 1.0
+000024e8        ExternalTime 0.0
+000024ec        ExternalAudioTime 0.0
+000024f0        UpdatePassFlags 3136
+000024f2        AutoPlay True
+000024f3        AutoInitConnectedProperties False
+000024f4        ResetTimeOnStarted True
+000024f5        AllowAnimationCarryForward False
+000024f6        SyncTimelines False
+000024f7        HoldLastFrame True
+000024f8        TimelineInterpolation False
+000024f9        RuntimeFramerate 0
+000024fa        Looping True
+000024fb        Infinite True
+000024fc        IsNetworkedResource False

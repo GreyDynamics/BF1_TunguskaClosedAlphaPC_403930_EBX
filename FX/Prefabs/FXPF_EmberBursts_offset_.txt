@@ -1,0 +1,112 @@
+00001260    SpatialPrefabBlueprint 77cb763b9425fd71eb9aa94ff723d7b0
+00001258        $::PrefabBlueprint
+00001258            $::Blueprint
+00001258                $::EntityBusData
+00001258                    $::DataBusData
+00001258                        $::Asset
+00001258                            $::DataContainer
+00001260                            Name FX/Prefabs/FXPF_EmberBursts
+00001264                        PropertyConnections *nullArray*
+00001268                        LinkConnections *nullArray*
+0000126c                        Interface *nullGuid*
+00001270                        Flags 0
+00001274                    EventConnections::array
+00001354                        member(0)::EventConnection
+00001354                            Source 00000002
+00001358                            Target 00000000
+0000135c                            SourceEvent::EventSpec
+0000135c                                Id 193453899
+00001360                            TargetEvent::EventSpec
+00001360                                Id 230748069
+00001364                            TargetType EventConnectionTargetType_Client
+00001368                        member(1)::EventConnection
+00001368                            Source 00000002
+0000136c                            Target 00000001
+00001370                            SourceEvent::EventSpec
+00001370                                Id 193453899
+00001374                            TargetEvent::EventSpec
+00001374                                Id 5862146
+00001378                            TargetType EventConnectionTargetType_ClientAndServer
+0000137c                        member(2)::EventConnection
+0000137c                            Source 00000001
+00001380                            Target 00000002
+00001384                            SourceEvent::EventSpec
+00001384                                Id 193453899
+00001388                            TargetEvent::EventSpec
+00001388                                Id 5862146
+0000138c                            TargetType EventConnectionTargetType_ClientAndServer
+00001278            Objects::array
+00001394                member(0) 00000000
+00001398                member(1) 00000002
+0000139c                member(2) 00000001
+0000127c            TimeDeltaType TimeDeltaType_None
+00001280    EffectReferenceObjectData 00000000
+00001280        $::SpatialReferenceObjectData
+00001280            $::ReferenceObjectData
+00001280                $::GameObjectData
+00001280                    $::DataBusPeer
+00001280                        $::GameDataContainer
+00001280                            $::DataContainer
+00001288                        Flags 41544129
+0000128c                Blueprint FX/ambient/Warfare/FX_Wreck_Embers_Burst/6fe96d33dbbc1344bce03b17441f71c8
+00001290                BlueprintTransform::LinearTransform
+00001290                    right::Vec3
+00001290                        x 1.0
+00001294                        y 0.0
+00001298                        z 0.0
+000012a0                    up::Vec3
+000012a0                        x 0.0
+000012a4                        y 1.0
+000012a8                        z 0.0
+000012b0                    forward::Vec3
+000012b0                        x 0.0
+000012b4                        y 0.0
+000012b8                        z 1.0
+000012c0                    trans::Vec3
+000012c0                        x 0.0
+000012c4                        y 0.0
+000012c8                        z 0.0
+000012d0                ObjectVariation *nullGuid*
+000012d4                StreamRealm StreamRealm_None
+000012d8                RadiosityTypeOverride RadiosityTypeOverride_None
+000012dc                LightmapResolutionScale 1
+000012e0                RenderingOverrides::RenderingOverrides
+000012e0                    ShadowEnable RenderingOverride_Inherit
+000012e4                    DynamicReflectionEnable RenderingOverride_Inherit
+000012e8                    StaticReflectionEnable RenderingOverride_Inherit
+000012ec                ForceSeparateEnlightenSystem False
+000012ed                CastSunShadowEnable True
+000012ee                CastReflectionEnable True
+000012ef                CastEnvmapEnable True
+000012f0                Excluded False
+00001300            LocalPlayerId LocalPlayerId_Invalid
+00001310        EffectParameters *nullArray*
+00001314        AutoStart True
+00001315        AffectedByLightprobeVisibility False
+00001320    DelayEntityData 00000001
+00001318        $::EntityData
+00001318            $::GameObjectData
+00001318                $::DataBusPeer
+00001318                    $::GameDataContainer
+00001318                        $::DataContainer
+00001320                    Flags 119744254
+00001324        Delay 0.10000000149
+00001328        Realm Realm_ClientAndServer
+0000132c        TimeDeltaType TimeDeltaType_World
+00001330        AutoStart False
+00001331        RunOnce False
+00001332        RemoveDuplicateEvents True
+00001334    RandomDelayEntityData 00000002
+0000132c        $::EntityData
+0000132c            $::GameObjectData
+0000132c                $::DataBusPeer
+0000132c                    $::GameDataContainer
+0000132c                        $::DataContainer
+00001334                    Flags 114933434
+00001338        MinDelay 1.0
+0000133c        MaxDelay 10.0
+00001340        Realm Realm_ClientAndServer
+00001344        TimeDeltaType TimeDeltaType_World
+00001348        AutoStart True
+00001349        RunOnce False
+0000134a        TrueRandom False

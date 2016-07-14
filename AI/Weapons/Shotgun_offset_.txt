@@ -1,0 +1,103 @@
+00000fe0    AIWeaponData fefd2da15d93564a8941b3f6450e4f9c
+00000fd8        $::GameAIWeaponData
+00000fd8            $::Asset
+00000fd8                $::DataContainer
+00000fe0                Name AI/Weapons/Shotgun
+00000fe4        FiringWeaponClass WeaponClass_Pistol
+00000fe8        VoPrimaryFireType VoPrimaryFireType_SMG
+00000fec        WeaponRange 1000.0
+00000ff0        MinimumUsageDistance -1.0
+00000ff4        MaximumUsageDistance -1.0
+00000ff8        VehicleMaxTargetLOSLost -1.0
+00000ffc        MinEnterVehicleDistance -1.0
+00001000        ExitVehicleDisableTime -1.0
+00001004        EvasionVolume *nullGuid*
+00001008        PreferredRange c3a9d5936d57124982b63e852b26f6e9
+0000100c        IndoorPreferredRange 323588a6f7c5ca45b3633736c975638a
+00001010        OutdoorPreferredRange 5dc1f1eec936ea43986c7ccda3808b5f
+00001014        FiringIntervalPattern *nullGuid*
+00001018        SustainFiringData *nullGuid*
+0000101c        BurstIntervalPattern *nullGuid*
+00001020        CreepingAirBarrage *nullGuid*
+00001024        SprayPattern *nullGuid*
+00001028        AccuracyHitBox 8b31cf207d68ce4dbbadc608aba7c767
+0000102c        VehicleAimerSettings *nullGuid*
+00001030        VisionModifier b58d32fc3a1fba478776a0f6fa526f33
+00001034        HearingModifier *nullGuid*
+00001038        TargetModifier *nullGuid*
+0000103c        TargetingSettingsOverride *nullGuid*
+00001040        VehicleInaccuracySettings *nullGuid*
+00001044        SuppressedBehavior *nullGuid*
+00001048        DamageModifier *nullGuid*
+0000104c        DamageModifierExtended 20fd4a2eef21d043a4b90f3239e6d40a
+00001050        FriendlyWeaponRestrictions *nullGuid*
+00001054        SpecialBehavior *nullGuid*
+00001058        HumanTargetHitProbability *nullGuid*
+0000105c        DistanceToAwareCurveOverride *nullGuid*
+00001060        ValidAgainst ValidAgainst_All
+00001064        TargetPreference TargetPreference_Soldiers
+00001068        WeaponThreatScale 1.0
+0000106c        ValidWeaponScale 1.0
+00001070        InValidWeaponScale 1.0
+00001074        UseTargetExtrapolation True
+00001075        CausesEvasionOnFire False
+00001076        UseShootspaceForVision False
+00001088    DamageModifierExtended 20fd4a2eef21d043a4b90f3239e6d40a
+00001080        $::DataContainer
+00001088        Damage::PiecewiseLinearCurve
+00001088            Points::array
+00001174                member(0)::CurvePoint
+00001174                    X 5.0
+00001178                    Y 75.0
+0000117c                member(1)::CurvePoint
+0000117c                    X 20.0
+00001180                    Y 25.0
+00001184                member(2)::CurvePoint
+00001184                    X 50.0
+00001188                    Y 12.5
+0000108c            InterpolateCurve False
+000010a0    PreferredRange 323588a6f7c5ca45b3633736c975638a
+00001098        $::DataContainer
+000010a0        Start 0.0
+000010a4        Ideal 0.25
+000010a8        End 20.0
+000010bc    PreferredRange 5dc1f1eec936ea43986c7ccda3808b5f
+000010b4        $::DataContainer
+000010bc        Start 0.0
+000010c0        Ideal 0.25
+000010c4        End 20.0
+000010d8    AccuracyHitBox 8b31cf207d68ce4dbbadc608aba7c767
+000010d0        $::DataContainer
+000010d8        AimBoxDistMin 20.0
+000010dc        AimBoxDistMax 100.0
+000010e0        AimBoxDistFarStart 150.0
+000010e4        AimBoxDistFarEnd 500.0
+000010e8        AimBoxWidthMinDistMin 0.5
+000010ec        AimBoxWidthMaxDistMin 1.0
+000010f0        AimBoxHeightMinDistMin 0.5
+000010f4        AimBoxHeightMaxDistMin 1.0
+000010f8        AimBoxWidthMinDistMax 1.0
+000010fc        AimBoxWidthMaxDistMax 3.0
+00001100        AimBoxHeightMinDistMax 2.0
+00001104        AimBoxHeightMaxDistMax 2.0
+00001108        AimBoxWidthMinDistFar 3.0
+0000110c        AimBoxWidthMaxDistFar 4.0
+00001110        AimBoxHeightMinDistFar 2.0
+00001114        AimBoxHeightMaxDistFar 3.0
+00001128    VisionModifier b58d32fc3a1fba478776a0f6fa526f33
+00001120        $::DataContainer
+00001128        SensingConeRange 30.0
+0000112c        SensingConeRangeWhenAlerted 150.0
+00001130        SensingConeAngle 30.0
+00001134        SensingConeAngleWhenAlerted 90.0
+00001138        SensingConeAngleAbove 25.0
+0000113c        SensingConeAngleBelow 55.0
+00001140        SensingStaticTargetObjectDistance 25.0
+00001144        SensingMovingTargetObjectDistance 32.0
+00001148        FlashlightModifier *nullGuid*
+0000114c        AlwaysSeeHuman False
+00001160    PreferredRange c3a9d5936d57124982b63e852b26f6e9
+00001158        $::DataContainer
+00001160        Start 0.0
+00001164        Ideal 0.25
+00001168        End 20.0

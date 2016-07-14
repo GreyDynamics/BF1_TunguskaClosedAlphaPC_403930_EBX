@@ -1,0 +1,728 @@
+00003310    ObjectBlueprint 3055e6f9a7331c4a3f3c94e685ce6d8b
+00003308        $::Blueprint
+00003308            $::EntityBusData
+00003308                $::DataBusData
+00003308                    $::Asset
+00003308                        $::DataContainer
+00003310                        Name ArtAssets/Architecture/WF_TrenchWallPlanks_01/WF_TrenchWallPlanks_01_768
+00003314                    PropertyConnections *nullArray*
+00003318                    LinkConnections *nullArray*
+0000331c                    Interface 0000000d
+00003320                    Flags 2
+00003324                EventConnections::array
+00003b84                    member(0)::EventConnection
+00003b84                        Source 00000004
+00003b88                        Target 0000000d
+00003b8c                        SourceEvent::EventSpec
+00003b8c                            Id -1452333337
+00003b90                        TargetEvent::EventSpec
+00003b90                            Id -367074764
+00003b94                        TargetType EventConnectionTargetType_ClientAndServer
+00003b98                    member(1)::EventConnection
+00003b98                        Source 00000005
+00003b9c                        Target 0000000d
+00003ba0                        SourceEvent::EventSpec
+00003ba0                            Id -1452333337
+00003ba4                        TargetEvent::EventSpec
+00003ba4                            Id 797244623
+00003ba8                        TargetType EventConnectionTargetType_ClientAndServer
+00003328        Object 5625eb8f60e93bd58897ca8e43915956
+00003340    StaticModelEntityData 5625eb8f60e93bd58897ca8e43915956
+00003340        $::GamePhysicsEntityData
+00003340            $::GameComponentEntityData
+00003340                $::ComponentEntityData
+00003340                    $::SpatialEntityData
+00003340                        $::EntityData
+00003340                            $::GameObjectData
+00003340                                $::DataBusPeer
+00003340                                    $::GameDataContainer
+00003340                                        $::DataContainer
+00003348                                    Flags 535504214
+00003350                        Transform::LinearTransform
+00003350                            right::Vec3
+00003350                                x 1.0
+00003354                                y 0.0
+00003358                                z 0.0
+00003360                            up::Vec3
+00003360                                x 0.0
+00003364                                y 1.0
+00003368                                z 0.0
+00003370                            forward::Vec3
+00003370                                x 0.0
+00003374                                y 0.0
+00003378                                z 1.0
+00003380                            trans::Vec3
+00003380                                x 0.0
+00003384                                y 0.0
+00003388                                z 0.0
+00003390                    Components::array
+00003bb0                        member(0) 00000004
+00003bb4                        member(1) 00000005
+00003bb8                        member(2) 00000008
+00003bbc                        member(3) 00000007
+00003394                    ClientRuntimeComponentCount 4
+00003395                    ServerRuntimeComponentCount 4
+00003396                    ClientRuntimeTransformationCount 2
+00003397                    ServerRuntimeTransformationCount 2
+000033a0                Enabled True
+000033a1                EnableOutOfBoundsCheck True
+000033b0            PhysicsData f09eac19220f0ce0e1d7ba438cb082c4
+000033c0        PartLinks *nullArray*
+000033c4        Mesh artassets/architecture/wf_trenchwallplanks_01/wf_trenchwallplanks_01_768_Mesh/5caec315b506cf600cc3509a81a02d54
+000033c8        BoneCount 0
+000033cc        BasePoseTransforms *nullArray*
+000033d0        PhysicsPartInfos::array
+00003bc4            member(0)::PhysicsPartInfo
+00003bc4                PartComponentIndex 0
+00003bc8                HealthStateIndex 0
+00003bcc            member(1)::PhysicsPartInfo
+00003bcc                PartComponentIndex 1
+00003bd0                HealthStateIndex 0
+00003bd4            member(2)::PhysicsPartInfo
+00003bd4                PartComponentIndex 0
+00003bd8                HealthStateIndex 1
+00003bdc            member(3)::PhysicsPartInfo
+00003bdc                PartComponentIndex 1
+00003be0                HealthStateIndex 1
+000033d4        NetworkInfo::StaticModelNetworkInfo
+000033d4            PartNetworkIdRanges::array
+00003be8                member(0)::IndexRange
+00003be8                    First 0
+00003bec                    Last 0
+00003bf0                member(1)::IndexRange
+00003bf0                    First 1
+00003bf4                    Last 1
+000033d8            NetworkIdCount 2
+000033dc            ChildNetworkInfos *nullArray*
+000033e0            ChildNetworkIdCount 0
+000033e4        ExcludeFromNearbyObjectDestruction False
+000033e5        AnimatePhysics False
+000033e6        TerrainShaderNodesEnable True
+000033e7        ExplosionPacksAttachable True
+000033e8        TeleportPhysicsOnTransformChanges False
+000033e9        Visible True
+000033ea        OverlayEnabled False
+00003400    RigidBodyData d8d9b3ffe65361b4bb4fda1934a013bf
+00003400        $::PhysicsBodyData
+00003400            $::EntityData
+00003400                $::GameObjectData
+00003400                    $::DataBusPeer
+00003400                        $::GameDataContainer
+00003400                            $::DataContainer
+00003408                        Flags 0
+0000340c            Realm Realm_ClientAndServer
+00003410            CollisionLayer RigidBodyCollisionLayer_Invalid
+00003414            Asset ArtAssets/Architecture/WF_TrenchWallPlanks_01/WF_TrenchWallPlanks_01_768_Physics_Win32/ce4016e0b87f0dd3ed0a387cff70131a
+00003418            AssetIndex 0
+00003419            TransformIndex 0
+0000341a            WorldIndex 0
+0000341b            CollisionRootShapeIndex 0
+0000341c            RaycastRootShapeIndex 1
+0000341d            AddToSpatialQueryManager True
+00003420        CenterOfMass::Vec3
+00003420            x 0.0
+00003424            y 0.0
+00003428            z 0.0
+00003430        InertiaModifier::Vec3
+00003430            x 1.0
+00003434            y 1.0
+00003438            z 1.0
+00003440        Transform::LinearTransform
+00003440            right::Vec3
+00003440                x 1.0
+00003444                y 0.0
+00003448                z 0.0
+00003450            up::Vec3
+00003450                x 0.0
+00003454                y 1.0
+00003458                z 0.0
+00003460            forward::Vec3
+00003460                x 0.0
+00003464                y 0.0
+00003468                z 1.0
+00003470            trans::Vec3
+00003470                x 0.0
+00003474                y 0.0
+00003478                z 0.0
+00003480        KeyframeTransform::LinearTransform
+00003480            right::Vec3
+00003480                x 1.0
+00003484                y 0.0
+00003488                z 0.0
+00003490            up::Vec3
+00003490                x 0.0
+00003494                y 1.0
+00003498                z 0.0
+000034a0            forward::Vec3
+000034a0                x 0.0
+000034a4                y 0.0
+000034a8                z 1.0
+000034b0            trans::Vec3
+000034b0                x 0.0
+000034b4                y 0.0
+000034b8                z 0.0
+000034c0        RigidBodyType RBTypeCollision
+000034c4        Mass 0.0
+000034c8        Material::MaterialDecl
+000034c8            Packed 32768
+000034cc        DynamicFriction -1.0
+000034d0        StaticFriction -1.0
+000034d4        Restitution -1.0
+000034d8        AngularVelocityDamping -1.0
+000034dc        LinearVelocityDamping -1.0
+000034e0        MotionType RigidBodyMotionType_Fixed
+000034e4        QualityType RigidBodyQualityType_Fixed
+000034e8        SystemGroup 0
+000034ec        SubSystemId 0
+000034f0        SubSystemIdNoCollide 0
+000034f4        PartIndices::array
+00003bfc            member(0) 0
+00003c00            member(1) 1
+00003c04            member(2) 2
+00003c08            member(3) 3
+000034f8        FloatPhysics *nullGuid*
+000034fc        ComputeCenterOfMass True
+000034fd        IsRootController True
+00003510    PhysicsEntityData f09eac19220f0ce0e1d7ba438cb082c4
+00003510        $::EntityData
+00003510            $::GameObjectData
+00003510                $::DataBusPeer
+00003510                    $::GameDataContainer
+00003510                        $::DataContainer
+00003518                    Flags 0
+0000351c        Asset ArtAssets/Architecture/WF_TrenchWallPlanks_01/WF_TrenchWallPlanks_01_768_Physics_Win32/ce4016e0b87f0dd3ed0a387cff70131a
+00003520        InertiaModifier::Vec3
+00003520            x 1.0
+00003524            y 1.0
+00003528            z 1.0
+00003530        RigidBodies *nullArray*
+00003534        FloatPhysics *nullGuid*
+00003538        Mass 1000010.0
+0000353c        AngularVelocityDamping -1.0
+00003540        LinearVelocityDamping -1.0
+00003544        Proximity *nullGuid*
+00003548        Constraints *nullArray*
+0000354c        MovableParts False
+0000354d        IsComposite False
+00003550    EffectReferenceObjectData 00000000
+00003550        $::SpatialReferenceObjectData
+00003550            $::ReferenceObjectData
+00003550                $::GameObjectData
+00003550                    $::DataBusPeer
+00003550                        $::GameDataContainer
+00003550                            $::DataContainer
+00003558                        Flags 0
+0000355c                Blueprint FX/Destruction/MicroDest/FX_MicroDest_Wooden_L_Dir/a808648060d68141893758a874d82923
+00003560                BlueprintTransform::LinearTransform
+00003560                    right::Vec3
+00003560                        x 1.0
+00003564                        y 0.0
+00003568                        z 0.0
+00003570                    up::Vec3
+00003570                        x 0.0
+00003574                        y 1.0
+00003578                        z 0.0
+00003580                    forward::Vec3
+00003580                        x 0.0
+00003584                        y 0.0
+00003588                        z 1.0
+00003590                    trans::Vec3
+00003590                        x 1.96295392513
+00003594                        y 1.0266520977
+00003598                        z -1.20605504513
+000035a0                ObjectVariation *nullGuid*
+000035a4                StreamRealm StreamRealm_None
+000035a8                RadiosityTypeOverride RadiosityTypeOverride_None
+000035ac                LightmapResolutionScale 1
+000035b0                RenderingOverrides::RenderingOverrides
+000035b0                    ShadowEnable RenderingOverride_Inherit
+000035b4                    DynamicReflectionEnable RenderingOverride_Inherit
+000035b8                    StaticReflectionEnable RenderingOverride_Inherit
+000035bc                ForceSeparateEnlightenSystem False
+000035bd                CastSunShadowEnable True
+000035be                CastReflectionEnable True
+000035bf                CastEnvmapEnable True
+000035c0                Excluded False
+000035d0            LocalPlayerId LocalPlayerId_Invalid
+000035e0        EffectParameters *nullArray*
+000035e4        AutoStart True
+000035e5        AffectedByLightprobeVisibility False
+000035f0    EffectReferenceObjectData 00000001
+000035f0        $::SpatialReferenceObjectData
+000035f0            $::ReferenceObjectData
+000035f0                $::GameObjectData
+000035f0                    $::DataBusPeer
+000035f0                        $::GameDataContainer
+000035f0                            $::DataContainer
+000035f8                        Flags 0
+000035fc                Blueprint FX/Destruction/MicroDest/FX_MicroDest_Wooden_L_Dir/a808648060d68141893758a874d82923
+00003600                BlueprintTransform::LinearTransform
+00003600                    right::Vec3
+00003600                        x 1.0
+00003604                        y 0.0
+00003608                        z 0.0
+00003610                    up::Vec3
+00003610                        x 0.0
+00003614                        y 1.0
+00003618                        z 0.0
+00003620                    forward::Vec3
+00003620                        x 0.0
+00003624                        y 0.0
+00003628                        z 1.0
+00003630                    trans::Vec3
+00003630                        x 5.75118017197
+00003634                        y 1.03084743023
+00003638                        z -1.20605504513
+00003640                ObjectVariation *nullGuid*
+00003644                StreamRealm StreamRealm_None
+00003648                RadiosityTypeOverride RadiosityTypeOverride_None
+0000364c                LightmapResolutionScale 1
+00003650                RenderingOverrides::RenderingOverrides
+00003650                    ShadowEnable RenderingOverride_Inherit
+00003654                    DynamicReflectionEnable RenderingOverride_Inherit
+00003658                    StaticReflectionEnable RenderingOverride_Inherit
+0000365c                ForceSeparateEnlightenSystem False
+0000365d                CastSunShadowEnable True
+0000365e                CastReflectionEnable True
+0000365f                CastEnvmapEnable True
+00003660                Excluded False
+00003670            LocalPlayerId LocalPlayerId_Invalid
+00003680        EffectParameters *nullArray*
+00003684        AutoStart True
+00003685        AffectedByLightprobeVisibility False
+00003690    ObjectReferenceObjectData 00000002
+00003690        $::SpatialReferenceObjectData
+00003690            $::ReferenceObjectData
+00003690                $::GameObjectData
+00003690                    $::DataBusPeer
+00003690                        $::GameDataContainer
+00003690                            $::DataContainer
+00003698                        Flags 0
+0000369c                Blueprint ArtAssets/Architecture/WF_TrenchWallPlanks_01/WF_TrenchWallPlanks_01_Cluster_A/a8da37f28e11a524228995f9ef565f64
+000036a0                BlueprintTransform::LinearTransform
+000036a0                    right::Vec3
+000036a0                        x 1.0
+000036a4                        y 0.0
+000036a8                        z 0.0
+000036b0                    up::Vec3
+000036b0                        x 0.0
+000036b4                        y 1.0
+000036b8                        z 0.0
+000036c0                    forward::Vec3
+000036c0                        x 0.0
+000036c4                        y 0.0
+000036c8                        z 1.0
+000036d0                    trans::Vec3
+000036d0                        x 5.75118017197
+000036d4                        y 1.03084743023
+000036d8                        z -1.20605504513
+000036e0                ObjectVariation *nullGuid*
+000036e4                StreamRealm StreamRealm_None
+000036e8                RadiosityTypeOverride RadiosityTypeOverride_None
+000036ec                LightmapResolutionScale 1
+000036f0                RenderingOverrides::RenderingOverrides
+000036f0                    ShadowEnable RenderingOverride_Inherit
+000036f4                    DynamicReflectionEnable RenderingOverride_Inherit
+000036f8                    StaticReflectionEnable RenderingOverride_Inherit
+000036fc                ForceSeparateEnlightenSystem False
+000036fd                CastSunShadowEnable True
+000036fe                CastReflectionEnable True
+000036ff                CastEnvmapEnable True
+00003700                Excluded False
+00003710            LocalPlayerId LocalPlayerId_Invalid
+00003720    ObjectReferenceObjectData 00000003
+00003720        $::SpatialReferenceObjectData
+00003720            $::ReferenceObjectData
+00003720                $::GameObjectData
+00003720                    $::DataBusPeer
+00003720                        $::GameDataContainer
+00003720                            $::DataContainer
+00003728                        Flags 0
+0000372c                Blueprint ArtAssets/Architecture/WF_TrenchWallPlanks_01/WF_TrenchWallPlanks_01_Cluster_A/a8da37f28e11a524228995f9ef565f64
+00003730                BlueprintTransform::LinearTransform
+00003730                    right::Vec3
+00003730                        x 1.0
+00003734                        y 0.0
+00003738                        z 0.0
+00003740                    up::Vec3
+00003740                        x 0.0
+00003744                        y 1.0
+00003748                        z 0.0
+00003750                    forward::Vec3
+00003750                        x 0.0
+00003754                        y 0.0
+00003758                        z 1.0
+00003760                    trans::Vec3
+00003760                        x 1.96295392513
+00003764                        y 1.0266520977
+00003768                        z -1.20605504513
+00003770                ObjectVariation *nullGuid*
+00003774                StreamRealm StreamRealm_None
+00003778                RadiosityTypeOverride RadiosityTypeOverride_None
+0000377c                LightmapResolutionScale 1
+00003780                RenderingOverrides::RenderingOverrides
+00003780                    ShadowEnable RenderingOverride_Inherit
+00003784                    DynamicReflectionEnable RenderingOverride_Inherit
+00003788                    StaticReflectionEnable RenderingOverride_Inherit
+0000378c                ForceSeparateEnlightenSystem False
+0000378d                CastSunShadowEnable True
+0000378e                CastReflectionEnable True
+0000378f                CastEnvmapEnable True
+00003790                Excluded False
+000037a0            LocalPlayerId LocalPlayerId_Invalid
+000037b0    PartComponentData 00000004
+000037b0        $::GameComponentData
+000037b0            $::ComponentData
+000037b0                $::GameObjectData
+000037b0                    $::DataBusPeer
+000037b0                        $::GameDataContainer
+000037b0                            $::DataContainer
+000037b8                        Flags 21013036
+000037bc                Components *nullArray*
+000037c0                Transform::LinearTransform
+000037c0                    right::Vec3
+000037c0                        x 1.0
+000037c4                        y 0.0
+000037c8                        z 0.0
+000037d0                    up::Vec3
+000037d0                        x 0.0
+000037d4                        y 1.0
+000037d8                        z 0.0
+000037e0                    forward::Vec3
+000037e0                        x 0.0
+000037e4                        y 0.0
+000037e8                        z 1.0
+000037f0                    trans::Vec3
+000037f0                        x 0.0
+000037f4                        y 0.0
+000037f8                        z 0.0
+00003800                Excluded False
+00003810        HealthStates::array
+00003c10            member(0) 0000000b
+00003c14            member(1) 0000000a
+00003814        PartLinks *nullArray*
+00003818        IsSupported False
+00003819        IsFragile False
+0000381a        AffectsBoundingBox True
+0000381b        IsNetworkable False
+0000381c        IsWindow False
+0000381d        AnimatePhysics False
+00003820    PartComponentData 00000005
+00003820        $::GameComponentData
+00003820            $::ComponentData
+00003820                $::GameObjectData
+00003820                    $::DataBusPeer
+00003820                        $::GameDataContainer
+00003820                            $::DataContainer
+00003828                        Flags 6988169
+0000382c                Components *nullArray*
+00003830                Transform::LinearTransform
+00003830                    right::Vec3
+00003830                        x 1.0
+00003834                        y 0.0
+00003838                        z 0.0
+00003840                    up::Vec3
+00003840                        x 0.0
+00003844                        y 1.0
+00003848                        z 0.0
+00003850                    forward::Vec3
+00003850                        x 0.0
+00003854                        y 0.0
+00003858                        z 1.0
+00003860                    trans::Vec3
+00003860                        x 0.0
+00003864                        y 0.0
+00003868                        z 0.0
+00003870                Excluded False
+00003880        HealthStates::array
+00003c1c            member(0) 00000009
+00003c20            member(1) 0000000c
+00003884        PartLinks *nullArray*
+00003888        IsSupported False
+00003889        IsFragile False
+0000388a        AffectsBoundingBox True
+0000388b        IsNetworkable False
+0000388c        IsWindow False
+0000388d        AnimatePhysics False
+00003890    RigidBodyData 00000006
+00003890        $::PhysicsBodyData
+00003890            $::EntityData
+00003890                $::GameObjectData
+00003890                    $::DataBusPeer
+00003890                        $::GameDataContainer
+00003890                            $::DataContainer
+00003898                        Flags 0
+0000389c            Realm Realm_Client
+000038a0            CollisionLayer RigidBodyCollisionLayer_Invalid
+000038a4            Asset ArtAssets/Architecture/WF_TrenchWallPlanks_01/WF_TrenchWallPlanks_01_768_Physics_Win32/ce4016e0b87f0dd3ed0a387cff70131a
+000038a8            AssetIndex 0
+000038a9            TransformIndex 0
+000038aa            WorldIndex 1
+000038ab            CollisionRootShapeIndex 0
+000038ac            RaycastRootShapeIndex 1
+000038ad            AddToSpatialQueryManager False
+000038b0        CenterOfMass::Vec3
+000038b0            x 0.0
+000038b4            y 0.0
+000038b8            z 0.0
+000038c0        InertiaModifier::Vec3
+000038c0            x 1.0
+000038c4            y 1.0
+000038c8            z 1.0
+000038d0        Transform::LinearTransform
+000038d0            right::Vec3
+000038d0                x 1.0
+000038d4                y 0.0
+000038d8                z 0.0
+000038e0            up::Vec3
+000038e0                x 0.0
+000038e4                y 1.0
+000038e8                z 0.0
+000038f0            forward::Vec3
+000038f0                x 0.0
+000038f4                y 0.0
+000038f8                z 1.0
+00003900            trans::Vec3
+00003900                x 0.0
+00003904                y 0.0
+00003908                z 0.0
+00003910        KeyframeTransform::LinearTransform
+00003910            right::Vec3
+00003910                x 1.0
+00003914                y 0.0
+00003918                z 0.0
+00003920            up::Vec3
+00003920                x 0.0
+00003924                y 1.0
+00003928                z 0.0
+00003930            forward::Vec3
+00003930                x 0.0
+00003934                y 0.0
+00003938                z 1.0
+00003940            trans::Vec3
+00003940                x 0.0
+00003944                y 0.0
+00003948                z 0.0
+00003950        RigidBodyType RBTypeProxy
+00003954        Mass 0.0
+00003958        Material::MaterialDecl
+00003958            Packed 32768
+0000395c        DynamicFriction -1.0
+00003960        StaticFriction -1.0
+00003964        Restitution -1.0
+00003968        AngularVelocityDamping -1.0
+0000396c        LinearVelocityDamping -1.0
+00003970        MotionType RigidBodyMotionType_Fixed
+00003974        QualityType RigidBodyQualityType_Fixed
+00003978        SystemGroup 0
+0000397c        SubSystemId 0
+00003980        SubSystemIdNoCollide 0
+00003984        PartIndices::array
+00003c28            member(0) 0
+00003c2c            member(1) 1
+00003c30            member(2) 2
+00003c34            member(3) 3
+00003988        FloatPhysics *nullGuid*
+0000398c        ComputeCenterOfMass True
+0000398d        IsRootController True
+00003990    StaticModelHealthComponentData 00000007
+00003990        $::GameHealthComponentData
+00003990            $::HealthComponentData
+00003990                $::ComponentData
+00003990                    $::GameObjectData
+00003990                        $::DataBusPeer
+00003990                            $::GameDataContainer
+00003990                                $::DataContainer
+00003998                            Flags 27276666
+0000399c                    Components *nullArray*
+000039a0                    Transform::LinearTransform
+000039a0                        right::Vec3
+000039a0                            x 1.0
+000039a4                            y 0.0
+000039a8                            z 0.0
+000039b0                        up::Vec3
+000039b0                            x 0.0
+000039b4                            y 1.0
+000039b8                            z 0.0
+000039c0                        forward::Vec3
+000039c0                            x 0.0
+000039c4                            y 0.0
+000039c8                            z 1.0
+000039d0                        trans::Vec3
+000039d0                            x 0.0
+000039d4                            y 0.0
+000039d8                            z 0.0
+000039e0                    Excluded False
+000039f0    StaticModelPhysicsComponentData 00000008
+000039f0        $::GamePhysicsComponentData
+000039f0            $::PhysicsComponentData
+000039f0                $::ComponentData
+000039f0                    $::GameObjectData
+000039f0                        $::DataBusPeer
+000039f0                            $::GameDataContainer
+000039f0                                $::DataContainer
+000039f8                            Flags 29596518
+000039fc                    Components *nullArray*
+00003a00                    Transform::LinearTransform
+00003a00                        right::Vec3
+00003a00                            x 1.0
+00003a04                            y 0.0
+00003a08                            z 0.0
+00003a10                        up::Vec3
+00003a10                            x 0.0
+00003a14                            y 1.0
+00003a18                            z 0.0
+00003a20                        forward::Vec3
+00003a20                            x 0.0
+00003a24                            y 0.0
+00003a28                            z 1.0
+00003a30                        trans::Vec3
+00003a30                            x 0.0
+00003a34                            y 0.0
+00003a38                            z 0.0
+00003a40                    Excluded False
+00003a50                PhysicsBodies::array
+00003c3c                    member(0) d8d9b3ffe65361b4bb4fda1934a013bf
+00003c40                    member(1) 00000006
+00003a54                PhysicsConstraints *nullArray*
+00003a58                Parts::array
+00003c50                    member(0)::PhysicsPartData
+00003c50                        Aabb::AxisAlignedBox
+00003c50                            min::Vec3
+00003c50                                x 0.0
+00003c54                                y 0.0
+00003c58                                z 0.0
+00003c60                            max::Vec3
+00003c60                                x 0.0
+00003c64                                y 0.0
+00003c68                                z 0.0
+00003c70                    member(1)::PhysicsPartData
+00003c70                        Aabb::AxisAlignedBox
+00003c70                            min::Vec3
+00003c70                                x 0.0
+00003c74                                y 0.0
+00003c78                                z 0.0
+00003c80                            max::Vec3
+00003c80                                x 0.0
+00003c84                                y 0.0
+00003c88                                z 0.0
+00003c90                    member(2)::PhysicsPartData
+00003c90                        Aabb::AxisAlignedBox
+00003c90                            min::Vec3
+00003c90                                x 0.0
+00003c94                                y 0.0
+00003c98                                z 0.0
+00003ca0                            max::Vec3
+00003ca0                                x 0.0
+00003ca4                                y 0.0
+00003ca8                                z 0.0
+00003cb0                    member(3)::PhysicsPartData
+00003cb0                        Aabb::AxisAlignedBox
+00003cb0                            min::Vec3
+00003cb0                                x 0.0
+00003cb4                                y 0.0
+00003cb8                                z 0.0
+00003cc0                            max::Vec3
+00003cc0                                x 0.0
+00003cc4                                y 0.0
+00003cc8                                z 0.0
+00003a5c                InternalCollisionDisabling InternalCollisionDisablingBehavior_Auto
+00003a60                MovableParts False
+00003a70            Realm Realm_ClientAndServer
+00003a74            EffectParameters *nullArray*
+00003a80    HealthStateData 00000009
+00003a78        $::DataContainer
+00003a80        Objects *nullArray*
+00003a84        LoosePartPhysics *nullArray*
+00003a88        SpawnedBangerBlueprint *nullGuid*
+00003a8c        SpawnedBangerImpulseParams *nullGuid*
+00003a90        Health 100.0
+00003a94        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003a94            DebrisCullDistance 30.0
+00003a98            DebrisCullDistanceOutsideView 5.0
+00003a9c            SoundCullDistance 0.0
+00003aa0            SoundCullDistanceOutsideView 0.0
+00003aa4            EffectCullDistance 0.0
+00003aa8            EffectCullDistanceOutsideView 0.0
+00003aac        PartIndex 1
+00003ab0        BangerInheritsObjectVariation False
+00003ab1        SpawnedObjectsInheritObjectVariation False
+00003ab2        CopyDamageToBanger True
+00003ab3        PhysicsEnabled True
+00003ab4        CanSupportOtherParts True
+00003ab8    HealthStateData 0000000a
+00003ab0        $::DataContainer
+00003ab8        Objects::array
+00003cd4            member(0) 00000003
+00003cd8            member(1) 00000000
+00003abc        LoosePartPhysics *nullArray*
+00003ac0        SpawnedBangerBlueprint *nullGuid*
+00003ac4        SpawnedBangerImpulseParams *nullGuid*
+00003ac8        Health 0.0
+00003acc        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003acc            DebrisCullDistance 30.0
+00003ad0            DebrisCullDistanceOutsideView 5.0
+00003ad4            SoundCullDistance 0.0
+00003ad8            SoundCullDistanceOutsideView 0.0
+00003adc            EffectCullDistance 0.0
+00003ae0            EffectCullDistanceOutsideView 0.0
+00003ae4        PartIndex 2
+00003ae8        BangerInheritsObjectVariation False
+00003ae9        SpawnedObjectsInheritObjectVariation False
+00003aea        CopyDamageToBanger True
+00003aeb        PhysicsEnabled True
+00003aec        CanSupportOtherParts False
+00003af0    HealthStateData 0000000b
+00003ae8        $::DataContainer
+00003af0        Objects *nullArray*
+00003af4        LoosePartPhysics *nullArray*
+00003af8        SpawnedBangerBlueprint *nullGuid*
+00003afc        SpawnedBangerImpulseParams *nullGuid*
+00003b00        Health 100.0
+00003b04        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003b04            DebrisCullDistance 30.0
+00003b08            DebrisCullDistanceOutsideView 5.0
+00003b0c            SoundCullDistance 0.0
+00003b10            SoundCullDistanceOutsideView 0.0
+00003b14            EffectCullDistance 0.0
+00003b18            EffectCullDistanceOutsideView 0.0
+00003b1c        PartIndex 0
+00003b20        BangerInheritsObjectVariation False
+00003b21        SpawnedObjectsInheritObjectVariation False
+00003b22        CopyDamageToBanger True
+00003b23        PhysicsEnabled True
+00003b24        CanSupportOtherParts True
+00003b28    HealthStateData 0000000c
+00003b20        $::DataContainer
+00003b28        Objects::array
+00003ce0            member(0) 00000002
+00003ce4            member(1) 00000001
+00003b2c        LoosePartPhysics *nullArray*
+00003b30        SpawnedBangerBlueprint *nullGuid*
+00003b34        SpawnedBangerImpulseParams *nullGuid*
+00003b38        Health 0.0
+00003b3c        SpawnObjectsCullingParams::HealthStateSpawnObjectsCullingParams
+00003b3c            DebrisCullDistance 30.0
+00003b40            DebrisCullDistanceOutsideView 5.0
+00003b44            SoundCullDistance 0.0
+00003b48            SoundCullDistanceOutsideView 0.0
+00003b4c            EffectCullDistance 0.0
+00003b50            EffectCullDistanceOutsideView 0.0
+00003b54        PartIndex 3
+00003b58        BangerInheritsObjectVariation False
+00003b59        SpawnedObjectsInheritObjectVariation False
+00003b5a        CopyDamageToBanger True
+00003b5b        PhysicsEnabled True
+00003b5c        CanSupportOtherParts False
+00003b60    InterfaceDescriptorData 0000000d
+00003b58        $::DynamicDataContainer
+00003b58            $::DataContainer
+00003b60            Fields *nullArray*
+00003b64        InputEvents *nullArray*
+00003b68        OutputEvents::array
+00003cec            member(0)::DynamicEvent
+00003cec                Id -367074764
+00003cf0            member(1)::DynamicEvent
+00003cf0                Id 797244623
+00003b6c        InputLinks *nullArray*
+00003b70        OutputLinks *nullArray*

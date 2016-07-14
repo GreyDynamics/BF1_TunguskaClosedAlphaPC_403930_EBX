@@ -1,0 +1,313 @@
+00001320    LogicPrefabBlueprint 8838cca3a79b7346ac14e98b4070bd8f
+00001318        $::PrefabBlueprint
+00001318            $::Blueprint
+00001318                $::EntityBusData
+00001318                    $::DataBusData
+00001318                        $::Asset
+00001318                            $::DataContainer
+00001320                            Name Gameplay/Vehicles/Prefabs/3P_Aiming_Camera
+00001324                        PropertyConnections::array
+000014c4                            member(0)::PropertyConnection
+000014c4                                Source 00000001
+000014c8                                Target 00000002
+000014cc                                SourceFieldId -1174111641
+000014d0                                TargetFieldId 5862146
+000014d4                                Flags 2
+000014d8                            member(1)::PropertyConnection
+000014d8                                Source 00000000
+000014dc                                Target 00000004
+000014e0                                SourceFieldId -1174111641
+000014e4                                TargetFieldId -1174111641
+000014e8                                Flags 18
+000014ec                            member(2)::PropertyConnection
+000014ec                                Source 00000005
+000014f0                                Target 00000003
+000014f4                                SourceFieldId 193453899
+000014f8                                TargetFieldId 48673745
+000014fc                                Flags 2
+00001500                            member(3)::PropertyConnection
+00001500                                Source 00000004
+00001504                                Target 00000000
+00001508                                SourceFieldId -1810789047
+0000150c                                TargetFieldId -1810789047
+00001510                                Flags 2
+00001514                            member(4)::PropertyConnection
+00001514                                Source 00000004
+00001518                                Target 00000001
+0000151c                                SourceFieldId -1810789047
+00001520                                TargetFieldId -1810789047
+00001524                                Flags 2
+00001528                            member(5)::PropertyConnection
+00001528                                Source 00000002
+0000152c                                Target 00000000
+00001530                                SourceFieldId 193453899
+00001534                                TargetFieldId 1752733766
+00001538                                Flags 2
+0000153c                            member(6)::PropertyConnection
+0000153c                                Source 00000003
+00001540                                Target 00000000
+00001544                                SourceFieldId -2024647575
+00001548                                TargetFieldId -197373091
+0000154c                                Flags 2
+00001550                            member(7)::PropertyConnection
+00001550                                Source 00000004
+00001554                                Target 00000001
+00001558                                SourceFieldId -761389412
+0000155c                                TargetFieldId -301484678
+00001560                                Flags 2
+00001564                            member(8)::PropertyConnection
+00001564                                Source 00000004
+00001568                                Target 00000001
+0000156c                                SourceFieldId -761389411
+00001570                                TargetFieldId -301484677
+00001574                                Flags 2
+00001578                            member(9)::PropertyConnection
+00001578                                Source 00000004
+0000157c                                Target 00000001
+00001580                                SourceFieldId -761389410
+00001584                                TargetFieldId -301484680
+00001588                                Flags 2
+0000158c                            member(10)::PropertyConnection
+0000158c                                Source 00000004
+00001590                                Target 00000001
+00001594                                SourceFieldId -236491304
+00001598                                TargetFieldId 2052748577
+0000159c                                Flags 2
+000015a0                            member(11)::PropertyConnection
+000015a0                                Source 00000004
+000015a4                                Target 00000001
+000015a8                                SourceFieldId 640467086
+000015ac                                TargetFieldId 640467086
+000015b0                                Flags 2
+000015b4                            member(12)::PropertyConnection
+000015b4                                Source 00000004
+000015b8                                Target 00000005
+000015bc                                SourceFieldId -1453894256
+000015c0                                TargetFieldId 177661
+000015c4                                Flags 2
+000015c8                            member(13)::PropertyConnection
+000015c8                                Source 00000004
+000015cc                                Target 00000000
+000015d0                                SourceFieldId 769606366
+000015d4                                TargetFieldId 769606366
+000015d8                                Flags 2
+000015dc                            member(14)::PropertyConnection
+000015dc                                Source 00000004
+000015e0                                Target 00000005
+000015e4                                SourceFieldId -141474860
+000015e8                                TargetFieldId 177663
+000015ec                                Flags 2
+00001328                        LinkConnections::array
+000015f4                            member(0)::LinkConnection
+000015f4                                Source 00000000
+000015f8                                Target 00000004
+000015fc                                SourceFieldId -1371125048
+00001600                                TargetFieldId -1371125048
+0000132c                        Interface 00000004
+00001330                        Flags 14
+00001334                    EventConnections::array
+00001608                        member(0)::EventConnection
+00001608                            Source 00000004
+0000160c                            Target 00000000
+00001610                            SourceEvent::EventSpec
+00001610                                Id 1577401599
+00001614                            TargetEvent::EventSpec
+00001614                                Id 1577401599
+00001618                            TargetType EventConnectionTargetType_Client
+0000161c                        member(1)::EventConnection
+0000161c                            Source 00000004
+00001620                            Target 00000000
+00001624                            SourceEvent::EventSpec
+00001624                                Id 47785047
+00001628                            TargetEvent::EventSpec
+00001628                                Id 47785047
+0000162c                            TargetType EventConnectionTargetType_Client
+00001338            Objects::array
+00001634                member(0) 00000000
+00001638                member(1) 00000002
+0000163c                member(2) 00000001
+00001640                member(3) 00000005
+00001644                member(4) 00000003
+0000133c            TimeDeltaType TimeDeltaType_None
+00001340    ArmCollisionCameraTransformerEntityData 00000000
+00001340        $::CameraTransformerEntityData
+00001340            $::CustomSchedulableEntityData
+00001340                $::EntityData
+00001340                    $::GameObjectData
+00001340                        $::DataBusPeer
+00001340                            $::GameDataContainer
+00001340                                $::DataContainer
+00001348                            Flags 1789142319
+0000134c            UpdatePass CameraTransformerUpdatePass_PostFrame
+00001350            CameraTransformerUpdatePriority 100
+00001354            Active False
+00001358        MaxPitch 0.0
+0000135c        CollisionBlendIn 0.0
+00001360        CameraJointTransform::LinearTransform
+00001360            right::Vec3
+00001360                x 1.0
+00001364                y 0.0
+00001368                z 0.0
+00001370            up::Vec3
+00001370                x 0.0
+00001374                y 1.0
+00001378                z 0.0
+00001380            forward::Vec3
+00001380                x 0.0
+00001384                y 0.0
+00001388                z 1.0
+00001390            trans::Vec3
+00001390                x 0.0
+00001394                y 0.0
+00001398                z 0.0
+000013a0        CollisionBlendOut 0.0
+000013a4        CollisionWidthPadding 0.5
+000013a8        MaxReducedArmLength 0.0
+000013ac        ReduceMinPitch 20.0
+000013b0        ReduceMaxPitch 70.0
+000013b4        CameraArmLength 0.0
+000013b8        EnableSoftCollision False
+000013b9        ReduceArmLengthLookingUp False
+000013ba        UseLookAt False
+000013c0    CameraInertiaTransformEntityData 00000001
+000013c0        $::CameraTransformerEntityData
+000013c0            $::CustomSchedulableEntityData
+000013c0                $::EntityData
+000013c0                    $::GameObjectData
+000013c0                        $::DataBusPeer
+000013c0                            $::GameDataContainer
+000013c0                                $::DataContainer
+000013c8                            Flags 145842856
+000013cc            UpdatePass CameraTransformerUpdatePass_PostSim
+000013d0            CameraTransformerUpdatePriority 99
+000013d4            Active False
+000013d8        LinInertiaX 0.899999976158
+000013dc        LinInertiaY 0.899999976158
+000013e0        InTransform::LinearTransform
+000013e0            right::Vec3
+000013e0                x 1.0
+000013e4                y 0.0
+000013e8                z 0.0
+000013f0            up::Vec3
+000013f0                x 0.0
+000013f4                y 1.0
+000013f8                z 0.0
+00001400            forward::Vec3
+00001400                x 0.0
+00001404                y 0.0
+00001408                z 1.0
+00001410            trans::Vec3
+00001410                x 0.0
+00001414                y 0.0
+00001418                z 0.0
+00001420        LinInertiaZ 0.899999976158
+00001424        AngInertia 0.899999976158
+00001428        IsWorldSpaceTransform True
+00001430    FrameInterpolatedTransformData 00000002
+00001430        $::EntityData
+00001430            $::GameObjectData
+00001430                $::DataBusPeer
+00001430                    $::GameDataContainer
+00001430                        $::DataContainer
+00001438                    Flags 144348138
+00001440        In::LinearTransform
+00001440            right::Vec3
+00001440                x 1.0
+00001444                y 0.0
+00001448                z 0.0
+00001450            up::Vec3
+00001450                x 0.0
+00001454                y 1.0
+00001458                z 0.0
+00001460            forward::Vec3
+00001460                x 0.0
+00001464                y 0.0
+00001468                z 1.0
+00001470            trans::Vec3
+00001470                x 0.0
+00001474                y 0.0
+00001478                z 0.0
+00001480    RotationTransformBuilderEntityData 00000003
+00001480        $::EntityData
+00001480            $::GameObjectData
+00001480                $::DataBusPeer
+00001480                    $::GameDataContainer
+00001480                        $::DataContainer
+00001488                    Flags 141852567
+0000148c        Realm Realm_Client
+00001490        Rotation::Vec3
+00001490            x 0.0
+00001494            y 0.0
+00001498            z 0.0
+000014a0    InterfaceDescriptorData 00000004
+00001498        $::DynamicDataContainer
+00001498            $::DataContainer
+000014a0            Fields::array
+0000164c                member(0)::DataField
+0000164c                    Value *nullString*
+00001650                    ValueRef *nullGuid*
+00001654                    Id -1174111641
+00001658                    AccessType FieldAccessType_Source
+0000165c                member(1)::DataField
+0000165c                    Value *nullString*
+00001660                    ValueRef *nullGuid*
+00001664                    Id -1810789047
+00001668                    AccessType FieldAccessType_Target
+0000166c                member(2)::DataField
+0000166c                    Value Float32 5
+00001670                    ValueRef *nullGuid*
+00001674                    Id -1453894256
+00001678                    AccessType FieldAccessType_Target
+0000167c                member(3)::DataField
+0000167c                    Value Float32 5
+00001680                    ValueRef *nullGuid*
+00001684                    Id 769606366
+00001688                    AccessType FieldAccessType_Target
+0000168c                member(4)::DataField
+0000168c                    Value Float32 0.9
+00001690                    ValueRef *nullGuid*
+00001694                    Id -761389412
+00001698                    AccessType FieldAccessType_Target
+0000169c                member(5)::DataField
+0000169c                    Value Float32 0.9
+000016a0                    ValueRef *nullGuid*
+000016a4                    Id -761389411
+000016a8                    AccessType FieldAccessType_Target
+000016ac                member(6)::DataField
+000016ac                    Value Float32 0.9
+000016b0                    ValueRef *nullGuid*
+000016b4                    Id -761389410
+000016b8                    AccessType FieldAccessType_Target
+000016bc                member(7)::DataField
+000016bc                    Value Float32 0.9
+000016c0                    ValueRef *nullGuid*
+000016c4                    Id -236491304
+000016c8                    AccessType FieldAccessType_Target
+000016cc                member(8)::DataField
+000016cc                    Value *nullString*
+000016d0                    ValueRef *nullGuid*
+000016d4                    Id 640467086
+000016d8                    AccessType FieldAccessType_Target
+000016dc                member(9)::DataField
+000016dc                    Value Float32 0
+000016e0                    ValueRef *nullGuid*
+000016e4                    Id -141474860
+000016e8                    AccessType FieldAccessType_Target
+000014a4        InputEvents::array
+000016f0            member(0)::DynamicEvent
+000016f0                Id 1577401599
+000016f4            member(1)::DynamicEvent
+000016f4                Id 47785047
+000014a8        OutputEvents *nullArray*
+000014ac        InputLinks *nullArray*
+000014b0        OutputLinks::array
+000016fc            member(0)::DynamicLink
+000016fc                Id -1371125048
+000014b4    Vec3BuilderEntityData 00000005
+000014ac        $::EntityData
+000014ac            $::GameObjectData
+000014ac                $::DataBusPeer
+000014ac                    $::GameDataContainer
+000014ac                        $::DataContainer
+000014b4                    Flags 150820527
+000014b8        Realm Realm_Client

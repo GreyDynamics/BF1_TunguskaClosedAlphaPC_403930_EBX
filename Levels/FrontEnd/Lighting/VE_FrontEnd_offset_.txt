@@ -1,0 +1,1204 @@
+00005820    VisualEnvironmentBlueprint 3784b7f670d683f3602f3663e46ab0f6
+00005818        $::ObjectBlueprint
+00005818            $::Blueprint
+00005818                $::EntityBusData
+00005818                    $::DataBusData
+00005818                        $::Asset
+00005818                            $::DataContainer
+00005820                            Name Levels/FrontEnd/Lighting/VE_FrontEnd
+00005824                        PropertyConnections::array
+000065b4                            member(0)::PropertyConnection
+000065b4                                Source 0000000f
+000065b8                                Target 00000010
+000065bc                                SourceFieldId 1630997017
+000065c0                                TargetFieldId 5862146
+000065c4                                Flags 2
+000065c8                            member(1)::PropertyConnection
+000065c8                                Source 00000010
+000065cc                                Target 0000000e
+000065d0                                SourceFieldId 177661
+000065d4                                TargetFieldId 5862146
+000065d8                                Flags 2
+000065dc                            member(2)::PropertyConnection
+000065dc                                Source 00000010
+000065e0                                Target 0000000d
+000065e4                                SourceFieldId 177660
+000065e8                                TargetFieldId 5862146
+000065ec                                Flags 2
+000065f0                            member(3)::PropertyConnection
+000065f0                                Source 0000000f
+000065f4                                Target 0000000e
+000065f8                                SourceFieldId -318035489
+000065fc                                TargetFieldId 1828507227
+00006600                                Flags 2
+00006604                            member(4)::PropertyConnection
+00006604                                Source 0000000f
+00006608                                Target 0000000d
+0000660c                                SourceFieldId -318035489
+00006610                                TargetFieldId 1828507227
+00006614                                Flags 2
+00006618                            member(5)::PropertyConnection
+00006618                                Source 0000000e
+0000661c                                Target 00000005
+00006620                                SourceFieldId 193453899
+00006624                                TargetFieldId -2011673247
+00006628                                Flags 2
+0000662c                            member(6)::PropertyConnection
+0000662c                                Source 0000000d
+00006630                                Target 00000005
+00006634                                SourceFieldId 193453899
+00006638                                TargetFieldId -2011673248
+0000663c                                Flags 2
+00005828                        LinkConnections *nullArray*
+0000582c                        Interface *nullGuid*
+00005830                        Flags 0
+00005834                    EventConnections *nullArray*
+00005838            Object 0000000b
+0000583c        TimeDeltaType TimeDeltaType_None
+00005840    ColorCorrectionComponentData 00000000
+00005840        $::VisualEnvironmentComponentData
+00005840            $::GameComponentData
+00005840                $::ComponentData
+00005840                    $::GameObjectData
+00005840                        $::DataBusPeer
+00005840                            $::GameDataContainer
+00005840                                $::DataContainer
+00005848                            Flags 11065324
+0000584c                    Components *nullArray*
+00005850                    Transform::LinearTransform
+00005850                        right::Vec3
+00005850                            x 1.0
+00005854                            y 0.0
+00005858                            z 0.0
+00005860                        up::Vec3
+00005860                            x 0.0
+00005864                            y 1.0
+00005868                            z 0.0
+00005870                        forward::Vec3
+00005870                            x 0.0
+00005874                            y 0.0
+00005878                            z 1.0
+00005880                        trans::Vec3
+00005880                            x 0.0
+00005884                            y 0.0
+00005888                            z 0.0
+00005890                    Excluded False
+000058a0            PropertyOverrides::array
+00006644                member(0) Enable
+00006648                member(1) ColorGradingEnable
+0000664c                member(2) ColorGradingTexture
+00006650                member(3) ColorGradingMaxHdrValue
+00006654                member(4) Brightness
+00006658                member(5) Saturation
+000058a4            PropertyOverrideMasks::array
+00006660                member(0) 485
+000058b0        Brightness::Vec3
+000058b0            x 1.0
+000058b4            y 1.0
+000058b8            z 1.0
+000058c0        Contrast::Vec3
+000058c0            x 1.0
+000058c4            y 1.0
+000058c8            z 1.0
+000058d0        Saturation::Vec3
+000058d0            x 0.787412345409
+000058d4            y 0.787412345409
+000058d8            z 0.787412345409
+000058e0        Realm Realm_Client
+000058e4        Hue 0.0
+000058e8        ColorGradingTexture Levels/FrontEnd/Textures/T_Frontend_ColorCube_01/98f6f9a274de125210c13e1dba3a0662
+000058ec        ColorGradingMaxHdrValue 1.0
+000058f0        Enable True
+000058f1        ColorGradingEnable True
+00005900    DofComponentData 00000001
+00005900        $::VisualEnvironmentComponentData
+00005900            $::GameComponentData
+00005900                $::ComponentData
+00005900                    $::GameObjectData
+00005900                        $::DataBusPeer
+00005900                            $::GameDataContainer
+00005900                                $::DataContainer
+00005908                            Flags 7156131
+0000590c                    Components *nullArray*
+00005910                    Transform::LinearTransform
+00005910                        right::Vec3
+00005910                            x 1.0
+00005914                            y 0.0
+00005918                            z 0.0
+00005920                        up::Vec3
+00005920                            x 0.0
+00005924                            y 1.0
+00005928                            z 0.0
+00005930                        forward::Vec3
+00005930                            x 0.0
+00005934                            y 0.0
+00005938                            z 1.0
+00005940                        trans::Vec3
+00005940                            x 0.0
+00005944                            y 0.0
+00005948                            z 0.0
+00005950                    Excluded False
+00005960            PropertyOverrides::array
+00006668                member(0) SimpleDofBlurFilter
+0000666c                member(1) SpriteDofBokehTexture
+00006670                member(2) Enable
+00006674                member(3) SpriteDofFarEnd
+00006678                member(4) SpriteDofFarStart
+0000667c                member(5) SpriteDofMaxBlur
+00006680                member(6) BlurFactor
+00006684                member(7) DebugDrawFocusPlane
+00006688                member(8) UseCameraSettings
+0000668c                member(9) SpriteDofNearEnd
+00006690                member(10) SpriteDofNearStart
+00006694                member(11) SimpleDofMaxBlur
+00006698                member(12) SimpleDofNearStart
+0000669c                member(13) SimpleDofNearEnd
+000066a0                member(14) SimpleDofFarStart
+000066a4                member(15) SimpleDofFarEnd
+00005964            PropertyOverrideMasks::array
+000066ac                member(0) 8373236
+000066b0                member(1) 0
+00005970        Realm Realm_Client
+00005974        FocusDistance 5.0
+00005978        BlurFactor 1.0
+0000597c        BlurAdd 0.0
+00005980        SimpleDofBlurFilter BfGaussian3Pixels
+00005984        SimpleDofMaxBlur 1.0
+00005988        SimpleDofNearStart 0.0
+0000598c        SimpleDofNearEnd 47.0
+00005990        SimpleDofFarStart 3.5
+00005994        SimpleDofFarEnd 45.0
+00005998        HipToIronsightsFade 1.0
+0000599c        IronsightsDofStartFade 0.5
+000059a0        IronsightsFocalDistance 1.5
+000059a4        IronsightsDofCircleDistance 0.34999999404
+000059a8        SpriteDofNearStart 0.0
+000059ac        SpriteDofNearEnd 47.0
+000059b0        SpriteDofFarStart 3.5
+000059b4        SpriteDofFarEnd 45.0
+000059b8        SpriteDofMaxBlur 1.0
+000059bc        SpriteDofBokehTexture Systems/PostProcess/DefaultBokehTexture/f7c29c406a76fbe1e0e33880bad5b3f8
+000059c0        Enable True
+000059c1        UseCameraSettings False
+000059c2        DebugDrawFocusPlane False
+000059c3        IronsightsDofActive False
+000059c4        IronsightsDofCircleBlur False
+000059d0    EnlightenComponentData 00000002
+000059d0        $::VisualEnvironmentComponentData
+000059d0            $::GameComponentData
+000059d0                $::ComponentData
+000059d0                    $::GameObjectData
+000059d0                        $::DataBusPeer
+000059d0                            $::GameDataContainer
+000059d0                                $::DataContainer
+000059d8                            Flags 21979236
+000059dc                    Components *nullArray*
+000059e0                    Transform::LinearTransform
+000059e0                        right::Vec3
+000059e0                            x 1.0
+000059e4                            y 0.0
+000059e8                            z 0.0
+000059f0                        up::Vec3
+000059f0                            x 0.0
+000059f4                            y 1.0
+000059f8                            z 0.0
+00005a00                        forward::Vec3
+00005a00                            x 0.0
+00005a04                            y 0.0
+00005a08                            z 1.0
+00005a10                        trans::Vec3
+00005a10                            x 0.0
+00005a14                            y 0.0
+00005a18                            z 0.0
+00005a20                    Excluded False
+00005a30            PropertyOverrides *nullArray*
+00005a34            PropertyOverrideMasks::array
+000066b8                member(0) 0
+00005a40        TerrainColor::Vec3
+00005a40            x 0.10000000149
+00005a44            y 0.10000000149
+00005a48            z 0.10000000149
+00005a50        SkyBoxSkyColor::Vec3
+00005a50            x 0.317999988794
+00005a54            y 0.340999990702
+00005a58            z 0.40000000596
+00005a60        SkyBoxGroundColor::Vec3
+00005a60            x 0.0500000007451
+00005a64            y 0.0500000007451
+00005a68            z 0.0500000007451
+00005a70        SkyBoxSunLightColor::Vec3
+00005a70            x 1.0
+00005a74            y 0.971000015736
+00005a78            z 0.913999974728
+00005a80        SkyBoxBackLightColor::Vec3
+00005a80            x 1.0
+00005a84            y 0.971000015736
+00005a88            z 0.913999974728
+00005a90        OpaqueAlphaTestSimpleScale::Vec3
+00005a90            x 1.0
+00005a94            y 1.0
+00005a98            z 1.0
+00005aa0        Realm Realm_Client
+00005aa4        BounceScale 1.0
+00005aa8        SunScale 1.0
+00005aac        CullDistance -1.0
+00005ab0        CullRadius 0.0
+00005ab4        SkyBoxBlendMode SkyBoxBlendMode_Lerp
+00005ab8        SkyBoxBlend 1.0
+00005abc        SkyBoxSunLightColorSize 0.0
+00005ac0        SkyBoxBackLightColorSize 0.0
+00005ac4        SkyBoxBackLightRotationX 0.0
+00005ac8        SkyBoxBackLightRotationY 60.0
+00005acc        SkyBoxEnable False
+00005ad0    FogComponentData 00000003
+00005ad0        $::VisualEnvironmentComponentData
+00005ad0            $::GameComponentData
+00005ad0                $::ComponentData
+00005ad0                    $::GameObjectData
+00005ad0                        $::DataBusPeer
+00005ad0                            $::GameDataContainer
+00005ad0                                $::DataContainer
+00005ad8                            Flags 1618663
+00005adc                    Components *nullArray*
+00005ae0                    Transform::LinearTransform
+00005ae0                        right::Vec3
+00005ae0                            x 1.0
+00005ae4                            y 0.0
+00005ae8                            z 0.0
+00005af0                        up::Vec3
+00005af0                            x 0.0
+00005af4                            y 1.0
+00005af8                            z 0.0
+00005b00                        forward::Vec3
+00005b00                            x 0.0
+00005b04                            y 0.0
+00005b08                            z 1.0
+00005b10                        trans::Vec3
+00005b10                            x 0.0
+00005b14                            y 0.0
+00005b18                            z 0.0
+00005b20                    Excluded False
+00005b30            PropertyOverrides::array
+000066c0                member(0) Enable
+000066c4                member(1) FogColorEnable
+000066c8                member(2) TransparencyFadeCurve
+000066cc                member(3) TransparencyFadeClamp
+000066d0                member(4) TransparencyFadeEnd
+000066d4                member(5) TransparencyFadeStart
+000066d8                member(6) FogDistanceMultiplier
+000066dc                member(7) HeightFogVisibilityRange
+000066e0                member(8) HeightFogDepth
+000066e4                member(9) HeightFogAltitude
+000066e8                member(10) HeightFogFollowCamera
+000066ec                member(11) HeightFogEnable
+000066f0                member(12) Curve
+000066f4                member(13) End
+000066f8                member(14) Start
+000066fc                member(15) FogGradientEnable
+00006700                member(16) ForwardLightScatteringSmoothness
+00006704                member(17) ForwardLightScatteringExtinction
+00006708                member(18) ForwardLightScatteringMaxBlurLength
+0000670c                member(19) ForwardLightScatteringPresence
+00006710                member(20) ForwardLightScatteringColor
+00006714                member(21) ForwardLightScatteringStrength
+00006718                member(22) ForwardLightScatteringPhaseG
+0000671c                member(23) ForwardLightScatteringEnabled
+00006720                member(24) FogColorCurve
+00006724                member(25) FogColorEnd
+00006728                member(26) FogColorStart
+0000672c                member(27) FogColor
+00005b34            PropertyOverrideMasks::array
+00006734                member(0) 536870879
+00006738                member(1) 0
+00005b40        Curve::Vec4
+00005b40            x 0.0
+00005b44            y 0.0
+00005b48            z 0.0
+00005b4c            w 0.0
+00005b50        FogColor::Vec3
+00005b50            x 1.0
+00005b54            y 1.0
+00005b58            z 1.0
+00005b60        FogColorCurve::Vec4
+00005b60            x 0.0
+00005b64            y 0.0
+00005b68            z 0.0
+00005b6c            w 0.0
+00005b70        TransparencyFadeCurve::Vec4
+00005b70            x -2.0
+00005b74            y 3.0
+00005b78            z 0.0
+00005b7c            w 0.0
+00005b80        ForwardLightScatteringColor::Vec3
+00005b80            x 1.0
+00005b84            y 1.0
+00005b88            z 1.0
+00005b90        Realm Realm_Client
+00005b94        FogDistanceMultiplier 1.0
+00005b98        Start 0.0
+00005b9c        End 5000.0
+00005ba0        FogColorStart 0.0
+00005ba4        FogColorEnd 5000.0
+00005ba8        TransparencyFadeStart 0.0
+00005bac        TransparencyFadeEnd 100.0
+00005bb0        TransparencyFadeClamp 0.0
+00005bb4        ForwardLightScatteringPhaseG 0.0
+00005bb8        ForwardLightScatteringStrength 0.0
+00005bbc        ForwardLightScatteringPresence 0.0
+00005bc0        ForwardLightScatteringMaxBlurLength 0.5
+00005bc4        ForwardLightScatteringExtinction 14.0
+00005bc8        ForwardLightScatteringSmoothness 4.0
+00005bcc        HeightFogFollowCamera 0.0
+00005bd0        HeightFogAltitude 0.0
+00005bd4        HeightFogDepth 100.0
+00005bd8        HeightFogVisibilityRange 100.0
+00005bdc        Enable False
+00005bdd        FogGradientEnable True
+00005bde        FogColorEnable True
+00005bdf        ForwardLightScatteringEnabled False
+00005be0        HeightFogEnable False
+00005bf0    MotionBlurComponentData 00000004
+00005bf0        $::VisualEnvironmentComponentData
+00005bf0            $::GameComponentData
+00005bf0                $::ComponentData
+00005bf0                    $::GameObjectData
+00005bf0                        $::DataBusPeer
+00005bf0                            $::GameDataContainer
+00005bf0                                $::DataContainer
+00005bf8                            Flags 6152001
+00005bfc                    Components *nullArray*
+00005c00                    Transform::LinearTransform
+00005c00                        right::Vec3
+00005c00                            x 1.0
+00005c04                            y 0.0
+00005c08                            z 0.0
+00005c10                        up::Vec3
+00005c10                            x 0.0
+00005c14                            y 1.0
+00005c18                            z 0.0
+00005c20                        forward::Vec3
+00005c20                            x 0.0
+00005c24                            y 0.0
+00005c28                            z 1.0
+00005c30                        trans::Vec3
+00005c30                            x 0.0
+00005c34                            y 0.0
+00005c38                            z 0.0
+00005c40                    Excluded False
+00005c50            PropertyOverrides::array
+00006740                member(0) MotionBlurEnable
+00006744                member(1) MotionBlurScale
+00006748                member(2) MotionBlurCentered
+0000674c                member(3) MotionBlurCutoffRadius
+00006750                member(4) CutoffGradientScale
+00006754                member(5) RadialBlurEnable
+00006758                member(6) RadialBlurCenter
+0000675c                member(7) RadialBlurOffset
+00006760                member(8) CircularOffsetFactor
+00006764                member(9) RadialBlurScale
+00005c54            PropertyOverrideMasks::array
+0000676c                member(0) 4090
+00005c60        Realm Realm_Client
+00005c64        MotionBlurScale 1.0
+00005c68        DepthCheckMaxDistance -1.0
+00005c6c        MotionBlurCutoffRadius 0.0
+00005c70        CutoffGradientScale 1.0
+00005c74        RadialBlurCenter::Vec2
+00005c74            x 0.5
+00005c78            y 0.5
+00005c7c        RadialBlurOffset 0.0
+00005c80        CircularOffsetFactor 1.0
+00005c84        RadialBlurScale 0.0
+00005c88        MotionBlurEnable True
+00005c89        MotionBlurCentered False
+00005c8a        RadialBlurEnable False
+00005c90    OutdoorLightComponentData 00000005
+00005c90        $::VisualEnvironmentComponentData
+00005c90            $::GameComponentData
+00005c90                $::ComponentData
+00005c90                    $::GameObjectData
+00005c90                        $::DataBusPeer
+00005c90                            $::GameDataContainer
+00005c90                                $::DataContainer
+00005c98                            Flags 162731446
+00005c9c                    Components *nullArray*
+00005ca0                    Transform::LinearTransform
+00005ca0                        right::Vec3
+00005ca0                            x 1.0
+00005ca4                            y 0.0
+00005ca8                            z 0.0
+00005cb0                        up::Vec3
+00005cb0                            x 0.0
+00005cb4                            y 1.0
+00005cb8                            z 0.0
+00005cc0                        forward::Vec3
+00005cc0                            x 0.0
+00005cc4                            y 0.0
+00005cc8                            z 1.0
+00005cd0                        trans::Vec3
+00005cd0                            x 0.0
+00005cd4                            y 0.0
+00005cd8                            z 0.0
+00005ce0                    Excluded False
+00005cf0            PropertyOverrides::array
+00006774                member(0) Enable
+00006778                member(1) SunRotationX
+0000677c                member(2) ShadowSunRotationEnable
+00006780                member(3) SunIntensity
+00006784                member(4) SunShadowFilterType
+00006788                member(5) SunAngularRadius
+0000678c                member(6) CloudShadowEnable
+00006790                member(7) ShadowSunRotationY
+00006794                member(8) ShadowSunRotationX
+00006798                member(9) SunColor
+0000679c                member(10) CloudShadowTexture
+000067a0                member(11) CloudShadowSpeed
+000067a4                member(12) CloudShadowSize
+000067a8                member(13) CloudShadowCoverage
+000067ac                member(14) CloudShadowExponent
+000067b0                member(15) CloudShadowIsTopDown
+000067b4                member(16) CloudShadowStartFade
+000067b8                member(17) CloudShadowsFadeDistance
+000067bc                member(18) CloudXZTranslation
+000067c0                member(19) CloudShadowAddressingMode
+000067c4                member(20) SkyLightAngleFactor
+000067c8                member(21) SkyEnvmapShadowScale
+000067cc                member(22) ParticleSunShadowFactor
+000067d0                member(23) ParticleSunShadowSmoothing
+000067d4                member(24) SunShadowHeightScale
+000067d8                member(25) SunPcssFilterAdaptive
+000067dc                member(26) SunPcssMaximumSampleCount
+000067e0                member(27) SunPenumbraSize
+000067e4                member(28) SunPcssShadowFilterScale
+000067e8                member(29) TranslucencyAmbient
+000067ec                member(30) TranslucencyScale
+000067f0                member(31) TranslucencyPower
+000067f4                member(32) TranslucencyDistortion
+000067f8                member(33) SunSpecularScale
+000067fc                member(34) SunRotationY
+00005cf4            PropertyOverrideMasks::array
+00006804                member(0) 4283432449
+00006808                member(1) 65529
+00005d00        SunColor::Vec3
+00005d00            x 1.0
+00005d04            y 0.905354380608
+00005d08            z 0.737910568714
+00005d10        FinalSunLuminance::Vec3
+00005d10            x 0.0
+00005d14            y 0.0
+00005d18            z 0.0
+00005d20        FinalSunIlluminance::Vec3
+00005d20            x 0.0
+00005d24            y 0.0
+00005d28            z 0.0
+00005d30        OuterSpaceSunLuminance::Vec3
+00005d30            x 0.0
+00005d34            y 0.0
+00005d38            z 0.0
+00005d40        OuterSpaceSunIlluminance1::Vec3
+00005d40            x 0.0
+00005d44            y 0.0
+00005d48            z 0.0
+00005d50        OuterSpaceSunIlluminance2::Vec3
+00005d50            x 0.0
+00005d54            y 0.0
+00005d58            z 0.0
+00005d60        SkyColor::Vec3
+00005d60            x 0.317999988794
+00005d64            y 0.340999990702
+00005d68            z 0.40000000596
+00005d70        GroundColor::Vec3
+00005d70            x 0.0500000007451
+00005d74            y 0.0500000007451
+00005d78            z 0.0500000007451
+00005d80        Realm Realm_Client
+00005d84        SunRotationX 250.0
+00005d88        SunRotationY 60.0
+00005d8c        ShadowSunRotationX 240.0
+00005d90        ShadowSunRotationY 7.0
+00005d94        SunIntensity 120000.0
+00005d98        SunAngularRadius 1.00899994373
+00005d9c        SkyLightAngleFactor 0.0
+00005da0        SunSpecularScale 1.0
+00005da4        SkyEnvmapShadowScale 1.0
+00005da8        SunShadowHeightScale 1.0
+00005dac        SunShadowFilterType ShadowFilteringType_Pcf
+00005db0        SunShadowForwardQuality ShaderShadowmapQuality_Low
+00005db4        SunPcssInitialSampleCount 8
+00005db8        SunPcssMaximumSampleCount 256
+00005dbc        SunPcssFilterErrorThresholdPct 0.0500000007451
+00005dc0        SunPenumbraSize 4.0
+00005dc4        SunPcssShadowFilterScale 1.0
+00005dc8        CloudShadowTexture *nullGuid*
+00005dcc        CloudShadowSpeed::Vec2
+00005dcc            x 2.0
+00005dd0            y 2.0
+00005dd4        CloudShadowSize 500.0
+00005dd8        CloudShadowCoverage 0.300000011921
+00005ddc        CloudShadowExponent 8.0
+00005de0        CloudShadowStartFade -1.0
+00005de4        CloudShadowsFadeDistance 0.0
+00005de8        CloudShadowStartHeightFade -1.0
+00005dec        CloudShadowsHeightFadeDistance 0.0
+00005df0        CloudXZTranslation::Vec2
+00005df0            x 0.0
+00005df4            y 0.0
+00005df8        CloudShadowAddressingMode TaWrap
+00005dfc        TranslucencyAmbient 0.0
+00005e00        TranslucencyScale 0.0
+00005e04        TranslucencyPower 8.0
+00005e08        TranslucencyDistortion 0.10000000149
+00005e0c        ParticleSunShadowFactor 1.0
+00005e10        ParticleSunShadowSmoothing 0.10000000149
+00005e14        Enable True
+00005e15        ShadowSunRotationEnable False
+00005e16        SunPcssFilterAdaptive True
+00005e17        CloudShadowEnable False
+00005e18        CloudShadowIsTopDown False
+00005e20    ScreenEffectComponentData 00000006
+00005e20        $::VisualEnvironmentComponentData
+00005e20            $::GameComponentData
+00005e20                $::ComponentData
+00005e20                    $::GameObjectData
+00005e20                        $::DataBusPeer
+00005e20                            $::GameDataContainer
+00005e20                                $::DataContainer
+00005e28                            Flags 12321853
+00005e2c                    Components *nullArray*
+00005e30                    Transform::LinearTransform
+00005e30                        right::Vec3
+00005e30                            x 1.0
+00005e34                            y 0.0
+00005e38                            z 0.0
+00005e40                        up::Vec3
+00005e40                            x 0.0
+00005e44                            y 1.0
+00005e48                            z 0.0
+00005e50                        forward::Vec3
+00005e50                            x 0.0
+00005e54                            y 0.0
+00005e58                            z 1.0
+00005e60                        trans::Vec3
+00005e60                            x 0.0
+00005e64                            y 0.0
+00005e68                            z 0.0
+00005e70                    Excluded False
+00005e80            PropertyOverrides::array
+00006810                member(0) FrameType
+00006814                member(1) Shader
+00006818                member(2) FrameWidth
+0000681c                member(3) OuterFrameOpacity
+00006820                member(4) InnerFrameOpacity
+00006824                member(5) Angle
+00006828                member(6) ScreenEffectParams
+00005e84            PropertyOverrideMasks::array
+00006830                member(0) 253
+00005e90        ScreenEffectParams::Vec4
+00005e90            x 0.0
+00005e94            y 0.0
+00005e98            z 0.0
+00005e9c            w 0.0
+00005ea0        Realm Realm_Client
+00005ea4        FrameType ScreenEffectFrameType_FullFrame
+00005ea8        Shader *nullGuid*
+00005eac        FrameWidth 0.5
+00005eb0        OuterFrameOpacity 1.0
+00005eb4        InnerFrameOpacity 1.0
+00005eb8        Angle 0.0
+00005ec0    ShaderParamsComponentData 00000007
+00005ec0        $::VisualEnvironmentComponentData
+00005ec0            $::GameComponentData
+00005ec0                $::ComponentData
+00005ec0                    $::GameObjectData
+00005ec0                        $::DataBusPeer
+00005ec0                            $::GameDataContainer
+00005ec0                                $::DataContainer
+00005ec8                            Flags 28454950
+00005ecc                    Components *nullArray*
+00005ed0                    Transform::LinearTransform
+00005ed0                        right::Vec3
+00005ed0                            x 1.0
+00005ed4                            y 0.0
+00005ed8                            z 0.0
+00005ee0                        up::Vec3
+00005ee0                            x 0.0
+00005ee4                            y 1.0
+00005ee8                            z 0.0
+00005ef0                        forward::Vec3
+00005ef0                            x 0.0
+00005ef4                            y 0.0
+00005ef8                            z 1.0
+00005f00                        trans::Vec3
+00005f00                            x 0.0
+00005f04                            y 0.0
+00005f08                            z 0.0
+00005f10                    Excluded False
+00005f20            PropertyOverrides::array
+00006838                member(0) ParameterName
+0000683c                member(1) Value
+00005f24            PropertyOverrideMasks::array
+00006844                member(0) 5
+00005f30        Value::Vec4
+00005f30            x 0.0
+00005f34            y 0.0
+00005f38            z 0.0
+00005f3c            w 0.0
+00005f40        Realm Realm_Client
+00005f44        ParameterName Override
+00005f50    SkyComponentData 00000008
+00005f50        $::VisualEnvironmentComponentData
+00005f50            $::GameComponentData
+00005f50                $::ComponentData
+00005f50                    $::GameObjectData
+00005f50                        $::DataBusPeer
+00005f50                            $::GameDataContainer
+00005f50                                $::DataContainer
+00005f58                            Flags 6392130
+00005f5c                    Components *nullArray*
+00005f60                    Transform::LinearTransform
+00005f60                        right::Vec3
+00005f60                            x 1.0
+00005f64                            y 0.0
+00005f68                            z 0.0
+00005f70                        up::Vec3
+00005f70                            x 0.0
+00005f74                            y 1.0
+00005f78                            z 0.0
+00005f80                        forward::Vec3
+00005f80                            x 0.0
+00005f84                            y 0.0
+00005f88                            z 1.0
+00005f90                        trans::Vec3
+00005f90                            x 0.0
+00005f94                            y 0.0
+00005f98                            z 0.0
+00005fa0                    Excluded False
+00005fb0            PropertyOverrides::array
+0000684c                member(0) Enable
+00006850                member(1) SkyType
+00006854                member(2) LuminanceScale
+00006858                member(3) SkyGradientTexture
+0000685c                member(4) AlphaOutput
+00006860                member(5) UseSkyVisibilityAsAO
+00006864                member(6) SunSize
+00006868                member(7) SunScale
+0000686c                member(8) CloudLayerSunColor
+00006870                member(9) CloudLayerMaskTexture
+00006874                member(10) CloudLayer1Altitude
+00006878                member(11) CloudLayer1TileFactor
+0000687c                member(12) CloudLayer1Rotation
+00006880                member(13) CloudLayer1Speed
+00006884                member(14) CloudLayer1SunLightIntensity
+00006888                member(15) CloudLayer1SunLightPower
+0000688c                member(16) CloudLayer1AmbientLightIntensity
+00006890                member(17) CloudLayer1Color
+00006894                member(18) CloudLayer1AlphaMul
+00006898                member(19) CloudLayer1Texture
+0000689c                member(20) CloudLayer2Altitude
+000068a0                member(21) CloudLayer2TileFactor
+000068a4                member(22) CloudLayer2Rotation
+000068a8                member(23) CloudLayer2Speed
+000068ac                member(24) CloudLayer2SunLightIntensity
+000068b0                member(25) CloudLayer2SunLightPower
+000068b4                member(26) CloudLayer2AmbientLightIntensity
+000068b8                member(27) CloudLayer2Color
+000068bc                member(28) CloudLayer2AlphaMul
+000068c0                member(29) CloudLayer2Texture
+000068c4                member(30) StaticEnvmapTexture
+000068c8                member(31) StaticEnvmapScale
+000068cc                member(32) SkyEnvmap8BitTexScale
+000068d0                member(33) CustomEnvmapTexture
+000068d4                member(34) CustomEnvmapScale
+000068d8                member(35) CustomEnvmapAmbient
+000068dc                member(36) SkyVisibilityExponent
+000068e0                member(37) PanoramicUVMinX
+000068e4                member(38) PanoramicUVMaxX
+000068e8                member(39) PanoramicUVMinY
+000068ec                member(40) PanoramicUVMaxY
+000068f0                member(41) PanoramicTileFactor
+000068f4                member(42) PanoramicRotation
+000068f8                member(43) PanoramicTexture
+000068fc                member(44) PanoramicAlphaTexture
+00006900                member(45) ForwardScatteringStartDepth
+00006904                member(46) ForwardScatteringEndDepth
+00005fb4            PropertyOverrideMasks::array
+0000690c                member(0) 4291756039
+00006910                member(1) 4169122815
+00006914                member(2) 25165827
+00006918                member(3) 6
+00005fc0        CloudLayerSunColor::Vec3
+00005fc0            x 1.0
+00005fc4            y 1.0
+00005fc8            z 1.0
+00005fd0        CloudLayer1Color::Vec3
+00005fd0            x 1.0
+00005fd4            y 1.0
+00005fd8            z 1.0
+00005fe0        CloudLayer2Color::Vec3
+00005fe0            x 1.0
+00005fe4            y 1.0
+00005fe8            z 1.0
+00005ff0        RayleighScatteringCoefficient::Vec3
+00005ff0            x 5.80000005357e-06
+00005ff4            y 1.35000000228e-05
+00005ff8            z 3.31000010192e-05
+00006000        Light1Color::Vec3
+00006000            x 1.0
+00006004            y 1.0
+00006008            z 1.0
+00006010        Light2Color::Vec3
+00006010            x 1.0
+00006014            y 1.0
+00006018            z 1.0
+00006020        nightSkyColor::Vec3
+00006020            x 0.00999999977648
+00006024            y 0.019999999553
+00006028            z 0.0299999993294
+00006030        nightSkyHorizonColor::Vec3
+00006030            x 0.00999999977648
+00006034            y 0.019999999553
+00006038            z 0.0299999993294
+00006040        RayleighPolarization::Vec3
+00006040            x 1.0
+00006044            y 1.0
+00006048            z 1.0
+00006050        MiePolarization::Vec3
+00006050            x 1.0
+00006054            y 1.0
+00006058            z 1.0
+00006060        OutdoorLightScale::Vec3
+00006060            x 1.0
+00006064            y 1.0
+00006068            z 1.0
+00006070        ForwardScatteringDepthVisibility::Vec4
+00006070            x 0.0
+00006074            y 0.0
+00006078            z 0.0
+0000607c            w 0.0
+00006080        ForwardScatteringOutdoorLightTint::Vec3
+00006080            x 1.0
+00006084            y 1.0
+00006088            z 1.0
+00006090        HeightFogColorAdd::Vec3
+00006090            x 0.0
+00006094            y 0.0
+00006098            z 0.0
+000060a0        HeightFogColorMult::Vec3
+000060a0            x 1.0
+000060a4            y 1.0
+000060a8            z 1.0
+000060b0        Realm Realm_Client
+000060b4        SkyType SkyType_Procedural
+000060b8        LuminanceScale 25000.0
+000060bc        SkyGradientTexture *nullGuid*
+000060c0        AlphaOutput AlphaOutputMode_Disabled
+000060c4        HdriRotation 0.0
+000060c8        HdriTexture *nullGuid*
+000060cc        SunSize 0.00400000018999
+000060d0        SunScale 1.0
+000060d4        PanoramicUVMinX 0.0
+000060d8        PanoramicUVMaxX 1.0
+000060dc        PanoramicUVMinY 0.0
+000060e0        PanoramicUVMaxY 1.0
+000060e4        PanoramicTileFactor 1.0
+000060e8        PanoramicRotation 0.0
+000060ec        PanoramicTexture Levels/FrontEnd/Lighting/T_FrontEndSkyPanoramic/98e9e5eef6be758390bbe6c98e29205c
+000060f0        PanoramicAlphaTexture Systems/VisualEnvironment/DefaultSkyCloudMask/3dcb03655a74ad86a03aef2878a23ed5
+000060f4        CloudLayerMaskTexture *nullGuid*
+000060f8        CloudLayer1Altitude 10000.0
+000060fc        CloudLayer1TileFactor 0.25
+00006100        CloudLayer1Rotation 0.0
+00006104        CloudLayer1Speed 0.00999999977648
+00006108        CloudLayer1SunLightIntensity 4.0
+0000610c        CloudLayer1SunLightPower 50.0
+00006110        CloudLayer1AmbientLightIntensity 0.20000000298
+00006114        CloudLayer1AlphaMul 1.0
+00006118        CloudLayer1Texture *nullGuid*
+0000611c        CloudLayer1Absorption 1.0
+00006120        CloudLayer1Scattering 1.0
+00006124        CloudLayer1Phase 0.0
+00006128        CloudLayer1Thickness 1.0
+0000612c        CloudLayer2Altitude 10000.0
+00006130        CloudLayer2TileFactor 0.25
+00006134        CloudLayer2Rotation 0.0
+00006138        CloudLayer2Speed 0.00999999977648
+0000613c        CloudLayer2SunLightIntensity 4.0
+00006140        CloudLayer2SunLightPower 50.0
+00006144        CloudLayer2AmbientLightIntensity 0.20000000298
+00006148        CloudLayer2AlphaMul 1.0
+0000614c        CloudLayer2Texture *nullGuid*
+00006150        CloudLayer2Absorption 1.0
+00006154        CloudLayer2Scattering 1.0
+00006158        CloudLayer2Phase 0.0
+0000615c        CloudLayer2Thickness 1.0
+00006160        StaticEnvmapTexture *nullGuid*
+00006164        StaticEnvmapScale 1.0
+00006168        SkyEnvmap8BitTexScale 0.25
+0000616c        CustomEnvmapTexture *nullGuid*
+00006170        CustomEnvmapScale 1.0
+00006174        CustomEnvmapAmbient 0.0
+00006178        SkyVisibilityExponent 1.0
+0000617c        EarthRadius 6.38999986649
+00006180        AtmosphereRadius 6.48000001907
+00006184        MieScatteringCoefficient 3.9999999899e-06
+00006188        MieG 0.785000026226
+0000618c        MieExtinctionCoefficientRelation 1.11111104488
+00006190        ScaleHeightMie 1.20000004768
+00006194        RayleighScatteringCoefficientScale 1.0
+00006198        RayleighExtinctionCoefficientRelation 1.0
+0000619c        ScaleHeightRayleigh 8.0
+000061a0        OzonePercentage 6.00000021223e-07
+000061a4        AerialPerspectiveScale 1.0
+000061a8        AerialPerspectiveIntensity 1.0
+000061ac        AerialPerspectiveDithering 0.0
+000061b0        Light1Intensity 1.0
+000061b4        Light1RotX 0.0
+000061b8        Light1RotY 60.0
+000061bc        Light2Intensity 1.0
+000061c0        Light2RotX 0.0
+000061c4        Light2RotY 60.0
+000061c8        nightSkyHorizonScale 1.0
+000061cc        FogStartDistance 0.0
+000061d0        ForwardScatteringStartDepth 0.0
+000061d4        ForwardScatteringEndDepth 5000.0
+000061d8        ForwardScatteringTakesColorFromOutdoorLight 1.0
+000061dc        MinHeightFogTransmittance 0.0
+000061e0        FlowPeriod 10.0
+000061e4        FlowDistance 0.300000011921
+000061e8        FlowDirection 0.0
+000061ec        FlowHeightMaskScale 1.0
+000061f0        FlowHeightMaskBias 0.0
+000061f4        FlowMaskTexture *nullGuid*
+000061f8        Enable True
+000061f9        UseSkyVisibilityAsAO True
+000061fa        SkyGradientFollowsPanoramicUVs False
+000061fb        UseOzone False
+000061fc        UseAerialPerspective True
+000061fd        Light1FollowOutdoorLight True
+000061fe        Light1TakesColorFromOutdoorLight True
+000061ff        UseLightSource2 False
+00006200        UseNoise False
+00006201        DrawSunDisc True
+00006210    TonemapComponentData 00000009
+00006210        $::VisualEnvironmentComponentData
+00006210            $::GameComponentData
+00006210                $::ComponentData
+00006210                    $::GameObjectData
+00006210                        $::DataBusPeer
+00006210                            $::GameDataContainer
+00006210                                $::DataContainer
+00006218                            Flags 23895474
+0000621c                    Components *nullArray*
+00006220                    Transform::LinearTransform
+00006220                        right::Vec3
+00006220                            x 1.0
+00006224                            y 0.0
+00006228                            z 0.0
+00006230                        up::Vec3
+00006230                            x 0.0
+00006234                            y 1.0
+00006238                            z 0.0
+00006240                        forward::Vec3
+00006240                            x 0.0
+00006244                            y 0.0
+00006248                            z 1.0
+00006250                        trans::Vec3
+00006250                            x 0.0
+00006254                            y 0.0
+00006258                            z 0.0
+00006260                    Excluded False
+00006270            PropertyOverrides::array
+00006920                member(0) DarkAdaptationTime
+00006924                member(1) LightAdaptationTime
+00006928                member(2) TonemapMethod
+0000692c                member(3) BloomScale
+00006930                member(4) ChromostereopsisEnable
+00006934                member(5) ChromostereopsisScale
+00006938                member(6) AutomaticExposure
+0000693c                member(7) ClampEV
+00006940                member(8) EV
+00006944                member(9) MinEV
+00006948                member(10) MaxEV
+0000694c                member(11) SpotMeterScale
+00006950                member(12) BloomMethod
+00006954                member(13) GaussianSharpness
+00006958                member(14) ChromostereopsisOffset
+0000695c                member(15) Gaussian4Weight
+00006960                member(16) Gaussian5Color
+00006964                member(17) Gaussian5Weight
+00006968                member(18) Gaussian1Color
+0000696c                member(19) Gaussian1Weight
+00006970                member(20) Gaussian2Color
+00006974                member(21) Gaussian2Weight
+00006274            PropertyOverrideMasks::array
+0000697c                member(0) 3154614439
+00006980                member(1) 6017
+00006280        BloomScale::Vec3
+00006280            x 0.214041143656
+00006284            y 0.214041143656
+00006288            z 0.214041143656
+00006290        Gaussian1Color::Vec3
+00006290            x 4.95384740829
+00006294            y 4.03390407562
+00006298            z 2.56025099754
+000062a0        Gaussian2Color::Vec3
+000062a0            x 0.0
+000062a4            y 0.0
+000062a8            z 0.0
+000062b0        Gaussian3Color::Vec3
+000062b0            x 1.0
+000062b4            y 1.0
+000062b8            z 1.0
+000062c0        Gaussian4Color::Vec3
+000062c0            x 1.0
+000062c4            y 1.0
+000062c8            z 1.0
+000062d0        Gaussian5Color::Vec3
+000062d0            x 0.254152089357
+000062d4            y 1.7029633522
+000062d8            z 4.95384740829
+000062e0        Realm Realm_Client
+000062e4        EV 13.5
+000062e8        ExposureCompensation 0.0
+000062ec        AutoExposureDarkestExclude 0.0
+000062f0        AutoExposureBrightestExclude 0.0
+000062f4        DarkAdaptationTime 0.5
+000062f8        LightAdaptationTime 0.5
+000062fc        AutoExposureHigherThreshold 0.0
+00006300        AutoExposureLowerThreshold 0.0
+00006304        MinEV 10.0
+00006308        MaxEV 13.3000001907
+0000630c        SpotMeterScale 0.300000011921
+00006310        TonemapMethod TonemapMethod_FilmicNeutral
+00006314        BlackPoint 0.0
+00006318        WhitePoint 1.0
+0000631c        CrossOverPoint 0.0
+00006320        ShoulderCrossOverPoint 0.0
+00006324        ToeStrength 0.0
+00006328        ShoulderStrength 0.0
+0000632c        Saturation 4.0
+00006330        BloomMethod BloomMethod_GaussianCustom
+00006334        GaussianSharpness 0.5
+00006338        Gaussian1Weight 1.0
+0000633c        Gaussian2Weight 1.0
+00006340        Gaussian3Weight 1.0
+00006344        Gaussian4Weight 1.0
+00006348        Gaussian5Weight 1.0
+0000634c        FFTThreshold 1.0
+00006350        FFTCutoff 10000.0
+00006354        FFTKernelScale 0.25
+00006358        FFTKernelRotation 0.0
+0000635c        FFTSpikeScaleLimit 10000.0
+00006360        FFTKernelTexture *nullGuid*
+00006364        ChromostereopsisScale 0.5
+00006368        ChromostereopsisOffset 1.0
+0000636c        AutomaticExposure False
+0000636d        ClampEV True
+0000636e        FFTSpikeScaleLimitEnable True
+0000636f        ChromostereopsisEnable False
+00006370    VignetteComponentData 0000000a
+00006370        $::VisualEnvironmentComponentData
+00006370            $::GameComponentData
+00006370                $::ComponentData
+00006370                    $::GameObjectData
+00006370                        $::DataBusPeer
+00006370                            $::GameDataContainer
+00006370                                $::DataContainer
+00006378                            Flags 21469532
+0000637c                    Components *nullArray*
+00006380                    Transform::LinearTransform
+00006380                        right::Vec3
+00006380                            x 1.0
+00006384                            y 0.0
+00006388                            z 0.0
+00006390                        up::Vec3
+00006390                            x 0.0
+00006394                            y 1.0
+00006398                            z 0.0
+000063a0                        forward::Vec3
+000063a0                            x 0.0
+000063a4                            y 0.0
+000063a8                            z 1.0
+000063b0                        trans::Vec3
+000063b0                            x 0.0
+000063b4                            y 0.0
+000063b8                            z 0.0
+000063c0                    Excluded False
+000063d0            PropertyOverrides::array
+00006988                member(0) Enable
+0000698c                member(1) Opacity
+00006990                member(2) Exponent
+00006994                member(3) Scale
+000063d4            PropertyOverrideMasks::array
+0000699c                member(0) 60
+000063e0        Color::Vec3
+000063e0            x 0.0
+000063e4            y 0.0
+000063e8            z 0.0
+000063f0        Realm Realm_Client
+000063f4        Scale::Vec2
+000063f4            x 1.0
+000063f8            y 1.0
+000063fc        Exponent 0.5
+00006400        Opacity 1.0
+00006404        Enable True
+00006410    VisualEnvironmentEntityData 0000000b
+00006410        $::GameComponentEntityData
+00006410            $::ComponentEntityData
+00006410                $::SpatialEntityData
+00006410                    $::EntityData
+00006410                        $::GameObjectData
+00006410                            $::DataBusPeer
+00006410                                $::GameDataContainer
+00006410                                    $::DataContainer
+00006418                                Flags 185375848
+00006420                    Transform::LinearTransform
+00006420                        right::Vec3
+00006420                            x 1.0
+00006424                            y 0.0
+00006428                            z 0.0
+00006430                        up::Vec3
+00006430                            x 0.0
+00006434                            y 1.0
+00006438                            z 0.0
+00006440                        forward::Vec3
+00006440                            x 0.0
+00006444                            y 0.0
+00006448                            z 1.0
+00006450                        trans::Vec3
+00006450                            x 0.0
+00006454                            y 0.0
+00006458                            z 0.0
+00006460                Components::array
+000069a4                    member(0) 00000000
+000069a8                    member(1) 00000005
+000069ac                    member(2) 00000004
+000069b0                    member(3) 0000000a
+000069b4                    member(4) 00000003
+000069b8                    member(5) 0000000c
+000069bc                    member(6) 00000007
+000069c0                    member(7) 00000001
+000069c4                    member(8) 00000009
+000069c8                    member(9) 00000006
+000069cc                    member(10) 00000008
+000069d0                    member(11) 00000002
+000069d4                    member(12) 0000000d
+000069d8                    member(13) 0000000e
+000069dc                    member(14) 00000010
+000069e0                    member(15) 0000000f
+00006464                ClientRuntimeComponentCount 12
+00006465                ServerRuntimeComponentCount 0
+00006466                ClientRuntimeTransformationCount 0
+00006467                ServerRuntimeTransformationCount 0
+00006470            Enabled True
+00006471            EnableOutOfBoundsCheck True
+00006480        Visibility 1.0
+00006484        FutureVisibility 0.0
+00006488        Priority 12000000
+0000648c        BlendMode VisualEnvironmentBlendMode_Lerp
+00006490        ExplicitPriorityEnable False
+000064a0    WindComponentData 0000000c
+000064a0        $::VisualEnvironmentComponentData
+000064a0            $::GameComponentData
+000064a0                $::ComponentData
+000064a0                    $::GameObjectData
+000064a0                        $::DataBusPeer
+000064a0                            $::GameDataContainer
+000064a0                                $::DataContainer
+000064a8                            Flags 10580824
+000064ac                    Components *nullArray*
+000064b0                    Transform::LinearTransform
+000064b0                        right::Vec3
+000064b0                            x 1.0
+000064b4                            y 0.0
+000064b8                            z 0.0
+000064c0                        up::Vec3
+000064c0                            x 0.0
+000064c4                            y 1.0
+000064c8                            z 0.0
+000064d0                        forward::Vec3
+000064d0                            x 0.0
+000064d4                            y 0.0
+000064d8                            z 1.0
+000064e0                        trans::Vec3
+000064e0                            x 0.0
+000064e4                            y 0.0
+000064e8                            z 0.0
+000064f0                    Excluded False
+00006500            PropertyOverrides::array
+000069e8                member(0) WindDirection
+000069ec                member(1) WindStrength
+000069f0                member(2) WindVariationMultiplier
+000069f4                member(3) WindVariationRateMultiplier
+000069f8                member(4) WindMicroVariationMultiplier
+000069fc                member(5) TurbulenceMultiplier
+00006a00                member(6) TurbulenceScale
+00006504            PropertyOverrideMasks::array
+00006a08                member(0) 254
+00006510        Realm Realm_Client
+00006514        WindDirection 0.0
+00006518        WindStrength 2.0
+0000651c        WindVariationMultiplier 5.0
+00006520        WindVariationRateMultiplier 0.10000000149
+00006524        WindMicroVariationMultiplier 1.0
+00006528        TurbulenceMultiplier 2.0
+0000652c        TurbulenceScale 0.0500000007451
+00006530    FloatInterpolatorEntityData 0000000d
+00006528        $::PropertyInterpolatorEntityData
+00006528            $::EntityData
+00006528                $::GameObjectData
+00006528                    $::DataBusPeer
+00006528                        $::GameDataContainer
+00006528                            $::DataContainer
+00006530                        Flags 142264429
+00006534            Realm Realm_Client
+00006538            InterpolationType PropertyInterpolationType_Linear
+0000653c            InterpolationMode PropertyInterpolationMode_EaseOut
+00006540            Duration 1.0
+00006544            UseRealTimeClock False
+00006545            ForceFrameCorrectOutput False
+00006548        In 0.0
+0000654c        DefaultValue 0.0
+00006550        Velocity 1.0
+00006554        UseVelocity False
+00006558    FloatInterpolatorEntityData 0000000e
+00006550        $::PropertyInterpolatorEntityData
+00006550            $::EntityData
+00006550                $::GameObjectData
+00006550                    $::DataBusPeer
+00006550                        $::GameDataContainer
+00006550                            $::DataContainer
+00006558                        Flags 134462855
+0000655c            Realm Realm_Client
+00006560            InterpolationType PropertyInterpolationType_Linear
+00006564            InterpolationMode PropertyInterpolationMode_EaseOut
+00006568            Duration 1.0
+0000656c            UseRealTimeClock False
+0000656d            ForceFrameCorrectOutput False
+00006570        In 0.0
+00006574        DefaultValue 0.0
+00006578        Velocity 1.0
+0000657c        UseVelocity False
+00006580    SchematicChannelEntityData 0000000f
+00006578        $::EntityData
+00006578            $::GameObjectData
+00006578                $::DataBusPeer
+00006578                    $::GameDataContainer
+00006578                        $::DataContainer
+00006580                    Flags 17094917
+00006584        Realm Realm_Client
+00006588        Channel Levels/FrontEnd/Lighting/VE_FrontendChannel/164ad1f23b004857bd62bbc834a0cfd4
+0000658c        InputProperties *nullArray*
+00006590        InputRefProperties *nullArray*
+00006594        OutputProperties::array
+00006a10            member(0) 0
+00006a14            member(1) 1
+00006598        OutputRefProperties *nullArray*
+0000659c    Vec2SplitterEntityData 00000010
+00006594        $::EntityData
+00006594            $::GameObjectData
+00006594                $::DataBusPeer
+00006594                    $::GameDataContainer
+00006594                        $::DataContainer
+0000659c                    Flags 135179047
+000065a0        Realm Realm_Client

@@ -1,0 +1,246 @@
+00001820    LogicPrefabBlueprint a0f6383a457d5fc326bcc2eb8b1e0f64
+00001818        $::PrefabBlueprint
+00001818            $::Blueprint
+00001818                $::EntityBusData
+00001818                    $::DataBusData
+00001818                        $::Asset
+00001818                            $::DataContainer
+00001820                            Name UI/Ingame/Shared/Logic/TicketPulseAnimation
+00001824                        PropertyConnections::array
+00001954                            member(0)::PropertyConnection
+00001954                                Source 00000007
+00001958                                Target 00000008
+0000195c                                SourceFieldId 26275142
+00001960                                TargetFieldId 177661
+00001964                                Flags 2
+00001968                            member(1)::PropertyConnection
+00001968                                Source 00000007
+0000196c                                Target 00000008
+00001970                                SourceFieldId 26275142
+00001974                                TargetFieldId 177660
+00001978                                Flags 2
+0000197c                            member(2)::PropertyConnection
+0000197c                                Source 00000008
+00001980                                Target 00000000
+00001984                                SourceFieldId 193453899
+00001988                                TargetFieldId 231223453
+0000198c                                Flags 2
+00001990                            member(3)::PropertyConnection
+00001990                                Source 00000007
+00001994                                Target 00000003
+00001998                                SourceFieldId 26275142
+0000199c                                TargetFieldId 1591366968
+000019a0                                Flags 2
+000019a4                            member(4)::PropertyConnection
+000019a4                                Source 00000000
+000019a8                                Target 00000005
+000019ac                                SourceFieldId -2024647575
+000019b0                                TargetFieldId -2024647575
+000019b4                                Flags 18
+000019b8                            member(5)::PropertyConnection
+000019b8                                Source 00000003
+000019bc                                Target 00000005
+000019c0                                SourceFieldId 731416433
+000019c4                                TargetFieldId 205677681
+000019c8                                Flags 18
+000019cc                            member(6)::PropertyConnection
+000019cc                                Source 00000005
+000019d0                                Target 00000008
+000019d4                                SourceFieldId -141474860
+000019d8                                TargetFieldId 177663
+000019dc                                Flags 2
+00001828                        LinkConnections *nullArray*
+0000182c                        Interface 00000005
+00001830                        Flags 14
+00001834                    EventConnections::array
+000019e4                        member(0)::EventConnection
+000019e4                            Source 00000002
+000019e8                            Target 00000007
+000019ec                            SourceEvent::EventSpec
+000019ec                                Id -137490305
+000019f0                            TargetEvent::EventSpec
+000019f0                                Id 1754534518
+000019f4                            TargetType EventConnectionTargetType_Client
+000019f8                        member(1)::EventConnection
+000019f8                            Source 00000002
+000019fc                            Target 00000007
+00001a00                            SourceEvent::EventSpec
+00001a00                                Id -137490305
+00001a04                            TargetEvent::EventSpec
+00001a04                                Id 2089460481
+00001a08                            TargetType EventConnectionTargetType_Client
+00001a0c                        member(2)::EventConnection
+00001a0c                            Source 00000005
+00001a10                            Target 00000002
+00001a14                            SourceEvent::EventSpec
+00001a14                                Id 231633466
+00001a18                            TargetEvent::EventSpec
+00001a18                                Id 1723395486
+00001a1c                            TargetType EventConnectionTargetType_Client
+00001838            Objects::array
+00001a24                member(0) 00000003
+00001a28                member(1) 00000000
+00001a2c                member(2) 00000008
+00001a30                member(3) 00000007
+00001a34                member(4) 00000002
+0000183c            TimeDeltaType TimeDeltaType_None
+00001840    ScaleTransformBuilderEntityData 00000000
+00001840        $::EntityData
+00001840            $::GameObjectData
+00001840                $::DataBusPeer
+00001840                    $::GameDataContainer
+00001840                        $::DataContainer
+00001848                    Flags 151842954
+0000184c        Realm Realm_Client
+00001850        Scale::Vec3
+00001850            x 1.0
+00001854            y 1.0
+00001858            z 1.0
+00001860    CurveData 00000001
+00001858        $::DataContainer
+00001860        PreInfinity InfinityType_Constant
+00001864        PostInfinity InfinityType_Constant
+00001868        CurveType CurveType_Complex
+0000186c        Time::array
+00001a3c            member(0) 0.0
+00001a40            member(1) 0.5
+00001870        Value::array
+00001a48            member(0) 1.10000002384
+00001a4c            member(1) 1.0
+00001874        InTanX::array
+00001a54            member(0) 1.0
+00001a58            member(1) 1.0
+00001878        InTanY::array
+00001a60            member(0) 0.0
+00001a64            member(1) 0.0
+0000187c        OutTanX::array
+00001a6c            member(0) 1.0
+00001a70            member(1) 1.0
+00001880        OutTanY::array
+00001a78            member(0) 0.0
+00001a7c            member(1) 0.0
+00001884        IsWeighted False
+00001888    EventSplitterEntityData 00000002
+00001880        $::EntityData
+00001880            $::GameObjectData
+00001880                $::DataBusPeer
+00001880                    $::GameDataContainer
+00001880                        $::DataContainer
+00001888                    Flags 39469571
+0000188c        Realm Realm_Client
+00001890        RunOnce False
+00001894    FloatRangeConverterEntityData 00000003
+0000188c        $::EntityData
+0000188c            $::GameObjectData
+0000188c                $::DataBusPeer
+0000188c                    $::GameDataContainer
+0000188c                        $::DataContainer
+00001894                    Flags 137661120
+00001898        Realm Realm_Client
+0000189c        InStart 1.0
+000018a0        InEnd 1.10000002384
+000018a4        OutStart 0.300000011921
+000018a8        OutEnd 0.699999988079
+000018ac        InputValue 0.0
+000018b0        FireEventsOnInit False
+000018b1        IgnoreAboveRangeCheck False
+000018b2        Invert False
+000018b3        Clamp True
+000018b4    FloatTrackData 00000004
+000018ac        $::PropertyTrackBaseData
+000018ac            $::SchematicPinTrackData
+000018ac                $::TimelineTrackData
+000018ac                    $::GameObjectData
+000018ac                        $::DataBusPeer
+000018ac                            $::GameDataContainer
+000018ac                                $::DataContainer
+000018b4                            Flags 0
+000018b8                    Conditions *nullArray*
+000018bc                    UpdatePassFlags 64
+000018be                    BucketPreChildrenOrder 0
+000018c0                    BucketOrder 1
+000018c2                    ExposePins True
+000018c3                    IsDisabled False
+000018c4                SourcePinId 26275142
+000018c8                TargetPinId 0
+000018cc                TargetPinNameHash 1277461634
+000018d0        CurveData 00000001
+000018d4    InterfaceDescriptorData 00000005
+000018cc        $::DynamicDataContainer
+000018cc            $::DataContainer
+000018d4            Fields::array
+00001a84                member(0)::DataField
+00001a84                    Value *nullString*
+00001a88                    ValueRef *nullGuid*
+00001a8c                    Id -2024647575
+00001a90                    AccessType FieldAccessType_Source
+00001a94                member(1)::DataField
+00001a94                    Value *nullString*
+00001a98                    ValueRef *nullGuid*
+00001a9c                    Id 205677681
+00001aa0                    AccessType FieldAccessType_Source
+00001aa4                member(2)::DataField
+00001aa4                    Value Float32 1
+00001aa8                    ValueRef *nullGuid*
+00001aac                    Id -141474860
+00001ab0                    AccessType FieldAccessType_Target
+000018d8        InputEvents::array
+00001ab8            member(0)::DynamicEvent
+00001ab8                Id 231633466
+000018dc        OutputEvents *nullArray*
+000018e0        InputLinks *nullArray*
+000018e4        OutputLinks *nullArray*
+000018e8    TimelineData 00000006
+000018e0        $::TimelineTrackData
+000018e0            $::GameObjectData
+000018e0                $::DataBusPeer
+000018e0                    $::GameDataContainer
+000018e0                        $::DataContainer
+000018e8                    Flags 0
+000018ec            Conditions *nullArray*
+000018f0            UpdatePassFlags 3072
+000018f2            BucketPreChildrenOrder 0
+000018f4            BucketOrder 2
+000018f6            ExposePins False
+000018f7            IsDisabled False
+000018f8        Children::array
+00001ac0            member(0) 00000004
+000018fc    TimelineEntityData 00000007
+000018f4        $::EntityData
+000018f4            $::GameObjectData
+000018f4                $::DataBusPeer
+000018f4                    $::GameDataContainer
+000018f4                        $::DataContainer
+000018fc                    Flags 48147800
+00001900        Realm Realm_Client
+00001904        TimelineData 00000006
+00001908        DeltaTimeClock Clock_SimTimeWithWorldDilation
+0000190c        BlendInTime 0.0
+00001910        BlendOutTime 0.0
+00001914        InitTime 0.0
+00001918        StartTime 0.0
+0000191c        EndTime 1.0
+00001920        JumpTime 0.0
+00001924        PlaybackRate 1.0
+00001928        ExternalTime 0.0
+0000192c        ExternalAudioTime 0.0
+00001930        UpdatePassFlags 3136
+00001932        AutoPlay False
+00001933        AutoInitConnectedProperties False
+00001934        ResetTimeOnStarted True
+00001935        AllowAnimationCarryForward False
+00001936        SyncTimelines False
+00001937        HoldLastFrame True
+00001938        TimelineInterpolation False
+00001939        RuntimeFramerate 0
+0000193a        Looping False
+0000193b        Infinite False
+0000193c        IsNetworkedResource False
+00001940    Vec3BuilderEntityData 00000008
+00001938        $::EntityData
+00001938            $::GameObjectData
+00001938                $::DataBusPeer
+00001938                    $::GameDataContainer
+00001938                        $::DataContainer
+00001940                    Flags 152717432
+00001944        Realm Realm_Client

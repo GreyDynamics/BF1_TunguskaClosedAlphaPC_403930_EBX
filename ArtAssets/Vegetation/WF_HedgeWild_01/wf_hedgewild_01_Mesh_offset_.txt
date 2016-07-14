@@ -1,0 +1,139 @@
+00001080    RigidMeshAsset 6d33629e117e4a57a5bef33aec5bf1a8
+00001080        $::MeshAsset
+00001080            $::Asset
+00001080                $::DataContainer
+00001088                Name artassets/vegetation/wf_hedgewild_01/wf_hedgewild_01_Mesh
+0000108c            BlendShapeChannelHashes *nullArray*
+00001090            MeshSetResource adfe47b279a612d9
+00001098            OccluderMeshResource 0000000000000000
+000010a0            LodGroup LodGroups/Vegetation_Bushes/10bd16f19e8fe2498f8d9b42b576ca63
+000010a4            LodScale 1.0
+000010a8            CullScale 0.40000000596
+000010ac            LodDistanceMethod LodDistanceMethod_BoundingSphere
+000010b0            CoverageValue 0.0
+000010b4            EnlightenType EnlightenType_Dynamic
+000010b8            EnlightenMeshLod -1
+000010bc            AutoLightmapUVsMaxDistance 0.300000011921
+000010c0            AutoLightmapUVsExpansionFactor 0.20000000298
+000010c4            AutoLightmapUVsMaxNormalDeviation 85.0
+000010c8            ProceduralAnimation 6e8efce0cd20b84eb1bd6203dc54eb17
+000010cc            Materials::array
+000011b4                member(0) acd966a457bc19b2881d281d1a58a318
+000011b8                member(1) 9fd988ea3e4f75dee58805bfa4d8f686
+000010d0            NameHash 2558353626
+000010d4            StreamingEnable True
+000010d5            OccluderMeshEnable False
+000010d6            OccluderHighPriority False
+000010d7            OccluderIsConservative True
+000010d8            DestructionMaterialEnable False
+000010d9            EnableEnlightenStaticOverride False
+000010da            LightmapUVsScaleCharts True
+000010db            AutoLightmapUVs False
+000010f0    ProceduralAnimationTypeWind 6e8efce0cd20b84eb1bd6203dc54eb17
+000010e8        $::ProceduralAnimationTypeSimple
+000010e8            $::DataContainer
+000010f0            BendMultiplier 0.5
+000010f4            WiggleSpeedMultiplier 1.0
+000010f8            WindInfluenceMultiplier 0.25
+000010fc        WindMethod Wind_Cloth
+00001110    MeshMaterial 9fd988ea3e4f75dee58805bfa4d8f686
+00001108        $::DataContainer
+00001110        ShaderInstance *nullGuid*
+00001114        Shader::SurfaceShaderInstanceDataStruct
+00001114            Shader Shaders/presets/Misc/ShadowMeshAlphaPreset/a396b54d5966e544b3705d37f5333466
+00001118            BoolParameters *nullArray*
+0000111c            VectorParameters *nullArray*
+00001120            VectorArrayParameters *nullArray*
+00001124            TextureParameters *nullArray*
+00001128        TessellationType ShaderTessellationType_None
+0000112c        TessellationTriangleSize 12.0
+00001130        TessellationMaxDistance 20.0
+00001134        BackFaceCullEpsilon 0.5
+00001138        ShapeFactor 0.75
+0000113c        DisplacementMap *nullGuid*
+00001140        DisplacementScale 1.0
+00001144        DisplacementBias 0.5
+00001148        DisplacementMapTexCoord 0
+0000114c        CastShadow True
+0000114d        SmoothEdgeVertices False
+0000114e        DisplacementObjectScale False
+00001160    MeshMaterial acd966a457bc19b2881d281d1a58a318
+00001158        $::DataContainer
+00001160        ShaderInstance *nullGuid*
+00001164        Shader::SurfaceShaderInstanceDataStruct
+00001164            Shader Shaders/presets/Vegetation/VegetationPreset_Foliage_01/2de400d84e58c64da01106294b6069d5
+00001168            BoolParameters::array
+000011c0                member(0)::BoolShaderParameter
+000011c0                    ParameterName CullingEnable
+000011c4                    Value True
+0000116c            VectorParameters::array
+000011d0                member(0)::VectorShaderParameter
+000011d0                    Value::Vec4
+000011d0                        x 0.10000000149
+000011d4                        y 0.0
+000011d8                        z 0.0
+000011dc                        w 0.0
+000011e0                    ParameterName ReduceWPBChannel
+000011e4                    ParameterType ShaderParameterType_Scalar
+000011f0                member(1)::VectorShaderParameter
+000011f0                    Value::Vec4
+000011f0                        x 0.20000000298
+000011f4                        y 0.0
+000011f8                        z 0.0
+000011fc                        w 0.0
+00001200                    ParameterName ReduceWPGChannel
+00001204                    ParameterType ShaderParameterType_Scalar
+00001210                member(2)::VectorShaderParameter
+00001210                    Value::Vec4
+00001210                        x 3.0
+00001214                        y 0.0
+00001218                        z 0.0
+0000121c                        w 0.0
+00001220                    ParameterName ReflectanceGradientPosition
+00001224                    ParameterType ShaderParameterType_Scalar
+00001230                member(3)::VectorShaderParameter
+00001230                    Value::Vec4
+00001230                        x 0.314135372639
+00001234                        y 0.32777813077
+00001238                        z 0.139982134104
+0000123c                        w 1.0
+00001240                    ParameterName TintColorLeaves
+00001244                    ParameterType ShaderParameterType_Color
+00001250                member(4)::VectorShaderParameter
+00001250                    Value::Vec4
+00001250                        x 0.314135372639
+00001254                        y 0.32777813077
+00001258                        z 0.139982134104
+0000125c                        w 1.0
+00001260                    ParameterName TintColorBranch
+00001264                    ParameterType ShaderParameterType_Color
+00001270                member(5)::VectorShaderParameter
+00001270                    Value::Vec4
+00001270                        x 0.10000000149
+00001274                        y 0.0
+00001278                        z 0.0
+0000127c                        w 0.0
+00001280                    ParameterName WPBlendIntensity
+00001284                    ParameterType ShaderParameterType_Scalar
+00001290                member(6)::VectorShaderParameter
+00001290                    Value::Vec4
+00001290                        x 0.300000011921
+00001294                        y 0.0
+00001298                        z 0.0
+0000129c                        w 0.0
+000012a0                    ParameterName TranslucencyMin
+000012a4                    ParameterType ShaderParameterType_Scalar
+00001170            VectorArrayParameters *nullArray*
+00001174            TextureParameters *nullArray*
+00001178        TessellationType ShaderTessellationType_None
+0000117c        TessellationTriangleSize 12.0
+00001180        TessellationMaxDistance 20.0
+00001184        BackFaceCullEpsilon 0.5
+00001188        ShapeFactor 0.75
+0000118c        DisplacementMap *nullGuid*
+00001190        DisplacementScale 1.0
+00001194        DisplacementBias 0.5
+00001198        DisplacementMapTexCoord 0
+0000119c        CastShadow False
+0000119d        SmoothEdgeVertices False
+0000119e        DisplacementObjectScale False

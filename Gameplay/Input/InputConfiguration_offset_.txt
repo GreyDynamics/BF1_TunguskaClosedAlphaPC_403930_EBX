@@ -1,0 +1,106 @@
+000033a0    InputConfigurationAsset 307e0db34446fd489357e454d3b265f7
+00003398        $::Asset
+00003398            $::DataContainer
+000033a0            Name Gameplay/Input/InputConfiguration
+000033a4        DefaultInputConceptDefinitions::array
+00003454            member(0) Gameplay/Input/InputConcepts_Default_NonKeybindable/e070cd5bb89d15d008fe3f9946213fa9
+00003458            member(1) Gameplay/Input/InputConcepts_Default_Keybindable/e3754a226a4883f1b557310e86545877
+0000345c            member(2) Gameplay/Input/InputConcepts_Spectator/ee3973a797f845f527e44599c622e400
+000033a8        DefaultExclusiveInputConcepts::array
+00003464            member(0) ConceptMoveFB
+00003468            member(1) ConceptMoveLR
+0000346c            member(2) ConceptMoveForward
+00003470            member(3) ConceptMoveBackward
+00003474            member(4) ConceptMoveLeft
+00003478            member(5) ConceptMoveRight
+0000347c            member(6) ConceptYaw
+00003480            member(7) ConceptPitch
+00003484            member(8) ConceptRoll
+000033ac        EntryInputActionBindings Gameplay/Input/VeniceEntryInputBindings/f71159351f195447aefc3d53bac87aee
+000033b0        UserConfigurableActionMaps::array
+00003628            member(0)::EditableActionMap
+00003628                Id infantry
+0000362c                NameId InfantryInputMap
+00003630                ActionMap Gameplay/Input/VeniceSoldierInputConcepts/086eb0d2a0133b4ebee5c674f06f9d44
+00003634                ConfigurationLayout::EditableActions
+00003634                    Actions::array
+00003618                        member(0) 8c43ea0b94f1244e9363201294a16a38
+0000361c                        member(1) b80905b905aab3418f3d4989765ed510
+00003620                        member(2) 058a89be5a1dd446bc3ab2b9450b7863
+00003638            member(1)::EditableActionMap
+00003638                Id jet
+0000363c                NameId JetInputMap
+00003640                ActionMap Gameplay/Input/InputConcepts_Airplane/b20cfe3c283d574d835098eb4c983c09
+00003644                ConfigurationLayout::EditableActions
+00003644                    Actions *nullArray*
+00003648            member(2)::EditableActionMap
+00003648                Id gunner
+0000364c                NameId GunnerInputMap
+00003650                ActionMap Gameplay/Input/VeniceGunnerInputConcepts/338674b65515664ebfc82c0a914119a7
+00003654                ConfigurationLayout::EditableActions
+00003654                    Actions *nullArray*
+00003658            member(3)::EditableActionMap
+00003658                Id vehicle
+0000365c                NameId VehicleInputMap
+00003660                ActionMap Gameplay/Input/InputConcepts_Tank/b2e3dd22887a8c4d96399bcb9b05e69c
+00003664                ConfigurationLayout::EditableActions
+00003664                    Actions *nullArray*
+00003668            member(4)::EditableActionMap
+00003668                Id default
+0000366c                NameId DefaultInputMap
+00003670                ActionMap Gameplay/Input/InputConcepts_Default_Keybindable/e3754a226a4883f1b557310e86545877
+00003674                ConfigurationLayout::EditableActions
+00003674                    Actions *nullArray*
+00003678            member(5)::EditableActionMap
+00003678                Id spectator
+0000367c                NameId SpectatorInputMap
+00003680                ActionMap Gameplay/Input/InputConcepts_Spectator/ee3973a797f845f527e44599c622e400
+00003684                ConfigurationLayout::EditableActions
+00003684                    Actions *nullArray*
+000033b4        UIInputActions Systems/Config/Inputs/UIInputActionMapping/300199dd139135ea2328a25e9b10d3df
+000033b8        TogglePoseAction -467562617
+000033bc        CrouchAction -1761781660
+000033c0        CrouchAndHoldAction 460962317
+000033c4        PickupInteractionAction 1131457753
+000033c8        PickupInteractionActionKeyboard 1131457753
+000033cc        SprintReleaseTime 0.0
+000033d0        ThrottleInputRequiredForSprint 0.5
+000033d4        VehicleBoostIsToggleMinInput 0.5
+000033d8        EnterVehicleHoldTime 0.20000000298
+000033dc        FiringDisablingTransitions::array
+0000368c            member(0) PTStandToProne
+00003690            member(1) PTCrouchToProne
+00003694            member(2) PTProneToStand
+00003698            member(3) PTProneToCrouch
+000033e0        ReverseInputConceptExclusion False
+000033e1        ProneToStandOnJump True
+000033e2        StandAutomaticallyIfSprinting True
+000033e3        DisableCrouch False
+000033e4        DisableProne False
+000033e5        DisableCrawlingWhileFiring False
+000033e6        DisableCrawlingWhileReloading False
+000033e7        DisableFiringWhileDeployingBipod False
+000033e8        DisableFiringWhileJumping True
+000033e9        DisableSprintingWhileReloading False
+000033ea        EnableSprintToCrouchTransition True
+000033eb        StopSprintingWhenReleasingThrottle True
+000033ec        StopSprintingWhenReleasingSprint True
+000033ed        WaitForSprintReleaseBeforeSprintAgain False
+000033ee        VehicleBoostIsToggle False
+000033ef        InputCurvesEnabled True
+00003400    OneOptionButtonEditableAction 058a89be5a1dd446bc3ab2b9450b7863
+000033f8        $::EditableAction
+000033f8            $::DataContainer
+00003404        Header Sprint
+00003418    OneOptionAxisEditableAction 8c43ea0b94f1244e9363201294a16a38
+00003410        $::EditableAction
+00003410            $::DataContainer
+00003418            Concept ConceptMoveFB
+0000341c        Header Walk Forward
+00003420        Invert False
+00003434    OneOptionAxisEditableAction b80905b905aab3418f3d4989765ed510
+0000342c        $::EditableAction
+0000342c            $::DataContainer
+00003434            Concept ConceptMoveFB
+00003438        Header Walk Backward
+0000343c        Invert True
